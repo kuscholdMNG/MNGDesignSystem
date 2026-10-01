@@ -1,0 +1,54 @@
+# MNG Design System: Color Tokens (portable export)
+
+Generated 2026-09-30 from the MNG Design System Figma file (`jFHYqhZbJjvWQmDI4myCsd`): the Colors collection (`3749:16`, 20 modes) plus the Color Pallets | 2026.09.10 style guides. Covers **97 publications** and **22 themes / sub-themes**, including the two that don't fit Figma's 20-mode limit (The Baltimore Sun, Capital Gazette).
+
+| File | Use |
+|---|---|
+| `mng-colors.tokens.json` | **Source of truth.** W3C Design Tokens (DTCG) format. Works with Style Dictionary v4, Tokens Studio, Specify and Supernova. |
+| `mng-colors.css` | CSS custom properties. Set `data-mng-site="domain"` (or `data-mng-theme="key"`) on `<html>`. |
+| `mng-colors-sites.csv` | One row per publication: cluster, theme, sub-theme, resolved hex values, site overrides and the fixes Engineering needs to make. For Sheets and reviews. |
+| `color-tokens-decision-log.md` | Why tokens were added, renamed, removed or excluded. |
+
+## How a publication gets its colors
+
+**Theme → sub-theme → site override.**
+
+1. **Theme:** the shared WordPress theme file the site loads: Bold Coastal (`boldcoastal.css`), Modern Earthy (`modernearthy.css`) or Measured Vibrant (`measuredvibrant.css`).
+2. **Sub-theme (optional):** a publication or group color ramp on top of the theme. Examples: Denver Post, Morning Call, Prairie Mountain Publishing (`site-pmp` stylesheet), 21C Michigan. Most come from the WordPress Customizer, scoped to `div#page`.
+3. **Site override (optional):** single values set for one site, e.g. `subsite-custom` / `subsite-text`, or a **documented exception** such as Greeley Tribune's primary, light and dark. Exceptions are accepted differences, not mismatches: they're noted under the sub-theme's style guide in Figma, without red outlines, and need no fix.
+
+Every site row in the JSON, CSS and CSV shows its theme and sub-theme.
+
+## Structure (tokens.json)
+
+- `color.gray / feedback / neutral / surface / tributes`: shared global colors.
+- `color.theme.<key>`: 10 tokens per theme or sub-theme (`primary-lighter` … `tertiary`, plus `near-black`, `white`, `nav-text`, and `subsite-custom` where design defines it).
+  - `$extensions.com.mng` holds `level` (theme / sub-theme), `parentTheme`, `loads` (theme files), `figmaMode` (`null` = not in Figma), `productionAudit` date, `mismatches` (the Figma red-dashed callouts, each with design value, production value and fix) and `sites`.
+- `site.<domain-slug>`: each publication's tokens, as aliases to its theme / sub-theme, plus literal site overrides. Slugs replace dots with dashes (dots break DTCG alias paths).
+  - `$extensions.com.mng` holds publication, cluster, theme, subTheme, `mismatchCount` (fixes Engineering needs to make), `fixesFrom` (where those fixes live) and `exceptions` (documented site differences that need no fix).
+
+## Design vs. production
+
+Token values are always the **design (should-be)** values. Production is never copied into tokens. When production differs, Figma marks the production row with a red-dashed outline and the gap is listed in **entry 21 of `production-vs-design-differences.md`** (project root: every fix grouped by theme / sub-theme, with the publications affected) and in the JSON/CSV.
+
+- **Documented exceptions** (currently only Greeley Tribune) are part of the design, so their values are in the tokens and they have no red outline.
+- **The Baltimore Sun** uses its documented Figma styles as is. No production comparison is tracked for it.
+
+## Changes on 2026-09-30
+
+- **`mng-colors-engineering-fixes.md` retired.** Its full fix list now lives in entry 21 of `production-vs-design-differences.md`, the single Engineering handoff doc.
+- **Greeley Tribune's overrides are a documented exception, not a mismatch.** Its `div#page` values (primary `#536e7f`, light `#5b7b8b`, dark `#44687f`) are now its site tokens. The red outlines were removed in Figma, and the note sits under the PMP style guide. No Engineering fix for those three tokens.
+- **Hartford Courant verified live (2026-09-25):** it runs **Measured Vibrant** (`measuredvibrant.css` + `site-tribune` style.min.css) with a `div#page` override. It's now a sub-theme of Measured Vibrant, and its production values match the Figma style guide.
+- **The Baltimore Sun:** uses its documented Figma styles as is; the "needs a spec" follow-up was dropped.
+
+## Changes on 2026-09-25
+
+- **Greeley Tribune is no longer its own theme.** Its Figma mode became **Prairie Mountain Publishing**, and the Greeley Tribune style guide was removed. greeleytribune.com is a PMP site (see 2026-09-30 for its exception).
+- **PMP now uses the Measured Vibrant should-be values** and is a Figma mode (it had lived only in the export). Production still differs on `primary-lighter` (not set, falls back to `#47b6ff`) and `tertiary` (`#303f9f`, should be `#eb5300`).
+- Every publication now lists its theme, sub-theme and engineering fixes. Theme keys are unchanged, except `greeley-tribune` is gone.
+
+## Rebuild
+
+```
+npx style-dictionary@4 build   # point `source` at mng-colors.tokens.json
+```

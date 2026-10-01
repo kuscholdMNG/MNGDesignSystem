@@ -1,0 +1,453 @@
+/* MNG Design System: all publication colors (design values). Generated 2026-09-30 from mng-colors.tokens.json. */
+/* Use: <html data-mng-site="domain"> for a site, or data-mng-theme="key" for a theme. */
+:root {
+  --mng-gray-black: #000000;
+  --mng-gray-min: #141414;
+  --mng-gray-100: #393938;
+  --mng-gray-200: #5e5d5c;
+  --mng-gray-300: #838280;
+  --mng-gray-400: #a7a6a3;
+  --mng-gray-500: #cccac7;
+  --mng-gray-600: #f1efeb;
+  --mng-gray-max: #ffffff;
+  --mng-feedback-low-success: #2e8000;
+  --mng-feedback-medium: #856a00;
+  --mng-feedback-high-error: #cc2b27;
+  --mng-neutral-panel: #f1f1f1;
+  --mng-surface-nav-panel: #fbfbfb;
+  --mng-tributes-primary-lighter: #f15f87;
+  --mng-tributes-primary-light: #c00c3d;
+  --mng-tributes-primary: #8d092d;
+  --mng-tributes-primary-dark: #770000;
+  --mng-tributes-primary-darker: #4d0000;
+  --mng-tributes-secondary: #b3bc9c;
+  --mng-tributes-tertiary: #3a252b;
+  --mng-tributes-tan: #a39c8a;
+  --mng-tributes-tan-light: #e8e6e2;
+}
+
+/* Bold Coastal (theme) · 2 publications · Engineering fixes: 2 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="bold-coastal"],
+[data-mng-site="ocregister.com"],
+[data-mng-site="dailybreeze.com"] {
+  --primary-lighter: #1799a5;
+  --primary-light: #00838f;
+  --primary: #007580;
+  --primary-dark: #0a5962;
+  --primary-darker: #014a52;
+  --secondary: #ffea00;
+  --tertiary: #f4a700;
+  --near-black: #0a0908;
+  --white: #ffffff;
+  --nav-text: #0a0908;
+  --subsite-custom: #0097a7;
+}
+
+/* Modern Earthy (theme) · 30 publications · Engineering fixes: 4 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="modern-earthy"],
+[data-mng-site="dailyfreeman.com"],
+[data-mng-site="oneidadispatch.com"],
+[data-mng-site="saratogian.com"],
+[data-mng-site="troyrecord.com"],
+[data-mng-site="news-herald.com"],
+[data-mng-site="morningjournal.com"],
+[data-mng-site="delcotimes.com"],
+[data-mng-site="timesherald.com"],
+[data-mng-site="readingeagle.com"],
+[data-mng-site="thereporteronline.com"],
+[data-mng-site="pottsmerc.com"],
+[data-mng-site="trentonian.com"],
+[data-mng-site="dailylocal.com"],
+[data-mng-site="mainlinemedianews.com"],
+[data-mng-site="siliconvalley.com"],
+[data-mng-site="nashobavalleyvoice.com"],
+[data-mng-site="lowellsun.com"],
+[data-mng-site="sentinelandenterprise.com"],
+[data-mng-site="citizensvoice.com"],
+[data-mng-site="thetimes-tribune.com"],
+[data-mng-site="wcexaminer.com"],
+[data-mng-site="republicanherald.com"],
+[data-mng-site="standardspeaker.com"],
+[data-mng-site="dailynews.com"],
+[data-mng-site="pasadenastarnews.com"],
+[data-mng-site="pressenterprise.com"],
+[data-mng-site="sbsun.com"],
+[data-mng-site="sgvtribune.com"],
+[data-mng-site="whittierdailynews.com"],
+[data-mng-site="excelsiorcalifornia.com"] {
+  --primary-lighter: #fe521e;
+  --primary-light: #e03400;
+  --primary: #cc3300;
+  --primary-dark: #b93611;
+  --primary-darker: #a52804;
+  --secondary: #eeff41;
+  --tertiary: #00828f;
+  --near-black: #1a1a1a;
+  --white: #fafafa;
+  --nav-text: #1a1a1a;
+}
+
+/* Measured Vibrant (theme) · 23 publications · Engineering fixes: 2 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="measured-vibrant"],
+[data-mng-site="marinij.com"],
+[data-mng-site="chicoer.com"],
+[data-mng-site="record-bee.com"],
+[data-mng-site="montereyherald.com"],
+[data-mng-site="santacruzsentinel.com"],
+[data-mng-site="ukiahdailyjournal.com"],
+[data-mng-site="thereporter.com"],
+[data-mng-site="timesheraldonline.com"],
+[data-mng-site="dailydemocrat.com"],
+[data-mng-site="orovillemr.com"],
+[data-mng-site="redbluffdailynews.com"],
+[data-mng-site="times-standard.com"],
+[data-mng-site="advocate-news.com"],
+[data-mng-site="mendocinobeacon.com"],
+[data-mng-site="paradisepost.com"],
+[data-mng-site="willitsnews.com"],
+[data-mng-site="dailybulletin.com"],
+[data-mng-site="presstelegram.com"],
+[data-mng-site="redlandsdailyfacts.com"],
+[data-mng-site="sandiegouniontribune.com"],
+[data-mng-site="dailypress.com"],
+[data-mng-site="nydailynews.com"],
+[data-mng-site="pilotonline.com"] {
+  --primary-lighter: #717fd1;
+  --primary-light: #5869ca;
+  --primary: #3f51b5;
+  --primary-dark: #32408f;
+  --primary-darker: #171e44;
+  --secondary: #eeff41;
+  --tertiary: #eb5300;
+  --near-black: #1f1e1c;
+  --white: #fbfbfb;
+  --nav-text: #1f1e1c;
+}
+
+/* Denver Post (sub-theme of Bold Coastal) · 1 publication · Engineering fixes: 3 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="denverpost"],
+[data-mng-site="denverpost.com"] {
+  --primary-lighter: #c81632;
+  --primary-light: #af1628;
+  --primary: #8e1024;
+  --primary-dark: #7d161e;
+  --primary-darker: #641614;
+  --secondary: #003459;
+  --tertiary: #ffc518;
+  --near-black: #141414;
+  --white: #ffffff;
+  --nav-text: #141414;
+  --subsite-custom: #000000;
+}
+
+/* East Bay Times (sub-theme of Bold Coastal) · 1 publication · Engineering fixes: 2 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="east-bay-times"],
+[data-mng-site="eastbaytimes.com"] {
+  --primary-lighter: #a0d0ed;
+  --primary-light: #007ab8;
+  --primary: #006da3;
+  --primary-dark: #006394;
+  --primary-darker: #00527a;
+  --secondary: #ffc518;
+  --tertiary: #cd2709;
+  --near-black: #0a0908;
+  --white: #ffffff;
+  --nav-text: #0a0908;
+}
+
+/* The Mercury News (sub-theme of Bold Coastal) · 1 publication · Engineering fixes: 1 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="the-mercury-news"],
+[data-mng-site="mercurynews.com"] {
+  --primary-lighter: #a0d0ed;
+  --primary-light: #007ab8;
+  --primary: #006da3;
+  --primary-dark: #006394;
+  --primary-darker: #00527a;
+  --secondary: #ffc518;
+  --tertiary: #cd2709;
+  --near-black: #0a0908;
+  --white: #ffffff;
+  --nav-text: #0a0908;
+}
+
+/* St. Paul Pioneer Press (sub-theme of Bold Coastal) · 1 publication · Engineering fixes: 5 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="st-paul-pioneer-press"],
+[data-mng-site="twincities.com"] {
+  --primary-lighter: #0187e0;
+  --primary-light: #007acc;
+  --primary: #006fb7;
+  --primary-dark: #0065a8;
+  --primary-darker: #005892;
+  --secondary: #ffea00;
+  --tertiary: #f4a700;
+  --near-black: #0a0908;
+  --white: #ffffff;
+  --nav-text: #0a0908;
+  --subsite-custom: #0097a7;
+}
+
+/* Petaluma Argus-Courier (sub-theme of Bold Coastal) · 1 publication · Engineering fixes: 1 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="petaluma-argus-courier"],
+[data-mng-site="petalumanews.com"] {
+  --primary-lighter: #a8681a;
+  --primary-light: #905a17;
+  --primary: #7e4e14;
+  --primary-dark: #643d0d;
+  --primary-darker: #492c09;
+  --secondary: #ffea00;
+  --tertiary: #006fb7;
+  --near-black: #0a0908;
+  --white: #ffffff;
+  --nav-text: #0a0908;
+}
+
+/* The Press Democrat (sub-theme of Bold Coastal) · 2 publications · Engineering fixes: 3 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="the-press-democrat"],
+[data-mng-site="pressdemocrat.com"],
+[data-mng-site="sonomacountygazette.com"] {
+  --primary-lighter: #d10f14;
+  --primary-light: #ba0d12;
+  --primary: #9e0b0f;
+  --primary-dark: #8f0a0e;
+  --primary-darker: #6e0b0c;
+  --secondary: #ffea00;
+  --tertiary: #006fb7;
+  --near-black: #0a0908;
+  --white: #ffffff;
+  --nav-text: #0a0908;
+}
+
+/* The Sonoma Index-Tribune (sub-theme of Bold Coastal) · 1 publication · Engineering fixes: 1 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="the-sonoma-index-tribune"],
+[data-mng-site="sonomanews.com"] {
+  --primary-lighter: #149de6;
+  --primary-light: #107db7;
+  --primary: #0e70a4;
+  --primary-dark: #0d6391;
+  --primary-darker: #0c5983;
+  --secondary: #ffea00;
+  --tertiary: #f4a700;
+  --near-black: #0a0908;
+  --white: #ffffff;
+  --nav-text: #0a0908;
+}
+
+/* The Baltimore Sun (sub-theme of Bold Coastal) · not a Figma mode (20-mode limit) · 1 publication · Engineering fixes: 0 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="the-baltimore-sun"],
+[data-mng-site="baltimoresun.com"] {
+  --primary-lighter: #373751;
+  --primary-light: #303551;
+  --primary: #1c2551;
+  --primary-dark: #1c2551;
+  --primary-darker: #014a52;
+  --secondary: #98712a;
+  --tertiary: #5f6264;
+  --near-black: #0a0908;
+  --white: #ffffff;
+  --nav-text: #0a0908;
+  --subsite-custom: #1c2551;
+}
+
+/* Capital Gazette (sub-theme of Bold Coastal) · not a Figma mode (20-mode limit) · 1 publication · Engineering fixes: 3 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="capital-gazette"],
+[data-mng-site="capitalgazette.com"] {
+  --primary-lighter: #3c6f95;
+  --primary-light: #285f87;
+  --primary: #004e87;
+  --primary-dark: #004171;
+  --primary-darker: #04365a;
+  --secondary: #eaeaea;
+  --tertiary: #5f6264;
+  --near-black: #0a0908;
+  --white: #ffffff;
+  --nav-text: #0a0908;
+  --subsite-custom: #0097a7;
+}
+
+/* Morning Call (sub-theme of Modern Earthy) · 1 publication · Engineering fixes: 6 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="morning-call"],
+[data-mng-site="mcall.com"] {
+  --primary-lighter: #5399c4;
+  --primary-light: #27719f;
+  --primary: #166291;
+  --primary-dark: #014b78;
+  --primary-darker: #00385a;
+  --secondary: #eeff41;
+  --tertiary: #ff5722;
+  --near-black: #141414;
+  --white: #ffffff;
+  --nav-text: #141414;
+}
+
+/* 21C Michigan Sites (Combined) (sub-theme of Modern Earthy) · 4 publications · Engineering fixes: 3 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="21c-michigan-sites-combined"],
+[data-mng-site="theoaklandpress.com"],
+[data-mng-site="macombdaily.com"],
+[data-mng-site="themorningsun.com"],
+[data-mng-site="thenewsherald.com"] {
+  --primary-lighter: #3e7cb2;
+  --primary-light: #2a6496;
+  --primary: #3a537a;
+  --primary-dark: #32476c;
+  --primary-darker: #2c3b55;
+  --secondary: #9daabd;
+  --tertiary: #ff5722;
+  --near-black: #1a1a1a;
+  --white: #fafafa;
+  --nav-text: #1a1a1a;
+}
+
+/* Boston Herald (sub-theme of Modern Earthy) · 1 publication · Engineering fixes: 4 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="boston-herald"],
+[data-mng-site="bostonherald.com"] {
+  --primary-lighter: #3c81c7;
+  --primary-light: #2c6fb2;
+  --primary: #005d9c;
+  --primary-dark: #00538a;
+  --primary-darker: #0f496f;
+  --secondary: #eeff41;
+  --tertiary: #ff5722;
+  --near-black: #141414;
+  --white: #ffffff;
+  --nav-text: #141414;
+}
+
+/* Prairie Mountain Publishing (sub-theme of Modern Earthy) · 19 publications · Engineering fixes: 2 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="prairie-mountain-publishing"],
+[data-mng-site="coloradodaily.com"],
+[data-mng-site="julesburgadvocate.com"],
+[data-mng-site="lamarledger.com"],
+[data-mng-site="dailycamera.com"],
+[data-mng-site="greeleytribune.com"],
+[data-mng-site="timescall.com"],
+[data-mng-site="reporterherald.com"],
+[data-mng-site="akronnewsreporter.com"],
+[data-mng-site="bocopreps.com"],
+[data-mng-site="broomfieldenterprise.com"],
+[data-mng-site="brushnewstribune.com"],
+[data-mng-site="buffzone.com"],
+[data-mng-site="canoncitydailyrecord.com"],
+[data-mng-site="coloradohometownweekly.com"],
+[data-mng-site="eptrail.com"],
+[data-mng-site="fortmorgantimes.com"],
+[data-mng-site="southplattesentinel.com"],
+[data-mng-site="journal-advocate.com"],
+[data-mng-site="burlington-record.com"] {
+  --primary-lighter: #717fd1;
+  --primary-light: #5869ca;
+  --primary: #3f51b5;
+  --primary-dark: #32408f;
+  --primary-darker: #171e44;
+  --secondary: #eeff41;
+  --tertiary: #eb5300;
+  --near-black: #1a1a1a;
+  --white: #fafafa;
+  --nav-text: #1a1a1a;
+}
+
+/* Chicago Tribune (sub-theme of Measured Vibrant) · 1 publication · Engineering fixes: 2 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="chicago-tribune"],
+[data-mng-site="chicagotribune.com"] {
+  --primary-lighter: #717fd1;
+  --primary-light: #5869ca;
+  --primary: #3f51b5;
+  --primary-dark: #32408f;
+  --primary-darker: #171e44;
+  --secondary: #eeff41;
+  --tertiary: #eb5300;
+  --near-black: #1f1e1c;
+  --white: #fbfbfb;
+  --nav-text: #1f1e1c;
+}
+
+/* South Florida Sun Sentinel (sub-theme of Measured Vibrant) · 1 publication · Engineering fixes: 2 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="south-florida-sun-sentinel"],
+[data-mng-site="sun-sentinel.com"] {
+  --primary-lighter: #4a92af;
+  --primary-light: #2a728f;
+  --primary: #136383;
+  --primary-dark: #115975;
+  --primary-darker: #0f4f68;
+  --secondary: #eeff41;
+  --tertiary: #ab9500;
+  --near-black: #1f1e1c;
+  --white: #fbfbfb;
+  --nav-text: #1f1e1c;
+}
+
+/* Orlando Sentinel (sub-theme of Measured Vibrant) · 1 publication · Engineering fixes: 2 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="orlando-sentinel"],
+[data-mng-site="orlandosentinel.com"] {
+  --primary-lighter: #5c95dd;
+  --primary-light: #1879c9;
+  --primary: #1776c4;
+  --primary-dark: #156cb4;
+  --primary-darker: #1360a0;
+  --secondary: #eeff41;
+  --tertiary: #48a395;
+  --near-black: #1f1e1c;
+  --white: #fbfbfb;
+  --nav-text: #1f1e1c;
+}
+
+/* GrowthSpotter (sub-theme of Measured Vibrant) · 1 publication · Engineering fixes: 2 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="growthspotter"],
+[data-mng-site="growthspotter.com"] {
+  --primary-lighter: #529950;
+  --primary-light: #1d8734;
+  --primary: #1a7c2e;
+  --primary-dark: #176e29;
+  --primary-darker: #146024;
+  --secondary: #eeff41;
+  --tertiary: #e7632a;
+  --near-black: #1f1e1c;
+  --white: #fbfbfb;
+  --nav-text: #1f1e1c;
+}
+
+/* Hartford Courant (sub-theme of Measured Vibrant) · 1 publication · Engineering fixes: 6 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="hartford-courant"],
+[data-mng-site="courant.com"] {
+  --primary-lighter: #5796bd;
+  --primary-light: #2b7ea5;
+  --primary: #166d95;
+  --primary-dark: #084e6f;
+  --primary-darker: #171e44;
+  --secondary: #eeff41;
+  --tertiary: #6a54ca;
+  --near-black: #141414;
+  --white: #ffffff;
+  --nav-text: #141414;
+}
+
+/* Endless Tributes (product) · 0 publications · Engineering fixes: 0 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="endless-tributes"] {
+  --primary-lighter: #f15f87;
+  --primary-light: #c00c3d;
+  --primary: #8d092d;
+  --primary-dark: #770000;
+  --primary-darker: #4d0000;
+  --secondary: #b3bc9c;
+  --tertiary: #3a252b;
+  --near-black: #141414;
+  --white: #ffffff;
+  --nav-text: #141414;
+}
+
+/* Site-level overrides (design values). Publications not listed use their theme block above. */
+/* dailyherald.com (Daily Herald): Not on MNG WordPress themes (Everyware platform, verified 2026-09-24): no MNG theme tokens. */
+[data-mng-site="readingeagle.com"] { /* Reading Eagle */ --subsite-custom: #fafafa; --subsite-text: #000000; }
+[data-mng-site="thereporteronline.com"] { /* The Lansdale Reporter */ --subsite-custom: #164396; --subsite-text: #f9f9f9; }
+[data-mng-site="trentonian.com"] { /* Trentonian */ --subsite-custom: #0c8fcf; --subsite-text: #f9f9f9; }
+[data-mng-site="mainlinemedianews.com"] { /* Main Line Media News */ --subsite-text: #0a0a0a; }
+[data-mng-site="greeleytribune.com"] { /* Greeley Tribune · documented exception to Prairie Mountain Publishing (not a mismatch) */ --primary-light: #5b7b8b; --primary: #536e7f; --primary-dark: #44687f; }
+[data-mng-site="broomfieldenterprise.com"] { /* Broomfield Enterprise */ --subsite-custom: #0054a0; }
+[data-mng-site="coloradohometownweekly.com"] { /* Colorado Hometown Weekly */ --subsite-custom: #0054a0; }
+[data-mng-site="presstelegram.com"] { /* Long Beach Press-Telegram */ --subsite-custom: #4051b5; --subsite-text: #f9f9f9; }
+[data-mng-site="dailybreeze.com"] { /* Torrance Daily Breeze */ --subsite-custom: #00838f; --subsite-text: #f7f7f7; }
+[data-mng-site="sandiegouniontribune.com"] { /* San Diego Union-Tribune */ --subsite-custom: #fbfbfb; --subsite-text: #000000; }
+/* sonomamag.com (Sonoma Magazine): Not on MNG WordPress themes (verified 2026-09-24): no MNG theme tokens. */
+[data-mng-site="dailypress.com"] { /* Daily Press */ --subsite-custom: #000000; --subsite-text: #f9f9f9; }
+[data-mng-site="chicagotribune.com"] { /* Chicago Tribune */ --subsite-custom: #fdfdfd; --subsite-text: #0a0a0a; }
+[data-mng-site="nydailynews.com"] { /* New York Daily News */ --subsite-custom: #000000; --subsite-text: #f9f9f9; }
+[data-mng-site="pilotonline.com"] { /* The Virginian-Pilot */ --subsite-custom: #000000; --subsite-text: #f9f9f9; }
