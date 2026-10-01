@@ -1,12 +1,13 @@
 # MNG Design System — Project Status
 
-> **Rewritten 2026-09-24.** Replaces the Aug 13 status doc, which later sections had contradicted. It had said there were 4 shared themes, that Denver Post was "bespoke" and that the eyebrow was standardized at 20px. This version keeps only what's true now. **Updated 2026-09-25** for the Greeley Tribune → Prairie Mountain Publishing color change, **2026-09-30** for the Greeley exception, Hartford Courant, the folder reorganization and the browser-resize rule, and **2026-10-01** for the full Buttons-page export (8 button and link families) and the NEPA-PMP color sub-theme.
+> **Rewritten 2026-09-24.** Replaces the Aug 13 status doc, which later sections had contradicted. It had said there were 4 shared themes, that Denver Post was "bespoke" and that the eyebrow was standardized at 20px. This version keeps only what's true now. **Updated 2026-09-25** for the Greeley Tribune → Prairie Mountain Publishing color change, **2026-09-30** for the Greeley exception, Hartford Courant, the folder reorganization and the browser-resize rule, and **2026-10-01** for the full Buttons-page export (8 button and link families) and the NEPA-PMP color sub-theme, and again **2026-10-01** for the move from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`).
 
 > - Color values: `tokens/colors/` (export \+ decision log). Color fixes for engineering: `production-vs-design-differences.md` entry 21\.  
 > - Typography values: `tokens/typography/` (tokens \+ decision log).  
 > - Production gaps for engineering: `production-vs-design-differences.md`.  
 > - Figma component exports: `figma-exports/` (`mng-design-system-export/`, `mng-buttons-export/`).  
-> - Folder map and filing rules: `README.md` at the top of this folder.
+> - Folder map, filing rules and how to work in GitHub: `README.md` at the top of the repo.  
+> - Repo: https://github.com/kuscholdMNG/MNGDesignSystem. The old Google Drive folder is retired.
 
 ## 1\. Goal
 
@@ -130,4 +131,6 @@ The component specs in `components/` (modal, disclosure, empty-state-status-badg
 - Don't use `figma_arrange_component_set` or `autoArrange: true`. It once deleted the Button / Primary set. Position components by hand.  
 - The Figma design-system audit tool reports 0/100 for "Token Architecture" on this plan. That's a tool limitation, not a real defect.  
 - Never edit the CRUX Style Library.  
-- Color tokens always carry design (should-be) values. When production differs, mark the production row in Figma with the red-dashed outline and log the fix; never change the token to match production.
+- Color tokens always carry design (should-be) values. When production differs, mark the production row in Figma with the red-dashed outline and log the fix; never change the token to match production.  
+- The project lives in GitHub (`kuscholdMNG/MNGDesignSystem`), not Google Drive. Work in the local copy, commit every change and push. Value changes that need Karl's review go on a branch with a pull request. See "Working in GitHub" in `README.md`.  
+- Never commit credentials, `.DS_Store` files or zips.
