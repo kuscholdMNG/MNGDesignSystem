@@ -1,0 +1,6758 @@
+{
+ "schema": "mng-design-system/component-spec@1",
+ "kind": "component",
+ "name": "Button Tertiary",
+ "slug": "button-tertiary",
+ "order": 3,
+ "figmaSetName": "Button Tertiary",
+ "description": "Tertiary button: light-gray fill (color/gray/600), 1px gray border (color/gray/400), near-black label. Lowest-emphasis boxed button.",
+ "componentDescription": null,
+ "specText": "Button Tertiary | Last Updated: 2026.09.24 | Components | UPDATED: 2026.09.23 | Button Tertiary | Desktop / None | Desktop / left | Desktop / right | Mobile / None | Mobile / left | Mobile / right | Default | Hover | Pressed | InFocus | Tertiary Button | Desktop | Updated: 2026.09.24 | Button Label | Tertiary Buttons\nMin-Height: 40px\nCorner Radius: 4px\nMin Left/Right Margin: 8px\nMin Left/Right Padding: 16px\nBackground Color: Light gray fill, with a 1px gray border\nText: Noto Sans Bold 16px (1rem), Title Case, center align\nText Color: Near-black, chosen to comply with ADA contrast standards against the light gray background.  Note: This sample uses Default Fill / #F1EFEB / rgb(241, 239, 235, 100%) and Border / #A7A6A3 / rgb(167, 166, 163, 100%) | Button Label | Button Label | Spacing between buttons when in a line is 16px | Button Label | Button Label | Spacing between buttons when stacked is 16px | Button Label | Button width can expand to fill a container as needed, but should maintain left/right margins. | Tertiary Button | Mobile | Updated: 2026.09.24 | Button Label | Button Label | Tertiary Buttons\nAll values same as above except:\nbuttons expand to fill container width but maintain 8px margin\nspacing between stacked buttons is 8px | Tertiary Button w/Icon | Updated: 2026.09.24 | Button Label | Tertiary Buttons w/Icon\nAll values same as above for Desktop and Mobile\nIcon container: 16px square\nIcon fills the 16×16px container while maintaining its aspect ratio\nSpacing between icon and Button Label is 16px | States | Updated: 2026.09.24 | Tertiary Button | Default — baseline appearance. Light gray fill (#F1EFEB), 1px gray border (#A7A6A3). | Tertiary Button | Hover — fill changes to white (#FFFFFF) with a lighter gray border (#CCCAC7). Text color stays the same. | Tertiary Button | Pressed — same visual treatment as Hover (#FFFFFF fill, #CCCAC7 border), applied on mouse or touch down. | Tertiary Button | InFocus — adds a 2px black focus ring, offset 1px from the button edge. Appears on keyboard (Tab) focus for accessibility.",
+ "figma": {
+  "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+  "fileName": "MNG Design System",
+  "page": "Buttons | 2026.09.30",
+  "mainId": "5333:16089",
+  "mainKey": "164caf15375e75c0f1e1bd938426a3d796c32115",
+  "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5333-16089",
+  "documentationFrame": "7018:36565",
+  "documentationUrl": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7018-36565",
+  "variants": [
+   {
+    "label": "Desktop / None / Default",
+    "id": "5333:16090",
+    "key": "0df2be3eb0786c02485f2712826e6210379d44ee",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5333-16090"
+   },
+   {
+    "label": "Desktop / None / Hover",
+    "id": "5417:3761",
+    "key": "1629bf4e43e0b4bfa54d0702dbe6129e8202b80a",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5417-3761"
+   },
+   {
+    "label": "Desktop / None / Pressed",
+    "id": "7015:34855",
+    "key": "326a0b97d4cab2a4077888cb12d3e956045a8548",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34855"
+   },
+   {
+    "label": "Desktop / None / InFocus",
+    "id": "7015:34879",
+    "key": "62b2076ba1f4a2b2e7e23c2d646b7753615ede43",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34879"
+   },
+   {
+    "label": "Desktop / left / Default",
+    "id": "5333:16096",
+    "key": "8f395107a74e53a49f5da4d0bc53c6c6b62c1bd9",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5333-16096"
+   },
+   {
+    "label": "Desktop / left / Hover",
+    "id": "5417:3767",
+    "key": "b867a01c5cfe98b2dfbc942f30c975410ac4cd67",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5417-3767"
+   },
+   {
+    "label": "Desktop / left / Pressed",
+    "id": "7015:34861",
+    "key": "1a8cbaa206e730af8589daee727d9fca3b87e4ef",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34861"
+   },
+   {
+    "label": "Desktop / left / InFocus",
+    "id": "7015:34886",
+    "key": "7982f40f742ee8608a870d12f78fdb46fd07e1a3",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34886"
+   },
+   {
+    "label": "Desktop / right / Default",
+    "id": "5333:16102",
+    "key": "6223ec0baa6af173001e1b28657bf6e66a062d58",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5333-16102"
+   },
+   {
+    "label": "Desktop / right / Hover",
+    "id": "5417:3773",
+    "key": "9e697156cd73942328710571e3f3879ee87ba020",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5417-3773"
+   },
+   {
+    "label": "Desktop / right / Pressed",
+    "id": "7015:34867",
+    "key": "631c389145a97d22e5b86fe09279c08b3bd21847",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34867"
+   },
+   {
+    "label": "Desktop / right / InFocus",
+    "id": "5417:3785",
+    "key": "e70122917e1416f795c80be74d5588f02156d740",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5417-3785"
+   },
+   {
+    "label": "Mobile / None / Default",
+    "id": "7015:34896",
+    "key": "17b36144abee3668771f2d8b2f49b6f8828e977a",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34896"
+   },
+   {
+    "label": "Mobile / None / Hover",
+    "id": "7015:34914",
+    "key": "6dec62c697050eb46b29fd078ee00c07d9bc6bdd",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34914"
+   },
+   {
+    "label": "Mobile / None / Pressed",
+    "id": "7015:34939",
+    "key": "755f31dc4545f17dd241735f9be02927c9044696",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34939"
+   },
+   {
+    "label": "Mobile / None / InFocus",
+    "id": "7015:34957",
+    "key": "90f1167af7e12a48d5ed760ea3fee167c63098c4",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34957"
+   },
+   {
+    "label": "Mobile / left / Default",
+    "id": "7015:34902",
+    "key": "db94b0a027841fde7d22a95d3248c7093992c37d",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34902"
+   },
+   {
+    "label": "Mobile / left / Hover",
+    "id": "7015:34920",
+    "key": "30db0c35d64fbe933268ffd9752bd209c3f96513",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34920"
+   },
+   {
+    "label": "Mobile / left / Pressed",
+    "id": "7015:34945",
+    "key": "e74b5648b193932eff6274096f1c188b44ae7551",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34945"
+   },
+   {
+    "label": "Mobile / left / InFocus",
+    "id": "7015:34964",
+    "key": "d7ae6d91886a29fbe32248310d16a6ab6764aff2",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34964"
+   },
+   {
+    "label": "Mobile / right / Default",
+    "id": "7015:34908",
+    "key": "1bd3fee6e946f8d91043a50dcfcaa9f9faf4e54b",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34908"
+   },
+   {
+    "label": "Mobile / right / Hover",
+    "id": "7015:34926",
+    "key": "6053155b3f872c6c9332ae41809bc64a47cd7d4f",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34926"
+   },
+   {
+    "label": "Mobile / right / Pressed",
+    "id": "7015:34951",
+    "key": "35d625223ba8007252d8a4068e1d0abba5afd614",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34951"
+   },
+   {
+    "label": "Mobile / right / InFocus",
+    "id": "7015:34932",
+    "key": "f3f3564f66e60dfc1f04b73e1f678f182bbde6f0",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34932"
+   }
+  ]
+ },
+ "properties": {
+  "Breakpoint": {
+   "type": "VARIANT",
+   "default": "Desktop",
+   "options": [
+    "Desktop",
+    "Mobile"
+   ]
+  },
+  "Icon": {
+   "type": "VARIANT",
+   "default": "None",
+   "options": [
+    "None",
+    "left",
+    "right"
+   ]
+  },
+  "state": {
+   "type": "VARIANT",
+   "default": "Default",
+   "options": [
+    "Hover",
+    "Default",
+    "InFocus",
+    "Pressed"
+   ]
+  }
+ },
+ "breakpoints": [
+  "Desktop",
+  "Mobile"
+ ],
+ "usage": {
+  "totalInstances": 18,
+  "builtInto": {
+   "InLineMessage": 6
+  },
+  "pages": {
+   "In-Line Content Containers | 2026.01.02": 6,
+   "Buttons | 2026.09.30": 1
+  },
+  "perVariant": [
+   {
+    "label": "Desktop / None / Default",
+    "total": 1,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Desktop / None / Hover",
+    "total": 1,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Desktop / None / Pressed",
+    "total": 1,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Desktop / None / InFocus",
+    "total": 1,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Desktop / left / Default",
+    "total": 14,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1
+    },
+    "otherPages": {
+     "In-Line Content Containers | 2026.01.02 ▸ Frame 8": 6,
+     "Buttons | 2026.09.30 ▸ Frame 13001": 1
+    }
+   },
+   {
+    "label": "Desktop / left / Hover",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Desktop / left / Pressed",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Desktop / left / InFocus",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Desktop / right / Default",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Desktop / right / Hover",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Desktop / right / Pressed",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Desktop / right / InFocus",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Mobile / None / Default",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Mobile / None / Hover",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Mobile / None / Pressed",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Mobile / None / InFocus",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Mobile / left / Default",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Mobile / left / Hover",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Mobile / left / Pressed",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Mobile / left / InFocus",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Mobile / right / Default",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Mobile / right / Hover",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Mobile / right / Pressed",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Mobile / right / InFocus",
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   }
+  ],
+  "scope": "Local instances in the MNG Design System file only. Instances in other files that use the published library (WordPress Elements, Reader Dashboard v2.0) are not counted."
+ },
+ "dependencies": [
+  {
+   "component": "Icons",
+   "nodeId": "4693:5",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=4693-5",
+   "inThisExport": false,
+   "count": 48
+  }
+ ],
+ "iconsUsed": {
+  "new-tab": 48
+ },
+ "variants": [
+  {
+   "label": "Desktop / None / Default",
+   "variantProperties": {
+    "Breakpoint": "Desktop",
+    "Icon": "None",
+    "state": "Default"
+   },
+   "id": "5333:16090",
+   "key": "0df2be3eb0786c02485f2712826e6210379d44ee",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5333-16090",
+   "width": 324,
+   "height": 41,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--desktop-none-default.png",
+   "breakpoints": [
+    "Desktop"
+   ],
+   "usage": {
+    "total": 1,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Desktop, Icon=None, state=Default",
+    "type": "COMPONENT",
+    "id": "5333:16090",
+    "w": 324,
+    "h": 41,
+    "x": 17,
+    "y": 17,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "5333:16091",
+      "w": 155,
+      "h": 41,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#F1EFEB",
+        "variable": "Colors/color/gray/600"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#A7A6A3",
+        "variable": "Colors/color/gray/400"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "5333:16092",
+        "w": 123,
+        "h": 22,
+        "x": 16,
+        "y": 9.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "5333:16093",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "5333:16094",
+          "w": 123,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "5333:16095",
+          "w": 14,
+          "h": 14,
+          "x": 153,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "0df2be3eb0786c02485f2712826e6210379d44ee",
+    "variantProperties": {
+     "Breakpoint": "Desktop",
+     "Icon": "None",
+     "state": "Default"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Desktop / None / Hover",
+   "variantProperties": {
+    "Breakpoint": "Desktop",
+    "Icon": "None",
+    "state": "Hover"
+   },
+   "id": "5417:3761",
+   "key": "1629bf4e43e0b4bfa54d0702dbe6129e8202b80a",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5417-3761",
+   "width": 324,
+   "height": 46,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--desktop-none-hover.png",
+   "breakpoints": [
+    "Desktop"
+   ],
+   "usage": {
+    "total": 1,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Desktop, Icon=None, state=Hover",
+    "type": "COMPONENT",
+    "id": "5417:3761",
+    "w": 324,
+    "h": 46,
+    "x": 357,
+    "y": 17,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "5417:3762",
+      "w": 155,
+      "h": 46,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "5417:3763",
+        "w": 123,
+        "h": 22,
+        "x": 16,
+        "y": 12,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "5417:3764",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "5417:3765",
+          "w": 123,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "5417:3766",
+          "w": 14,
+          "h": 14,
+          "x": 153,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "1629bf4e43e0b4bfa54d0702dbe6129e8202b80a",
+    "variantProperties": {
+     "Breakpoint": "Desktop",
+     "Icon": "None",
+     "state": "Hover"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Desktop / None / Pressed",
+   "variantProperties": {
+    "Breakpoint": "Desktop",
+    "Icon": "None",
+    "state": "Pressed"
+   },
+   "id": "7015:34855",
+   "key": "326a0b97d4cab2a4077888cb12d3e956045a8548",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34855",
+   "width": 324,
+   "height": 41,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--desktop-none-pressed.png",
+   "breakpoints": [
+    "Desktop"
+   ],
+   "usage": {
+    "total": 1,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Desktop, Icon=None, state=Pressed",
+    "type": "COMPONENT",
+    "id": "7015:34855",
+    "w": 324,
+    "h": 41,
+    "x": 697,
+    "y": 17,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7015:34856",
+      "w": 155,
+      "h": 41,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "7015:34857",
+        "w": 123,
+        "h": 22,
+        "x": 16,
+        "y": 9.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34858",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "7015:34859",
+          "w": 123,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34860",
+          "w": 14,
+          "h": 14,
+          "x": 153,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "326a0b97d4cab2a4077888cb12d3e956045a8548",
+    "variantProperties": {
+     "Breakpoint": "Desktop",
+     "Icon": "None",
+     "state": "Pressed"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Desktop / None / InFocus",
+   "variantProperties": {
+    "Breakpoint": "Desktop",
+    "Icon": "None",
+    "state": "InFocus"
+   },
+   "id": "7015:34879",
+   "key": "62b2076ba1f4a2b2e7e23c2d646b7753615ede43",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34879",
+   "width": 324,
+   "height": 46,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FILL"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--desktop-none-infocus.png",
+   "breakpoints": [
+    "Desktop"
+   ],
+   "usage": {
+    "total": 1,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Desktop, Icon=None, state=InFocus",
+    "type": "COMPONENT",
+    "id": "7015:34879",
+    "w": 324,
+    "h": 46,
+    "x": 1037,
+    "y": 17,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FILL"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Frame 12963",
+      "type": "FRAME",
+      "id": "7015:34885",
+      "w": 157,
+      "h": 42,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        1,
+        1,
+        1,
+        1
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "radius": 4,
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
+       }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "OUTSIDE",
+      "children": [
+       {
+        "name": "Button",
+        "type": "FRAME",
+        "id": "7015:34880",
+        "w": 155,
+        "h": 40,
+        "x": 1,
+        "y": 1,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          16,
+          16,
+          16,
+          16
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "radius": 4,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "Frame 12135",
+          "type": "FRAME",
+          "id": "7015:34881",
+          "w": 123,
+          "h": 22,
+          "x": 16,
+          "y": 9,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "7015:34882",
+            "w": 14,
+            "h": 14,
+            "x": 0,
+            "y": 4,
+            "hidden": true,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "new-tab"
+            },
+            "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+            "mainId": "4693:60",
+            "setId": "4693:5",
+            "props": {}
+           },
+           {
+            "name": "Tertiary Button",
+            "type": "TEXT",
+            "id": "7015:34883",
+            "w": 123,
+            "h": 22,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Tertiary Button",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "CENTER",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Bold",
+              "size": 16,
+              "lineHeight": "auto",
+              "case": "TITLE",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           },
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "7015:34884",
+            "w": 14,
+            "h": 14,
+            "x": 153,
+            "y": 4,
+            "hidden": true,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "new-tab"
+            },
+            "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+            "mainId": "4693:60",
+            "setId": "4693:5",
+            "props": {}
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "62b2076ba1f4a2b2e7e23c2d646b7753615ede43",
+    "variantProperties": {
+     "Breakpoint": "Desktop",
+     "Icon": "None",
+     "state": "InFocus"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Desktop / left / Default",
+   "variantProperties": {
+    "Breakpoint": "Desktop",
+    "Icon": "left",
+    "state": "Default"
+   },
+   "id": "5333:16096",
+   "key": "8f395107a74e53a49f5da4d0bc53c6c6b62c1bd9",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5333-16096",
+   "width": 324,
+   "height": 41,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--desktop-left-default.png",
+   "breakpoints": [
+    "Desktop"
+   ],
+   "usage": {
+    "total": 14,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1
+    },
+    "otherPages": {
+     "In-Line Content Containers | 2026.01.02 ▸ Frame 8": 6,
+     "Buttons | 2026.09.30 ▸ Frame 13001": 1
+    }
+   },
+   "layerTree": {
+    "name": "Breakpoint=Desktop, Icon=left, state=Default",
+    "type": "COMPONENT",
+    "id": "5333:16096",
+    "w": 324,
+    "h": 41,
+    "x": 17,
+    "y": 79,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "5333:16097",
+      "w": 185,
+      "h": 41,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#F1EFEB",
+        "variable": "Colors/color/gray/600"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#A7A6A3",
+        "variable": "Colors/color/gray/400"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "5333:16098",
+        "w": 153,
+        "h": 22,
+        "x": 16,
+        "y": 9.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "5333:16099",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "5333:16100",
+          "w": 123,
+          "h": 22,
+          "x": 30,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "5333:16101",
+          "w": 14,
+          "h": 14,
+          "x": 153,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "8f395107a74e53a49f5da4d0bc53c6c6b62c1bd9",
+    "variantProperties": {
+     "Breakpoint": "Desktop",
+     "Icon": "left",
+     "state": "Default"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Desktop / left / Hover",
+   "variantProperties": {
+    "Breakpoint": "Desktop",
+    "Icon": "left",
+    "state": "Hover"
+   },
+   "id": "5417:3767",
+   "key": "b867a01c5cfe98b2dfbc942f30c975410ac4cd67",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5417-3767",
+   "width": 324,
+   "height": 42,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FILL"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--desktop-left-hover.png",
+   "breakpoints": [
+    "Desktop"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Desktop, Icon=left, state=Hover",
+    "type": "COMPONENT",
+    "id": "5417:3767",
+    "w": 324,
+    "h": 42,
+    "x": 357,
+    "y": 79,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FILL"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "5417:3768",
+      "w": 185,
+      "h": 42,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "5417:3769",
+        "w": 153,
+        "h": 22,
+        "x": 16,
+        "y": 10,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "5417:3770",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "5417:3771",
+          "w": 123,
+          "h": 22,
+          "x": 30,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "5417:3772",
+          "w": 14,
+          "h": 14,
+          "x": 153,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "b867a01c5cfe98b2dfbc942f30c975410ac4cd67",
+    "variantProperties": {
+     "Breakpoint": "Desktop",
+     "Icon": "left",
+     "state": "Hover"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Desktop / left / Pressed",
+   "variantProperties": {
+    "Breakpoint": "Desktop",
+    "Icon": "left",
+    "state": "Pressed"
+   },
+   "id": "7015:34861",
+   "key": "1a8cbaa206e730af8589daee727d9fca3b87e4ef",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34861",
+   "width": 324,
+   "height": 41,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--desktop-left-pressed.png",
+   "breakpoints": [
+    "Desktop"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Desktop, Icon=left, state=Pressed",
+    "type": "COMPONENT",
+    "id": "7015:34861",
+    "w": 324,
+    "h": 41,
+    "x": 697,
+    "y": 79,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7015:34862",
+      "w": 185,
+      "h": 41,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "7015:34863",
+        "w": 153,
+        "h": 22,
+        "x": 16,
+        "y": 9.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34864",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "7015:34865",
+          "w": 123,
+          "h": 22,
+          "x": 30,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34866",
+          "w": 14,
+          "h": 14,
+          "x": 153,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "1a8cbaa206e730af8589daee727d9fca3b87e4ef",
+    "variantProperties": {
+     "Breakpoint": "Desktop",
+     "Icon": "left",
+     "state": "Pressed"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Desktop / left / InFocus",
+   "variantProperties": {
+    "Breakpoint": "Desktop",
+    "Icon": "left",
+    "state": "InFocus"
+   },
+   "id": "7015:34886",
+   "key": "7982f40f742ee8608a870d12f78fdb46fd07e1a3",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34886",
+   "width": 324,
+   "height": 42,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FILL"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--desktop-left-infocus.png",
+   "breakpoints": [
+    "Desktop"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Desktop, Icon=left, state=InFocus",
+    "type": "COMPONENT",
+    "id": "7015:34886",
+    "w": 324,
+    "h": 42,
+    "x": 1037,
+    "y": 79,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FILL"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Frame 12963",
+      "type": "FRAME",
+      "id": "7015:34892",
+      "w": 187,
+      "h": 42,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        1,
+        1,
+        1,
+        1
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "radius": 4,
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
+       }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "OUTSIDE",
+      "children": [
+       {
+        "name": "Button",
+        "type": "FRAME",
+        "id": "7015:34887",
+        "w": 185,
+        "h": 40,
+        "x": 1,
+        "y": 1,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          16,
+          16,
+          16,
+          16
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "radius": 4,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "Frame 12135",
+          "type": "FRAME",
+          "id": "7015:34888",
+          "w": 153,
+          "h": 22,
+          "x": 16,
+          "y": 9,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 16,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "7015:34889",
+            "w": 14,
+            "h": 14,
+            "x": 0,
+            "y": 4,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "new-tab"
+            },
+            "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+            "mainId": "4693:60",
+            "setId": "4693:5",
+            "props": {}
+           },
+           {
+            "name": "Tertiary Button",
+            "type": "TEXT",
+            "id": "7015:34890",
+            "w": 123,
+            "h": 22,
+            "x": 30,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Tertiary Button",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "CENTER",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Bold",
+              "size": 16,
+              "lineHeight": "auto",
+              "case": "TITLE",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           },
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "7015:34891",
+            "w": 14,
+            "h": 14,
+            "x": 153,
+            "y": 4,
+            "hidden": true,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "new-tab"
+            },
+            "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+            "mainId": "4693:60",
+            "setId": "4693:5",
+            "props": {}
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "7982f40f742ee8608a870d12f78fdb46fd07e1a3",
+    "variantProperties": {
+     "Breakpoint": "Desktop",
+     "Icon": "left",
+     "state": "InFocus"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Desktop / right / Default",
+   "variantProperties": {
+    "Breakpoint": "Desktop",
+    "Icon": "right",
+    "state": "Default"
+   },
+   "id": "5333:16102",
+   "key": "6223ec0baa6af173001e1b28657bf6e66a062d58",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5333-16102",
+   "width": 324,
+   "height": 41,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--desktop-right-default.png",
+   "breakpoints": [
+    "Desktop"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Desktop, Icon=right, state=Default",
+    "type": "COMPONENT",
+    "id": "5333:16102",
+    "w": 324,
+    "h": 41,
+    "x": 17,
+    "y": 137,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "5333:16103",
+      "w": 185,
+      "h": 41,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#F1EFEB",
+        "variable": "Colors/color/gray/600"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#A7A6A3",
+        "variable": "Colors/color/gray/400"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "5333:16104",
+        "w": 153,
+        "h": 22,
+        "x": 16,
+        "y": 9.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "5333:16105",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "5333:16106",
+          "w": 123,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "5333:16107",
+          "w": 14,
+          "h": 14,
+          "x": 139,
+          "y": 4,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "6223ec0baa6af173001e1b28657bf6e66a062d58",
+    "variantProperties": {
+     "Breakpoint": "Desktop",
+     "Icon": "right",
+     "state": "Default"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Desktop / right / Hover",
+   "variantProperties": {
+    "Breakpoint": "Desktop",
+    "Icon": "right",
+    "state": "Hover"
+   },
+   "id": "5417:3773",
+   "key": "9e697156cd73942328710571e3f3879ee87ba020",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5417-3773",
+   "width": 324,
+   "height": 42,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FILL"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--desktop-right-hover.png",
+   "breakpoints": [
+    "Desktop"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Desktop, Icon=right, state=Hover",
+    "type": "COMPONENT",
+    "id": "5417:3773",
+    "w": 324,
+    "h": 42,
+    "x": 357,
+    "y": 137,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FILL"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "5417:3774",
+      "w": 185,
+      "h": 42,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "5417:3775",
+        "w": 153,
+        "h": 22,
+        "x": 16,
+        "y": 10,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "5417:3776",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "5417:3777",
+          "w": 123,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "5417:3778",
+          "w": 14,
+          "h": 14,
+          "x": 139,
+          "y": 4,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "9e697156cd73942328710571e3f3879ee87ba020",
+    "variantProperties": {
+     "Breakpoint": "Desktop",
+     "Icon": "right",
+     "state": "Hover"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Desktop / right / Pressed",
+   "variantProperties": {
+    "Breakpoint": "Desktop",
+    "Icon": "right",
+    "state": "Pressed"
+   },
+   "id": "7015:34867",
+   "key": "631c389145a97d22e5b86fe09279c08b3bd21847",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34867",
+   "width": 324,
+   "height": 41,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--desktop-right-pressed.png",
+   "breakpoints": [
+    "Desktop"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Desktop, Icon=right, state=Pressed",
+    "type": "COMPONENT",
+    "id": "7015:34867",
+    "w": 324,
+    "h": 41,
+    "x": 697,
+    "y": 137,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7015:34868",
+      "w": 185,
+      "h": 41,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "7015:34869",
+        "w": 153,
+        "h": 22,
+        "x": 16,
+        "y": 9.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34870",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "7015:34871",
+          "w": 123,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34872",
+          "w": 14,
+          "h": 14,
+          "x": 139,
+          "y": 4,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "631c389145a97d22e5b86fe09279c08b3bd21847",
+    "variantProperties": {
+     "Breakpoint": "Desktop",
+     "Icon": "right",
+     "state": "Pressed"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Desktop / right / InFocus",
+   "variantProperties": {
+    "Breakpoint": "Desktop",
+    "Icon": "right",
+    "state": "InFocus"
+   },
+   "id": "5417:3785",
+   "key": "e70122917e1416f795c80be74d5588f02156d740",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5417-3785",
+   "width": 324,
+   "height": 42,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FILL"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--desktop-right-infocus.png",
+   "breakpoints": [
+    "Desktop"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Desktop, Icon=right, state=InFocus",
+    "type": "COMPONENT",
+    "id": "5417:3785",
+    "w": 324,
+    "h": 42,
+    "x": 1037,
+    "y": 137,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FILL"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Frame 12963",
+      "type": "FRAME",
+      "id": "5417:3794",
+      "w": 187,
+      "h": 42,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        1,
+        1,
+        1,
+        1
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "radius": 4,
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
+       }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "OUTSIDE",
+      "children": [
+       {
+        "name": "Button",
+        "type": "FRAME",
+        "id": "5417:3786",
+        "w": 185,
+        "h": 40,
+        "x": 1,
+        "y": 1,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          16,
+          16,
+          16,
+          16
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "radius": 4,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "Frame 12135",
+          "type": "FRAME",
+          "id": "5417:3787",
+          "w": 153,
+          "h": 22,
+          "x": 16,
+          "y": 9,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 16,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "5417:3788",
+            "w": 14,
+            "h": 14,
+            "x": 0,
+            "y": 4,
+            "hidden": true,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "new-tab"
+            },
+            "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+            "mainId": "4693:60",
+            "setId": "4693:5",
+            "props": {}
+           },
+           {
+            "name": "Tertiary Button",
+            "type": "TEXT",
+            "id": "5417:3789",
+            "w": 123,
+            "h": 22,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Tertiary Button",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "CENTER",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Bold",
+              "size": 16,
+              "lineHeight": "auto",
+              "case": "TITLE",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           },
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "5417:3790",
+            "w": 14,
+            "h": 14,
+            "x": 139,
+            "y": 4,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "new-tab"
+            },
+            "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+            "mainId": "4693:60",
+            "setId": "4693:5",
+            "props": {}
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "e70122917e1416f795c80be74d5588f02156d740",
+    "variantProperties": {
+     "Breakpoint": "Desktop",
+     "Icon": "right",
+     "state": "InFocus"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Mobile / None / Default",
+   "variantProperties": {
+    "Breakpoint": "Mobile",
+    "Icon": "None",
+    "state": "Default"
+   },
+   "id": "7015:34896",
+   "key": "17b36144abee3668771f2d8b2f49b6f8828e977a",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34896",
+   "width": 324,
+   "height": 41,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--mobile-none-default.png",
+   "breakpoints": [
+    "Mobile"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Mobile, Icon=None, state=Default",
+    "type": "COMPONENT",
+    "id": "7015:34896",
+    "w": 324,
+    "h": 41,
+    "x": 17,
+    "y": 195,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7015:34897",
+      "w": 308,
+      "h": 41,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#F1EFEB",
+        "variable": "Colors/color/gray/600"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#A7A6A3",
+        "variable": "Colors/color/gray/400"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "7015:34898",
+        "w": 123,
+        "h": 22,
+        "x": 92.5,
+        "y": 9.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34899",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "7015:34900",
+          "w": 123,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34901",
+          "w": 14,
+          "h": 14,
+          "x": 153,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "17b36144abee3668771f2d8b2f49b6f8828e977a",
+    "variantProperties": {
+     "Breakpoint": "Mobile",
+     "Icon": "None",
+     "state": "Default"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Mobile / None / Hover",
+   "variantProperties": {
+    "Breakpoint": "Mobile",
+    "Icon": "None",
+    "state": "Hover"
+   },
+   "id": "7015:34914",
+   "key": "6dec62c697050eb46b29fd078ee00c07d9bc6bdd",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34914",
+   "width": 324,
+   "height": 46,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FILL"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--mobile-none-hover.png",
+   "breakpoints": [
+    "Mobile"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Mobile, Icon=None, state=Hover",
+    "type": "COMPONENT",
+    "id": "7015:34914",
+    "w": 324,
+    "h": 46,
+    "x": 357,
+    "y": 195,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FILL"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7015:34915",
+      "w": 308,
+      "h": 46,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "7015:34916",
+        "w": 123,
+        "h": 22,
+        "x": 92.5,
+        "y": 12,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34917",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "7015:34918",
+          "w": 123,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34919",
+          "w": 14,
+          "h": 14,
+          "x": 153,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "6dec62c697050eb46b29fd078ee00c07d9bc6bdd",
+    "variantProperties": {
+     "Breakpoint": "Mobile",
+     "Icon": "None",
+     "state": "Hover"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Mobile / None / Pressed",
+   "variantProperties": {
+    "Breakpoint": "Mobile",
+    "Icon": "None",
+    "state": "Pressed"
+   },
+   "id": "7015:34939",
+   "key": "755f31dc4545f17dd241735f9be02927c9044696",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34939",
+   "width": 324,
+   "height": 41,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--mobile-none-pressed.png",
+   "breakpoints": [
+    "Mobile"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Mobile, Icon=None, state=Pressed",
+    "type": "COMPONENT",
+    "id": "7015:34939",
+    "w": 324,
+    "h": 41,
+    "x": 697,
+    "y": 195,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7015:34940",
+      "w": 308,
+      "h": 41,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "7015:34941",
+        "w": 123,
+        "h": 22,
+        "x": 92.5,
+        "y": 9.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34942",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "7015:34943",
+          "w": 123,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34944",
+          "w": 14,
+          "h": 14,
+          "x": 153,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "755f31dc4545f17dd241735f9be02927c9044696",
+    "variantProperties": {
+     "Breakpoint": "Mobile",
+     "Icon": "None",
+     "state": "Pressed"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Mobile / None / InFocus",
+   "variantProperties": {
+    "Breakpoint": "Mobile",
+    "Icon": "None",
+    "state": "InFocus"
+   },
+   "id": "7015:34957",
+   "key": "90f1167af7e12a48d5ed760ea3fee167c63098c4",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34957",
+   "width": 324,
+   "height": 46,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FILL"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--mobile-none-infocus.png",
+   "breakpoints": [
+    "Mobile"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Mobile, Icon=None, state=InFocus",
+    "type": "COMPONENT",
+    "id": "7015:34957",
+    "w": 324,
+    "h": 46,
+    "x": 1037,
+    "y": 195,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FILL"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Frame 12963",
+      "type": "FRAME",
+      "id": "7015:34958",
+      "w": 308,
+      "h": 46,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        1,
+        1,
+        1,
+        1
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "radius": 4,
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000"
+       }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Button",
+        "type": "FRAME",
+        "id": "7015:34959",
+        "w": 302,
+        "h": 40,
+        "x": 3,
+        "y": 3,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          16,
+          16,
+          16,
+          16
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "radius": 4,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "Frame 12135",
+          "type": "FRAME",
+          "id": "7015:34960",
+          "w": 123,
+          "h": 22,
+          "x": 89.5,
+          "y": 9,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "7015:34961",
+            "w": 14,
+            "h": 14,
+            "x": 0,
+            "y": 4,
+            "hidden": true,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "new-tab"
+            },
+            "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+            "mainId": "4693:60",
+            "setId": "4693:5",
+            "props": {}
+           },
+           {
+            "name": "Tertiary Button",
+            "type": "TEXT",
+            "id": "7015:34962",
+            "w": 123,
+            "h": 22,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Tertiary Button",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "CENTER",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Bold",
+              "size": 16,
+              "lineHeight": "auto",
+              "case": "TITLE",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           },
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "7015:34963",
+            "w": 14,
+            "h": 14,
+            "x": 153,
+            "y": 4,
+            "hidden": true,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "new-tab"
+            },
+            "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+            "mainId": "4693:60",
+            "setId": "4693:5",
+            "props": {}
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "90f1167af7e12a48d5ed760ea3fee167c63098c4",
+    "variantProperties": {
+     "Breakpoint": "Mobile",
+     "Icon": "None",
+     "state": "InFocus"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Mobile / left / Default",
+   "variantProperties": {
+    "Breakpoint": "Mobile",
+    "Icon": "left",
+    "state": "Default"
+   },
+   "id": "7015:34902",
+   "key": "db94b0a027841fde7d22a95d3248c7093992c37d",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34902",
+   "width": 324,
+   "height": 41,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--mobile-left-default.png",
+   "breakpoints": [
+    "Mobile"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Mobile, Icon=left, state=Default",
+    "type": "COMPONENT",
+    "id": "7015:34902",
+    "w": 324,
+    "h": 41,
+    "x": 17,
+    "y": 257,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7015:34903",
+      "w": 308,
+      "h": 41,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#F1EFEB",
+        "variable": "Colors/color/gray/600"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#A7A6A3",
+        "variable": "Colors/color/gray/400"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "7015:34904",
+        "w": 153,
+        "h": 22,
+        "x": 77.5,
+        "y": 9.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34905",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "7015:34906",
+          "w": 123,
+          "h": 22,
+          "x": 30,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34907",
+          "w": 14,
+          "h": 14,
+          "x": 153,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "db94b0a027841fde7d22a95d3248c7093992c37d",
+    "variantProperties": {
+     "Breakpoint": "Mobile",
+     "Icon": "left",
+     "state": "Default"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Mobile / left / Hover",
+   "variantProperties": {
+    "Breakpoint": "Mobile",
+    "Icon": "left",
+    "state": "Hover"
+   },
+   "id": "7015:34920",
+   "key": "30db0c35d64fbe933268ffd9752bd209c3f96513",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34920",
+   "width": 324,
+   "height": 46,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FILL"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--mobile-left-hover.png",
+   "breakpoints": [
+    "Mobile"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Mobile, Icon=left, state=Hover",
+    "type": "COMPONENT",
+    "id": "7015:34920",
+    "w": 324,
+    "h": 46,
+    "x": 357,
+    "y": 257,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FILL"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7015:34921",
+      "w": 308,
+      "h": 46,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "7015:34922",
+        "w": 153,
+        "h": 22,
+        "x": 77.5,
+        "y": 12,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34923",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "7015:34924",
+          "w": 123,
+          "h": 22,
+          "x": 30,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34925",
+          "w": 14,
+          "h": 14,
+          "x": 153,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "30db0c35d64fbe933268ffd9752bd209c3f96513",
+    "variantProperties": {
+     "Breakpoint": "Mobile",
+     "Icon": "left",
+     "state": "Hover"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Mobile / left / Pressed",
+   "variantProperties": {
+    "Breakpoint": "Mobile",
+    "Icon": "left",
+    "state": "Pressed"
+   },
+   "id": "7015:34945",
+   "key": "e74b5648b193932eff6274096f1c188b44ae7551",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34945",
+   "width": 324,
+   "height": 41,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--mobile-left-pressed.png",
+   "breakpoints": [
+    "Mobile"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Mobile, Icon=left, state=Pressed",
+    "type": "COMPONENT",
+    "id": "7015:34945",
+    "w": 324,
+    "h": 41,
+    "x": 697,
+    "y": 257,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7015:34946",
+      "w": 308,
+      "h": 41,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "7015:34947",
+        "w": 153,
+        "h": 22,
+        "x": 77.5,
+        "y": 9.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34948",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "7015:34949",
+          "w": 123,
+          "h": 22,
+          "x": 30,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34950",
+          "w": 14,
+          "h": 14,
+          "x": 153,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "e74b5648b193932eff6274096f1c188b44ae7551",
+    "variantProperties": {
+     "Breakpoint": "Mobile",
+     "Icon": "left",
+     "state": "Pressed"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Mobile / left / InFocus",
+   "variantProperties": {
+    "Breakpoint": "Mobile",
+    "Icon": "left",
+    "state": "InFocus"
+   },
+   "id": "7015:34964",
+   "key": "d7ae6d91886a29fbe32248310d16a6ab6764aff2",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34964",
+   "width": 324,
+   "height": 46,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FILL"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--mobile-left-infocus.png",
+   "breakpoints": [
+    "Mobile"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Mobile, Icon=left, state=InFocus",
+    "type": "COMPONENT",
+    "id": "7015:34964",
+    "w": 324,
+    "h": 46,
+    "x": 1037,
+    "y": 257,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FILL"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Frame 12963",
+      "type": "FRAME",
+      "id": "7015:34965",
+      "w": 308,
+      "h": 46,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        1,
+        1,
+        1,
+        1
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "radius": 4,
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000"
+       }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Button",
+        "type": "FRAME",
+        "id": "7015:34966",
+        "w": 302,
+        "h": 40,
+        "x": 3,
+        "y": 3,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          16,
+          16,
+          16,
+          16
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "radius": 4,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "Frame 12135",
+          "type": "FRAME",
+          "id": "7015:34967",
+          "w": 153,
+          "h": 22,
+          "x": 74.5,
+          "y": 9,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 16,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "7015:34968",
+            "w": 14,
+            "h": 14,
+            "x": 0,
+            "y": 4,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "new-tab"
+            },
+            "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+            "mainId": "4693:60",
+            "setId": "4693:5",
+            "props": {}
+           },
+           {
+            "name": "Tertiary Button",
+            "type": "TEXT",
+            "id": "7015:34969",
+            "w": 123,
+            "h": 22,
+            "x": 30,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Tertiary Button",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "CENTER",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Bold",
+              "size": 16,
+              "lineHeight": "auto",
+              "case": "TITLE",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           },
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "7015:34970",
+            "w": 14,
+            "h": 14,
+            "x": 153,
+            "y": 4,
+            "hidden": true,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "new-tab"
+            },
+            "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+            "mainId": "4693:60",
+            "setId": "4693:5",
+            "props": {}
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "d7ae6d91886a29fbe32248310d16a6ab6764aff2",
+    "variantProperties": {
+     "Breakpoint": "Mobile",
+     "Icon": "left",
+     "state": "InFocus"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Mobile / right / Default",
+   "variantProperties": {
+    "Breakpoint": "Mobile",
+    "Icon": "right",
+    "state": "Default"
+   },
+   "id": "7015:34908",
+   "key": "1bd3fee6e946f8d91043a50dcfcaa9f9faf4e54b",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34908",
+   "width": 324,
+   "height": 41,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--mobile-right-default.png",
+   "breakpoints": [
+    "Mobile"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Mobile, Icon=right, state=Default",
+    "type": "COMPONENT",
+    "id": "7015:34908",
+    "w": 324,
+    "h": 41,
+    "x": 17,
+    "y": 319,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7015:34909",
+      "w": 308,
+      "h": 41,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#F1EFEB",
+        "variable": "Colors/color/gray/600"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#A7A6A3",
+        "variable": "Colors/color/gray/400"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "7015:34910",
+        "w": 153,
+        "h": 22,
+        "x": 77.5,
+        "y": 9.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34911",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "7015:34912",
+          "w": 123,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34913",
+          "w": 14,
+          "h": 14,
+          "x": 139,
+          "y": 4,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "1bd3fee6e946f8d91043a50dcfcaa9f9faf4e54b",
+    "variantProperties": {
+     "Breakpoint": "Mobile",
+     "Icon": "right",
+     "state": "Default"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Mobile / right / Hover",
+   "variantProperties": {
+    "Breakpoint": "Mobile",
+    "Icon": "right",
+    "state": "Hover"
+   },
+   "id": "7015:34926",
+   "key": "6053155b3f872c6c9332ae41809bc64a47cd7d4f",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34926",
+   "width": 324,
+   "height": 42,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FILL"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--mobile-right-hover.png",
+   "breakpoints": [
+    "Mobile"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Mobile, Icon=right, state=Hover",
+    "type": "COMPONENT",
+    "id": "7015:34926",
+    "w": 324,
+    "h": 42,
+    "x": 357,
+    "y": 319,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FILL"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7015:34927",
+      "w": 308,
+      "h": 42,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "7015:34928",
+        "w": 153,
+        "h": 22,
+        "x": 77.5,
+        "y": 10,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34929",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "7015:34930",
+          "w": 123,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34931",
+          "w": 14,
+          "h": 14,
+          "x": 139,
+          "y": 4,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "6053155b3f872c6c9332ae41809bc64a47cd7d4f",
+    "variantProperties": {
+     "Breakpoint": "Mobile",
+     "Icon": "right",
+     "state": "Hover"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Mobile / right / Pressed",
+   "variantProperties": {
+    "Breakpoint": "Mobile",
+    "Icon": "right",
+    "state": "Pressed"
+   },
+   "id": "7015:34951",
+   "key": "35d625223ba8007252d8a4068e1d0abba5afd614",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34951",
+   "width": 324,
+   "height": 41,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--mobile-right-pressed.png",
+   "breakpoints": [
+    "Mobile"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Mobile, Icon=right, state=Pressed",
+    "type": "COMPONENT",
+    "id": "7015:34951",
+    "w": 324,
+    "h": 41,
+    "x": 697,
+    "y": 319,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7015:34952",
+      "w": 308,
+      "h": 41,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        16,
+        16,
+        16,
+        16
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "Frame 12135",
+        "type": "FRAME",
+        "id": "7015:34953",
+        "w": 153,
+        "h": 22,
+        "x": 77.5,
+        "y": 9.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34954",
+          "w": 14,
+          "h": 14,
+          "x": 0,
+          "y": 4,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         },
+         {
+          "name": "Tertiary Button",
+          "type": "TEXT",
+          "id": "7015:34955",
+          "w": 123,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Tertiary Button",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "CENTER",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "case": "TITLE",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "7015:34956",
+          "w": 14,
+          "h": 14,
+          "x": 139,
+          "y": 4,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "new-tab"
+          },
+          "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+          "mainId": "4693:60",
+          "setId": "4693:5",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "35d625223ba8007252d8a4068e1d0abba5afd614",
+    "variantProperties": {
+     "Breakpoint": "Mobile",
+     "Icon": "right",
+     "state": "Pressed"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Mobile / right / InFocus",
+   "variantProperties": {
+    "Breakpoint": "Mobile",
+    "Icon": "right",
+    "state": "InFocus"
+   },
+   "id": "7015:34932",
+   "key": "f3f3564f66e60dfc1f04b73e1f678f182bbde6f0",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7015-34932",
+   "width": 324,
+   "height": 42,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     8,
+     0,
+     8
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FILL"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-tertiary--mobile-right-infocus.png",
+   "breakpoints": [
+    "Mobile"
+   ],
+   "usage": {
+    "total": 0,
+    "documentationFrames": 0,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "Breakpoint=Mobile, Icon=right, state=InFocus",
+    "type": "COMPONENT",
+    "id": "7015:34932",
+    "w": 324,
+    "h": 42,
+    "x": 1037,
+    "y": 319,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FILL"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      8,
+      0,
+      8
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Frame 12963",
+      "type": "FRAME",
+      "id": "7015:34933",
+      "w": 308,
+      "h": 42,
+      "x": 8,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        1,
+        1,
+        1,
+        1
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "radius": 4,
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
+       }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "OUTSIDE",
+      "children": [
+       {
+        "name": "Button",
+        "type": "FRAME",
+        "id": "7015:34934",
+        "w": 306,
+        "h": 40,
+        "x": 1,
+        "y": 1,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          16,
+          16,
+          16,
+          16
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "radius": 4,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "Frame 12135",
+          "type": "FRAME",
+          "id": "7015:34935",
+          "w": 153,
+          "h": 22,
+          "x": 76.5,
+          "y": 9,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 16,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "7015:34936",
+            "w": 14,
+            "h": 14,
+            "x": 0,
+            "y": 4,
+            "hidden": true,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "new-tab"
+            },
+            "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+            "mainId": "4693:60",
+            "setId": "4693:5",
+            "props": {}
+           },
+           {
+            "name": "Tertiary Button",
+            "type": "TEXT",
+            "id": "7015:34937",
+            "w": 123,
+            "h": 22,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Tertiary Button",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "CENTER",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Bold",
+              "size": 16,
+              "lineHeight": "auto",
+              "case": "TITLE",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           },
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "7015:34938",
+            "w": 14,
+            "h": 14,
+            "x": 139,
+            "y": 4,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "new-tab"
+            },
+            "componentKey": "d393207831ddf8a322caa19d08a4d6fd13eb856d",
+            "mainId": "4693:60",
+            "setId": "4693:5",
+            "props": {}
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "f3f3564f66e60dfc1f04b73e1f678f182bbde6f0",
+    "variantProperties": {
+     "Breakpoint": "Mobile",
+     "Icon": "right",
+     "state": "InFocus"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 16,
+   "lineHeight": "auto",
+   "case": "TITLE",
+   "decoration": null,
+   "colorToken": "color/gray/min",
+   "layers": [
+    "Tertiary Button"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "token": "color/gray/600",
+   "hex": "#F1EFEB",
+   "usedAs": [
+    "fill on Button"
+   ]
+  },
+  {
+   "token": "color/gray/400",
+   "hex": "#A7A6A3",
+   "usedAs": [
+    "stroke on Button"
+   ]
+  },
+  {
+   "token": "color/gray/min",
+   "hex": "#141414",
+   "usedAs": [
+    "text on Tertiary Button"
+   ]
+  },
+  {
+   "token": "color/gray/max",
+   "hex": "#FFFFFF",
+   "usedAs": [
+    "fill on Button"
+   ]
+  },
+  {
+   "token": "color/gray/500",
+   "hex": "#CCCAC7",
+   "usedAs": [
+    "stroke on Button"
+   ]
+  },
+  {
+   "token": "color/gray/black",
+   "hex": "#000000",
+   "usedAs": [
+    "stroke on Frame 12963"
+   ]
+  },
+  {
+   "token": null,
+   "hex": "#000000",
+   "usedAs": [
+    "stroke on Frame 12963"
+   ]
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "**Desktop** (`Breakpoint=Desktop`): the inner `Button` frame hugs its label/icon (HUG horizontally) inside an 8px left/right margin wrapper. Buttons in a row or a stack keep a 16px gap.",
+  "**Mobile** (`Breakpoint=Mobile`): the inner `Button` frame fills the container width (FILL) while the wrapper keeps the 8px left/right margin. Stacked buttons use an 8px gap.",
+  "The breakpoint split is Desktop vs Mobile only; there are no per-template variants (340/768/1024/1100/1280). Use Mobile below 640px and Desktop from 640px up unless a layout says otherwise."
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "**19 of 24 variants have 0 instances** anywhere in the file: `Desktop / left / Hover`, `Desktop / left / Pressed`, `Desktop / left / InFocus`, `Desktop / right / Default`, `Desktop / right / Hover`, `Desktop / right / Pressed`, `Desktop / right / InFocus`, `Mobile / None / Default`, `Mobile / None / Hover`, `Mobile / None / Pressed`, `Mobile / None / InFocus`, `Mobile / left / Default`, `Mobile / left / Hover`, `Mobile / left / Pressed`, `Mobile / left / InFocus`, `Mobile / right / Default`, `Mobile / right / Hover`, `Mobile / right / Pressed`, `Mobile / right / InFocus`.",
+  "**4 variants are placed only in their own documentation frame** (not yet used in any real layout): `Desktop / None / Default`, `Desktop / None / Hover`, `Desktop / None / Pressed`, `Desktop / None / InFocus`.",
+  "**Inner `Button` frame height is not a uniform 40px** (spec: min-height 40px). Heights: 40px ×6, 41px ×12, 42px ×3, 46px ×3. Off-spec variants: `Desktop / None / Default` 41px; `Desktop / None / Hover` 46px; `Desktop / None / Pressed` 41px; `Desktop / left / Default` 41px; `Desktop / left / Hover` 42px; `Desktop / left / Pressed` 41px; `Desktop / right / Default` 41px; `Desktop / right / Hover` 42px; `Desktop / right / Pressed` 41px; `Mobile / None / Default` 41px; `Mobile / None / Hover` 46px; `Mobile / None / Pressed` 41px; `Mobile / left / Default` 41px; `Mobile / left / Hover` 46px; `Mobile / left / Pressed` 41px; `Mobile / right / Default` 41px; `Mobile / right / Hover` 42px; `Mobile / right / Pressed` 41px.",
+  "**Hard-coded colors not bound to a variable:** `Mobile / None / InFocus` → Frame 12963 stroke #000000; `Mobile / left / InFocus` → Frame 12963 stroke #000000. Bind them to `color/gray/black` like the other InFocus rings. Note these rings are a 2px INSIDE stroke on a padded wrapper, while Button Primary uses a 2px OUTSIDE stroke.",
+  "**Icon size is not always 16×16** (spec: 16px square). Visible icon sizes: 14×14 ×16."
+ ],
+ "skeleton": "button-tertiary.html",
+ "paths": {
+  "md": "components/03-button-tertiary/button-tertiary.md",
+  "json": "components/03-button-tertiary/button-tertiary.json",
+  "html": "components/03-button-tertiary/button-tertiary.html",
+  "dir": "components/03-button-tertiary/"
+ }
+}

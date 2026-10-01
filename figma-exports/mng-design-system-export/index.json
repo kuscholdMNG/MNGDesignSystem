@@ -1,0 +1,1373 @@
+{
+ "schema": "mng/index@1",
+ "exported": "2026-09-24",
+ "sources": {
+  "homepage": {
+   "title": "Homepage components",
+   "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+   "page": "Homepage",
+   "source": "WordPress Elements ▸ Homepage ▸ Components (3334:42288)"
+  },
+  "menus-and-parts": {
+   "title": "Menus and Parts",
+   "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+   "page": "Menus and Parts",
+   "source": "WordPress Elements ▸ Menus and Parts ▸ Push Nav Section Menu, Frame 12634 (Mastheads), Frame 12776 (User & Account Menus), Frame 12804 (Breaking News), Frame 12774 (Footer)"
+  },
+  "form-fields": {
+   "title": "Form Fields",
+   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+   "page": "Form Fields | 2026.09.24",
+   "source": "MNG Design System ▸ Form Fields | 2026.09.24 (all components)"
+  }
+ },
+ "files": {
+  "b1iZxkFwtAYq9rElmnCAzd": "WordPress Elements",
+  "jFHYqhZbJjvWQmDI4myCsd": "MNG Design System"
+ },
+ "items": [
+  {
+   "order": 1,
+   "name": "Article Status Badge",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · 3 variants",
+   "variants": 3,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [],
+   "builtInto": [
+    "Zone 1 Lead Article Card",
+    "TopZone Article Card",
+    "Latest Headlines List Item",
+    "TOP ZONE Block",
+    "1Col Article Card",
+    "Photos Block"
+   ],
+   "md": "homepage/components/01-article-status-badge/article-status-badge.md",
+   "json": "homepage/components/01-article-status-badge/article-status-badge.json",
+   "html": "homepage/components/01-article-status-badge/article-status-badge.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3344:63995",
+   "issues": 4
+  },
+  {
+   "order": 2,
+   "name": "Related Article List Item",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · Standalone",
+   "variants": 1,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [],
+   "builtInto": [
+    "Zone 1 Lead Article Card"
+   ],
+   "md": "homepage/components/02-related-article-list-item/related-article-list-item.md",
+   "json": "homepage/components/02-related-article-list-item/related-article-list-item.json",
+   "html": "homepage/components/02-related-article-list-item/related-article-list-item.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3334:43017",
+   "issues": 1
+  },
+  {
+   "order": 3,
+   "name": "Article Image Placeholder",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · Standalone",
+   "variants": 1,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [],
+   "builtInto": [
+    "Zone 1 Lead Article Card",
+    "TopZone Article Card",
+    "Horizontal Thumbnail Card",
+    "TOP ZONE Block",
+    "Horizontal Feature Card",
+    "1Col Article Card",
+    "Feature + List Content Block",
+    "Photos Block"
+   ],
+   "md": "homepage/components/03-article-image-placeholder/article-image-placeholder.md",
+   "json": "homepage/components/03-article-image-placeholder/article-image-placeholder.json",
+   "html": "homepage/components/03-article-image-placeholder/article-image-placeholder.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3334:42380",
+   "issues": 2
+  },
+  {
+   "order": 4,
+   "name": "Zone 1 Lead Article Card",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · 3 variants",
+   "variants": 3,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Article Status Badge",
+    "Article Image Placeholder",
+    "Related Article List Item"
+   ],
+   "builtInto": [
+    "TOP ZONE Block"
+   ],
+   "md": "homepage/components/04-zone-1-lead-article-card/zone-1-lead-article-card.md",
+   "json": "homepage/components/04-zone-1-lead-article-card/zone-1-lead-article-card.json",
+   "html": "homepage/components/04-zone-1-lead-article-card/zone-1-lead-article-card.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3336:46157",
+   "issues": 2
+  },
+  {
+   "order": 5,
+   "name": "TopZone Article Card",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Article Image Placeholder",
+    "Article Status Badge"
+   ],
+   "builtInto": [
+    "TOP ZONE Block"
+   ],
+   "md": "homepage/components/05-topzone-article-card/topzone-article-card.md",
+   "json": "homepage/components/05-topzone-article-card/topzone-article-card.json",
+   "html": "homepage/components/05-topzone-article-card/topzone-article-card.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3336:46079",
+   "issues": 2
+  },
+  {
+   "order": 6,
+   "name": "Section Title / Eyebrow",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Icons"
+   ],
+   "builtInto": [
+    "Latest Headlines",
+    "Blueconic Block (Most Popular)",
+    "Section Rail Card",
+    "Photos Block"
+   ],
+   "md": "homepage/components/06-section-title-eyebrow/section-title-eyebrow.md",
+   "json": "homepage/components/06-section-title-eyebrow/section-title-eyebrow.json",
+   "html": "homepage/components/06-section-title-eyebrow/section-title-eyebrow.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3333:42278",
+   "issues": 1
+  },
+  {
+   "order": 7,
+   "name": "Latest Headlines List Item",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · 3 variants",
+   "variants": 3,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Article Status Badge"
+   ],
+   "builtInto": [
+    "Latest Headlines"
+   ],
+   "md": "homepage/components/07-latest-headlines-list-item/latest-headlines-list-item.md",
+   "json": "homepage/components/07-latest-headlines-list-item/latest-headlines-list-item.json",
+   "html": "homepage/components/07-latest-headlines-list-item/latest-headlines-list-item.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3336:46118",
+   "issues": 1
+  },
+  {
+   "order": 8,
+   "name": "Newsletter Signup",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Button Primary"
+   ],
+   "builtInto": [
+    "Latest Headlines"
+   ],
+   "md": "homepage/components/08-newsletter-signup/newsletter-signup.md",
+   "json": "homepage/components/08-newsletter-signup/newsletter-signup.json",
+   "html": "homepage/components/08-newsletter-signup/newsletter-signup.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3336:44765",
+   "issues": 0
+  },
+  {
+   "order": 9,
+   "name": "Latest Headlines",
+   "group": "homepage",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 3 variants",
+   "variants": 3,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Section Title / Eyebrow",
+    "Latest Headlines List Item",
+    "Newsletter Signup"
+   ],
+   "builtInto": [
+    "TOP ZONE Block"
+   ],
+   "md": "homepage/assemblies/09-latest-headlines/latest-headlines.md",
+   "json": "homepage/assemblies/09-latest-headlines/latest-headlines.json",
+   "html": "homepage/assemblies/09-latest-headlines/latest-headlines.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3476:62396",
+   "issues": 0
+  },
+  {
+   "order": 10,
+   "name": "Gallery Icon Badge",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · Standalone",
+   "variants": 1,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Icons"
+   ],
+   "builtInto": [
+    "Horizontal Thumbnail Card",
+    "Photos Block"
+   ],
+   "md": "homepage/components/10-gallery-icon-badge/gallery-icon-badge.md",
+   "json": "homepage/components/10-gallery-icon-badge/gallery-icon-badge.json",
+   "html": "homepage/components/10-gallery-icon-badge/gallery-icon-badge.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3362:2959",
+   "issues": 1
+  },
+  {
+   "order": 11,
+   "name": "Horizontal Thumbnail Card",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · 3 variants",
+   "variants": 3,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Article Image Placeholder",
+    "Gallery Icon Badge"
+   ],
+   "builtInto": [
+    "TOP ZONE Block",
+    "Photos Block"
+   ],
+   "md": "homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.md",
+   "json": "homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.json",
+   "html": "homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3362:2992",
+   "issues": 1
+  },
+  {
+   "order": 12,
+   "name": "TOP ZONE Block",
+   "group": "homepage",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 3 variants",
+   "variants": 3,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Zone 1 Lead Article Card",
+    "Article Image Placeholder",
+    "TopZone Article Card",
+    "Latest Headlines",
+    "Ad Blocks",
+    "Article Status Badge",
+    "Horizontal Thumbnail Card"
+   ],
+   "builtInto": [],
+   "md": "homepage/assemblies/12-top-zone-block/top-zone-block.md",
+   "json": "homepage/assemblies/12-top-zone-block/top-zone-block.json",
+   "html": "homepage/assemblies/12-top-zone-block/top-zone-block.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3352:19482",
+   "issues": 2
+  },
+  {
+   "order": 13,
+   "name": "Most Popular List Item",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · Standalone",
+   "variants": 1,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [],
+   "builtInto": [
+    "Blueconic Block (Most Popular)"
+   ],
+   "md": "homepage/components/13-most-popular-list-item/most-popular-list-item.md",
+   "json": "homepage/components/13-most-popular-list-item/most-popular-list-item.json",
+   "html": "homepage/components/13-most-popular-list-item/most-popular-list-item.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3352:24171",
+   "issues": 0
+  },
+  {
+   "order": 14,
+   "name": "Blueconic Block (Most Popular)",
+   "group": "homepage",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 3 variants",
+   "variants": 3,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Section Title / Eyebrow",
+    "Most Popular List Item"
+   ],
+   "builtInto": [],
+   "md": "homepage/assemblies/14-blueconic-block-most-popular/blueconic-block-most-popular.md",
+   "json": "homepage/assemblies/14-blueconic-block-most-popular/blueconic-block-most-popular.json",
+   "html": "homepage/assemblies/14-blueconic-block-most-popular/blueconic-block-most-popular.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3352:20526",
+   "issues": 2
+  },
+  {
+   "order": 15,
+   "name": "Horizontal Feature Card",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · Standalone",
+   "variants": 1,
+   "breakpoints": [
+    "768",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Article Image Placeholder"
+   ],
+   "builtInto": [
+    "Feature + List Content Block"
+   ],
+   "md": "homepage/components/15-horizontal-feature-card/horizontal-feature-card.md",
+   "json": "homepage/components/15-horizontal-feature-card/horizontal-feature-card.json",
+   "html": "homepage/components/15-horizontal-feature-card/horizontal-feature-card.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3362:3022",
+   "issues": 0
+  },
+  {
+   "order": 16,
+   "name": "1Col Article Card",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · Standalone",
+   "variants": 1,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Article Image Placeholder",
+    "Article Status Badge"
+   ],
+   "builtInto": [
+    "Feature + List Content Block",
+    "Section Rail Card",
+    "Photos Block"
+   ],
+   "md": "homepage/components/16-1col-article-card/1col-article-card.md",
+   "json": "homepage/components/16-1col-article-card/1col-article-card.json",
+   "html": "homepage/components/16-1col-article-card/1col-article-card.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3352:24163",
+   "issues": 0
+  },
+  {
+   "order": 17,
+   "name": "Feature + List Content Block",
+   "group": "homepage",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Horizontal Feature Card",
+    "1Col Article Card",
+    "Article Image Placeholder"
+   ],
+   "builtInto": [
+    "Section Rail Card"
+   ],
+   "md": "homepage/assemblies/17-feature-list-content-block/feature-list-content-block.md",
+   "json": "homepage/assemblies/17-feature-list-content-block/feature-list-content-block.json",
+   "html": "homepage/assemblies/17-feature-list-content-block/feature-list-content-block.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3484:66933",
+   "issues": 0
+  },
+  {
+   "order": 18,
+   "name": "Section Rail Card",
+   "group": "homepage",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 9 variants",
+   "variants": 9,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Section Title / Eyebrow",
+    "1Col Article Card",
+    "Feature + List Content Block"
+   ],
+   "builtInto": [],
+   "md": "homepage/assemblies/18-section-rail-card/section-rail-card.md",
+   "json": "homepage/assemblies/18-section-rail-card/section-rail-card.json",
+   "html": "homepage/assemblies/18-section-rail-card/section-rail-card.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3352:22067",
+   "issues": 0
+  },
+  {
+   "order": 19,
+   "name": "Video Tile Image Placeholder",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · Standalone",
+   "variants": 1,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [],
+   "builtInto": [
+    "Videos from OCRegister Carousel"
+   ],
+   "md": "homepage/components/19-video-tile-image-placeholder/video-tile-image-placeholder.md",
+   "json": "homepage/components/19-video-tile-image-placeholder/video-tile-image-placeholder.json",
+   "html": "homepage/components/19-video-tile-image-placeholder/video-tile-image-placeholder.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3419:55114",
+   "issues": 2
+  },
+  {
+   "order": 20,
+   "name": "Videos from OCRegister Carousel",
+   "group": "homepage",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 2 components",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Video Tile Image Placeholder"
+   ],
+   "builtInto": [],
+   "md": "homepage/assemblies/20-videos-from-ocregister-carousel/videos-from-ocregister-carousel.md",
+   "json": "homepage/assemblies/20-videos-from-ocregister-carousel/videos-from-ocregister-carousel.json",
+   "html": "homepage/assemblies/20-videos-from-ocregister-carousel/videos-from-ocregister-carousel.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3419:55122",
+   "issues": 2
+  },
+  {
+   "order": 21,
+   "name": "Show More Photos Affordance",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · Standalone",
+   "variants": 1,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [],
+   "builtInto": [
+    "Photos Block"
+   ],
+   "md": "homepage/components/21-show-more-photos-affordance/show-more-photos-affordance.md",
+   "json": "homepage/components/21-show-more-photos-affordance/show-more-photos-affordance.json",
+   "html": "homepage/components/21-show-more-photos-affordance/show-more-photos-affordance.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3352:24180",
+   "issues": 1
+  },
+  {
+   "order": 22,
+   "name": "Photos Block",
+   "group": "homepage",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 3 variants",
+   "variants": 3,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Section Title / Eyebrow",
+    "Article Image Placeholder",
+    "Article Status Badge",
+    "Horizontal Thumbnail Card",
+    "Show More Photos Affordance",
+    "Gallery Icon Badge",
+    "1Col Article Card"
+   ],
+   "builtInto": [],
+   "md": "homepage/assemblies/22-photos-block/photos-block.md",
+   "json": "homepage/assemblies/22-photos-block/photos-block.json",
+   "html": "homepage/assemblies/22-photos-block/photos-block.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3352:20865",
+   "issues": 5
+  },
+  {
+   "order": 23,
+   "name": "Upcoming Events Widget (768, 3 cards, 7 days)",
+   "group": "homepage",
+   "kind": "component",
+   "typeLabel": "Component · Standalone",
+   "variants": 1,
+   "breakpoints": [
+    "768"
+   ],
+   "builtFrom": [],
+   "builtInto": [
+    "Upcoming Events Block"
+   ],
+   "md": "homepage/components/23-upcoming-events-widget-768-3-cards-7-days/upcoming-events-widget-768-3-cards-7-days.md",
+   "json": "homepage/components/23-upcoming-events-widget-768-3-cards-7-days/upcoming-events-widget-768-3-cards-7-days.json",
+   "html": "homepage/components/23-upcoming-events-widget-768-3-cards-7-days/upcoming-events-widget-768-3-cards-7-days.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3445:57028",
+   "issues": 2
+  },
+  {
+   "order": 24,
+   "name": "Upcoming Events Block",
+   "group": "homepage",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 5 variants",
+   "variants": 5,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Ad Blocks",
+    "Upcoming Events Widget (768, 3 cards, 7 days)",
+    "Upcoming Events Widget"
+   ],
+   "builtInto": [],
+   "md": "homepage/assemblies/24-upcoming-events-block/upcoming-events-block.md",
+   "json": "homepage/assemblies/24-upcoming-events-block/upcoming-events-block.json",
+   "html": "homepage/assemblies/24-upcoming-events-block/upcoming-events-block.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "3476:59741",
+   "issues": 5
+  },
+  {
+   "order": 25,
+   "name": "Weather Bug",
+   "group": "menus-and-parts",
+   "kind": "component",
+   "typeLabel": "Component · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "tornado"
+   ],
+   "builtInto": [
+    "SectionMenuItem",
+    "Masthead"
+   ],
+   "md": "menus-and-parts/components/25-weather-bug/weather-bug.md",
+   "json": "menus-and-parts/components/25-weather-bug/weather-bug.json",
+   "html": "menus-and-parts/components/25-weather-bug/weather-bug.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "654:10020",
+   "issues": 2
+  },
+  {
+   "order": 26,
+   "name": "SectionMenuHeader",
+   "group": "menus-and-parts",
+   "kind": "component",
+   "typeLabel": "Component · 6 variants",
+   "variants": 6,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Icons"
+   ],
+   "builtInto": [
+    "SectionMenu"
+   ],
+   "md": "menus-and-parts/components/26-sectionmenuheader/sectionmenuheader.md",
+   "json": "menus-and-parts/components/26-sectionmenuheader/sectionmenuheader.json",
+   "html": "menus-and-parts/components/26-sectionmenuheader/sectionmenuheader.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "456:5745",
+   "issues": 2
+  },
+  {
+   "order": 27,
+   "name": "AlertLevel",
+   "group": "menus-and-parts",
+   "kind": "component",
+   "typeLabel": "Component · 8 variants",
+   "variants": 8,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024"
+   ],
+   "builtFrom": [],
+   "builtInto": [
+    "UserPic"
+   ],
+   "md": "menus-and-parts/components/27-alertlevel/alertlevel.md",
+   "json": "menus-and-parts/components/27-alertlevel/alertlevel.json",
+   "html": "menus-and-parts/components/27-alertlevel/alertlevel.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "456:5683",
+   "issues": 1
+  },
+  {
+   "order": 28,
+   "name": "UserImage",
+   "group": "menus-and-parts",
+   "kind": "component",
+   "typeLabel": "Component · 12 variants",
+   "variants": 12,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024"
+   ],
+   "builtFrom": [
+    "Icons"
+   ],
+   "builtInto": [
+    "UserPic"
+   ],
+   "md": "menus-and-parts/components/28-userimage/userimage.md",
+   "json": "menus-and-parts/components/28-userimage/userimage.json",
+   "html": "menus-and-parts/components/28-userimage/userimage.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "456:5708",
+   "issues": 2
+  },
+  {
+   "order": 29,
+   "name": "SearchBar",
+   "group": "menus-and-parts",
+   "kind": "component",
+   "typeLabel": "Component · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Icons"
+   ],
+   "builtInto": [],
+   "md": "menus-and-parts/components/29-searchbar/searchbar.md",
+   "json": "menus-and-parts/components/29-searchbar/searchbar.json",
+   "html": "menus-and-parts/components/29-searchbar/searchbar.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "456:5910",
+   "issues": 2
+  },
+  {
+   "order": 30,
+   "name": "Breaking News Banner",
+   "group": "menus-and-parts",
+   "kind": "component",
+   "typeLabel": "Component · 3 variants",
+   "variants": 3,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Icons"
+   ],
+   "builtInto": [],
+   "md": "menus-and-parts/components/30-breaking-news-banner/breaking-news-banner.md",
+   "json": "menus-and-parts/components/30-breaking-news-banner/breaking-news-banner.json",
+   "html": "menus-and-parts/components/30-breaking-news-banner/breaking-news-banner.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "506:5632",
+   "issues": 1
+  },
+  {
+   "order": 31,
+   "name": "Footer",
+   "group": "menus-and-parts",
+   "kind": "component",
+   "typeLabel": "Component · 5 variants",
+   "variants": 5,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Icons",
+    "Button Primary"
+   ],
+   "builtInto": [],
+   "md": "menus-and-parts/components/31-footer/footer.md",
+   "json": "menus-and-parts/components/31-footer/footer.json",
+   "html": "menus-and-parts/components/31-footer/footer.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "354:1282",
+   "issues": 3
+  },
+  {
+   "order": 32,
+   "name": "SectionMenuItem",
+   "group": "menus-and-parts",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 9 variants",
+   "variants": 9,
+   "breakpoints": [],
+   "builtFrom": [
+    "Button Primary",
+    "Weather Bug",
+    "Icons"
+   ],
+   "builtInto": [
+    "SectionMenu"
+   ],
+   "md": "menus-and-parts/assemblies/32-sectionmenuitem/sectionmenuitem.md",
+   "json": "menus-and-parts/assemblies/32-sectionmenuitem/sectionmenuitem.json",
+   "html": "menus-and-parts/assemblies/32-sectionmenuitem/sectionmenuitem.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "456:5781",
+   "issues": 1
+  },
+  {
+   "order": 33,
+   "name": "UserPic",
+   "group": "menus-and-parts",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 6 variants",
+   "variants": 6,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024"
+   ],
+   "builtFrom": [
+    "UserImage",
+    "AlertLevel"
+   ],
+   "builtInto": [
+    "UserStatus"
+   ],
+   "md": "menus-and-parts/assemblies/33-userpic/userpic.md",
+   "json": "menus-and-parts/assemblies/33-userpic/userpic.json",
+   "html": "menus-and-parts/assemblies/33-userpic/userpic.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "456:5674",
+   "issues": 1
+  },
+  {
+   "order": 34,
+   "name": "SectionMenu",
+   "group": "menus-and-parts",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 15 variants",
+   "variants": 15,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "SectionMenuHeader",
+    "SectionMenuItem"
+   ],
+   "builtInto": [
+    "Masthead"
+   ],
+   "md": "menus-and-parts/assemblies/34-sectionmenu/sectionmenu.md",
+   "json": "menus-and-parts/assemblies/34-sectionmenu/sectionmenu.json",
+   "html": "menus-and-parts/assemblies/34-sectionmenu/sectionmenu.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "456:5837",
+   "issues": 3
+  },
+  {
+   "order": 35,
+   "name": "UserStatus",
+   "group": "menus-and-parts",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 4 variants",
+   "variants": 4,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Button Primary",
+    "UserPic"
+   ],
+   "builtInto": [],
+   "md": "menus-and-parts/assemblies/35-userstatus/userstatus.md",
+   "json": "menus-and-parts/assemblies/35-userstatus/userstatus.json",
+   "html": "menus-and-parts/assemblies/35-userstatus/userstatus.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "456:5728",
+   "issues": 3
+  },
+  {
+   "order": 36,
+   "name": "Masthead",
+   "group": "menus-and-parts",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 75 variants",
+   "variants": 75,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "SectionMenu",
+    "AccountMenu",
+    "Weather Bug",
+    "Ad Blocks",
+    "tornado",
+    "SocialButtons",
+    "Icons",
+    "NavMenu"
+   ],
+   "builtInto": [],
+   "md": "menus-and-parts/assemblies/36-masthead/masthead.md",
+   "json": "menus-and-parts/assemblies/36-masthead/masthead.json",
+   "html": "menus-and-parts/assemblies/36-masthead/masthead.html",
+   "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
+   "figmaNode": "456:2572",
+   "issues": 9
+  },
+  {
+   "order": 37,
+   "name": "Form Field",
+   "group": "form-fields",
+   "kind": "component",
+   "typeLabel": "Component · 10 variants",
+   "variants": 10,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Icons"
+   ],
+   "builtInto": [],
+   "md": "form-fields/components/37-form-field/form-field.md",
+   "json": "form-fields/components/37-form-field/form-field.json",
+   "html": "form-fields/components/37-form-field/form-field.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "6963:6863",
+   "issues": 5
+  },
+  {
+   "order": 38,
+   "name": "Code Box",
+   "group": "form-fields",
+   "kind": "component",
+   "typeLabel": "Component · 10 variants",
+   "variants": 10,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [],
+   "builtInto": [
+    "Form Field Assembly / Verification Code"
+   ],
+   "md": "form-fields/components/38-code-box/code-box.md",
+   "json": "form-fields/components/38-code-box/code-box.json",
+   "html": "form-fields/components/38-code-box/code-box.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "6964:7032",
+   "issues": 2
+  },
+  {
+   "order": 39,
+   "name": "Form Field Assembly / Checkbox + Terms",
+   "group": "form-fields",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "CheckBox"
+   ],
+   "builtInto": [],
+   "md": "form-fields/assemblies/39-form-field-assembly-checkbox-terms/form-field-assembly-checkbox-terms.md",
+   "json": "form-fields/assemblies/39-form-field-assembly-checkbox-terms/form-field-assembly-checkbox-terms.json",
+   "html": "form-fields/assemblies/39-form-field-assembly-checkbox-terms/form-field-assembly-checkbox-terms.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "7003:29236",
+   "issues": 1
+  },
+  {
+   "order": 40,
+   "name": "Search Field / Obituaries — Core",
+   "group": "form-fields",
+   "kind": "component",
+   "typeLabel": "Component · Standalone",
+   "variants": 1,
+   "breakpoints": [],
+   "builtFrom": [],
+   "builtInto": [
+    "Search Field / Obituaries"
+   ],
+   "md": "form-fields/components/40-search-field-obituaries-core/search-field-obituaries-core.md",
+   "json": "form-fields/components/40-search-field-obituaries-core/search-field-obituaries-core.json",
+   "html": "form-fields/components/40-search-field-obituaries-core/search-field-obituaries-core.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "6995:27285",
+   "issues": 0
+  },
+  {
+   "order": 41,
+   "name": "Form Field (Dashboard Mockup Set)",
+   "group": "form-fields",
+   "kind": "component",
+   "typeLabel": "Component · 102 variants",
+   "variants": 102,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "CheckBox",
+    "Icons",
+    "Button Linkstyle"
+   ],
+   "builtInto": [
+    "Form Field Assembly / Name pair",
+    "Form Field Assembly / Zip + Street #",
+    "Form Field Assembly / Zip + Phone",
+    "Form Field Assembly / Address block",
+    "Form Field Assembly / CC details",
+    "Form Field Assembly / Password"
+   ],
+   "md": "form-fields/components/41-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.md",
+   "json": "form-fields/components/41-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.json",
+   "html": "form-fields/components/41-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "2832:766",
+   "issues": 2
+  },
+  {
+   "order": 42,
+   "name": "Form Field Assembly / Name pair",
+   "group": "form-fields",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Form Field"
+   ],
+   "builtInto": [],
+   "md": "form-fields/assemblies/42-form-field-assembly-name-pair/form-field-assembly-name-pair.md",
+   "json": "form-fields/assemblies/42-form-field-assembly-name-pair/form-field-assembly-name-pair.json",
+   "html": "form-fields/assemblies/42-form-field-assembly-name-pair/form-field-assembly-name-pair.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "7003:28636",
+   "issues": 1
+  },
+  {
+   "order": 43,
+   "name": "Form Field Assembly / Zip + Street #",
+   "group": "form-fields",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Form Field"
+   ],
+   "builtInto": [],
+   "md": "form-fields/assemblies/43-form-field-assembly-zip-street/form-field-assembly-zip-street.md",
+   "json": "form-fields/assemblies/43-form-field-assembly-zip-street/form-field-assembly-zip-street.json",
+   "html": "form-fields/assemblies/43-form-field-assembly-zip-street/form-field-assembly-zip-street.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "7003:28651",
+   "issues": 1
+  },
+  {
+   "order": 44,
+   "name": "Form Field Assembly / Zip + Phone",
+   "group": "form-fields",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Form Field"
+   ],
+   "builtInto": [],
+   "md": "form-fields/assemblies/44-form-field-assembly-zip-phone/form-field-assembly-zip-phone.md",
+   "json": "form-fields/assemblies/44-form-field-assembly-zip-phone/form-field-assembly-zip-phone.json",
+   "html": "form-fields/assemblies/44-form-field-assembly-zip-phone/form-field-assembly-zip-phone.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "7003:28666",
+   "issues": 1
+  },
+  {
+   "order": 45,
+   "name": "Form Field Assembly / Address block",
+   "group": "form-fields",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Form Field"
+   ],
+   "builtInto": [],
+   "md": "form-fields/assemblies/45-form-field-assembly-address-block/form-field-assembly-address-block.md",
+   "json": "form-fields/assemblies/45-form-field-assembly-address-block/form-field-assembly-address-block.json",
+   "html": "form-fields/assemblies/45-form-field-assembly-address-block/form-field-assembly-address-block.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "7003:28741",
+   "issues": 1
+  },
+  {
+   "order": 46,
+   "name": "Form Field Assembly / CC details",
+   "group": "form-fields",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Form Field"
+   ],
+   "builtInto": [],
+   "md": "form-fields/assemblies/46-form-field-assembly-cc-details/form-field-assembly-cc-details.md",
+   "json": "form-fields/assemblies/46-form-field-assembly-cc-details/form-field-assembly-cc-details.json",
+   "html": "form-fields/assemblies/46-form-field-assembly-cc-details/form-field-assembly-cc-details.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "7003:28816",
+   "issues": 0
+  },
+  {
+   "order": 47,
+   "name": "Form Field Assembly / Password",
+   "group": "form-fields",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Form Field"
+   ],
+   "builtInto": [],
+   "md": "form-fields/assemblies/47-form-field-assembly-password/form-field-assembly-password.md",
+   "json": "form-fields/assemblies/47-form-field-assembly-password/form-field-assembly-password.json",
+   "html": "form-fields/assemblies/47-form-field-assembly-password/form-field-assembly-password.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "7003:28940",
+   "issues": 1
+  },
+  {
+   "order": 48,
+   "name": "Form Field Assembly / Verification Code",
+   "group": "form-fields",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Code Box"
+   ],
+   "builtInto": [],
+   "md": "form-fields/assemblies/48-form-field-assembly-verification-code/form-field-assembly-verification-code.md",
+   "json": "form-fields/assemblies/48-form-field-assembly-verification-code/form-field-assembly-verification-code.json",
+   "html": "form-fields/assemblies/48-form-field-assembly-verification-code/form-field-assembly-verification-code.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "7003:29223",
+   "issues": 1
+  },
+  {
+   "order": 49,
+   "name": "Search Field / Obituaries",
+   "group": "form-fields",
+   "kind": "assembly",
+   "typeLabel": "Assembly · 2 variants",
+   "variants": 2,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [
+    "Search Field / Obituaries — Core"
+   ],
+   "builtInto": [],
+   "md": "form-fields/assemblies/49-search-field-obituaries/search-field-obituaries.md",
+   "json": "form-fields/assemblies/49-search-field-obituaries/search-field-obituaries.json",
+   "html": "form-fields/assemblies/49-search-field-obituaries/search-field-obituaries.html",
+   "figmaFile": "jFHYqhZbJjvWQmDI4myCsd",
+   "figmaNode": "6996:27351",
+   "issues": 1
+  }
+ ],
+ "templates": []
+}

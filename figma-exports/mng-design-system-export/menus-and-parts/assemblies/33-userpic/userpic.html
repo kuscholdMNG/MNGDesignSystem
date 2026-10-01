@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UserPic — skeleton</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../tokens.css">
+<style>
+*{box-sizing:border-box} body{margin:0;padding:24px;background:#f4f4f4;font-family:'Noto Sans',sans-serif;color:#141414}
+[hidden]{display:none!important}
+.skel-variant{margin:0 0 40px} .skel-variant>h1{font:600 13px/1.4 monospace;color:#555;margin:0 0 8px}
+.skel-stage{background:#fff;display:inline-block;outline:1px solid #ddd}
+.mng-userpic__size-small-status-default{width:30px;min-height:30px;position:relative;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-userpic__userimage{width:30px;flex-shrink:0;height:30px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;border-radius:80px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__alertlevel{position:absolute;left:22px;top:22px;width:8px;height:8px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__alertlevel-2{position:absolute;left:0px;top:0px;width:8px;height:8px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__size-small-status-active{width:30px;min-height:30px;position:relative;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-userpic__userimage-2{width:30px;flex-shrink:0;height:30px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;border-radius:80px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__alertlevel-3{position:absolute;left:22px;top:22px;width:8px;height:8px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__alertlevel-4{position:absolute;left:0px;top:0px;width:8px;height:8px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__size-medium-status-default{width:40px;min-height:40px;position:relative;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-userpic__userimage-3{width:40px;flex-shrink:0;height:40px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;border-radius:80px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__alertlevel-5{position:absolute;left:32px;top:32px;width:8px;height:8px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__alertlevel-6{position:absolute;left:0px;top:0px;width:8px;height:8px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__size-medium-status-active{width:40px;min-height:40px;position:relative;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-userpic__userimage-4{width:40px;flex-shrink:0;height:40px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;border-radius:80px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__alertlevel-7{position:absolute;left:32px;top:32px;width:8px;height:8px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__alertlevel-8{position:absolute;left:0px;top:0px;width:8px;height:8px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__size-large-status-default{width:64px;min-height:64px;position:relative;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-userpic__userimage-5{width:64px;flex-shrink:0;height:64px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;border-radius:80px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__alertlevel-9{position:absolute;left:48px;top:48px;width:16px;height:16px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__alertlevel-10{position:absolute;left:0px;top:0px;width:16px;height:16px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__size-large-status-active{width:64px;min-height:64px;position:relative;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-userpic__userimage-6{width:64px;flex-shrink:0;height:64px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;border-radius:80px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__alertlevel-11{position:absolute;left:48px;top:48px;width:16px;height:16px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-userpic__alertlevel-12{position:absolute;left:0px;top:0px;width:16px;height:16px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+</style></head>
+<body>
+<!-- Structural skeleton generated from Figma auto-layout. Instances are dashed placeholders; open the referenced file to render them. -->
+<section class="skel-variant" data-variant="Size=Small, Status=Default">
+  <h1>UserPic · Size=Small, Status=Default · 30×30</h1>
+  <div class="skel-stage">
+    <div class="mng-userpic__size-small-status-default" data-layer="Size=Small, Status=Default">
+      <!-- instance of "UserImage" → menus-and-parts/components/28-userimage/userimage.html -->
+      <div class="mng-userpic__userimage" data-component="UserImage" data-variant="Size=small, Graphic=social" data-label="UserImage">UserImage · Size=small, Graphic=social</div>
+      <!-- instance of "AlertLevel" → menus-and-parts/components/27-alertlevel/alertlevel.html -->
+      <div class="mng-userpic__alertlevel" data-component="AlertLevel" data-variant="Level=low, Size=Small" data-label="AlertLevel">AlertLevel · Level=low, Size=Small</div>
+      <!-- instance of "AlertLevel" → menus-and-parts/components/27-alertlevel/alertlevel.html -->
+      <div class="mng-userpic__alertlevel-2" data-component="AlertLevel" data-variant="Level=none, Size=Small" data-label="AlertLevel">AlertLevel · Level=none, Size=Small</div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Small, Status=Active">
+  <h1>UserPic · Size=Small, Status=Active · 30×30</h1>
+  <div class="skel-stage">
+    <div class="mng-userpic__size-small-status-active" data-layer="Size=Small, Status=Active">
+      <!-- instance of "UserImage" → menus-and-parts/components/28-userimage/userimage.html -->
+      <div class="mng-userpic__userimage-2" data-component="UserImage" data-variant="Size=small, Graphic=social" data-label="UserImage">UserImage · Size=small, Graphic=social</div>
+      <!-- instance of "AlertLevel" → menus-and-parts/components/27-alertlevel/alertlevel.html -->
+      <div class="mng-userpic__alertlevel-3" data-component="AlertLevel" data-variant="Level=low, Size=Small" data-label="AlertLevel">AlertLevel · Level=low, Size=Small</div>
+      <!-- instance of "AlertLevel" → menus-and-parts/components/27-alertlevel/alertlevel.html -->
+      <div class="mng-userpic__alertlevel-4" data-component="AlertLevel" data-variant="Level=low, Size=Small" data-label="AlertLevel">AlertLevel · Level=low, Size=Small</div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Medium, Status=Default">
+  <h1>UserPic · Size=Medium, Status=Default · 40×40</h1>
+  <div class="skel-stage">
+    <div class="mng-userpic__size-medium-status-default" data-layer="Size=Medium, Status=Default">
+      <!-- instance of "UserImage" → menus-and-parts/components/28-userimage/userimage.html -->
+      <div class="mng-userpic__userimage-3" data-component="UserImage" data-variant="Size=medium, Graphic=social" data-label="UserImage">UserImage · Size=medium, Graphic=social</div>
+      <!-- instance of "AlertLevel" → menus-and-parts/components/27-alertlevel/alertlevel.html -->
+      <div class="mng-userpic__alertlevel-5" data-component="AlertLevel" data-variant="Level=low, Size=Small" data-label="AlertLevel">AlertLevel · Level=low, Size=Small</div>
+      <!-- instance of "AlertLevel" → menus-and-parts/components/27-alertlevel/alertlevel.html -->
+      <div class="mng-userpic__alertlevel-6" data-component="AlertLevel" data-variant="Level=none, Size=Small" data-label="AlertLevel">AlertLevel · Level=none, Size=Small</div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Medium, Status=Active">
+  <h1>UserPic · Size=Medium, Status=Active · 40×40</h1>
+  <div class="skel-stage">
+    <div class="mng-userpic__size-medium-status-active" data-layer="Size=Medium, Status=Active">
+      <!-- instance of "UserImage" → menus-and-parts/components/28-userimage/userimage.html -->
+      <div class="mng-userpic__userimage-4" data-component="UserImage" data-variant="Size=medium, Graphic=social" data-label="UserImage">UserImage · Size=medium, Graphic=social</div>
+      <!-- instance of "AlertLevel" → menus-and-parts/components/27-alertlevel/alertlevel.html -->
+      <div class="mng-userpic__alertlevel-7" data-component="AlertLevel" data-variant="Level=low, Size=Small" data-label="AlertLevel">AlertLevel · Level=low, Size=Small</div>
+      <!-- instance of "AlertLevel" → menus-and-parts/components/27-alertlevel/alertlevel.html -->
+      <div class="mng-userpic__alertlevel-8" data-component="AlertLevel" data-variant="Level=low, Size=Small" data-label="AlertLevel">AlertLevel · Level=low, Size=Small</div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Large, Status=Default">
+  <h1>UserPic · Size=Large, Status=Default · 64×64</h1>
+  <div class="skel-stage">
+    <div class="mng-userpic__size-large-status-default" data-layer="Size=Large, Status=Default">
+      <!-- instance of "UserImage" → menus-and-parts/components/28-userimage/userimage.html -->
+      <div class="mng-userpic__userimage-5" data-component="UserImage" data-variant="Size=large, Graphic=social" data-label="UserImage">UserImage · Size=large, Graphic=social</div>
+      <!-- instance of "AlertLevel" → menus-and-parts/components/27-alertlevel/alertlevel.html -->
+      <div class="mng-userpic__alertlevel-9" data-component="AlertLevel" data-variant="Level=low, Size=Large" data-label="AlertLevel">AlertLevel · Level=low, Size=Large</div>
+      <!-- instance of "AlertLevel" → menus-and-parts/components/27-alertlevel/alertlevel.html -->
+      <div class="mng-userpic__alertlevel-10" data-component="AlertLevel" data-variant="Level=none, Size=Large" data-label="AlertLevel">AlertLevel · Level=none, Size=Large</div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Large, Status=Active">
+  <h1>UserPic · Size=Large, Status=Active · 64×64</h1>
+  <div class="skel-stage">
+    <div class="mng-userpic__size-large-status-active" data-layer="Size=Large, Status=Active">
+      <!-- instance of "UserImage" → menus-and-parts/components/28-userimage/userimage.html -->
+      <div class="mng-userpic__userimage-6" data-component="UserImage" data-variant="Size=large, Graphic=social" data-label="UserImage">UserImage · Size=large, Graphic=social</div>
+      <!-- instance of "AlertLevel" → menus-and-parts/components/27-alertlevel/alertlevel.html -->
+      <div class="mng-userpic__alertlevel-11" data-component="AlertLevel" data-variant="Level=low, Size=Large" data-label="AlertLevel">AlertLevel · Level=low, Size=Large</div>
+      <!-- instance of "AlertLevel" → menus-and-parts/components/27-alertlevel/alertlevel.html -->
+      <div class="mng-userpic__alertlevel-12" data-component="AlertLevel" data-variant="Level=low, Size=Large" data-label="AlertLevel">AlertLevel · Level=low, Size=Large</div>
+    </div>
+  </div>
+</section>
+</body></html>

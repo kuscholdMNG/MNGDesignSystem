@@ -1,0 +1,2082 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "assembly",
+ "group": "homepage",
+ "name": "Blueconic Block (Most Popular)",
+ "slug": "blueconic-block-most-popular",
+ "order": 14,
+ "typeLabel": "Assembly · 3 variants",
+ "description": "Component set · Variant: Device = Desktop, Mobile · reused as instances in the assembled Desktop and Mobile pages and in both raw section libraries.",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3352:20526",
+  "mainKey": "82f5635bacf305c14f58abc48d2f3eadf4a3258f",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-20526",
+  "variants": [
+   {
+    "label": "Device=Mobile",
+    "id": "3352:20525",
+    "key": "2369e9662f5695c6f298f9e06e82f7a206147afa",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-20525"
+   },
+   {
+    "label": "Device=Tablet",
+    "id": "3383:46926",
+    "key": "fb617dc46b7ad6d451fe1864c6f5a29eeca9dc9c",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46926"
+   },
+   {
+    "label": "Device=Desktop",
+    "id": "3352:20524",
+    "key": "acff982b4c1448f9efd7dc4e472a3a4a60e0db18",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-20524"
+   }
+  ]
+ },
+ "properties": {
+  "Device": {
+   "type": "VARIANT",
+   "default": "Mobile",
+   "options": [
+    "Desktop",
+    "Mobile",
+    "Tablet"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "340 HomePage",
+   "768 HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [],
+  "perVariant": [
+   {
+    "label": "Device=Mobile",
+    "id": "3352:20525",
+    "templatesDirect": {
+     "Mobile HomePage": 1,
+     "340 HomePage": 1
+    },
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "340",
+     "360"
+    ],
+    "observedBreakpoints": [
+     "340",
+     "360"
+    ],
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   },
+   {
+    "label": "Device=Tablet",
+    "id": "3383:46926",
+    "templatesDirect": {
+     "768 HomePage": 1
+    },
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "768"
+    ],
+    "observedBreakpoints": [
+     "768"
+    ],
+    "breakpoints": [
+     "768"
+    ]
+   },
+   {
+    "label": "Device=Desktop",
+    "id": "3352:20524",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "observedBreakpoints": [],
+    "breakpoints": [
+     "1024",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Section Title / Eyebrow",
+    "count": 3,
+    "inExport": true,
+    "section": "Section Title / Eyebrow",
+    "path": "../../components/06-section-title-eyebrow/section-title-eyebrow.md"
+   },
+   {
+    "name": "Most Popular List Item",
+    "count": 30,
+    "inExport": true,
+    "section": "Most Popular List Item",
+    "path": "../../components/13-most-popular-list-item/most-popular-list-item.md"
+   }
+  ],
+  "builtInto": []
+ },
+ "variants": [
+  {
+   "label": "Device=Mobile",
+   "variantProperties": {
+    "Device": "Mobile"
+   },
+   "id": "3352:20525",
+   "key": "2369e9662f5695c6f298f9e06e82f7a206147afa",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-20525",
+   "width": 438,
+   "height": 610,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 16,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/blueconic-block-most-popular--mobile.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Device=Mobile",
+    "type": "COMPONENT",
+    "id": "3352:20525",
+    "w": 438,
+    "h": 610,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 16,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF"
+     }
+    ],
+    "children": [
+     {
+      "name": "Content Container",
+      "type": "FRAME",
+      "id": "3352:20475",
+      "w": 438,
+      "h": 610,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        16,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF"
+       }
+      ],
+      "children": [
+       {
+        "name": "Blueconic Header MOBILE",
+        "type": "FRAME",
+        "id": "3352:20476",
+        "w": 438,
+        "h": 30,
+        "x": 0,
+        "y": 16,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF"
+         }
+        ],
+        "children": [
+         {
+          "name": "Section Title / Eyebrow",
+          "type": "INSTANCE",
+          "id": "3352:20477",
+          "w": 438,
+          "h": 30,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "component": "Section Title / Eyebrow",
+          "variant": {
+           "Style": "Underline"
+          },
+          "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+          "mainId": "3326:41622",
+          "props": {
+           "Chevron": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "List Container",
+        "type": "FRAME",
+        "id": "3352:20478",
+        "w": 438,
+        "h": 548,
+        "x": 0,
+        "y": 46,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          16,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF"
+         }
+        ],
+        "children": [
+         {
+          "name": "1st Column",
+          "type": "FRAME",
+          "id": "3352:20479",
+          "w": 438,
+          "h": 516,
+          "x": 0,
+          "y": 16,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "children": [
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24333",
+            "w": 438,
+            "h": 44,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24348",
+            "w": 438,
+            "h": 44,
+            "x": 0,
+            "y": 50,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24363",
+            "w": 438,
+            "h": 44,
+            "x": 0,
+            "y": 100,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24378",
+            "w": 438,
+            "h": 44,
+            "x": 0,
+            "y": 150,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24393",
+            "w": 438,
+            "h": 44,
+            "x": 0,
+            "y": 200,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24408",
+            "w": 438,
+            "h": 44,
+            "x": 0,
+            "y": 250,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24423",
+            "w": 438,
+            "h": 44,
+            "x": 0,
+            "y": 300,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24438",
+            "w": 438,
+            "h": 66,
+            "x": 0,
+            "y": 350,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24453",
+            "w": 438,
+            "h": 44,
+            "x": 0,
+            "y": 422,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24468",
+            "w": 438,
+            "h": 44,
+            "x": 0,
+            "y": 472,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "2369e9662f5695c6f298f9e06e82f7a206147afa",
+    "variantProperties": {
+     "Device": "Mobile"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=Tablet",
+   "variantProperties": {
+    "Device": "Tablet"
+   },
+   "id": "3383:46926",
+   "key": "fb617dc46b7ad6d451fe1864c6f5a29eeca9dc9c",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46926",
+   "width": 748,
+   "height": 382,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 16,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/blueconic-block-most-popular--tablet.png",
+   "breakpoints": [
+    "768"
+   ],
+   "layerTree": {
+    "name": "Device=Tablet",
+    "type": "COMPONENT",
+    "id": "3383:46926",
+    "w": 748,
+    "h": 382,
+    "x": 470,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 16,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF"
+     }
+    ],
+    "children": [
+     {
+      "name": "Content Container",
+      "type": "FRAME",
+      "id": "3383:46927",
+      "w": 748,
+      "h": 382,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        16,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF"
+       }
+      ],
+      "children": [
+       {
+        "name": "Blueconic Header MOBILE",
+        "type": "FRAME",
+        "id": "3383:46928",
+        "w": 748,
+        "h": 30,
+        "x": 0,
+        "y": 16,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF"
+         }
+        ],
+        "children": [
+         {
+          "name": "Section Title / Eyebrow",
+          "type": "INSTANCE",
+          "id": "3383:46929",
+          "w": 748,
+          "h": 30,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "component": "Section Title / Eyebrow",
+          "variant": {
+           "Style": "Underline"
+          },
+          "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+          "mainId": "3326:41622",
+          "props": {
+           "Chevron": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "List Container",
+        "type": "FRAME",
+        "id": "3383:46930",
+        "w": 748,
+        "h": 320,
+        "x": 0,
+        "y": 46,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          16,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF"
+         }
+        ],
+        "children": [
+         {
+          "name": "1st Column",
+          "type": "FRAME",
+          "id": "3383:46931",
+          "w": 366,
+          "h": 266,
+          "x": 0,
+          "y": 16,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "children": [
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3383:46932",
+            "w": 366,
+            "h": 44,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3383:46933",
+            "w": 366,
+            "h": 44,
+            "x": 0,
+            "y": 50,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3383:46934",
+            "w": 366,
+            "h": 66,
+            "x": 0,
+            "y": 100,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3383:46935",
+            "w": 366,
+            "h": 44,
+            "x": 0,
+            "y": 172,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3383:46936",
+            "w": 366,
+            "h": 44,
+            "x": 0,
+            "y": 222,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           }
+          ]
+         },
+         {
+          "name": "2nd Column",
+          "type": "FRAME",
+          "id": "3460:58350",
+          "w": 366,
+          "h": 288,
+          "x": 382,
+          "y": 16,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "children": [
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3383:46937",
+            "w": 366,
+            "h": 44,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3383:46938",
+            "w": 366,
+            "h": 66,
+            "x": 0,
+            "y": 50,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3383:46939",
+            "w": 366,
+            "h": 66,
+            "x": 0,
+            "y": 122,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3383:46940",
+            "w": 366,
+            "h": 44,
+            "x": 0,
+            "y": 194,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3383:46941",
+            "w": 366,
+            "h": 44,
+            "x": 0,
+            "y": 244,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "fb617dc46b7ad6d451fe1864c6f5a29eeca9dc9c",
+    "variantProperties": {
+     "Device": "Tablet"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=Desktop",
+   "variantProperties": {
+    "Device": "Desktop"
+   },
+   "id": "3352:20524",
+   "key": "acff982b4c1448f9efd7dc4e472a3a4a60e0db18",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-20524",
+   "width": 1280,
+   "height": 600,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 16,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/blueconic-block-most-popular--desktop.png",
+   "breakpoints": [
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Device=Desktop",
+    "type": "COMPONENT",
+    "id": "3352:20524",
+    "w": 1280,
+    "h": 600,
+    "x": 1234,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 16,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Content Container",
+      "type": "FRAME",
+      "id": "3352:20426",
+      "w": 1280,
+      "h": 302,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        16,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "children": [
+       {
+        "name": "Blueconic 3Col Header",
+        "type": "FRAME",
+        "id": "3352:20427",
+        "w": 1280,
+        "h": 30,
+        "x": 0,
+        "y": 16,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "children": [
+         {
+          "name": "Section Title / Eyebrow",
+          "type": "INSTANCE",
+          "id": "3352:20428",
+          "w": 1280,
+          "h": 30,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "component": "Section Title / Eyebrow",
+          "variant": {
+           "Style": "Underline"
+          },
+          "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+          "mainId": "3326:41622",
+          "props": {
+           "Chevron": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Items Container",
+        "type": "FRAME",
+        "id": "3352:20429",
+        "w": 1280,
+        "h": 240,
+        "x": 0,
+        "y": 46,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          16,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "children": [
+         {
+          "name": "1st Column",
+          "type": "FRAME",
+          "id": "3352:20430",
+          "w": 632,
+          "h": 196,
+          "x": 0,
+          "y": 16,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "children": [
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24183",
+            "w": 632,
+            "h": 32,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24198",
+            "w": 632,
+            "h": 32,
+            "x": 0,
+            "y": 38,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24213",
+            "w": 632,
+            "h": 44,
+            "x": 0,
+            "y": 76,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24228",
+            "w": 632,
+            "h": 32,
+            "x": 0,
+            "y": 126,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24243",
+            "w": 632,
+            "h": 32,
+            "x": 0,
+            "y": 164,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           }
+          ]
+         },
+         {
+          "name": "2nd Column",
+          "type": "FRAME",
+          "id": "3352:20452",
+          "w": 632,
+          "h": 208,
+          "x": 648,
+          "y": 16,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "children": [
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24258",
+            "w": 632,
+            "h": 32,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24273",
+            "w": 632,
+            "h": 44,
+            "x": 0,
+            "y": 38,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24288",
+            "w": 632,
+            "h": 44,
+            "x": 0,
+            "y": 88,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24303",
+            "w": 632,
+            "h": 32,
+            "x": 0,
+            "y": 138,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           },
+           {
+            "name": "Most Popular List Item",
+            "type": "INSTANCE",
+            "id": "3352:24318",
+            "w": 632,
+            "h": 32,
+            "x": 0,
+            "y": 176,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 12,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "CENTER"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
+             }
+            ],
+            "component": "Most Popular List Item",
+            "componentKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+            "mainId": "3352:24171"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "acff982b4c1448f9efd7dc4e472a3a4a60e0db18",
+    "variantProperties": {
+     "Device": "Desktop"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [],
+ "colors": [
+  {
+   "layer": "Device=Mobile",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Content Container",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Blueconic Header MOBILE",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "List Container",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=Tablet",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=Desktop",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Content Container",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Blueconic 3Col Header",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Items Container",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Device=Mobile: 438×610, vertical gap 16 pad 0/0/0/0 main MIN cross CENTER — renders at 340, 360",
+  "Device=Tablet: 748×382, vertical gap 16 pad 0/0/0/0 main MIN cross CENTER — renders at 768",
+  "Device=Desktop: 1280×600, horizontal gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "1 of 3 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=Desktop`.",
+  "8 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×8."
+ ],
+ "skeleton": "blueconic-block-most-popular.html",
+ "exported": "2026-09-24"
+}

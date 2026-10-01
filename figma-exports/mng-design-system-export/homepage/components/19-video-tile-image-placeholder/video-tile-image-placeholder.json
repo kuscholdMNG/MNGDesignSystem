@@ -1,0 +1,484 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Video Tile Image Placeholder",
+ "slug": "video-tile-image-placeholder",
+ "order": 19,
+ "typeLabel": "Component · Standalone",
+ "description": "Standalone component · vertical 160×287 video tile (background, play/masthead badge, caption) used in the Videos from OCRegister Carousel tile row.",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3419:55114",
+  "mainKey": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3419-55114",
+  "variants": [
+   {
+    "label": "Video Tile Image Placeholder",
+    "id": "3419:55114",
+    "key": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3419-55114"
+   }
+  ]
+ },
+ "properties": {},
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Videos from OCRegister Carousel"
+  ],
+  "perVariant": [
+   {
+    "label": "Video Tile Image Placeholder",
+    "id": "3419:55114",
+    "templatesDirect": {
+     "1024 HomePage": 9,
+     "1100 HomePage": 9,
+     "Mobile HomePage": 9,
+     "340 HomePage": 9,
+     "768 HomePage": 9,
+     "Desktop HomePage": 9
+    },
+    "templatesVia": {},
+    "nestedIn": {
+     "Videos from OCRegister Carousel": 9
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [],
+  "builtInto": [
+   {
+    "name": "Videos from OCRegister Carousel",
+    "path": "../../assemblies/20-videos-from-ocregister-carousel/videos-from-ocregister-carousel.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Video Tile Image Placeholder",
+   "variantProperties": null,
+   "id": "3419:55114",
+   "key": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3419-55114",
+   "width": 160,
+   "height": 287,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#E1A1FF"
+    }
+   ],
+   "strokes": [
+    {
+     "type": "SOLID",
+     "hex": "#141414",
+     "variable": "Colors/color/gray/min"
+    }
+   ],
+   "radius": null,
+   "preview": "previews/video-tile-image-placeholder.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Video Tile Image Placeholder",
+    "type": "COMPONENT",
+    "id": "3419:55114",
+    "w": 160,
+    "h": 287,
+    "x": 0,
+    "y": 0,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#E1A1FF"
+     }
+    ],
+    "strokes": [
+     {
+      "type": "SOLID",
+      "hex": "#141414",
+      "variable": "Colors/color/gray/min"
+     }
+    ],
+    "strokeWeight": 2,
+    "strokeAlign": "INSIDE",
+    "children": [
+     {
+      "name": "Tile Background",
+      "type": "RECTANGLE",
+      "id": "3419:55184",
+      "w": 160,
+      "h": 287,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "absolute": true,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFC76B"
+       }
+      ]
+     },
+     {
+      "name": "Frame 11643",
+      "type": "FRAME",
+      "id": "3419:55118",
+      "w": 65,
+      "h": 19,
+      "x": 47.5,
+      "y": 70,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "absolute": true,
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "ARTICLE IMAGE",
+        "type": "TEXT",
+        "id": "3419:55119",
+        "w": 65,
+        "h": 19,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "strokeWeight": 3,
+        "strokeAlign": "OUTSIDE",
+        "text": "VIDEO",
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "New York",
+          "weight": "Black",
+          "size": 16,
+          "lineHeight": "auto",
+          "letterSpacing": "10%",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Masthead Badge",
+      "type": "TEXT",
+      "id": "3419:55181",
+      "w": 43,
+      "h": 12,
+      "x": 8,
+      "y": 8,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "absolute": true,
+      "text": "REGISTER",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Bold",
+        "size": 9,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     },
+     {
+      "name": "Caption Background",
+      "type": "RECTANGLE",
+      "id": "3419:55182",
+      "w": 148,
+      "h": 48,
+      "x": 6,
+      "y": 207,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "absolute": true,
+      "radius": 3,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "opacity": 0.55
+       }
+      ]
+     },
+     {
+      "name": "Caption Text",
+      "type": "TEXT",
+      "id": "3419:55250",
+      "w": 136,
+      "h": 32,
+      "x": 12,
+      "y": 220,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "absolute": true,
+      "text": "Watch our journalists cover local news in these clips",
+      "autoResize": "NONE",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 9,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "ARTICLE IMAGE",
+   "font": "New York",
+   "weight": "Black",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": "10%",
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "VIDEO",
+   "variants": [
+    "Video Tile Image Placeholder"
+   ]
+  },
+  {
+   "layer": "Masthead Badge",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 9,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#FFFFFF",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "REGISTER",
+   "variants": [
+    "Video Tile Image Placeholder"
+   ]
+  },
+  {
+   "layer": "Caption Text",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 9,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#FFFFFF",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Watch our journalists cover local news in these cl",
+   "variants": [
+    "Video Tile Image Placeholder"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Video Tile Image Placeholder",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#E1A1FF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Video Tile Image Placeholder",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
+   "layer": "Tile Background",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFC76B",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "ARTICLE IMAGE",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#F1EFEB",
+   "token": "Colors/color/gray/600",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 3
+  },
+  {
+   "layer": "Caption Background",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#000000",
+   "token": null,
+   "opacity": 0.55,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Video Tile Image Placeholder: 160×287, vertical gap 8 pad 0/0/0/0 main CENTER cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "`Video Tile Image Placeholder`: fonts outside the production pair (Noto Sans / Noto Serif): New York Black ×1.",
+  "5 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×2, #E1A1FF ×1, #FFC76B ×1, #000000 ×1."
+ ],
+ "skeleton": "video-tile-image-placeholder.html",
+ "exported": "2026-09-24"
+}

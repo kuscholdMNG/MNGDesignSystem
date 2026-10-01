@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SearchBar — skeleton</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../tokens.css">
+<style>
+*{box-sizing:border-box} body{margin:0;padding:24px;background:#f4f4f4;font-family:'Noto Sans',sans-serif;color:#141414}
+[hidden]{display:none!important}
+.skel-variant{margin:0 0 40px} .skel-variant>h1{font:600 13px/1.4 monospace;color:#555;margin:0 0 8px}
+.skel-stage{background:#fff;display:inline-block;outline:1px solid #ddd}
+.mng-searchbar__status-default{width:30px;min-height:45px;position:relative;display:flex;flex-direction:row;gap:8px;padding:20px 0px 5px 0px;justify-content:center;align-items:center;background:var(--mng-gray-max, #FFFFFF);overflow:hidden}
+.mng-searchbar__icons{width:20px;flex-shrink:0;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-searchbar__status-open{width:480px;min-height:64px;position:relative;display:flex;flex-direction:row;gap:16px;padding:16px 24px 16px 24px;justify-content:flex-start;align-items:center;background:var(--mng-gray-max, #FFFFFF);border-bottom:1px solid var(--mng-gray-300, #838280);overflow:hidden}
+.mng-searchbar__icons-2{width:20px;flex-shrink:0;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-searchbar__type-your-search{flex:1 1 0;min-width:0;height:32px;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-200, #5E5D5C);text-align:left;margin:0}
+.mng-searchbar__search-button{display:flex;flex-direction:row;gap:0px;padding:6px 16px 6px 16px;justify-content:center;align-items:center;position:relative;background:var(--mng-theme-primary, #007580);border-radius:5px;overflow:hidden}
+.mng-searchbar__search{font-family:'Noto Sans', sans-serif;font-size:15px;font-weight:600;line-height:normal;color:#FFFFFF;text-align:left;margin:0}
+</style></head>
+<body>
+<!-- Structural skeleton generated from Figma auto-layout. Instances are dashed placeholders; open the referenced file to render them. -->
+<section class="skel-variant" data-variant="Status=Default">
+  <h1>SearchBar · Status=Default · 30×45</h1>
+  <div class="skel-stage">
+    <div class="mng-searchbar__status-default" data-layer="Status=Default">
+      <!-- instance of "Icons" → external (not in this export) -->
+      <div class="mng-searchbar__icons" data-component="Icons" data-variant="Name=search" data-label="Icons">Icons · Name=search</div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Status=Open">
+  <h1>SearchBar · Status=Open · 480×64</h1>
+  <div class="skel-stage">
+    <div class="mng-searchbar__status-open" data-layer="Status=Open">
+      <!-- instance of "Icons" → external (not in this export) -->
+      <div class="mng-searchbar__icons-2" data-component="Icons" data-variant="Name=search" data-label="Icons">Icons · Name=search</div>
+      <span class="mng-searchbar__type-your-search">Type your search</span>
+      <div class="mng-searchbar__search-button" data-layer="Search Button">
+        <span class="mng-searchbar__search">Search</span>
+      </div>
+    </div>
+  </div>
+</section>
+</body></html>

@@ -1,0 +1,473 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Horizontal Feature Card",
+ "slug": "horizontal-feature-card",
+ "order": 15,
+ "typeLabel": "Component · Standalone",
+ "description": "New atom (2026-09-09), image ratio fixed (2026-09-22) — Desktop only (Section Rail Card's Mobile layout is Narrow-only, so there's no mobile equivalent). Horizontal lead-item card: image (left) + headline & excerpt column (right, fill width). Replaces 1Col Article Card as the lead item in Section Rail Card's Wide layout — the old stacked shape didn't match production's side-by-side pattern, confirmed across 4 Wide rails on denverpost.com. Image was originally built square (260×260); corrected to a 4:3 ratio (260×195) after confirming production's .section-feature .image-wrapper renders 273×205 (ocregister.com, Business & Crime and Public Safety rails) — the live <img> tag itself measures square before the crop wrapper is accounted for, which is what caused the original mismeasurement.",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3362:3022",
+  "mainKey": "e663ba16223c281b866a5d6edf44c09c6a01e34b",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3362-3022",
+  "variants": [
+   {
+    "label": "Horizontal Feature Card",
+    "id": "3362:3022",
+    "key": "e663ba16223c281b866a5d6edf44c09c6a01e34b",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3362-3022"
+   }
+  ]
+ },
+ "properties": {},
+ "breakpoints": [
+  "768",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1100 HomePage",
+   "768 HomePage",
+   "Desktop HomePage"
+  ],
+  "builtInto": [
+   "Feature + List Content Block"
+  ],
+  "perVariant": [
+   {
+    "label": "Horizontal Feature Card",
+    "id": "3362:3022",
+    "templatesDirect": {},
+    "templatesVia": {
+     "Desktop HomePage": [
+      "Feature + List Content Block"
+     ],
+     "768 HomePage": [
+      "Feature + List Content Block"
+     ],
+     "1100 HomePage": [
+      "Feature + List Content Block"
+     ]
+    },
+    "nestedIn": {
+     "Feature + List Content Block / Size=Default": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "768",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "768",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Article Image Placeholder",
+    "count": 1,
+    "inExport": true,
+    "section": "Article Image Placeholder",
+    "path": "../03-article-image-placeholder/article-image-placeholder.md"
+   }
+  ],
+  "builtInto": [
+   {
+    "name": "Feature + List Content Block",
+    "path": "../../assemblies/17-feature-list-content-block/feature-list-content-block.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Horizontal Feature Card",
+   "variantProperties": null,
+   "id": "3362:3022",
+   "key": "e663ba16223c281b866a5d6edf44c09c6a01e34b",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3362-3022",
+   "width": 632,
+   "height": 203,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/horizontal-feature-card.png",
+   "breakpoints": [
+    "768",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Horizontal Feature Card",
+    "type": "COMPONENT",
+    "id": "3362:3022",
+    "w": 632,
+    "h": 203,
+    "x": 0,
+    "y": 0,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "clip": true,
+    "children": [
+     {
+      "name": "Content",
+      "type": "FRAME",
+      "id": "3362:3009",
+      "w": 632,
+      "h": 195,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 28,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Article Graphic",
+        "type": "INSTANCE",
+        "id": "3362:3010",
+        "w": 260,
+        "h": 195,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#E1A1FF"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "component": "Article Image Placeholder",
+        "componentKey": "682588ec19d35ed6a03e5a8e45b70e5fbc16d7cf",
+        "mainId": "3334:42380"
+       },
+       {
+        "name": "Text Column",
+        "type": "FRAME",
+        "id": "3362:3016",
+        "w": 344,
+        "h": 153,
+        "x": 288,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Headline Container",
+          "type": "FRAME",
+          "id": "3362:3017",
+          "w": 344,
+          "h": 105,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 0,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "children": [
+           {
+            "name": "Article Headline on News paper homepage in Wide rail lead position",
+            "type": "TEXT",
+            "id": "3362:3018",
+            "w": 344,
+            "h": 105,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "text": "Article Headline on News paper homepage in Wide rail lead position",
+            "autoResize": "HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Serif",
+              "weight": "Bold",
+              "size": 26,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Excerpt Container",
+          "type": "FRAME",
+          "id": "3362:3019",
+          "w": 344,
+          "h": 40,
+          "x": 0,
+          "y": 113,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 0,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "children": [
+           {
+            "name": "Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail.",
+            "type": "TEXT",
+            "id": "3362:3020",
+            "w": 344,
+            "h": 40,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "text": "Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail.",
+            "autoResize": "HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Regular",
+              "size": 15,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#393938",
+                "variable": "Colors/color/gray/100"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Bottom Border Line",
+      "type": "LINE",
+      "id": "3362:3021",
+      "w": 632,
+      "h": 0,
+      "x": 0,
+      "y": 203,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER"
+     }
+    ]
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Article Headline on News paper homepage in Wide rail lead position",
+   "font": "Noto Serif",
+   "weight": "Bold",
+   "size": 26,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Article Headline on News paper homepage in Wide ra",
+   "variants": [
+    "Horizontal Feature Card"
+   ]
+  },
+  {
+   "layer": "Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail.",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 15,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#393938",
+   "token": "Colors/color/gray/100",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Vanroy Evan Smith, 39, of Long Beach is being held",
+   "variants": [
+    "Horizontal Feature Card"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Bottom Border Line",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#CCCAC7",
+   "token": "Colors/color/gray/500",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  }
+ ],
+ "imageRatios": [
+  {
+   "layer": "Article Graphic",
+   "w": 260,
+   "h": 195,
+   "ratio": "4:3",
+   "source": "Article Image Placeholder",
+   "variant": "Horizontal Feature Card"
+  }
+ ],
+ "adSlots": [],
+ "responsiveRules": [
+  "Horizontal Feature Card: 632×203, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1100, 1280"
+ ],
+ "productionRefs": [
+  ".image-wrapper",
+  ".section-feature",
+  "denverpost.com",
+  "ocregister.com"
+ ],
+ "knownIssues": [],
+ "skeleton": "horizontal-feature-card.html",
+ "exported": "2026-09-24"
+}

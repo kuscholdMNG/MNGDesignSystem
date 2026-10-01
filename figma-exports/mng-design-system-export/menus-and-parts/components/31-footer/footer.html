@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Footer — skeleton</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../tokens.css">
+<style>
+*{box-sizing:border-box} body{margin:0;padding:24px;background:#f4f4f4;font-family:'Noto Sans',sans-serif;color:#141414}
+[hidden]{display:none!important}
+.skel-variant{margin:0 0 40px} .skel-variant>h1{font:600 13px/1.4 monospace;color:#555;margin:0 0 8px}
+.skel-stage{background:#fff;display:inline-block;outline:1px solid #ddd}
+.mng-footer__device-xs-fold{width:340px;min-height:871px;position:relative;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;background:var(--mng-gray-600, #F1EFEB);border-top:1px solid rgba(0,0,0,0.3)}
+.mng-footer__frame-50{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:16px 10px 16px 10px;justify-content:flex-start;align-items:center;position:relative}
+.mng-footer__group-11389{width:235.2px;height:48px;flex-shrink:0;position:relative}
+.mng-footer__vector{position:absolute;left:79.6px;top:16px;width:12.4px;height:15.8px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-2{position:absolute;left:91px;top:20.6px;width:11.5px;height:11.2px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-3{position:absolute;left:103.7px;top:20.7px;width:12.6px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-4{position:absolute;left:117.7px;top:20.7px;width:9.4px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-5{position:absolute;left:127.9px;top:20.8px;width:12.1px;height:11.3px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-6{position:absolute;left:141.3px;top:20.7px;width:5.1px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-7{position:absolute;left:148px;top:20.8px;width:9.5px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-8{position:absolute;left:158.8px;top:20.8px;width:9.5px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-9{position:absolute;left:169.7px;top:20.7px;width:9.4px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-10{position:absolute;left:52.4px;top:31.6px;width:33.5px;height:32px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-11{position:absolute;left:87.3px;top:41.1px;width:22.4px;height:22.5px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-12{position:absolute;left:111.7px;top:41.5px;width:11.3px;height:22.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-13{position:absolute;left:125.2px;top:41.5px;width:19.9px;height:22.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-14{position:absolute;left:144.6px;top:41.5px;width:22.6px;height:22.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-15{position:absolute;left:180.6px;top:32px;width:34.6px;height:31.9px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-16{position:absolute;left:216.3px;top:41.5px;width:20px;height:22.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-17{position:absolute;left:237.9px;top:41.5px;width:31.9px;height:22.5px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-18{position:absolute;left:271.8px;top:41.1px;width:15.8px;height:22.9px;background:var(--mng-gray-min, #141414)}
+.mng-footer__frame-354{align-self:stretch;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__frame-353{align-self:stretch;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__frame-271{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__frame-11798{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 8px 0px 0px;justify-content:space-between;align-items:center;position:relative}
+.mng-footer__subscribe{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__icons{width:16px;flex-shrink:0;height:16px;display:flex;flex-direction:column;gap:8px;padding:3px 0px 3px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-268{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-2{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__frame-11798-2{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 8px 0px 0px;justify-content:space-between;align-items:center;position:relative}
+.mng-footer__marketplace{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__icons-2{width:16px;flex-shrink:0;height:16px;display:flex;flex-direction:column;gap:8px;padding:3px 0px 3px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-266{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-3{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__frame-11798-3{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 8px 0px 0px;justify-content:space-between;align-items:center;position:relative}
+.mng-footer__about-oc-register{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__icons-3{width:16px;flex-shrink:0;height:16px;display:flex;flex-direction:column;gap:8px;padding:3px 0px 3px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-270{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-4{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__frame-11798-4{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 8px 0px 0px;justify-content:space-between;align-items:center;position:relative}
+.mng-footer__advertising-solutions{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__icons-4{width:16px;flex-shrink:0;height:16px;display:flex;flex-direction:column;gap:8px;padding:3px 0px 3px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-269{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-5{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__frame-11798-5{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 8px 0px 0px;justify-content:space-between;align-items:center;position:relative}
+.mng-footer__contact-us{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__icons-5{width:16px;flex-shrink:0;height:16px;display:flex;flex-direction:column;gap:8px;padding:3px 0px 3px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-273{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-6{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__frame-11798-6{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 8px 0px 0px;justify-content:space-between;align-items:center;position:relative}
+.mng-footer__partners{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__icons-6{width:16px;flex-shrink:0;height:16px;display:flex;flex-direction:column;gap:8px;padding:3px 0px 3px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__button-primary{align-self:stretch;height:40px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 8px 0px 8px;justify-content:center;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-47{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:16px 10px 16px 10px;justify-content:flex-start;align-items:flex-start;position:relative;border-top:1px solid var(--mng-gray-min, #141414)}
+.mng-footer__frame-300{display:flex;flex-direction:column;gap:24px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__frame-266-2{display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__privacy-policy{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__terms-of-use{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__accessibility{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__cookie-policy{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__do-not-sell-my-info{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__arbitration{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__powered-by-wordpress-com-vip{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__copyright-2022-medianews-group{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__device-sm-mobile{width:360px;min-height:871px;position:relative;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;background:var(--mng-gray-600, #F1EFEB);border-top:1px solid rgba(0,0,0,0.3)}
+.mng-footer__frame-50-2{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:16px 10px 16px 10px;justify-content:flex-start;align-items:center;position:relative}
+.mng-footer__group-11389-2{width:235.2px;height:48px;flex-shrink:0;position:relative}
+.mng-footer__vector-19{position:absolute;left:89.6px;top:16px;width:12.4px;height:15.8px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-20{position:absolute;left:101px;top:20.6px;width:11.5px;height:11.2px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-21{position:absolute;left:113.7px;top:20.7px;width:12.6px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-22{position:absolute;left:127.7px;top:20.7px;width:9.4px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-23{position:absolute;left:137.9px;top:20.8px;width:12.1px;height:11.3px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-24{position:absolute;left:151.3px;top:20.7px;width:5.1px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-25{position:absolute;left:158px;top:20.8px;width:9.5px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-26{position:absolute;left:168.8px;top:20.8px;width:9.5px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-27{position:absolute;left:179.7px;top:20.7px;width:9.4px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-28{position:absolute;left:62.4px;top:31.6px;width:33.5px;height:32px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-29{position:absolute;left:97.3px;top:41.1px;width:22.4px;height:22.5px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-30{position:absolute;left:121.7px;top:41.5px;width:11.3px;height:22.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-31{position:absolute;left:135.2px;top:41.5px;width:19.9px;height:22.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-32{position:absolute;left:154.6px;top:41.5px;width:22.6px;height:22.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-33{position:absolute;left:190.6px;top:32px;width:34.6px;height:31.9px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-34{position:absolute;left:226.3px;top:41.5px;width:20px;height:22.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-35{position:absolute;left:247.9px;top:41.5px;width:31.9px;height:22.5px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-36{position:absolute;left:281.8px;top:41.1px;width:15.8px;height:22.9px;background:var(--mng-gray-min, #141414)}
+.mng-footer__frame-354-2{align-self:stretch;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__frame-353-2{align-self:stretch;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__frame-271-2{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-7{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__frame-11798-7{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 8px 0px 0px;justify-content:space-between;align-items:center;position:relative}
+.mng-footer__subscribe-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__icons-7{width:16px;flex-shrink:0;height:16px;display:flex;flex-direction:column;gap:8px;padding:3px 0px 3px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-268-2{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-8{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__frame-11798-8{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 8px 0px 0px;justify-content:space-between;align-items:center;position:relative}
+.mng-footer__marketplace-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__icons-8{width:16px;flex-shrink:0;height:16px;display:flex;flex-direction:column;gap:8px;padding:3px 0px 3px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-266-3{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-9{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__frame-11798-9{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 8px 0px 0px;justify-content:space-between;align-items:center;position:relative}
+.mng-footer__about-oc-register-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__icons-9{width:16px;flex-shrink:0;height:16px;display:flex;flex-direction:column;gap:8px;padding:3px 0px 3px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-270-2{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-10{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__frame-11798-10{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 8px 0px 0px;justify-content:space-between;align-items:center;position:relative}
+.mng-footer__advertising-solutions-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__icons-10{width:16px;flex-shrink:0;height:16px;display:flex;flex-direction:column;gap:8px;padding:3px 0px 3px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-269-2{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-11{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__frame-11798-11{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 8px 0px 0px;justify-content:space-between;align-items:center;position:relative}
+.mng-footer__contact-us-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__icons-11{width:16px;flex-shrink:0;height:16px;display:flex;flex-direction:column;gap:8px;padding:3px 0px 3px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-273-2{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-12{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__frame-11798-12{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 8px 0px 0px;justify-content:space-between;align-items:center;position:relative}
+.mng-footer__partners-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__icons-12{width:16px;flex-shrink:0;height:16px;display:flex;flex-direction:column;gap:8px;padding:3px 0px 3px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__button-primary-2{align-self:stretch;height:40px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 8px 0px 8px;justify-content:center;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-47-2{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:16px 10px 16px 10px;justify-content:flex-start;align-items:flex-start;position:relative;border-top:1px solid var(--mng-gray-min, #141414)}
+.mng-footer__frame-300-2{display:flex;flex-direction:column;gap:24px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__frame-266-4{display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__privacy-policy-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__terms-of-use-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__accessibility-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__cookie-policy-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__do-not-sell-my-info-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__arbitration-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__powered-by-wordpress-com-vip-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__copyright-2022-medianews-group-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__device-md-tabletv{width:768px;min-height:878.4px;position:relative;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;background:var(--mng-gray-600, #F1EFEB);border-top:1px solid rgba(0,0,0,0.3)}
+.mng-footer__frame-50-3{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:16px 40px 16px 40px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__group-11389-3{width:208px;height:42.4px;flex-shrink:0;position:relative}
+.mng-footer__vector-37{position:absolute;left:64.1px;top:16px;width:11px;height:14px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-38{position:absolute;left:74.1px;top:20px;width:10.1px;height:9.9px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-39{position:absolute;left:85.3px;top:20.2px;width:11.2px;height:9.8px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-40{position:absolute;left:97.7px;top:20.2px;width:8.3px;height:9.8px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-41{position:absolute;left:106.8px;top:20.2px;width:10.7px;height:10px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-42{position:absolute;left:118.6px;top:20.2px;width:4.5px;height:9.8px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-43{position:absolute;left:124.5px;top:20.2px;width:8.4px;height:9.8px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-44{position:absolute;left:134.1px;top:20.2px;width:8.4px;height:9.8px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-45{position:absolute;left:143.8px;top:20.2px;width:8.3px;height:9.8px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-46{position:absolute;left:40px;top:29.8px;width:29.6px;height:28.3px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-47{position:absolute;left:70.9px;top:38.2px;width:19.8px;height:19.9px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-48{position:absolute;left:92.5px;top:38.5px;width:10px;height:19.5px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-49{position:absolute;left:104.4px;top:38.5px;width:17.6px;height:19.5px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-50{position:absolute;left:121.5px;top:38.5px;width:20px;height:19.6px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-51{position:absolute;left:153.3px;top:30.1px;width:30.6px;height:28.2px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-52{position:absolute;left:185px;top:38.5px;width:17.7px;height:19.5px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-53{position:absolute;left:204px;top:38.5px;width:28.2px;height:19.9px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-54{position:absolute;left:234px;top:38.2px;width:14px;height:20.2px;background:var(--mng-gray-min, #141414)}
+.mng-footer__frame-354-3{align-self:stretch;display:flex;flex-direction:row;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__col-1{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__group-subscribe{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-13{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__subscribe-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__member-services{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__manage-subscriptions{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__store{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__archive-search{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__reprints{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__group-marketplace{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-14{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__marketplace-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__place-an-obituary{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__place-a-real-estate-ad{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__lottery{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__group-about-oc-register{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-15{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__about-oc-register-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__about-southern-california-news-group{align-self:stretch;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:18px;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__medianews-group{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__work-with-us{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__privacy-policy-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__accessibility-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__news-archive{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__col-2{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__frame-294{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:0px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__group-advertising-solutions{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-16{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__advertising-solutions-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__get-in-touch-with-a-marketing-strategist{align-self:stretch;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:18px;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__request-media-kit{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__creative-services{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__content-marketing{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__group-contact-us{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-17{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__contact-us-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__corrections{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__oc-register-store{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__reader-rewards{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__photo-reprints{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__sponsored-access{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__group-partners{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-18{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__partners-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__live-traffic-map{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__newspapers-in-education{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__sponsor-a-student{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__line-1-19{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__button-primary-3{align-self:stretch;height:40px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 8px 0px 8px;justify-content:center;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-47-3{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:16px 40px 16px 40px;justify-content:flex-start;align-items:center;position:relative;border-top:1px solid var(--mng-gray-min, #141414)}
+.mng-footer__frame-300-3{align-self:stretch;display:flex;flex-direction:column;gap:24px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__frame-266-5{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;flex-wrap:wrap;row-gap:15px;position:relative}
+.mng-footer__copyright-2022-medianews-group-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__privacy-policy-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__terms-of-use-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__accessibility-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__cookie-policy-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__arbitration-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__powered-by-wordpress-com-vip-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__do-not-sell-my-info-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__device-lg-tableth{width:1024px;min-height:681.3px;position:relative;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;background:var(--mng-gray-600, #F1EFEB);border-top:1px solid rgba(0,0,0,0.3)}
+.mng-footer__frame-50-4{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:16px 40px 16px 40px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__group-11389-4{width:212px;height:43.3px;flex-shrink:0;position:relative}
+.mng-footer__vector-55{position:absolute;left:64.5px;top:16px;width:11.2px;height:14.2px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-56{position:absolute;left:74.8px;top:20.1px;width:10.3px;height:10.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-57{position:absolute;left:86.2px;top:20.3px;width:11.4px;height:10px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-58{position:absolute;left:98.8px;top:20.3px;width:8.5px;height:10px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-59{position:absolute;left:108px;top:20.3px;width:10.9px;height:10.2px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-60{position:absolute;left:120.1px;top:20.3px;width:4.6px;height:10px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-61{position:absolute;left:126.1px;top:20.3px;width:8.6px;height:10px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-62{position:absolute;left:135.9px;top:20.3px;width:8.6px;height:10px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-63{position:absolute;left:145.8px;top:20.3px;width:8.5px;height:10px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-64{position:absolute;left:40px;top:30.1px;width:30.2px;height:28.8px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-65{position:absolute;left:71.5px;top:38.6px;width:20.2px;height:20.3px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-66{position:absolute;left:93.5px;top:39px;width:10.1px;height:19.9px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-67{position:absolute;left:105.7px;top:39px;width:17.9px;height:19.9px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-68{position:absolute;left:123.1px;top:39px;width:20.4px;height:19.9px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-69{position:absolute;left:155.5px;top:30.4px;width:31.2px;height:28.7px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-70{position:absolute;left:187.8px;top:39px;width:18px;height:19.9px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-71{position:absolute;left:207.2px;top:39px;width:28.8px;height:20.3px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-72{position:absolute;left:237.8px;top:38.6px;width:14.2px;height:20.6px;background:var(--mng-gray-min, #141414)}
+.mng-footer__frame-354-4{align-self:stretch;display:flex;flex-direction:row;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__col-1-2{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__group-subscribe-2{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-20{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__subscribe-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__member-services-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__manage-subscriptions-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__store-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__archive-search-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__reprints-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__group-marketplace-2{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-21{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__marketplace-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__place-an-obituary-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__place-a-real-estate-ad-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__lottery-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__col-2-2{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__group-about-oc-register-2{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-22{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__about-oc-register-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__about-southern-california-news-group-2{align-self:stretch;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:18px;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__medianews-group-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__work-with-us-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__privacy-policy-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__accessibility-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__news-archive-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__group-advertising-solutions-2{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-23{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__advertising-solutions-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__get-in-touch-with-a-marketing-strategist-2{align-self:stretch;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:18px;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__request-media-kit-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__creative-services-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__content-marketing-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__col-3{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__frame-294-2{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:0px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__group-contact-us-2{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-24{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__contact-us-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__corrections-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__oc-register-store-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__reader-rewards-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__photo-reprints-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__sponsored-access-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__group-partners-2{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-25{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__partners-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__live-traffic-map-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__newspapers-in-education-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__sponsor-a-student-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__line-1-26{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__button-primary-4{align-self:stretch;height:40px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 8px 0px 8px;justify-content:center;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-47-4{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:16px 40px 16px 40px;justify-content:flex-start;align-items:center;position:relative;border-top:1px solid var(--mng-gray-min, #141414)}
+.mng-footer__frame-300-4{align-self:stretch;display:flex;flex-direction:column;gap:24px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__frame-266-6{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;flex-wrap:wrap;row-gap:15px;position:relative}
+.mng-footer__copyright-2022-medianews-group-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__privacy-policy-6{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__terms-of-use-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__accessibility-6{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__cookie-policy-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__arbitration-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__powered-by-wordpress-com-vip-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__do-not-sell-my-info-4{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__device-xl-desktop{width:1280px;min-height:597px;position:relative;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;background:var(--mng-gray-600, #F1EFEB);border-top:1px solid rgba(0,0,0,0.3)}
+.mng-footer__frame-50-5{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:16px 40px 16px 40px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__group-11389-5{width:235.2px;height:48px;flex-shrink:0;position:relative}
+.mng-footer__vector-73{position:absolute;left:67.2px;top:16px;width:12.4px;height:15.8px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-74{position:absolute;left:78.6px;top:20.6px;width:11.5px;height:11.2px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-75{position:absolute;left:91.3px;top:20.7px;width:12.6px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-76{position:absolute;left:105.3px;top:20.7px;width:9.4px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-77{position:absolute;left:115.5px;top:20.8px;width:12.1px;height:11.3px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-78{position:absolute;left:128.9px;top:20.7px;width:5.1px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-79{position:absolute;left:135.6px;top:20.8px;width:9.5px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-80{position:absolute;left:146.4px;top:20.8px;width:9.5px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-81{position:absolute;left:157.4px;top:20.7px;width:9.4px;height:11.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-82{position:absolute;left:40px;top:31.6px;width:33.5px;height:32px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-83{position:absolute;left:75px;top:41.1px;width:22.4px;height:22.5px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-84{position:absolute;left:99.4px;top:41.5px;width:11.3px;height:22.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-85{position:absolute;left:112.9px;top:41.5px;width:19.9px;height:22.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-86{position:absolute;left:132.2px;top:41.5px;width:22.6px;height:22.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-87{position:absolute;left:168.2px;top:32px;width:34.6px;height:31.9px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-88{position:absolute;left:204px;top:41.5px;width:20px;height:22.1px;background:var(--mng-gray-min, #141414)}
+.mng-footer__vector-89{position:absolute;left:225.5px;top:41.5px;width:31.9px;height:22.5px;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__vector-90{position:absolute;left:259.5px;top:41.1px;width:15.8px;height:22.9px;background:var(--mng-gray-min, #141414)}
+.mng-footer__frame-354-5{align-self:stretch;display:flex;flex-direction:row;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__col-1-3{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__group-subscribe-3{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-27{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__subscribe-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__member-services-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__manage-subscriptions-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__store-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__archive-search-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__reprints-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__group-marketplace-3{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-28{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__marketplace-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__place-an-obituary-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__place-a-real-estate-ad-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__lottery-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__col-2-3{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__group-about-oc-register-3{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-29{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__about-oc-register-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__about-southern-california-news-group-3{align-self:stretch;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:18px;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__medianews-group-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__work-with-us-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__privacy-policy-7{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__accessibility-7{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__news-archive-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__group-advertising-solutions-3{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-30{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__advertising-solutions-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__get-in-touch-with-a-marketing-strategist-3{align-self:stretch;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:18px;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__request-media-kit-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__creative-services-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__content-marketing-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__col-4{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__frame-294-3{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:0px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__group-contact-us-3{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-31{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__contact-us-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__corrections-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__oc-register-store-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__reader-rewards-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__photo-reprints-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__sponsored-access-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__group-partners-3{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-footer__line-1-32{align-self:stretch;height:0px;flex-shrink:0;position:relative;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-footer__partners-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;text-transform:uppercase;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__live-traffic-map-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__newspapers-in-education-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__sponsor-a-student-3{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-footer__col-5{flex:1 1 0;min-width:0;height:40px;display:flex;flex-direction:column;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-footer__button-primary-5{align-self:stretch;height:40px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 8px 0px 8px;justify-content:center;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-footer__frame-47-5{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:16px 40px 16px 40px;justify-content:flex-start;align-items:center;position:relative;border-top:1px solid var(--mng-gray-min, #141414)}
+.mng-footer__frame-300-5{align-self:stretch;display:flex;flex-direction:column;gap:24px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-footer__frame-266-7{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;flex-wrap:wrap;row-gap:15px;position:relative}
+.mng-footer__copyright-2022-medianews-group-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__privacy-policy-8{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__terms-of-use-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__accessibility-8{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__cookie-policy-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__arbitration-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__powered-by-wordpress-com-vip-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-footer__do-not-sell-my-info-5{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+</style></head>
+<body>
+<!-- Structural skeleton generated from Figma auto-layout. Instances are dashed placeholders; open the referenced file to render them. -->
+<section class="skel-variant" data-variant="Device=XS-Fold">
+  <h1>Footer · Device=XS-Fold · 340×871</h1>
+  <div class="skel-stage">
+    <div class="mng-footer__device-xs-fold" data-layer="Device=XS-Fold">
+      <div class="mng-footer__frame-50" data-layer="Frame 50">
+        <div class="mng-footer__group-11389" data-layer="Group 11389">
+          <i class="mng-footer__vector" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-2" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-3" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-4" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-5" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-6" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-7" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-8" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-9" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-10" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-11" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-12" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-13" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-14" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-15" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-16" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-17" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-18" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-footer__frame-354" data-layer="Frame 354">
+          <div class="mng-footer__frame-353" data-layer="Frame 353">
+            <div class="mng-footer__frame-271" data-layer="Frame 271">
+              <i class="mng-footer__line-1" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <div class="mng-footer__frame-11798" data-layer="Frame 11798">
+                <span class="mng-footer__subscribe">SubScribe</span>
+                <!-- instance of "Icons" → external (not in this export) -->
+                <div class="mng-footer__icons" data-component="Icons" data-variant="Name=arrow-down2" data-label="Icons">Icons · Name=arrow-down2</div>
+              </div>
+            </div>
+            <div class="mng-footer__frame-268" data-layer="Frame 268">
+              <i class="mng-footer__line-1-2" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <div class="mng-footer__frame-11798-2" data-layer="Frame 11798">
+                <span class="mng-footer__marketplace">Marketplace</span>
+                <!-- instance of "Icons" → external (not in this export) -->
+                <div class="mng-footer__icons-2" data-component="Icons" data-variant="Name=arrow-down2" data-label="Icons">Icons · Name=arrow-down2</div>
+              </div>
+            </div>
+            <div class="mng-footer__frame-266" data-layer="Frame 266">
+              <i class="mng-footer__line-1-3" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <div class="mng-footer__frame-11798-3" data-layer="Frame 11798">
+                <span class="mng-footer__about-oc-register">About OC Register</span>
+                <!-- instance of "Icons" → external (not in this export) -->
+                <div class="mng-footer__icons-3" data-component="Icons" data-variant="Name=arrow-down2" data-label="Icons">Icons · Name=arrow-down2</div>
+              </div>
+            </div>
+            <div class="mng-footer__frame-270" data-layer="Frame 270">
+              <i class="mng-footer__line-1-4" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <div class="mng-footer__frame-11798-4" data-layer="Frame 11798">
+                <span class="mng-footer__advertising-solutions">Advertising Solutions</span>
+                <!-- instance of "Icons" → external (not in this export) -->
+                <div class="mng-footer__icons-4" data-component="Icons" data-variant="Name=arrow-down2" data-label="Icons">Icons · Name=arrow-down2</div>
+              </div>
+            </div>
+            <div class="mng-footer__frame-269" data-layer="Frame 269">
+              <i class="mng-footer__line-1-5" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <div class="mng-footer__frame-11798-5" data-layer="Frame 11798">
+                <span class="mng-footer__contact-us">Contact us</span>
+                <!-- instance of "Icons" → external (not in this export) -->
+                <div class="mng-footer__icons-5" data-component="Icons" data-variant="Name=arrow-down2" data-label="Icons">Icons · Name=arrow-down2</div>
+              </div>
+            </div>
+            <div class="mng-footer__frame-273" data-layer="Frame 273">
+              <i class="mng-footer__line-1-6" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <div class="mng-footer__frame-11798-6" data-layer="Frame 11798">
+                <span class="mng-footer__partners">Partners</span>
+                <!-- instance of "Icons" → external (not in this export) -->
+                <div class="mng-footer__icons-6" data-component="Icons" data-variant="Name=arrow-down2" data-label="Icons">Icons · Name=arrow-down2</div>
+              </div>
+            </div>
+            <!-- instance of "Button Primary" → external (not in this export) -->
+            <div class="mng-footer__button-primary" data-component="Button Primary" data-variant="Icon=None, state=Default" data-label="Button Primary">Button Primary · Icon=None, state=Default</div>
+          </div>
+        </div>
+      </div>
+      <div class="mng-footer__frame-47" data-layer="Frame 47">
+        <div class="mng-footer__frame-300" data-layer="Frame 300">
+          <div class="mng-footer__frame-266-2" data-layer="Frame 266">
+            <span class="mng-footer__privacy-policy">Privacy policy</span>
+            <span class="mng-footer__terms-of-use">terms of use</span>
+            <span class="mng-footer__accessibility">accessibility</span>
+            <span class="mng-footer__cookie-policy">cookie policy</span>
+            <span class="mng-footer__do-not-sell-my-info">Do not sell my info</span>
+            <span class="mng-footer__arbitration">arbitration</span>
+            <span class="mng-footer__powered-by-wordpress-com-vip">powered by wordPress.com VIP</span>
+            <span class="mng-footer__copyright-2022-medianews-group">Copyright © 2022 MediaNews Group</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=SM-Mobile">
+  <h1>Footer · Device=SM-Mobile · 360×871</h1>
+  <div class="skel-stage">
+    <div class="mng-footer__device-sm-mobile" data-layer="Device=SM-Mobile">
+      <div class="mng-footer__frame-50-2" data-layer="Frame 50">
+        <div class="mng-footer__group-11389-2" data-layer="Group 11389">
+          <i class="mng-footer__vector-19" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-20" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-21" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-22" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-23" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-24" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-25" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-26" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-27" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-28" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-29" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-30" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-31" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-32" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-33" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-34" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-35" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-36" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-footer__frame-354-2" data-layer="Frame 354">
+          <div class="mng-footer__frame-353-2" data-layer="Frame 353">
+            <div class="mng-footer__frame-271-2" data-layer="Frame 271">
+              <i class="mng-footer__line-1-7" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <div class="mng-footer__frame-11798-7" data-layer="Frame 11798">
+                <span class="mng-footer__subscribe-2">SubScribe</span>
+                <!-- instance of "Icons" → external (not in this export) -->
+                <div class="mng-footer__icons-7" data-component="Icons" data-variant="Name=arrow-down2" data-label="Icons">Icons · Name=arrow-down2</div>
+              </div>
+            </div>
+            <div class="mng-footer__frame-268-2" data-layer="Frame 268">
+              <i class="mng-footer__line-1-8" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <div class="mng-footer__frame-11798-8" data-layer="Frame 11798">
+                <span class="mng-footer__marketplace-2">Marketplace</span>
+                <!-- instance of "Icons" → external (not in this export) -->
+                <div class="mng-footer__icons-8" data-component="Icons" data-variant="Name=arrow-down2" data-label="Icons">Icons · Name=arrow-down2</div>
+              </div>
+            </div>
+            <div class="mng-footer__frame-266-3" data-layer="Frame 266">
+              <i class="mng-footer__line-1-9" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <div class="mng-footer__frame-11798-9" data-layer="Frame 11798">
+                <span class="mng-footer__about-oc-register-2">About OC Register</span>
+                <!-- instance of "Icons" → external (not in this export) -->
+                <div class="mng-footer__icons-9" data-component="Icons" data-variant="Name=arrow-down2" data-label="Icons">Icons · Name=arrow-down2</div>
+              </div>
+            </div>
+            <div class="mng-footer__frame-270-2" data-layer="Frame 270">
+              <i class="mng-footer__line-1-10" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <div class="mng-footer__frame-11798-10" data-layer="Frame 11798">
+                <span class="mng-footer__advertising-solutions-2">Advertising Solutions</span>
+                <!-- instance of "Icons" → external (not in this export) -->
+                <div class="mng-footer__icons-10" data-component="Icons" data-variant="Name=arrow-down2" data-label="Icons">Icons · Name=arrow-down2</div>
+              </div>
+            </div>
+            <div class="mng-footer__frame-269-2" data-layer="Frame 269">
+              <i class="mng-footer__line-1-11" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <div class="mng-footer__frame-11798-11" data-layer="Frame 11798">
+                <span class="mng-footer__contact-us-2">Contact us</span>
+                <!-- instance of "Icons" → external (not in this export) -->
+                <div class="mng-footer__icons-11" data-component="Icons" data-variant="Name=arrow-down2" data-label="Icons">Icons · Name=arrow-down2</div>
+              </div>
+            </div>
+            <div class="mng-footer__frame-273-2" data-layer="Frame 273">
+              <i class="mng-footer__line-1-12" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <div class="mng-footer__frame-11798-12" data-layer="Frame 11798">
+                <span class="mng-footer__partners-2">Partners</span>
+                <!-- instance of "Icons" → external (not in this export) -->
+                <div class="mng-footer__icons-12" data-component="Icons" data-variant="Name=arrow-down2" data-label="Icons">Icons · Name=arrow-down2</div>
+              </div>
+            </div>
+            <!-- instance of "Button Primary" → external (not in this export) -->
+            <div class="mng-footer__button-primary-2" data-component="Button Primary" data-variant="Icon=None, state=Default" data-label="Button Primary">Button Primary · Icon=None, state=Default</div>
+          </div>
+        </div>
+      </div>
+      <div class="mng-footer__frame-47-2" data-layer="Frame 47">
+        <div class="mng-footer__frame-300-2" data-layer="Frame 300">
+          <div class="mng-footer__frame-266-4" data-layer="Frame 266">
+            <span class="mng-footer__privacy-policy-2">Privacy policy</span>
+            <span class="mng-footer__terms-of-use-2">terms of use</span>
+            <span class="mng-footer__accessibility-2">accessibility</span>
+            <span class="mng-footer__cookie-policy-2">cookie policy</span>
+            <span class="mng-footer__do-not-sell-my-info-2">Do not sell my info</span>
+            <span class="mng-footer__arbitration-2">arbitration</span>
+            <span class="mng-footer__powered-by-wordpress-com-vip-2">powered by wordPress.com VIP</span>
+            <span class="mng-footer__copyright-2022-medianews-group-2">Copyright © 2022 MediaNews Group</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=MD-TabletV">
+  <h1>Footer · Device=MD-TabletV · 768×878.4</h1>
+  <div class="skel-stage">
+    <div class="mng-footer__device-md-tabletv" data-layer="Device=MD-TabletV">
+      <div class="mng-footer__frame-50-3" data-layer="Frame 50">
+        <div class="mng-footer__group-11389-3" data-layer="Group 11389">
+          <i class="mng-footer__vector-37" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-38" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-39" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-40" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-41" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-42" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-43" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-44" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-45" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-46" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-47" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-48" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-49" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-50" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-51" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-52" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-53" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-54" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-footer__frame-354-3" data-layer="Frame 354">
+          <div class="mng-footer__col-1" data-layer="Col 1">
+            <div class="mng-footer__group-subscribe" data-layer="Group - SubScribe">
+              <i class="mng-footer__line-1-13" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <span class="mng-footer__subscribe-3">SubScribe</span>
+              <span class="mng-footer__member-services">Member Services</span>
+              <span class="mng-footer__manage-subscriptions">Manage Subscriptions</span>
+              <span class="mng-footer__store">Store</span>
+              <span class="mng-footer__archive-search">Archive search</span>
+              <span class="mng-footer__reprints">Reprints</span>
+            </div>
+            <div class="mng-footer__group-marketplace" data-layer="Group - Marketplace">
+              <i class="mng-footer__line-1-14" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <span class="mng-footer__marketplace-3">Marketplace</span>
+              <span class="mng-footer__place-an-obituary">Place an Obituary</span>
+              <span class="mng-footer__place-a-real-estate-ad">Place a Real Estate Ad</span>
+              <span class="mng-footer__lottery">Lottery</span>
+            </div>
+            <div class="mng-footer__group-about-oc-register" data-layer="Group - About OC Register">
+              <i class="mng-footer__line-1-15" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <span class="mng-footer__about-oc-register-3">About OC Register</span>
+              <span class="mng-footer__about-southern-california-news-group">About Southern California News Group</span>
+              <span class="mng-footer__medianews-group">MediaNews Group</span>
+              <span class="mng-footer__work-with-us">Work With Us</span>
+              <span class="mng-footer__privacy-policy-3">Privacy Policy</span>
+              <span class="mng-footer__accessibility-3">Accessibility</span>
+              <span class="mng-footer__news-archive">News Archive</span>
+            </div>
+          </div>
+          <div class="mng-footer__col-2" data-layer="Col 2">
+            <div class="mng-footer__frame-294" data-layer="Frame 294">
+              <div class="mng-footer__group-advertising-solutions" data-layer="Group - Advertising Solutions">
+                <i class="mng-footer__line-1-16" aria-hidden="true"></i><!-- vector "Line 1" -->
+                <span class="mng-footer__advertising-solutions-3">Advertising Solutions</span>
+                <span class="mng-footer__get-in-touch-with-a-marketing-strategist">Get in Touch with a Marketing Strategist</span>
+                <span class="mng-footer__request-media-kit">Request Media Kit</span>
+                <span class="mng-footer__creative-services">Creative Services</span>
+                <span class="mng-footer__content-marketing">Content Marketing</span>
+              </div>
+              <div class="mng-footer__group-contact-us" data-layer="Group - Contact us">
+                <i class="mng-footer__line-1-17" aria-hidden="true"></i><!-- vector "Line 1" -->
+                <span class="mng-footer__contact-us-3">Contact us</span>
+                <span class="mng-footer__corrections">Corrections</span>
+                <span class="mng-footer__oc-register-store">OC Register Store</span>
+                <span class="mng-footer__reader-rewards">Reader Rewards</span>
+                <span class="mng-footer__photo-reprints">Photo Reprints</span>
+                <span class="mng-footer__sponsored-access">Sponsored Access</span>
+              </div>
+              <div class="mng-footer__group-partners" data-layer="Group - Partners">
+                <i class="mng-footer__line-1-18" aria-hidden="true"></i><!-- vector "Line 1" -->
+                <span class="mng-footer__partners-3">Partners</span>
+                <span class="mng-footer__live-traffic-map">Live Traffic Map</span>
+                <span class="mng-footer__newspapers-in-education">Newspapers in Education</span>
+                <span class="mng-footer__sponsor-a-student">Sponsor a Student</span>
+              </div>
+              <i class="mng-footer__line-1-19" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <!-- instance of "Button Primary" → external (not in this export) -->
+              <div class="mng-footer__button-primary-3" data-component="Button Primary" data-variant="Icon=None, state=Default" data-label="Button Primary">Button Primary · Icon=None, state=Default</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mng-footer__frame-47-3" data-layer="Frame 47">
+        <div class="mng-footer__frame-300-3" data-layer="Frame 300">
+          <div class="mng-footer__frame-266-5" data-layer="Frame 266">
+            <span class="mng-footer__copyright-2022-medianews-group-3">Copyright © 2022 MediaNews Group</span>
+            <span class="mng-footer__privacy-policy-4">Privacy policy</span>
+            <span class="mng-footer__terms-of-use-3">terms of use</span>
+            <span class="mng-footer__accessibility-4">accessibility</span>
+            <span class="mng-footer__cookie-policy-3">cookie policy</span>
+            <span class="mng-footer__arbitration-3">arbitration</span>
+            <span class="mng-footer__powered-by-wordpress-com-vip-3">powered by wordPress.com VIP</span>
+            <span class="mng-footer__do-not-sell-my-info-3">Do not sell my info</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=LG-TabletH">
+  <h1>Footer · Device=LG-TabletH · 1024×681.3</h1>
+  <div class="skel-stage">
+    <div class="mng-footer__device-lg-tableth" data-layer="Device=LG-TabletH">
+      <div class="mng-footer__frame-50-4" data-layer="Frame 50">
+        <div class="mng-footer__group-11389-4" data-layer="Group 11389">
+          <i class="mng-footer__vector-55" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-56" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-57" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-58" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-59" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-60" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-61" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-62" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-63" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-64" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-65" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-66" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-67" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-68" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-69" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-70" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-71" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-72" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-footer__frame-354-4" data-layer="Frame 354">
+          <div class="mng-footer__col-1-2" data-layer="Col 1">
+            <div class="mng-footer__group-subscribe-2" data-layer="Group - SubScribe">
+              <i class="mng-footer__line-1-20" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <span class="mng-footer__subscribe-4">SubScribe</span>
+              <span class="mng-footer__member-services-2">Member Services</span>
+              <span class="mng-footer__manage-subscriptions-2">Manage Subscriptions</span>
+              <span class="mng-footer__store-2">Store</span>
+              <span class="mng-footer__archive-search-2">Archive search</span>
+              <span class="mng-footer__reprints-2">Reprints</span>
+            </div>
+            <div class="mng-footer__group-marketplace-2" data-layer="Group - Marketplace">
+              <i class="mng-footer__line-1-21" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <span class="mng-footer__marketplace-4">Marketplace</span>
+              <span class="mng-footer__place-an-obituary-2">Place an Obituary</span>
+              <span class="mng-footer__place-a-real-estate-ad-2">Place a Real Estate Ad</span>
+              <span class="mng-footer__lottery-2">Lottery</span>
+            </div>
+          </div>
+          <div class="mng-footer__col-2-2" data-layer="Col 2">
+            <div class="mng-footer__group-about-oc-register-2" data-layer="Group - About OC Register">
+              <i class="mng-footer__line-1-22" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <span class="mng-footer__about-oc-register-4">About OC Register</span>
+              <span class="mng-footer__about-southern-california-news-group-2">About Southern California News Group</span>
+              <span class="mng-footer__medianews-group-2">MediaNews Group</span>
+              <span class="mng-footer__work-with-us-2">Work With Us</span>
+              <span class="mng-footer__privacy-policy-5">Privacy Policy</span>
+              <span class="mng-footer__accessibility-5">Accessibility</span>
+              <span class="mng-footer__news-archive-2">News Archive</span>
+            </div>
+            <div class="mng-footer__group-advertising-solutions-2" data-layer="Group - Advertising Solutions">
+              <i class="mng-footer__line-1-23" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <span class="mng-footer__advertising-solutions-4">Advertising Solutions</span>
+              <span class="mng-footer__get-in-touch-with-a-marketing-strategist-2">Get in Touch with a Marketing Strategist</span>
+              <span class="mng-footer__request-media-kit-2">Request Media Kit</span>
+              <span class="mng-footer__creative-services-2">Creative Services</span>
+              <span class="mng-footer__content-marketing-2">Content Marketing</span>
+            </div>
+          </div>
+          <div class="mng-footer__col-3" data-layer="Col 3">
+            <div class="mng-footer__frame-294-2" data-layer="Frame 294">
+              <div class="mng-footer__group-contact-us-2" data-layer="Group - Contact us">
+                <i class="mng-footer__line-1-24" aria-hidden="true"></i><!-- vector "Line 1" -->
+                <span class="mng-footer__contact-us-4">Contact us</span>
+                <span class="mng-footer__corrections-2">Corrections</span>
+                <span class="mng-footer__oc-register-store-2">OC Register Store</span>
+                <span class="mng-footer__reader-rewards-2">Reader Rewards</span>
+                <span class="mng-footer__photo-reprints-2">Photo Reprints</span>
+                <span class="mng-footer__sponsored-access-2">Sponsored Access</span>
+              </div>
+              <div class="mng-footer__group-partners-2" data-layer="Group - Partners">
+                <i class="mng-footer__line-1-25" aria-hidden="true"></i><!-- vector "Line 1" -->
+                <span class="mng-footer__partners-4">Partners</span>
+                <span class="mng-footer__live-traffic-map-2">Live Traffic Map</span>
+                <span class="mng-footer__newspapers-in-education-2">Newspapers in Education</span>
+                <span class="mng-footer__sponsor-a-student-2">Sponsor a Student</span>
+              </div>
+              <i class="mng-footer__line-1-26" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <!-- instance of "Button Primary" → external (not in this export) -->
+              <div class="mng-footer__button-primary-4" data-component="Button Primary" data-variant="Icon=None, state=Default" data-label="Button Primary">Button Primary · Icon=None, state=Default</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mng-footer__frame-47-4" data-layer="Frame 47">
+        <div class="mng-footer__frame-300-4" data-layer="Frame 300">
+          <div class="mng-footer__frame-266-6" data-layer="Frame 266">
+            <span class="mng-footer__copyright-2022-medianews-group-4">Copyright © 2022 MediaNews Group</span>
+            <span class="mng-footer__privacy-policy-6">Privacy policy</span>
+            <span class="mng-footer__terms-of-use-4">terms of use</span>
+            <span class="mng-footer__accessibility-6">accessibility</span>
+            <span class="mng-footer__cookie-policy-4">cookie policy</span>
+            <span class="mng-footer__arbitration-4">arbitration</span>
+            <span class="mng-footer__powered-by-wordpress-com-vip-4">powered by wordPress.com VIP</span>
+            <span class="mng-footer__do-not-sell-my-info-4">Do not sell my info</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=XL-Desktop">
+  <h1>Footer · Device=XL-Desktop · 1280×597</h1>
+  <div class="skel-stage">
+    <div class="mng-footer__device-xl-desktop" data-layer="Device=XL-Desktop">
+      <div class="mng-footer__frame-50-5" data-layer="Frame 50">
+        <div class="mng-footer__group-11389-5" data-layer="Group 11389">
+          <i class="mng-footer__vector-73" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-74" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-75" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-76" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-77" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-78" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-79" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-80" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-81" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-82" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-83" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-84" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-85" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-86" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-87" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-88" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-89" aria-hidden="true"></i><!-- vector "Vector" -->
+          <i class="mng-footer__vector-90" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-footer__frame-354-5" data-layer="Frame 354">
+          <div class="mng-footer__col-1-3" data-layer="Col 1">
+            <div class="mng-footer__group-subscribe-3" data-layer="Group - SubScribe">
+              <i class="mng-footer__line-1-27" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <span class="mng-footer__subscribe-5">SubScribe</span>
+              <span class="mng-footer__member-services-3">Member Services</span>
+              <span class="mng-footer__manage-subscriptions-3">Manage Subscriptions</span>
+              <span class="mng-footer__store-3">Store</span>
+              <span class="mng-footer__archive-search-3">Archive search</span>
+              <span class="mng-footer__reprints-3">Reprints</span>
+            </div>
+            <div class="mng-footer__group-marketplace-3" data-layer="Group - Marketplace">
+              <i class="mng-footer__line-1-28" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <span class="mng-footer__marketplace-5">Marketplace</span>
+              <span class="mng-footer__place-an-obituary-3">Place an Obituary</span>
+              <span class="mng-footer__place-a-real-estate-ad-3">Place a Real Estate Ad</span>
+              <span class="mng-footer__lottery-3">Lottery</span>
+            </div>
+          </div>
+          <div class="mng-footer__col-2-3" data-layer="Col 2">
+            <div class="mng-footer__group-about-oc-register-3" data-layer="Group - About OC Register">
+              <i class="mng-footer__line-1-29" aria-hidden="true"></i><!-- vector "Line 1" -->
+              <span class="mng-footer__about-oc-register-5">About OC Register</span>
+              <span class="mng-footer__about-southern-california-news-group-3">About Southern California News Group</span>
+              <span class="mng-footer__medianews-group-3">MediaNews Group</span>
+              <span class="mng-footer__work-with-us-3">Work With Us</span>
+              <span class="mng-footer__privacy-policy-7">Privacy Policy</span>
+              <span class="mng-footer__accessibility-7">Accessibility</span>
+              <span class="mng-footer__news-archive-3">News Archive</span>
+            </div>
+          </div>
+          <div class="mng-footer__group-advertising-solutions-3" data-layer="Group - Advertising Solutions">
+            <i class="mng-footer__line-1-30" aria-hidden="true"></i><!-- vector "Line 1" -->
+            <span class="mng-footer__advertising-solutions-5">Advertising Solutions</span>
+            <span class="mng-footer__get-in-touch-with-a-marketing-strategist-3">Get in Touch with a Marketing Strategist</span>
+            <span class="mng-footer__request-media-kit-3">Request Media Kit</span>
+            <span class="mng-footer__creative-services-3">Creative Services</span>
+            <span class="mng-footer__content-marketing-3">Content Marketing</span>
+          </div>
+          <div class="mng-footer__col-4" data-layer="Col 4">
+            <div class="mng-footer__frame-294-3" data-layer="Frame 294">
+              <div class="mng-footer__group-contact-us-3" data-layer="Group - Contact us">
+                <i class="mng-footer__line-1-31" aria-hidden="true"></i><!-- vector "Line 1" -->
+                <span class="mng-footer__contact-us-5">Contact us</span>
+                <span class="mng-footer__corrections-3">Corrections</span>
+                <span class="mng-footer__oc-register-store-3">OC Register Store</span>
+                <span class="mng-footer__reader-rewards-3">Reader Rewards</span>
+                <span class="mng-footer__photo-reprints-3">Photo Reprints</span>
+                <span class="mng-footer__sponsored-access-3">Sponsored Access</span>
+              </div>
+              <div class="mng-footer__group-partners-3" data-layer="Group - Partners">
+                <i class="mng-footer__line-1-32" aria-hidden="true"></i><!-- vector "Line 1" -->
+                <span class="mng-footer__partners-5">Partners</span>
+                <span class="mng-footer__live-traffic-map-3">Live Traffic Map</span>
+                <span class="mng-footer__newspapers-in-education-3">Newspapers in Education</span>
+                <span class="mng-footer__sponsor-a-student-3">Sponsor a Student</span>
+              </div>
+            </div>
+          </div>
+          <div class="mng-footer__col-5" data-layer="Col 5">
+            <!-- instance of "Button Primary" → external (not in this export) -->
+            <div class="mng-footer__button-primary-5" data-component="Button Primary" data-variant="Icon=None, state=Default" data-label="Button Primary">Button Primary · Icon=None, state=Default</div>
+          </div>
+        </div>
+      </div>
+      <div class="mng-footer__frame-47-5" data-layer="Frame 47">
+        <div class="mng-footer__frame-300-5" data-layer="Frame 300">
+          <div class="mng-footer__frame-266-7" data-layer="Frame 266">
+            <span class="mng-footer__copyright-2022-medianews-group-5">Copyright © 2022 MediaNews Group</span>
+            <span class="mng-footer__privacy-policy-8">Privacy policy</span>
+            <span class="mng-footer__terms-of-use-5">terms of use</span>
+            <span class="mng-footer__accessibility-8">accessibility</span>
+            <span class="mng-footer__cookie-policy-5">cookie policy</span>
+            <span class="mng-footer__arbitration-5">arbitration</span>
+            <span class="mng-footer__powered-by-wordpress-com-vip-5">powered by wordPress.com VIP</span>
+            <span class="mng-footer__do-not-sell-my-info-5">Do not sell my info</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body></html>

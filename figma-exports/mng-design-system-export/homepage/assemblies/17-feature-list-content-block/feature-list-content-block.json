@@ -1,0 +1,961 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "assembly",
+ "group": "homepage",
+ "name": "Feature + List Content Block",
+ "slug": "feature-list-content-block",
+ "order": 17,
+ "typeLabel": "Assembly · 2 variants",
+ "description": "New atom (2026-09-22) — the shared internal content block for Section Rail Card's Wide layout: a Horizontal Feature Card (fills remaining width) beside a fixed-width, headline-only list (3 items, matching production). Replaces \"Top Zones Section Block MOBILE\" — the stacked single-column arrangement that had been copy-pasted into every Wide variant instead of a real side-by-side layout. Confirmed against production's two-column \".section-highlight-content\" split and .headline-list item count (ocregister.com). Feature image corrected from square (260×260) to production's 4:3 ratio.\n\nNow a proper variant set with a \"Size\" property: Default (940w, used by Tablet/1100/1280/Desktop-Wide) and Narrow (585w, used by the 1024 breakpoint, which is genuinely too tight for the Default proportions — smaller feature image (180×135) and list column (200w) so the text column still has room to breathe. The 1024 breakpoint's Section Rail Card variant now instances Size=Narrow directly instead of carrying a detached, hand-edited one-off, so future edits to either size propagate normally.",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3484:66933",
+  "mainKey": "b49909a16526e6df948efc84d6bfbd5b8ebc3c96",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3484-66933",
+  "variants": [
+   {
+    "label": "Size=Default",
+    "id": "3478:63611",
+    "key": "d9c96ebd29527f812f5906abd384c00e203583e9",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3478-63611"
+   },
+   {
+    "label": "Size=Narrow",
+    "id": "3484:66879",
+    "key": "6e8d20beb8cdbe33910a2c93824ebdda43d964c0",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3484-66879"
+   }
+  ]
+ },
+ "properties": {
+  "Size": {
+   "type": "VARIANT",
+   "default": "Narrow",
+   "options": [
+    "Default",
+    "Narrow"
+   ]
+  }
+ },
+ "breakpoints": [
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "768 HomePage",
+   "Desktop HomePage"
+  ],
+  "builtInto": [
+   "Section Rail Card"
+  ],
+  "perVariant": [
+   {
+    "label": "Size=Default",
+    "id": "3478:63611",
+    "templatesDirect": {
+     "Desktop HomePage": 6,
+     "768 HomePage": 6,
+     "1100 HomePage": 6
+    },
+    "templatesVia": {
+     "Desktop HomePage": [
+      "Section Rail Card"
+     ],
+     "768 HomePage": [
+      "Section Rail Card"
+     ],
+     "1100 HomePage": [
+      "Section Rail Card"
+     ]
+    },
+    "nestedIn": {
+     "Section Rail Card / Device=1280, Layout=Wide": 1,
+     "Section Rail Card / Device=Tablet, Layout=Wide": 1,
+     "Section Rail Card / Device=1100, Layout=Wide": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "768",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "768",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Size=Narrow",
+    "id": "3484:66879",
+    "templatesDirect": {
+     "1024 HomePage": 6
+    },
+    "templatesVia": {
+     "1024 HomePage": [
+      "Section Rail Card"
+     ]
+    },
+    "nestedIn": {
+     "Section Rail Card / Device=1024, Layout=Wide": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "1024"
+    ],
+    "breakpoints": [
+     "1024"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Horizontal Feature Card",
+    "count": 1,
+    "inExport": true,
+    "section": "Horizontal Feature Card",
+    "path": "../../components/15-horizontal-feature-card/horizontal-feature-card.md"
+   },
+   {
+    "name": "1Col Article Card",
+    "count": 6,
+    "inExport": true,
+    "section": "1Col Article Card",
+    "path": "../../components/16-1col-article-card/1col-article-card.md"
+   },
+   {
+    "name": "Article Image Placeholder",
+    "count": 1,
+    "inExport": true,
+    "section": "Article Image Placeholder",
+    "path": "../../components/03-article-image-placeholder/article-image-placeholder.md"
+   }
+  ],
+  "builtInto": [
+   {
+    "name": "Section Rail Card",
+    "path": "../18-section-rail-card/section-rail-card.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Size=Default",
+   "variantProperties": {
+    "Size": "Default"
+   },
+   "id": "3478:63611",
+   "key": "d9c96ebd29527f812f5906abd384c00e203583e9",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3478-63611",
+   "width": 940,
+   "height": 416,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 16,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/feature-list-content-block--default.png",
+   "breakpoints": [
+    "768",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Size=Default",
+    "type": "COMPONENT",
+    "id": "3478:63611",
+    "w": 940,
+    "h": 416,
+    "x": 617,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 16,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Horizontal Feature Card",
+      "type": "INSTANCE",
+      "id": "3478:63529",
+      "w": 648,
+      "h": 203,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "component": "Horizontal Feature Card",
+      "componentKey": "e663ba16223c281b866a5d6edf44c09c6a01e34b",
+      "mainId": "3362:3022"
+     },
+     {
+      "name": "Headline List",
+      "type": "FRAME",
+      "id": "3478:63530",
+      "w": 276,
+      "h": 416,
+      "x": 664,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 16,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "MIN"
+      },
+      "children": [
+       {
+        "name": "1Col Article Card",
+        "type": "INSTANCE",
+        "id": "3478:63531",
+        "w": 276,
+        "h": 128,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "1Col Article Card",
+        "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+        "mainId": "3352:24163",
+        "props": {
+         "Show Excerpt": false,
+         "Show Meta": false,
+         "Show Subscriber Badge": false,
+         "Show Image": false
+        }
+       },
+       {
+        "name": "1Col Article Card",
+        "type": "INSTANCE",
+        "id": "3478:63532",
+        "w": 276,
+        "h": 128,
+        "x": 0,
+        "y": 144,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "1Col Article Card",
+        "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+        "mainId": "3352:24163",
+        "props": {
+         "Show Excerpt": false,
+         "Show Meta": false,
+         "Show Subscriber Badge": false,
+         "Show Image": false
+        }
+       },
+       {
+        "name": "1Col Article Card",
+        "type": "INSTANCE",
+        "id": "3478:63533",
+        "w": 276,
+        "h": 128,
+        "x": 0,
+        "y": 288,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "1Col Article Card",
+        "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+        "mainId": "3352:24163",
+        "props": {
+         "Show Excerpt": false,
+         "Show Meta": false,
+         "Show Subscriber Badge": false,
+         "Show Image": false
+        }
+       }
+      ]
+     }
+    ],
+    "key": "d9c96ebd29527f812f5906abd384c00e203583e9",
+    "variantProperties": {
+     "Size": "Default"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Narrow",
+   "variantProperties": {
+    "Size": "Narrow"
+   },
+   "id": "3484:66879",
+   "key": "6e8d20beb8cdbe33910a2c93824ebdda43d964c0",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3484-66879",
+   "width": 585,
+   "height": 494,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 16,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/feature-list-content-block--narrow.png",
+   "breakpoints": [
+    "1024"
+   ],
+   "layerTree": {
+    "name": "Size=Narrow",
+    "type": "COMPONENT",
+    "id": "3484:66879",
+    "w": 585,
+    "h": 494,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 16,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Horizontal Feature Card",
+      "type": "FRAME",
+      "id": "3484:66898",
+      "w": 369,
+      "h": 321,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Content",
+        "type": "FRAME",
+        "id": "3484:66899",
+        "w": 369,
+        "h": 313,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 28,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Article Graphic",
+          "type": "INSTANCE",
+          "id": "3484:66900",
+          "w": 180,
+          "h": 135,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#E1A1FF"
+           }
+          ],
+          "strokes": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ],
+          "strokeWeight": 2,
+          "strokeAlign": "INSIDE",
+          "component": "Article Image Placeholder",
+          "componentKey": "682588ec19d35ed6a03e5a8e45b70e5fbc16d7cf",
+          "mainId": "3334:42380"
+         },
+         {
+          "name": "Text Column",
+          "type": "FRAME",
+          "id": "3484:66901",
+          "w": 161,
+          "h": 313,
+          "x": 208,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "children": [
+           {
+            "name": "Headline Container",
+            "type": "FRAME",
+            "id": "3484:66902",
+            "w": 161,
+            "h": 245,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 0,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "children": [
+             {
+              "name": "Article Headline on News paper homepage in Wide rail lead position",
+              "type": "TEXT",
+              "id": "3484:66903",
+              "w": 161,
+              "h": 245,
+              "x": 0,
+              "y": 0,
+              "sizing": {
+               "h": "FILL",
+               "v": "HUG"
+              },
+              "text": "Article Headline on News paper homepage in Wide rail lead position",
+              "autoResize": "HEIGHT",
+              "align": "LEFT",
+              "styles": [
+               {
+                "font": "Noto Serif",
+                "weight": "Bold",
+                "size": 26,
+                "lineHeight": "auto",
+                "color": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#141414",
+                  "variable": "Colors/color/gray/min"
+                 }
+                ],
+                "textStyle": null
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "name": "Excerpt Container",
+            "type": "FRAME",
+            "id": "3484:66904",
+            "w": 161,
+            "h": 60,
+            "x": 0,
+            "y": 253,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 0,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "children": [
+             {
+              "name": "Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail.",
+              "type": "TEXT",
+              "id": "3484:66905",
+              "w": 161,
+              "h": 60,
+              "x": 0,
+              "y": 0,
+              "sizing": {
+               "h": "FILL",
+               "v": "HUG"
+              },
+              "text": "Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail.",
+              "autoResize": "HEIGHT",
+              "align": "LEFT",
+              "styles": [
+               {
+                "font": "Noto Sans",
+                "weight": "Regular",
+                "size": 15,
+                "lineHeight": "auto",
+                "color": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#393938",
+                  "variable": "Colors/color/gray/100"
+                 }
+                ],
+                "textStyle": null
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Bottom Border Line",
+        "type": "LINE",
+        "id": "3484:66906",
+        "w": 369,
+        "h": 0,
+        "x": 0,
+        "y": 321,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#CCCAC7",
+          "variable": "Colors/color/gray/500"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "CENTER"
+       }
+      ]
+     },
+     {
+      "name": "Headline List",
+      "type": "FRAME",
+      "id": "3484:66881",
+      "w": 200,
+      "h": 494,
+      "x": 385,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 16,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "MIN"
+      },
+      "children": [
+       {
+        "name": "1Col Article Card",
+        "type": "INSTANCE",
+        "id": "3484:66882",
+        "w": 200,
+        "h": 154,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "1Col Article Card",
+        "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+        "mainId": "3352:24163",
+        "props": {
+         "Show Excerpt": false,
+         "Show Meta": false,
+         "Show Subscriber Badge": false,
+         "Show Image": false
+        }
+       },
+       {
+        "name": "1Col Article Card",
+        "type": "INSTANCE",
+        "id": "3484:66883",
+        "w": 200,
+        "h": 154,
+        "x": 0,
+        "y": 170,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "1Col Article Card",
+        "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+        "mainId": "3352:24163",
+        "props": {
+         "Show Excerpt": false,
+         "Show Meta": false,
+         "Show Subscriber Badge": false,
+         "Show Image": false
+        }
+       },
+       {
+        "name": "1Col Article Card",
+        "type": "INSTANCE",
+        "id": "3484:66884",
+        "w": 200,
+        "h": 154,
+        "x": 0,
+        "y": 340,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "1Col Article Card",
+        "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+        "mainId": "3352:24163",
+        "props": {
+         "Show Excerpt": false,
+         "Show Meta": false,
+         "Show Subscriber Badge": false,
+         "Show Image": false
+        }
+       }
+      ]
+     }
+    ],
+    "key": "6e8d20beb8cdbe33910a2c93824ebdda43d964c0",
+    "variantProperties": {
+     "Size": "Narrow"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Article Headline on News paper homepage in Wide rail lead position",
+   "font": "Noto Serif",
+   "weight": "Bold",
+   "size": 26,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Article Headline on News paper homepage in Wide ra",
+   "variants": [
+    "Size=Narrow"
+   ]
+  },
+  {
+   "layer": "Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail.",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 15,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#393938",
+   "token": "Colors/color/gray/100",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Vanroy Evan Smith, 39, of Long Beach is being held",
+   "variants": [
+    "Size=Narrow"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Bottom Border Line",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#CCCAC7",
+   "token": "Colors/color/gray/500",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  }
+ ],
+ "imageRatios": [
+  {
+   "layer": "Article Graphic",
+   "w": 180,
+   "h": 135,
+   "ratio": "4:3",
+   "source": "Article Image Placeholder",
+   "variant": "Size=Narrow"
+  }
+ ],
+ "adSlots": [],
+ "responsiveRules": [
+  "Size=Default: 940×416, horizontal gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1100, 1280",
+  "Size=Narrow: 585×494, horizontal gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024"
+ ],
+ "productionRefs": [
+  ".headline-list",
+  "ocregister.com"
+ ],
+ "knownIssues": [],
+ "skeleton": "feature-list-content-block.html",
+ "exported": "2026-09-24"
+}

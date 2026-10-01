@@ -1,0 +1,1731 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "menus-and-parts",
+ "name": "UserImage",
+ "slug": "userimage",
+ "order": 28,
+ "typeLabel": "Component · 12 variants",
+ "description": null,
+ "designerNotes": [
+  "User Type",
+  "UserPic",
+  "UserPic | Sample Model; do not use"
+ ],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Menus and Parts",
+  "path": [
+   "Frame 12800",
+   "Frame 416",
+   "Frame 11820",
+   "Frame 12776",
+   "Frame 12636",
+   "User Status",
+   "Frame 12757",
+   "Frame 12691"
+  ],
+  "mainId": "456:5708",
+  "mainKey": "72a3f7d5c88a366288aae1b0835999779027f8ea",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5708",
+  "variants": [
+   {
+    "label": "Size=large, Graphic=social",
+    "id": "456:5711",
+    "key": "3d72385abd858df72d16d097eeb024040b40988a",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5711"
+   },
+   {
+    "label": "Size=large, Graphic=socialPhillip",
+    "id": "456:5713",
+    "key": "a6bcb077278e5e84f82dfa5a315929957a4ceaf7",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5713"
+   },
+   {
+    "label": "Size=large, Graphic=unknown",
+    "id": "712:1495",
+    "key": "d19aea8c4f9a9e53a38f9d7101acec361fd11111",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=712-1495"
+   },
+   {
+    "label": "Size=large, Graphic=monogram",
+    "id": "456:5720",
+    "key": "d9adf6f30bd1911f0cdda61c0d434b6fc1597ea2",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5720"
+   },
+   {
+    "label": "Size=large, Graphic=monogramPP",
+    "id": "456:5722",
+    "key": "e1ce7d77cda0bff43d673ed99f5c4267ae38d152",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5722"
+   },
+   {
+    "label": "Size=medium, Graphic=social",
+    "id": "712:6288",
+    "key": "b14bada0bf1b5b79c412988fa8663fd6d115586c",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=712-6288"
+   },
+   {
+    "label": "Size=medium, Graphic=socialPhillip",
+    "id": "712:6290",
+    "key": "369c3a59d2951205487726145bf1cc5b97517dbf",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=712-6290"
+   },
+   {
+    "label": "Size=medium, Graphic=unknown",
+    "id": "712:6283",
+    "key": "9034bd15d9c7e5085cd2493565afcdabe3f61ef5",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=712-6283"
+   },
+   {
+    "label": "Size=medium, Graphic=monogram",
+    "id": "712:6286",
+    "key": "805ed4279fee9fdc5fbe8410498653f7c98ce561",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=712-6286"
+   },
+   {
+    "label": "Size=small, Graphic=social",
+    "id": "456:5709",
+    "key": "f8c7fd8cc75dc89eaac2484152c42ae5f5cfd5b4",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5709"
+   },
+   {
+    "label": "Size=small, Graphic=unknown",
+    "id": "456:5715",
+    "key": "12267cca8a9aacae278147bf2ecc80af0533e85e",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5715"
+   },
+   {
+    "label": "Size=small, Graphic=monogram",
+    "id": "456:5718",
+    "key": "b402979335b263158f2f12397d47a4c6e7176220",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5718"
+   }
+  ]
+ },
+ "properties": {
+  "Size": {
+   "type": "VARIANT",
+   "default": "small",
+   "options": [
+    "small",
+    "large",
+    "medium"
+   ]
+  },
+  "Graphic": {
+   "type": "VARIANT",
+   "default": "unknown",
+   "options": [
+    "unknown",
+    "monogram",
+    "monogramPP",
+    "social",
+    "socialPhillip"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "UserPic"
+  ],
+  "perVariant": [
+   {
+    "label": "Size=large, Graphic=social",
+    "id": "456:5711",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {
+     "UserPic / Size=Large, Status=Active": 1,
+     "UserPic / Size=Large, Status=Default": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   },
+   {
+    "label": "Size=large, Graphic=socialPhillip",
+    "id": "456:5713",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   },
+   {
+    "label": "Size=large, Graphic=unknown",
+    "id": "712:1495",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   },
+   {
+    "label": "Size=large, Graphic=monogram",
+    "id": "456:5720",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   },
+   {
+    "label": "Size=large, Graphic=monogramPP",
+    "id": "456:5722",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   },
+   {
+    "label": "Size=medium, Graphic=social",
+    "id": "712:6288",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {
+     "UserPic / Size=Medium, Status=Active": 1,
+     "UserPic / Size=Medium, Status=Default": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   },
+   {
+    "label": "Size=medium, Graphic=socialPhillip",
+    "id": "712:6290",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   },
+   {
+    "label": "Size=medium, Graphic=unknown",
+    "id": "712:6283",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   },
+   {
+    "label": "Size=medium, Graphic=monogram",
+    "id": "712:6286",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   },
+   {
+    "label": "Size=small, Graphic=social",
+    "id": "456:5709",
+    "templatesDirect": {},
+    "templatesVia": {
+     "340 HomePage": [
+      "UserPic"
+     ],
+     "768 HomePage": [
+      "UserPic"
+     ],
+     "1024 HomePage": [
+      "UserPic"
+     ],
+     "Mobile HomePage": [
+      "UserPic"
+     ]
+    },
+    "nestedIn": {
+     "UserPic / Size=Small, Status=Active": 1,
+     "UserPic / Size=Small, Status=Default": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024"
+    ]
+   },
+   {
+    "label": "Size=small, Graphic=unknown",
+    "id": "456:5715",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   },
+   {
+    "label": "Size=small, Graphic=monogram",
+    "id": "456:5718",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Icons",
+    "count": 3,
+    "inExport": false,
+    "section": null,
+    "path": null
+   }
+  ],
+  "builtInto": [
+   {
+    "name": "UserPic",
+    "path": "../../assemblies/33-userpic/userpic.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Size=large, Graphic=social",
+   "variantProperties": {
+    "Size": "large",
+    "Graphic": "social"
+   },
+   "id": "456:5711",
+   "key": "3d72385abd858df72d16d097eeb024040b40988a",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5711",
+   "width": 64,
+   "height": 64,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": 80,
+   "preview": "previews/userimage--large-social.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Size=large, Graphic=social",
+    "type": "COMPONENT",
+    "id": "456:5711",
+    "w": 64,
+    "h": 64,
+    "x": 176,
+    "y": 118,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "radius": 80,
+    "children": [
+     {
+      "name": "gritty 1",
+      "type": "RECTANGLE",
+      "id": "456:5712",
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "fills": [
+       {
+        "type": "IMAGE",
+        "scaleMode": "CROP"
+       }
+      ]
+     }
+    ],
+    "key": "3d72385abd858df72d16d097eeb024040b40988a",
+    "variantProperties": {
+     "Size": "large",
+     "Graphic": "social"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=large, Graphic=socialPhillip",
+   "variantProperties": {
+    "Size": "large",
+    "Graphic": "socialPhillip"
+   },
+   "id": "456:5713",
+   "key": "a6bcb077278e5e84f82dfa5a315929957a4ceaf7",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5713",
+   "width": 64,
+   "height": 64,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": 80,
+   "preview": "previews/userimage--large-socialphillip.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Size=large, Graphic=socialPhillip",
+    "type": "COMPONENT",
+    "id": "456:5713",
+    "w": 64,
+    "h": 64,
+    "x": 176,
+    "y": 188,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "radius": 80,
+    "children": [
+     {
+      "name": "phillie-phanatic-philadelphia-phillies",
+      "type": "RECTANGLE",
+      "id": "456:5714",
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "fills": [
+       {
+        "type": "IMAGE",
+        "scaleMode": "CROP"
+       }
+      ]
+     }
+    ],
+    "key": "a6bcb077278e5e84f82dfa5a315929957a4ceaf7",
+    "variantProperties": {
+     "Size": "large",
+     "Graphic": "socialPhillip"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=large, Graphic=unknown",
+   "variantProperties": {
+    "Size": "large",
+    "Graphic": "unknown"
+   },
+   "id": "712:1495",
+   "key": "d19aea8c4f9a9e53a38f9d7101acec361fd11111",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=712-1495",
+   "width": 64,
+   "height": 64,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": 80,
+   "preview": "previews/userimage--large-unknown.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Size=large, Graphic=unknown",
+    "type": "COMPONENT",
+    "id": "712:1495",
+    "w": 64,
+    "h": 64,
+    "x": 16,
+    "y": 118,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "radius": 80,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Icons",
+      "type": "INSTANCE",
+      "id": "1724:42152",
+      "w": 24,
+      "h": 24,
+      "x": 20,
+      "y": 20,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "component": "Icons",
+      "variant": {
+       "Name": "user"
+      },
+      "componentKey": "1eec3c572b35b5eb4fb4e93ca84561f70017db8b",
+      "mainId": "3493:81122",
+      "props": {}
+     }
+    ],
+    "key": "d19aea8c4f9a9e53a38f9d7101acec361fd11111",
+    "variantProperties": {
+     "Size": "large",
+     "Graphic": "unknown"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=large, Graphic=monogram",
+   "variantProperties": {
+    "Size": "large",
+    "Graphic": "monogram"
+   },
+   "id": "456:5720",
+   "key": "d9adf6f30bd1911f0cdda61c0d434b6fc1597ea2",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5720",
+   "width": 64,
+   "height": 64,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FF702C"
+    }
+   ],
+   "strokes": null,
+   "radius": 80,
+   "preview": "previews/userimage--large-monogram.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Size=large, Graphic=monogram",
+    "type": "COMPONENT",
+    "id": "456:5720",
+    "w": 64,
+    "h": 64,
+    "x": 96,
+    "y": 118,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "radius": 80,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FF702C"
+     }
+    ],
+    "children": [
+     {
+      "name": "Initials",
+      "type": "TEXT",
+      "id": "456:5721",
+      "w": 64,
+      "h": 19,
+      "x": 0,
+      "y": 22.5,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "text": "GM",
+      "autoResize": "NONE",
+      "align": "CENTER",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 27,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "d9adf6f30bd1911f0cdda61c0d434b6fc1597ea2",
+    "variantProperties": {
+     "Size": "large",
+     "Graphic": "monogram"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=large, Graphic=monogramPP",
+   "variantProperties": {
+    "Size": "large",
+    "Graphic": "monogramPP"
+   },
+   "id": "456:5722",
+   "key": "e1ce7d77cda0bff43d673ed99f5c4267ae38d152",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5722",
+   "width": 64,
+   "height": 64,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#2E8000",
+     "variable": "Colors/color/feedback/low-success"
+    }
+   ],
+   "strokes": null,
+   "radius": 80,
+   "preview": "previews/userimage--large-monogrampp.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Size=large, Graphic=monogramPP",
+    "type": "COMPONENT",
+    "id": "456:5722",
+    "w": 64,
+    "h": 64,
+    "x": 96,
+    "y": 188,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "radius": 80,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#2E8000",
+      "variable": "Colors/color/feedback/low-success"
+     }
+    ],
+    "children": [
+     {
+      "name": "Initials",
+      "type": "TEXT",
+      "id": "456:5723",
+      "w": 64,
+      "h": 19,
+      "x": 0,
+      "y": 22.5,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "text": "PP",
+      "autoResize": "NONE",
+      "align": "CENTER",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 27,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "e1ce7d77cda0bff43d673ed99f5c4267ae38d152",
+    "variantProperties": {
+     "Size": "large",
+     "Graphic": "monogramPP"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=medium, Graphic=social",
+   "variantProperties": {
+    "Size": "medium",
+    "Graphic": "social"
+   },
+   "id": "712:6288",
+   "key": "b14bada0bf1b5b79c412988fa8663fd6d115586c",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=712-6288",
+   "width": 40,
+   "height": 40,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": 80,
+   "preview": "previews/userimage--medium-social.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Size=medium, Graphic=social",
+    "type": "COMPONENT",
+    "id": "712:6288",
+    "w": 40,
+    "h": 40,
+    "x": 128,
+    "y": 62,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "radius": 80,
+    "children": [
+     {
+      "name": "gritty 1",
+      "type": "RECTANGLE",
+      "id": "712:6289",
+      "w": 40,
+      "h": 40,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "fills": [
+       {
+        "type": "IMAGE",
+        "scaleMode": "CROP"
+       }
+      ]
+     }
+    ],
+    "key": "b14bada0bf1b5b79c412988fa8663fd6d115586c",
+    "variantProperties": {
+     "Size": "medium",
+     "Graphic": "social"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=medium, Graphic=socialPhillip",
+   "variantProperties": {
+    "Size": "medium",
+    "Graphic": "socialPhillip"
+   },
+   "id": "712:6290",
+   "key": "369c3a59d2951205487726145bf1cc5b97517dbf",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=712-6290",
+   "width": 40,
+   "height": 40,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": 80,
+   "preview": "previews/userimage--medium-socialphillip.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Size=medium, Graphic=socialPhillip",
+    "type": "COMPONENT",
+    "id": "712:6290",
+    "w": 40,
+    "h": 40,
+    "x": 184,
+    "y": 62,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "radius": 80,
+    "children": [
+     {
+      "name": "phillie-phanatic-philadelphia-phillies",
+      "type": "RECTANGLE",
+      "id": "712:6291",
+      "w": 40,
+      "h": 40,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "fills": [
+       {
+        "type": "IMAGE",
+        "scaleMode": "CROP"
+       }
+      ]
+     }
+    ],
+    "key": "369c3a59d2951205487726145bf1cc5b97517dbf",
+    "variantProperties": {
+     "Size": "medium",
+     "Graphic": "socialPhillip"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=medium, Graphic=unknown",
+   "variantProperties": {
+    "Size": "medium",
+    "Graphic": "unknown"
+   },
+   "id": "712:6283",
+   "key": "9034bd15d9c7e5085cd2493565afcdabe3f61ef5",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=712-6283",
+   "width": 40,
+   "height": 40,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": 80,
+   "preview": "previews/userimage--medium-unknown.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Size=medium, Graphic=unknown",
+    "type": "COMPONENT",
+    "id": "712:6283",
+    "w": 40,
+    "h": 40,
+    "x": 16,
+    "y": 62,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "radius": 80,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Icons",
+      "type": "INSTANCE",
+      "id": "1724:42118",
+      "w": 24,
+      "h": 24,
+      "x": 8,
+      "y": 8,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "component": "Icons",
+      "variant": {
+       "Name": "user"
+      },
+      "componentKey": "1eec3c572b35b5eb4fb4e93ca84561f70017db8b",
+      "mainId": "3493:81122",
+      "props": {}
+     }
+    ],
+    "key": "9034bd15d9c7e5085cd2493565afcdabe3f61ef5",
+    "variantProperties": {
+     "Size": "medium",
+     "Graphic": "unknown"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=medium, Graphic=monogram",
+   "variantProperties": {
+    "Size": "medium",
+    "Graphic": "monogram"
+   },
+   "id": "712:6286",
+   "key": "805ed4279fee9fdc5fbe8410498653f7c98ce561",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=712-6286",
+   "width": 40,
+   "height": 40,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FF702C"
+    }
+   ],
+   "strokes": null,
+   "radius": 80,
+   "preview": "previews/userimage--medium-monogram.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Size=medium, Graphic=monogram",
+    "type": "COMPONENT",
+    "id": "712:6286",
+    "w": 40,
+    "h": 40,
+    "x": 72,
+    "y": 62,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "radius": 80,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FF702C"
+     }
+    ],
+    "children": [
+     {
+      "name": "Initials",
+      "type": "TEXT",
+      "id": "712:6287",
+      "w": 40,
+      "h": 19,
+      "x": 0,
+      "y": 10.5,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "text": "GM",
+      "autoResize": "NONE",
+      "align": "CENTER",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 22,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "805ed4279fee9fdc5fbe8410498653f7c98ce561",
+    "variantProperties": {
+     "Size": "medium",
+     "Graphic": "monogram"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=small, Graphic=social",
+   "variantProperties": {
+    "Size": "small",
+    "Graphic": "social"
+   },
+   "id": "456:5709",
+   "key": "f8c7fd8cc75dc89eaac2484152c42ae5f5cfd5b4",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5709",
+   "width": 30,
+   "height": 30,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": 80,
+   "preview": "previews/userimage--small-social.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024"
+   ],
+   "layerTree": {
+    "name": "Size=small, Graphic=social",
+    "type": "COMPONENT",
+    "id": "456:5709",
+    "w": 30,
+    "h": 30,
+    "x": 128,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "radius": 80,
+    "children": [
+     {
+      "name": "gritty 1",
+      "type": "RECTANGLE",
+      "id": "456:5710",
+      "w": 30,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "fills": [
+       {
+        "type": "IMAGE",
+        "scaleMode": "FILL"
+       }
+      ]
+     }
+    ],
+    "key": "f8c7fd8cc75dc89eaac2484152c42ae5f5cfd5b4",
+    "variantProperties": {
+     "Size": "small",
+     "Graphic": "social"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=small, Graphic=unknown",
+   "variantProperties": {
+    "Size": "small",
+    "Graphic": "unknown"
+   },
+   "id": "456:5715",
+   "key": "12267cca8a9aacae278147bf2ecc80af0533e85e",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5715",
+   "width": 30,
+   "height": 30,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": 80,
+   "preview": "previews/userimage--small-unknown.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Size=small, Graphic=unknown",
+    "type": "COMPONENT",
+    "id": "456:5715",
+    "w": 30,
+    "h": 30,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "radius": 80,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Icons",
+      "type": "INSTANCE",
+      "id": "1724:42051",
+      "w": 16,
+      "h": 16,
+      "x": 7,
+      "y": 7,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "component": "Icons",
+      "variant": {
+       "Name": "user"
+      },
+      "componentKey": "1eec3c572b35b5eb4fb4e93ca84561f70017db8b",
+      "mainId": "3493:81122",
+      "props": {}
+     }
+    ],
+    "key": "12267cca8a9aacae278147bf2ecc80af0533e85e",
+    "variantProperties": {
+     "Size": "small",
+     "Graphic": "unknown"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=small, Graphic=monogram",
+   "variantProperties": {
+    "Size": "small",
+    "Graphic": "monogram"
+   },
+   "id": "456:5718",
+   "key": "b402979335b263158f2f12397d47a4c6e7176220",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5718",
+   "width": 30,
+   "height": 30,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FF702C"
+    }
+   ],
+   "strokes": null,
+   "radius": 80,
+   "preview": "previews/userimage--small-monogram.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Size=small, Graphic=monogram",
+    "type": "COMPONENT",
+    "id": "456:5718",
+    "w": 30,
+    "h": 30,
+    "x": 72,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "radius": 80,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FF702C"
+     }
+    ],
+    "children": [
+     {
+      "name": "Initials",
+      "type": "TEXT",
+      "id": "456:5719",
+      "w": 30,
+      "h": 19,
+      "x": 0,
+      "y": 5.5,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "text": "GM",
+      "autoResize": "NONE",
+      "align": "CENTER",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 12,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "b402979335b263158f2f12397d47a4c6e7176220",
+    "variantProperties": {
+     "Size": "small",
+     "Graphic": "monogram"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Initials",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 27,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "GM",
+   "variants": [
+    "Size=large, Graphic=monogram",
+    "Size=large, Graphic=monogramPP"
+   ]
+  },
+  {
+   "layer": "Initials",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 22,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "GM",
+   "variants": [
+    "Size=medium, Graphic=monogram"
+   ]
+  },
+  {
+   "layer": "Initials",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 12,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "GM",
+   "variants": [
+    "Size=small, Graphic=monogram"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "gritty 1",
+   "role": "fill",
+   "type": "IMAGE",
+   "hex": null,
+   "token": null,
+   "opacity": null,
+   "note": " IMAGE CROP",
+   "strokeWeight": null
+  },
+  {
+   "layer": "phillie-phanatic-philadelphia-phillies",
+   "role": "fill",
+   "type": "IMAGE",
+   "hex": null,
+   "token": null,
+   "opacity": null,
+   "note": " IMAGE CROP",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Size=large, Graphic=unknown",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Size=large, Graphic=monogram",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FF702C",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Size=large, Graphic=monogramPP",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#2E8000",
+   "token": "Colors/color/feedback/low-success",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Size=medium, Graphic=unknown",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Size=medium, Graphic=monogram",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FF702C",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Size=small, Graphic=unknown",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Size=small, Graphic=monogram",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FF702C",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Size=large, Graphic=social: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
+  "Size=large, Graphic=socialPhillip: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
+  "Size=large, Graphic=unknown: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
+  "Size=large, Graphic=monogram: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
+  "Size=large, Graphic=monogramPP: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
+  "Size=medium, Graphic=social: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
+  "Size=medium, Graphic=socialPhillip: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
+  "Size=medium, Graphic=unknown: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
+  "Size=medium, Graphic=monogram: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
+  "Size=small, Graphic=social: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at 340, 360, 768, 1024",
+  "Size=small, Graphic=unknown: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
+  "Size=small, Graphic=monogram: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "9 of 12 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Size=large, Graphic=socialPhillip`, `Size=large, Graphic=unknown`, `Size=large, Graphic=monogram`, `Size=large, Graphic=monogramPP`, `Size=medium, Graphic=socialPhillip`, `Size=medium, Graphic=unknown`, `Size=medium, Graphic=monogram`, `Size=small, Graphic=unknown`, `Size=small, Graphic=monogram`.",
+  "3 solid paints are hard-coded (not bound to a color variable): #FF702C ×3."
+ ],
+ "skeleton": "userimage.html",
+ "exported": "2026-09-24"
+}

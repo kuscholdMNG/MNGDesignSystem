@@ -1,0 +1,2477 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Upcoming Events Widget (768, 3 cards, 7 days)",
+ "slug": "upcoming-events-widget-768-3-cards-7-days",
+ "order": 23,
+ "typeLabel": "Component · Standalone",
+ "description": "Standalone component · the 768 (Tablet) sizing of the Upcoming Events Widget. The main Upcoming Events Widget component set lives on the “Ads and Sponsored” page; this one-off is used by the 768 HomePage template.",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3445:57028",
+  "mainKey": "5729ce5a5beca9edccf2836f37c6e1fc6765e9b3",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3445-57028",
+  "variants": [
+   {
+    "label": "Upcoming Events Widget (768, 3 cards, 7 days)",
+    "id": "3445:57028",
+    "key": "5729ce5a5beca9edccf2836f37c6e1fc6765e9b3",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3445-57028"
+   }
+  ]
+ },
+ "properties": {},
+ "breakpoints": [
+  "768"
+ ],
+ "usage": {
+  "templates": [
+   "768 HomePage"
+  ],
+  "builtInto": [
+   "Upcoming Events Block"
+  ],
+  "perVariant": [
+   {
+    "label": "Upcoming Events Widget (768, 3 cards, 7 days)",
+    "id": "3445:57028",
+    "templatesDirect": {},
+    "templatesVia": {
+     "768 HomePage": [
+      "Upcoming Events Block"
+     ]
+    },
+    "nestedIn": {
+     "Upcoming Events Block / Device=Tablet": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "768"
+    ],
+    "breakpoints": [
+     "768"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [],
+  "builtInto": [
+   {
+    "name": "Upcoming Events Block",
+    "path": "../../assemblies/24-upcoming-events-block/upcoming-events-block.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Upcoming Events Widget (768, 3 cards, 7 days)",
+   "variantProperties": null,
+   "id": "3445:57028",
+   "key": "5729ce5a5beca9edccf2836f37c6e1fc6765e9b3",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3445-57028",
+   "width": 407,
+   "height": 250,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 4,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/upcoming-events-widget-768-3-cards-7-days.png",
+   "breakpoints": [
+    "768"
+   ],
+   "layerTree": {
+    "name": "Upcoming Events Widget (768, 3 cards, 7 days)",
+    "type": "COMPONENT",
+    "id": "3445:57028",
+    "w": 407,
+    "h": 250,
+    "x": 0,
+    "y": 0,
+    "sizing": {
+     "h": "HUG",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 4,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "clip": true,
+    "children": [
+     {
+      "name": "Header",
+      "type": "FRAME",
+      "id": "3445:57029",
+      "w": 407,
+      "h": 24,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Upcoming Events",
+        "type": "TEXT",
+        "id": "3445:57030",
+        "w": 383,
+        "h": 22,
+        "x": 0,
+        "y": 1,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "text": "Upcoming Events",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Bold",
+          "size": 16,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#141414"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       },
+       {
+        "name": "< >",
+        "type": "TEXT",
+        "id": "3445:57031",
+        "w": 24,
+        "h": 19,
+        "x": 383,
+        "y": 2.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "text": "<  >",
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Bold",
+          "size": 14,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#808080"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Event Card Row (4 cards — width matches available content column at this size)",
+      "type": "FRAME",
+      "id": "3445:57032",
+      "w": 407,
+      "h": 173,
+      "x": 0,
+      "y": 28,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 10,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "children": [
+       {
+        "name": "Event Card (768, 129w)",
+        "type": "FRAME",
+        "id": "3470:51184",
+        "w": 129,
+        "h": 173,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Image Area",
+          "type": "FRAME",
+          "id": "3470:51185",
+          "w": 129,
+          "h": 122,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 0,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF"
+           }
+          ],
+          "children": [
+           {
+            "name": "Article Image Placeholder",
+            "type": "FRAME",
+            "id": "3470:51197",
+            "w": 129,
+            "h": 122,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "absolute": true,
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "CENTER",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#E1A1FF"
+             }
+            ],
+            "strokes": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "strokeWeight": 2,
+            "strokeAlign": "INSIDE",
+            "children": [
+             {
+              "name": "Union",
+              "type": "BOOLEAN_OPERATION",
+              "id": "3470:51198",
+              "w": 129,
+              "h": 122,
+              "x": 0,
+              "y": 0,
+              "sizing": {
+               "h": "FILL",
+               "v": "FILL"
+              },
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
+               }
+              ],
+              "children": [
+               {
+                "name": "Vector 1",
+                "type": "VECTOR",
+                "id": "3470:51199",
+                "w": 127.6,
+                "h": 120.5,
+                "x": 0.7,
+                "y": 0.7,
+                "strokes": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#111111"
+                 }
+                ],
+                "strokeWeight": 2,
+                "strokeAlign": "CENTER"
+               },
+               {
+                "name": "Vector 2",
+                "type": "VECTOR",
+                "id": "3470:51200",
+                "w": 127.6,
+                "h": 120.5,
+                "x": 128.3,
+                "y": 0.7,
+                "strokes": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#111111"
+                 }
+                ],
+                "strokeWeight": 2,
+                "strokeAlign": "CENTER"
+               }
+              ]
+             },
+             {
+              "name": "Frame 11643",
+              "type": "FRAME",
+              "id": "3470:51201",
+              "w": 179,
+              "h": 19,
+              "x": -25,
+              "y": 51,
+              "sizing": {
+               "h": "HUG",
+               "v": "HUG"
+              },
+              "absolute": true,
+              "layout": {
+               "dir": "HORIZONTAL",
+               "gap": 8,
+               "pad": [
+                0,
+                0,
+                0,
+                0
+               ],
+               "main": "CENTER",
+               "cross": "CENTER"
+              },
+              "children": [
+               {
+                "name": "ARTICLE IMAGE",
+                "type": "TEXT",
+                "id": "3470:51202",
+                "w": 179,
+                "h": 19,
+                "x": 0,
+                "y": 0,
+                "sizing": {
+                 "h": "HUG",
+                 "v": "HUG"
+                },
+                "strokes": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#F1EFEB",
+                  "variable": "Colors/color/gray/600"
+                 }
+                ],
+                "strokeWeight": 3,
+                "strokeAlign": "OUTSIDE",
+                "text": "GRAPHIC / IMAGE",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "align": "LEFT",
+                "styles": [
+                 {
+                  "font": "New York",
+                  "weight": "Black",
+                  "size": 16,
+                  "lineHeight": "auto",
+                  "letterSpacing": "10%",
+                  "color": [
+                   {
+                    "type": "SOLID",
+                    "hex": "#141414",
+                    "variable": "Colors/color/gray/min"
+                   }
+                  ],
+                  "textStyle": null
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "name": "Date Bar",
+            "type": "FRAME",
+            "id": "3470:51187",
+            "w": 129,
+            "h": 13,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "absolute": true,
+            "clip": true,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "opacity": 0.65
+             }
+            ],
+            "children": [
+             {
+              "name": "Tue, Sep 15",
+              "type": "TEXT",
+              "id": "3470:51188",
+              "w": 44,
+              "h": 11,
+              "x": 5,
+              "y": 2,
+              "text": "Tue, Sep 15",
+              "autoResize": "WIDTH_AND_HEIGHT",
+              "align": "LEFT",
+              "styles": [
+               {
+                "font": "Source Sans Pro",
+                "weight": "SemiBold",
+                "size": 9,
+                "lineHeight": "auto",
+                "color": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#FFFFFF"
+                 }
+                ],
+                "textStyle": null
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Details",
+          "type": "FRAME",
+          "id": "3470:51189",
+          "w": 129,
+          "h": 51,
+          "x": 0,
+          "y": 122,
+          "sizing": {
+           "h": "FILL",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 2,
+           "pad": [
+            4,
+            2,
+            0,
+            2
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "children": [
+           {
+            "name": "Event Title Placeholder Text Here",
+            "type": "TEXT",
+            "id": "3470:51190",
+            "w": 125,
+            "h": 32,
+            "x": 2,
+            "y": 4,
+            "sizing": {
+             "h": "FILL",
+             "v": "FIXED"
+            },
+            "text": "Event Title Placeholder Text Here",
+            "autoResize": "TRUNCATE",
+            "align": "LEFT",
+            "truncate": true,
+            "maxLines": null,
+            "styles": [
+             {
+              "font": "Noto Serif",
+              "weight": "Bold",
+              "size": 12,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#141414"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           },
+           {
+            "name": "Venue Name Placeholder",
+            "type": "TEXT",
+            "id": "3470:51191",
+            "w": 125,
+            "h": 13,
+            "x": 2,
+            "y": 38,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "text": "Venue Name Placeholder",
+            "autoResize": "HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Source Sans Pro",
+              "weight": "Regular",
+              "size": 10,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#666666"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Event Card (768, 129w)",
+        "type": "FRAME",
+        "id": "3470:51203",
+        "w": 129,
+        "h": 173,
+        "x": 139,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Image Area",
+          "type": "FRAME",
+          "id": "3470:51204",
+          "w": 129,
+          "h": 122,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 0,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF"
+           }
+          ],
+          "children": [
+           {
+            "name": "Article Image Placeholder",
+            "type": "FRAME",
+            "id": "3470:51216",
+            "w": 129,
+            "h": 122,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "absolute": true,
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "CENTER",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#E1A1FF"
+             }
+            ],
+            "strokes": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "strokeWeight": 2,
+            "strokeAlign": "INSIDE",
+            "children": [
+             {
+              "name": "Union",
+              "type": "BOOLEAN_OPERATION",
+              "id": "3470:51217",
+              "w": 129,
+              "h": 122,
+              "x": 0,
+              "y": 0,
+              "sizing": {
+               "h": "FILL",
+               "v": "FILL"
+              },
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
+               }
+              ],
+              "children": [
+               {
+                "name": "Vector 1",
+                "type": "VECTOR",
+                "id": "3470:51218",
+                "w": 127.6,
+                "h": 120.5,
+                "x": 0.7,
+                "y": 0.7,
+                "strokes": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#111111"
+                 }
+                ],
+                "strokeWeight": 2,
+                "strokeAlign": "CENTER"
+               },
+               {
+                "name": "Vector 2",
+                "type": "VECTOR",
+                "id": "3470:51219",
+                "w": 127.6,
+                "h": 120.5,
+                "x": 128.3,
+                "y": 0.7,
+                "strokes": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#111111"
+                 }
+                ],
+                "strokeWeight": 2,
+                "strokeAlign": "CENTER"
+               }
+              ]
+             },
+             {
+              "name": "Frame 11643",
+              "type": "FRAME",
+              "id": "3470:51220",
+              "w": 179,
+              "h": 19,
+              "x": -25,
+              "y": 51,
+              "sizing": {
+               "h": "HUG",
+               "v": "HUG"
+              },
+              "absolute": true,
+              "layout": {
+               "dir": "HORIZONTAL",
+               "gap": 8,
+               "pad": [
+                0,
+                0,
+                0,
+                0
+               ],
+               "main": "CENTER",
+               "cross": "CENTER"
+              },
+              "children": [
+               {
+                "name": "ARTICLE IMAGE",
+                "type": "TEXT",
+                "id": "3470:51221",
+                "w": 179,
+                "h": 19,
+                "x": 0,
+                "y": 0,
+                "sizing": {
+                 "h": "HUG",
+                 "v": "HUG"
+                },
+                "strokes": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#F1EFEB",
+                  "variable": "Colors/color/gray/600"
+                 }
+                ],
+                "strokeWeight": 3,
+                "strokeAlign": "OUTSIDE",
+                "text": "GRAPHIC / IMAGE",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "align": "LEFT",
+                "styles": [
+                 {
+                  "font": "New York",
+                  "weight": "Black",
+                  "size": 16,
+                  "lineHeight": "auto",
+                  "letterSpacing": "10%",
+                  "color": [
+                   {
+                    "type": "SOLID",
+                    "hex": "#141414",
+                    "variable": "Colors/color/gray/min"
+                   }
+                  ],
+                  "textStyle": null
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "name": "Date Bar",
+            "type": "FRAME",
+            "id": "3470:51206",
+            "w": 129,
+            "h": 13,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "absolute": true,
+            "clip": true,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "opacity": 0.65
+             }
+            ],
+            "children": [
+             {
+              "name": "Tue, Sep 15",
+              "type": "TEXT",
+              "id": "3470:51207",
+              "w": 44,
+              "h": 11,
+              "x": 5,
+              "y": 2,
+              "text": "Tue, Sep 15",
+              "autoResize": "WIDTH_AND_HEIGHT",
+              "align": "LEFT",
+              "styles": [
+               {
+                "font": "Source Sans Pro",
+                "weight": "SemiBold",
+                "size": 9,
+                "lineHeight": "auto",
+                "color": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#FFFFFF"
+                 }
+                ],
+                "textStyle": null
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Details",
+          "type": "FRAME",
+          "id": "3470:51208",
+          "w": 129,
+          "h": 51,
+          "x": 0,
+          "y": 122,
+          "sizing": {
+           "h": "FILL",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 2,
+           "pad": [
+            4,
+            2,
+            0,
+            2
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "children": [
+           {
+            "name": "Event Title Placeholder Text Here",
+            "type": "TEXT",
+            "id": "3470:51209",
+            "w": 125,
+            "h": 32,
+            "x": 2,
+            "y": 4,
+            "sizing": {
+             "h": "FILL",
+             "v": "FIXED"
+            },
+            "text": "Event Title Placeholder Text Here",
+            "autoResize": "TRUNCATE",
+            "align": "LEFT",
+            "truncate": true,
+            "maxLines": null,
+            "styles": [
+             {
+              "font": "Noto Serif",
+              "weight": "Bold",
+              "size": 12,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#141414"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           },
+           {
+            "name": "Venue Name Placeholder",
+            "type": "TEXT",
+            "id": "3470:51210",
+            "w": 125,
+            "h": 13,
+            "x": 2,
+            "y": 38,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "text": "Venue Name Placeholder",
+            "autoResize": "HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Source Sans Pro",
+              "weight": "Regular",
+              "size": 10,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#666666"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Event Card (768, 129w)",
+        "type": "FRAME",
+        "id": "3470:51222",
+        "w": 129,
+        "h": 173,
+        "x": 278,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Image Area",
+          "type": "FRAME",
+          "id": "3470:51223",
+          "w": 129,
+          "h": 122,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 0,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF"
+           }
+          ],
+          "children": [
+           {
+            "name": "Article Image Placeholder",
+            "type": "FRAME",
+            "id": "3470:51235",
+            "w": 129,
+            "h": 122,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "absolute": true,
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "CENTER",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#E1A1FF"
+             }
+            ],
+            "strokes": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "strokeWeight": 2,
+            "strokeAlign": "INSIDE",
+            "children": [
+             {
+              "name": "Union",
+              "type": "BOOLEAN_OPERATION",
+              "id": "3470:51236",
+              "w": 129,
+              "h": 122,
+              "x": 0,
+              "y": 0,
+              "sizing": {
+               "h": "FILL",
+               "v": "FILL"
+              },
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
+               }
+              ],
+              "children": [
+               {
+                "name": "Vector 1",
+                "type": "VECTOR",
+                "id": "3470:51237",
+                "w": 127.6,
+                "h": 120.5,
+                "x": 0.7,
+                "y": 0.7,
+                "strokes": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#111111"
+                 }
+                ],
+                "strokeWeight": 2,
+                "strokeAlign": "CENTER"
+               },
+               {
+                "name": "Vector 2",
+                "type": "VECTOR",
+                "id": "3470:51238",
+                "w": 127.6,
+                "h": 120.5,
+                "x": 128.3,
+                "y": 0.7,
+                "strokes": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#111111"
+                 }
+                ],
+                "strokeWeight": 2,
+                "strokeAlign": "CENTER"
+               }
+              ]
+             },
+             {
+              "name": "Frame 11643",
+              "type": "FRAME",
+              "id": "3470:51239",
+              "w": 179,
+              "h": 19,
+              "x": -25,
+              "y": 51,
+              "sizing": {
+               "h": "HUG",
+               "v": "HUG"
+              },
+              "absolute": true,
+              "layout": {
+               "dir": "HORIZONTAL",
+               "gap": 8,
+               "pad": [
+                0,
+                0,
+                0,
+                0
+               ],
+               "main": "CENTER",
+               "cross": "CENTER"
+              },
+              "children": [
+               {
+                "name": "ARTICLE IMAGE",
+                "type": "TEXT",
+                "id": "3470:51240",
+                "w": 179,
+                "h": 19,
+                "x": 0,
+                "y": 0,
+                "sizing": {
+                 "h": "HUG",
+                 "v": "HUG"
+                },
+                "strokes": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#F1EFEB",
+                  "variable": "Colors/color/gray/600"
+                 }
+                ],
+                "strokeWeight": 3,
+                "strokeAlign": "OUTSIDE",
+                "text": "GRAPHIC / IMAGE",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "align": "LEFT",
+                "styles": [
+                 {
+                  "font": "New York",
+                  "weight": "Black",
+                  "size": 16,
+                  "lineHeight": "auto",
+                  "letterSpacing": "10%",
+                  "color": [
+                   {
+                    "type": "SOLID",
+                    "hex": "#141414",
+                    "variable": "Colors/color/gray/min"
+                   }
+                  ],
+                  "textStyle": null
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "name": "Date Bar",
+            "type": "FRAME",
+            "id": "3470:51225",
+            "w": 129,
+            "h": 13,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "absolute": true,
+            "clip": true,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "opacity": 0.65
+             }
+            ],
+            "children": [
+             {
+              "name": "Tue, Sep 15",
+              "type": "TEXT",
+              "id": "3470:51226",
+              "w": 44,
+              "h": 11,
+              "x": 5,
+              "y": 2,
+              "text": "Tue, Sep 15",
+              "autoResize": "WIDTH_AND_HEIGHT",
+              "align": "LEFT",
+              "styles": [
+               {
+                "font": "Source Sans Pro",
+                "weight": "SemiBold",
+                "size": 9,
+                "lineHeight": "auto",
+                "color": [
+                 {
+                  "type": "SOLID",
+                  "hex": "#FFFFFF"
+                 }
+                ],
+                "textStyle": null
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Details",
+          "type": "FRAME",
+          "id": "3470:51227",
+          "w": 129,
+          "h": 51,
+          "x": 0,
+          "y": 122,
+          "sizing": {
+           "h": "FILL",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 2,
+           "pad": [
+            4,
+            2,
+            0,
+            2
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "children": [
+           {
+            "name": "Event Title Placeholder Text Here",
+            "type": "TEXT",
+            "id": "3470:51228",
+            "w": 125,
+            "h": 32,
+            "x": 2,
+            "y": 4,
+            "sizing": {
+             "h": "FILL",
+             "v": "FIXED"
+            },
+            "text": "Event Title Placeholder Text Here",
+            "autoResize": "TRUNCATE",
+            "align": "LEFT",
+            "truncate": true,
+            "maxLines": null,
+            "styles": [
+             {
+              "font": "Noto Serif",
+              "weight": "Bold",
+              "size": 12,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#141414"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           },
+           {
+            "name": "Venue Name Placeholder",
+            "type": "TEXT",
+            "id": "3470:51229",
+            "w": 125,
+            "h": 13,
+            "x": 2,
+            "y": 38,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "text": "Venue Name Placeholder",
+            "autoResize": "HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Source Sans Pro",
+              "weight": "Regular",
+              "size": 10,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#666666"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Date Picker Strip",
+      "type": "FRAME",
+      "id": "3445:57037",
+      "w": 400,
+      "h": 45,
+      "x": 0,
+      "y": 205,
+      "sizing": {
+       "h": "HUG",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Date Picker Calendar Icon",
+        "type": "FRAME",
+        "id": "3470:51241",
+        "w": 50,
+        "h": 45,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#262626"
+         }
+        ],
+        "children": [
+         {
+          "name": "CAL",
+          "type": "TEXT",
+          "id": "3470:51242",
+          "w": 15,
+          "h": 11,
+          "x": 17.5,
+          "y": 17,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "CAL",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Source Sans Pro",
+            "weight": "SemiBold",
+            "size": 9,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#FFFFFF"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "FRAME",
+        "id": "3470:51243",
+        "w": 50,
+        "h": 45,
+        "x": 50,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 2,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F2F2F2"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#D9D9D9"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "MON",
+          "type": "TEXT",
+          "id": "3470:51244",
+          "w": 21,
+          "h": 13,
+          "x": 14.5,
+          "y": 4,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "MON",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Source Sans Pro",
+            "weight": "SemiBold",
+            "size": 10,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#595959"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "14",
+          "type": "TEXT",
+          "id": "3470:51245",
+          "w": 19,
+          "h": 22,
+          "x": 15.5,
+          "y": 19,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "14",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "FRAME",
+        "id": "3470:51246",
+        "w": 50,
+        "h": 45,
+        "x": 100,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 2,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F2F2F2"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#D9D9D9"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "MON",
+          "type": "TEXT",
+          "id": "3470:51247",
+          "w": 18,
+          "h": 13,
+          "x": 16,
+          "y": 4,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "TUE",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Source Sans Pro",
+            "weight": "SemiBold",
+            "size": 10,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#595959"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "14",
+          "type": "TEXT",
+          "id": "3470:51248",
+          "w": 19,
+          "h": 22,
+          "x": 15.5,
+          "y": 19,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "15",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "FRAME",
+        "id": "3470:51249",
+        "w": 50,
+        "h": 45,
+        "x": 150,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 2,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F2F2F2"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#D9D9D9"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "MON",
+          "type": "TEXT",
+          "id": "3470:51250",
+          "w": 20,
+          "h": 13,
+          "x": 15,
+          "y": 4,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "WED",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Source Sans Pro",
+            "weight": "SemiBold",
+            "size": 10,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#595959"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "14",
+          "type": "TEXT",
+          "id": "3470:51251",
+          "w": 19,
+          "h": 22,
+          "x": 15.5,
+          "y": 19,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "16",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "FRAME",
+        "id": "3470:51252",
+        "w": 50,
+        "h": 45,
+        "x": 200,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 2,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F2F2F2"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#D9D9D9"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "MON",
+          "type": "TEXT",
+          "id": "3470:51253",
+          "w": 19,
+          "h": 13,
+          "x": 15.5,
+          "y": 4,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "THU",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Source Sans Pro",
+            "weight": "SemiBold",
+            "size": 10,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#595959"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "14",
+          "type": "TEXT",
+          "id": "3470:51254",
+          "w": 19,
+          "h": 22,
+          "x": 15.5,
+          "y": 19,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "17",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "FRAME",
+        "id": "3470:51255",
+        "w": 50,
+        "h": 45,
+        "x": 250,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 2,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F2F2F2"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#D9D9D9"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "MON",
+          "type": "TEXT",
+          "id": "3470:51256",
+          "w": 14,
+          "h": 13,
+          "x": 18,
+          "y": 4,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "FRI",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Source Sans Pro",
+            "weight": "SemiBold",
+            "size": 10,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#595959"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "14",
+          "type": "TEXT",
+          "id": "3470:51257",
+          "w": 19,
+          "h": 22,
+          "x": 15.5,
+          "y": 19,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "18",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "FRAME",
+        "id": "3470:51258",
+        "w": 50,
+        "h": 45,
+        "x": 300,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 2,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F2F2F2"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#D9D9D9"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "MON",
+          "type": "TEXT",
+          "id": "3470:51259",
+          "w": 16,
+          "h": 13,
+          "x": 17,
+          "y": 4,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "SAT",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Source Sans Pro",
+            "weight": "SemiBold",
+            "size": 10,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#595959"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "14",
+          "type": "TEXT",
+          "id": "3470:51260",
+          "w": 19,
+          "h": 22,
+          "x": 15.5,
+          "y": 19,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "19",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "FRAME",
+        "id": "3470:51261",
+        "w": 50,
+        "h": 45,
+        "x": 350,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 2,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F2F2F2"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#D9D9D9"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "children": [
+         {
+          "name": "MON",
+          "type": "TEXT",
+          "id": "3470:51262",
+          "w": 19,
+          "h": 13,
+          "x": 15.5,
+          "y": 4,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "SUN",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Source Sans Pro",
+            "weight": "SemiBold",
+            "size": 10,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#595959"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         },
+         {
+          "name": "14",
+          "type": "TEXT",
+          "id": "3470:51263",
+          "w": 19,
+          "h": 22,
+          "x": 15.5,
+          "y": 19,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "20",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Upcoming Events",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Upcoming Events",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "< >",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 14,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#808080",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "<  >",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "ARTICLE IMAGE",
+   "font": "New York",
+   "weight": "Black",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": "10%",
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "GRAPHIC / IMAGE",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "Tue, Sep 15",
+   "font": "Source Sans Pro",
+   "weight": "SemiBold",
+   "size": 9,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#FFFFFF",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Tue, Sep 15",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "Event Title Placeholder Text Here",
+   "font": "Noto Serif",
+   "weight": "Bold",
+   "size": 12,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Event Title Placeholder Text Here",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "Venue Name Placeholder",
+   "font": "Source Sans Pro",
+   "weight": "Regular",
+   "size": 10,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#666666",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Venue Name Placeholder",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "CAL",
+   "font": "Source Sans Pro",
+   "weight": "SemiBold",
+   "size": 9,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#FFFFFF",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "CAL",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "MON",
+   "font": "Source Sans Pro",
+   "weight": "SemiBold",
+   "size": 10,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#595959",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "MON",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "14",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "14",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Image Area",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Article Image Placeholder",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#E1A1FF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Article Image Placeholder",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
+   "layer": "Union",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Vector 1",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#111111",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
+   "layer": "Vector 2",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#111111",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
+   "layer": "ARTICLE IMAGE",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#F1EFEB",
+   "token": "Colors/color/gray/600",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 3
+  },
+  {
+   "layer": "Date Bar",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#000000",
+   "token": null,
+   "opacity": 0.65,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Date Picker Calendar Icon",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#262626",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Date Picker Day",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#F2F2F2",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Date Picker Day",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#D9D9D9",
+   "token": null,
+   "opacity": null,
+   "note": "Figma default placeholder grey (image slot)",
+   "strokeWeight": 1
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Upcoming Events Widget (768, 3 cards, 7 days): 407×250, vertical gap 4 pad 0/0/0/0 main MIN cross MIN — renders at 768"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "`Upcoming Events Widget (768, 3 cards, 7 days)`: fonts outside the production pair (Noto Sans / Noto Serif): New York Black ×3, Source Sans Pro SemiBold ×11, Source Sans Pro Regular ×3.",
+  "49 solid paints are hard-coded (not bound to a color variable): #141414 ×11, #FFFFFF ×7, #F2F2F2 ×7, #595959 ×7, #111111 ×6, #E1A1FF ×3."
+ ],
+ "skeleton": "upcoming-events-widget-768-3-cards-7-days.html",
+ "exported": "2026-09-24"
+}

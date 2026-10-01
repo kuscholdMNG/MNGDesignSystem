@@ -1,0 +1,461 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Related Article List Item",
+ "slug": "related-article-list-item",
+ "order": 2,
+ "typeLabel": "Component · Standalone",
+ "description": "Standalone component · no variants (includes bullet icon)",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3334:43017",
+  "mainKey": "b713574ec2e2bb93789c51812dfb4f34cb971a71",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3334-43017",
+  "variants": [
+   {
+    "label": "Related Article List Item",
+    "id": "3334:43017",
+    "key": "b713574ec2e2bb93789c51812dfb4f34cb971a71",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3334-43017"
+   }
+  ]
+ },
+ "properties": {},
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Zone 1 Lead Article Card"
+  ],
+  "perVariant": [
+   {
+    "label": "Related Article List Item",
+    "id": "3334:43017",
+    "templatesDirect": {
+     "768 HomePage": 3,
+     "Desktop HomePage": 3,
+     "340 HomePage": 3,
+     "1024 HomePage": 3,
+     "Mobile HomePage": 3,
+     "1100 HomePage": 3
+    },
+    "templatesVia": {
+     "768 HomePage": [
+      "TOP ZONE Block",
+      "Zone 1 Lead Article Card"
+     ],
+     "Desktop HomePage": [
+      "TOP ZONE Block",
+      "Zone 1 Lead Article Card"
+     ],
+     "Mobile HomePage": [
+      "TOP ZONE Block",
+      "Zone 1 Lead Article Card"
+     ],
+     "340 HomePage": [
+      "TOP ZONE Block",
+      "Zone 1 Lead Article Card"
+     ],
+     "1100 HomePage": [
+      "Zone 1 Lead Article Card"
+     ],
+     "1024 HomePage": [
+      "Zone 1 Lead Article Card"
+     ]
+    },
+    "nestedIn": {
+     "TOP ZONE Block / Device=Tablet": 3,
+     "TOP ZONE Block / Device=Desktop": 3,
+     "Zone 1 Lead Article Card / Device=Desktop": 3,
+     "Zone 1 Lead Article Card / Device=Tablet": 3,
+     "TOP ZONE Block / Device=Mobile": 3,
+     "Zone 1 Lead Article Card / Device=Mobile": 3
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [],
+  "builtInto": [
+   {
+    "name": "Zone 1 Lead Article Card",
+    "path": "../04-zone-1-lead-article-card/zone-1-lead-article-card.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Related Article List Item",
+   "variantProperties": null,
+   "id": "3334:43017",
+   "key": "b713574ec2e2bb93789c51812dfb4f34cb971a71",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3334-43017",
+   "width": 1194,
+   "height": 45,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/related-article-list-item.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Related Article List Item",
+    "type": "COMPONENT",
+    "id": "3334:43017",
+    "w": 1194,
+    "h": 45,
+    "x": 0,
+    "y": 0,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Bullet",
+      "type": "FRAME",
+      "id": "3334:43010",
+      "w": 22,
+      "h": 45,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 12,
+       "pad": [
+        8,
+        8,
+        8,
+        8
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Vector",
+        "type": "VECTOR",
+        "id": "3334:43011",
+        "w": 6,
+        "h": 6,
+        "x": 8,
+        "y": 8,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+       }
+      ]
+     },
+     {
+      "name": "Content",
+      "type": "FRAME",
+      "id": "3334:43012",
+      "w": 1172,
+      "h": 30,
+      "x": 22,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "children": [
+       {
+        "name": "Title",
+        "type": "FRAME",
+        "id": "3334:43013",
+        "w": 1172,
+        "h": 15,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Game Day: Turning LeBron James’ record numbers into words",
+          "type": "TEXT",
+          "id": "3334:43014",
+          "w": 1172,
+          "h": 15,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Game Day: Turning LeBron James’ record numbers into words",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Droid Serif",
+            "weight": "Bold",
+            "size": 12,
+            "lineHeight": "15px",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Meta",
+        "type": "FRAME",
+        "id": "3334:43015",
+        "w": 64,
+        "h": 15,
+        "x": 0,
+        "y": 15,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "56 mins ago",
+          "type": "TEXT",
+          "id": "3334:43016",
+          "w": 64,
+          "h": 15,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "56 mins ago",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 11,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#5E5D5C",
+              "variable": "Colors/color/gray/200"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Game Day: Turning LeBron James’ record numbers into words",
+   "font": "Droid Serif",
+   "weight": "Bold",
+   "size": 12,
+   "lineHeight": "15px",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Game Day: Turning LeBron James’ record numbers int",
+   "variants": [
+    "Related Article List Item"
+   ]
+  },
+  {
+   "layer": "56 mins ago",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 11,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#5E5D5C",
+   "token": "Colors/color/gray/200",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "56 mins ago",
+   "variants": [
+    "Related Article List Item"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Vector",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Vector",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#F1EFEB",
+   "token": "Colors/color/gray/600",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Related Article List Item: 1194×45, horizontal gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "`Related Article List Item`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Serif Bold ×1."
+ ],
+ "skeleton": "related-article-list-item.html",
+ "exported": "2026-09-24"
+}

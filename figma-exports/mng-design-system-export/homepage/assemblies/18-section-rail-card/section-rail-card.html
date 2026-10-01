@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Section Rail Card — skeleton</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../tokens.css">
+<style>
+*{box-sizing:border-box} body{margin:0;padding:24px;background:#f4f4f4;font-family:'Noto Sans',sans-serif;color:#141414}
+[hidden]{display:none!important}
+.skel-variant{margin:0 0 40px} .skel-variant>h1{font:600 13px/1.4 monospace;color:#555;margin:0 0 8px}
+.skel-stage{background:#fff;display:inline-block;outline:1px solid #ddd}
+.mng-section-rail-card__device-mobile-layout-narrow{width:296px;min-height:818px;position:relative;display:flex;flex-direction:column;gap:24px;padding:0px 0px 32px 0px;justify-content:flex-start;align-items:center;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__news-content{display:flex;flex-direction:column;gap:24px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-section-rail-card__c-3col-header{align-self:stretch;display:flex;flex-direction:column;gap:4px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__section-title-eyebrow{align-self:stretch;height:30px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__top-zones-section-block-mobile{display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-section-rail-card__c-1col-article-card{width:296px;height:378px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-2{width:296px;height:102px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-3{width:296px;height:102px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-4{width:296px;height:102px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__device-desktop-layout-narrow{width:302.7px;min-height:778px;position:relative;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-section-rail-card__c-1col-header{align-self:stretch;display:flex;flex-direction:column;gap:4px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__section-title-eyebrow-2{align-self:stretch;height:30px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-5{width:296px;height:378px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-6{width:296px;height:102px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-7{width:296px;height:102px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-8{width:296px;height:102px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__device-tablet-layout-narrow{width:358px;min-height:818px;position:relative;display:flex;flex-direction:column;gap:24px;padding:0px 0px 32px 0px;justify-content:flex-start;align-items:center;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__news-content-2{width:358px;display:flex;flex-direction:column;gap:24px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-section-rail-card__c-3col-header-2{align-self:stretch;display:flex;flex-direction:column;gap:4px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__section-title-eyebrow-3{align-self:stretch;height:30px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__top-zones-section-block-mobile-2{width:358px;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-section-rail-card__c-1col-article-card-9{width:358px;height:378px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-10{width:358px;height:102px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-11{width:358px;height:102px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-12{width:358px;height:102px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__device-tablet-layout-wide{width:748px;min-height:502px;position:relative;display:flex;flex-direction:column;gap:24px;padding:0px 0px 32px 0px;justify-content:flex-start;align-items:center;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__news-content-3{width:748px;display:flex;flex-direction:column;gap:24px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-section-rail-card__c-3col-header-3{align-self:stretch;display:flex;flex-direction:column;gap:4px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__section-title-eyebrow-4{align-self:stretch;height:30px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__section-block{align-self:stretch;height:416px;flex-shrink:0;display:flex;flex-direction:row;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__device-1024-layout-narrow{width:484px;min-height:674px;position:relative;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-section-rail-card__c-1col-header-2{align-self:stretch;display:flex;flex-direction:column;gap:4px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__section-title-eyebrow-5{align-self:stretch;height:30px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-13{align-self:stretch;height:352px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-14{align-self:stretch;height:76px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-15{align-self:stretch;height:76px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-16{align-self:stretch;height:76px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__device-1100-layout-narrow{width:251px;min-height:901px;position:relative;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-section-rail-card__c-1col-header-3{align-self:stretch;display:flex;flex-direction:column;gap:4px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__section-title-eyebrow-6{align-self:stretch;height:30px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-17{align-self:stretch;height:423px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-18{align-self:stretch;height:128px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-19{align-self:stretch;height:128px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__c-1col-article-card-20{align-self:stretch;height:128px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__device-1024-layout-wide{width:585px;min-height:580px;position:relative;display:flex;flex-direction:column;gap:24px;padding:0px 0px 32px 0px;justify-content:flex-start;align-items:center;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__news-content-4{align-self:stretch;display:flex;flex-direction:column;gap:24px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-section-rail-card__c-3col-header-4{align-self:stretch;display:flex;flex-direction:column;gap:4px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__section-title-eyebrow-7{align-self:stretch;height:30px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__section-block-2{align-self:stretch;height:494px;flex-shrink:0;display:flex;flex-direction:row;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__device-1100-layout-wide{width:731px;min-height:502px;position:relative;display:flex;flex-direction:column;gap:24px;padding:0px 0px 32px 0px;justify-content:flex-start;align-items:center;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__news-content-5{align-self:stretch;display:flex;flex-direction:column;gap:24px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-section-rail-card__c-3col-header-5{align-self:stretch;display:flex;flex-direction:column;gap:4px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__section-title-eyebrow-8{align-self:stretch;height:30px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__section-block-3{align-self:stretch;height:416px;flex-shrink:0;display:flex;flex-direction:row;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__device-1280-layout-wide{width:940px;min-height:502px;position:relative;display:flex;flex-direction:column;gap:24px;padding:0px 0px 32px 0px;justify-content:flex-start;align-items:center;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__news-content-6{align-self:stretch;display:flex;flex-direction:column;gap:24px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-section-rail-card__c-3col-header-6{align-self:stretch;display:flex;flex-direction:column;gap:4px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-section-rail-card__section-title-eyebrow-9{align-self:stretch;height:30px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-section-rail-card__section-block-4{align-self:stretch;height:416px;flex-shrink:0;display:flex;flex-direction:row;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+</style></head>
+<body>
+<!-- Structural skeleton generated from Figma auto-layout. Instances are dashed placeholders; open the referenced file to render them. -->
+<section class="skel-variant" data-variant="Device=Mobile, Layout=Narrow">
+  <h1>Section Rail Card · Device=Mobile, Layout=Narrow · 296×818</h1>
+  <div class="skel-stage">
+    <div class="mng-section-rail-card__device-mobile-layout-narrow" data-layer="Device=Mobile, Layout=Narrow">
+      <div class="mng-section-rail-card__news-content" data-layer="News Content">
+        <div class="mng-section-rail-card__c-3col-header" data-layer="3Col Header">
+          <!-- instance of "Section Title / Eyebrow" → homepage/components/06-section-title-eyebrow/section-title-eyebrow.html -->
+          <div class="mng-section-rail-card__section-title-eyebrow" data-component="Section Title / Eyebrow" data-variant="Style=Underline" data-label="Section Title / Eyebrow">Section Title / Eyebrow · Style=Underline</div>
+        </div>
+        <div class="mng-section-rail-card__top-zones-section-block-mobile" data-layer="Top Zones Section Block MOBILE">
+          <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+          <div class="mng-section-rail-card__c-1col-article-card" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+          <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+          <div class="mng-section-rail-card__c-1col-article-card-2" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+          <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+          <div class="mng-section-rail-card__c-1col-article-card-3" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+          <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+          <div class="mng-section-rail-card__c-1col-article-card-4" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=Desktop, Layout=Narrow">
+  <h1>Section Rail Card · Device=Desktop, Layout=Narrow · 302.7×778</h1>
+  <div class="skel-stage">
+    <div class="mng-section-rail-card__device-desktop-layout-narrow" data-layer="Device=Desktop, Layout=Narrow">
+      <div class="mng-section-rail-card__c-1col-header" data-layer="1Col Header">
+        <!-- instance of "Section Title / Eyebrow" → homepage/components/06-section-title-eyebrow/section-title-eyebrow.html -->
+        <div class="mng-section-rail-card__section-title-eyebrow-2" data-component="Section Title / Eyebrow" data-variant="Style=Underline" data-label="Section Title / Eyebrow">Section Title / Eyebrow · Style=Underline</div>
+      </div>
+      <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+      <div class="mng-section-rail-card__c-1col-article-card-5" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+      <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+      <div class="mng-section-rail-card__c-1col-article-card-6" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+      <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+      <div class="mng-section-rail-card__c-1col-article-card-7" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+      <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+      <div class="mng-section-rail-card__c-1col-article-card-8" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=Tablet, Layout=Narrow">
+  <h1>Section Rail Card · Device=Tablet, Layout=Narrow · 358×818</h1>
+  <div class="skel-stage">
+    <div class="mng-section-rail-card__device-tablet-layout-narrow" data-layer="Device=Tablet, Layout=Narrow">
+      <div class="mng-section-rail-card__news-content-2" data-layer="News Content">
+        <div class="mng-section-rail-card__c-3col-header-2" data-layer="3Col Header">
+          <!-- instance of "Section Title / Eyebrow" → homepage/components/06-section-title-eyebrow/section-title-eyebrow.html -->
+          <div class="mng-section-rail-card__section-title-eyebrow-3" data-component="Section Title / Eyebrow" data-variant="Style=Underline" data-label="Section Title / Eyebrow">Section Title / Eyebrow · Style=Underline</div>
+        </div>
+        <div class="mng-section-rail-card__top-zones-section-block-mobile-2" data-layer="Top Zones Section Block MOBILE">
+          <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+          <div class="mng-section-rail-card__c-1col-article-card-9" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+          <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+          <div class="mng-section-rail-card__c-1col-article-card-10" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+          <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+          <div class="mng-section-rail-card__c-1col-article-card-11" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+          <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+          <div class="mng-section-rail-card__c-1col-article-card-12" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=Tablet, Layout=Wide">
+  <h1>Section Rail Card · Device=Tablet, Layout=Wide · 748×502</h1>
+  <div class="skel-stage">
+    <div class="mng-section-rail-card__device-tablet-layout-wide" data-layer="Device=Tablet, Layout=Wide">
+      <div class="mng-section-rail-card__news-content-3" data-layer="News Content">
+        <div class="mng-section-rail-card__c-3col-header-3" data-layer="3Col Header">
+          <!-- instance of "Section Title / Eyebrow" → homepage/components/06-section-title-eyebrow/section-title-eyebrow.html -->
+          <div class="mng-section-rail-card__section-title-eyebrow-4" data-component="Section Title / Eyebrow" data-variant="Style=Underline" data-label="Section Title / Eyebrow">Section Title / Eyebrow · Style=Underline</div>
+        </div>
+        <!-- instance of "Feature + List Content Block" → homepage/assemblies/17-feature-list-content-block/feature-list-content-block.html -->
+        <div class="mng-section-rail-card__section-block" data-component="Feature + List Content Block" data-variant="Size=Default" data-label="Section Block">Feature + List Content Block · Size=Default</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=1024, Layout=Narrow">
+  <h1>Section Rail Card · Device=1024, Layout=Narrow · 484×674</h1>
+  <div class="skel-stage">
+    <div class="mng-section-rail-card__device-1024-layout-narrow" data-layer="Device=1024, Layout=Narrow">
+      <div class="mng-section-rail-card__c-1col-header-2" data-layer="1Col Header">
+        <!-- instance of "Section Title / Eyebrow" → homepage/components/06-section-title-eyebrow/section-title-eyebrow.html -->
+        <div class="mng-section-rail-card__section-title-eyebrow-5" data-component="Section Title / Eyebrow" data-variant="Style=Underline" data-label="Section Title / Eyebrow">Section Title / Eyebrow · Style=Underline</div>
+      </div>
+      <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+      <div class="mng-section-rail-card__c-1col-article-card-13" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+      <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+      <div class="mng-section-rail-card__c-1col-article-card-14" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+      <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+      <div class="mng-section-rail-card__c-1col-article-card-15" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+      <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+      <div class="mng-section-rail-card__c-1col-article-card-16" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=1100, Layout=Narrow">
+  <h1>Section Rail Card · Device=1100, Layout=Narrow · 251×901</h1>
+  <div class="skel-stage">
+    <div class="mng-section-rail-card__device-1100-layout-narrow" data-layer="Device=1100, Layout=Narrow">
+      <div class="mng-section-rail-card__c-1col-header-3" data-layer="1Col Header">
+        <!-- instance of "Section Title / Eyebrow" → homepage/components/06-section-title-eyebrow/section-title-eyebrow.html -->
+        <div class="mng-section-rail-card__section-title-eyebrow-6" data-component="Section Title / Eyebrow" data-variant="Style=Underline" data-label="Section Title / Eyebrow">Section Title / Eyebrow · Style=Underline</div>
+      </div>
+      <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+      <div class="mng-section-rail-card__c-1col-article-card-17" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+      <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+      <div class="mng-section-rail-card__c-1col-article-card-18" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+      <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+      <div class="mng-section-rail-card__c-1col-article-card-19" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+      <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+      <div class="mng-section-rail-card__c-1col-article-card-20" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=1024, Layout=Wide">
+  <h1>Section Rail Card · Device=1024, Layout=Wide · 585×580</h1>
+  <div class="skel-stage">
+    <div class="mng-section-rail-card__device-1024-layout-wide" data-layer="Device=1024, Layout=Wide">
+      <div class="mng-section-rail-card__news-content-4" data-layer="News Content">
+        <div class="mng-section-rail-card__c-3col-header-4" data-layer="3Col Header">
+          <!-- instance of "Section Title / Eyebrow" → homepage/components/06-section-title-eyebrow/section-title-eyebrow.html -->
+          <div class="mng-section-rail-card__section-title-eyebrow-7" data-component="Section Title / Eyebrow" data-variant="Style=Underline" data-label="Section Title / Eyebrow">Section Title / Eyebrow · Style=Underline</div>
+        </div>
+        <!-- instance of "Feature + List Content Block" → homepage/assemblies/17-feature-list-content-block/feature-list-content-block.html -->
+        <div class="mng-section-rail-card__section-block-2" data-component="Feature + List Content Block" data-variant="Size=Narrow" data-label="Section Block">Feature + List Content Block · Size=Narrow</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=1100, Layout=Wide">
+  <h1>Section Rail Card · Device=1100, Layout=Wide · 731×502</h1>
+  <div class="skel-stage">
+    <div class="mng-section-rail-card__device-1100-layout-wide" data-layer="Device=1100, Layout=Wide">
+      <div class="mng-section-rail-card__news-content-5" data-layer="News Content">
+        <div class="mng-section-rail-card__c-3col-header-5" data-layer="3Col Header">
+          <!-- instance of "Section Title / Eyebrow" → homepage/components/06-section-title-eyebrow/section-title-eyebrow.html -->
+          <div class="mng-section-rail-card__section-title-eyebrow-8" data-component="Section Title / Eyebrow" data-variant="Style=Underline" data-label="Section Title / Eyebrow">Section Title / Eyebrow · Style=Underline</div>
+        </div>
+        <!-- instance of "Feature + List Content Block" → homepage/assemblies/17-feature-list-content-block/feature-list-content-block.html -->
+        <div class="mng-section-rail-card__section-block-3" data-component="Feature + List Content Block" data-variant="Size=Default" data-label="Section Block">Feature + List Content Block · Size=Default</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=1280, Layout=Wide">
+  <h1>Section Rail Card · Device=1280, Layout=Wide · 940×502</h1>
+  <div class="skel-stage">
+    <div class="mng-section-rail-card__device-1280-layout-wide" data-layer="Device=1280, Layout=Wide">
+      <div class="mng-section-rail-card__news-content-6" data-layer="News Content">
+        <div class="mng-section-rail-card__c-3col-header-6" data-layer="3Col Header">
+          <!-- instance of "Section Title / Eyebrow" → homepage/components/06-section-title-eyebrow/section-title-eyebrow.html -->
+          <div class="mng-section-rail-card__section-title-eyebrow-9" data-component="Section Title / Eyebrow" data-variant="Style=Underline" data-label="Section Title / Eyebrow">Section Title / Eyebrow · Style=Underline</div>
+        </div>
+        <!-- instance of "Feature + List Content Block" → homepage/assemblies/17-feature-list-content-block/feature-list-content-block.html -->
+        <div class="mng-section-rail-card__section-block-4" data-component="Feature + List Content Block" data-variant="Size=Default" data-label="Section Block">Feature + List Content Block · Size=Default</div>
+      </div>
+    </div>
+  </div>
+</section>
+</body></html>

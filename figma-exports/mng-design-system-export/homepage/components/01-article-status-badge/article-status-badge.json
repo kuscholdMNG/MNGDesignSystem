@@ -1,0 +1,658 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Article Status Badge",
+ "slug": "article-status-badge",
+ "order": 1,
+ "typeLabel": "Component · 3 variants",
+ "description": "Component set · Variant: Type = None, Subscriber, Sponsored (replaces the old separate Subscriber Only Badge / Sponsored Content Tag atoms)",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3344:63995",
+  "mainKey": "a3c41dc84d271d8fadbefb86d033afe3706c21b6",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3344-63995",
+  "variants": [
+   {
+    "label": "Type=None",
+    "id": "3344:63994",
+    "key": "4bbcedebfb8a8e0b414d8217830d29de5fea2b5e",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3344-63994"
+   },
+   {
+    "label": "Type=Subscriber",
+    "id": "3344:63989",
+    "key": "3d7f0e03fdd71c7edddda24d4c13fadddb581fbd",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3344-63989"
+   },
+   {
+    "label": "Type=Sponsored",
+    "id": "3344:63991",
+    "key": "2cba7cf7dd45bbf3b7d1d71d53de2acd577e3217",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3344-63991"
+   }
+  ]
+ },
+ "properties": {
+  "Type": {
+   "type": "VARIANT",
+   "default": "None",
+   "options": [
+    "Subscriber",
+    "Sponsored",
+    "None"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Zone 1 Lead Article Card",
+   "TopZone Article Card",
+   "Latest Headlines List Item",
+   "TOP ZONE Block",
+   "1Col Article Card",
+   "Photos Block"
+  ],
+  "perVariant": [
+   {
+    "label": "Type=None",
+    "id": "3344:63994",
+    "templatesDirect": {
+     "768 HomePage": 7,
+     "Mobile HomePage": 10,
+     "340 HomePage": 10,
+     "1024 HomePage": 7,
+     "1100 HomePage": 7,
+     "Desktop HomePage": 7
+    },
+    "templatesVia": {
+     "1100 HomePage": [
+      "Latest Headlines List Item",
+      "Zone 1 Lead Article Card"
+     ],
+     "1024 HomePage": [
+      "Latest Headlines List Item",
+      "Zone 1 Lead Article Card"
+     ],
+     "Mobile HomePage": [
+      "TopZone Article Card",
+      "Zone 1 Lead Article Card"
+     ],
+     "340 HomePage": [
+      "TopZone Article Card",
+      "Zone 1 Lead Article Card"
+     ],
+     "Desktop HomePage": [
+      "Latest Headlines",
+      "Zone 1 Lead Article Card"
+     ],
+     "768 HomePage": [
+      "Zone 1 Lead Article Card"
+     ]
+    },
+    "nestedIn": {
+     "Zone 1 Lead Article Card / Device=Mobile": 1,
+     "TOP ZONE Block / Device=Mobile": 10,
+     "TopZone Article Card / Device=Mobile": 1,
+     "Latest Headlines / Device=Desktop": 6,
+     "Latest Headlines / Device=Mobile": 6,
+     "TOP ZONE Block / Device=Desktop": 7,
+     "Zone 1 Lead Article Card / Device=Tablet": 1,
+     "TOP ZONE Block / Device=Tablet": 7,
+     "Latest Headlines / Device=Tablet": 6,
+     "Latest Headlines List Item / Type=First": 1,
+     "Latest Headlines List Item / Type=Standard": 1,
+     "Zone 1 Lead Article Card / Device=Desktop": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Type=Subscriber",
+    "id": "3344:63989",
+    "templatesDirect": {
+     "768 HomePage": 1,
+     "Mobile HomePage": 1,
+     "1024 HomePage": 1,
+     "Desktop HomePage": 1,
+     "340 HomePage": 1,
+     "1100 HomePage": 1
+    },
+    "templatesVia": {
+     "768 HomePage": [
+      "Photos Block"
+     ]
+    },
+    "nestedIn": {
+     "Photos Block / Device=Tablet": 1,
+     "1Col Article Card": 1,
+     "Photos Block / Device=Mobile": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Type=Sponsored",
+    "id": "3344:63991",
+    "templatesDirect": {
+     "Desktop HomePage": 5,
+     "1024 HomePage": 5,
+     "1100 HomePage": 5,
+     "340 HomePage": 1,
+     "Mobile HomePage": 1,
+     "768 HomePage": 1
+    },
+    "templatesVia": {
+     "Desktop HomePage": [
+      "TOP ZONE Block"
+     ],
+     "768 HomePage": [
+      "TOP ZONE Block"
+     ],
+     "Mobile HomePage": [
+      "TOP ZONE Block"
+     ],
+     "340 HomePage": [
+      "TOP ZONE Block"
+     ],
+     "1100 HomePage": [
+      "Latest Headlines List Item"
+     ],
+     "1024 HomePage": [
+      "Latest Headlines List Item"
+     ]
+    },
+    "nestedIn": {
+     "TOP ZONE Block / Device=Desktop": 5,
+     "TOP ZONE Block / Device=Tablet": 1,
+     "TOP ZONE Block / Device=Mobile": 1,
+     "Latest Headlines / Device=Mobile": 1,
+     "Latest Headlines / Device=Desktop": 1,
+     "Latest Headlines / Device=Tablet": 1,
+     "TopZone Article Card / Device=Desktop": 1,
+     "Latest Headlines List Item / Type=Sponsored": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [],
+  "builtInto": [
+   {
+    "name": "Zone 1 Lead Article Card",
+    "path": "../04-zone-1-lead-article-card/zone-1-lead-article-card.md"
+   },
+   {
+    "name": "TopZone Article Card",
+    "path": "../05-topzone-article-card/topzone-article-card.md"
+   },
+   {
+    "name": "Latest Headlines List Item",
+    "path": "../07-latest-headlines-list-item/latest-headlines-list-item.md"
+   },
+   {
+    "name": "TOP ZONE Block",
+    "path": "../../assemblies/12-top-zone-block/top-zone-block.md"
+   },
+   {
+    "name": "1Col Article Card",
+    "path": "../16-1col-article-card/1col-article-card.md"
+   },
+   {
+    "name": "Photos Block",
+    "path": "../../assemblies/22-photos-block/photos-block.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Type=None",
+   "variantProperties": {
+    "Type": "None"
+   },
+   "id": "3344:63994",
+   "key": "4bbcedebfb8a8e0b414d8217830d29de5fea2b5e",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3344-63994",
+   "width": 0,
+   "height": 0,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": null,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Type=None",
+    "type": "COMPONENT",
+    "id": "3344:63994",
+    "w": 0,
+    "h": 0,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "clip": true,
+    "children": [],
+    "key": "4bbcedebfb8a8e0b414d8217830d29de5fea2b5e",
+    "variantProperties": {
+     "Type": "None"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Type=Subscriber",
+   "variantProperties": {
+    "Type": "Subscriber"
+   },
+   "id": "3344:63989",
+   "key": "3d7f0e03fdd71c7edddda24d4c13fadddb581fbd",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3344-63989",
+   "width": 114,
+   "height": 27,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 8,
+    "pad": [
+     2,
+     5,
+     2,
+     5
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#007580",
+     "variable": "Colors/color/theme/primary"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/article-status-badge--subscriber.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Type=Subscriber",
+    "type": "COMPONENT",
+    "id": "3344:63989",
+    "w": 114,
+    "h": 27,
+    "x": 16,
+    "y": 48,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 8,
+     "pad": [
+      2,
+      5,
+      2,
+      5
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#007580",
+      "variable": "Colors/color/theme/primary"
+     }
+    ],
+    "children": [
+     {
+      "name": "Subscriber Only",
+      "type": "TEXT",
+      "id": "3344:63990",
+      "w": 104,
+      "h": 23,
+      "x": 5,
+      "y": 2,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "Subscriber Only",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Source Sans Pro",
+        "weight": "SemiBold",
+        "size": 13,
+        "lineHeight": "22.652000427246094px",
+        "case": "UPPER",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "3d7f0e03fdd71c7edddda24d4c13fadddb581fbd",
+    "variantProperties": {
+     "Type": "Subscriber"
+    },
+    "componentDescription": "Atomic subscriber-only badge used across Top Zone article cards and Latest Headlines list items."
+   }
+  },
+  {
+   "label": "Type=Sponsored",
+   "variantProperties": {
+    "Type": "Sponsored"
+   },
+   "id": "3344:63991",
+   "key": "2cba7cf7dd45bbf3b7d1d71d53de2acd577e3217",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3344-63991",
+   "width": 138,
+   "height": 27,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 8,
+    "pad": [
+     2,
+     5,
+     2,
+     5
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#7D161E"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/article-status-badge--sponsored.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Type=Sponsored",
+    "type": "COMPONENT",
+    "id": "3344:63991",
+    "w": 138,
+    "h": 27,
+    "x": 16,
+    "y": 91,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 8,
+     "pad": [
+      2,
+      5,
+      2,
+      5
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#7D161E"
+     }
+    ],
+    "children": [
+     {
+      "name": "Sponsored content",
+      "type": "TEXT",
+      "id": "3344:63992",
+      "w": 128,
+      "h": 23,
+      "x": 5,
+      "y": 2,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "Sponsored content",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Source Sans Pro",
+        "weight": "SemiBold",
+        "size": 13,
+        "lineHeight": "22.652000427246094px",
+        "case": "UPPER",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "2cba7cf7dd45bbf3b7d1d71d53de2acd577e3217",
+    "variantProperties": {
+     "Type": "Sponsored"
+    },
+    "componentDescription": "Atomic 'Sponsored content' pill used in Latest Headlines list items for sponsored placements."
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Subscriber Only",
+   "font": "Source Sans Pro",
+   "weight": "SemiBold",
+   "size": 13,
+   "lineHeight": "22.652000427246094px",
+   "letterSpacing": null,
+   "case": "UPPER",
+   "decoration": null,
+   "color": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Subscriber Only",
+   "variants": [
+    "Type=Subscriber"
+   ]
+  },
+  {
+   "layer": "Sponsored content",
+   "font": "Source Sans Pro",
+   "weight": "SemiBold",
+   "size": 13,
+   "lineHeight": "22.652000427246094px",
+   "letterSpacing": null,
+   "case": "UPPER",
+   "decoration": null,
+   "color": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Sponsored content",
+   "variants": [
+    "Type=Sponsored"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Type=Subscriber",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#007580",
+   "token": "Colors/color/theme/primary",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Type=Sponsored",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#7D161E",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Type=None: 0×0, horizontal gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280",
+  "Type=Subscriber: 114×27, horizontal gap 8 pad 2/5/2/5 main CENTER cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280",
+  "Type=Sponsored: 138×27, horizontal gap 8 pad 2/5/2/5 main CENTER cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "Variant `Type=None` is 0×0 (intentionally empty state?) — no preview exported.",
+  "`Type=Subscriber`: fonts outside the production pair (Noto Sans / Noto Serif): Source Sans Pro SemiBold ×1.",
+  "`Type=Sponsored`: fonts outside the production pair (Noto Sans / Noto Serif): Source Sans Pro SemiBold ×1.",
+  "1 solid paints are hard-coded (not bound to a color variable): #7D161E ×1."
+ ],
+ "skeleton": "article-status-badge.html",
+ "exported": "2026-09-24"
+}

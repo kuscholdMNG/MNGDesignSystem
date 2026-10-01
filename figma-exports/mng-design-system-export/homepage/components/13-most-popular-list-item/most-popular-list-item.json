@@ -1,0 +1,381 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Most Popular List Item",
+ "slug": "most-popular-list-item",
+ "order": 13,
+ "typeLabel": "Component · Standalone",
+ "description": "Standalone component · freely resizable, no variants · the numbered rank badge + headline pattern used in Blueconic Block's Most Popular list (10 per device).",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3352:24171",
+  "mainKey": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-24171",
+  "variants": [
+   {
+    "label": "Most Popular List Item",
+    "id": "3352:24171",
+    "key": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-24171"
+   }
+  ]
+ },
+ "properties": {},
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Blueconic Block (Most Popular)"
+  ],
+  "perVariant": [
+   {
+    "label": "Most Popular List Item",
+    "id": "3352:24171",
+    "templatesDirect": {
+     "768 HomePage": 10,
+     "1100 HomePage": 10,
+     "Desktop HomePage": 10,
+     "1024 HomePage": 10,
+     "340 HomePage": 10,
+     "Mobile HomePage": 10
+    },
+    "templatesVia": {
+     "768 HomePage": [
+      "Blueconic Block (Most Popular)"
+     ],
+     "Mobile HomePage": [
+      "Blueconic Block (Most Popular)"
+     ],
+     "340 HomePage": [
+      "Blueconic Block (Most Popular)"
+     ]
+    },
+    "nestedIn": {
+     "Blueconic Block (Most Popular) / Device=Tablet": 10,
+     "Blueconic Block (Most Popular) / Device=Desktop": 10,
+     "Blueconic Block (Most Popular) / Device=Mobile": 10
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [],
+  "builtInto": [
+   {
+    "name": "Blueconic Block (Most Popular)",
+    "path": "../../assemblies/14-blueconic-block-most-popular/blueconic-block-most-popular.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Most Popular List Item",
+   "variantProperties": null,
+   "id": "3352:24171",
+   "key": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-24171",
+   "width": 963,
+   "height": 32,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 12,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/most-popular-list-item.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Most Popular List Item",
+    "type": "COMPONENT",
+    "id": "3352:24171",
+    "w": 963,
+    "h": 32,
+    "x": 0,
+    "y": 0,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 12,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Bullet Number",
+      "type": "FRAME",
+      "id": "3352:24167",
+      "w": 32,
+      "h": 32,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 16,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#007580",
+        "variable": "Colors/color/theme/primary"
+       }
+      ],
+      "children": [
+       {
+        "name": "1",
+        "type": "TEXT",
+        "id": "3352:24168",
+        "w": 13,
+        "h": 15,
+        "x": 9.5,
+        "y": 8.5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "text": "1",
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "align": "CENTER",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Bold",
+          "size": 21,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Headline Container",
+      "type": "FRAME",
+      "id": "3352:24169",
+      "w": 919,
+      "h": 22,
+      "x": 44,
+      "y": 5,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Dear Abby: My clothes make her cry, and I feel like I can’t win",
+        "type": "TEXT",
+        "id": "3352:24170",
+        "w": 919,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "text": "Dear Abby: My clothes make her cry, and I feel like I can’t win",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Serif",
+          "weight": "Bold",
+          "size": 16,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ],
+          "textStyle": "Blueconic/Title"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "1",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 21,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "1",
+   "variants": [
+    "Most Popular List Item"
+   ]
+  },
+  {
+   "layer": "Dear Abby: My clothes make her cry, and I feel like I can’t win",
+   "font": "Noto Serif",
+   "weight": "Bold",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": "Blueconic/Title",
+   "truncate": null,
+   "sample": "Dear Abby: My clothes make her cry, and I feel lik",
+   "variants": [
+    "Most Popular List Item"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Most Popular List Item",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Bullet Number",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#007580",
+   "token": "Colors/color/theme/primary",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Most Popular List Item: 963×32, horizontal gap 12 pad 0/0/0/0 main MIN cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [],
+ "skeleton": "most-popular-list-item.html",
+ "exported": "2026-09-24"
+}

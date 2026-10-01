@@ -1,0 +1,2893 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "assembly",
+ "group": "homepage",
+ "name": "Section Rail Card",
+ "slug": "section-rail-card",
+ "order": 18,
+ "typeLabel": "Assembly · 9 variants",
+ "description": "Component set · Variant: Device = Desktop, Mobile · Layout = Wide, Narrow (Desktop supports both; Mobile is always Narrow, matching production — mobile never uses the wide side-by-side layout). Confirmed against live ocregister.com: the desktop 3-across rail's columns and the mobile rail share the same narrow, stacked layout.",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3352:22067",
+  "mainKey": "a190cd2a7299d5dfbfd24bae57f8bf986bf7add6",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-22067",
+  "variants": [
+   {
+    "label": "Device=Mobile, Layout=Narrow",
+    "id": "3352:22066",
+    "key": "edee2be023963cf675ee580ff5cfc4de809ea3ff",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-22066"
+   },
+   {
+    "label": "Device=Desktop, Layout=Narrow",
+    "id": "3352:22065",
+    "key": "f7d929e561adc6506bc02a1bde425a49aceb8146",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-22065"
+   },
+   {
+    "label": "Device=Tablet, Layout=Narrow",
+    "id": "3383:46831",
+    "key": "3b44a196f904cae8eff2ce006ad42a604702c74d",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46831"
+   },
+   {
+    "label": "Device=Tablet, Layout=Wide",
+    "id": "3383:46746",
+    "key": "b4f2a0688a47649b0ecc5bae007f06ac64eaf417",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46746"
+   },
+   {
+    "label": "Device=1024, Layout=Narrow",
+    "id": "3445:55994",
+    "key": "8d3d7b5955f32538b35968f1a7429d9e8cc3313f",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3445-55994"
+   },
+   {
+    "label": "Device=1100, Layout=Narrow",
+    "id": "3445:56061",
+    "key": "cb767c709d26904179312aa86c0e0543028191a3",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3445-56061"
+   },
+   {
+    "label": "Device=1024, Layout=Wide",
+    "id": "3476:60465",
+    "key": "2db0cc5ecc5064327d9311445d183faf405e9af7",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3476-60465"
+   },
+   {
+    "label": "Device=1100, Layout=Wide",
+    "id": "3476:60484",
+    "key": "da0fe7f95386430425adb5745621581eb6549ad5",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3476-60484"
+   },
+   {
+    "label": "Device=1280, Layout=Wide",
+    "id": "3478:63072",
+    "key": "8021b5e7c4489fec57fe07cb4285e193de1bdb3b",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3478-63072"
+   }
+  ]
+ },
+ "properties": {
+  "Device": {
+   "type": "VARIANT",
+   "default": "Mobile",
+   "options": [
+    "Desktop",
+    "Mobile",
+    "Tablet",
+    "1024",
+    "1100",
+    "1280"
+   ]
+  },
+  "Layout": {
+   "type": "VARIANT",
+   "default": "Narrow",
+   "options": [
+    "Wide",
+    "Narrow"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [],
+  "perVariant": [
+   {
+    "label": "Device=Mobile, Layout=Narrow",
+    "id": "3352:22066",
+    "templatesDirect": {
+     "Mobile HomePage": 9,
+     "340 HomePage": 9
+    },
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "340",
+     "360"
+    ],
+    "observedBreakpoints": [
+     "340",
+     "360"
+    ],
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   },
+   {
+    "label": "Device=Desktop, Layout=Narrow",
+    "id": "3352:22065",
+    "templatesDirect": {
+     "Desktop HomePage": 3
+    },
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "1100",
+     "1280"
+    ],
+    "observedBreakpoints": [
+     "1280"
+    ],
+    "breakpoints": [
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Device=Tablet, Layout=Narrow",
+    "id": "3383:46831",
+    "templatesDirect": {
+     "768 HomePage": 3
+    },
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "768"
+    ],
+    "observedBreakpoints": [
+     "768"
+    ],
+    "breakpoints": [
+     "768"
+    ]
+   },
+   {
+    "label": "Device=Tablet, Layout=Wide",
+    "id": "3383:46746",
+    "templatesDirect": {
+     "768 HomePage": 6
+    },
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "768"
+    ],
+    "observedBreakpoints": [
+     "768"
+    ],
+    "breakpoints": [
+     "768"
+    ]
+   },
+   {
+    "label": "Device=1024, Layout=Narrow",
+    "id": "3445:55994",
+    "templatesDirect": {
+     "1024 HomePage": 3
+    },
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "1024"
+    ],
+    "observedBreakpoints": [
+     "1024"
+    ],
+    "breakpoints": [
+     "1024"
+    ]
+   },
+   {
+    "label": "Device=1100, Layout=Narrow",
+    "id": "3445:56061",
+    "templatesDirect": {
+     "1100 HomePage": 3
+    },
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "1100"
+    ],
+    "observedBreakpoints": [
+     "1100"
+    ],
+    "breakpoints": [
+     "1100"
+    ]
+   },
+   {
+    "label": "Device=1024, Layout=Wide",
+    "id": "3476:60465",
+    "templatesDirect": {
+     "1024 HomePage": 6
+    },
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "1024"
+    ],
+    "observedBreakpoints": [
+     "1024"
+    ],
+    "breakpoints": [
+     "1024"
+    ]
+   },
+   {
+    "label": "Device=1100, Layout=Wide",
+    "id": "3476:60484",
+    "templatesDirect": {
+     "1100 HomePage": 6
+    },
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "1100"
+    ],
+    "observedBreakpoints": [
+     "1100"
+    ],
+    "breakpoints": [
+     "1100"
+    ]
+   },
+   {
+    "label": "Device=1280, Layout=Wide",
+    "id": "3478:63072",
+    "templatesDirect": {
+     "Desktop HomePage": 6
+    },
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "1280"
+    ],
+    "observedBreakpoints": [
+     "1280"
+    ],
+    "breakpoints": [
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Section Title / Eyebrow",
+    "count": 9,
+    "inExport": true,
+    "section": "Section Title / Eyebrow",
+    "path": "../../components/06-section-title-eyebrow/section-title-eyebrow.md"
+   },
+   {
+    "name": "1Col Article Card",
+    "count": 20,
+    "inExport": true,
+    "section": "1Col Article Card",
+    "path": "../../components/16-1col-article-card/1col-article-card.md"
+   },
+   {
+    "name": "Feature + List Content Block",
+    "count": 4,
+    "inExport": true,
+    "section": "Feature + List Content Block",
+    "path": "../17-feature-list-content-block/feature-list-content-block.md"
+   }
+  ],
+  "builtInto": []
+ },
+ "variants": [
+  {
+   "label": "Device=Mobile, Layout=Narrow",
+   "variantProperties": {
+    "Device": "Mobile",
+    "Layout": "Narrow"
+   },
+   "id": "3352:22066",
+   "key": "edee2be023963cf675ee580ff5cfc4de809ea3ff",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-22066",
+   "width": 296,
+   "height": 818,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 24,
+    "pad": [
+     0,
+     0,
+     32,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/section-rail-card--mobile-narrow.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Device=Mobile, Layout=Narrow",
+    "type": "COMPONENT",
+    "id": "3352:22066",
+    "w": 296,
+    "h": 818,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 24,
+     "pad": [
+      0,
+      0,
+      32,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "News Content",
+      "type": "FRAME",
+      "id": "3352:21996",
+      "w": 296,
+      "h": 786,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 24,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "3Col Header",
+        "type": "FRAME",
+        "id": "3352:21997",
+        "w": 296,
+        "h": 30,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "children": [
+         {
+          "name": "Section Title / Eyebrow",
+          "type": "INSTANCE",
+          "id": "3352:21998",
+          "w": 296,
+          "h": 30,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "component": "Section Title / Eyebrow",
+          "variant": {
+           "Style": "Underline"
+          },
+          "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+          "mainId": "3326:41622",
+          "props": {
+           "Chevron": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Top Zones Section Block MOBILE",
+        "type": "FRAME",
+        "id": "3352:21999",
+        "w": 296,
+        "h": 732,
+        "x": 0,
+        "y": 54,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "1Col Article Card",
+          "type": "INSTANCE",
+          "id": "3352:25975",
+          "w": 296,
+          "h": 378,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "1Col Article Card",
+          "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+          "mainId": "3352:24163",
+          "props": {
+           "Show Excerpt": true,
+           "Show Meta": false,
+           "Show Subscriber Badge": false,
+           "Show Image": true
+          }
+         },
+         {
+          "name": "1Col Article Card",
+          "type": "INSTANCE",
+          "id": "3352:26135",
+          "w": 296,
+          "h": 102,
+          "x": 0,
+          "y": 394,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "1Col Article Card",
+          "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+          "mainId": "3352:24163",
+          "props": {
+           "Show Excerpt": false,
+           "Show Meta": false,
+           "Show Subscriber Badge": false,
+           "Show Image": false
+          }
+         },
+         {
+          "name": "1Col Article Card",
+          "type": "INSTANCE",
+          "id": "3352:26199",
+          "w": 296,
+          "h": 102,
+          "x": 0,
+          "y": 512,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "1Col Article Card",
+          "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+          "mainId": "3352:24163",
+          "props": {
+           "Show Excerpt": false,
+           "Show Meta": false,
+           "Show Subscriber Badge": false,
+           "Show Image": false
+          }
+         },
+         {
+          "name": "1Col Article Card",
+          "type": "INSTANCE",
+          "id": "3352:26295",
+          "w": 296,
+          "h": 102,
+          "x": 0,
+          "y": 630,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "1Col Article Card",
+          "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+          "mainId": "3352:24163",
+          "props": {
+           "Show Excerpt": false,
+           "Show Meta": false,
+           "Show Subscriber Badge": false,
+           "Show Image": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "edee2be023963cf675ee580ff5cfc4de809ea3ff",
+    "variantProperties": {
+     "Device": "Mobile",
+     "Layout": "Narrow"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=Desktop, Layout=Narrow",
+   "variantProperties": {
+    "Device": "Desktop",
+    "Layout": "Narrow"
+   },
+   "id": "3352:22065",
+   "key": "f7d929e561adc6506bc02a1bde425a49aceb8146",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-22065",
+   "width": 302.7,
+   "height": 778,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 16,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/section-rail-card--desktop-narrow.png",
+   "breakpoints": [
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Device=Desktop, Layout=Narrow",
+    "type": "COMPONENT",
+    "id": "3352:22065",
+    "w": 302.7,
+    "h": 778,
+    "x": 2440,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 16,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "1Col Header",
+      "type": "FRAME",
+      "id": "3352:21929",
+      "w": 302.7,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 4,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "children": [
+       {
+        "name": "Section Title / Eyebrow",
+        "type": "INSTANCE",
+        "id": "3352:21930",
+        "w": 302.7,
+        "h": 30,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 6,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Section Title / Eyebrow",
+        "variant": {
+         "Style": "Underline"
+        },
+        "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+        "mainId": "3326:41622",
+        "props": {
+         "Chevron": true
+        }
+       }
+      ]
+     },
+     {
+      "name": "1Col Article Card",
+      "type": "INSTANCE",
+      "id": "3352:25335",
+      "w": 296,
+      "h": 378,
+      "x": 0,
+      "y": 46,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "component": "1Col Article Card",
+      "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+      "mainId": "3352:24163",
+      "props": {
+       "Show Excerpt": true,
+       "Show Meta": false,
+       "Show Subscriber Badge": false,
+       "Show Image": true
+      }
+     },
+     {
+      "name": "1Col Article Card",
+      "type": "INSTANCE",
+      "id": "3352:25479",
+      "w": 296,
+      "h": 102,
+      "x": 0,
+      "y": 440,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "component": "1Col Article Card",
+      "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+      "mainId": "3352:24163",
+      "props": {
+       "Show Excerpt": false,
+       "Show Meta": false,
+       "Show Subscriber Badge": false,
+       "Show Image": false
+      }
+     },
+     {
+      "name": "1Col Article Card",
+      "type": "INSTANCE",
+      "id": "3352:25687",
+      "w": 296,
+      "h": 102,
+      "x": 0,
+      "y": 558,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "component": "1Col Article Card",
+      "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+      "mainId": "3352:24163",
+      "props": {
+       "Show Excerpt": false,
+       "Show Meta": false,
+       "Show Subscriber Badge": false,
+       "Show Image": false
+      }
+     },
+     {
+      "name": "1Col Article Card",
+      "type": "INSTANCE",
+      "id": "3352:25799",
+      "w": 296,
+      "h": 102,
+      "x": 0,
+      "y": 676,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "component": "1Col Article Card",
+      "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+      "mainId": "3352:24163",
+      "props": {
+       "Show Excerpt": false,
+       "Show Meta": false,
+       "Show Subscriber Badge": false,
+       "Show Image": false
+      }
+     }
+    ],
+    "key": "f7d929e561adc6506bc02a1bde425a49aceb8146",
+    "variantProperties": {
+     "Device": "Desktop",
+     "Layout": "Narrow"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=Tablet, Layout=Narrow",
+   "variantProperties": {
+    "Device": "Tablet",
+    "Layout": "Narrow"
+   },
+   "id": "3383:46831",
+   "key": "3b44a196f904cae8eff2ce006ad42a604702c74d",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46831",
+   "width": 358,
+   "height": 818,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 24,
+    "pad": [
+     0,
+     0,
+     32,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/section-rail-card--tablet-narrow.png",
+   "breakpoints": [
+    "768"
+   ],
+   "layerTree": {
+    "name": "Device=Tablet, Layout=Narrow",
+    "type": "COMPONENT",
+    "id": "3383:46831",
+    "w": 358,
+    "h": 818,
+    "x": 328,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 24,
+     "pad": [
+      0,
+      0,
+      32,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "News Content",
+      "type": "FRAME",
+      "id": "3383:46832",
+      "w": 358,
+      "h": 786,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 24,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "3Col Header",
+        "type": "FRAME",
+        "id": "3383:46833",
+        "w": 358,
+        "h": 30,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "children": [
+         {
+          "name": "Section Title / Eyebrow",
+          "type": "INSTANCE",
+          "id": "3383:46834",
+          "w": 358,
+          "h": 30,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "component": "Section Title / Eyebrow",
+          "variant": {
+           "Style": "Underline"
+          },
+          "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+          "mainId": "3326:41622",
+          "props": {
+           "Chevron": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Top Zones Section Block MOBILE",
+        "type": "FRAME",
+        "id": "3383:46835",
+        "w": 358,
+        "h": 732,
+        "x": 0,
+        "y": 54,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "1Col Article Card",
+          "type": "INSTANCE",
+          "id": "3383:46836",
+          "w": 358,
+          "h": 378,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FIXED",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "1Col Article Card",
+          "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+          "mainId": "3352:24163",
+          "props": {
+           "Show Excerpt": true,
+           "Show Meta": false,
+           "Show Subscriber Badge": false,
+           "Show Image": true
+          }
+         },
+         {
+          "name": "1Col Article Card",
+          "type": "INSTANCE",
+          "id": "3383:46837",
+          "w": 358,
+          "h": 102,
+          "x": 0,
+          "y": 394,
+          "sizing": {
+           "h": "FIXED",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "1Col Article Card",
+          "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+          "mainId": "3352:24163",
+          "props": {
+           "Show Excerpt": false,
+           "Show Meta": false,
+           "Show Subscriber Badge": false,
+           "Show Image": false
+          }
+         },
+         {
+          "name": "1Col Article Card",
+          "type": "INSTANCE",
+          "id": "3383:46838",
+          "w": 358,
+          "h": 102,
+          "x": 0,
+          "y": 512,
+          "sizing": {
+           "h": "FIXED",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "1Col Article Card",
+          "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+          "mainId": "3352:24163",
+          "props": {
+           "Show Excerpt": false,
+           "Show Meta": false,
+           "Show Subscriber Badge": false,
+           "Show Image": false
+          }
+         },
+         {
+          "name": "1Col Article Card",
+          "type": "INSTANCE",
+          "id": "3383:46839",
+          "w": 358,
+          "h": 102,
+          "x": 0,
+          "y": 630,
+          "sizing": {
+           "h": "FIXED",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "1Col Article Card",
+          "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+          "mainId": "3352:24163",
+          "props": {
+           "Show Excerpt": false,
+           "Show Meta": false,
+           "Show Subscriber Badge": false,
+           "Show Image": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "3b44a196f904cae8eff2ce006ad42a604702c74d",
+    "variantProperties": {
+     "Device": "Tablet",
+     "Layout": "Narrow"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=Tablet, Layout=Wide",
+   "variantProperties": {
+    "Device": "Tablet",
+    "Layout": "Wide"
+   },
+   "id": "3383:46746",
+   "key": "b4f2a0688a47649b0ecc5bae007f06ac64eaf417",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46746",
+   "width": 748,
+   "height": 502,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 24,
+    "pad": [
+     0,
+     0,
+     32,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/section-rail-card--tablet-wide.png",
+   "breakpoints": [
+    "768"
+   ],
+   "layerTree": {
+    "name": "Device=Tablet, Layout=Wide",
+    "type": "COMPONENT",
+    "id": "3383:46746",
+    "w": 748,
+    "h": 502,
+    "x": 328,
+    "y": 933,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 24,
+     "pad": [
+      0,
+      0,
+      32,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "News Content",
+      "type": "FRAME",
+      "id": "3383:46747",
+      "w": 748,
+      "h": 470,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 24,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "3Col Header",
+        "type": "FRAME",
+        "id": "3383:46748",
+        "w": 748,
+        "h": 30,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "children": [
+         {
+          "name": "Section Title / Eyebrow",
+          "type": "INSTANCE",
+          "id": "3383:46749",
+          "w": 748,
+          "h": 30,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "component": "Section Title / Eyebrow",
+          "variant": {
+           "Style": "Underline"
+          },
+          "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+          "mainId": "3326:41622",
+          "props": {
+           "Chevron": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Section Block",
+        "type": "INSTANCE",
+        "id": "3478:63612",
+        "w": 748,
+        "h": 416,
+        "x": 0,
+        "y": 54,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Feature + List Content Block",
+        "variant": {
+         "Size": "Default"
+        },
+        "componentKey": "d9c96ebd29527f812f5906abd384c00e203583e9",
+        "mainId": "3478:63611"
+       }
+      ]
+     }
+    ],
+    "key": "b4f2a0688a47649b0ecc5bae007f06ac64eaf417",
+    "variantProperties": {
+     "Device": "Tablet",
+     "Layout": "Wide"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=1024, Layout=Narrow",
+   "variantProperties": {
+    "Device": "1024",
+    "Layout": "Narrow"
+   },
+   "id": "3445:55994",
+   "key": "8d3d7b5955f32538b35968f1a7429d9e8cc3313f",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3445-55994",
+   "width": 484,
+   "height": 674,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 16,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/section-rail-card--1024-narrow.png",
+   "breakpoints": [
+    "1024"
+   ],
+   "layerTree": {
+    "name": "Device=1024, Layout=Narrow",
+    "type": "COMPONENT",
+    "id": "3445:55994",
+    "w": 484,
+    "h": 674,
+    "x": 1092,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 16,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "1Col Header",
+      "type": "FRAME",
+      "id": "3445:55995",
+      "w": 484,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 4,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "children": [
+       {
+        "name": "Section Title / Eyebrow",
+        "type": "INSTANCE",
+        "id": "3445:55996",
+        "w": 484,
+        "h": 30,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 6,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Section Title / Eyebrow",
+        "variant": {
+         "Style": "Underline"
+        },
+        "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+        "mainId": "3326:41622",
+        "props": {
+         "Chevron": true
+        }
+       }
+      ]
+     },
+     {
+      "name": "1Col Article Card",
+      "type": "INSTANCE",
+      "id": "3445:55997",
+      "w": 484,
+      "h": 352,
+      "x": 0,
+      "y": 46,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "component": "1Col Article Card",
+      "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+      "mainId": "3352:24163",
+      "props": {
+       "Show Excerpt": true,
+       "Show Meta": false,
+       "Show Subscriber Badge": false,
+       "Show Image": true
+      }
+     },
+     {
+      "name": "1Col Article Card",
+      "type": "INSTANCE",
+      "id": "3445:55998",
+      "w": 484,
+      "h": 76,
+      "x": 0,
+      "y": 414,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "component": "1Col Article Card",
+      "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+      "mainId": "3352:24163",
+      "props": {
+       "Show Excerpt": false,
+       "Show Meta": false,
+       "Show Subscriber Badge": false,
+       "Show Image": false
+      }
+     },
+     {
+      "name": "1Col Article Card",
+      "type": "INSTANCE",
+      "id": "3445:55999",
+      "w": 484,
+      "h": 76,
+      "x": 0,
+      "y": 506,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "component": "1Col Article Card",
+      "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+      "mainId": "3352:24163",
+      "props": {
+       "Show Excerpt": false,
+       "Show Meta": false,
+       "Show Subscriber Badge": false,
+       "Show Image": false
+      }
+     },
+     {
+      "name": "1Col Article Card",
+      "type": "INSTANCE",
+      "id": "3445:56000",
+      "w": 484,
+      "h": 76,
+      "x": 0,
+      "y": 598,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "component": "1Col Article Card",
+      "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+      "mainId": "3352:24163",
+      "props": {
+       "Show Excerpt": false,
+       "Show Meta": false,
+       "Show Subscriber Badge": false,
+       "Show Image": false
+      }
+     }
+    ],
+    "key": "8d3d7b5955f32538b35968f1a7429d9e8cc3313f",
+    "variantProperties": {
+     "Device": "1024",
+     "Layout": "Narrow"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=1100, Layout=Narrow",
+   "variantProperties": {
+    "Device": "1100",
+    "Layout": "Narrow"
+   },
+   "id": "3445:56061",
+   "key": "cb767c709d26904179312aa86c0e0543028191a3",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3445-56061",
+   "width": 251,
+   "height": 901,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 16,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/section-rail-card--1100-narrow.png",
+   "breakpoints": [
+    "1100"
+   ],
+   "layerTree": {
+    "name": "Device=1100, Layout=Narrow",
+    "type": "COMPONENT",
+    "id": "3445:56061",
+    "w": 251,
+    "h": 901,
+    "x": 1693,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 16,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "1Col Header",
+      "type": "FRAME",
+      "id": "3445:56062",
+      "w": 251,
+      "h": 30,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 4,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "children": [
+       {
+        "name": "Section Title / Eyebrow",
+        "type": "INSTANCE",
+        "id": "3445:56063",
+        "w": 251,
+        "h": 30,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 6,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Section Title / Eyebrow",
+        "variant": {
+         "Style": "Underline"
+        },
+        "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+        "mainId": "3326:41622",
+        "props": {
+         "Chevron": true
+        }
+       }
+      ]
+     },
+     {
+      "name": "1Col Article Card",
+      "type": "INSTANCE",
+      "id": "3445:56064",
+      "w": 251,
+      "h": 423,
+      "x": 0,
+      "y": 46,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "component": "1Col Article Card",
+      "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+      "mainId": "3352:24163",
+      "props": {
+       "Show Excerpt": true,
+       "Show Meta": false,
+       "Show Subscriber Badge": false,
+       "Show Image": true
+      }
+     },
+     {
+      "name": "1Col Article Card",
+      "type": "INSTANCE",
+      "id": "3445:56065",
+      "w": 251,
+      "h": 128,
+      "x": 0,
+      "y": 485,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "component": "1Col Article Card",
+      "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+      "mainId": "3352:24163",
+      "props": {
+       "Show Excerpt": false,
+       "Show Meta": false,
+       "Show Subscriber Badge": false,
+       "Show Image": false
+      }
+     },
+     {
+      "name": "1Col Article Card",
+      "type": "INSTANCE",
+      "id": "3445:56066",
+      "w": 251,
+      "h": 128,
+      "x": 0,
+      "y": 629,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "component": "1Col Article Card",
+      "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+      "mainId": "3352:24163",
+      "props": {
+       "Show Excerpt": false,
+       "Show Meta": false,
+       "Show Subscriber Badge": false,
+       "Show Image": false
+      }
+     },
+     {
+      "name": "1Col Article Card",
+      "type": "INSTANCE",
+      "id": "3445:56067",
+      "w": 251,
+      "h": 128,
+      "x": 0,
+      "y": 773,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        16,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "component": "1Col Article Card",
+      "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
+      "mainId": "3352:24163",
+      "props": {
+       "Show Excerpt": false,
+       "Show Meta": false,
+       "Show Subscriber Badge": false,
+       "Show Image": false
+      }
+     }
+    ],
+    "key": "cb767c709d26904179312aa86c0e0543028191a3",
+    "variantProperties": {
+     "Device": "1100",
+     "Layout": "Narrow"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=1024, Layout=Wide",
+   "variantProperties": {
+    "Device": "1024",
+    "Layout": "Wide"
+   },
+   "id": "3476:60465",
+   "key": "2db0cc5ecc5064327d9311445d183faf405e9af7",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3476-60465",
+   "width": 585,
+   "height": 580,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 24,
+    "pad": [
+     0,
+     0,
+     32,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/section-rail-card--1024-wide.png",
+   "breakpoints": [
+    "1024"
+   ],
+   "layerTree": {
+    "name": "Device=1024, Layout=Wide",
+    "type": "COMPONENT",
+    "id": "3476:60465",
+    "w": 585,
+    "h": 580,
+    "x": 1092,
+    "y": 933,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 24,
+     "pad": [
+      0,
+      0,
+      32,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "News Content",
+      "type": "FRAME",
+      "id": "3476:60457",
+      "w": 585,
+      "h": 548,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 24,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "3Col Header",
+        "type": "FRAME",
+        "id": "3476:60458",
+        "w": 585,
+        "h": 30,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "children": [
+         {
+          "name": "Section Title / Eyebrow",
+          "type": "INSTANCE",
+          "id": "3476:60459",
+          "w": 585,
+          "h": 30,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "component": "Section Title / Eyebrow",
+          "variant": {
+           "Style": "Underline"
+          },
+          "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+          "mainId": "3326:41622",
+          "props": {
+           "Chevron": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Section Block",
+        "type": "INSTANCE",
+        "id": "3484:66934",
+        "w": 585,
+        "h": 494,
+        "x": 0,
+        "y": 54,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Feature + List Content Block",
+        "variant": {
+         "Size": "Narrow"
+        },
+        "componentKey": "6e8d20beb8cdbe33910a2c93824ebdda43d964c0",
+        "mainId": "3484:66879"
+       }
+      ]
+     }
+    ],
+    "key": "2db0cc5ecc5064327d9311445d183faf405e9af7",
+    "variantProperties": {
+     "Device": "1024",
+     "Layout": "Wide"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=1100, Layout=Wide",
+   "variantProperties": {
+    "Device": "1100",
+    "Layout": "Wide"
+   },
+   "id": "3476:60484",
+   "key": "da0fe7f95386430425adb5745621581eb6549ad5",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3476-60484",
+   "width": 731,
+   "height": 502,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 24,
+    "pad": [
+     0,
+     0,
+     32,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/section-rail-card--1100-wide.png",
+   "breakpoints": [
+    "1100"
+   ],
+   "layerTree": {
+    "name": "Device=1100, Layout=Wide",
+    "type": "COMPONENT",
+    "id": "3476:60484",
+    "w": 731,
+    "h": 502,
+    "x": 1693,
+    "y": 933,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 24,
+     "pad": [
+      0,
+      0,
+      32,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "News Content",
+      "type": "FRAME",
+      "id": "3476:60476",
+      "w": 731,
+      "h": 470,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 24,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "3Col Header",
+        "type": "FRAME",
+        "id": "3476:60477",
+        "w": 731,
+        "h": 30,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "children": [
+         {
+          "name": "Section Title / Eyebrow",
+          "type": "INSTANCE",
+          "id": "3476:60478",
+          "w": 731,
+          "h": 30,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "component": "Section Title / Eyebrow",
+          "variant": {
+           "Style": "Underline"
+          },
+          "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+          "mainId": "3326:41622",
+          "props": {
+           "Chevron": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Section Block",
+        "type": "INSTANCE",
+        "id": "3478:64252",
+        "w": 731,
+        "h": 416,
+        "x": 0,
+        "y": 54,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Feature + List Content Block",
+        "variant": {
+         "Size": "Default"
+        },
+        "componentKey": "d9c96ebd29527f812f5906abd384c00e203583e9",
+        "mainId": "3478:63611"
+       }
+      ]
+     }
+    ],
+    "key": "da0fe7f95386430425adb5745621581eb6549ad5",
+    "variantProperties": {
+     "Device": "1100",
+     "Layout": "Wide"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=1280, Layout=Wide",
+   "variantProperties": {
+    "Device": "1280",
+    "Layout": "Wide"
+   },
+   "id": "3478:63072",
+   "key": "8021b5e7c4489fec57fe07cb4285e193de1bdb3b",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3478-63072",
+   "width": 940,
+   "height": 502,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 24,
+    "pad": [
+     0,
+     0,
+     32,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/section-rail-card--1280-wide.png",
+   "breakpoints": [
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Device=1280, Layout=Wide",
+    "type": "COMPONENT",
+    "id": "3478:63072",
+    "w": 940,
+    "h": 502,
+    "x": 2758.7,
+    "y": 933,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 24,
+     "pad": [
+      0,
+      0,
+      32,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "News Content",
+      "type": "FRAME",
+      "id": "3478:63073",
+      "w": 940,
+      "h": 470,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 24,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "3Col Header",
+        "type": "FRAME",
+        "id": "3478:63074",
+        "w": 940,
+        "h": 30,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "children": [
+         {
+          "name": "Section Title / Eyebrow",
+          "type": "INSTANCE",
+          "id": "3478:63075",
+          "w": 940,
+          "h": 30,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "component": "Section Title / Eyebrow",
+          "variant": {
+           "Style": "Underline"
+          },
+          "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+          "mainId": "3326:41622",
+          "props": {
+           "Chevron": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Section Block",
+        "type": "INSTANCE",
+        "id": "3478:66254",
+        "w": 940,
+        "h": 416,
+        "x": 0,
+        "y": 54,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Feature + List Content Block",
+        "variant": {
+         "Size": "Default"
+        },
+        "componentKey": "d9c96ebd29527f812f5906abd384c00e203583e9",
+        "mainId": "3478:63611"
+       }
+      ]
+     }
+    ],
+    "key": "8021b5e7c4489fec57fe07cb4285e193de1bdb3b",
+    "variantProperties": {
+     "Device": "1280",
+     "Layout": "Wide"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [],
+ "colors": [
+  {
+   "layer": "Device=Mobile, Layout=Narrow",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "3Col Header",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "1Col Header",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=Tablet, Layout=Narrow",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=Tablet, Layout=Wide",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=1024, Layout=Wide",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=1100, Layout=Wide",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=1280, Layout=Wide",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Wide variants (checked against the previews): Section Title on top, then a lead story with image left and headline/dek right, plus a 3-item headline list in a right column.",
+  "Narrow variants: single column. Section Title, then a full-width image lead, then stacked 1Col Article Card headlines.",
+  "The 1024 and 1100 variants exist because production uses fixed landing-item widths at those breakpoints. Use them instead of scaling the Desktop variant.",
+  "Device=Mobile, Layout=Narrow: 296×818, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 340, 360",
+  "Device=Desktop, Layout=Narrow: 302.7×778, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280",
+  "Device=Tablet, Layout=Narrow: 358×818, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 768",
+  "Device=Tablet, Layout=Wide: 748×502, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 768",
+  "Device=1024, Layout=Narrow: 484×674, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024",
+  "Device=1100, Layout=Narrow: 251×901, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1100",
+  "Device=1024, Layout=Wide: 585×580, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 1024",
+  "Device=1100, Layout=Wide: 731×502, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 1100",
+  "Device=1280, Layout=Wide: 940×502, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 1280"
+ ],
+ "productionRefs": [
+  "ocregister.com"
+ ],
+ "knownIssues": [],
+ "skeleton": "section-rail-card.html",
+ "exported": "2026-09-24"
+}

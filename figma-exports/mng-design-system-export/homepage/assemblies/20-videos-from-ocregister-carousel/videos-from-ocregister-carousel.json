@@ -1,0 +1,972 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "assembly",
+ "group": "homepage",
+ "name": "Videos from OCRegister Carousel",
+ "slug": "videos-from-ocregister-carousel",
+ "order": 20,
+ "typeLabel": "Assembly · 2 components",
+ "description": "Instagram video carousel (header + Video Tile Image Placeholder row + scroll indicator), instanced on every homepage breakpoint. Two main components share this name: the populated one used by the templates, and an empty 1245×100 shell with no layers that no template references — flagged for review/removal.",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3419:55122",
+  "mainKey": "8440dab024c062758ef2eefdac32320283804015",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3419-55122",
+  "variants": [
+   {
+    "label": "Videos from OCRegister Carousel",
+    "id": "3419:55122",
+    "key": "8440dab024c062758ef2eefdac32320283804015",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3419-55122"
+   },
+   {
+    "label": "Videos from OCRegister Carousel",
+    "id": "3419:55120",
+    "key": "b83dd4446cceb462b97bb4c4cd9a3487566cd7aa",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3419-55120"
+   }
+  ]
+ },
+ "properties": {},
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [],
+  "perVariant": [
+   {
+    "label": "Videos from OCRegister Carousel",
+    "id": "3419:55122",
+    "templatesDirect": {
+     "1024 HomePage": 1,
+     "1100 HomePage": 1,
+     "340 HomePage": 1,
+     "768 HomePage": 1,
+     "Mobile HomePage": 1,
+     "Desktop HomePage": 1
+    },
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Videos from OCRegister Carousel",
+    "id": "3419:55120",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Video Tile Image Placeholder",
+    "count": 9,
+    "inExport": true,
+    "section": "Video Tile Image Placeholder",
+    "path": "../../components/19-video-tile-image-placeholder/video-tile-image-placeholder.md"
+   }
+  ],
+  "builtInto": []
+ },
+ "variants": [
+  {
+   "label": "Videos from OCRegister Carousel",
+   "variantProperties": null,
+   "id": "3419:55122",
+   "key": "8440dab024c062758ef2eefdac32320283804015",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3419-55122",
+   "width": 1245,
+   "height": 404,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     16,
+     0,
+     16,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/videos-from-ocregister-carousel.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Videos from OCRegister Carousel",
+    "type": "COMPONENT",
+    "id": "3419:55122",
+    "w": 1245,
+    "h": 404,
+    "x": 116,
+    "y": 0,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      16,
+      0,
+      16,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF"
+     }
+    ],
+    "children": [
+     {
+      "name": "Videos from @OCRegister",
+      "type": "TEXT",
+      "id": "3419:55123",
+      "w": 1245,
+      "h": 35,
+      "x": 0,
+      "y": 16,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "text": "Videos from @OCRegister",
+      "autoResize": "HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Noto Serif",
+        "weight": "Bold",
+        "size": 26,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#141414"
+         }
+        ],
+        "textStyle": null,
+        "chars": "Videos from @"
+       },
+       {
+        "font": "Noto Serif",
+        "weight": "Bold",
+        "size": 26,
+        "lineHeight": "auto",
+        "decoration": "UNDERLINE",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#1651BA"
+         }
+        ],
+        "textStyle": null,
+        "chars": "OCRegister"
+       }
+      ]
+     },
+     {
+      "name": "Watch as our journalists report on our local news coverage in these Instagram videos.",
+      "type": "TEXT",
+      "id": "3419:55124",
+      "w": 1245,
+      "h": 20,
+      "x": 0,
+      "y": 59,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "text": "Watch as our journalists report on our local news coverage in these Instagram videos.",
+      "autoResize": "HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 15,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#393938"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     },
+     {
+      "name": "Tile Row",
+      "type": "FRAME",
+      "id": "3419:55125",
+      "w": 1245,
+      "h": 287,
+      "x": 0,
+      "y": 87,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Video Tile Image Placeholder",
+        "type": "INSTANCE",
+        "id": "3419:55185",
+        "w": 160,
+        "h": 287,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#E1A1FF"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "component": "Video Tile Image Placeholder",
+        "componentKey": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+        "mainId": "3419:55114"
+       },
+       {
+        "name": "Video Tile Image Placeholder",
+        "type": "INSTANCE",
+        "id": "3419:55192",
+        "w": 160,
+        "h": 287,
+        "x": 168,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#E1A1FF"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "component": "Video Tile Image Placeholder",
+        "componentKey": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+        "mainId": "3419:55114"
+       },
+       {
+        "name": "Video Tile Image Placeholder",
+        "type": "INSTANCE",
+        "id": "3419:55199",
+        "w": 160,
+        "h": 287,
+        "x": 336,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#E1A1FF"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "component": "Video Tile Image Placeholder",
+        "componentKey": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+        "mainId": "3419:55114"
+       },
+       {
+        "name": "Video Tile Image Placeholder",
+        "type": "INSTANCE",
+        "id": "3419:55206",
+        "w": 160,
+        "h": 287,
+        "x": 504,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#E1A1FF"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "component": "Video Tile Image Placeholder",
+        "componentKey": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+        "mainId": "3419:55114"
+       },
+       {
+        "name": "Video Tile Image Placeholder",
+        "type": "INSTANCE",
+        "id": "3419:55213",
+        "w": 160,
+        "h": 287,
+        "x": 672,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#E1A1FF"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "component": "Video Tile Image Placeholder",
+        "componentKey": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+        "mainId": "3419:55114"
+       },
+       {
+        "name": "Video Tile Image Placeholder",
+        "type": "INSTANCE",
+        "id": "3419:55220",
+        "w": 160,
+        "h": 287,
+        "x": 840,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#E1A1FF"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "component": "Video Tile Image Placeholder",
+        "componentKey": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+        "mainId": "3419:55114"
+       },
+       {
+        "name": "Video Tile Image Placeholder",
+        "type": "INSTANCE",
+        "id": "3419:55227",
+        "w": 160,
+        "h": 287,
+        "x": 1008,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#E1A1FF"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "component": "Video Tile Image Placeholder",
+        "componentKey": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+        "mainId": "3419:55114"
+       },
+       {
+        "name": "Video Tile Image Placeholder",
+        "type": "INSTANCE",
+        "id": "3419:55234",
+        "w": 160,
+        "h": 287,
+        "x": 1176,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#E1A1FF"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "component": "Video Tile Image Placeholder",
+        "componentKey": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+        "mainId": "3419:55114"
+       },
+       {
+        "name": "Video Tile Image Placeholder",
+        "type": "INSTANCE",
+        "id": "3419:55241",
+        "w": 160,
+        "h": 287,
+        "x": 1344,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#E1A1FF"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "component": "Video Tile Image Placeholder",
+        "componentKey": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+        "mainId": "3419:55114"
+       }
+      ]
+     },
+     {
+      "name": "Scroll Indicator Track",
+      "type": "FRAME",
+      "id": "3419:55248",
+      "w": 1245,
+      "h": 6,
+      "x": 0,
+      "y": 382,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "clip": true,
+      "radius": 3,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#E5E4E1"
+       }
+      ],
+      "children": [
+       {
+        "name": "Scroll Indicator Thumb",
+        "type": "RECTANGLE",
+        "id": "3419:55249",
+        "w": 224.1,
+        "h": 6,
+        "x": 0,
+        "y": 0,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#B2B1AD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "label": "Videos from OCRegister Carousel",
+   "variantProperties": null,
+   "id": "3419:55120",
+   "key": "b83dd4446cceb462b97bb4c4cd9a3487566cd7aa",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3419-55120",
+   "width": 1245,
+   "height": 100,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     16,
+     0,
+     16,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/videos-from-ocregister-carousel-2.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Videos from OCRegister Carousel",
+    "type": "COMPONENT",
+    "id": "3419:55120",
+    "w": 1245,
+    "h": 100,
+    "x": 116,
+    "y": 420,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      16,
+      0,
+      16,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF"
+     }
+    ],
+    "children": []
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Videos from @OCRegister",
+   "font": "Noto Serif",
+   "weight": "Bold",
+   "size": 26,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Videos from @OCRegister",
+   "variants": [
+    "Videos from OCRegister Carousel"
+   ]
+  },
+  {
+   "layer": "Videos from @OCRegister",
+   "font": "Noto Serif",
+   "weight": "Bold",
+   "size": 26,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": "UNDERLINE",
+   "color": "#1651BA",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Videos from @OCRegister",
+   "variants": [
+    "Videos from OCRegister Carousel"
+   ]
+  },
+  {
+   "layer": "Watch as our journalists report on our local news coverage in these Instagram videos.",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 15,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#393938",
+   "token": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Watch as our journalists report on our local news ",
+   "variants": [
+    "Videos from OCRegister Carousel"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Videos from OCRegister Carousel",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Scroll Indicator Track",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#E5E4E1",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Scroll Indicator Thumb",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#B2B1AD",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [
+  {
+   "layer": "Video Tile Image Placeholder",
+   "w": 160,
+   "h": 287,
+   "ratio": "9:16",
+   "source": "Video Tile Image Placeholder",
+   "variant": "Videos from OCRegister Carousel"
+  },
+  {
+   "layer": "Video Tile Image Placeholder",
+   "w": 160,
+   "h": 287,
+   "ratio": "9:16",
+   "source": "Video Tile Image Placeholder",
+   "variant": "Videos from OCRegister Carousel"
+  },
+  {
+   "layer": "Video Tile Image Placeholder",
+   "w": 160,
+   "h": 287,
+   "ratio": "9:16",
+   "source": "Video Tile Image Placeholder",
+   "variant": "Videos from OCRegister Carousel"
+  },
+  {
+   "layer": "Video Tile Image Placeholder",
+   "w": 160,
+   "h": 287,
+   "ratio": "9:16",
+   "source": "Video Tile Image Placeholder",
+   "variant": "Videos from OCRegister Carousel"
+  },
+  {
+   "layer": "Video Tile Image Placeholder",
+   "w": 160,
+   "h": 287,
+   "ratio": "9:16",
+   "source": "Video Tile Image Placeholder",
+   "variant": "Videos from OCRegister Carousel"
+  },
+  {
+   "layer": "Video Tile Image Placeholder",
+   "w": 160,
+   "h": 287,
+   "ratio": "9:16",
+   "source": "Video Tile Image Placeholder",
+   "variant": "Videos from OCRegister Carousel"
+  },
+  {
+   "layer": "Video Tile Image Placeholder",
+   "w": 160,
+   "h": 287,
+   "ratio": "9:16",
+   "source": "Video Tile Image Placeholder",
+   "variant": "Videos from OCRegister Carousel"
+  },
+  {
+   "layer": "Video Tile Image Placeholder",
+   "w": 160,
+   "h": 287,
+   "ratio": "9:16",
+   "source": "Video Tile Image Placeholder",
+   "variant": "Videos from OCRegister Carousel"
+  },
+  {
+   "layer": "Video Tile Image Placeholder",
+   "w": 160,
+   "h": 287,
+   "ratio": "9:16",
+   "source": "Video Tile Image Placeholder",
+   "variant": "Videos from OCRegister Carousel"
+  }
+ ],
+ "adSlots": [],
+ "responsiveRules": [
+  "Videos from OCRegister Carousel: 1245×404, vertical gap 8 pad 16/0/16/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280",
+  "Videos from OCRegister Carousel: 1245×100, vertical gap 8 pad 16/0/16/0 main MIN cross MIN — renders at (no breakpoint evidence)"
+ ],
+ "productionRefs": [
+  ".dfm-page-middle-flex-container"
+ ],
+ "knownIssues": [
+  "1 of 2 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Videos from OCRegister Carousel`.",
+  "7 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×2, #141414 ×1, #1651BA ×1, #393938 ×1, #E5E4E1 ×1, #B2B1AD ×1."
+ ],
+ "skeleton": "videos-from-ocregister-carousel.html",
+ "exported": "2026-09-24"
+}

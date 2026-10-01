@@ -1,0 +1,383 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Show More Photos Affordance",
+ "slug": "show-more-photos-affordance",
+ "order": 21,
+ "typeLabel": "Component · Standalone",
+ "description": "Standalone component · freely resizable, no variants · the divider + \"Show More Photos\" affordance at the bottom of Photos Block.",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3352:24180",
+  "mainKey": "df4464b15997ef2b7b310ca9cd6a8b427de277a7",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-24180",
+  "variants": [
+   {
+    "label": "Show More Photos Affordance",
+    "id": "3352:24180",
+    "key": "df4464b15997ef2b7b310ca9cd6a8b427de277a7",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-24180"
+   }
+  ]
+ },
+ "properties": {},
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Photos Block"
+  ],
+  "perVariant": [
+   {
+    "label": "Show More Photos Affordance",
+    "id": "3352:24180",
+    "templatesDirect": {
+     "Desktop HomePage": 1,
+     "1100 HomePage": 1,
+     "1024 HomePage": 1,
+     "Mobile HomePage": 1,
+     "340 HomePage": 1,
+     "768 HomePage": 1
+    },
+    "templatesVia": {
+     "768 HomePage": [
+      "Photos Block"
+     ]
+    },
+    "nestedIn": {
+     "Photos Block / Device=Mobile": 1,
+     "Photos Block / Device=Desktop": 1,
+     "Photos Block / Device=Tablet": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [],
+  "builtInto": [
+   {
+    "name": "Photos Block",
+    "path": "../../assemblies/22-photos-block/photos-block.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Show More Photos Affordance",
+   "variantProperties": null,
+   "id": "3352:24180",
+   "key": "df4464b15997ef2b7b310ca9cd6a8b427de277a7",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-24180",
+   "width": 793,
+   "height": 136.7,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 4,
+    "pad": [
+     0,
+     0,
+     40,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/show-more-photos-affordance.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Show More Photos Affordance",
+    "type": "COMPONENT",
+    "id": "3352:24180",
+    "w": 793,
+    "h": 136.7,
+    "x": 0,
+    "y": 0,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 4,
+     "pad": [
+      0,
+      0,
+      40,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "children": [
+     {
+      "name": "Frame 342",
+      "type": "FRAME",
+      "id": "3352:24175",
+      "w": 793,
+      "h": 70.7,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Line 1",
+        "type": "LINE",
+        "id": "3352:24176",
+        "w": 361.1,
+        "h": 0,
+        "x": 0,
+        "y": 35.4,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#CCCAC7",
+          "variable": "Colors/color/gray/500"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "CENTER"
+       },
+       {
+        "name": "Rectangle 11",
+        "type": "RECTANGLE",
+        "id": "3352:24177",
+        "w": 50,
+        "h": 50,
+        "x": 361.1,
+        "y": 35.4,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#CCCAC7",
+          "variable": "Colors/color/gray/500"
+         }
+        ],
+        "strokeWeight": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "strokeAlign": "INSIDE"
+       },
+       {
+        "name": "Line 2",
+        "type": "LINE",
+        "id": "3352:24178",
+        "w": 361.1,
+        "h": 0,
+        "x": 431.9,
+        "y": 35.4,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#CCCAC7",
+          "variable": "Colors/color/gray/500"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "CENTER"
+       }
+      ]
+     },
+     {
+      "name": "Show More Photos",
+      "type": "TEXT",
+      "id": "3352:24179",
+      "w": 193,
+      "h": 22,
+      "x": 300,
+      "y": 74.7,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "Show More Photos",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "CENTER",
+      "styles": [
+       {
+        "font": "Droid Sans",
+        "weight": "Bold",
+        "size": 19,
+        "lineHeight": "auto",
+        "case": "UPPER",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#007580",
+          "variable": "Colors/color/theme/primary"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Show More Photos",
+   "font": "Droid Sans",
+   "weight": "Bold",
+   "size": 19,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": "UPPER",
+   "decoration": null,
+   "color": "#007580",
+   "token": "Colors/color/theme/primary",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Show More Photos",
+   "variants": [
+    "Show More Photos Affordance"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Line 1",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#CCCAC7",
+   "token": "Colors/color/gray/500",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
+   "layer": "Rectangle 11",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#F1EFEB",
+   "token": "Colors/color/gray/600",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Rectangle 11",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#CCCAC7",
+   "token": "Colors/color/gray/500",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "layer": "Line 2",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#CCCAC7",
+   "token": "Colors/color/gray/500",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Show More Photos Affordance: 793×136.7, vertical gap 4 pad 0/0/40/0 main MIN cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "`Show More Photos Affordance`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Sans Bold ×1."
+ ],
+ "skeleton": "show-more-photos-affordance.html",
+ "exported": "2026-09-24"
+}

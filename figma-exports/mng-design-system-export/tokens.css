@@ -1,0 +1,17 @@
+:root {
+  --mng-feedback-high-error: #CC2B27;
+  --mng-feedback-low-success: #2E8000;
+  --mng-feedback-medium: #856A00;
+  --mng-gray-100: #393938;
+  --mng-gray-200: #5E5D5C;
+  --mng-gray-300: #838280;
+  --mng-gray-400: #A7A6A3;
+  --mng-gray-500: #CCCAC7;
+  --mng-gray-600: #F1EFEB;
+  --mng-gray-max: #FFFFFF;
+  --mng-gray-min: #141414;
+  --mng-theme-primary: #007580;  /* other theme modes: #8D092D */
+  --mng-theme-primary-dark: #0A5962;
+  --mng-font-sans: "Noto Sans", system-ui, sans-serif;
+  --mng-font-serif: "Noto Serif", Georgia, serif;
+}

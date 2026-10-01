@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Photos Block — skeleton</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../tokens.css">
+<style>
+*{box-sizing:border-box} body{margin:0;padding:24px;background:#f4f4f4;font-family:'Noto Sans',sans-serif;color:#141414}
+[hidden]{display:none!important}
+.skel-variant{margin:0 0 40px} .skel-variant>h1{font:600 13px/1.4 monospace;color:#555;margin:0 0 8px}
+.skel-stage{background:#fff;display:inline-block;outline:1px solid #ddd}
+.mng-photos-block__device-mobile{width:438px;min-height:1124.7px;position:relative;display:flex;flex-direction:column;gap:24px;padding:0px 0px 32px 0px;justify-content:flex-start;align-items:center;background:var(--mng-gray-max, #FFFFFF)}
+.mng-photos-block__news-content{align-self:stretch;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-photos-block__c-3col-header{align-self:stretch;display:flex;flex-direction:column;gap:4px;padding:0px 0px 20px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-photos-block__section-title-eyebrow{align-self:stretch;height:30px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__section-block{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__c-1col-article-card-master-detached-imag{align-self:stretch;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-photos-block__article-graphic{align-self:stretch;height:246px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;box-sizing:border-box;aspect-ratio:438/246;background:#D9D9D9;margin:0}
+.mng-photos-block__subsonlybadge{width:114px;height:27px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:2px 5px 2px 5px;justify-content:center;align-items:center;position:relative;background:var(--mng-theme-primary, #007580);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__headline-container{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__article-headline-on-news-paper-homepage-{align-self:stretch;font-family:'Noto Serif', serif;font-size:19px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-photos-block__excerpt-container{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-photos-block__vanroy-evan-smith-39-of-long-beach-is-be{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:15px;font-weight:400;line-height:19px;color:var(--mng-gray-100, #393938);text-align:left;margin:0}
+.mng-photos-block__meta-container{width:296px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__c-56-mins-ago{align-self:stretch;font-family:'Noto Sans', sans-serif;font-size:13px;font-weight:400;line-height:normal;color:var(--mng-gray-200, #5E5D5C);text-align:left;margin:0}
+.mng-photos-block__bottom-border-line{align-self:stretch;height:0px;flex-shrink:0;position:relative;border-top:1px solid var(--mng-gray-500, #CCCAC7)}
+.mng-photos-block__additional-articles{width:336px;display:flex;flex-direction:column;gap:40px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-photos-block__horizontal-thumbnail-card{align-self:stretch;height:67px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:6px 0px 6px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__horizontal-thumbnail-card-2{align-self:stretch;height:67px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:6px 0px 6px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__horizontal-thumbnail-card-3{align-self:stretch;height:67px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:6px 0px 6px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__horizontal-thumbnail-card-4{align-self:stretch;height:67px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:6px 0px 6px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__horizontal-thumbnail-card-5{align-self:stretch;height:67px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:6px 0px 6px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__show-more-photos-affordance{align-self:stretch;height:136.7px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:0px 0px 40px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__device-tablet{width:748px;min-height:1040.7px;position:relative;display:flex;flex-direction:column;gap:24px;padding:0px 0px 32px 0px;justify-content:flex-start;align-items:center;background:var(--mng-gray-max, #FFFFFF)}
+.mng-photos-block__news-content-2{align-self:stretch;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-photos-block__c-3col-header-2{align-self:stretch;display:flex;flex-direction:column;gap:4px;padding:0px 0px 20px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-photos-block__section-title-eyebrow-2{align-self:stretch;height:30px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__section-block-2{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__c-1col-article-card-tablet-detached-imag{width:748px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-photos-block__article-graphic-2{align-self:stretch;height:421px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;box-sizing:border-box;aspect-ratio:748/421;background:#D9D9D9;margin:0}
+.mng-photos-block__subsonlybadge-2{width:114px;height:27px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:2px 5px 2px 5px;justify-content:center;align-items:center;position:relative;background:var(--mng-theme-primary, #007580);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__headline-container-2{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__article-headline-on-news-paper-homepage--2{align-self:stretch;font-family:'Noto Serif', serif;font-size:19px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-photos-block__excerpt-container-2{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-photos-block__vanroy-evan-smith-39-of-long-beach-is-be-2{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:15px;font-weight:400;line-height:19px;color:var(--mng-gray-100, #393938);text-align:left;margin:0}
+.mng-photos-block__meta-container-2{width:296px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__c-56-mins-ago-2{align-self:stretch;font-family:'Noto Sans', sans-serif;font-size:13px;font-weight:400;line-height:normal;color:var(--mng-gray-200, #5E5D5C);text-align:left;margin:0}
+.mng-photos-block__bottom-border-line-2{align-self:stretch;height:0px;flex-shrink:0;position:relative;border-top:1px solid var(--mng-gray-500, #CCCAC7)}
+.mng-photos-block__additional-articles-grid-tablet{width:748px;display:flex;flex-direction:column;gap:40px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__row-1{display:flex;flex-direction:row;gap:20px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__horizontal-thumbnail-card-tablet-photos-{width:364px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:6px 0px 6px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__content{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__image-container{width:90px;flex-shrink:0;height:51px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__article-image-placeholder{width:90px;flex-shrink:0;height:51px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;box-sizing:border-box;aspect-ratio:90/51;background:#D9D9D9;margin:0}
+.mng-photos-block__gallery-icon-badge{position:absolute;left:56px;top:26px;width:28px;height:28px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;background:rgba(0,0,0,0.55);border-radius:14px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__headline{flex:1 1 0;min-width:0;height:51px;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__article-headline-on-news-paper-homepage--3{align-self:stretch;height:51px;flex-shrink:0;font-family:'Noto Serif', serif;font-size:15px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.mng-photos-block__line-1{align-self:stretch;height:0px;flex-shrink:0;position:relative;border-top:1px solid #D7D6D2}
+.mng-photos-block__horizontal-thumbnail-card-tablet-photos--2{width:364px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:6px 0px 6px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__content-2{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__image-container-2{width:90px;flex-shrink:0;height:51px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__article-image-placeholder-2{width:90px;flex-shrink:0;height:51px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;box-sizing:border-box;aspect-ratio:90/51;background:#D9D9D9;margin:0}
+.mng-photos-block__gallery-icon-badge-2{position:absolute;left:56px;top:26px;width:28px;height:28px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;background:rgba(0,0,0,0.55);border-radius:14px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__headline-2{flex:1 1 0;min-width:0;height:51px;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__article-headline-on-news-paper-homepage--4{align-self:stretch;height:51px;flex-shrink:0;font-family:'Noto Serif', serif;font-size:15px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.mng-photos-block__line-1-2{align-self:stretch;height:0px;flex-shrink:0;position:relative;border-top:1px solid #D7D6D2}
+.mng-photos-block__row-2{display:flex;flex-direction:row;gap:20px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__horizontal-thumbnail-card-tablet-photos--3{width:364px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:6px 0px 6px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__content-3{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__image-container-3{width:90px;flex-shrink:0;height:51px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__article-image-placeholder-3{width:90px;flex-shrink:0;height:51px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;box-sizing:border-box;aspect-ratio:90/51;background:#D9D9D9;margin:0}
+.mng-photos-block__gallery-icon-badge-3{position:absolute;left:56px;top:26px;width:28px;height:28px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;background:rgba(0,0,0,0.55);border-radius:14px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__headline-3{flex:1 1 0;min-width:0;height:51px;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__article-headline-on-news-paper-homepage--5{align-self:stretch;height:51px;flex-shrink:0;font-family:'Noto Serif', serif;font-size:15px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.mng-photos-block__line-1-3{align-self:stretch;height:0px;flex-shrink:0;position:relative;border-top:1px solid #D7D6D2}
+.mng-photos-block__horizontal-thumbnail-card-tablet-photos--4{width:364px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:6px 0px 6px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__content-4{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__image-container-4{width:90px;flex-shrink:0;height:51px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__article-image-placeholder-4{width:90px;flex-shrink:0;height:51px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;box-sizing:border-box;aspect-ratio:90/51;background:#D9D9D9;margin:0}
+.mng-photos-block__gallery-icon-badge-4{position:absolute;left:56px;top:26px;width:28px;height:28px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;background:rgba(0,0,0,0.55);border-radius:14px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__headline-4{flex:1 1 0;min-width:0;height:51px;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__article-headline-on-news-paper-homepage--6{align-self:stretch;height:51px;flex-shrink:0;font-family:'Noto Serif', serif;font-size:15px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.mng-photos-block__line-1-4{align-self:stretch;height:0px;flex-shrink:0;position:relative;border-top:1px solid #D7D6D2}
+.mng-photos-block__row-3{display:flex;flex-direction:row;gap:20px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__horizontal-thumbnail-card-tablet-photos--5{width:364px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:6px 0px 6px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__content-5{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__image-container-5{width:90px;flex-shrink:0;height:51px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__article-image-placeholder-5{width:90px;flex-shrink:0;height:51px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;box-sizing:border-box;aspect-ratio:90/51;background:#D9D9D9;margin:0}
+.mng-photos-block__gallery-icon-badge-5{position:absolute;left:56px;top:26px;width:28px;height:28px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;background:rgba(0,0,0,0.55);border-radius:14px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__headline-5{flex:1 1 0;min-width:0;height:51px;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__article-headline-on-news-paper-homepage--7{align-self:stretch;height:51px;flex-shrink:0;font-family:'Noto Serif', serif;font-size:15px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.mng-photos-block__line-1-5{align-self:stretch;height:0px;flex-shrink:0;position:relative;border-top:1px solid #D7D6D2}
+.mng-photos-block__horizontal-thumbnail-card-tablet-photos--6{width:364px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:6px 0px 6px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__content-6{align-self:stretch;display:flex;flex-direction:row;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__image-container-6{width:90px;flex-shrink:0;height:51px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__article-image-placeholder-6{width:90px;flex-shrink:0;height:51px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;box-sizing:border-box;aspect-ratio:90/51;background:#D9D9D9;margin:0}
+.mng-photos-block__gallery-icon-badge-6{position:absolute;left:56px;top:26px;width:28px;height:28px;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;background:rgba(0,0,0,0.55);border-radius:14px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__headline-6{flex:1 1 0;min-width:0;height:51px;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-photos-block__article-headline-on-news-paper-homepage--8{align-self:stretch;height:51px;flex-shrink:0;font-family:'Noto Serif', serif;font-size:15px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.mng-photos-block__line-1-6{align-self:stretch;height:0px;flex-shrink:0;position:relative;border-top:1px solid #D7D6D2}
+.mng-photos-block__show-more-photos-affordance-2{align-self:stretch;height:136.7px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:0px 0px 40px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__device-desktop{width:1280px;min-height:886.7px;position:relative;display:flex;flex-direction:row;gap:24px;padding:0px 0px 32px 0px;justify-content:center;align-items:flex-start;background:var(--mng-gray-max, #FFFFFF)}
+.mng-photos-block__news-content-3{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-photos-block__c-3col-header-3{align-self:stretch;display:flex;flex-direction:column;gap:4px;padding:0px 0px 20px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-photos-block__section-title-eyebrow-3{align-self:stretch;height:30px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__section-block-3{align-self:stretch;display:flex;flex-direction:row;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-photos-block__c-1col-article-card{width:573px;flex-shrink:0;height:352px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__additional-articles-2{width:336px;flex-shrink:0;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:center;align-items:flex-start;position:relative}
+.mng-photos-block__horizontal-thumbnail-card-6{align-self:stretch;height:98px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:8px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__horizontal-thumbnail-card-7{align-self:stretch;height:98px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:8px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__horizontal-thumbnail-card-8{align-self:stretch;height:98px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:8px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__horizontal-thumbnail-card-9{align-self:stretch;height:98px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:8px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__horizontal-thumbnail-card-10{align-self:stretch;height:98px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:8px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__horizontal-thumbnail-card-11{align-self:stretch;height:98px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:8px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-photos-block__show-more-photos-affordance-3{align-self:stretch;height:136.7px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;padding:0px 0px 40px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+</style></head>
+<body>
+<!-- Structural skeleton generated from Figma auto-layout. Instances are dashed placeholders; open the referenced file to render them. -->
+<section class="skel-variant" data-variant="Device=Mobile">
+  <h1>Photos Block · Device=Mobile · 438×1124.7</h1>
+  <div class="skel-stage">
+    <div class="mng-photos-block__device-mobile" data-layer="Device=Mobile">
+      <div class="mng-photos-block__news-content" data-layer="News Content">
+        <div class="mng-photos-block__c-3col-header" data-layer="3Col Header">
+          <!-- instance of "Section Title / Eyebrow" → homepage/components/06-section-title-eyebrow/section-title-eyebrow.html -->
+          <div class="mng-photos-block__section-title-eyebrow" data-component="Section Title / Eyebrow" data-variant="Style=Underline" data-label="Section Title / Eyebrow">Section Title / Eyebrow · Style=Underline</div>
+        </div>
+        <div class="mng-photos-block__section-block" data-layer="Section Block">
+          <div class="mng-photos-block__c-1col-article-card-master-detached-imag" data-layer="1Col Article Card (master, detached — image FILL-width fixed + resized to match production 16:9)">
+            <figure class="mng-photos-block__article-graphic" data-component="Article Image Placeholder" data-variant="{}"><!-- image slot 16:9 (438×246) — see homepage/components/03-article-image-placeholder/article-image-placeholder.html --></figure>
+            <!-- instance of "Article Status Badge" → homepage/components/01-article-status-badge/article-status-badge.html -->
+            <div class="mng-photos-block__subsonlybadge" data-component="Article Status Badge" data-variant="Type=Subscriber" data-label="SubsOnlyBadge" hidden>Article Status Badge · Type=Subscriber</div>
+            <div class="mng-photos-block__headline-container" data-layer="Headline Container">
+              <h3 class="mng-photos-block__article-headline-on-news-paper-homepage-">Featured Headline on News paper homepage in Photo Block section block</h3>
+            </div>
+            <div class="mng-photos-block__excerpt-container" data-layer="Excerpt Container">
+              <p class="mng-photos-block__vanroy-evan-smith-39-of-long-beach-is-be">Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail. This could be a few lines long if theyz is feelin’ inclined.</p>
+            </div>
+            <div class="mng-photos-block__meta-container" data-layer="Meta Container" hidden>
+              <span class="mng-photos-block__c-56-mins-ago">56 mins ago</span>
+            </div>
+            <div class="mng-photos-block__bottom-border-line" data-layer="Bottom Border Line"></div>
+          </div>
+          <div class="mng-photos-block__additional-articles" data-layer="Additional Articles">
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-photos-block__horizontal-thumbnail-card" data-component="Horizontal Thumbnail Card" data-variant="Device=Mobile" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Mobile</div>
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-photos-block__horizontal-thumbnail-card-2" data-component="Horizontal Thumbnail Card" data-variant="Device=Mobile" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Mobile</div>
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-photos-block__horizontal-thumbnail-card-3" data-component="Horizontal Thumbnail Card" data-variant="Device=Mobile" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Mobile</div>
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-photos-block__horizontal-thumbnail-card-4" data-component="Horizontal Thumbnail Card" data-variant="Device=Mobile" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Mobile</div>
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-photos-block__horizontal-thumbnail-card-5" data-component="Horizontal Thumbnail Card" data-variant="Device=Mobile" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Mobile</div>
+          </div>
+        </div>
+        <!-- instance of "Show More Photos Affordance" → homepage/components/21-show-more-photos-affordance/show-more-photos-affordance.html -->
+        <div class="mng-photos-block__show-more-photos-affordance" data-component="Show More Photos Affordance" data-variant="" data-label="Show More Photos Affordance">Show More Photos Affordance</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=Tablet">
+  <h1>Photos Block · Device=Tablet · 748×1040.7</h1>
+  <div class="skel-stage">
+    <div class="mng-photos-block__device-tablet" data-layer="Device=Tablet">
+      <div class="mng-photos-block__news-content-2" data-layer="News Content">
+        <div class="mng-photos-block__c-3col-header-2" data-layer="3Col Header">
+          <!-- instance of "Section Title / Eyebrow" → homepage/components/06-section-title-eyebrow/section-title-eyebrow.html -->
+          <div class="mng-photos-block__section-title-eyebrow-2" data-component="Section Title / Eyebrow" data-variant="Style=Underline" data-label="Section Title / Eyebrow">Section Title / Eyebrow · Style=Underline</div>
+        </div>
+        <div class="mng-photos-block__section-block-2" data-layer="Section Block">
+          <div class="mng-photos-block__c-1col-article-card-tablet-detached-imag" data-layer="1Col Article Card (Tablet, detached — image resized to match production 16:9)">
+            <figure class="mng-photos-block__article-graphic-2" data-component="Article Image Placeholder" data-variant="{}"><!-- image slot 16:9 (748×421) — see homepage/components/03-article-image-placeholder/article-image-placeholder.html --></figure>
+            <!-- instance of "Article Status Badge" → homepage/components/01-article-status-badge/article-status-badge.html -->
+            <div class="mng-photos-block__subsonlybadge-2" data-component="Article Status Badge" data-variant="Type=Subscriber" data-label="SubsOnlyBadge" hidden>Article Status Badge · Type=Subscriber</div>
+            <div class="mng-photos-block__headline-container-2" data-layer="Headline Container">
+              <h3 class="mng-photos-block__article-headline-on-news-paper-homepage--2">Featured Headline on News paper homepage in Photo Block section block</h3>
+            </div>
+            <div class="mng-photos-block__excerpt-container-2" data-layer="Excerpt Container">
+              <p class="mng-photos-block__vanroy-evan-smith-39-of-long-beach-is-be-2">Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail. This could be a few lines long if theyz is feelin’ inclined.</p>
+            </div>
+            <div class="mng-photos-block__meta-container-2" data-layer="Meta Container" hidden>
+              <span class="mng-photos-block__c-56-mins-ago-2">56 mins ago</span>
+            </div>
+            <div class="mng-photos-block__bottom-border-line-2" data-layer="Bottom Border Line"></div>
+          </div>
+          <div class="mng-photos-block__additional-articles-grid-tablet" data-layer="Additional Articles Grid TABLET">
+            <div class="mng-photos-block__row-1" data-layer="Row 1">
+              <div class="mng-photos-block__horizontal-thumbnail-card-tablet-photos-" data-layer="Horizontal Thumbnail Card (Tablet, Photos-768, detached — resized 364x67 to match production)">
+                <div class="mng-photos-block__content" data-layer="Content">
+                  <div class="mng-photos-block__image-container" data-layer="Image Container">
+                    <figure class="mng-photos-block__article-image-placeholder" data-component="Article Image Placeholder" data-variant="{}"><!-- image slot 16:9 (90×51) — see homepage/components/03-article-image-placeholder/article-image-placeholder.html --></figure>
+                    <!-- instance of "Gallery Icon Badge" → homepage/components/10-gallery-icon-badge/gallery-icon-badge.html -->
+                    <div class="mng-photos-block__gallery-icon-badge" data-component="Gallery Icon Badge" data-variant="" data-label="Gallery Icon Badge">Gallery Icon Badge</div>
+                  </div>
+                  <div class="mng-photos-block__headline" data-layer="Headline">
+                    <h3 class="mng-photos-block__article-headline-on-news-paper-homepage--3">Article Headline on News paper homepage in thumbnail list position</h3>
+                  </div>
+                </div>
+                <div class="mng-photos-block__line-1" data-layer="Line 1"></div>
+              </div>
+              <div class="mng-photos-block__horizontal-thumbnail-card-tablet-photos--2" data-layer="Horizontal Thumbnail Card (Tablet, Photos-768, detached — resized 364x67 to match production)">
+                <div class="mng-photos-block__content-2" data-layer="Content">
+                  <div class="mng-photos-block__image-container-2" data-layer="Image Container">
+                    <figure class="mng-photos-block__article-image-placeholder-2" data-component="Article Image Placeholder" data-variant="{}"><!-- image slot 16:9 (90×51) — see homepage/components/03-article-image-placeholder/article-image-placeholder.html --></figure>
+                    <!-- instance of "Gallery Icon Badge" → homepage/components/10-gallery-icon-badge/gallery-icon-badge.html -->
+                    <div class="mng-photos-block__gallery-icon-badge-2" data-component="Gallery Icon Badge" data-variant="" data-label="Gallery Icon Badge">Gallery Icon Badge</div>
+                  </div>
+                  <div class="mng-photos-block__headline-2" data-layer="Headline">
+                    <h3 class="mng-photos-block__article-headline-on-news-paper-homepage--4">Article Headline on News paper homepage in thumbnail list position</h3>
+                  </div>
+                </div>
+                <div class="mng-photos-block__line-1-2" data-layer="Line 1"></div>
+              </div>
+            </div>
+            <div class="mng-photos-block__row-2" data-layer="Row 2">
+              <div class="mng-photos-block__horizontal-thumbnail-card-tablet-photos--3" data-layer="Horizontal Thumbnail Card (Tablet, Photos-768, detached — resized 364x67 to match production)">
+                <div class="mng-photos-block__content-3" data-layer="Content">
+                  <div class="mng-photos-block__image-container-3" data-layer="Image Container">
+                    <figure class="mng-photos-block__article-image-placeholder-3" data-component="Article Image Placeholder" data-variant="{}"><!-- image slot 16:9 (90×51) — see homepage/components/03-article-image-placeholder/article-image-placeholder.html --></figure>
+                    <!-- instance of "Gallery Icon Badge" → homepage/components/10-gallery-icon-badge/gallery-icon-badge.html -->
+                    <div class="mng-photos-block__gallery-icon-badge-3" data-component="Gallery Icon Badge" data-variant="" data-label="Gallery Icon Badge">Gallery Icon Badge</div>
+                  </div>
+                  <div class="mng-photos-block__headline-3" data-layer="Headline">
+                    <h3 class="mng-photos-block__article-headline-on-news-paper-homepage--5">Article Headline on News paper homepage in thumbnail list position</h3>
+                  </div>
+                </div>
+                <div class="mng-photos-block__line-1-3" data-layer="Line 1"></div>
+              </div>
+              <div class="mng-photos-block__horizontal-thumbnail-card-tablet-photos--4" data-layer="Horizontal Thumbnail Card (Tablet, Photos-768, detached — resized 364x67 to match production)">
+                <div class="mng-photos-block__content-4" data-layer="Content">
+                  <div class="mng-photos-block__image-container-4" data-layer="Image Container">
+                    <figure class="mng-photos-block__article-image-placeholder-4" data-component="Article Image Placeholder" data-variant="{}"><!-- image slot 16:9 (90×51) — see homepage/components/03-article-image-placeholder/article-image-placeholder.html --></figure>
+                    <!-- instance of "Gallery Icon Badge" → homepage/components/10-gallery-icon-badge/gallery-icon-badge.html -->
+                    <div class="mng-photos-block__gallery-icon-badge-4" data-component="Gallery Icon Badge" data-variant="" data-label="Gallery Icon Badge">Gallery Icon Badge</div>
+                  </div>
+                  <div class="mng-photos-block__headline-4" data-layer="Headline">
+                    <h3 class="mng-photos-block__article-headline-on-news-paper-homepage--6">Article Headline on News paper homepage in thumbnail list position</h3>
+                  </div>
+                </div>
+                <div class="mng-photos-block__line-1-4" data-layer="Line 1"></div>
+              </div>
+            </div>
+            <div class="mng-photos-block__row-3" data-layer="Row 3">
+              <div class="mng-photos-block__horizontal-thumbnail-card-tablet-photos--5" data-layer="Horizontal Thumbnail Card (Tablet, Photos-768, detached — resized 364x67 to match production)">
+                <div class="mng-photos-block__content-5" data-layer="Content">
+                  <div class="mng-photos-block__image-container-5" data-layer="Image Container">
+                    <figure class="mng-photos-block__article-image-placeholder-5" data-component="Article Image Placeholder" data-variant="{}"><!-- image slot 16:9 (90×51) — see homepage/components/03-article-image-placeholder/article-image-placeholder.html --></figure>
+                    <!-- instance of "Gallery Icon Badge" → homepage/components/10-gallery-icon-badge/gallery-icon-badge.html -->
+                    <div class="mng-photos-block__gallery-icon-badge-5" data-component="Gallery Icon Badge" data-variant="" data-label="Gallery Icon Badge">Gallery Icon Badge</div>
+                  </div>
+                  <div class="mng-photos-block__headline-5" data-layer="Headline">
+                    <h3 class="mng-photos-block__article-headline-on-news-paper-homepage--7">Article Headline on News paper homepage in thumbnail list position</h3>
+                  </div>
+                </div>
+                <div class="mng-photos-block__line-1-5" data-layer="Line 1"></div>
+              </div>
+              <div class="mng-photos-block__horizontal-thumbnail-card-tablet-photos--6" data-layer="Horizontal Thumbnail Card (Tablet, Photos-768, detached — resized 364x67 to match production)">
+                <div class="mng-photos-block__content-6" data-layer="Content">
+                  <div class="mng-photos-block__image-container-6" data-layer="Image Container">
+                    <figure class="mng-photos-block__article-image-placeholder-6" data-component="Article Image Placeholder" data-variant="{}"><!-- image slot 16:9 (90×51) — see homepage/components/03-article-image-placeholder/article-image-placeholder.html --></figure>
+                    <!-- instance of "Gallery Icon Badge" → homepage/components/10-gallery-icon-badge/gallery-icon-badge.html -->
+                    <div class="mng-photos-block__gallery-icon-badge-6" data-component="Gallery Icon Badge" data-variant="" data-label="Gallery Icon Badge">Gallery Icon Badge</div>
+                  </div>
+                  <div class="mng-photos-block__headline-6" data-layer="Headline">
+                    <h3 class="mng-photos-block__article-headline-on-news-paper-homepage--8">Article Headline on News paper homepage in thumbnail list position</h3>
+                  </div>
+                </div>
+                <div class="mng-photos-block__line-1-6" data-layer="Line 1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- instance of "Show More Photos Affordance" → homepage/components/21-show-more-photos-affordance/show-more-photos-affordance.html -->
+        <div class="mng-photos-block__show-more-photos-affordance-2" data-component="Show More Photos Affordance" data-variant="" data-label="Show More Photos Affordance">Show More Photos Affordance</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=Desktop">
+  <h1>Photos Block · Device=Desktop · 1280×886.7</h1>
+  <div class="skel-stage">
+    <div class="mng-photos-block__device-desktop" data-layer="Device=Desktop">
+      <div class="mng-photos-block__news-content-3" data-layer="News Content">
+        <div class="mng-photos-block__c-3col-header-3" data-layer="3Col Header">
+          <!-- instance of "Section Title / Eyebrow" → homepage/components/06-section-title-eyebrow/section-title-eyebrow.html -->
+          <div class="mng-photos-block__section-title-eyebrow-3" data-component="Section Title / Eyebrow" data-variant="Style=Underline" data-label="Section Title / Eyebrow">Section Title / Eyebrow · Style=Underline</div>
+        </div>
+        <div class="mng-photos-block__section-block-3" data-layer="Section Block">
+          <!-- instance of "1Col Article Card" → homepage/components/16-1col-article-card/1col-article-card.html -->
+          <div class="mng-photos-block__c-1col-article-card" data-component="1Col Article Card" data-variant="" data-label="1Col Article Card">1Col Article Card</div>
+          <div class="mng-photos-block__additional-articles-2" data-layer="Additional Articles">
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-photos-block__horizontal-thumbnail-card-6" data-component="Horizontal Thumbnail Card" data-variant="Device=Desktop" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Desktop</div>
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-photos-block__horizontal-thumbnail-card-7" data-component="Horizontal Thumbnail Card" data-variant="Device=Desktop" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Desktop</div>
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-photos-block__horizontal-thumbnail-card-8" data-component="Horizontal Thumbnail Card" data-variant="Device=Desktop" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Desktop</div>
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-photos-block__horizontal-thumbnail-card-9" data-component="Horizontal Thumbnail Card" data-variant="Device=Desktop" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Desktop</div>
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-photos-block__horizontal-thumbnail-card-10" data-component="Horizontal Thumbnail Card" data-variant="Device=Desktop" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Desktop</div>
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-photos-block__horizontal-thumbnail-card-11" data-component="Horizontal Thumbnail Card" data-variant="Device=Desktop" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Desktop</div>
+          </div>
+        </div>
+        <!-- instance of "Show More Photos Affordance" → homepage/components/21-show-more-photos-affordance/show-more-photos-affordance.html -->
+        <div class="mng-photos-block__show-more-photos-affordance-3" data-component="Show More Photos Affordance" data-variant="" data-label="Show More Photos Affordance">Show More Photos Affordance</div>
+      </div>
+    </div>
+  </div>
+</section>
+</body></html>

@@ -1,0 +1,1123 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Horizontal Thumbnail Card",
+ "slug": "horizontal-thumbnail-card",
+ "order": 11,
+ "typeLabel": "Component · 3 variants",
+ "description": "New atom (2026-09-09) — Device=Desktop/Mobile. Compact horizontal row: small fixed-size thumbnail image (left, with optional Gallery Icon Badge) + fill-width headline (right), no excerpt. Replaces 1Col Article Card in Photos Block's secondary list on both Desktop and Mobile — the old full stacked-card shape (image full-width above headline) didn't match production's compact list pattern, confirmed across all 6 repertoire sites. Boolean prop: Show Gallery Icon.",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3362:2992",
+  "mainKey": "c64c9a57e8074d5ae0481728bc08aa3f8c828174",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3362-2992",
+  "variants": [
+   {
+    "label": "Device=Desktop",
+    "id": "3362:2990",
+    "key": "237ce2a3cd413acd157af50d2841f5d653ffa57f",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3362-2990"
+   },
+   {
+    "label": "Device=Mobile",
+    "id": "3362:2991",
+    "key": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3362-2991"
+   },
+   {
+    "label": "Device=Tablet",
+    "id": "3383:46153",
+    "key": "f15a17172416b1f111128ab63180ea29f8a8bcd4",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46153"
+   }
+  ]
+ },
+ "properties": {
+  "Show Gallery Icon#3362:0": {
+   "type": "BOOLEAN",
+   "default": true
+  },
+  "Device": {
+   "type": "VARIANT",
+   "default": "Mobile",
+   "options": [
+    "Desktop",
+    "Mobile",
+    "Tablet"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "340 HomePage",
+   "768 HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "TOP ZONE Block",
+   "Photos Block"
+  ],
+  "perVariant": [
+   {
+    "label": "Device=Desktop",
+    "id": "3362:2990",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {
+     "Photos Block / Device=Desktop": 6
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "observedBreakpoints": [],
+    "breakpoints": [
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Device=Mobile",
+    "id": "3362:2991",
+    "templatesDirect": {
+     "340 HomePage": 5,
+     "Mobile HomePage": 5
+    },
+    "templatesVia": {},
+    "nestedIn": {
+     "Photos Block / Device=Mobile": 5
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "340",
+     "360"
+    ],
+    "observedBreakpoints": [
+     "340",
+     "360"
+    ],
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   },
+   {
+    "label": "Device=Tablet",
+    "id": "3383:46153",
+    "templatesDirect": {
+     "768 HomePage": 4
+    },
+    "templatesVia": {
+     "768 HomePage": [
+      "TOP ZONE Block"
+     ]
+    },
+    "nestedIn": {
+     "TOP ZONE Block / Device=Tablet": 4
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "768"
+    ],
+    "observedBreakpoints": [
+     "768"
+    ],
+    "breakpoints": [
+     "768"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Article Image Placeholder",
+    "count": 3,
+    "inExport": true,
+    "section": "Article Image Placeholder",
+    "path": "../03-article-image-placeholder/article-image-placeholder.md"
+   },
+   {
+    "name": "Gallery Icon Badge",
+    "count": 3,
+    "inExport": true,
+    "section": "Gallery Icon Badge",
+    "path": "../10-gallery-icon-badge/gallery-icon-badge.md"
+   }
+  ],
+  "builtInto": [
+   {
+    "name": "TOP ZONE Block",
+    "path": "../../assemblies/12-top-zone-block/top-zone-block.md"
+   },
+   {
+    "name": "Photos Block",
+    "path": "../../assemblies/22-photos-block/photos-block.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Device=Desktop",
+   "variantProperties": {
+    "Device": "Desktop"
+   },
+   "id": "3362:2990",
+   "key": "237ce2a3cd413acd157af50d2841f5d653ffa57f",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3362-2990",
+   "width": 336,
+   "height": 98,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     8,
+     0,
+     8,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/horizontal-thumbnail-card--desktop.png",
+   "breakpoints": [
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Device=Desktop",
+    "type": "COMPONENT",
+    "id": "3362:2990",
+    "w": 336,
+    "h": 98,
+    "x": 742,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      8,
+      0,
+      8,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "clip": true,
+    "children": [
+     {
+      "name": "Content",
+      "type": "FRAME",
+      "id": "3362:2961",
+      "w": 336,
+      "h": 74,
+      "x": 0,
+      "y": 8,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 12,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Image Container",
+        "type": "FRAME",
+        "id": "3362:2962",
+        "w": 110,
+        "h": 74,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "children": [
+         {
+          "name": "Article Image Placeholder",
+          "type": "INSTANCE",
+          "id": "3362:2963",
+          "w": 110,
+          "h": 74,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#E1A1FF"
+           }
+          ],
+          "strokes": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ],
+          "strokeWeight": 2,
+          "strokeAlign": "INSIDE",
+          "component": "Article Image Placeholder",
+          "componentKey": "682588ec19d35ed6a03e5a8e45b70e5fbc16d7cf",
+          "mainId": "3334:42380"
+         },
+         {
+          "name": "Gallery Icon Badge",
+          "type": "INSTANCE",
+          "id": "3362:2969",
+          "w": 28,
+          "h": 28,
+          "x": 76,
+          "y": 40,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 0,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "radius": 14,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#000000",
+            "opacity": 0.55
+           }
+          ],
+          "component": "Gallery Icon Badge",
+          "componentKey": "0a14bf42a7c1ff5db7aea4dedb38ebea41c76862",
+          "mainId": "3362:2959"
+         }
+        ]
+       },
+       {
+        "name": "Headline",
+        "type": "FRAME",
+        "id": "3362:2972",
+        "w": 214,
+        "h": 66,
+        "x": 122,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Article Headline on News paper homepage in thumbnail list position",
+          "type": "TEXT",
+          "id": "3362:2973",
+          "w": 214,
+          "h": 66,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Article Headline on News paper homepage in thumbnail list position",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Serif",
+            "weight": "Bold",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Line 1",
+      "type": "LINE",
+      "id": "3362:2974",
+      "w": 336,
+      "h": 0,
+      "x": 0,
+      "y": 90,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#D7D6D2"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER"
+     }
+    ],
+    "key": "237ce2a3cd413acd157af50d2841f5d653ffa57f",
+    "variantProperties": {
+     "Device": "Desktop"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=Mobile",
+   "variantProperties": {
+    "Device": "Mobile"
+   },
+   "id": "3362:2991",
+   "key": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3362-2991",
+   "width": 336,
+   "height": 67,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 4,
+    "pad": [
+     6,
+     0,
+     6,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/horizontal-thumbnail-card--mobile.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Device=Mobile",
+    "type": "COMPONENT",
+    "id": "3362:2991",
+    "w": 336,
+    "h": 67,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 4,
+     "pad": [
+      6,
+      0,
+      6,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "clip": true,
+    "children": [
+     {
+      "name": "Content",
+      "type": "FRAME",
+      "id": "3362:2976",
+      "w": 336,
+      "h": 51,
+      "x": 0,
+      "y": 6,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 15,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Image Container",
+        "type": "FRAME",
+        "id": "3362:2977",
+        "w": 90,
+        "h": 51,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "children": [
+         {
+          "name": "Article Image Placeholder",
+          "type": "INSTANCE",
+          "id": "3362:2978",
+          "w": 90,
+          "h": 51,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#E1A1FF"
+           }
+          ],
+          "strokes": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ],
+          "strokeWeight": 2,
+          "strokeAlign": "INSIDE",
+          "component": "Article Image Placeholder",
+          "componentKey": "682588ec19d35ed6a03e5a8e45b70e5fbc16d7cf",
+          "mainId": "3334:42380"
+         },
+         {
+          "name": "Gallery Icon Badge",
+          "type": "INSTANCE",
+          "id": "3362:2984",
+          "w": 28,
+          "h": 28,
+          "x": 56,
+          "y": 26,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 0,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "radius": 14,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#000000",
+            "opacity": 0.55
+           }
+          ],
+          "component": "Gallery Icon Badge",
+          "componentKey": "0a14bf42a7c1ff5db7aea4dedb38ebea41c76862",
+          "mainId": "3362:2959"
+         }
+        ]
+       },
+       {
+        "name": "Headline",
+        "type": "FRAME",
+        "id": "3362:2987",
+        "w": 231,
+        "h": 51,
+        "x": 105,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Article Headline on News paper homepage in thumbnail list position",
+          "type": "TEXT",
+          "id": "3362:2988",
+          "w": 231,
+          "h": 51,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "FIXED"
+          },
+          "text": "Article Headline on News paper homepage in thumbnail list position",
+          "autoResize": "TRUNCATE",
+          "align": "LEFT",
+          "truncate": true,
+          "maxLines": null,
+          "styles": [
+           {
+            "font": "Noto Serif",
+            "weight": "Bold",
+            "size": 15,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Line 1",
+      "type": "LINE",
+      "id": "3362:2989",
+      "w": 336,
+      "h": 0,
+      "x": 0,
+      "y": 61,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#D7D6D2"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER"
+     }
+    ],
+    "key": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+    "variantProperties": {
+     "Device": "Mobile"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=Tablet",
+   "variantProperties": {
+    "Device": "Tablet"
+   },
+   "id": "3383:46153",
+   "key": "f15a17172416b1f111128ab63180ea29f8a8bcd4",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46153",
+   "width": 358,
+   "height": 84,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     8,
+     0,
+     8,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/horizontal-thumbnail-card--tablet.png",
+   "breakpoints": [
+    "768"
+   ],
+   "layerTree": {
+    "name": "Device=Tablet",
+    "type": "COMPONENT",
+    "id": "3383:46153",
+    "w": 358,
+    "h": 84,
+    "x": 368,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      8,
+      0,
+      8,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "clip": true,
+    "children": [
+     {
+      "name": "Content",
+      "type": "FRAME",
+      "id": "3383:46154",
+      "w": 358,
+      "h": 60,
+      "x": 0,
+      "y": 8,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 12,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Image Container",
+        "type": "FRAME",
+        "id": "3383:46155",
+        "w": 90,
+        "h": 60,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "children": [
+         {
+          "name": "Article Image Placeholder",
+          "type": "INSTANCE",
+          "id": "3383:46156",
+          "w": 90,
+          "h": 60,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#E1A1FF"
+           }
+          ],
+          "strokes": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ],
+          "strokeWeight": 2,
+          "strokeAlign": "INSIDE",
+          "component": "Article Image Placeholder",
+          "componentKey": "682588ec19d35ed6a03e5a8e45b70e5fbc16d7cf",
+          "mainId": "3334:42380"
+         },
+         {
+          "name": "Gallery Icon Badge",
+          "type": "INSTANCE",
+          "id": "3383:46157",
+          "w": 28,
+          "h": 28,
+          "x": 56,
+          "y": 26,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 0,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "radius": 14,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#000000",
+            "opacity": 0.55
+           }
+          ],
+          "component": "Gallery Icon Badge",
+          "componentKey": "0a14bf42a7c1ff5db7aea4dedb38ebea41c76862",
+          "mainId": "3362:2959"
+         }
+        ]
+       },
+       {
+        "name": "Headline",
+        "type": "FRAME",
+        "id": "3383:46158",
+        "w": 256,
+        "h": 60,
+        "x": 102,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Article Headline on News paper homepage in thumbnail list position",
+          "type": "TEXT",
+          "id": "3383:46159",
+          "w": 256,
+          "h": 60,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Article Headline on News paper homepage in thumbnail list position",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Serif",
+            "weight": "Bold",
+            "size": 15,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Line 1",
+      "type": "LINE",
+      "id": "3383:46160",
+      "w": 358,
+      "h": 0,
+      "x": 0,
+      "y": 76,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#D7D6D2"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER"
+     }
+    ],
+    "key": "f15a17172416b1f111128ab63180ea29f8a8bcd4",
+    "variantProperties": {
+     "Device": "Tablet"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Article Headline on News paper homepage in thumbnail list position",
+   "font": "Noto Serif",
+   "weight": "Bold",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Article Headline on News paper homepage in thumbna",
+   "variants": [
+    "Device=Desktop"
+   ]
+  },
+  {
+   "layer": "Article Headline on News paper homepage in thumbnail list position",
+   "font": "Noto Serif",
+   "weight": "Bold",
+   "size": 15,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Article Headline on News paper homepage in thumbna",
+   "variants": [
+    "Device=Mobile",
+    "Device=Tablet"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Line 1",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#D7D6D2",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  }
+ ],
+ "imageRatios": [
+  {
+   "layer": "Article Image Placeholder",
+   "w": 110,
+   "h": 74,
+   "ratio": "3:2",
+   "source": "Article Image Placeholder",
+   "variant": "Device=Desktop"
+  },
+  {
+   "layer": "Article Image Placeholder",
+   "w": 90,
+   "h": 51,
+   "ratio": "16:9",
+   "source": "Article Image Placeholder",
+   "variant": "Device=Mobile"
+  },
+  {
+   "layer": "Article Image Placeholder",
+   "w": 90,
+   "h": 60,
+   "ratio": "3:2",
+   "source": "Article Image Placeholder",
+   "variant": "Device=Tablet"
+  }
+ ],
+ "adSlots": [],
+ "responsiveRules": [
+  "Device=Desktop: 336×98, vertical gap 8 pad 8/0/8/0 main MIN cross MIN — renders at 1024, 1100, 1280",
+  "Device=Mobile: 336×67, vertical gap 4 pad 6/0/6/0 main MIN cross MIN — renders at 340, 360",
+  "Device=Tablet: 358×84, vertical gap 8 pad 8/0/8/0 main MIN cross MIN — renders at 768"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "3 solid paints are hard-coded (not bound to a color variable): #D7D6D2 ×3."
+ ],
+ "skeleton": "horizontal-thumbnail-card.html",
+ "exported": "2026-09-24"
+}

@@ -1,0 +1,707 @@
+{
+ "schema": "mng-design-system/component-spec@1",
+ "kind": "component",
+ "name": "Non-Button Hyperlink",
+ "slug": "non-button-hyperlink",
+ "order": 8,
+ "figmaSetName": "nonButton Hyperlink",
+ "description": "Plain in-text hyperlink (not a button). Brand-primary text with a 1px bottom border: dashed at rest, solid on Hover/Pressed, 2px teal box on InFocus.",
+ "componentDescription": null,
+ "specText": "Non-Button Hyperlink | Last Updated: 2026.09.30 | Components | UPDATED: 2026.09.30 | Non-Button Hyperlink | Updated: 2026.09.30 | Default | Hover | Pressed | InFocus | Non-Button Hyperlink | Default — dashed teal underline (subtle at normal reading size); cursor is a plain pointer, not yet over the link. | Hover — underline becomes solid teal; cursor changes to a hand pointer, confirming it reads as interactive. | Non-Button Hyperlink | Updated: 2026.09.30 | ...hyperlink text... | Non-Button Hyperlink\n\nSize: hugs to its text content — no fixed box, no padding chrome\n\nText: Noto Sans Regular 16.5px\n\nText Color: color/theme/primary / #007580 in every state — does not shift\n\nUnderline: not text-decoration — implemented as a bottom border instead. Default: 1px dashed teal (very subtle at normal size, reads as almost invisible). Hover: 1px solid teal. Pressed: matches Hover exactly (1px solid teal). InFocus: adds a 2px solid teal box border, corner radius 4px, around the whole link\n\nInFocus also still carries the inner 1px dashed teal underline nested inside the box border (visible as a slightly heavier bottom edge) — likely a leftover from how Default's structure was reused rather than an intentional double-border. Flagging rather than cleaning it up silently.\n\nFocus ring color: teal (color/theme/primary), not the black focus ring used on every other button family — worth confirming this is intentional for plain text links. | States | Updated: 2026.09.30 | ...hyperlink text... | Default — resting appearance. Teal text with a barely-visible 1px dashed teal underline. | ...hyperlink text... | Hover — the underline becomes a solid 1px teal line. | ...hyperlink text... | Pressed — matches Hover exactly (solid 1px teal underline). No separate pressed-only styling. | ...hyperlink text... | InFocus — adds a 2px solid teal box border (4px corner radius) around the whole link, plus still shows the inner dashed underline nested inside it. Appears on keyboard (Tab) focus for accessibility.",
+ "figma": {
+  "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+  "fileName": "MNG Design System",
+  "page": "Buttons | 2026.09.30",
+  "mainId": "6282:5568",
+  "mainKey": "121a469eea7d108efe028d82b734c60ffbbf6aab",
+  "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6282-5568",
+  "documentationFrame": "7078:8121",
+  "documentationUrl": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7078-8121",
+  "variants": [
+   {
+    "label": "Default",
+    "id": "6282:5569",
+    "key": "fd7b8e9029b1b15a43dc880cb99efd32bc6e9712",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6282-5569"
+   },
+   {
+    "label": "Hover",
+    "id": "6282:5577",
+    "key": "e139df490024aa2a92a3bc033b2ddae0c5e83b0b",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6282-5577"
+   },
+   {
+    "label": "InFocus",
+    "id": "6282:5585",
+    "key": "ad4861554ebf254ba3a1ad8a07d392250724f038",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6282-5585"
+   },
+   {
+    "label": "Pressed",
+    "id": "7078:7681",
+    "key": "e95a7c55f26a3e40747bcf5f1a1ba68043776e3c",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7078-7681"
+   }
+  ]
+ },
+ "properties": {
+  "state": {
+   "type": "VARIANT",
+   "default": "Default",
+   "options": [
+    "Default",
+    "Hover",
+    "InFocus",
+    "Pressed"
+   ]
+  }
+ },
+ "breakpoints": [
+  "all (single size)"
+ ],
+ "usage": {
+  "totalInstances": 8,
+  "builtInto": {
+   "InLineMessage": 3
+  },
+  "pages": {},
+  "perVariant": [
+   {
+    "label": "Default",
+    "total": 4,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {
+     "InLineMessage / Device=Menus, Priority=High, Location=Registration, PanelType=Alert": 3
+    },
+    "otherPages": {}
+   },
+   {
+    "label": "Hover",
+    "total": 2,
+    "documentationFrames": 2,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "InFocus",
+    "total": 1,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   {
+    "label": "Pressed",
+    "total": 1,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   }
+  ],
+  "scope": "Local instances in the MNG Design System file only. Instances in other files that use the published library (WordPress Elements, Reader Dashboard v2.0) are not counted."
+ },
+ "dependencies": [],
+ "iconsUsed": {},
+ "variants": [
+  {
+   "label": "Default",
+   "variantProperties": {
+    "state": "Default"
+   },
+   "id": "6282:5569",
+   "key": "fd7b8e9029b1b15a43dc880cb99efd32bc6e9712",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6282-5569",
+   "width": 133,
+   "height": 23,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": [
+    {
+     "type": "SOLID",
+     "hex": "#007580",
+     "variable": "Colors/color/theme/primary"
+    }
+   ],
+   "radius": null,
+   "preview": "previews/non-button-hyperlink--default.png",
+   "breakpoints": [
+    "all"
+   ],
+   "usage": {
+    "total": 4,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {
+     "InLineMessage / Device=Menus, Priority=High, Location=Registration, PanelType=Alert": 3
+    },
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "state=Default",
+    "type": "COMPONENT",
+    "id": "6282:5569",
+    "w": 133,
+    "h": 23,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "strokes": [
+     {
+      "type": "SOLID",
+      "hex": "#007580",
+      "variable": "Colors/color/theme/primary"
+     }
+    ],
+    "strokeWeight": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "strokeAlign": "CENTER",
+    "dash": [
+     1,
+     1
+    ],
+    "children": [
+     {
+      "name": "...hyperlink text...",
+      "type": "TEXT",
+      "id": "6282:5571",
+      "w": 133,
+      "h": 22,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "...hyperlink text...",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "RIGHT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 16.5,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#007580",
+          "variable": "Colors/color/theme/primary"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "fd7b8e9029b1b15a43dc880cb99efd32bc6e9712",
+    "variantProperties": {
+     "state": "Default"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Hover",
+   "variantProperties": {
+    "state": "Hover"
+   },
+   "id": "6282:5577",
+   "key": "e139df490024aa2a92a3bc033b2ddae0c5e83b0b",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6282-5577",
+   "width": 133,
+   "height": 23,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": [
+    {
+     "type": "SOLID",
+     "hex": "#007580",
+     "variable": "Colors/color/theme/primary"
+    }
+   ],
+   "radius": null,
+   "preview": "previews/non-button-hyperlink--hover.png",
+   "breakpoints": [
+    "all"
+   ],
+   "usage": {
+    "total": 2,
+    "documentationFrames": 2,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "state=Hover",
+    "type": "COMPONENT",
+    "id": "6282:5577",
+    "w": 133,
+    "h": 23,
+    "x": 16,
+    "y": 55,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "strokes": [
+     {
+      "type": "SOLID",
+      "hex": "#007580",
+      "variable": "Colors/color/theme/primary"
+     }
+    ],
+    "strokeWeight": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "strokeAlign": "CENTER",
+    "children": [
+     {
+      "name": "...hyperlink text...",
+      "type": "TEXT",
+      "id": "6282:5579",
+      "w": 133,
+      "h": 22,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "...hyperlink text...",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "RIGHT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 16.5,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#007580",
+          "variable": "Colors/color/theme/primary"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "e139df490024aa2a92a3bc033b2ddae0c5e83b0b",
+    "variantProperties": {
+     "state": "Hover"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "InFocus",
+   "variantProperties": {
+    "state": "InFocus"
+   },
+   "id": "6282:5585",
+   "key": "ad4861554ebf254ba3a1ad8a07d392250724f038",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6282-5585",
+   "width": 133,
+   "height": 25,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     2,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": [
+    {
+     "type": "SOLID",
+     "hex": "#007580",
+     "variable": "Colors/color/theme/primary"
+    }
+   ],
+   "radius": 4,
+   "preview": "previews/non-button-hyperlink--infocus.png",
+   "breakpoints": [
+    "all"
+   ],
+   "usage": {
+    "total": 1,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "state=InFocus",
+    "type": "COMPONENT",
+    "id": "6282:5585",
+    "w": 133,
+    "h": 25,
+    "x": 16,
+    "y": 133,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      2,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "radius": 4,
+    "strokes": [
+     {
+      "type": "SOLID",
+      "hex": "#007580",
+      "variable": "Colors/color/theme/primary"
+     }
+    ],
+    "strokeWeight": 2,
+    "strokeAlign": "CENTER",
+    "children": [
+     {
+      "name": "Frame 12966",
+      "type": "FRAME",
+      "id": "6282:5586",
+      "w": 133,
+      "h": 23,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        1,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#007580",
+        "variable": "Colors/color/theme/primary"
+       }
+      ],
+      "strokeWeight": [
+       0,
+       0,
+       1,
+       0
+      ],
+      "strokeAlign": "CENTER",
+      "dash": [
+       1,
+       1
+      ],
+      "children": [
+       {
+        "name": "...hyperlink text...",
+        "type": "TEXT",
+        "id": "6282:5588",
+        "w": 133,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "text": "...hyperlink text...",
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "align": "RIGHT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 16.5,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#007580",
+            "variable": "Colors/color/theme/primary"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "ad4861554ebf254ba3a1ad8a07d392250724f038",
+    "variantProperties": {
+     "state": "InFocus"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Pressed",
+   "variantProperties": {
+    "state": "Pressed"
+   },
+   "id": "7078:7681",
+   "key": "e95a7c55f26a3e40747bcf5f1a1ba68043776e3c",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7078-7681",
+   "width": 133,
+   "height": 23,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": [
+    {
+     "type": "SOLID",
+     "hex": "#007580",
+     "variable": "Colors/color/theme/primary"
+    }
+   ],
+   "radius": null,
+   "preview": "previews/non-button-hyperlink--pressed.png",
+   "breakpoints": [
+    "all"
+   ],
+   "usage": {
+    "total": 1,
+    "documentationFrames": 1,
+    "nestedInInstances": 0,
+    "inComponents": {},
+    "otherPages": {}
+   },
+   "layerTree": {
+    "name": "state=Pressed",
+    "type": "COMPONENT",
+    "id": "7078:7681",
+    "w": 133,
+    "h": 23,
+    "x": 16,
+    "y": 94,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "strokes": [
+     {
+      "type": "SOLID",
+      "hex": "#007580",
+      "variable": "Colors/color/theme/primary"
+     }
+    ],
+    "strokeWeight": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "strokeAlign": "CENTER",
+    "children": [
+     {
+      "name": "...hyperlink text...",
+      "type": "TEXT",
+      "id": "7078:7682",
+      "w": 133,
+      "h": 22,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "...hyperlink text...",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "RIGHT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 16.5,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#007580",
+          "variable": "Colors/color/theme/primary"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "e95a7c55f26a3e40747bcf5f1a1ba68043776e3c",
+    "variantProperties": {
+     "state": "Pressed"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 16.5,
+   "lineHeight": "auto",
+   "case": null,
+   "decoration": null,
+   "colorToken": "color/theme/primary",
+   "layers": [
+    "...hyperlink text..."
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "token": "color/theme/primary",
+   "hex": "#007580",
+   "usedAs": [
+    "stroke on Frame 12966",
+    "stroke on state=Default",
+    "stroke on state=Hover",
+    "stroke on state=InFocus",
+    "stroke on state=Pressed",
+    "text on ...hyperlink text..."
+   ]
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Hugs its text at every breakpoint. No Breakpoint property.",
+  "Implement the underline as `border-bottom`, not `text-decoration` (that is how Figma builds it)."
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "**Font size 16.5px** is off the type scale (every other family uses 16px or 12px). Likely should be `font/size/16`.",
+  "**Teal focus ring** (color/theme/primary) instead of the black ring every other family uses. Flagged in Figma as \"worth confirming\".",
+  "**InFocus keeps the dashed underline** inside the 2px box border, likely left over from copying Default. Flagged in Figma, not cleaned up.",
+  "**Text is right-aligned** in every variant (no effect when hugging, but it matters if the frame is stretched).",
+  "**Figma set name differs from the doc title**: the component set is `nonButton Hyperlink`.",
+  "**3 variants are placed only in their own documentation frame** (not yet used in any real layout): `Hover`, `InFocus`, `Pressed`."
+ ],
+ "skeleton": "non-button-hyperlink.html",
+ "paths": {
+  "md": "components/08-non-button-hyperlink/non-button-hyperlink.md",
+  "json": "components/08-non-button-hyperlink/non-button-hyperlink.json",
+  "html": "components/08-non-button-hyperlink/non-button-hyperlink.html",
+  "dir": "components/08-non-button-hyperlink/"
+ }
+}

@@ -1,0 +1,263 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Gallery Icon Badge",
+ "slug": "gallery-icon-badge",
+ "order": 10,
+ "typeLabel": "Component · Standalone",
+ "description": "Small dark circular badge (28x28) with a white gallery/slideshow icon, used as an optional overlay on the bottom-right corner of Article Image Placeholder instances to indicate multi-photo content. Used inside Horizontal Thumbnail Card, toggled by its \"Show Gallery Icon\" property.",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3362:2959",
+  "mainKey": "0a14bf42a7c1ff5db7aea4dedb38ebea41c76862",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3362-2959",
+  "variants": [
+   {
+    "label": "Gallery Icon Badge",
+    "id": "3362:2959",
+    "key": "0a14bf42a7c1ff5db7aea4dedb38ebea41c76862",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3362-2959"
+   }
+  ]
+ },
+ "properties": {},
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Horizontal Thumbnail Card",
+   "Photos Block"
+  ],
+  "perVariant": [
+   {
+    "label": "Gallery Icon Badge",
+    "id": "3362:2959",
+    "templatesDirect": {
+     "768 HomePage": 10,
+     "1100 HomePage": 6,
+     "Desktop HomePage": 6,
+     "1024 HomePage": 6,
+     "Mobile HomePage": 5,
+     "340 HomePage": 5
+    },
+    "templatesVia": {
+     "768 HomePage": [
+      "Horizontal Thumbnail Card",
+      "Photos Block",
+      "TOP ZONE Block"
+     ],
+     "340 HomePage": [
+      "Horizontal Thumbnail Card"
+     ],
+     "Mobile HomePage": [
+      "Horizontal Thumbnail Card"
+     ]
+    },
+    "nestedIn": {
+     "Photos Block / Device=Tablet": 6,
+     "TOP ZONE Block / Device=Tablet": 4,
+     "Photos Block / Device=Desktop": 6,
+     "Photos Block / Device=Mobile": 5,
+     "Horizontal Thumbnail Card / Device=Desktop": 1,
+     "Horizontal Thumbnail Card / Device=Mobile": 1,
+     "Horizontal Thumbnail Card / Device=Tablet": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Icons",
+    "count": 1,
+    "inExport": false,
+    "section": null,
+    "path": null
+   }
+  ],
+  "builtInto": [
+   {
+    "name": "Horizontal Thumbnail Card",
+    "path": "../11-horizontal-thumbnail-card/horizontal-thumbnail-card.md"
+   },
+   {
+    "name": "Photos Block",
+    "path": "../../assemblies/22-photos-block/photos-block.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Gallery Icon Badge",
+   "variantProperties": null,
+   "id": "3362:2959",
+   "key": "0a14bf42a7c1ff5db7aea4dedb38ebea41c76862",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3362-2959",
+   "width": 28,
+   "height": 28,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#000000",
+     "opacity": 0.55
+    }
+   ],
+   "strokes": null,
+   "radius": 14,
+   "preview": "previews/gallery-icon-badge.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Gallery Icon Badge",
+    "type": "COMPONENT",
+    "id": "3362:2959",
+    "w": 28,
+    "h": 28,
+    "x": 0,
+    "y": 0,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "radius": 14,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#000000",
+      "opacity": 0.55
+     }
+    ],
+    "children": [
+     {
+      "name": "Icons",
+      "type": "INSTANCE",
+      "id": "3362:2957",
+      "w": 16,
+      "h": 16,
+      "x": 6,
+      "y": 6,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "component": "Icons",
+      "variant": {
+       "Name": "slideshow"
+      },
+      "componentKey": "69c11abdb66a02677cb7d047412fe64d8c7c284c",
+      "mainId": "3493:81115",
+      "props": {}
+     }
+    ]
+   }
+  }
+ ],
+ "typography": [],
+ "colors": [
+  {
+   "layer": "Gallery Icon Badge",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#000000",
+   "token": null,
+   "opacity": 0.55,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Gallery Icon Badge: 28×28, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "1 solid paints are hard-coded (not bound to a color variable): #000000 ×1."
+ ],
+ "skeleton": "gallery-icon-badge.html",
+ "exported": "2026-09-24"
+}

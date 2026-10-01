@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TOP ZONE Block — skeleton</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../tokens.css">
+<style>
+*{box-sizing:border-box} body{margin:0;padding:24px;background:#f4f4f4;font-family:'Noto Sans',sans-serif;color:#141414}
+[hidden]{display:none!important}
+.skel-variant{margin:0 0 40px} .skel-variant>h1{font:600 13px/1.4 monospace;color:#555;margin:0 0 8px}
+.skel-stage{background:#fff;display:inline-block;outline:1px solid #ddd}
+.mng-top-zone-block__device-mobile{width:340px;min-height:2375.7px;position:relative;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-top-zone-block__top-zones-1-5-mobile{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-top-zone-block__zone-1-lead-article-card{width:340px;height:648.7px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__topzone-article-card-mobile{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-top-zone-block__content{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-top-zone-block__article-image-placeholder{width:100px;flex-shrink:0;height:67px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;box-sizing:border-box;aspect-ratio:100/67;background:#D9D9D9;margin:0}
+.mng-top-zone-block__headline{width:232px;flex-shrink:0;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-top-zone-block__article-headline-on-news-paper-homepage-{align-self:stretch;font-family:'Noto Serif', serif;font-size:18px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-top-zone-block__line-1{align-self:stretch;height:0px;flex-shrink:0;position:relative;border-top:1px solid #D7D6D2}
+.mng-top-zone-block__topzone-article-card{width:340px;height:107px;flex-shrink:0;display:flex;flex-direction:column;gap:16px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__topzone-article-card-2{width:340px;height:107px;flex-shrink:0;display:flex;flex-direction:column;gap:16px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__topzone-article-card-3{width:340px;height:107px;flex-shrink:0;display:flex;flex-direction:column;gap:16px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__latest-headlines{width:340px;height:953px;flex-shrink:0;display:flex;flex-direction:column;gap:12px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__ad-block-container{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-top-zone-block__ad-blocks{width:300px;height:250px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#85FF9B;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__device-desktop{width:1264px;min-height:1123px;position:relative;display:flex;flex-direction:row;gap:16px;padding:0px 0px 16px 0px;justify-content:center;align-items:flex-start;background:var(--mng-gray-max, #FFFFFF)}
+.mng-top-zone-block__frame-11645{width:706px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-top-zone-block__zone-1-lead-article-card-2{width:706px;height:349px;flex-shrink:0;display:flex;flex-direction:row;gap:20px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__top-zones-2-5{align-self:stretch;display:flex;flex-direction:row;gap:16px;padding:0px 0px 16px 0px;justify-content:space-between;align-items:flex-start;position:relative}
+.mng-top-zone-block__topzone-article-card-4{height:363px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-top-zone-block__article-image-placeholder-2{width:336px;height:189px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden}
+.mng-top-zone-block__union{align-self:stretch;flex:1 1 0;min-height:0;position:relative;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-top-zone-block__frame-11643{position:absolute;left:78px;top:85px;width:179px;height:19px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center}
+.mng-top-zone-block__article-image{border:3px solid var(--mng-gray-600, #F1EFEB);font-family:'New York', serif;font-size:16px;font-weight:900;line-height:normal;letter-spacing:0.1em;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-top-zone-block__article-status-badge{width:138px;height:27px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:2px 5px 2px 5px;justify-content:center;align-items:center;position:relative;background:#7D161E;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__headline-2{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-top-zone-block__article-headline-on-news-paper-homepage--2{align-self:stretch;font-family:'Noto Serif', serif;font-size:20px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-top-zone-block__topzone-article-card-5{height:363px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-top-zone-block__article-image-placeholder-3{width:336px;height:189px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden}
+.mng-top-zone-block__union-2{align-self:stretch;flex:1 1 0;min-height:0;position:relative;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-top-zone-block__frame-11643-2{position:absolute;left:78px;top:85px;width:179px;height:19px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center}
+.mng-top-zone-block__article-image-2{border:3px solid var(--mng-gray-600, #F1EFEB);font-family:'New York', serif;font-size:16px;font-weight:900;line-height:normal;letter-spacing:0.1em;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-top-zone-block__article-status-badge-2{width:138px;height:27px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:2px 5px 2px 5px;justify-content:center;align-items:center;position:relative;background:#7D161E;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__headline-3{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-top-zone-block__article-headline-on-news-paper-homepage--3{align-self:stretch;font-family:'Noto Serif', serif;font-size:20px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-top-zone-block__top-zones-2-5-2{align-self:stretch;display:flex;flex-direction:row;gap:16px;padding:0px 0px 16px 0px;justify-content:space-between;align-items:flex-start;position:relative}
+.mng-top-zone-block__topzone-article-card-6{height:363px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-top-zone-block__article-image-placeholder-4{width:336px;height:189px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden}
+.mng-top-zone-block__union-3{align-self:stretch;flex:1 1 0;min-height:0;position:relative;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-top-zone-block__frame-11643-3{position:absolute;left:78px;top:85px;width:179px;height:19px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center}
+.mng-top-zone-block__article-image-3{border:3px solid var(--mng-gray-600, #F1EFEB);font-family:'New York', serif;font-size:16px;font-weight:900;line-height:normal;letter-spacing:0.1em;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-top-zone-block__article-status-badge-3{width:138px;height:27px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:2px 5px 2px 5px;justify-content:center;align-items:center;position:relative;background:#7D161E;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__headline-4{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-top-zone-block__article-headline-on-news-paper-homepage--4{align-self:stretch;font-family:'Noto Serif', serif;font-size:20px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-top-zone-block__topzone-article-card-7{height:363px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF)}
+.mng-top-zone-block__article-image-placeholder-5{width:336px;height:189px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden}
+.mng-top-zone-block__union-4{align-self:stretch;flex:1 1 0;min-height:0;position:relative;outline:1px dotted #999;background:rgba(0,0,0,.06)}
+.mng-top-zone-block__frame-11643-4{position:absolute;left:78px;top:85px;width:179px;height:19px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center}
+.mng-top-zone-block__article-image-4{border:3px solid var(--mng-gray-600, #F1EFEB);font-family:'New York', serif;font-size:16px;font-weight:900;line-height:normal;letter-spacing:0.1em;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-top-zone-block__article-status-badge-4{width:138px;height:27px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:2px 5px 2px 5px;justify-content:center;align-items:center;position:relative;background:#7D161E;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__headline-5{align-self:stretch;display:flex;flex-direction:column;gap:15px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-top-zone-block__article-headline-on-news-paper-homepage--5{align-self:stretch;font-family:'Noto Serif', serif;font-size:20px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-top-zone-block__latest-headlines-2{width:226px;flex-shrink:0;height:1069px;display:flex;flex-direction:column;gap:12px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__right-rail{width:300px;flex-shrink:0;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-top-zone-block__ad-blocks-2{width:300px;height:1050px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#85FF9B;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__device-tablet{width:748px;min-height:1784px;position:relative;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-top-zone-block__top-zones-1-5-tablet{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative}
+.mng-top-zone-block__zone-1-lead-article-card-3{width:748px;height:349px;flex-shrink:0;display:flex;flex-direction:row;gap:32px;padding:0px 0px 16px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__topzone-secondary-grid-tablet{width:748px;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-top-zone-block__row-1{display:flex;flex-direction:row;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-top-zone-block__horizontal-thumbnail-card{width:358px;flex-shrink:0;height:84px;display:flex;flex-direction:column;gap:8px;padding:8px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__horizontal-thumbnail-card-2{width:358px;flex-shrink:0;height:84px;display:flex;flex-direction:column;gap:8px;padding:8px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__row-2{display:flex;flex-direction:row;gap:32px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-top-zone-block__horizontal-thumbnail-card-3{width:358px;flex-shrink:0;height:84px;display:flex;flex-direction:column;gap:8px;padding:8px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__horizontal-thumbnail-card-4{width:358px;flex-shrink:0;height:84px;display:flex;flex-direction:column;gap:8px;padding:8px 0px 8px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__latest-headlines-3{width:748px;height:953px;flex-shrink:0;display:flex;flex-direction:column;gap:12px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-gray-max, #FFFFFF);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-top-zone-block__ad-block-container-2{align-self:stretch;display:flex;flex-direction:column;gap:16px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-top-zone-block__ad-blocks-3{width:300px;height:250px;flex-shrink:0;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#85FF9B;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+</style></head>
+<body>
+<!-- Structural skeleton generated from Figma auto-layout. Instances are dashed placeholders; open the referenced file to render them. -->
+<section class="skel-variant" data-variant="Device=Mobile">
+  <h1>TOP ZONE Block · Device=Mobile · 340×2375.7</h1>
+  <div class="skel-stage">
+    <div class="mng-top-zone-block__device-mobile" data-layer="Device=Mobile">
+      <div class="mng-top-zone-block__top-zones-1-5-mobile" data-layer="TOP Zones 1-5 MOBILE">
+        <!-- instance of "Zone 1 Lead Article Card" → homepage/components/04-zone-1-lead-article-card/zone-1-lead-article-card.html -->
+        <div class="mng-top-zone-block__zone-1-lead-article-card" data-component="Zone 1 Lead Article Card" data-variant="Device=Mobile" data-label="Zone 1 Lead Article Card">Zone 1 Lead Article Card · Device=Mobile</div>
+        <div class="mng-top-zone-block__topzone-article-card-mobile" data-layer="TopZone Article Card MOBILE">
+          <div class="mng-top-zone-block__content" data-layer="Content">
+            <figure class="mng-top-zone-block__article-image-placeholder" data-component="Article Image Placeholder" data-variant="{}"><!-- image slot 3:2 (100×67) — see homepage/components/03-article-image-placeholder/article-image-placeholder.html --></figure>
+            <div class="mng-top-zone-block__headline" data-layer="Headline">
+              <h3 class="mng-top-zone-block__article-headline-on-news-paper-homepage-">Article Headline on News paper homepage in second zone position </h3>
+            </div>
+          </div>
+          <div class="mng-top-zone-block__line-1" data-layer="Line 1"></div>
+        </div>
+        <!-- instance of "TopZone Article Card" → homepage/components/05-topzone-article-card/topzone-article-card.html -->
+        <div class="mng-top-zone-block__topzone-article-card" data-component="TopZone Article Card" data-variant="Device=Mobile" data-label="TopZone Article Card">TopZone Article Card · Device=Mobile</div>
+        <!-- instance of "TopZone Article Card" → homepage/components/05-topzone-article-card/topzone-article-card.html -->
+        <div class="mng-top-zone-block__topzone-article-card-2" data-component="TopZone Article Card" data-variant="Device=Mobile" data-label="TopZone Article Card">TopZone Article Card · Device=Mobile</div>
+        <!-- instance of "TopZone Article Card" → homepage/components/05-topzone-article-card/topzone-article-card.html -->
+        <div class="mng-top-zone-block__topzone-article-card-3" data-component="TopZone Article Card" data-variant="Device=Mobile" data-label="TopZone Article Card">TopZone Article Card · Device=Mobile</div>
+      </div>
+      <!-- instance of "Latest Headlines" → homepage/assemblies/09-latest-headlines/latest-headlines.html -->
+      <div class="mng-top-zone-block__latest-headlines" data-component="Latest Headlines" data-variant="Device=Mobile" data-label="Latest Headlines">Latest Headlines · Device=Mobile</div>
+      <div class="mng-top-zone-block__ad-block-container" data-layer="Ad Block Container">
+        <!-- instance of "Ad Blocks" → external (not in this export) -->
+        <div class="mng-top-zone-block__ad-blocks" data-component="Ad Blocks" data-variant="Device=All, Name=Cube Article 300x250" data-label="Ad Blocks">Ad Blocks · Device=All, Name=Cube Article 300x250</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=Desktop">
+  <h1>TOP ZONE Block · Device=Desktop · 1264×1123</h1>
+  <div class="skel-stage">
+    <div class="mng-top-zone-block__device-desktop" data-layer="Device=Desktop">
+      <div class="mng-top-zone-block__frame-11645" data-layer="Frame 11645">
+        <!-- instance of "Zone 1 Lead Article Card" → homepage/components/04-zone-1-lead-article-card/zone-1-lead-article-card.html -->
+        <div class="mng-top-zone-block__zone-1-lead-article-card-2" data-component="Zone 1 Lead Article Card" data-variant="Device=Desktop" data-label="Zone 1 Lead Article Card">Zone 1 Lead Article Card · Device=Desktop</div>
+        <div class="mng-top-zone-block__top-zones-2-5" data-layer="Top Zones 2-5">
+          <div class="mng-top-zone-block__topzone-article-card-4" data-layer="TopZone Article Card">
+            <div class="mng-top-zone-block__article-image-placeholder-2" data-layer="Article Image Placeholder">
+              <i class="mng-top-zone-block__union" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+              <div class="mng-top-zone-block__frame-11643" data-layer="Frame 11643">
+                <span class="mng-top-zone-block__article-image">GRAPHIC / IMAGE</span>
+              </div>
+            </div>
+            <!-- instance of "Article Status Badge" → homepage/components/01-article-status-badge/article-status-badge.html -->
+            <div class="mng-top-zone-block__article-status-badge" data-component="Article Status Badge" data-variant="Type=Sponsored" data-label="Article Status Badge" hidden>Article Status Badge · Type=Sponsored</div>
+            <div class="mng-top-zone-block__headline-2" data-layer="Headline">
+              <h3 class="mng-top-zone-block__article-headline-on-news-paper-homepage--2">Article Headline on News paper homepage in second zone position</h3>
+            </div>
+          </div>
+          <div class="mng-top-zone-block__topzone-article-card-5" data-layer="TopZone Article Card">
+            <div class="mng-top-zone-block__article-image-placeholder-3" data-layer="Article Image Placeholder">
+              <i class="mng-top-zone-block__union-2" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+              <div class="mng-top-zone-block__frame-11643-2" data-layer="Frame 11643">
+                <span class="mng-top-zone-block__article-image-2">GRAPHIC / IMAGE</span>
+              </div>
+            </div>
+            <!-- instance of "Article Status Badge" → homepage/components/01-article-status-badge/article-status-badge.html -->
+            <div class="mng-top-zone-block__article-status-badge-2" data-component="Article Status Badge" data-variant="Type=Sponsored" data-label="Article Status Badge" hidden>Article Status Badge · Type=Sponsored</div>
+            <div class="mng-top-zone-block__headline-3" data-layer="Headline">
+              <h3 class="mng-top-zone-block__article-headline-on-news-paper-homepage--3">Article Headline on News paper homepage in third zone position</h3>
+            </div>
+          </div>
+        </div>
+        <div class="mng-top-zone-block__top-zones-2-5-2" data-layer="Top Zones 2-5">
+          <div class="mng-top-zone-block__topzone-article-card-6" data-layer="TopZone Article Card">
+            <div class="mng-top-zone-block__article-image-placeholder-4" data-layer="Article Image Placeholder">
+              <i class="mng-top-zone-block__union-3" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+              <div class="mng-top-zone-block__frame-11643-3" data-layer="Frame 11643">
+                <span class="mng-top-zone-block__article-image-3">GRAPHIC / IMAGE</span>
+              </div>
+            </div>
+            <!-- instance of "Article Status Badge" → homepage/components/01-article-status-badge/article-status-badge.html -->
+            <div class="mng-top-zone-block__article-status-badge-3" data-component="Article Status Badge" data-variant="Type=Sponsored" data-label="Article Status Badge" hidden>Article Status Badge · Type=Sponsored</div>
+            <div class="mng-top-zone-block__headline-4" data-layer="Headline">
+              <h3 class="mng-top-zone-block__article-headline-on-news-paper-homepage--4">Article Headline on News paper homepage in second zone position</h3>
+            </div>
+          </div>
+          <div class="mng-top-zone-block__topzone-article-card-7" data-layer="TopZone Article Card">
+            <div class="mng-top-zone-block__article-image-placeholder-5" data-layer="Article Image Placeholder">
+              <i class="mng-top-zone-block__union-4" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+              <div class="mng-top-zone-block__frame-11643-4" data-layer="Frame 11643">
+                <span class="mng-top-zone-block__article-image-4">GRAPHIC / IMAGE</span>
+              </div>
+            </div>
+            <!-- instance of "Article Status Badge" → homepage/components/01-article-status-badge/article-status-badge.html -->
+            <div class="mng-top-zone-block__article-status-badge-4" data-component="Article Status Badge" data-variant="Type=Sponsored" data-label="Article Status Badge" hidden>Article Status Badge · Type=Sponsored</div>
+            <div class="mng-top-zone-block__headline-5" data-layer="Headline">
+              <h3 class="mng-top-zone-block__article-headline-on-news-paper-homepage--5">Article Headline on News paper homepage in third zone position</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- instance of "Latest Headlines" → homepage/assemblies/09-latest-headlines/latest-headlines.html -->
+      <div class="mng-top-zone-block__latest-headlines-2" data-component="Latest Headlines" data-variant="Device=Desktop" data-label="Latest Headlines">Latest Headlines · Device=Desktop</div>
+      <div class="mng-top-zone-block__right-rail" data-layer="Right Rail">
+        <!-- instance of "Ad Blocks" → external (not in this export) -->
+        <div class="mng-top-zone-block__ad-blocks-2" data-component="Ad Blocks" data-variant="Device=Desktop, Name=Cube 1 RRail ATF 300x1050" data-label="Ad Blocks">Ad Blocks · Device=Desktop, Name=Cube 1 RRail ATF 300x1050</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=Tablet">
+  <h1>TOP ZONE Block · Device=Tablet · 748×1784</h1>
+  <div class="skel-stage">
+    <div class="mng-top-zone-block__device-tablet" data-layer="Device=Tablet">
+      <div class="mng-top-zone-block__top-zones-1-5-tablet" data-layer="TOP Zones 1-5 TABLET">
+        <!-- instance of "Zone 1 Lead Article Card" → homepage/components/04-zone-1-lead-article-card/zone-1-lead-article-card.html -->
+        <div class="mng-top-zone-block__zone-1-lead-article-card-3" data-component="Zone 1 Lead Article Card" data-variant="Device=Tablet" data-label="Zone 1 Lead Article Card">Zone 1 Lead Article Card · Device=Tablet</div>
+        <div class="mng-top-zone-block__topzone-secondary-grid-tablet" data-layer="TopZone Secondary Grid TABLET">
+          <div class="mng-top-zone-block__row-1" data-layer="Row 1">
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-top-zone-block__horizontal-thumbnail-card" data-component="Horizontal Thumbnail Card" data-variant="Device=Tablet" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Tablet</div>
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-top-zone-block__horizontal-thumbnail-card-2" data-component="Horizontal Thumbnail Card" data-variant="Device=Tablet" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Tablet</div>
+          </div>
+          <div class="mng-top-zone-block__row-2" data-layer="Row 2">
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-top-zone-block__horizontal-thumbnail-card-3" data-component="Horizontal Thumbnail Card" data-variant="Device=Tablet" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Tablet</div>
+            <!-- instance of "Horizontal Thumbnail Card" → homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.html -->
+            <div class="mng-top-zone-block__horizontal-thumbnail-card-4" data-component="Horizontal Thumbnail Card" data-variant="Device=Tablet" data-label="Horizontal Thumbnail Card">Horizontal Thumbnail Card · Device=Tablet</div>
+          </div>
+        </div>
+      </div>
+      <!-- instance of "Latest Headlines" → homepage/assemblies/09-latest-headlines/latest-headlines.html -->
+      <div class="mng-top-zone-block__latest-headlines-3" data-component="Latest Headlines" data-variant="Device=Tablet" data-label="Latest Headlines">Latest Headlines · Device=Tablet</div>
+      <div class="mng-top-zone-block__ad-block-container-2" data-layer="Ad Block Container">
+        <!-- instance of "Ad Blocks" → external (not in this export) -->
+        <div class="mng-top-zone-block__ad-blocks-3" data-component="Ad Blocks" data-variant="Device=All, Name=Cube Article 300x250" data-label="Ad Blocks">Ad Blocks · Device=All, Name=Cube Article 300x250</div>
+      </div>
+    </div>
+  </div>
+</section>
+</body></html>

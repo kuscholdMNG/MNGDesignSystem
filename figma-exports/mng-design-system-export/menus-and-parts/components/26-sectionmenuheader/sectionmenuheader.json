@@ -1,0 +1,1634 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "menus-and-parts",
+ "name": "SectionMenuHeader",
+ "slug": "sectionmenuheader",
+ "order": 26,
+ "typeLabel": "Component · 6 variants",
+ "description": null,
+ "designerNotes": [
+  "Section Menu Header",
+  "Section Menu Items",
+  "Push Nav Menu (Left side)"
+ ],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Menus and Parts",
+  "path": [
+   "Frame 12800",
+   "Frame 416",
+   "Frame 11820",
+   "Main Container",
+   "Push Nav Section Menu",
+   "Container"
+  ],
+  "mainId": "456:5745",
+  "mainKey": "ad45b9c389008fe7779922f2aba36ad0a34bb070",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5745",
+  "variants": [
+   {
+    "label": "View=Closed, Device=Desktop",
+    "id": "456:5746",
+    "key": "e47d32e793db27396cd048d87cd12ca17f9b9259",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5746"
+   },
+   {
+    "label": "View=Open, Device=Desktop",
+    "id": "456:5752",
+    "key": "a2b7065130555a8c34b11d4099231e87e2369a43",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5752"
+   },
+   {
+    "label": "View=Closed, Device=TabletV",
+    "id": "456:5759",
+    "key": "acdecabfa67a729c645c51c898019bd08c001d1e",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5759"
+   },
+   {
+    "label": "View=Open, Device=TabletV",
+    "id": "456:5764",
+    "key": "d97053538448a3a3a0b8029baf0468e13790d396",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5764"
+   },
+   {
+    "label": "View=Closed, Device=Mobile",
+    "id": "456:5769",
+    "key": "d98d2fdd52df8b973eadcbc4a765960c6398159c",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5769"
+   },
+   {
+    "label": "View=Open, Device=Mobile",
+    "id": "456:5774",
+    "key": "262f2dadb4af7bbb8d6d8859b6898a884b9ad372",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5774"
+   }
+  ]
+ },
+ "properties": {
+  "View": {
+   "type": "VARIANT",
+   "default": "Closed",
+   "options": [
+    "Closed",
+    "Open"
+   ]
+  },
+  "Device": {
+   "type": "VARIANT",
+   "default": "Desktop",
+   "options": [
+    "Desktop",
+    "Mobile",
+    "TabletV"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "SectionMenu"
+  ],
+  "perVariant": [
+   {
+    "label": "View=Closed, Device=Desktop",
+    "id": "456:5746",
+    "templatesDirect": {},
+    "templatesVia": {
+     "1024 HomePage": [
+      "SectionMenu"
+     ],
+     "1100 HomePage": [
+      "SectionMenu"
+     ],
+     "Desktop HomePage": [
+      "SectionMenu"
+     ]
+    },
+    "nestedIn": {
+     "SectionMenu / View=Closed, Device=XL-Desktop, UserType=all": 1,
+     "SectionMenu / View=Closed, Device=LG-TabletH, UserType=all": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "observedBreakpoints": [
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "View=Open, Device=Desktop",
+    "id": "456:5752",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {
+     "SectionMenu / View=Open, Device=LG-TabletH, UserType=subscriber": 1,
+     "SectionMenu / View=Open, Device=XL-Desktop, UserType=nonSub": 1,
+     "SectionMenu / View=Open, Device=LG-TabletH, UserType=nonSub": 1,
+     "SectionMenu / View=Open, Device=XL-Desktop, UserType=subscriber": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "observedBreakpoints": [],
+    "breakpoints": [
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "View=Closed, Device=TabletV",
+    "id": "456:5759",
+    "templatesDirect": {},
+    "templatesVia": {
+     "340 HomePage": [
+      "SectionMenu"
+     ],
+     "Mobile HomePage": [
+      "SectionMenu"
+     ],
+     "768 HomePage": [
+      "SectionMenu"
+     ]
+    },
+    "nestedIn": {
+     "SectionMenu / View=Closed, Device=SM-Mobile, UserType=all": 1,
+     "SectionMenu / View=Closed, Device=MD-TabletV, UserType=all": 1,
+     "SectionMenu / View=Closed, Device=XS-Fold, UserType=all": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "768"
+    ],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768"
+    ]
+   },
+   {
+    "label": "View=Open, Device=TabletV",
+    "id": "456:5764",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "768"
+    ],
+    "observedBreakpoints": [],
+    "breakpoints": [
+     "768"
+    ]
+   },
+   {
+    "label": "View=Closed, Device=Mobile",
+    "id": "456:5769",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "340",
+     "360"
+    ],
+    "observedBreakpoints": [],
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   },
+   {
+    "label": "View=Open, Device=Mobile",
+    "id": "456:5774",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {
+     "SectionMenu/Open/MD-TabletV/subscriber": 1,
+     "SectionMenu / View=Open, Device=MD-TabletV, UserType=subscriber": 1,
+     "SectionMenu/Open/MD-TabletV/nonSub": 1,
+     "SectionMenu / View=Open, Device=XS-Fold, UserType=subscriber": 1,
+     "SectionMenu / View=Open, Device=XS-Fold, UserType=nonSub": 1,
+     "SectionMenu / View=Open, Device=MD-TabletV, UserType=nonSub": 1,
+     "SectionMenu / View=Open, Device=SM-Mobile, UserType=nonSub": 1,
+     "SectionMenu / View=Open, Device=SM-Mobile, UserType=subscriber": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "340",
+     "360"
+    ],
+    "observedBreakpoints": [],
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Icons",
+    "count": 6,
+    "inExport": false,
+    "section": null,
+    "path": null
+   }
+  ],
+  "builtInto": [
+   {
+    "name": "SectionMenu",
+    "path": "../../assemblies/34-sectionmenu/sectionmenu.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "View=Closed, Device=Desktop",
+   "variantProperties": {
+    "View": "Closed",
+    "Device": "Desktop"
+   },
+   "id": "456:5746",
+   "key": "e47d32e793db27396cd048d87cd12ca17f9b9259",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5746",
+   "width": 300,
+   "height": 64,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/sectionmenuheader--closed-desktop.png",
+   "breakpoints": [
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "View=Closed, Device=Desktop",
+    "type": "COMPONENT",
+    "id": "456:5746",
+    "w": 300,
+    "h": 64,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Container",
+      "type": "FRAME",
+      "id": "456:5747",
+      "w": 300,
+      "h": 64,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        8,
+        0,
+        8
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Container",
+        "type": "FRAME",
+        "id": "456:5748",
+        "w": 40,
+        "h": 40,
+        "x": 8,
+        "y": 12,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "456:5749",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "menu7"
+          },
+          "componentKey": "5df1f95c88823495ee3828d25b920fee2e5c4525",
+          "mainId": "3493:81092",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "Title",
+        "type": "TEXT",
+        "id": "456:5750",
+        "w": 92,
+        "h": 22,
+        "x": 56,
+        "y": 21,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "text": "All Sections",
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Bold",
+          "size": 16,
+          "lineHeight": "auto",
+          "case": "TITLE",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Line 10",
+      "type": "LINE",
+      "id": "456:5751",
+      "w": 300,
+      "h": 0,
+      "x": 0,
+      "y": 64,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER"
+     }
+    ],
+    "key": "e47d32e793db27396cd048d87cd12ca17f9b9259",
+    "variantProperties": {
+     "View": "Closed",
+     "Device": "Desktop"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "View=Open, Device=Desktop",
+   "variantProperties": {
+    "View": "Open",
+    "Device": "Desktop"
+   },
+   "id": "456:5752",
+   "key": "a2b7065130555a8c34b11d4099231e87e2369a43",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5752",
+   "width": 300,
+   "height": 64,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/sectionmenuheader--open-desktop.png",
+   "breakpoints": [
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "View=Open, Device=Desktop",
+    "type": "COMPONENT",
+    "id": "456:5752",
+    "w": 300,
+    "h": 64,
+    "x": 332,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Container",
+      "type": "FRAME",
+      "id": "456:5753",
+      "w": 300,
+      "h": 64,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        8,
+        0,
+        8
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Container",
+        "type": "FRAME",
+        "id": "456:5754",
+        "w": 40,
+        "h": 40,
+        "x": 8,
+        "y": 12,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Container",
+          "type": "FRAME",
+          "id": "456:5755",
+          "w": 40,
+          "h": 40,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            16,
+            16,
+            16,
+            16
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Icons",
+            "type": "INSTANCE",
+            "id": "456:5756",
+            "w": 16,
+            "h": 16,
+            "x": 12,
+            "y": 12,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 8,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "CENTER",
+             "cross": "CENTER"
+            },
+            "clip": true,
+            "component": "Icons",
+            "variant": {
+             "Name": "close"
+            },
+            "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
+            "mainId": "3493:81071",
+            "props": {}
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Title",
+        "type": "TEXT",
+        "id": "456:5757",
+        "w": 92,
+        "h": 22,
+        "x": 56,
+        "y": 21,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "text": "All Sections",
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Bold",
+          "size": 16,
+          "lineHeight": "auto",
+          "case": "TITLE",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Line 10",
+      "type": "LINE",
+      "id": "456:5758",
+      "w": 300,
+      "h": 0,
+      "x": 0,
+      "y": 64,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER"
+     }
+    ],
+    "key": "a2b7065130555a8c34b11d4099231e87e2369a43",
+    "variantProperties": {
+     "View": "Open",
+     "Device": "Desktop"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "View=Closed, Device=TabletV",
+   "variantProperties": {
+    "View": "Closed",
+    "Device": "TabletV"
+   },
+   "id": "456:5759",
+   "key": "acdecabfa67a729c645c51c898019bd08c001d1e",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5759",
+   "width": 88,
+   "height": 64,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/sectionmenuheader--closed-tabletv.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768"
+   ],
+   "layerTree": {
+    "name": "View=Closed, Device=TabletV",
+    "type": "COMPONENT",
+    "id": "456:5759",
+    "w": 88,
+    "h": 64,
+    "x": 648,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Container",
+      "type": "FRAME",
+      "id": "456:5760",
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Container",
+        "type": "FRAME",
+        "id": "456:5761",
+        "w": 40,
+        "h": 40,
+        "x": 12,
+        "y": 12,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          16,
+          16,
+          16,
+          16
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "456:5762",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "menu7"
+          },
+          "componentKey": "5df1f95c88823495ee3828d25b920fee2e5c4525",
+          "mainId": "3493:81092",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Line 10",
+      "type": "LINE",
+      "id": "456:5763",
+      "w": 88,
+      "h": 0,
+      "x": 0,
+      "y": 64,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER"
+     }
+    ],
+    "key": "acdecabfa67a729c645c51c898019bd08c001d1e",
+    "variantProperties": {
+     "View": "Closed",
+     "Device": "TabletV"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "View=Open, Device=TabletV",
+   "variantProperties": {
+    "View": "Open",
+    "Device": "TabletV"
+   },
+   "id": "456:5764",
+   "key": "d97053538448a3a3a0b8029baf0468e13790d396",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5764",
+   "width": 88,
+   "height": 64,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/sectionmenuheader--open-tabletv.png",
+   "breakpoints": [
+    "768"
+   ],
+   "layerTree": {
+    "name": "View=Open, Device=TabletV",
+    "type": "COMPONENT",
+    "id": "456:5764",
+    "w": 88,
+    "h": 64,
+    "x": 752,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Container",
+      "type": "FRAME",
+      "id": "456:5765",
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Container",
+        "type": "FRAME",
+        "id": "456:5766",
+        "w": 40,
+        "h": 40,
+        "x": 12,
+        "y": 12,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          16,
+          16,
+          16,
+          16
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "456:5767",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "close"
+          },
+          "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
+          "mainId": "3493:81071",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Line 10",
+      "type": "LINE",
+      "id": "456:5768",
+      "w": 88,
+      "h": 0,
+      "x": 0,
+      "y": 64,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER"
+     }
+    ],
+    "key": "d97053538448a3a3a0b8029baf0468e13790d396",
+    "variantProperties": {
+     "View": "Open",
+     "Device": "TabletV"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "View=Closed, Device=Mobile",
+   "variantProperties": {
+    "View": "Closed",
+    "Device": "Mobile"
+   },
+   "id": "456:5769",
+   "key": "d98d2fdd52df8b973eadcbc4a765960c6398159c",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5769",
+   "width": 64,
+   "height": 64,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/sectionmenuheader--closed-mobile.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "View=Closed, Device=Mobile",
+    "type": "COMPONENT",
+    "id": "456:5769",
+    "w": 64,
+    "h": 64,
+    "x": 856,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Container",
+      "type": "FRAME",
+      "id": "456:5770",
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Container",
+        "type": "FRAME",
+        "id": "456:5771",
+        "w": 40,
+        "h": 40,
+        "x": 12,
+        "y": 12,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          16,
+          16,
+          16,
+          16
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "456:5772",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "menu7"
+          },
+          "componentKey": "5df1f95c88823495ee3828d25b920fee2e5c4525",
+          "mainId": "3493:81092",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Line 10",
+      "type": "LINE",
+      "id": "456:5773",
+      "w": 64,
+      "h": 0,
+      "x": 0,
+      "y": 64,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER"
+     }
+    ],
+    "key": "d98d2fdd52df8b973eadcbc4a765960c6398159c",
+    "variantProperties": {
+     "View": "Closed",
+     "Device": "Mobile"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "View=Open, Device=Mobile",
+   "variantProperties": {
+    "View": "Open",
+    "Device": "Mobile"
+   },
+   "id": "456:5774",
+   "key": "262f2dadb4af7bbb8d6d8859b6898a884b9ad372",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5774",
+   "width": 64,
+   "height": 64,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/sectionmenuheader--open-mobile.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "View=Open, Device=Mobile",
+    "type": "COMPONENT",
+    "id": "456:5774",
+    "w": 64,
+    "h": 64,
+    "x": 936,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Container",
+      "type": "FRAME",
+      "id": "456:5775",
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Container",
+        "type": "FRAME",
+        "id": "456:5776",
+        "w": 40,
+        "h": 40,
+        "x": 12,
+        "y": 12,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          16,
+          16,
+          16,
+          16
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "456:5777",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "close"
+          },
+          "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
+          "mainId": "3493:81071",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Line 10",
+      "type": "LINE",
+      "id": "456:5778",
+      "w": 64,
+      "h": 0,
+      "x": 0,
+      "y": 64,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER"
+     }
+    ],
+    "key": "262f2dadb4af7bbb8d6d8859b6898a884b9ad372",
+    "variantProperties": {
+     "View": "Open",
+     "Device": "Mobile"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Title",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": "TITLE",
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "All Sections",
+   "variants": [
+    "View=Closed, Device=Desktop",
+    "View=Open, Device=Desktop"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "View=Closed, Device=Desktop",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Line 10",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#CCCAC7",
+   "token": "Colors/color/gray/500",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  },
+  {
+   "layer": "View=Open, Device=Desktop",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "View=Closed, Device=TabletV",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "View=Open, Device=TabletV",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "View=Closed, Device=Mobile",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "View=Open, Device=Mobile",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "View=Closed, Device=Desktop: 300×64, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280",
+  "View=Open, Device=Desktop: 300×64, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280",
+  "View=Closed, Device=TabletV: 88×64, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340, 360, 768",
+  "View=Open, Device=TabletV: 88×64, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 768",
+  "View=Closed, Device=Mobile: 64×64, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340, 360",
+  "View=Open, Device=Mobile: 64×64, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340, 360"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "2 of 6 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `View=Open, Device=TabletV`, `View=Closed, Device=Mobile`.",
+  "`View=Closed, Device=TabletV` is declared for 768 but is placed in template(s) at 340, 360 — check the variant choice."
+ ],
+ "skeleton": "sectionmenuheader.html",
+ "exported": "2026-09-24"
+}

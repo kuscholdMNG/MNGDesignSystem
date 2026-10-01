@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Form Field — skeleton</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../tokens.css">
+<style>
+*{box-sizing:border-box} body{margin:0;padding:24px;background:#f4f4f4;font-family:'Noto Sans',sans-serif;color:#141414}
+[hidden]{display:none!important}
+.skel-variant{margin:0 0 40px} .skel-variant>h1{font:600 13px/1.4 monospace;color:#555;margin:0 0 8px}
+.skel-stage{background:#fff;display:inline-block;outline:1px solid #ddd}
+.mng-form-field__size-desktop-state-filled{width:480px;min-height:103px;position:relative;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-form-field__label-container{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-icon-container{display:flex;flex-direction:column;gap:8px;padding:2px 0px 2px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden}
+.mng-form-field__vector{width:16px;height:11px;flex-shrink:0;position:relative;background:var(--mng-gray-min, #141414)}
+.mng-form-field__label-text-container{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-form-field__input-field-container{align-self:stretch;height:56px;flex-shrink:0;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-gray-max, #FFFFFF);border:1px solid var(--mng-gray-400, #A7A6A3);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-form-field__icon-frame{height:56px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;background:var(--mng-gray-600, #F1EFEB);border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__input-field{flex:1 1 0;min-width:0;height:56px;display:flex;flex-direction:row;gap:8px;padding:8px 16px 8px 16px;justify-content:flex-start;align-items:center;position:relative;border-radius:0px 3px 3px 0px;overflow:hidden}
+.mng-form-field__text-container{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__value{font-family:'Noto Sans', sans-serif;font-size:18px;font-weight:400;line-height:normal;color:var(--mng-gray-400, #A7A6A3);text-align:left;margin:0}
+.mng-form-field__cursor-container{position:absolute;left:193px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-form-field__union{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-form-field__card-badge{width:66.5px;flex-shrink:0;height:44px;display:flex;flex-direction:row;gap:8px;padding:2px 2px 2px 2px;justify-content:center;align-items:center;position:relative;border-radius:5px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__icon-frame-right{height:56px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-2{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__error-message-container{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__error-message-text{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:18px;font-weight:400;line-height:normal;color:var(--mng-feedback-high-error, #CC2B27);text-align:left;margin:0}
+.mng-form-field__size-mobile-state-blank{width:328px;min-height:81px;position:relative;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-form-field__label-container-2{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-icon-container-2{display:flex;flex-direction:column;gap:8px;padding:2px 0px 2px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden}
+.mng-form-field__vector-2{width:16px;height:11px;flex-shrink:0;position:relative;background:var(--mng-gray-min, #141414)}
+.mng-form-field__label-text-container-2{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-2{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:14px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-form-field__input-field-container-2{align-self:stretch;height:40px;flex-shrink:0;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-gray-max, #FFFFFF);border:1px solid var(--mng-gray-400, #A7A6A3);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-form-field__icon-frame-2{width:40px;flex-shrink:0;height:40px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;background:var(--mng-gray-600, #F1EFEB);border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-3{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__input-field-2{flex:1 1 0;min-width:0;height:40px;display:flex;flex-direction:row;gap:8px;padding:2px 16px 2px 16px;justify-content:flex-start;align-items:center;position:relative;border-radius:0px 3px 3px 0px;overflow:hidden}
+.mng-form-field__text-container-2{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__value-2{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-400, #A7A6A3);text-align:left;margin:0}
+.mng-form-field__cursor-container-2{position:absolute;left:193px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-form-field__union-2{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-form-field__card-badge-2{width:66.5px;flex-shrink:0;height:44px;display:flex;flex-direction:row;gap:8px;padding:2px 2px 2px 2px;justify-content:center;align-items:center;position:relative;border-radius:5px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__icon-frame-right-2{width:40px;flex-shrink:0;height:40px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-4{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__error-message-container-2{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__error-message-text-2{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-feedback-high-error, #CC2B27);text-align:left;margin:0}
+.mng-form-field__size-desktop-state-filled-2{width:480px;min-height:103px;position:relative;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-form-field__label-container-3{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-icon-container-3{display:flex;flex-direction:column;gap:8px;padding:2px 0px 2px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden}
+.mng-form-field__vector-3{width:16px;height:11px;flex-shrink:0;position:relative;background:var(--mng-gray-min, #141414)}
+.mng-form-field__label-text-container-3{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-3{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-form-field__input-field-container-3{align-self:stretch;height:56px;flex-shrink:0;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-gray-max, #FFFFFF);border:1px solid var(--mng-gray-400, #A7A6A3);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-form-field__icon-frame-3{height:56px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;background:var(--mng-gray-600, #F1EFEB);border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-5{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__input-field-3{flex:1 1 0;min-width:0;height:56px;display:flex;flex-direction:row;gap:8px;padding:8px 16px 8px 16px;justify-content:flex-start;align-items:center;position:relative;border-radius:0px 3px 3px 0px;overflow:hidden}
+.mng-form-field__text-container-3{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__value-3{font-family:'Noto Sans', sans-serif;font-size:18px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-form-field__cursor-container-3{position:absolute;left:193px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-form-field__union-3{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-form-field__card-badge-3{width:66.5px;flex-shrink:0;height:44px;display:flex;flex-direction:row;gap:8px;padding:2px 2px 2px 2px;justify-content:center;align-items:center;position:relative;border-radius:5px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__icon-frame-right-3{height:56px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-6{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__error-message-container-3{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__error-message-text-3{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:18px;font-weight:400;line-height:normal;color:var(--mng-feedback-high-error, #CC2B27);text-align:left;margin:0}
+.mng-form-field__size-desktop-state-focus{width:480px;min-height:103px;position:relative;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-form-field__label-container-4{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-icon-container-4{display:flex;flex-direction:column;gap:8px;padding:2px 0px 2px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden}
+.mng-form-field__vector-4{width:16px;height:11px;flex-shrink:0;position:relative;background:var(--mng-gray-min, #141414)}
+.mng-form-field__label-text-container-4{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-4{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-form-field__input-field-container-4{align-self:stretch;height:56px;flex-shrink:0;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-gray-max, #FFFFFF);border:2px solid #000000;box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-form-field__icon-frame-4{height:56px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;background:var(--mng-gray-600, #F1EFEB);border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-7{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__input-field-4{flex:1 1 0;min-width:0;height:56px;display:flex;flex-direction:row;gap:8px;padding:8px 16px 8px 16px;justify-content:flex-start;align-items:center;position:relative;border-radius:0px 3px 3px 0px;overflow:hidden}
+.mng-form-field__text-container-4{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__value-4{font-family:'Noto Sans', sans-serif;font-size:18px;font-weight:400;line-height:normal;color:var(--mng-gray-400, #A7A6A3);text-align:left;margin:0}
+.mng-form-field__cursor-container-4{position:absolute;left:16px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-form-field__union-4{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-form-field__card-badge-4{width:66.5px;flex-shrink:0;height:44px;display:flex;flex-direction:row;gap:8px;padding:2px 2px 2px 2px;justify-content:center;align-items:center;position:relative;border-radius:5px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__icon-frame-right-4{height:56px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-8{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__error-message-container-4{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__error-message-text-4{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:18px;font-weight:400;line-height:normal;color:var(--mng-feedback-high-error, #CC2B27);text-align:left;margin:0}
+.mng-form-field__size-desktop-state-error{width:480px;min-height:103px;position:relative;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-form-field__label-container-5{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-icon-container-5{display:flex;flex-direction:column;gap:8px;padding:2px 0px 2px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden}
+.mng-form-field__vector-5{width:16px;height:11px;flex-shrink:0;position:relative;background:var(--mng-gray-min, #141414)}
+.mng-form-field__label-text-container-5{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-5{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-form-field__input-field-container-5{align-self:stretch;height:56px;flex-shrink:0;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-gray-max, #FFFFFF);border:1px solid var(--mng-feedback-high-error, #CC2B27);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-form-field__icon-frame-5{height:56px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;background:var(--mng-gray-600, #F1EFEB);border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-9{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__input-field-5{flex:1 1 0;min-width:0;height:56px;display:flex;flex-direction:row;gap:8px;padding:8px 16px 8px 16px;justify-content:flex-start;align-items:center;position:relative;border-radius:0px 3px 3px 0px;overflow:hidden}
+.mng-form-field__text-container-5{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__value-5{font-family:'Noto Sans', sans-serif;font-size:18px;font-weight:400;line-height:normal;color:var(--mng-gray-400, #A7A6A3);text-align:left;margin:0}
+.mng-form-field__cursor-container-5{position:absolute;left:193px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-form-field__union-5{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-form-field__card-badge-5{width:66.5px;flex-shrink:0;height:44px;display:flex;flex-direction:row;gap:8px;padding:2px 2px 2px 2px;justify-content:center;align-items:center;position:relative;border-radius:5px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__icon-frame-right-5{height:56px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-10{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__error-message-container-5{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__error-message-text-5{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:18px;font-weight:400;line-height:normal;color:var(--mng-feedback-high-error, #CC2B27);text-align:left;margin:0}
+.mng-form-field__size-desktop-state-disabled{width:480px;min-height:103px;position:relative;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-form-field__label-container-6{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-icon-container-6{display:flex;flex-direction:column;gap:8px;padding:2px 0px 2px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden}
+.mng-form-field__vector-6{width:16px;height:11px;flex-shrink:0;position:relative;background:var(--mng-gray-min, #141414)}
+.mng-form-field__label-text-container-6{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-6{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-form-field__input-field-container-6{align-self:stretch;height:56px;flex-shrink:0;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-gray-600, #F1EFEB);border:1px solid var(--mng-gray-500, #CCCAC7);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-form-field__icon-frame-6{height:56px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;background:var(--mng-gray-600, #F1EFEB);border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-11{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__input-field-6{flex:1 1 0;min-width:0;height:56px;display:flex;flex-direction:row;gap:8px;padding:8px 16px 8px 16px;justify-content:flex-start;align-items:center;position:relative;border-radius:0px 3px 3px 0px;overflow:hidden}
+.mng-form-field__text-container-6{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__value-6{font-family:'Noto Sans', sans-serif;font-size:18px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-form-field__cursor-container-6{position:absolute;left:193px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-form-field__union-6{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-form-field__card-badge-6{width:66.5px;flex-shrink:0;height:44px;display:flex;flex-direction:row;gap:8px;padding:2px 2px 2px 2px;justify-content:center;align-items:center;position:relative;border-radius:5px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__icon-frame-right-6{height:56px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-12{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__error-message-container-6{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__error-message-text-6{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:18px;font-weight:400;line-height:normal;color:var(--mng-feedback-high-error, #CC2B27);text-align:left;margin:0}
+.mng-form-field__size-mobile-state-filled{width:328px;min-height:81px;position:relative;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-form-field__label-container-7{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-icon-container-7{display:flex;flex-direction:column;gap:8px;padding:2px 0px 2px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden}
+.mng-form-field__vector-7{width:16px;height:11px;flex-shrink:0;position:relative;background:var(--mng-gray-min, #141414)}
+.mng-form-field__label-text-container-7{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-7{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:14px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-form-field__input-field-container-7{align-self:stretch;height:40px;flex-shrink:0;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-gray-max, #FFFFFF);border:1px solid var(--mng-gray-400, #A7A6A3);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-form-field__icon-frame-7{width:40px;flex-shrink:0;height:40px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;background:var(--mng-gray-600, #F1EFEB);border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-13{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__input-field-7{flex:1 1 0;min-width:0;height:40px;display:flex;flex-direction:row;gap:8px;padding:2px 16px 2px 16px;justify-content:flex-start;align-items:center;position:relative;border-radius:0px 3px 3px 0px;overflow:hidden}
+.mng-form-field__text-container-7{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__value-7{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-form-field__cursor-container-7{position:absolute;left:193px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-form-field__union-7{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-form-field__card-badge-7{width:66.5px;flex-shrink:0;height:44px;display:flex;flex-direction:row;gap:8px;padding:2px 2px 2px 2px;justify-content:center;align-items:center;position:relative;border-radius:5px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__icon-frame-right-7{width:40px;flex-shrink:0;height:40px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-14{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__error-message-container-7{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__error-message-text-7{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-feedback-high-error, #CC2B27);text-align:left;margin:0}
+.mng-form-field__size-mobile-state-focus{width:328px;min-height:81px;position:relative;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-form-field__label-container-8{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-icon-container-8{display:flex;flex-direction:column;gap:8px;padding:2px 0px 2px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden}
+.mng-form-field__vector-8{width:16px;height:11px;flex-shrink:0;position:relative;background:var(--mng-gray-min, #141414)}
+.mng-form-field__label-text-container-8{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-8{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:14px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-form-field__input-field-container-8{align-self:stretch;height:40px;flex-shrink:0;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-gray-max, #FFFFFF);border:2px solid #000000;box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-form-field__icon-frame-8{width:40px;flex-shrink:0;height:40px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;background:var(--mng-gray-600, #F1EFEB);border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-15{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__input-field-8{flex:1 1 0;min-width:0;height:40px;display:flex;flex-direction:row;gap:8px;padding:2px 16px 2px 16px;justify-content:flex-start;align-items:center;position:relative;border-radius:0px 3px 3px 0px;overflow:hidden}
+.mng-form-field__text-container-8{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__value-8{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-400, #A7A6A3);text-align:left;margin:0}
+.mng-form-field__cursor-container-8{position:absolute;left:16px;top:10px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-form-field__union-8{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-form-field__card-badge-8{width:66.5px;flex-shrink:0;height:44px;display:flex;flex-direction:row;gap:8px;padding:2px 2px 2px 2px;justify-content:center;align-items:center;position:relative;border-radius:5px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__icon-frame-right-8{width:40px;flex-shrink:0;height:40px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-16{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__error-message-container-8{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__error-message-text-8{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-feedback-high-error, #CC2B27);text-align:left;margin:0}
+.mng-form-field__size-mobile-state-error{width:328px;min-height:81px;position:relative;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-form-field__label-container-9{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-icon-container-9{display:flex;flex-direction:column;gap:8px;padding:2px 0px 2px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden}
+.mng-form-field__vector-9{width:16px;height:11px;flex-shrink:0;position:relative;background:var(--mng-gray-min, #141414)}
+.mng-form-field__label-text-container-9{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-9{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:14px;font-weight:400;line-height:normal;color:var(--mng-gray-min, #141414);text-align:left;margin:0}
+.mng-form-field__input-field-container-9{align-self:stretch;height:40px;flex-shrink:0;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-gray-max, #FFFFFF);border:1px solid var(--mng-feedback-high-error, #CC2B27);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-form-field__icon-frame-9{width:40px;flex-shrink:0;height:40px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;background:var(--mng-gray-600, #F1EFEB);border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-17{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__input-field-9{flex:1 1 0;min-width:0;height:40px;display:flex;flex-direction:row;gap:8px;padding:2px 16px 2px 16px;justify-content:flex-start;align-items:center;position:relative;border-radius:0px 3px 3px 0px;overflow:hidden}
+.mng-form-field__text-container-9{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__value-9{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-400, #A7A6A3);text-align:left;margin:0}
+.mng-form-field__cursor-container-9{position:absolute;left:193px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-form-field__union-9{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-form-field__card-badge-9{width:66.5px;flex-shrink:0;height:44px;display:flex;flex-direction:row;gap:8px;padding:2px 2px 2px 2px;justify-content:center;align-items:center;position:relative;border-radius:5px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__icon-frame-right-9{width:40px;flex-shrink:0;height:40px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-18{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__error-message-container-9{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__error-message-text-9{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-feedback-high-error, #CC2B27);text-align:left;margin:0}
+.mng-form-field__size-mobile-state-disabled{width:328px;min-height:81px;position:relative;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start}
+.mng-form-field__label-container-10{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-icon-container-10{display:flex;flex-direction:column;gap:8px;padding:2px 0px 2px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden}
+.mng-form-field__vector-10{width:16px;height:11px;flex-shrink:0;position:relative;background:var(--mng-gray-min, #141414)}
+.mng-form-field__label-text-container-10{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__label-10{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:14px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-form-field__input-field-container-10{align-self:stretch;height:40px;flex-shrink:0;display:flex;flex-direction:row;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-gray-600, #F1EFEB);border:1px solid var(--mng-gray-500, #CCCAC7);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-form-field__icon-frame-10{width:40px;flex-shrink:0;height:40px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;background:var(--mng-gray-600, #F1EFEB);border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-19{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__input-field-10{flex:1 1 0;min-width:0;height:40px;display:flex;flex-direction:row;gap:8px;padding:2px 16px 2px 16px;justify-content:flex-start;align-items:center;position:relative;border-radius:0px 3px 3px 0px;overflow:hidden}
+.mng-form-field__text-container-10{flex:1 1 0;min-width:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__value-10{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-gray-300, #838280);text-align:left;margin:0}
+.mng-form-field__cursor-container-10{position:absolute;left:193px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-form-field__union-10{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-form-field__card-badge-10{width:66.5px;flex-shrink:0;height:44px;display:flex;flex-direction:row;gap:8px;padding:2px 2px 2px 2px;justify-content:center;align-items:center;position:relative;border-radius:5px;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__icon-frame-right-10{width:40px;flex-shrink:0;height:40px;display:flex;flex-direction:column;gap:8px;padding:20px 20px 20px 20px;justify-content:center;align-items:center;position:relative;border-radius:3px 0px 0px 3px;overflow:hidden}
+.mng-form-field__icons-20{width:16px;height:16px;flex-shrink:0;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-form-field__error-message-container-10{align-self:stretch;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative}
+.mng-form-field__error-message-text-10{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:400;line-height:normal;color:var(--mng-feedback-high-error, #CC2B27);text-align:left;margin:0}
+</style></head>
+<body>
+<!-- Structural skeleton generated from Figma auto-layout. Instances are dashed placeholders; open the referenced file to render them. -->
+<section class="skel-variant" data-variant="Size=Desktop, State=Filled">
+  <h1>Form Field · Size=Desktop, State=Filled · 480×103</h1>
+  <div class="skel-stage">
+    <div class="mng-form-field__size-desktop-state-filled" data-layer="Size=Desktop, State=Filled">
+      <div class="mng-form-field__label-container" data-layer="Label Container">
+        <div class="mng-form-field__label-icon-container" data-layer="Label Icon Container" hidden>
+          <i class="mng-form-field__vector" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-form-field__label-text-container" data-layer="Label Text Container">
+          <span class="mng-form-field__label">Field Label</span>
+        </div>
+      </div>
+      <div class="mng-form-field__input-field-container" data-layer="Input Field Container">
+        <div class="mng-form-field__icon-frame" data-layer="icon frame">
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+        <div class="mng-form-field__input-field" data-layer="Input Field">
+          <div class="mng-form-field__text-container" data-layer="Text Container">
+            <span class="mng-form-field__value">Placeholder text</span>
+          </div>
+          <div class="mng-form-field__cursor-container" data-layer="Cursor Container" hidden>
+            <i class="mng-form-field__union" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+          </div>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__card-badge" data-component="Icons" data-variant="Name=Visa" data-label="card badge" hidden>Icons · Name=Visa</div>
+        </div>
+        <div class="mng-form-field__icon-frame-right" data-layer="icon frame right" hidden>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-2" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+      </div>
+      <div class="mng-form-field__error-message-container" data-layer="Error Message Container">
+        <span class="mng-form-field__error-message-text">Error message text.</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Mobile, State=Blank">
+  <h1>Form Field · Size=Mobile, State=Blank · 328×81</h1>
+  <div class="skel-stage">
+    <div class="mng-form-field__size-mobile-state-blank" data-layer="Size=Mobile, State=Blank">
+      <div class="mng-form-field__label-container-2" data-layer="Label Container">
+        <div class="mng-form-field__label-icon-container-2" data-layer="Label Icon Container" hidden>
+          <i class="mng-form-field__vector-2" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-form-field__label-text-container-2" data-layer="Label Text Container">
+          <span class="mng-form-field__label-2">Field Label</span>
+        </div>
+      </div>
+      <div class="mng-form-field__input-field-container-2" data-layer="Input Field Container">
+        <div class="mng-form-field__icon-frame-2" data-layer="icon frame">
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-3" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+        <div class="mng-form-field__input-field-2" data-layer="Input Field">
+          <div class="mng-form-field__text-container-2" data-layer="Text Container">
+            <span class="mng-form-field__value-2">Placeholder text</span>
+          </div>
+          <div class="mng-form-field__cursor-container-2" data-layer="Cursor Container" hidden>
+            <i class="mng-form-field__union-2" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+          </div>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__card-badge-2" data-component="Icons" data-variant="Name=Visa" data-label="card badge" hidden>Icons · Name=Visa</div>
+        </div>
+        <div class="mng-form-field__icon-frame-right-2" data-layer="icon frame right" hidden>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-4" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+      </div>
+      <div class="mng-form-field__error-message-container-2" data-layer="Error Message Container">
+        <span class="mng-form-field__error-message-text-2">Error message text.</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Desktop, State=Filled">
+  <h1>Form Field · Size=Desktop, State=Filled · 480×103</h1>
+  <div class="skel-stage">
+    <div class="mng-form-field__size-desktop-state-filled-2" data-layer="Size=Desktop, State=Filled">
+      <div class="mng-form-field__label-container-3" data-layer="Label Container">
+        <div class="mng-form-field__label-icon-container-3" data-layer="Label Icon Container" hidden>
+          <i class="mng-form-field__vector-3" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-form-field__label-text-container-3" data-layer="Label Text Container">
+          <span class="mng-form-field__label-3">Field Label</span>
+        </div>
+      </div>
+      <div class="mng-form-field__input-field-container-3" data-layer="Input Field Container">
+        <div class="mng-form-field__icon-frame-3" data-layer="icon frame">
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-5" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+        <div class="mng-form-field__input-field-3" data-layer="Input Field">
+          <div class="mng-form-field__text-container-3" data-layer="Text Container">
+            <span class="mng-form-field__value-3">you@example.com</span>
+          </div>
+          <div class="mng-form-field__cursor-container-3" data-layer="Cursor Container" hidden>
+            <i class="mng-form-field__union-3" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+          </div>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__card-badge-3" data-component="Icons" data-variant="Name=Visa" data-label="card badge" hidden>Icons · Name=Visa</div>
+        </div>
+        <div class="mng-form-field__icon-frame-right-3" data-layer="icon frame right" hidden>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-6" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+      </div>
+      <div class="mng-form-field__error-message-container-3" data-layer="Error Message Container">
+        <span class="mng-form-field__error-message-text-3">Error message text.</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Desktop, State=Focus">
+  <h1>Form Field · Size=Desktop, State=Focus · 480×103</h1>
+  <div class="skel-stage">
+    <div class="mng-form-field__size-desktop-state-focus" data-layer="Size=Desktop, State=Focus">
+      <div class="mng-form-field__label-container-4" data-layer="Label Container">
+        <div class="mng-form-field__label-icon-container-4" data-layer="Label Icon Container" hidden>
+          <i class="mng-form-field__vector-4" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-form-field__label-text-container-4" data-layer="Label Text Container">
+          <span class="mng-form-field__label-4">Field Label</span>
+        </div>
+      </div>
+      <div class="mng-form-field__input-field-container-4" data-layer="Input Field Container">
+        <div class="mng-form-field__icon-frame-4" data-layer="icon frame">
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-7" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+        <div class="mng-form-field__input-field-4" data-layer="Input Field">
+          <div class="mng-form-field__text-container-4" data-layer="Text Container">
+            <span class="mng-form-field__value-4">Placeholder text</span>
+          </div>
+          <div class="mng-form-field__cursor-container-4" data-layer="Cursor Container" hidden>
+            <i class="mng-form-field__union-4" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+          </div>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__card-badge-4" data-component="Icons" data-variant="Name=Visa" data-label="card badge" hidden>Icons · Name=Visa</div>
+        </div>
+        <div class="mng-form-field__icon-frame-right-4" data-layer="icon frame right" hidden>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-8" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+      </div>
+      <div class="mng-form-field__error-message-container-4" data-layer="Error Message Container">
+        <span class="mng-form-field__error-message-text-4">Error message text.</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Desktop, State=Error">
+  <h1>Form Field · Size=Desktop, State=Error · 480×103</h1>
+  <div class="skel-stage">
+    <div class="mng-form-field__size-desktop-state-error" data-layer="Size=Desktop, State=Error">
+      <div class="mng-form-field__label-container-5" data-layer="Label Container">
+        <div class="mng-form-field__label-icon-container-5" data-layer="Label Icon Container" hidden>
+          <i class="mng-form-field__vector-5" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-form-field__label-text-container-5" data-layer="Label Text Container">
+          <span class="mng-form-field__label-5">Field Label</span>
+        </div>
+      </div>
+      <div class="mng-form-field__input-field-container-5" data-layer="Input Field Container">
+        <div class="mng-form-field__icon-frame-5" data-layer="icon frame">
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-9" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+        <div class="mng-form-field__input-field-5" data-layer="Input Field">
+          <div class="mng-form-field__text-container-5" data-layer="Text Container">
+            <span class="mng-form-field__value-5">Placeholder text</span>
+          </div>
+          <div class="mng-form-field__cursor-container-5" data-layer="Cursor Container" hidden>
+            <i class="mng-form-field__union-5" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+          </div>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__card-badge-5" data-component="Icons" data-variant="Name=Visa" data-label="card badge" hidden>Icons · Name=Visa</div>
+        </div>
+        <div class="mng-form-field__icon-frame-right-5" data-layer="icon frame right" hidden>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-10" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+      </div>
+      <div class="mng-form-field__error-message-container-5" data-layer="Error Message Container">
+        <span class="mng-form-field__error-message-text-5">Error message text.</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Desktop, State=Disabled">
+  <h1>Form Field · Size=Desktop, State=Disabled · 480×103</h1>
+  <div class="skel-stage">
+    <div class="mng-form-field__size-desktop-state-disabled" data-layer="Size=Desktop, State=Disabled">
+      <div class="mng-form-field__label-container-6" data-layer="Label Container">
+        <div class="mng-form-field__label-icon-container-6" data-layer="Label Icon Container" hidden>
+          <i class="mng-form-field__vector-6" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-form-field__label-text-container-6" data-layer="Label Text Container">
+          <span class="mng-form-field__label-6">Field Label</span>
+        </div>
+      </div>
+      <div class="mng-form-field__input-field-container-6" data-layer="Input Field Container">
+        <div class="mng-form-field__icon-frame-6" data-layer="icon frame">
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-11" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+        <div class="mng-form-field__input-field-6" data-layer="Input Field">
+          <div class="mng-form-field__text-container-6" data-layer="Text Container">
+            <span class="mng-form-field__value-6">Placeholder text</span>
+          </div>
+          <div class="mng-form-field__cursor-container-6" data-layer="Cursor Container" hidden>
+            <i class="mng-form-field__union-6" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+          </div>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__card-badge-6" data-component="Icons" data-variant="Name=Visa" data-label="card badge" hidden>Icons · Name=Visa</div>
+        </div>
+        <div class="mng-form-field__icon-frame-right-6" data-layer="icon frame right" hidden>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-12" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+      </div>
+      <div class="mng-form-field__error-message-container-6" data-layer="Error Message Container">
+        <span class="mng-form-field__error-message-text-6">Error message text.</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Mobile, State=Filled">
+  <h1>Form Field · Size=Mobile, State=Filled · 328×81</h1>
+  <div class="skel-stage">
+    <div class="mng-form-field__size-mobile-state-filled" data-layer="Size=Mobile, State=Filled">
+      <div class="mng-form-field__label-container-7" data-layer="Label Container">
+        <div class="mng-form-field__label-icon-container-7" data-layer="Label Icon Container" hidden>
+          <i class="mng-form-field__vector-7" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-form-field__label-text-container-7" data-layer="Label Text Container">
+          <span class="mng-form-field__label-7">Field Label</span>
+        </div>
+      </div>
+      <div class="mng-form-field__input-field-container-7" data-layer="Input Field Container">
+        <div class="mng-form-field__icon-frame-7" data-layer="icon frame">
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-13" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+        <div class="mng-form-field__input-field-7" data-layer="Input Field">
+          <div class="mng-form-field__text-container-7" data-layer="Text Container">
+            <span class="mng-form-field__value-7">you@example.com</span>
+          </div>
+          <div class="mng-form-field__cursor-container-7" data-layer="Cursor Container" hidden>
+            <i class="mng-form-field__union-7" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+          </div>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__card-badge-7" data-component="Icons" data-variant="Name=Visa" data-label="card badge" hidden>Icons · Name=Visa</div>
+        </div>
+        <div class="mng-form-field__icon-frame-right-7" data-layer="icon frame right" hidden>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-14" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+      </div>
+      <div class="mng-form-field__error-message-container-7" data-layer="Error Message Container">
+        <span class="mng-form-field__error-message-text-7">Error message text.</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Mobile, State=Focus">
+  <h1>Form Field · Size=Mobile, State=Focus · 328×81</h1>
+  <div class="skel-stage">
+    <div class="mng-form-field__size-mobile-state-focus" data-layer="Size=Mobile, State=Focus">
+      <div class="mng-form-field__label-container-8" data-layer="Label Container">
+        <div class="mng-form-field__label-icon-container-8" data-layer="Label Icon Container" hidden>
+          <i class="mng-form-field__vector-8" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-form-field__label-text-container-8" data-layer="Label Text Container">
+          <span class="mng-form-field__label-8">Field Label</span>
+        </div>
+      </div>
+      <div class="mng-form-field__input-field-container-8" data-layer="Input Field Container">
+        <div class="mng-form-field__icon-frame-8" data-layer="icon frame">
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-15" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+        <div class="mng-form-field__input-field-8" data-layer="Input Field">
+          <div class="mng-form-field__text-container-8" data-layer="Text Container">
+            <span class="mng-form-field__value-8">Placeholder text</span>
+          </div>
+          <div class="mng-form-field__cursor-container-8" data-layer="Cursor Container">
+            <i class="mng-form-field__union-8" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+          </div>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__card-badge-8" data-component="Icons" data-variant="Name=Visa" data-label="card badge" hidden>Icons · Name=Visa</div>
+        </div>
+        <div class="mng-form-field__icon-frame-right-8" data-layer="icon frame right" hidden>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-16" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+      </div>
+      <div class="mng-form-field__error-message-container-8" data-layer="Error Message Container">
+        <span class="mng-form-field__error-message-text-8">Error message text.</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Mobile, State=Error">
+  <h1>Form Field · Size=Mobile, State=Error · 328×81</h1>
+  <div class="skel-stage">
+    <div class="mng-form-field__size-mobile-state-error" data-layer="Size=Mobile, State=Error">
+      <div class="mng-form-field__label-container-9" data-layer="Label Container">
+        <div class="mng-form-field__label-icon-container-9" data-layer="Label Icon Container" hidden>
+          <i class="mng-form-field__vector-9" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-form-field__label-text-container-9" data-layer="Label Text Container">
+          <span class="mng-form-field__label-9">Field Label</span>
+        </div>
+      </div>
+      <div class="mng-form-field__input-field-container-9" data-layer="Input Field Container">
+        <div class="mng-form-field__icon-frame-9" data-layer="icon frame">
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-17" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+        <div class="mng-form-field__input-field-9" data-layer="Input Field">
+          <div class="mng-form-field__text-container-9" data-layer="Text Container">
+            <span class="mng-form-field__value-9">Placeholder text</span>
+          </div>
+          <div class="mng-form-field__cursor-container-9" data-layer="Cursor Container" hidden>
+            <i class="mng-form-field__union-9" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+          </div>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__card-badge-9" data-component="Icons" data-variant="Name=Visa" data-label="card badge" hidden>Icons · Name=Visa</div>
+        </div>
+        <div class="mng-form-field__icon-frame-right-9" data-layer="icon frame right" hidden>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-18" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+      </div>
+      <div class="mng-form-field__error-message-container-9" data-layer="Error Message Container">
+        <span class="mng-form-field__error-message-text-9">Error message text.</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Mobile, State=Disabled">
+  <h1>Form Field · Size=Mobile, State=Disabled · 328×81</h1>
+  <div class="skel-stage">
+    <div class="mng-form-field__size-mobile-state-disabled" data-layer="Size=Mobile, State=Disabled">
+      <div class="mng-form-field__label-container-10" data-layer="Label Container">
+        <div class="mng-form-field__label-icon-container-10" data-layer="Label Icon Container" hidden>
+          <i class="mng-form-field__vector-10" aria-hidden="true"></i><!-- vector "Vector" -->
+        </div>
+        <div class="mng-form-field__label-text-container-10" data-layer="Label Text Container">
+          <span class="mng-form-field__label-10">Field Label</span>
+        </div>
+      </div>
+      <div class="mng-form-field__input-field-container-10" data-layer="Input Field Container">
+        <div class="mng-form-field__icon-frame-10" data-layer="icon frame">
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-19" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+        <div class="mng-form-field__input-field-10" data-layer="Input Field">
+          <div class="mng-form-field__text-container-10" data-layer="Text Container">
+            <span class="mng-form-field__value-10">Placeholder text</span>
+          </div>
+          <div class="mng-form-field__cursor-container-10" data-layer="Cursor Container" hidden>
+            <i class="mng-form-field__union-10" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+          </div>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__card-badge-10" data-component="Icons" data-variant="Name=Visa" data-label="card badge" hidden>Icons · Name=Visa</div>
+        </div>
+        <div class="mng-form-field__icon-frame-right-10" data-layer="icon frame right" hidden>
+          <!-- instance of "Icons" → external (not in this export) -->
+          <div class="mng-form-field__icons-20" data-component="Icons" data-variant="Name=email" data-label="Icons">Icons · Name=email</div>
+        </div>
+      </div>
+      <div class="mng-form-field__error-message-container-10" data-layer="Error Message Container">
+        <span class="mng-form-field__error-message-text-10">Error message text.</span>
+      </div>
+    </div>
+  </div>
+</section>
+</body></html>

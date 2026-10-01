@@ -1,0 +1,1256 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Latest Headlines List Item",
+ "slug": "latest-headlines-list-item",
+ "order": 7,
+ "typeLabel": "Component · 3 variants",
+ "description": "Component set · Variant: Type = First, Standard, Sponsored (badge defaults to None; Sponsored variant uses Article Status Badge = Sponsored)",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3336:46118",
+  "mainKey": "264c00580f01ace3ec1483efbb4da877a0238766",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46118",
+  "variants": [
+   {
+    "label": "Type=First",
+    "id": "3336:46115",
+    "key": "25a91f43951ba19fc2b1308139dc36b75d9440fc",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46115"
+   },
+   {
+    "label": "Type=Standard",
+    "id": "3336:46116",
+    "key": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46116"
+   },
+   {
+    "label": "Type=Sponsored",
+    "id": "3336:46117",
+    "key": "4a28da74cdd8fc131f87a55c16f435ca71b9533e",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46117"
+   }
+  ]
+ },
+ "properties": {
+  "Type": {
+   "type": "VARIANT",
+   "default": "First",
+   "options": [
+    "First",
+    "Standard",
+    "Sponsored"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Latest Headlines"
+  ],
+  "perVariant": [
+   {
+    "label": "Type=First",
+    "id": "3336:46115",
+    "templatesDirect": {
+     "1024 HomePage": 1,
+     "1100 HomePage": 1
+    },
+    "templatesVia": {
+     "Desktop HomePage": [
+      "Latest Headlines"
+     ],
+     "Mobile HomePage": [
+      "Latest Headlines"
+     ],
+     "340 HomePage": [
+      "Latest Headlines"
+     ],
+     "768 HomePage": [
+      "Latest Headlines"
+     ]
+    },
+    "nestedIn": {
+     "Latest Headlines / Device=Desktop": 1,
+     "Latest Headlines / Device=Mobile": 1,
+     "Latest Headlines / Device=Tablet": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Type=Standard",
+    "id": "3336:46116",
+    "templatesDirect": {
+     "1100 HomePage": 6,
+     "1024 HomePage": 6
+    },
+    "templatesVia": {
+     "Mobile HomePage": [
+      "Latest Headlines"
+     ],
+     "340 HomePage": [
+      "Latest Headlines"
+     ],
+     "768 HomePage": [
+      "Latest Headlines"
+     ],
+     "Desktop HomePage": [
+      "Latest Headlines"
+     ]
+    },
+    "nestedIn": {
+     "Latest Headlines / Device=Mobile": 6,
+     "Latest Headlines / Device=Tablet": 6,
+     "Latest Headlines / Device=Desktop": 6
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Type=Sponsored",
+    "id": "3336:46117",
+    "templatesDirect": {
+     "1100 HomePage": 1,
+     "1024 HomePage": 1
+    },
+    "templatesVia": {
+     "768 HomePage": [
+      "Latest Headlines"
+     ],
+     "Mobile HomePage": [
+      "Latest Headlines"
+     ],
+     "340 HomePage": [
+      "Latest Headlines"
+     ],
+     "Desktop HomePage": [
+      "Latest Headlines"
+     ]
+    },
+    "nestedIn": {
+     "Latest Headlines / Device=Tablet": 1,
+     "Latest Headlines / Device=Mobile": 1,
+     "Latest Headlines / Device=Desktop": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Article Status Badge",
+    "count": 3,
+    "inExport": true,
+    "section": "Article Status Badge",
+    "path": "../01-article-status-badge/article-status-badge.md"
+   }
+  ],
+  "builtInto": [
+   {
+    "name": "Latest Headlines",
+    "path": "../../assemblies/09-latest-headlines/latest-headlines.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Type=First",
+   "variantProperties": {
+    "Type": "First"
+   },
+   "id": "3336:46115",
+   "key": "25a91f43951ba19fc2b1308139dc36b75d9440fc",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46115",
+   "width": 226,
+   "height": 62,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 4,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/latest-headlines-list-item--first.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Type=First",
+    "type": "COMPONENT",
+    "id": "3336:46115",
+    "w": 226,
+    "h": 62,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 4,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Article Status Badge",
+      "type": "INSTANCE",
+      "id": "3344:64005",
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0,
+      "hidden": true,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "component": "Article Status Badge",
+      "variant": {
+       "Type": "None"
+      },
+      "componentKey": "4bbcedebfb8a8e0b414d8217830d29de5fea2b5e",
+      "mainId": "3344:63994"
+     },
+     {
+      "name": "Headline Container",
+      "type": "FRAME",
+      "id": "3336:46093",
+      "w": 226,
+      "h": 40,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Latest headlines Number ONE: This wraps to two lines.",
+        "type": "TEXT",
+        "id": "3336:46094",
+        "w": 226,
+        "h": 40,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "text": "Latest headlines Number ONE: This wraps to two lines.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Serif",
+          "weight": "Bold",
+          "size": 15,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ],
+          "textStyle": "Additional Headlines"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Meta Container",
+      "type": "FRAME",
+      "id": "3336:46095",
+      "w": 226,
+      "h": 18,
+      "x": 0,
+      "y": 44,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "children": [
+       {
+        "name": "56 mins ago",
+        "type": "TEXT",
+        "id": "3336:46096",
+        "w": 226,
+        "h": 18,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "text": "56 mins ago",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 13,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#5E5D5C",
+            "variable": "Colors/color/gray/200"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "25a91f43951ba19fc2b1308139dc36b75d9440fc",
+    "variantProperties": {
+     "Type": "First"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Type=Standard",
+   "variantProperties": {
+    "Type": "Standard"
+   },
+   "id": "3336:46116",
+   "key": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46116",
+   "width": 226,
+   "height": 78,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 16,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/latest-headlines-list-item--standard.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Type=Standard",
+    "type": "COMPONENT",
+    "id": "3336:46116",
+    "w": 226,
+    "h": 78,
+    "x": 16,
+    "y": 95,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 16,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Line 1",
+      "type": "LINE",
+      "id": "3336:46098",
+      "w": 226,
+      "h": 0,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER"
+     },
+     {
+      "name": "Content Card",
+      "type": "FRAME",
+      "id": "3336:46099",
+      "w": 226,
+      "h": 62,
+      "x": 0,
+      "y": 16,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 4,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "children": [
+       {
+        "name": "Article Status Badge",
+        "type": "INSTANCE",
+        "id": "3344:64006",
+        "w": 0,
+        "h": 0,
+        "x": 0,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "component": "Article Status Badge",
+        "variant": {
+         "Type": "None"
+        },
+        "componentKey": "4bbcedebfb8a8e0b414d8217830d29de5fea2b5e",
+        "mainId": "3344:63994"
+       },
+       {
+        "name": "Headline Container",
+        "type": "FRAME",
+        "id": "3336:46101",
+        "w": 226,
+        "h": 40,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Latest headlines Number Seven: Wraps to two lines.",
+          "type": "TEXT",
+          "id": "3336:46102",
+          "w": 226,
+          "h": 40,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Latest headlines Number Seven: Wraps to two lines.",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Serif",
+            "weight": "Bold",
+            "size": 15,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": "Additional Headlines"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Meta Container",
+        "type": "FRAME",
+        "id": "3336:46103",
+        "w": 226,
+        "h": 18,
+        "x": 0,
+        "y": 44,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "children": [
+         {
+          "name": "57 mins ago",
+          "type": "TEXT",
+          "id": "3336:46104",
+          "w": 226,
+          "h": 18,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "57 mins ago",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 13,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#5E5D5C",
+              "variable": "Colors/color/gray/200"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+    "variantProperties": {
+     "Type": "Standard"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Type=Sponsored",
+   "variantProperties": {
+    "Type": "Sponsored"
+   },
+   "id": "3336:46117",
+   "key": "4a28da74cdd8fc131f87a55c16f435ca71b9533e",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46117",
+   "width": 226,
+   "height": 146,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 16,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/latest-headlines-list-item--sponsored.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Type=Sponsored",
+    "type": "COMPONENT",
+    "id": "3336:46117",
+    "w": 226,
+    "h": 146,
+    "x": 16,
+    "y": 190,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 16,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Line 1",
+      "type": "LINE",
+      "id": "3336:46106",
+      "w": 226,
+      "h": 0,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER"
+     },
+     {
+      "name": "Content Card",
+      "type": "FRAME",
+      "id": "3336:46107",
+      "w": 226,
+      "h": 130,
+      "x": 0,
+      "y": 16,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 4,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "children": [
+       {
+        "name": "Frame 323",
+        "type": "FRAME",
+        "id": "3336:46108",
+        "w": 138,
+        "h": 27,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "children": [
+         {
+          "name": "Article Status Badge",
+          "type": "INSTANCE",
+          "id": "3344:64041",
+          "w": 138,
+          "h": 27,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            2,
+            5,
+            2,
+            5
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#7D161E"
+           }
+          ],
+          "component": "Article Status Badge",
+          "variant": {
+           "Type": "Sponsored"
+          },
+          "componentKey": "2cba7cf7dd45bbf3b7d1d71d53de2acd577e3217",
+          "mainId": "3344:63991"
+         }
+        ]
+       },
+       {
+        "name": "Headline Container",
+        "type": "FRAME",
+        "id": "3336:46110",
+        "w": 226,
+        "h": 60,
+        "x": 0,
+        "y": 31,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Latest headlines Number Twelve: This one wraps to three lines.",
+          "type": "TEXT",
+          "id": "3336:46111",
+          "w": 226,
+          "h": 60,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Latest headlines Number Twelve: This one wraps to three lines.",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Serif",
+            "weight": "Bold",
+            "size": 15,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": "Additional Headlines"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Meta Container",
+        "type": "FRAME",
+        "id": "3336:46112",
+        "w": 226,
+        "h": 35,
+        "x": 0,
+        "y": 95,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "children": [
+         {
+          "name": "By Xcel Energy",
+          "type": "TEXT",
+          "id": "3336:46113",
+          "w": 226,
+          "h": 15,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FIXED",
+           "v": "HUG"
+          },
+          "text": "By Xcel Energy",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Droid Sans",
+            "weight": "Regular",
+            "size": 13,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#5E5D5C",
+              "variable": "Colors/color/gray/200"
+             }
+            ],
+            "textStyle": "ByLine/date"
+           }
+          ]
+         },
+         {
+          "name": "90D7B78FD37C47F7A7A09F85AE8E804B 1",
+          "type": "RECTANGLE",
+          "id": "3336:46114",
+          "w": 60,
+          "h": 12,
+          "x": 0,
+          "y": 23,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "fills": [
+           {
+            "type": "IMAGE",
+            "scaleMode": "FILL"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "4a28da74cdd8fc131f87a55c16f435ca71b9533e",
+    "variantProperties": {
+     "Type": "Sponsored"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Latest headlines Number ONE: This wraps to two lines.",
+   "font": "Noto Serif",
+   "weight": "Bold",
+   "size": 15,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": "Additional Headlines",
+   "truncate": null,
+   "sample": "Latest headlines Number ONE: This wraps to two lin",
+   "variants": [
+    "Type=First"
+   ]
+  },
+  {
+   "layer": "56 mins ago",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 13,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#5E5D5C",
+   "token": "Colors/color/gray/200",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "56 mins ago",
+   "variants": [
+    "Type=First"
+   ]
+  },
+  {
+   "layer": "Latest headlines Number Seven: Wraps to two lines.",
+   "font": "Noto Serif",
+   "weight": "Bold",
+   "size": 15,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": "Additional Headlines",
+   "truncate": null,
+   "sample": "Latest headlines Number Seven: Wraps to two lines.",
+   "variants": [
+    "Type=Standard"
+   ]
+  },
+  {
+   "layer": "57 mins ago",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 13,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#5E5D5C",
+   "token": "Colors/color/gray/200",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "57 mins ago",
+   "variants": [
+    "Type=Standard"
+   ]
+  },
+  {
+   "layer": "Latest headlines Number Twelve: This one wraps to three lines.",
+   "font": "Noto Serif",
+   "weight": "Bold",
+   "size": 15,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": "Additional Headlines",
+   "truncate": null,
+   "sample": "Latest headlines Number Twelve: This one wraps to ",
+   "variants": [
+    "Type=Sponsored"
+   ]
+  },
+  {
+   "layer": "By Xcel Energy",
+   "font": "Droid Sans",
+   "weight": "Regular",
+   "size": 13,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#5E5D5C",
+   "token": "Colors/color/gray/200",
+   "textStyle": "ByLine/date",
+   "truncate": null,
+   "sample": "By Xcel Energy",
+   "variants": [
+    "Type=Sponsored"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Type=First",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Type=Standard",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Line 1",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#CCCAC7",
+   "token": "Colors/color/gray/500",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  },
+  {
+   "layer": "Type=Sponsored",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "90D7B78FD37C47F7A7A09F85AE8E804B 1",
+   "role": "fill",
+   "type": "IMAGE",
+   "hex": null,
+   "token": null,
+   "opacity": null,
+   "note": " IMAGE FILL",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Type=First: 226×62, vertical gap 4 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280",
+  "Type=Standard: 226×78, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280",
+  "Type=Sponsored: 226×146, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "`Type=Sponsored`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Sans Regular ×1."
+ ],
+ "skeleton": "latest-headlines-list-item.html",
+ "exported": "2026-09-24"
+}

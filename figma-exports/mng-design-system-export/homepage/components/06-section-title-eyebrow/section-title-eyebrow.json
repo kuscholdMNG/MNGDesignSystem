@@ -1,0 +1,605 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Section Title / Eyebrow",
+ "slug": "section-title-eyebrow",
+ "order": 6,
+ "typeLabel": "Component · 2 variants",
+ "description": "Component set · Variant: Style = Underline, Bold · Chevron = boolean, shows/hides the arrow-right icon (off by default)",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3333:42278",
+  "mainKey": "5328709ebbc037e3ef524cab212533ccb6fb6465",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3333-42278",
+  "variants": [
+   {
+    "label": "Style=Underline",
+    "id": "3326:41622",
+    "key": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3326-41622"
+   },
+   {
+    "label": "Style=Bold",
+    "id": "3333:42270",
+    "key": "62d8b4021212e9b55d09fc65291f260b942afe8a",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3333-42270"
+   }
+  ]
+ },
+ "properties": {
+  "Chevron#3349:200": {
+   "type": "BOOLEAN",
+   "default": true
+  },
+  "Style": {
+   "type": "VARIANT",
+   "default": "Underline",
+   "options": [
+    "Underline",
+    "Bold"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Latest Headlines",
+   "Blueconic Block (Most Popular)",
+   "Section Rail Card",
+   "Photos Block"
+  ],
+  "perVariant": [
+   {
+    "label": "Style=Underline",
+    "id": "3326:41622",
+    "templatesDirect": {
+     "1024 HomePage": 12,
+     "Mobile HomePage": 12,
+     "Desktop HomePage": 11,
+     "768 HomePage": 12,
+     "1100 HomePage": 12,
+     "340 HomePage": 12
+    },
+    "templatesVia": {
+     "768 HomePage": [
+      "Blueconic Block (Most Popular)",
+      "Latest Headlines",
+      "Photos Block",
+      "Section Rail Card"
+     ],
+     "1100 HomePage": [
+      "Section Rail Card"
+     ],
+     "1024 HomePage": [
+      "Section Rail Card"
+     ],
+     "Mobile HomePage": [
+      "Blueconic Block (Most Popular)",
+      "Section Rail Card",
+      "TOP ZONE Block"
+     ],
+     "340 HomePage": [
+      "Blueconic Block (Most Popular)",
+      "Section Rail Card",
+      "TOP ZONE Block"
+     ],
+     "Desktop HomePage": [
+      "Latest Headlines",
+      "Section Rail Card"
+     ]
+    },
+    "nestedIn": {
+     "Photos Block / Device=Desktop": 1,
+     "Section Rail Card / Device=Tablet, Layout=Wide": 1,
+     "Section Rail Card / Device=1100, Layout=Wide": 1,
+     "Section Rail Card / Device=1024, Layout=Wide": 1,
+     "Blueconic Block (Most Popular) / Device=Tablet": 1,
+     "Section Rail Card / Device=Mobile, Layout=Narrow": 1,
+     "Latest Headlines / Device=Desktop": 1,
+     "Photos Block / Device=Tablet": 1,
+     "Section Rail Card / Device=Tablet, Layout=Narrow": 1,
+     "Section Rail Card / Device=Desktop, Layout=Narrow": 1,
+     "Blueconic Block (Most Popular) / Device=Mobile": 1,
+     "Latest Headlines / Device=Tablet": 1,
+     "TOP ZONE Block / Device=Mobile": 1,
+     "TOP ZONE Block / Device=Tablet": 1,
+     "Section Rail Card / Device=1280, Layout=Wide": 1,
+     "Latest Headlines / Device=Mobile": 1,
+     "Photos Block / Device=Mobile": 1,
+     "Blueconic Block (Most Popular) / Device=Desktop": 1,
+     "Section Rail Card / Device=1024, Layout=Narrow": 1,
+     "Section Rail Card / Device=1100, Layout=Narrow": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Style=Bold",
+    "id": "3333:42270",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [],
+    "breakpoints": []
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Icons",
+    "count": 2,
+    "inExport": false,
+    "section": null,
+    "path": null
+   }
+  ],
+  "builtInto": [
+   {
+    "name": "Latest Headlines",
+    "path": "../../assemblies/09-latest-headlines/latest-headlines.md"
+   },
+   {
+    "name": "Blueconic Block (Most Popular)",
+    "path": "../../assemblies/14-blueconic-block-most-popular/blueconic-block-most-popular.md"
+   },
+   {
+    "name": "Section Rail Card",
+    "path": "../../assemblies/18-section-rail-card/section-rail-card.md"
+   },
+   {
+    "name": "Photos Block",
+    "path": "../../assemblies/22-photos-block/photos-block.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Style=Underline",
+   "variantProperties": {
+    "Style": "Underline"
+   },
+   "id": "3326:41622",
+   "key": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3326-41622",
+   "width": 212,
+   "height": 30,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 6,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/section-title-eyebrow--underline.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Style=Underline",
+    "type": "COMPONENT",
+    "id": "3326:41622",
+    "w": 212,
+    "h": 30,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 6,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Title Row",
+      "type": "FRAME",
+      "id": "3349:66572",
+      "w": 212,
+      "h": 22,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 6,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Latest Headlines",
+        "type": "TEXT",
+        "id": "3326:41623",
+        "w": 190,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "text": "Latest Headlines",
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 20,
+          "lineHeight": "22px",
+          "letterSpacing": "0.699999988079071px",
+          "case": "UPPER",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#393938",
+            "variable": "Colors/color/gray/100"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       },
+       {
+        "name": "Icons",
+        "type": "INSTANCE",
+        "id": "3349:66573",
+        "w": 16,
+        "h": 16,
+        "x": 196,
+        "y": 3,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          3,
+          0,
+          3
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "component": "Icons",
+        "variant": {
+         "Name": "arrow-right2"
+        },
+        "componentKey": "5f9ce51d28e573815467abbfbd10b4228483ee32",
+        "mainId": "3493:81055",
+        "props": {}
+       }
+      ]
+     },
+     {
+      "name": "Rectangle",
+      "type": "RECTANGLE",
+      "id": "3326:41624",
+      "w": 212,
+      "h": 2,
+      "x": 0,
+      "y": 28,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#007580",
+        "variable": "Colors/color/theme/primary"
+       }
+      ]
+     }
+    ],
+    "key": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+    "variantProperties": {
+     "Style": "Underline"
+    },
+    "componentDescription": "Local master mirroring MNG Design System Section Title / Eyebrow, Style=Underline (node 248:51, key b9438c459eb9fa38f49250fdd838b8427cee05bb). Built directly in Website Page Templates on 2026-09-02 because the MNG Design System component is not published as a team library, so this file could not reference it via importComponentByKeyAsync. Spec: Noto Sans Regular 20px, uppercase, 0.7px letter-spacing, 22px line-height, text bound to Color/gray/gray-100, 2px bottom rule bound to Color/ThemeColors/Primary, themes per site automatically. Publish this component from the Assets panel to make it a real team-library source; until then this is the local source of truth."
+   }
+  },
+  {
+   "label": "Style=Bold",
+   "variantProperties": {
+    "Style": "Bold"
+   },
+   "id": "3333:42270",
+   "key": "62d8b4021212e9b55d09fc65291f260b942afe8a",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3333-42270",
+   "width": 190,
+   "height": 23,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/section-title-eyebrow--bold.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Style=Bold",
+    "type": "COMPONENT",
+    "id": "3333:42270",
+    "w": 190,
+    "h": 23,
+    "x": 16,
+    "y": 62,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Title Row",
+      "type": "FRAME",
+      "id": "3349:66607",
+      "w": 190,
+      "h": 23,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 6,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Latest Headlines",
+        "type": "TEXT",
+        "id": "3333:42271",
+        "w": 168,
+        "h": 23,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "text": "Latest Headlines",
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Bold",
+          "size": 17,
+          "lineHeight": "auto",
+          "letterSpacing": "0.5950000286102295px",
+          "case": "UPPER",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#007580",
+            "variable": "Colors/color/theme/primary"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       },
+       {
+        "name": "Icons",
+        "type": "INSTANCE",
+        "id": "3349:66608",
+        "w": 16,
+        "h": 16,
+        "x": 174,
+        "y": 3.5,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          3,
+          0,
+          3
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "component": "Icons",
+        "variant": {
+         "Name": "arrow-right2"
+        },
+        "componentKey": "5f9ce51d28e573815467abbfbd10b4228483ee32",
+        "mainId": "3493:81055",
+        "props": {}
+       }
+      ]
+     }
+    ],
+    "key": "62d8b4021212e9b55d09fc65291f260b942afe8a",
+    "variantProperties": {
+     "Style": "Bold"
+    },
+    "componentDescription": "Local mirror of MNG Design System Section Title / Eyebrow component, Style=Bold variant. Built and verified against chicagotribune.com live styling on 2026-09-03: Noto Sans Bold 17px, uppercase, 0.595px letter-spacing, brand-color text via color/theme/primary variable, no underline rule. A human still needs to manually Publish this component to the team library."
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Latest Headlines",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 20,
+   "lineHeight": "22px",
+   "letterSpacing": "0.699999988079071px",
+   "case": "UPPER",
+   "decoration": null,
+   "color": "#393938",
+   "token": "Colors/color/gray/100",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Latest Headlines",
+   "variants": [
+    "Style=Underline"
+   ]
+  },
+  {
+   "layer": "Latest Headlines",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 17,
+   "lineHeight": "auto",
+   "letterSpacing": "0.5950000286102295px",
+   "case": "UPPER",
+   "decoration": null,
+   "color": "#007580",
+   "token": "Colors/color/theme/primary",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Latest Headlines",
+   "variants": [
+    "Style=Bold"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Rectangle",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#007580",
+   "token": "Colors/color/theme/primary",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Style=Underline: 212×30, vertical gap 6 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280",
+  "Style=Bold: 190×23, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at (no breakpoint evidence)"
+ ],
+ "productionRefs": [
+  "chicagotribune.com"
+ ],
+ "knownIssues": [
+  "1 of 2 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Style=Bold`."
+ ],
+ "skeleton": "section-title-eyebrow.html",
+ "exported": "2026-09-24"
+}

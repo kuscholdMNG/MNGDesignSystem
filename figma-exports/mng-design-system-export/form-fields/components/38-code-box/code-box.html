@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Code Box — skeleton</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../tokens.css">
+<style>
+*{box-sizing:border-box} body{margin:0;padding:24px;background:#f4f4f4;font-family:'Noto Sans',sans-serif;color:#141414}
+[hidden]{display:none!important}
+.skel-variant{margin:0 0 40px} .skel-variant>h1{font:600 13px/1.4 monospace;color:#555;margin:0 0 8px}
+.skel-stage{background:#fff;display:inline-block;outline:1px solid #ddd}
+.mng-code-box__size-desktop-state-blank{width:36px;min-height:56px;position:relative;display:flex;flex-direction:row;gap:8px;padding:8px 0px 8px 0px;justify-content:center;align-items:center;background:var(--mng-gray-max, #FFFFFF);border:1px solid var(--mng-gray-400, #A7A6A3);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-code-box__text-container{display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-code-box__value{text-align:center;margin:0}
+.mng-code-box__cursor-container{position:absolute;left:0px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-code-box__union{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-code-box__size-desktop-state-filled{width:36px;min-height:56px;position:relative;display:flex;flex-direction:row;gap:8px;padding:8px 0px 8px 0px;justify-content:center;align-items:center;background:var(--mng-gray-max, #FFFFFF);border:1px solid var(--mng-gray-400, #A7A6A3);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-code-box__text-container-2{display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-code-box__value-2{font-family:'Noto Sans', sans-serif;font-size:18px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:center;margin:0}
+.mng-code-box__cursor-container-2{position:absolute;left:0px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-code-box__union-2{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-code-box__size-desktop-state-focus{width:36px;min-height:56px;position:relative;display:flex;flex-direction:row;gap:8px;padding:8px 0px 8px 0px;justify-content:center;align-items:center;background:var(--mng-gray-max, #FFFFFF);border:2px solid #000000;box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-code-box__text-container-3{display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-code-box__value-3{text-align:center;margin:0}
+.mng-code-box__cursor-container-3{position:absolute;left:12.5px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-code-box__union-3{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-code-box__size-desktop-state-error{width:36px;min-height:56px;position:relative;display:flex;flex-direction:row;gap:8px;padding:8px 0px 8px 0px;justify-content:center;align-items:center;background:var(--mng-gray-max, #FFFFFF);border:1px solid var(--mng-feedback-high-error, #CC2B27);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-code-box__text-container-4{display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-code-box__value-4{text-align:center;margin:0}
+.mng-code-box__cursor-container-4{position:absolute;left:0px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-code-box__union-4{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-code-box__size-desktop-state-disabled{width:36px;min-height:56px;position:relative;display:flex;flex-direction:row;gap:8px;padding:8px 0px 8px 0px;justify-content:center;align-items:center;background:var(--mng-gray-600, #F1EFEB);border:1px solid var(--mng-gray-500, #CCCAC7);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-code-box__text-container-5{display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-code-box__value-5{text-align:center;margin:0}
+.mng-code-box__cursor-container-5{position:absolute;left:0px;top:18px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-code-box__union-5{width:3px;flex-shrink:0;height:20px;position:relative;background:#000000}
+.mng-code-box__size-mobile-state-blank{width:26px;min-height:40px;position:relative;display:flex;flex-direction:row;gap:8px;padding:8px 0px 8px 0px;justify-content:center;align-items:center;background:var(--mng-gray-max, #FFFFFF);border:1px solid var(--mng-gray-400, #A7A6A3);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-code-box__text-container-6{display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-code-box__value-6{text-align:center;margin:0}
+.mng-code-box__cursor-container-6{position:absolute;left:11.5px;top:13px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-code-box__union-6{width:2.1px;flex-shrink:0;height:14px;position:relative;background:#000000}
+.mng-code-box__size-mobile-state-filled{width:26px;min-height:40px;position:relative;display:flex;flex-direction:row;gap:8px;padding:8px 0px 8px 0px;justify-content:center;align-items:center;background:var(--mng-gray-max, #FFFFFF);border:1px solid var(--mng-gray-400, #A7A6A3);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-code-box__text-container-7{display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-code-box__value-7{font-family:'Noto Sans', sans-serif;font-size:16px;font-weight:700;line-height:normal;color:var(--mng-gray-min, #141414);text-align:center;margin:0}
+.mng-code-box__cursor-container-7{position:absolute;left:11.5px;top:13px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-code-box__union-7{width:2.1px;flex-shrink:0;height:14px;position:relative;background:#000000}
+.mng-code-box__size-mobile-state-focus{width:26px;min-height:40px;position:relative;display:flex;flex-direction:row;gap:8px;padding:8px 0px 8px 0px;justify-content:center;align-items:center;background:var(--mng-gray-max, #FFFFFF);border:2px solid #000000;box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-code-box__text-container-8{display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-code-box__value-8{text-align:center;margin:0}
+.mng-code-box__cursor-container-8{position:absolute;left:8px;top:13px;width:2.1px;height:14px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-code-box__union-8{width:2.1px;flex-shrink:0;height:14px;position:relative;background:#000000}
+.mng-code-box__size-mobile-state-error{width:26px;min-height:40px;position:relative;display:flex;flex-direction:row;gap:8px;padding:8px 0px 8px 0px;justify-content:center;align-items:center;background:var(--mng-gray-max, #FFFFFF);border:1px solid var(--mng-feedback-high-error, #CC2B27);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-code-box__text-container-9{display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-code-box__value-9{text-align:center;margin:0}
+.mng-code-box__cursor-container-9{position:absolute;left:11.5px;top:13px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-code-box__union-9{width:2.1px;flex-shrink:0;height:14px;position:relative;background:#000000}
+.mng-code-box__size-mobile-state-disabled{width:26px;min-height:40px;position:relative;display:flex;flex-direction:row;gap:8px;padding:8px 0px 8px 0px;justify-content:center;align-items:center;background:var(--mng-gray-600, #F1EFEB);border:1px solid var(--mng-gray-500, #CCCAC7);box-sizing:border-box;border-radius:3px;overflow:hidden}
+.mng-code-box__text-container-10{display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative}
+.mng-code-box__value-10{text-align:center;margin:0}
+.mng-code-box__cursor-container-10{position:absolute;left:11.5px;top:13px;width:3px;height:20px;display:flex;flex-direction:row;gap:8px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:center}
+.mng-code-box__union-10{width:2.1px;flex-shrink:0;height:14px;position:relative;background:#000000}
+</style></head>
+<body>
+<!-- Structural skeleton generated from Figma auto-layout. Instances are dashed placeholders; open the referenced file to render them. -->
+<section class="skel-variant" data-variant="Size=Desktop, State=Blank">
+  <h1>Code Box · Size=Desktop, State=Blank · 36×56</h1>
+  <div class="skel-stage">
+    <div class="mng-code-box__size-desktop-state-blank" data-layer="Size=Desktop, State=Blank">
+      <div class="mng-code-box__text-container" data-layer="Text Container">
+        <span class="mng-code-box__value"></span>
+      </div>
+      <div class="mng-code-box__cursor-container" data-layer="Cursor Container" hidden>
+        <i class="mng-code-box__union" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Desktop, State=Filled">
+  <h1>Code Box · Size=Desktop, State=Filled · 36×56</h1>
+  <div class="skel-stage">
+    <div class="mng-code-box__size-desktop-state-filled" data-layer="Size=Desktop, State=Filled">
+      <div class="mng-code-box__text-container-2" data-layer="Text Container">
+        <span class="mng-code-box__value-2">5</span>
+      </div>
+      <div class="mng-code-box__cursor-container-2" data-layer="Cursor Container" hidden>
+        <i class="mng-code-box__union-2" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Desktop, State=Focus">
+  <h1>Code Box · Size=Desktop, State=Focus · 36×56</h1>
+  <div class="skel-stage">
+    <div class="mng-code-box__size-desktop-state-focus" data-layer="Size=Desktop, State=Focus">
+      <div class="mng-code-box__text-container-3" data-layer="Text Container">
+        <span class="mng-code-box__value-3"></span>
+      </div>
+      <div class="mng-code-box__cursor-container-3" data-layer="Cursor Container">
+        <i class="mng-code-box__union-3" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Desktop, State=Error">
+  <h1>Code Box · Size=Desktop, State=Error · 36×56</h1>
+  <div class="skel-stage">
+    <div class="mng-code-box__size-desktop-state-error" data-layer="Size=Desktop, State=Error">
+      <div class="mng-code-box__text-container-4" data-layer="Text Container">
+        <span class="mng-code-box__value-4"></span>
+      </div>
+      <div class="mng-code-box__cursor-container-4" data-layer="Cursor Container" hidden>
+        <i class="mng-code-box__union-4" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Desktop, State=Disabled">
+  <h1>Code Box · Size=Desktop, State=Disabled · 36×56</h1>
+  <div class="skel-stage">
+    <div class="mng-code-box__size-desktop-state-disabled" data-layer="Size=Desktop, State=Disabled">
+      <div class="mng-code-box__text-container-5" data-layer="Text Container">
+        <span class="mng-code-box__value-5"></span>
+      </div>
+      <div class="mng-code-box__cursor-container-5" data-layer="Cursor Container" hidden>
+        <i class="mng-code-box__union-5" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Mobile, State=Blank">
+  <h1>Code Box · Size=Mobile, State=Blank · 26×40</h1>
+  <div class="skel-stage">
+    <div class="mng-code-box__size-mobile-state-blank" data-layer="Size=Mobile, State=Blank">
+      <div class="mng-code-box__text-container-6" data-layer="Text Container">
+        <span class="mng-code-box__value-6"></span>
+      </div>
+      <div class="mng-code-box__cursor-container-6" data-layer="Cursor Container" hidden>
+        <i class="mng-code-box__union-6" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Mobile, State=Filled">
+  <h1>Code Box · Size=Mobile, State=Filled · 26×40</h1>
+  <div class="skel-stage">
+    <div class="mng-code-box__size-mobile-state-filled" data-layer="Size=Mobile, State=Filled">
+      <div class="mng-code-box__text-container-7" data-layer="Text Container">
+        <span class="mng-code-box__value-7">5</span>
+      </div>
+      <div class="mng-code-box__cursor-container-7" data-layer="Cursor Container" hidden>
+        <i class="mng-code-box__union-7" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Mobile, State=Focus">
+  <h1>Code Box · Size=Mobile, State=Focus · 26×40</h1>
+  <div class="skel-stage">
+    <div class="mng-code-box__size-mobile-state-focus" data-layer="Size=Mobile, State=Focus">
+      <div class="mng-code-box__text-container-8" data-layer="Text Container">
+        <span class="mng-code-box__value-8"></span>
+      </div>
+      <div class="mng-code-box__cursor-container-8" data-layer="Cursor Container">
+        <i class="mng-code-box__union-8" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Mobile, State=Error">
+  <h1>Code Box · Size=Mobile, State=Error · 26×40</h1>
+  <div class="skel-stage">
+    <div class="mng-code-box__size-mobile-state-error" data-layer="Size=Mobile, State=Error">
+      <div class="mng-code-box__text-container-9" data-layer="Text Container">
+        <span class="mng-code-box__value-9"></span>
+      </div>
+      <div class="mng-code-box__cursor-container-9" data-layer="Cursor Container" hidden>
+        <i class="mng-code-box__union-9" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Size=Mobile, State=Disabled">
+  <h1>Code Box · Size=Mobile, State=Disabled · 26×40</h1>
+  <div class="skel-stage">
+    <div class="mng-code-box__size-mobile-state-disabled" data-layer="Size=Mobile, State=Disabled">
+      <div class="mng-code-box__text-container-10" data-layer="Text Container">
+        <span class="mng-code-box__value-10"></span>
+      </div>
+      <div class="mng-code-box__cursor-container-10" data-layer="Cursor Container" hidden>
+        <i class="mng-code-box__union-10" aria-hidden="true"></i><!-- boolean_operation "Union" -->
+      </div>
+    </div>
+  </div>
+</section>
+</body></html>

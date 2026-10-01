@@ -1,0 +1,816 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "assembly",
+ "group": "menus-and-parts",
+ "name": "UserStatus",
+ "slug": "userstatus",
+ "order": 35,
+ "typeLabel": "Assembly · 4 variants",
+ "description": null,
+ "designerNotes": [
+  "User Status",
+  "User: Type, Status, Pic"
+ ],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Menus and Parts",
+  "path": [
+   "Frame 12800",
+   "Frame 416",
+   "Frame 11820",
+   "Frame 12776",
+   "Frame 12636",
+   "User Status",
+   "Frame 12758"
+  ],
+  "mainId": "456:5728",
+  "mainKey": "4c1b4132e858b8a7bef12375fa03f44cb6177947",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5728",
+  "variants": [
+   {
+    "label": "Device=Desktop, status=none",
+    "id": "456:5729",
+    "key": "75b4401360410294816486ed741541f190d57a15",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5729"
+   },
+   {
+    "label": "Device=Desktop, status=nonSub",
+    "id": "456:5734",
+    "key": "b1450066e455f63c00d44b22d7233ece876e6bea",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5734"
+   },
+   {
+    "label": "Device=Desktop, status=subscriber",
+    "id": "456:5738",
+    "key": "774aab6ad900098fa1bf1534ded01481389de847",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5738"
+   },
+   {
+    "label": "Device=mobile, status=none",
+    "id": "456:5740",
+    "key": "3352e98cb29762532d3f6e6926f75fb1bb5f15a2",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5740"
+   }
+  ]
+ },
+ "properties": {
+  "Device": {
+   "type": "VARIANT",
+   "default": "Desktop",
+   "options": [
+    "Desktop",
+    "mobile"
+   ]
+  },
+  "status": {
+   "type": "VARIANT",
+   "default": "none",
+   "options": [
+    "none",
+    "nonSub",
+    "subscriber"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [],
+  "perVariant": [
+   {
+    "label": "Device=Desktop, status=none",
+    "id": "456:5729",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {
+     "AccountMenu / Status=loggedOut, View=Closed, Device=XL-Desktop, UserType=loggedOut": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "observedBreakpoints": [],
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Device=Desktop, status=nonSub",
+    "id": "456:5734",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {},
+    "otherPages": {
+     "Menus and Parts ▸ Frame 12800": 1
+    },
+    "declaredBreakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "observedBreakpoints": [],
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Device=Desktop, status=subscriber",
+    "id": "456:5738",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "nestedIn": {
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Dashboard": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Article": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Dashboard": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Home": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=SectionFront": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obituaries": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Home": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Article": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=SectionFront": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront": 1,
+     "ObitMastHead / Device=Desktop, View=Default, Subscriber=Standard, Page=SectionFront": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub": 1,
+     "AccountMenu / Status=loggedIn, View=Closed, Device=LG-TabletH, UserType=loggedIn": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree-Scrolled, Page=Obituaries": 1,
+     "AccountMenu / Status=loggedIn, View=Closed, Device=SM-Mobile, UserType=loggedIn": 1,
+     "AccountMenu / Status=alert, View=Open, Device=XL-Desktop, UserType=PremSub": 1,
+     "AccountMenu/loggedIn/Closed/MD-TabletV/loggedIn": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=SectionFront": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Dashboard": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=groupSub": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Dashboard": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=nonSub": 1,
+     "AccountMenu / Status=loggedIn, View=Closed, Device=MD-TabletV, UserType=loggedIn": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Article": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries": 1,
+     "AccountMenu / Status=loggedIn, View=Closed, Device=XL-Desktop, UserType=loggedIn": 1,
+     "AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=Obituaries": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Article": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Home": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Dashboard": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Dashboard": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Dashboard": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Dashboard": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Home": 1,
+     "AccountMenu / Status=alert, View=Open, Device=XS-Fold, UserType=PremSub": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=SectionFront": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree-Scrolled, Page=Obituaries": 1,
+     "AccountMenu / Status=alert, View=Open, Device=MD-TabletV, UserType=PremSub": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=PremSub": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=BasicSub": 1
+    },
+    "otherPages": {
+     "Menus and Parts ▸ Frame 12800": 79
+    },
+    "declaredBreakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "observedBreakpoints": [],
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Device=mobile, status=none",
+    "id": "456:5740",
+    "templatesDirect": {
+     "340 HomePage": 1,
+     "768 HomePage": 1,
+     "1024 HomePage": 1,
+     "Mobile HomePage": 1
+    },
+    "templatesVia": {
+     "768 HomePage": [
+      "Masthead"
+     ],
+     "Mobile HomePage": [
+      "Masthead"
+     ],
+     "1024 HomePage": [
+      "Masthead"
+     ],
+     "340 HomePage": [
+      "Masthead"
+     ]
+    },
+    "nestedIn": {
+     "AccountMenu / Status=loggedOut, View=Open, Device=MD-TabletV, UserType=loggedOut": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Article": 1,
+     "AccountMenu / Status=loggedOut, View=Open, Device=SM-Mobile, UserType=loggedOut": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Article": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=SectionFront": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituaries": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Home": 1,
+     "AccountMenu / Status=loggedOut, View=Closed, Device=MD-TabletV, UserType=loggedOut": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Obituaries": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=SectionFront": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=SectionFront": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=SectionFront": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Article": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Article": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=SectionFront": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Home": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Obituaries": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Home": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Home": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Article": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=SectionFront": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Obituaries": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Home": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Home": 1,
+     "AccountMenu / Status=loggedOut, View=Closed, Device=SM-Mobile, UserType=loggedOut": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Article": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Article": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Article": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Home": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=SectionFront": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Home": 1,
+     "AccountMenu / Status=loggedOut, View=Closed, Device=LG-TabletH, UserType=loggedOut": 1
+    },
+    "otherPages": {
+     "Menus and Parts ▸ Frame 12800": 17,
+     "Article Page ▸ Frame 11672": 2,
+     "Section Front ▸ Frame 11639": 1
+    },
+    "declaredBreakpoints": [
+     "340",
+     "360",
+     "768"
+    ],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Button Primary",
+    "count": 3,
+    "inExport": false,
+    "section": null,
+    "path": null
+   },
+   {
+    "name": "UserPic",
+    "count": 3,
+    "inExport": true,
+    "section": "UserPic",
+    "path": "../33-userpic/userpic.md"
+   }
+  ],
+  "builtInto": []
+ },
+ "variants": [
+  {
+   "label": "Device=Desktop, status=none",
+   "variantProperties": {
+    "Device": "Desktop",
+    "status": "none"
+   },
+   "id": "456:5729",
+   "key": "75b4401360410294816486ed741541f190d57a15",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5729",
+   "width": 207,
+   "height": 32,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 15,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/userstatus--desktop-none.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Device=Desktop, status=none",
+    "type": "COMPONENT",
+    "id": "456:5729",
+    "w": 207,
+    "h": 32,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "HUG",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 15,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "children": [
+     {
+      "name": "Button Primary",
+      "type": "INSTANCE",
+      "id": "1724:42198",
+      "w": 110,
+      "h": 46,
+      "x": 0,
+      "y": -7,
+      "sizing": {
+       "h": "HUG",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "component": "Button Primary",
+      "variant": {
+       "Icon": "None",
+       "state": "Default"
+      },
+      "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
+      "mainId": "3493:81371"
+     },
+     {
+      "name": "Button Primary",
+      "type": "INSTANCE",
+      "id": "1724:42265",
+      "w": 82,
+      "h": 46,
+      "x": 125,
+      "y": -7,
+      "sizing": {
+       "h": "HUG",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "component": "Button Primary",
+      "variant": {
+       "Icon": "None",
+       "state": "Default"
+      },
+      "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
+      "mainId": "3493:81371"
+     }
+    ],
+    "key": "75b4401360410294816486ed741541f190d57a15",
+    "variantProperties": {
+     "Device": "Desktop",
+     "status": "none"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=Desktop, status=nonSub",
+   "variantProperties": {
+    "Device": "Desktop",
+    "status": "nonSub"
+   },
+   "id": "456:5734",
+   "key": "b1450066e455f63c00d44b22d7233ece876e6bea",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5734",
+   "width": 155,
+   "height": 46,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 15,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/userstatus--desktop-nonsub.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Device=Desktop, status=nonSub",
+    "type": "COMPONENT",
+    "id": "456:5734",
+    "w": 155,
+    "h": 46,
+    "x": 16,
+    "y": 72,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 15,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "children": [
+     {
+      "name": "Button Primary",
+      "type": "INSTANCE",
+      "id": "1724:42326",
+      "w": 110,
+      "h": 46,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "component": "Button Primary",
+      "variant": {
+       "Icon": "None",
+       "state": "Default"
+      },
+      "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
+      "mainId": "3493:81371"
+     },
+     {
+      "name": "UserPic",
+      "type": "INSTANCE",
+      "id": "456:5737",
+      "w": 30,
+      "h": 30,
+      "x": 125,
+      "y": 8,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "component": "UserPic",
+      "variant": {
+       "Size": "Small",
+       "Status": "Default"
+      },
+      "componentKey": "10b073ddb31cc0cbd22bf85c71f892fc5dde0905",
+      "mainId": "456:5675"
+     }
+    ],
+    "key": "b1450066e455f63c00d44b22d7233ece876e6bea",
+    "variantProperties": {
+     "Device": "Desktop",
+     "status": "nonSub"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=Desktop, status=subscriber",
+   "variantProperties": {
+    "Device": "Desktop",
+    "status": "subscriber"
+   },
+   "id": "456:5738",
+   "key": "774aab6ad900098fa1bf1534ded01481389de847",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5738",
+   "width": 30,
+   "height": 32,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 15,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/userstatus--desktop-subscriber.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Device=Desktop, status=subscriber",
+    "type": "COMPONENT",
+    "id": "456:5738",
+    "w": 30,
+    "h": 32,
+    "x": 16,
+    "y": 142,
+    "sizing": {
+     "h": "HUG",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 15,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "children": [
+     {
+      "name": "UserPic",
+      "type": "INSTANCE",
+      "id": "456:5739",
+      "w": 30,
+      "h": 30,
+      "x": 0,
+      "y": 1,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "component": "UserPic",
+      "variant": {
+       "Size": "Small",
+       "Status": "Default"
+      },
+      "componentKey": "10b073ddb31cc0cbd22bf85c71f892fc5dde0905",
+      "mainId": "456:5675"
+     }
+    ],
+    "key": "774aab6ad900098fa1bf1534ded01481389de847",
+    "variantProperties": {
+     "Device": "Desktop",
+     "status": "subscriber"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=mobile, status=none",
+   "variantProperties": {
+    "Device": "mobile",
+    "status": "none"
+   },
+   "id": "456:5740",
+   "key": "3352e98cb29762532d3f6e6926f75fb1bb5f15a2",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5740",
+   "width": 30,
+   "height": 32,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 15,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/userstatus--mobile-none.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024"
+   ],
+   "layerTree": {
+    "name": "Device=mobile, status=none",
+    "type": "COMPONENT",
+    "id": "456:5740",
+    "w": 30,
+    "h": 32,
+    "x": 16,
+    "y": 198,
+    "sizing": {
+     "h": "HUG",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 15,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "children": [
+     {
+      "name": "UserPic",
+      "type": "INSTANCE",
+      "id": "456:5741",
+      "w": 30,
+      "h": 30,
+      "x": 0,
+      "y": 1,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "component": "UserPic",
+      "variant": {
+       "Size": "Small",
+       "Status": "Default"
+      },
+      "componentKey": "10b073ddb31cc0cbd22bf85c71f892fc5dde0905",
+      "mainId": "456:5675"
+     }
+    ],
+    "key": "3352e98cb29762532d3f6e6926f75fb1bb5f15a2",
+    "variantProperties": {
+     "Device": "mobile",
+     "status": "none"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [],
+ "colors": [],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Device=Desktop, status=none: 207×32, horizontal gap 15 pad 0/0/0/0 main CENTER cross CENTER — renders at 768, 1024, 1100, 1280",
+  "Device=Desktop, status=nonSub: 155×46, horizontal gap 15 pad 0/0/0/0 main CENTER cross CENTER — renders at 768, 1024, 1100, 1280",
+  "Device=Desktop, status=subscriber: 30×32, horizontal gap 15 pad 0/0/0/0 main MIN cross CENTER — renders at 768, 1024, 1100, 1280",
+  "Device=mobile, status=none: 30×32, horizontal gap 15 pad 0/0/0/0 main MIN cross CENTER — renders at 340, 360, 768, 1024"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "`Device=Desktop, status=none`: content overflows frame — 'Button Primary' (110×46 at 0,-7) exceeds frame 207×32.",
+  "`Device=Desktop, status=none`: content overflows frame — 'Button Primary' (82×46 at 125,-7) exceeds frame 207×32.",
+  "`Device=mobile, status=none` is declared for 340, 360, 768 but is placed in template(s) at 1024 — check the variant choice."
+ ],
+ "skeleton": "userstatus.html",
+ "exported": "2026-09-24"
+}

@@ -1,0 +1,500 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Article Image Placeholder",
+ "slug": "article-image-placeholder",
+ "order": 3,
+ "typeLabel": "Component · Standalone",
+ "description": "Standalone component · freely resizable, no variants",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3334:42380",
+  "mainKey": "682588ec19d35ed6a03e5a8e45b70e5fbc16d7cf",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3334-42380",
+  "variants": [
+   {
+    "label": "Article Image Placeholder",
+    "id": "3334:42380",
+    "key": "682588ec19d35ed6a03e5a8e45b70e5fbc16d7cf",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3334-42380"
+   }
+  ]
+ },
+ "properties": {},
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Zone 1 Lead Article Card",
+   "TopZone Article Card",
+   "Horizontal Thumbnail Card",
+   "TOP ZONE Block",
+   "Horizontal Feature Card",
+   "1Col Article Card",
+   "Feature + List Content Block",
+   "Photos Block"
+  ],
+  "perVariant": [
+   {
+    "label": "Article Image Placeholder",
+    "id": "3334:42380",
+    "templatesDirect": {
+     "768 HomePage": 18,
+     "1024 HomePage": 13,
+     "Mobile HomePage": 10,
+     "340 HomePage": 10,
+     "Desktop HomePage": 13,
+     "1100 HomePage": 13
+    },
+    "templatesVia": {
+     "768 HomePage": [
+      "Feature + List Content Block",
+      "Horizontal Thumbnail Card",
+      "Photos Block",
+      "Section Rail Card",
+      "TOP ZONE Block",
+      "Zone 1 Lead Article Card"
+     ],
+     "Mobile HomePage": [
+      "Horizontal Thumbnail Card",
+      "TOP ZONE Block",
+      "TopZone Article Card",
+      "Zone 1 Lead Article Card"
+     ],
+     "340 HomePage": [
+      "Horizontal Thumbnail Card",
+      "TOP ZONE Block",
+      "TopZone Article Card",
+      "Zone 1 Lead Article Card"
+     ],
+     "1024 HomePage": [
+      "Feature + List Content Block",
+      "Section Rail Card",
+      "Zone 1 Lead Article Card"
+     ],
+     "1100 HomePage": [
+      "Feature + List Content Block",
+      "Zone 1 Lead Article Card"
+     ],
+     "Desktop HomePage": [
+      "Feature + List Content Block",
+      "Zone 1 Lead Article Card"
+     ]
+    },
+    "nestedIn": {
+     "Photos Block / Device=Tablet": 7,
+     "Photos Block / Device=Desktop": 6,
+     "Horizontal Thumbnail Card / Device=Desktop": 1,
+     "TOP ZONE Block / Device=Mobile": 5,
+     "TopZone Article Card / Device=Mobile": 1,
+     "TOP ZONE Block / Device=Tablet": 5,
+     "Section Rail Card / Device=1024, Layout=Wide": 1,
+     "Feature + List Content Block / Size=Narrow": 1,
+     "Zone 1 Lead Article Card / Device=Tablet": 1,
+     "Section Rail Card / Device=Tablet, Layout=Wide": 1,
+     "Horizontal Feature Card": 1,
+     "Photos Block / Device=Mobile": 6,
+     "Event Card": 2,
+     "Zone 1 Lead Article Card / Device=Mobile": 1,
+     "Zone 1 Lead Article Card / Device=Desktop": 1,
+     "1Col Article Card": 1,
+     "Feature + List Content Block / Size=Default": 1,
+     "Horizontal Thumbnail Card / Device=Mobile": 1,
+     "Event Card (768, 129w)": 1,
+     "Horizontal Thumbnail Card / Device=Tablet": 1,
+     "Section Rail Card / Device=1280, Layout=Wide": 1,
+     "TopZone Article Card / Device=Desktop": 1,
+     "TOP ZONE Block / Device=Desktop": 1,
+     "Section Rail Card / Device=1100, Layout=Wide": 1
+    },
+    "otherPages": {},
+    "declaredBreakpoints": [],
+    "observedBreakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ],
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [],
+  "builtInto": [
+   {
+    "name": "Zone 1 Lead Article Card",
+    "path": "../04-zone-1-lead-article-card/zone-1-lead-article-card.md"
+   },
+   {
+    "name": "TopZone Article Card",
+    "path": "../05-topzone-article-card/topzone-article-card.md"
+   },
+   {
+    "name": "Horizontal Thumbnail Card",
+    "path": "../11-horizontal-thumbnail-card/horizontal-thumbnail-card.md"
+   },
+   {
+    "name": "TOP ZONE Block",
+    "path": "../../assemblies/12-top-zone-block/top-zone-block.md"
+   },
+   {
+    "name": "Horizontal Feature Card",
+    "path": "../15-horizontal-feature-card/horizontal-feature-card.md"
+   },
+   {
+    "name": "1Col Article Card",
+    "path": "../16-1col-article-card/1col-article-card.md"
+   },
+   {
+    "name": "Feature + List Content Block",
+    "path": "../../assemblies/17-feature-list-content-block/feature-list-content-block.md"
+   },
+   {
+    "name": "Photos Block",
+    "path": "../../assemblies/22-photos-block/photos-block.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Article Image Placeholder",
+   "variantProperties": null,
+   "id": "3334:42380",
+   "key": "682588ec19d35ed6a03e5a8e45b70e5fbc16d7cf",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3334-42380",
+   "width": 1290,
+   "height": 271,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#E1A1FF"
+    }
+   ],
+   "strokes": [
+    {
+     "type": "SOLID",
+     "hex": "#141414",
+     "variable": "Colors/color/gray/min"
+    }
+   ],
+   "radius": null,
+   "preview": "previews/article-image-placeholder.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Article Image Placeholder",
+    "type": "COMPONENT",
+    "id": "3334:42380",
+    "w": 1290,
+    "h": 271,
+    "x": 0,
+    "y": 0,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "clip": true,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#E1A1FF"
+     }
+    ],
+    "strokes": [
+     {
+      "type": "SOLID",
+      "hex": "#141414",
+      "variable": "Colors/color/gray/min"
+     }
+    ],
+    "strokeWeight": 2,
+    "strokeAlign": "INSIDE",
+    "children": [
+     {
+      "name": "Union",
+      "type": "BOOLEAN_OPERATION",
+      "id": "3334:42375",
+      "w": 1290,
+      "h": 271,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "FILL"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#141414",
+        "variable": "Colors/color/gray/min"
+       }
+      ],
+      "children": [
+       {
+        "name": "Vector 1",
+        "type": "VECTOR",
+        "id": "3334:42376",
+        "w": 1289.6,
+        "h": 269,
+        "x": 0.2,
+        "y": 1,
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#111111"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "CENTER"
+       },
+       {
+        "name": "Vector 2",
+        "type": "VECTOR",
+        "id": "3334:42377",
+        "w": 1289.6,
+        "h": 269,
+        "x": 1289.8,
+        "y": 1,
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#111111"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "CENTER"
+       }
+      ]
+     },
+     {
+      "name": "Frame 11643",
+      "type": "FRAME",
+      "id": "3334:42378",
+      "w": 177,
+      "h": 19,
+      "x": 556,
+      "y": 126,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "absolute": true,
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "ARTICLE IMAGE",
+        "type": "TEXT",
+        "id": "3334:42379",
+        "w": 177,
+        "h": 19,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "strokeWeight": 3,
+        "strokeAlign": "OUTSIDE",
+        "text": "GRAPHIC / IMAGE",
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "New York",
+          "weight": "Black",
+          "size": 16,
+          "lineHeight": "auto",
+          "letterSpacing": "10%",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "ARTICLE IMAGE",
+   "font": "New York",
+   "weight": "Black",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": "10%",
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "textStyle": null,
+   "truncate": null,
+   "sample": "GRAPHIC / IMAGE",
+   "variants": [
+    "Article Image Placeholder"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Article Image Placeholder",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#E1A1FF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Article Image Placeholder",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
+   "layer": "Union",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Vector 1",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#111111",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
+   "layer": "Vector 2",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#111111",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
+   "layer": "ARTICLE IMAGE",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#F1EFEB",
+   "token": "Colors/color/gray/600",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 3
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Article Image Placeholder: 1290×271, vertical gap 8 pad 0/0/0/0 main CENTER cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "`Article Image Placeholder`: fonts outside the production pair (Noto Sans / Noto Serif): New York Black ×1.",
+  "3 solid paints are hard-coded (not bound to a color variable): #111111 ×2, #E1A1FF ×1."
+ ],
+ "skeleton": "article-image-placeholder.html",
+ "exported": "2026-09-24"
+}
