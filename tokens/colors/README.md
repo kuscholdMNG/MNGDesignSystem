@@ -1,6 +1,6 @@
 # MNG Design System: Color Tokens (portable export)
 
-Generated 2026-09-30 from the MNG Design System Figma file (`jFHYqhZbJjvWQmDI4myCsd`): the Colors collection (`3749:16`, 20 modes) plus the Color Pallets | 2026.09.10 style guides. Covers **97 publications** and **22 themes / sub-themes**, including the two that don't fit Figma's 20-mode limit (The Baltimore Sun, Capital Gazette).
+Generated 2026-10-01 from the MNG Design System Figma file (`jFHYqhZbJjvWQmDI4myCsd`): the Colors collection (`3749:16`, 20 modes) plus the Color Pallets | 2026.09.10 style guides. Covers **97 publications** and **22 themes / sub-themes**, including the two that don't fit Figma's 20-mode limit (The Baltimore Sun, Capital Gazette).
 
 | File | Use |
 |---|---|
@@ -14,7 +14,7 @@ Generated 2026-09-30 from the MNG Design System Figma file (`jFHYqhZbJjvWQmDI4my
 **Theme → sub-theme → site override.**
 
 1. **Theme:** the shared WordPress theme file the site loads: Bold Coastal (`boldcoastal.css`), Modern Earthy (`modernearthy.css`) or Measured Vibrant (`measuredvibrant.css`).
-2. **Sub-theme (optional):** a publication or group color ramp on top of the theme. Examples: Denver Post, Morning Call, Prairie Mountain Publishing (`site-pmp` stylesheet), 21C Michigan. Most come from the WordPress Customizer, scoped to `div#page`.
+2. **Sub-theme (optional):** a publication or group color ramp on top of the theme. Examples: Denver Post, Morning Call, NEPA-PMP (the `site-pmp` stylesheet on PMP sites, each NEPA site's own plugin stylesheet), 21C Michigan. Most come from the WordPress Customizer, scoped to `div#page`.
 3. **Site override (optional):** single values set for one site, e.g. `subsite-custom` / `subsite-text`, or a **documented exception** such as Greeley Tribune's primary, light and dark. Exceptions are accepted differences, not mismatches: they're noted under the sub-theme's style guide in Figma, without red outlines, and need no fix.
 
 Every site row in the JSON, CSS and CSV shows its theme and sub-theme.
@@ -33,6 +33,11 @@ Token values are always the **design (should-be)** values. Production is never c
 
 - **Documented exceptions** (currently only Greeley Tribune) are part of the design, so their values are in the tokens and they have no red outline.
 - **The Baltimore Sun** uses its documented Figma styles as is. No production comparison is tracked for it.
+
+## Changes on 2026-10-01
+
+- **NEPA joins PMP as one sub-theme, NEPA-PMP.** The 5 NEPA sites (Citizens' Voice, Times-Tribune, Wyoming County Examiner, Republican Herald, Standard-Speaker) load `modernearthy.css` plus their own site plugin, which sets the same colors on `body` as PMP. Verified live, along with matching type. They moved from plain Modern Earthy (4 fixes) to NEPA-PMP (2 fixes). The sub-theme key changed from `prairie-mountain-publishing` to `nepa-pmp` (CSS `data-mng-theme="nepa-pmp"`); the Figma mode and style guide are now named NEPA-PMP.
+- **Disputed sites verified live:** Daily Press and New York Daily News run Measured Vibrant, GrowthSpotter runs Measured Vibrant with its own ramp, and The Morning Call runs Modern Earthy with its own override, all as in Figma. No sites are left waiting on a live check.
 
 ## Changes on 2026-09-30
 

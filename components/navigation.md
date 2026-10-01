@@ -130,7 +130,7 @@ Matches the **"Dropdown (Bootstrap-style)"** component flagged as documented-but
 Fixed width regardless of viewport. Verified identical `width: 300px` at 1280px, 375px, and 340px viewports. Height grows to fit content (see §4.2). At 340px viewport the panel had only ~6px of margin to the browser edge — no built-in edge-safety margin was observed, so this is a real risk area to design for rather than copy as-is.
 
 - Background: white
-- Border radius: `0 0 5px 5px` (bottom corners only — matches the existing `radius/utility` token)
+- Border radius: `0 0 5px 5px` (bottom corners only — matches the `radius/utility` token, which is for containers; kept by Karl 2026-10-01).
 - Box shadow: `0 8px 16px -4px rgba(0,0,0,0.2)`
 - Top padding: 8px
 
@@ -167,7 +167,7 @@ Visible hairline dividers appear between the identity block and the links, and b
 ### 5.1 Reused from existing token set
 - `color/base/ink` (`#1F1E1C`) — nav text color on Measured Vibrant sites
 - `font/weight/semibold` (600)
-- `radius/utility` (5px) — dropdown corner radius
+- `radius/utility` (5px) — dropdown corner radius (containers only; buttons use `radius/sm`, 4px)
 - Existing spacing scale (approximate matches on off-canvas panel padding)
 
 ### 5.2 New — theme-level text color (not per-masthead)
@@ -333,7 +333,7 @@ A pilot Header was built to test a decoupled structure: the Header carried only 
   - Box-shadow: `0 3px 3px rgba(0,0,0,0.25)` — identical to the header's own scrolled-state shadow, already documented elsewhere in this file.
   - Input wrapper (`.input-wrapper`): transparent background, flex, 62px tall, starts at `x: 43`.
   - Text input (`input[name="s"]`): placeholder "Type your search", `15px` font, dark text (`rgb(31, 30, 28)` ≈ `color/base/ink`), left-aligned, spans most of the bar's width (**1510px**), `19.5px 4.5px` padding, starts at `x: 77, y: 66`.
-  - Submit button (`.search-button`): right-aligned (`x: 1591, y: 81`), **75×32px**, background `rgb(23, 118, 196)` (`#1776C4`-ish, matches Orlando Sentinel's brand primary blue), white **600**-weight text, **5px** border-radius, `1px 6px` padding, label "Search".
+  - Submit button (`.search-button`): right-aligned (`x: 1591, y: 81`), **75×32px**, background `rgb(23, 118, 196)` (`#1776C4`-ish, matches Orlando Sentinel's brand primary blue), white **600**-weight text, **5px** border-radius, `1px 6px` padding, label "Search". Note 2026-10-01: buttons are 4px (`radius/sm`); this 5px is production drift (production-vs-design entry 23).
   - **Resolved — dimming backdrop found:** it's not a DOM element at all, which is why `[class*="backdrop"]`/`[class*="overlay"]` selector searches never found it — it's a **CSS-generated pseudo-element**, `body::before`. Confirmed via `getComputedStyle(document.body, '::before')`: `content: " "`, `background: rgba(0, 0, 0, 0.5)`, `position: fixed`, covers the full viewport (`top/left/right/bottom: 0`), `z-index: 10000` (above the search form's own `z-index: 100`), `pointer-events: auto` (consistent with click-outside-to-dismiss, though dismiss-on-click wasn't separately tested). Worth remembering for any future "why can't I find this overlay in the DOM" moment on this theme — check pseudo-elements, not just elements.
   - Confirmed live on Orlando Sentinel; per Karl, the same shared-theme mechanism applies identically on Chicago Tribune, Denver Post, and OC Register (consistent with every other shared-theme structural finding in this doc) — not independently re-verified per-site, taken as confirmed rather than assumed.
 

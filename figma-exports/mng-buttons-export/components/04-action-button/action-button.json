@@ -7,7 +7,7 @@
  "figmaSetName": "Action Button",
  "description": "Small icon + label utility action (documented example: \"Copy Link\"). No box at rest; a 1px black border appears on Hover/Pressed.",
  "componentDescription": null,
- "specText": "Action Button | Last Updated: 2026.09.30 | Components | UPDATED: 2026.09.30 | Action Button | Updated: 2026.09.30 | Default | Hover | Pressed | InFocus | Action Button | Updated: 2026.09.30 | Copy Link | Action Button\nSize: 97×34px outer, 95×32px content area\nCorner Radius: 5px outer / 4px inner\nPadding: 8px all sides within the content area\nSpacing between icon and label: 4px\nIcon: 16px square, fixed to the left of the label\nText: Noto Sans Bold 12px, center align\nText Color: color/gray/min / #141414\nBorder: \nnone by default; \n1px black border appears on Hover/Pressed; \nInFocus adds a 2px black focus ring, offset 1px outside the border\n\nNote: This is a simplified, single-purpose reference derived from the shared \"Button Action\" library component (kept separate and unchanged so existing designs on other files aren't affected). That source component bundles many additional pre-built icon+label combinations as hidden layers within the same component — Resend Invitation, Link Copied, Share (Android/Apple/Unknown), Preview Most Recent, Save/Saved, Gift Article, Remove, Cancel, and Delete — none of which are exposed as pickable Figma variants there. This documented version isolates just the \"Copy Link\" example. To use a different label/icon, duplicate this component and swap its icon instance and label text.\n\nMargin: not yet established for this component (unlike the CTA buttons' 8px min left/right margin) — flagging as an open spec gap. | States | Updated: 2026.09.30 | Copy Link | Default — resting appearance. No border; icon and label only. | Copy Link | Hover — pointer is over the button; a 1px black border appears around the content area. | Copy Link | Pressed — same visual treatment as Hover. No distinct pressed color token exists yet. | Copy Link | InFocus — adds a 2px black focus ring, offset 1px outside the 1px border. Appears on keyboard (Tab) focus for accessibility.",
+ "specText": "Action Button | Last Updated: 2026.09.30 | Components | UPDATED: 2026.09.30 | Action Button | Updated: 2026.09.30 | Default | Hover | Pressed | InFocus | Action Button | Updated: 2026.09.30 | Copy Link | Action Button\nSize: 97×34px outer, 95×32px content area\nCorner Radius: 4px (radius/sm)\nPadding: 8px all sides within the content area\nSpacing between icon and label: 4px\nIcon: 16px square, fixed to the left of the label\nText: Noto Sans Bold 12px, center align\nText Color: color/gray/min / #141414\nBorder: \nnone by default; \n1px black border appears on Hover/Pressed; \nInFocus adds a 2px black focus ring, offset 1px outside the border\n\nNote: This is a simplified, single-purpose reference derived from the shared \"Button Action\" library component (kept separate and unchanged so existing designs on other files aren't affected). That source component bundles many additional pre-built icon+label combinations as hidden layers within the same component — Resend Invitation, Link Copied, Share (Android/Apple/Unknown), Preview Most Recent, Save/Saved, Gift Article, Remove, Cancel, and Delete — none of which are exposed as pickable Figma variants there. This documented version isolates just the \"Copy Link\" example. To use a different label/icon, duplicate this component and swap its icon instance and label text.\n\nMargin: not yet established for this component (unlike the CTA buttons' 8px min left/right margin) — flagging as an open spec gap. | States | Updated: 2026.09.30 | Copy Link | Default — resting appearance. No border; icon and label only. | Copy Link | Hover — pointer is over the button; a 1px black border appears around the content area. | Copy Link | Pressed — same visual treatment as Hover. No distinct pressed color token exists yet. | Copy Link | InFocus — adds a 2px black focus ring, offset 1px outside the 1px border. Appears on keyboard (Tab) focus for accessibility.",
  "figma": {
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
@@ -140,7 +140,7 @@
    },
    "fills": null,
    "strokes": null,
-   "radius": 5,
+   "radius": 4,
    "preview": "previews/action-button--default.png",
    "breakpoints": [
     "all"
@@ -176,7 +176,7 @@
      "main": "CENTER",
      "cross": "CENTER"
     },
-    "radius": 5,
+    "radius": 4,
     "children": [
      {
       "name": "options",
@@ -397,7 +397,7 @@
    },
    "fills": null,
    "strokes": null,
-   "radius": 5,
+   "radius": 4,
    "preview": "previews/action-button--hover.png",
    "breakpoints": [
     "all"
@@ -433,7 +433,7 @@
      "main": "CENTER",
      "cross": "CENTER"
     },
-    "radius": 5,
+    "radius": 4,
     "children": [
      {
       "name": "options",
@@ -669,7 +669,7 @@
      "variable": "Colors/color/gray/black"
     }
    ],
-   "radius": 5,
+   "radius": 4,
    "preview": "previews/action-button--infocus.png",
    "breakpoints": [
     "all"
@@ -705,7 +705,7 @@
      "main": "CENTER",
      "cross": "CENTER"
     },
-    "radius": 5,
+    "radius": 4,
     "strokes": [
      {
       "type": "SOLID",
@@ -944,7 +944,7 @@
    },
    "fills": null,
    "strokes": null,
-   "radius": 5,
+   "radius": 4,
    "preview": "previews/action-button--pressed.png",
    "breakpoints": [
     "all"
@@ -980,7 +980,7 @@
      "main": "CENTER",
      "cross": "CENTER"
     },
-    "radius": 5,
+    "radius": 4,
     "children": [
      {
       "name": "options",

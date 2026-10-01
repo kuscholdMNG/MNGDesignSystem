@@ -37,7 +37,7 @@ Updated: 2026.09.30
 Copy Link
 Action Button
 Size: 97×34px outer, 95×32px content area
-Corner Radius: 5px outer / 4px inner
+Corner Radius: 4px (radius/sm)
 Padding: 8px all sides within the content area
 Spacing between icon and label: 4px
 Icon: 16px square, fixed to the left of the label
@@ -142,10 +142,10 @@ Full layer trees for every variant are in the JSON twin (`variants[].layerTree`)
 
 | Variant | W×H | Sizing | Layout | Radius | Fill | Stroke |
 |---|---|---|---|---|---|---|
-| `Default` | 97×34 | HUG×HUG | horizontal, gap 1, pad 1/1/1/1 | 5 | — | — |
-| `Hover` | 97×34 | HUG×HUG | horizontal, gap 1, pad 1/1/1/1 | 5 | — | — |
-| `InFocus` | 97×34 | HUG×HUG | horizontal, gap 1, pad 1/1/1/1 | 5 | — | color/gray/black |
-| `Pressed` | 97×34 | HUG×HUG | horizontal, gap 1, pad 1/1/1/1 | 5 | — | — |
+| `Default` | 97×34 | HUG×HUG | horizontal, gap 1, pad 1/1/1/1 | 4 | — | — |
+| `Hover` | 97×34 | HUG×HUG | horizontal, gap 1, pad 1/1/1/1 | 4 | — | — |
+| `InFocus` | 97×34 | HUG×HUG | horizontal, gap 1, pad 1/1/1/1 | 4 | — | color/gray/black |
+| `Pressed` | 97×34 | HUG×HUG | horizontal, gap 1, pad 1/1/1/1 | 4 | — | — |
 
 *Values are for the variant root. Most families wrap the visible button in an inner frame; see Anatomy.*
 

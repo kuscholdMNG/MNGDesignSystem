@@ -1,6 +1,6 @@
 # MNG Design System — Project Status
 
-> **Rewritten 2026-09-24.** Replaces the Aug 13 status doc, which later sections had contradicted. It had said there were 4 shared themes, that Denver Post was "bespoke" and that the eyebrow was standardized at 20px. This version keeps only what's true now. **Updated 2026-09-25** for the Greeley Tribune → Prairie Mountain Publishing color change, **2026-09-30** for the Greeley exception, Hartford Courant, the folder reorganization and the browser-resize rule, and **2026-10-01** for the full Buttons-page export (8 button and link families).
+> **Rewritten 2026-09-24.** Replaces the Aug 13 status doc, which later sections had contradicted. It had said there were 4 shared themes, that Denver Post was "bespoke" and that the eyebrow was standardized at 20px. This version keeps only what's true now. **Updated 2026-09-25** for the Greeley Tribune → Prairie Mountain Publishing color change, **2026-09-30** for the Greeley exception, Hartford Courant, the folder reorganization and the browser-resize rule, and **2026-10-01** for the full Buttons-page export (8 button and link families) and the NEPA-PMP color sub-theme.
 
 > - Color values: `tokens/colors/` (export \+ decision log). Color fixes for engineering: `production-vs-design-differences.md` entry 21\.  
 > - Typography values: `tokens/typography/` (tokens \+ decision log).  
@@ -34,11 +34,11 @@ Build a Figma design system for MediaNews Group (90+ properties), based on what'
 ## 3\. How the sites are themed
 
 - There are **3 shared WordPress themes**: Bold Coastal, Measured Vibrant and Modern Earthy. Each site loads one and can override colors through the WordPress Customizer (scoped to `#page`).  
-- Colors resolve as **theme → sub-theme → site override**. A sub-theme is a publication or group ramp on top of the theme (e.g. Denver Post, Morning Call, 21C Michigan, Prairie Mountain Publishing). Every publication's theme and sub-theme is listed in `tokens/colors/mng-colors-sites.csv`.  
+- Colors resolve as **theme → sub-theme → site override**. A sub-theme is a publication or group ramp on top of the theme (e.g. Denver Post, Morning Call, 21C Michigan, NEPA-PMP). Every publication's theme and sub-theme is listed in `tokens/colors/mng-colors-sites.csv`.  
 - **Morning Call** (mcall.com) is a site, not a theme. It runs Modern Earthy.  
 - **Denver Post** runs Bold Coastal with its own colors. It isn't bespoke.  
 - **Hartford Courant** runs Measured Vibrant (`measuredvibrant.css` \+ `site-tribune` stylesheet) with its own colors via the Customizer (verified live 2026-09-25).  
-- **Prairie Mountain Publishing** (19 sites, including Greeley Tribune and Cañon City Daily Record) runs Modern Earthy plus a PMP color override. It gets Modern Earthy typography and its own color sub-theme, whose should-be values are the Measured Vibrant values (2026-09-25). Greeley Tribune has no color theme of its own; its `div#page` override (primary, light, dark) is a documented exception, noted under the PMP style guide.  
+- **NEPA-PMP** (24 sites: the 19 Prairie Mountain Publishing sites, including Greeley Tribune and Cañon City Daily Record, plus the 5 NEPA sites) runs Modern Earthy plus a color override: PMP's shared `site-pmp` stylesheet, or each NEPA site's own plugin, with identical values (verified live 2026-10-01). It gets Modern Earthy typography and its own color sub-theme, whose should-be values are the Measured Vibrant values (2026-09-25). Greeley Tribune has no color theme of its own; its `div#page` override (primary, light, dark) is a documented exception, noted under the PMP style guide.  
 - **Obituaries** (Endless Tributes) look the same on every site, whatever the theme.  
 - **Type:** sizes, weights and spacing are the same on every theme. Only the font families change per theme. Eyebrows are per theme.
 
@@ -59,14 +59,13 @@ The mercurynews.com and eastbaytimes.com sites were removed from the list on 202
 
 ## 4\. Tokens
 
-- **Color:** the 20-mode Colors collection in the main file, plus a portable export of all 97 publications (`tokens/colors/mng-colors.tokens.json`). Since 2026-09-25 the Greeley Tribune mode is the **Prairie Mountain Publishing** mode. The Baltimore Sun and Capital Gazette don't fit in Figma's 20-mode limit and live only in the export. Design-vs-production color fixes for every theme and publication are in `production-vs-design-differences.md` entry 21 (the separate engineering-fixes file was retired 2026-09-30).  
+- **Color:** the 20-mode Colors collection in the main file, plus a portable export of all 97 publications (`tokens/colors/mng-colors.tokens.json`). Since 2026-09-25 the Greeley Tribune mode is the **NEPA-PMP** mode (named Prairie Mountain Publishing until 2026-10-01). The Baltimore Sun and Capital Gazette don't fit in Figma's 20-mode limit and live only in the export. Design-vs-production color fixes for every theme and publication are in `production-vs-design-differences.md` entry 21 (the separate engineering-fixes file was retired 2026-09-30).  
 - **Typography:** 4 collections in the main file (Type Primitives, Typeography Tokens, Typography Theme, Dashboard Typography). The editorial card, headline-list and body styles were added 2026-09-24. See `tokens/typography/typography-tokens.md`.  
-- **Spacing and radius** aren't Figma variables yet. These are the values measured so far, to use when they're created:
+- **Spacing and radius:** the "Spacing & Radius" collection in the main file (created 2026-10-01). Spacing stays on the 4/8 grid; the 10px and 14px values found in production are drift, not tokens (production-vs-design entry 22).
 
 | Token | Value |
 | :---- | :---- |
 | `spacing/050` / `100` / `150` | 4 / 8 / 12 |
-| `spacing/075` / `175` | 10 / 14 |
 | `spacing/200` / `250` / `300` | 16 / 20 / 24 |
 | `radius/sm` / `radius/utility` / `radius/lg` | 4 / 5 / 8 |
 
@@ -96,9 +95,9 @@ The component specs in `components/` (modal, disclosure, empty-state-status-badg
 
 1. Update the Section Title / Eyebrow component (WordPress Elements, `3333:42278`) to the per-theme eyebrow tokens.  
 2. Build the Bootstrap-style Dropdown. The Account Dropdown Menu source is in WordPress Elements (node `910:15610`).  
-3. Create the spacing and radius tokens in the main file (values in §4).  
+3. ~~Create the spacing and radius tokens in the main file~~ **Done 2026-10-01:** "Spacing & Radius" collection with `spacing/050`–`300` (4, 8, 12, 16, 20, 24) and `radius/sm`, `radius/utility`, `radius/lg` (4, 5, 8). Buttons are 4px across the board (`radius/sm`, Karl 2026-10-01): Action Button, Button Action and Button ActionMenu moved from 5px to 4px, all button shapes are bound to `radius/sm`, `radius/utility` (5px) is for containers only (Karl, 2026-10-01): InLineMessage, ModalsCenter parts, Form Fields, check boxes, the status badge and the account dropdown keep 5px, bound to `radius/utility` in Figma. Production radius drift is entry 23. Karl: spacing is 4/8 only; production's 10px and 14px are logged as drift to fix (production-vs-design entry 22).  
 4. Apply the type tokens to real text layers. So far they're a reference catalog.  
-5. Live-check the sites whose sheet data disagrees with Figma (NEPA, Morning Call, GrowthSpotter, Daily Press, NY Daily News). They're flagged in the `notes` column of `tokens/colors/mng-colors-sites.csv`. Hartford Courant was verified 2026-09-25 (Measured Vibrant \+ `site-tribune`). The Baltimore Sun uses its documented Figma styles as is.  
+5. ~~Live-check the sites whose sheet data disagrees with Figma~~ **Done 2026-10-01.** The 5 NEPA sites match PMP exactly and joined it as the NEPA-PMP sub-theme. Morning Call, GrowthSpotter, Daily Press and NY Daily News match their Figma themes. Morning Call's `secondary` and `tertiary` stay flagged as missing (Karl, 2026-10-01): they inherit the right values but must be set explicitly. Hartford Courant was verified 2026-09-25 (Measured Vibrant \+ `site-tribune`). The Baltimore Sun uses its documented Figma styles as is.  
 6. Do the DTCG renaming pass on WordPress Elements and Reader Dashboard v2.0.  
 7. Plan the Reader Dashboard v2.0 → v2.1 upgrade. See `Reader-Dashboard-Library-Impact-Map.md` for affected files.  
 8. Main file, **Style Guide | Radio Buttons**: it holds a Switch component set (20 variants: Selected × State × Icon) that likely belongs on the Toggle Switches page. Move or remove it when the Radio Buttons page is built out.  
@@ -107,7 +106,7 @@ The component specs in `components/` (modal, disclosure, empty-state-status-badg
 11. **InLineMessage rebuild** (main file, node `2776:2`, still 114 variants as of 2026-09-25). Proposal: cut to about 25 variants (Priority × Placement) and move per-screen copy, icons and CTAs into component properties. See `components/reader-dashboard-inline-message-component-audit.md` (the proposal and open questions) and `components/inlinemessage-instance-migration-checklist.md` (1,173 live instances to re-check afterward). Not started; waiting on Karl's answers.  
 12. **Article trust tooltip:** build the "Based on facts…" trust/sourcing popover seen over article headlines, as a Figma component. See `components/Article-Page-To-Do.md`.  
 13. **Retire the homepage template audit.** Moved to `_archive/homepage-template-audit.md` on 2026-09-30. It's an old working log that still mentions the deleted earlier "MNG Design System" file (those mentions are out of date). It will be deleted and replaced by the WordPress Elements files, which will become the source for homepage templates.  
-14. **Form Field set error** (MNG Design System, Form Fields page, set `6963:6863`): two variants are both named `Size=Desktop, State=Filled`, which puts the set in an error state. The first one shows placeholder text, so it's really the missing Desktop/Blank state. Renaming it to `Size=Desktop, State=Blank` should clear the error. Found in the 2026-09-24 component export.  
+14. ~~**Form Field set error**~~ **Fixed 2026-10-01:** the first variant was renamed `Size=Desktop, State=Blank`; the set has no errors now (State = Blank/Filled/Focus/Error/Disabled). (MNG Design System, Form Fields page, set `6963:6863`): two variants are both named `Size=Desktop, State=Filled`, which puts the set in an error state. The first one shows placeholder text, so it's really the missing Desktop/Blank state. Renaming it to `Size=Desktop, State=Blank` should clear the error. Found in the 2026-09-24 component export.  
 15. **Sponsorship ad labels, 1024 and 1100 homepages** (WordPress Elements, Homepage): the sponsorship\_3 and sponsorship\_4 frames both use the "Sponsorship 2 970x250" Ad Blocks unit. Swap in the matching units or rename the frames. Found in the 2026-09-24 component export.  
 16. **Wrong-width variants in homepage templates** (WordPress Elements, Homepage): the 768 homepage uses the Footer's `SM-Mobile` variant (should be `MD-TabletV`), and the 1024 homepage uses the Footer's `XL-Desktop` variant (should be `LG-TabletH`). The detached TOP ZONE blocks at 1024 and 1100 still contain a `Device=Mobile` Zone 1 Lead Article Card. Found in the 2026-09-24 component export.  
 17. **Fonts outside Noto Sans / Noto Serif:** Droid Sans, Source Sans Pro, New York and Helvetica still appear in a few WordPress Elements components, mostly the Masthead variants and Sponsored items. Replace them with the production pair. Found in the 2026-09-24 component export.

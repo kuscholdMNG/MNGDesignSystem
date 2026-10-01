@@ -53,7 +53,7 @@ Small pill shown under a benefit's title on the Benefits panel, indicating which
 
 Both patterns reuse existing values:
 
-- **Corner radius `5`** = `radius/utility` (5px; not yet a Figma variable — see the Status doc's spacing/radius open item).
+- **Corner radius `5`** = `radius/utility` (5px), a Figma variable since 2026-10-01. It is for containers only; buttons use `radius/sm` (4px).
 - **Fill `#F1EFEB`** exists twice: `color/neutral/menu-hover` (menu-hover-specific) and `color/gray/600` (the "Universal Grays" scale). **Karl's decision, 2026-09-01: use `color/gray/600` for both components.** `color/neutral/menu-hover` stays reserved for menu hover states.
 
 ---

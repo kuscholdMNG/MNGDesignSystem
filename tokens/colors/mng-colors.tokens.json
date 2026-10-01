@@ -1,5 +1,5 @@
 {
- "$description": "MNG Design System color tokens, generated 2026-09-30 from the MNG Design System Figma file (Colors collection 3749:16 and the Color Pallets | 2026.09.10 style guides). Design (should-be) values only; production mismatches are in $extensions.com.mng.mismatches.",
+ "$description": "MNG Design System color tokens, generated 2026-10-01 from the MNG Design System Figma file (Colors collection 3749:16 and the Color Pallets | 2026.09.10 style guides). Design (should-be) values only; production mismatches are in $extensions.com.mng.mismatches.",
  "color": {
   "$type": "color",
   "gray": {
@@ -93,7 +93,7 @@
        { "token": "primary-darker", "design": "#a52804", "production": "MISSING", "productionSource": "not set", "fix": "Define --primary-darker: #a52804 (modernearthy.css, body). It isn't set today.", "scope": "theme", "figmaCallout": true },
        { "token": "tertiary", "design": "#00828f", "production": "#ff5722", "productionSource": "Theme default (body)", "fix": "Change --tertiary from #ff5722 to #00828f (modernearthy.css, body).", "scope": "theme", "figmaCallout": true }
       ],
-      "sites": [ "dailyfreeman.com", "oneidadispatch.com", "saratogian.com", "troyrecord.com", "news-herald.com", "morningjournal.com", "delcotimes.com", "timesherald.com", "readingeagle.com", "thereporteronline.com", "pottsmerc.com", "trentonian.com", "dailylocal.com", "mainlinemedianews.com", "siliconvalley.com", "nashobavalleyvoice.com", "lowellsun.com", "sentinelandenterprise.com", "citizensvoice.com", "thetimes-tribune.com", "wcexaminer.com", "republicanherald.com", "standardspeaker.com", "dailynews.com", "pasadenastarnews.com", "pressenterprise.com", "sbsun.com", "sgvtribune.com", "whittierdailynews.com", "excelsiorcalifornia.com" ]
+      "sites": [ "dailyfreeman.com", "oneidadispatch.com", "saratogian.com", "troyrecord.com", "news-herald.com", "morningjournal.com", "delcotimes.com", "timesherald.com", "readingeagle.com", "thereporteronline.com", "pottsmerc.com", "trentonian.com", "dailylocal.com", "mainlinemedianews.com", "siliconvalley.com", "nashobavalleyvoice.com", "lowellsun.com", "sentinelandenterprise.com", "dailynews.com", "pasadenastarnews.com", "pressenterprise.com", "sbsun.com", "sgvtribune.com", "whittierdailynews.com", "excelsiorcalifornia.com" ]
      }
     }
    },
@@ -486,7 +486,7 @@
      }
     }
    },
-   "prairie-mountain-publishing": {
+   "nepa-pmp": {
     "primary-lighter": {"$value": "#717fd1"},
     "primary-light": {"$value": "#5869ca"},
     "primary": {"$value": "#3f51b5"},
@@ -499,19 +499,20 @@
     "nav-text": {"$value": "#1a1a1a"},
     "$extensions": {
      "com.mng": {
-      "name": "Prairie Mountain Publishing",
+      "name": "NEPA-PMP",
       "level": "sub-theme",
       "parentTheme": "Modern Earthy",
-      "loads": "modernearthy.css + plugins/site-plugins/site-pmp/dist/css/style.min.css (body)",
+      "loads": "modernearthy.css + color override on body: site-pmp style.min.css (PMP sites) or each NEPA site's own site plugin (site-citizensvoice, site-thetimes-tribune, site-wcexaminer, site-republicanherald, site-standardspeaker), identical values",
       "inFigma": true,
-      "figmaMode": "Prairie Mountain Publishing",
-      "productionAudit": "2026-09-24",
+      "figmaMode": "NEPA-PMP",
+      "productionAudit": "2026-10-01",
       "mismatchCount": 2,
       "mismatches": [
-       { "token": "primary-lighter", "design": "#717fd1", "production": "MISSING", "productionSource": "inherits modernearthy.css :root default #47b6ff", "fix": "Define --primary-lighter: #717fd1 (site-pmp style.min.css, body). It isn't set today; the page falls back to #47b6ff.", "scope": "sub-theme", "figmaCallout": true },
-       { "token": "tertiary", "design": "#eb5300", "production": "#303f9f", "productionSource": "site-pmp override (body)", "fix": "Change --tertiary from #303f9f to #eb5300 (site-pmp style.min.css, body).", "scope": "sub-theme", "figmaCallout": true }
+       { "token": "primary-lighter", "design": "#717fd1", "production": "MISSING", "productionSource": "inherits modernearthy.css :root default #47b6ff", "fix": "Define --primary-lighter: #717fd1 (site-pmp style.min.css on PMP sites, each NEPA site plugin on NEPA sites; body). It isn't set today; the page falls back to #47b6ff.", "scope": "sub-theme", "figmaCallout": true },
+       { "token": "tertiary", "design": "#eb5300", "production": "#303f9f", "productionSource": "site-pmp / NEPA site override (body)", "fix": "Change --tertiary from #303f9f to #eb5300 (site-pmp style.min.css on PMP sites, each NEPA site plugin on NEPA sites; body).", "scope": "sub-theme", "figmaCallout": true }
       ],
-      "sites": [ "coloradodaily.com", "julesburgadvocate.com", "lamarledger.com", "dailycamera.com", "greeleytribune.com", "timescall.com", "reporterherald.com", "akronnewsreporter.com", "bocopreps.com", "broomfieldenterprise.com", "brushnewstribune.com", "buffzone.com", "canoncitydailyrecord.com", "coloradohometownweekly.com", "eptrail.com", "fortmorgantimes.com", "southplattesentinel.com", "journal-advocate.com", "burlington-record.com" ]
+      "sites": [ "coloradodaily.com", "julesburgadvocate.com", "lamarledger.com", "citizensvoice.com", "thetimes-tribune.com", "wcexaminer.com", "republicanherald.com", "standardspeaker.com", "dailycamera.com", "greeleytribune.com", "timescall.com", "reporterherald.com", "akronnewsreporter.com", "bocopreps.com", "broomfieldenterprise.com", "brushnewstribune.com", "buffzone.com", "canoncitydailyrecord.com", "coloradohometownweekly.com", "eptrail.com", "fortmorgantimes.com", "southplattesentinel.com", "journal-advocate.com", "burlington-record.com" ],
+      "note": "One color sub-theme for two groups: the 19 PMP sites (shared site-pmp stylesheet) and the 5 NEPA sites (each site's own plugin stylesheet). Verified live 2026-10-01: NEPA sets the same six variables on body with identical values, and renders the same type as PMP."
      }
     }
    },
@@ -1278,74 +1279,74 @@
    }
   },
   "coloradodaily-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Colorado Daily",
      "domain": "coloradodaily.com",
      "cluster": "Colorado Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
   "julesburgadvocate-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Julesburg Advocate",
      "domain": "julesburgadvocate.com",
      "cluster": "Colorado Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
   "lamarledger-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Lamar Ledger",
      "domain": "lamarledger.com",
      "cluster": "Colorado Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
@@ -1421,122 +1422,127 @@
    }
   },
   "citizensvoice-com": {
-   "primary-lighter": {"$value": "{color.theme.modern-earthy.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.modern-earthy.primary-light}"},
-   "primary": {"$value": "{color.theme.modern-earthy.primary}"},
-   "primary-dark": {"$value": "{color.theme.modern-earthy.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.modern-earthy.primary-darker}"},
-   "secondary": {"$value": "{color.theme.modern-earthy.secondary}"},
-   "tertiary": {"$value": "{color.theme.modern-earthy.tertiary}"},
-   "near-black": {"$value": "{color.theme.modern-earthy.near-black}"},
-   "white": {"$value": "{color.theme.modern-earthy.white}"},
-   "nav-text": {"$value": "{color.theme.modern-earthy.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "The Citizens' Voice (Wilkes-Barre)",
      "domain": "citizensvoice.com",
      "cluster": "NEPA",
      "theme": "Modern Earthy",
-     "tokenSource": "color.theme.modern-earthy",
-     "mismatchCount": 4,
-     "fixesFrom": "color.theme.modern-earthy",
-     "note": "Needs live check: the cluster sheet says \"MeasuredVibrant?\" but Figma lists it under Modern Earthy."
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
+     "mismatchCount": 2,
+     "fixesFrom": "color.theme.nepa-pmp",
+     "note": "NEPA site. Verified live 2026-10-01: modernearthy.css + its own site-citizensvoice plugin, with the same colors and type as PMP."
     }
    }
   },
   "thetimes-tribune-com": {
-   "primary-lighter": {"$value": "{color.theme.modern-earthy.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.modern-earthy.primary-light}"},
-   "primary": {"$value": "{color.theme.modern-earthy.primary}"},
-   "primary-dark": {"$value": "{color.theme.modern-earthy.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.modern-earthy.primary-darker}"},
-   "secondary": {"$value": "{color.theme.modern-earthy.secondary}"},
-   "tertiary": {"$value": "{color.theme.modern-earthy.tertiary}"},
-   "near-black": {"$value": "{color.theme.modern-earthy.near-black}"},
-   "white": {"$value": "{color.theme.modern-earthy.white}"},
-   "nav-text": {"$value": "{color.theme.modern-earthy.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Scranton Times-Tribune",
      "domain": "thetimes-tribune.com",
      "cluster": "NEPA",
      "theme": "Modern Earthy",
-     "tokenSource": "color.theme.modern-earthy",
-     "mismatchCount": 4,
-     "fixesFrom": "color.theme.modern-earthy",
-     "note": "Needs live check: the cluster sheet says \"MeasuredVibrant?\" but Figma lists it under Modern Earthy."
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
+     "mismatchCount": 2,
+     "fixesFrom": "color.theme.nepa-pmp",
+     "note": "NEPA site. Verified live 2026-10-01: modernearthy.css + its own site-thetimes-tribune plugin, with the same colors and type as PMP."
     }
    }
   },
   "wcexaminer-com": {
-   "primary-lighter": {"$value": "{color.theme.modern-earthy.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.modern-earthy.primary-light}"},
-   "primary": {"$value": "{color.theme.modern-earthy.primary}"},
-   "primary-dark": {"$value": "{color.theme.modern-earthy.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.modern-earthy.primary-darker}"},
-   "secondary": {"$value": "{color.theme.modern-earthy.secondary}"},
-   "tertiary": {"$value": "{color.theme.modern-earthy.tertiary}"},
-   "near-black": {"$value": "{color.theme.modern-earthy.near-black}"},
-   "white": {"$value": "{color.theme.modern-earthy.white}"},
-   "nav-text": {"$value": "{color.theme.modern-earthy.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Wyoming County Examiner",
      "domain": "wcexaminer.com",
      "cluster": "NEPA",
      "theme": "Modern Earthy",
-     "tokenSource": "color.theme.modern-earthy",
-     "mismatchCount": 4,
-     "fixesFrom": "color.theme.modern-earthy",
-     "note": "Needs live check: the cluster sheet says \"MeasuredVibrant?\" but Figma lists it under Modern Earthy."
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
+     "mismatchCount": 2,
+     "fixesFrom": "color.theme.nepa-pmp",
+     "note": "NEPA site. Verified live 2026-10-01: modernearthy.css + its own site-wcexaminer plugin, with the same colors and type as PMP."
     }
    }
   },
   "republicanherald-com": {
-   "primary-lighter": {"$value": "{color.theme.modern-earthy.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.modern-earthy.primary-light}"},
-   "primary": {"$value": "{color.theme.modern-earthy.primary}"},
-   "primary-dark": {"$value": "{color.theme.modern-earthy.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.modern-earthy.primary-darker}"},
-   "secondary": {"$value": "{color.theme.modern-earthy.secondary}"},
-   "tertiary": {"$value": "{color.theme.modern-earthy.tertiary}"},
-   "near-black": {"$value": "{color.theme.modern-earthy.near-black}"},
-   "white": {"$value": "{color.theme.modern-earthy.white}"},
-   "nav-text": {"$value": "{color.theme.modern-earthy.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Republican Herald (Pottsville)",
      "domain": "republicanherald.com",
      "cluster": "NEPA",
      "theme": "Modern Earthy",
-     "tokenSource": "color.theme.modern-earthy",
-     "mismatchCount": 4,
-     "fixesFrom": "color.theme.modern-earthy",
-     "note": "Needs live check: the cluster sheet says \"MeasuredVibrant?\" but Figma lists it under Modern Earthy."
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
+     "mismatchCount": 2,
+     "fixesFrom": "color.theme.nepa-pmp",
+     "note": "NEPA site. Verified live 2026-10-01: modernearthy.css + its own site-republicanherald plugin, with the same colors and type as PMP."
     }
    }
   },
   "standardspeaker-com": {
-   "primary-lighter": {"$value": "{color.theme.modern-earthy.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.modern-earthy.primary-light}"},
-   "primary": {"$value": "{color.theme.modern-earthy.primary}"},
-   "primary-dark": {"$value": "{color.theme.modern-earthy.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.modern-earthy.primary-darker}"},
-   "secondary": {"$value": "{color.theme.modern-earthy.secondary}"},
-   "tertiary": {"$value": "{color.theme.modern-earthy.tertiary}"},
-   "near-black": {"$value": "{color.theme.modern-earthy.near-black}"},
-   "white": {"$value": "{color.theme.modern-earthy.white}"},
-   "nav-text": {"$value": "{color.theme.modern-earthy.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Standard-Speaker (Hazleton)",
      "domain": "standardspeaker.com",
      "cluster": "NEPA",
      "theme": "Modern Earthy",
-     "tokenSource": "color.theme.modern-earthy",
-     "mismatchCount": 4,
-     "fixesFrom": "color.theme.modern-earthy",
-     "note": "Needs live check: the cluster sheet says \"MeasuredVibrant?\" but Figma lists it under Modern Earthy."
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
+     "mismatchCount": 2,
+     "fixesFrom": "color.theme.nepa-pmp",
+     "note": "NEPA site. Verified live 2026-10-01: modernearthy.css + its own site-standardspeaker plugin, with the same colors and type as PMP."
     }
    }
   },
@@ -1886,50 +1892,50 @@
    }
   },
   "dailycamera-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Boulder Daily Camera",
      "domain": "dailycamera.com",
      "cluster": "PMP",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
   "greeleytribune-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
    "primary-light": {"$value": "#5b7b8b"},
    "primary": {"$value": "#536e7f"},
    "primary-dark": {"$value": "#44687f"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Greeley Tribune",
      "domain": "greeleytribune.com",
      "cluster": "PMP",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing",
+     "fixesFrom": "color.theme.nepa-pmp",
      "exceptions": [
       { "token": "primary", "subThemeValue": "#3f51b5", "siteValue": "#536e7f", "source": "div#page Customizer override" },
       { "token": "primary-light", "subThemeValue": "#5869ca", "siteValue": "#5b7b8b", "source": "div#page Customizer override" },
@@ -1940,113 +1946,113 @@
    }
   },
   "timescall-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Longmont Times-Call",
      "domain": "timescall.com",
      "cluster": "PMP",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
   "reporterherald-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Loveland Reporter-Herald",
      "domain": "reporterherald.com",
      "cluster": "PMP",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
   "akronnewsreporter-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Akron News-Reporter",
      "domain": "akronnewsreporter.com",
      "cluster": "PMP Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
   "bocopreps-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "BoCoPreps",
      "domain": "bocopreps.com",
      "cluster": "PMP Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing",
+     "fixesFrom": "color.theme.nepa-pmp",
      "note": "Redirects to dailycamera.com/sports/high-school-sports."
     }
    }
   },
   "broomfieldenterprise-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "subsite-custom": {"$value": "#0054a0"},
    "$extensions": {
     "com.mng": {
@@ -2054,98 +2060,98 @@
      "domain": "broomfieldenterprise.com",
      "cluster": "PMP Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
   "brushnewstribune-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Brush News-Tribune",
      "domain": "brushnewstribune.com",
      "cluster": "PMP Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing",
+     "fixesFrom": "color.theme.nepa-pmp",
      "note": "Redirects to fortmorgantimes.com."
     }
    }
   },
   "buffzone-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Buffzone",
      "domain": "buffzone.com",
      "cluster": "PMP Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing",
+     "fixesFrom": "color.theme.nepa-pmp",
      "note": "Redirects to dailycamera.com/sports/college-sports/buffzone."
     }
    }
   },
   "canoncitydailyrecord-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Cañon City Daily Record",
      "domain": "canoncitydailyrecord.com",
      "cluster": "PMP Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
   "coloradohometownweekly-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "subsite-custom": {"$value": "#0054a0"},
    "$extensions": {
     "com.mng": {
@@ -2153,131 +2159,131 @@
      "domain": "coloradohometownweekly.com",
      "cluster": "PMP Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
   "eptrail-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Estes Park Trail-Gazette",
      "domain": "eptrail.com",
      "cluster": "PMP Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
   "fortmorgantimes-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Fort Morgan Times",
      "domain": "fortmorgantimes.com",
      "cluster": "PMP Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
   "southplattesentinel-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "South Platte Sentinel",
      "domain": "southplattesentinel.com",
      "cluster": "PMP Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing",
+     "fixesFrom": "color.theme.nepa-pmp",
      "note": "Redirects to journal-advocate.com."
     }
    }
   },
   "journal-advocate-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "Sterling Journal-Advocate",
      "domain": "journal-advocate.com",
      "cluster": "PMP Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
   "burlington-record-com": {
-   "primary-lighter": {"$value": "{color.theme.prairie-mountain-publishing.primary-lighter}"},
-   "primary-light": {"$value": "{color.theme.prairie-mountain-publishing.primary-light}"},
-   "primary": {"$value": "{color.theme.prairie-mountain-publishing.primary}"},
-   "primary-dark": {"$value": "{color.theme.prairie-mountain-publishing.primary-dark}"},
-   "primary-darker": {"$value": "{color.theme.prairie-mountain-publishing.primary-darker}"},
-   "secondary": {"$value": "{color.theme.prairie-mountain-publishing.secondary}"},
-   "tertiary": {"$value": "{color.theme.prairie-mountain-publishing.tertiary}"},
-   "near-black": {"$value": "{color.theme.prairie-mountain-publishing.near-black}"},
-   "white": {"$value": "{color.theme.prairie-mountain-publishing.white}"},
-   "nav-text": {"$value": "{color.theme.prairie-mountain-publishing.nav-text}"},
+   "primary-lighter": {"$value": "{color.theme.nepa-pmp.primary-lighter}"},
+   "primary-light": {"$value": "{color.theme.nepa-pmp.primary-light}"},
+   "primary": {"$value": "{color.theme.nepa-pmp.primary}"},
+   "primary-dark": {"$value": "{color.theme.nepa-pmp.primary-dark}"},
+   "primary-darker": {"$value": "{color.theme.nepa-pmp.primary-darker}"},
+   "secondary": {"$value": "{color.theme.nepa-pmp.secondary}"},
+   "tertiary": {"$value": "{color.theme.nepa-pmp.tertiary}"},
+   "near-black": {"$value": "{color.theme.nepa-pmp.near-black}"},
+   "white": {"$value": "{color.theme.nepa-pmp.white}"},
+   "nav-text": {"$value": "{color.theme.nepa-pmp.nav-text}"},
    "$extensions": {
     "com.mng": {
      "publication": "The Burlington Record",
      "domain": "burlington-record.com",
      "cluster": "PMP Weeklies",
      "theme": "Modern Earthy",
-     "subTheme": "Prairie Mountain Publishing",
-     "tokenSource": "color.theme.prairie-mountain-publishing",
+     "subTheme": "NEPA-PMP",
+     "tokenSource": "color.theme.nepa-pmp",
      "mismatchCount": 2,
-     "fixesFrom": "color.theme.prairie-mountain-publishing"
+     "fixesFrom": "color.theme.nepa-pmp"
     }
    }
   },
@@ -2742,7 +2748,7 @@
      "tokenSource": "color.theme.measured-vibrant",
      "mismatchCount": 2,
      "fixesFrom": "color.theme.measured-vibrant",
-     "note": "Needs live check: the cluster sheet and Figma disagree on this site's theme."
+     "note": "Verified live 2026-10-01: measuredvibrant.css, Measured Vibrant values."
     }
    }
   },
@@ -2818,7 +2824,7 @@
      "tokenSource": "color.theme.morning-call",
      "mismatchCount": 6,
      "fixesFrom": "color.theme.morning-call",
-     "note": "Needs live check: the cluster sheet and Figma disagree on this site's theme."
+     "note": "Verified live 2026-10-01: modernearthy.css + div#page Customizer override, as in Figma. secondary and tertiary aren't in the override but inherit the design values (#eeff41, #ff5722); primary-darker renders the inherited #003d66."
     }
    }
   },
@@ -2869,7 +2875,7 @@
      "tokenSource": "color.theme.measured-vibrant",
      "mismatchCount": 2,
      "fixesFrom": "color.theme.measured-vibrant",
-     "note": "Needs live check: the cluster sheet and Figma disagree on this site's theme."
+     "note": "Verified live 2026-10-01: measuredvibrant.css + site-tribune, Measured Vibrant values, subsite-custom #000000."
     }
    }
   },
@@ -2919,7 +2925,7 @@
      "tokenSource": "color.theme.growthspotter",
      "mismatchCount": 2,
      "fixesFrom": "color.theme.growthspotter",
-     "note": "Needs live check: the cluster sheet and Figma disagree on this site's theme."
+     "note": "Verified live 2026-10-01: measuredvibrant.css + site-tribune, its own green ramp as in Figma."
     }
    }
   },

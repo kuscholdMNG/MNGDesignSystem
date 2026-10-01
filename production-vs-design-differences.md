@@ -1,6 +1,6 @@
 # Production vs. Design Differences — Engineering Handoff
 
-> **Consolidated 2026-09-24.** Combines the Sept 22 version of this file (entries 1–17, unchanged except for the notes marked "2026-09-24") with a short duplicate created on Sept 24. That copy added one new item, now entry 18. Entry 19 and the method note at the end came from the HANDOFF and NOTE files in this folder. Entry 20 (icon font) was added 2026-09-25 from `components/icons.md`. Entry 21 (per-theme color fixes) was added 2026-09-25, when the Greeley Tribune color theme was folded into Prairie Mountain Publishing. Entries 18 and 21 were updated 2026-09-30 (Greeley exception, Hartford Courant verified), and entry 21 now holds the full per-theme color fix list that used to be `tokens/colors/mng-colors-engineering-fixes.md` (retired). Notes for reading older entries:
+> **Consolidated 2026-09-24.** Combines the Sept 22 version of this file (entries 1–17, unchanged except for the notes marked "2026-09-24") with a short duplicate created on Sept 24. That copy added one new item, now entry 18. Entry 19 and the method note at the end came from the HANDOFF and NOTE files in this folder. Entry 20 (icon font) was added 2026-09-25 from `components/icons.md`. Entry 21 (per-theme color fixes) was added 2026-09-25, when the Greeley Tribune color theme was folded into Prairie Mountain Publishing. Entries 18 and 21 were updated 2026-09-30 (Greeley exception, Hartford Courant verified) and 2026-10-01 (NEPA folded into the NEPA-PMP sub-theme; disputed sites verified live), and entry 21 now holds the full per-theme color fix list that used to be `tokens/colors/mng-colors-engineering-fixes.md` (retired). Notes for reading older entries:
 > - The Figma file called **"UI Style Guide"** below is the current **MNG Design System** file (same file, renamed; key `jFHYqhZbJjvWQmDI4myCsd`).
 > - `color-tokens.md` is now `tokens/colors/color-tokens-decision-log.md`. Current typography tokens are in `tokens/typography/typography-tokens.md`.
 > - The Figma file called **"Website Page Templates"** below (key `b1iZxkFwtAYq9rElmnCAzd`) has been renamed **"WordPress Elements"**.
@@ -537,7 +537,7 @@ See `tokens/typography/typography-tokens.md`. Production matches the new styles,
 
 ## 21. Color Tokens — theme and sub-theme color fixes (every publication)
 
-**Found:** 2026-08-03 production columns of the Color Pallets | 2026.09.10 style guides (PMP re-audited 2026-09-24, Hartford Courant verified 2026-09-25). Logged here 2026-09-25, when every style guide's red-dashed production callouts were carried into the portable color files. The full per-theme list moved here from `tokens/colors/mng-colors-engineering-fixes.md` on 2026-09-30 (that file is retired).
+**Found:** 2026-08-03 production columns of the Color Pallets | 2026.09.10 style guides (PMP re-audited 2026-09-24, Hartford Courant verified 2026-09-25, NEPA and the disputed Tribune sites verified 2026-10-01). Logged here 2026-09-25, when every style guide's red-dashed production callouts were carried into the portable color files. The full per-theme list moved here from `tokens/colors/mng-colors-engineering-fixes.md` on 2026-09-30 (that file is retired).
 
 **Figma spec (source of truth):** each theme's or sub-theme's should-be column on the Color Pallets page, and the matching Colors collection mode. Every row in the tables below is a red-dashed callout in that theme's "in Production" column. Fix production; don't change the tokens.
 
@@ -545,7 +545,7 @@ See `tokens/typography/typography-tokens.md`. Production matches the new styles,
 
 **Where to read colors live:** themed variables on `document.querySelector('#page')`, not `:root` (the Customizer override is scoped to `#page`; see the method note at the end of this doc).
 
-**Most common gaps:** `--primary-lighter` isn't set on most themes (the page falls back to a shared default), and Measured Vibrant, its sub-themes and PMP all render `--tertiary` as `#303F9F` instead of their design values.
+**Most common gaps:** `--primary-lighter` isn't set on most themes (the page falls back to a shared default), and Measured Vibrant, its sub-themes and NEPA-PMP all render `--tertiary` as `#303F9F` instead of their design values.
 
 **Status:** Open.
 
@@ -554,7 +554,7 @@ See `tokens/typography/typography-tokens.md`. Production matches the new styles,
 | Theme / sub-theme | Level | Parent | Fixes | Publications |
 |---|---|---|---|---|
 | Bold Coastal | theme | — | 2 | 2 |
-| Modern Earthy | theme | — | 4 | 30 |
+| Modern Earthy | theme | — | 4 | 25 |
 | Measured Vibrant | theme | — | 2 | 23 |
 | Denver Post | sub-theme | Bold Coastal | 3 | 1 |
 | East Bay Times | sub-theme | Bold Coastal | 2 | 1 |
@@ -568,7 +568,7 @@ See `tokens/typography/typography-tokens.md`. Production matches the new styles,
 | Morning Call | sub-theme | Modern Earthy | 6 | 1 |
 | 21C Michigan Sites (Combined) | sub-theme | Modern Earthy | 3 | 4 |
 | Boston Herald | sub-theme | Modern Earthy | 4 | 1 |
-| Prairie Mountain Publishing | sub-theme | Modern Earthy | 2 | 19 |
+| NEPA-PMP | sub-theme | Modern Earthy | 2 | 24 |
 | Chicago Tribune | sub-theme | Measured Vibrant | 2 | 1 |
 | South Florida Sun Sentinel | sub-theme | Measured Vibrant | 2 | 1 |
 | Orlando Sentinel | sub-theme | Measured Vibrant | 2 | 1 |
@@ -598,7 +598,7 @@ Loads: `modernearthy.css`. Figma mode: ModernEarthy. Production audited 2026-08-
 | `--primary-darker` | `#a52804` | `MISSING` | Define --primary-darker: #a52804 (modernearthy.css, body). It isn't set today. |
 | `--tertiary` | `#00828f` | `#ff5722` (Theme default (body)) | Change --tertiary from #ff5722 to #00828f (modernearthy.css, body). |
 
-**Publications:** Kingston Daily Freeman (dailyfreeman.com), Oneida Daily Dispatch (oneidadispatch.com), Saratogian (saratogian.com), The Troy Record (troyrecord.com), Lake County News-Herald (news-herald.com), Lorain Morning Journal (morningjournal.com), Delaware County Times (delcotimes.com), Norristown Times Herald (timesherald.com), Reading Eagle (readingeagle.com), The Lansdale Reporter (thereporteronline.com), The Pottstown Mercury (pottsmerc.com), Trentonian (trentonian.com), West Chester Daily Local (dailylocal.com), Main Line Media News (mainlinemedianews.com), Silicon Valley (siliconvalley.com), Nashoba Valley Voice (nashobavalleyvoice.com), Lowell Sun (lowellsun.com), Sentinel & Enterprise (Fitchburg) (sentinelandenterprise.com), The Citizens' Voice (Wilkes-Barre) (citizensvoice.com), Scranton Times-Tribune (thetimes-tribune.com), Wyoming County Examiner (wcexaminer.com), Republican Herald (Pottsville) (republicanherald.com), Standard-Speaker (Hazleton) (standardspeaker.com), LA Daily News (dailynews.com), Pasadena Star-News (pasadenastarnews.com), Press Enterprise (Riverside) (pressenterprise.com), San Bernardino Sun (sbsun.com), San Gabriel Valley Tribune (sgvtribune.com), Whittier Daily News (whittierdailynews.com), Excelsior California (excelsiorcalifornia.com)
+**Publications:** Kingston Daily Freeman (dailyfreeman.com), Oneida Daily Dispatch (oneidadispatch.com), Saratogian (saratogian.com), The Troy Record (troyrecord.com), Lake County News-Herald (news-herald.com), Lorain Morning Journal (morningjournal.com), Delaware County Times (delcotimes.com), Norristown Times Herald (timesherald.com), Reading Eagle (readingeagle.com), The Lansdale Reporter (thereporteronline.com), The Pottstown Mercury (pottsmerc.com), Trentonian (trentonian.com), West Chester Daily Local (dailylocal.com), Main Line Media News (mainlinemedianews.com), Silicon Valley (siliconvalley.com), Nashoba Valley Voice (nashobavalleyvoice.com), Lowell Sun (lowellsun.com), Sentinel & Enterprise (Fitchburg) (sentinelandenterprise.com), LA Daily News (dailynews.com), Pasadena Star-News (pasadenastarnews.com), Press Enterprise (Riverside) (pressenterprise.com), San Bernardino Sun (sbsun.com), San Gabriel Valley Tribune (sgvtribune.com), Whittier Daily News (whittierdailynews.com), Excelsior California (excelsiorcalifornia.com)
 
 ### Measured Vibrant
 
@@ -750,16 +750,18 @@ Loads: `modernearthy.css + Customizer override (div#page)`. Figma mode: Boston H
 
 **Publications:** Boston Herald (bostonherald.com)
 
-### Prairie Mountain Publishing (sub-theme of Modern Earthy)
+### NEPA-PMP (sub-theme of Modern Earthy)
 
-Loads: `modernearthy.css + plugins/site-plugins/site-pmp/dist/css/style.min.css (body)`. Figma mode: Prairie Mountain Publishing. Production audited 2026-09-24.
+Loads: `modernearthy.css + color override on body: site-pmp style.min.css (PMP sites) or each NEPA site's own site plugin (site-citizensvoice, site-thetimes-tribune, site-wcexaminer, site-republicanherald, site-standardspeaker), identical values`. Figma mode: NEPA-PMP. Production audited 2026-10-01.
+
+> One color sub-theme for two groups: the 19 PMP sites (shared site-pmp stylesheet) and the 5 NEPA sites (each site's own plugin stylesheet). Verified live 2026-10-01: NEPA sets the same six variables on body with identical values, and renders the same type as PMP.
 
 | Token | Design | Production | Fix |
 |---|---|---|---|
-| `--primary-lighter` | `#717fd1` | `MISSING` (inherits modernearthy.css :root default #47b6ff) | Define --primary-lighter: #717fd1 (site-pmp style.min.css, body). It isn't set today; the page falls back to #47b6ff. |
-| `--tertiary` | `#eb5300` | `#303f9f` (site-pmp override (body)) | Change --tertiary from #303f9f to #eb5300 (site-pmp style.min.css, body). |
+| `--primary-lighter` | `#717fd1` | `MISSING` (inherits modernearthy.css :root default #47b6ff) | Define --primary-lighter: #717fd1 (site-pmp style.min.css on PMP sites, each NEPA site plugin on NEPA sites; body). It isn't set today; the page falls back to #47b6ff. |
+| `--tertiary` | `#eb5300` | `#303f9f` (site-pmp / NEPA site override (body)) | Change --tertiary from #303f9f to #eb5300 (site-pmp style.min.css on PMP sites, each NEPA site plugin on NEPA sites; body). |
 
-**Publications:** Colorado Daily (coloradodaily.com), Julesburg Advocate (julesburgadvocate.com), Lamar Ledger (lamarledger.com), Boulder Daily Camera (dailycamera.com), Greeley Tribune (greeleytribune.com), Longmont Times-Call (timescall.com), Loveland Reporter-Herald (reporterherald.com), Akron News-Reporter (akronnewsreporter.com), BoCoPreps (bocopreps.com), Broomfield Enterprise (broomfieldenterprise.com), Brush News-Tribune (brushnewstribune.com), Buffzone (buffzone.com), Cañon City Daily Record (canoncitydailyrecord.com), Colorado Hometown Weekly (coloradohometownweekly.com), Estes Park Trail-Gazette (eptrail.com), Fort Morgan Times (fortmorgantimes.com), South Platte Sentinel (southplattesentinel.com), Sterling Journal-Advocate (journal-advocate.com), The Burlington Record (burlington-record.com)
+**Publications:** Colorado Daily (coloradodaily.com), Julesburg Advocate (julesburgadvocate.com), Lamar Ledger (lamarledger.com), The Citizens' Voice (Wilkes-Barre) (citizensvoice.com), Scranton Times-Tribune (thetimes-tribune.com), Wyoming County Examiner (wcexaminer.com), Republican Herald (Pottsville) (republicanherald.com), Standard-Speaker (Hazleton) (standardspeaker.com), Boulder Daily Camera (dailycamera.com), Greeley Tribune (greeleytribune.com), Longmont Times-Call (timescall.com), Loveland Reporter-Herald (reporterherald.com), Akron News-Reporter (akronnewsreporter.com), BoCoPreps (bocopreps.com), Broomfield Enterprise (broomfieldenterprise.com), Brush News-Tribune (brushnewstribune.com), Buffzone (buffzone.com), Cañon City Daily Record (canoncitydailyrecord.com), Colorado Hometown Weekly (coloradohometownweekly.com), Estes Park Trail-Gazette (eptrail.com), Fort Morgan Times (fortmorgantimes.com), South Platte Sentinel (southplattesentinel.com), Sterling Journal-Advocate (journal-advocate.com), The Burlington Record (burlington-record.com)
 
 ### Chicago Tribune (sub-theme of Measured Vibrant)
 
@@ -834,9 +836,9 @@ Loads: `obituaries pages, identical on every site`. Figma mode: Endless Tributes
 
 These sites intentionally differ from their sub-theme. They are noted in Figma under the sub-theme's style guide without red outlines. Leave them as they are (see also entry 18).
 
-#### Greeley Tribune (greeleytribune.com), under Prairie Mountain Publishing
+#### Greeley Tribune (greeleytribune.com), under NEPA-PMP
 
-| Token | Prairie Mountain Publishing value | Site value (keep) | Set in |
+| Token | NEPA-PMP value | Site value (keep) | Set in |
 |---|---|---|---|
 | `--primary` | `#3f51b5` | `#536e7f` | div#page Customizer override |
 | `--primary-light` | `#5869ca` | `#5b7b8b` | div#page Customizer override |
@@ -851,15 +853,7 @@ It still needs the sub-theme fixes above for the tokens it doesn't override.
 
 ### Needs a live check before fixing
 
-- The Citizens' Voice (Wilkes-Barre) (citizensvoice.com): the cluster sheet says "MeasuredVibrant?" but Figma lists it under Modern Earthy.
-- Scranton Times-Tribune (thetimes-tribune.com): the cluster sheet says "MeasuredVibrant?" but Figma lists it under Modern Earthy.
-- Wyoming County Examiner (wcexaminer.com): the cluster sheet says "MeasuredVibrant?" but Figma lists it under Modern Earthy.
-- Republican Herald (Pottsville) (republicanherald.com): the cluster sheet says "MeasuredVibrant?" but Figma lists it under Modern Earthy.
-- Standard-Speaker (Hazleton) (standardspeaker.com): the cluster sheet says "MeasuredVibrant?" but Figma lists it under Modern Earthy.
-- Daily Press (dailypress.com): the cluster sheet and Figma disagree on this site's theme.
-- The Morning Call (mcall.com): the cluster sheet and Figma disagree on this site's theme.
-- New York Daily News (nydailynews.com): the cluster sheet and Figma disagree on this site's theme.
-- GrowthSpotter (growthspotter.com): the cluster sheet and Figma disagree on this site's theme.
+None. The sites whose theme was disputed (the 5 NEPA sites, Daily Press, The Morning Call, New York Daily News, GrowthSpotter) were verified live on 2026-10-01; see their notes in `tokens/colors/mng-colors-sites.csv`.
 
 ### Index: every publication
 
@@ -889,18 +883,18 @@ It still needs the sub-theme fixes above for the tokens it doesn't override.
 | The Mercury News | mercurynews.com | BANG | Bold Coastal | The Mercury News | 1 |
 | Boston Herald | bostonherald.com | Boston | Modern Earthy | Boston Herald | 4 |
 | Nashoba Valley Voice | nashobavalleyvoice.com | Boston | Modern Earthy | — | 4 |
-| Colorado Daily | coloradodaily.com | Colorado Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Julesburg Advocate | julesburgadvocate.com | Colorado Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Lamar Ledger | lamarledger.com | Colorado Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
+| Colorado Daily | coloradodaily.com | Colorado Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| Julesburg Advocate | julesburgadvocate.com | Colorado Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| Lamar Ledger | lamarledger.com | Colorado Weeklies | Modern Earthy | NEPA-PMP | 2 |
 | Daily Herald | dailyherald.com | Daily Herald | — | — | n/a (not on MNG themes) |
 | The Denver Post | denverpost.com | Denver | Bold Coastal | Denver Post | 3 |
 | Lowell Sun | lowellsun.com | Fitch | Modern Earthy | — | 4 |
 | Sentinel & Enterprise (Fitchburg) | sentinelandenterprise.com | Fitch | Modern Earthy | — | 4 |
-| Republican Herald (Pottsville) | republicanherald.com | NEPA | Modern Earthy | — | 4 |
-| Scranton Times-Tribune | thetimes-tribune.com | NEPA | Modern Earthy | — | 4 |
-| Standard-Speaker (Hazleton) | standardspeaker.com | NEPA | Modern Earthy | — | 4 |
-| The Citizens' Voice (Wilkes-Barre) | citizensvoice.com | NEPA | Modern Earthy | — | 4 |
-| Wyoming County Examiner | wcexaminer.com | NEPA | Modern Earthy | — | 4 |
+| Republican Herald (Pottsville) | republicanherald.com | NEPA | Modern Earthy | NEPA-PMP | 2 |
+| Scranton Times-Tribune | thetimes-tribune.com | NEPA | Modern Earthy | NEPA-PMP | 2 |
+| Standard-Speaker (Hazleton) | standardspeaker.com | NEPA | Modern Earthy | NEPA-PMP | 2 |
+| The Citizens' Voice (Wilkes-Barre) | citizensvoice.com | NEPA | Modern Earthy | NEPA-PMP | 2 |
+| Wyoming County Examiner | wcexaminer.com | NEPA | Modern Earthy | NEPA-PMP | 2 |
 | Chico Enterprise-Record | chicoer.com | Norcal | Measured Vibrant | — | 2 |
 | Eureka Times-Standard | times-standard.com | Norcal | Measured Vibrant | — | 2 |
 | Lake County Record-Bee | record-bee.com | Norcal | Measured Vibrant | — | 2 |
@@ -916,22 +910,22 @@ It still needs the sub-theme fixes above for the tokens it doesn't override.
 | Paradise Post | paradisepost.com | Norcal Weeklies | Measured Vibrant | — | 2 |
 | The Mendocino Beacon | mendocinobeacon.com | Norcal Weeklies | Measured Vibrant | — | 2 |
 | The Willits News | willitsnews.com | Norcal Weeklies | Measured Vibrant | — | 2 |
-| Boulder Daily Camera | dailycamera.com | PMP | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Greeley Tribune | greeleytribune.com | PMP | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Longmont Times-Call | timescall.com | PMP | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Loveland Reporter-Herald | reporterherald.com | PMP | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Akron News-Reporter | akronnewsreporter.com | PMP Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| BoCoPreps | bocopreps.com | PMP Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Broomfield Enterprise | broomfieldenterprise.com | PMP Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Brush News-Tribune | brushnewstribune.com | PMP Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Buffzone | buffzone.com | PMP Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Cañon City Daily Record | canoncitydailyrecord.com | PMP Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Colorado Hometown Weekly | coloradohometownweekly.com | PMP Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Estes Park Trail-Gazette | eptrail.com | PMP Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Fort Morgan Times | fortmorgantimes.com | PMP Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| South Platte Sentinel | southplattesentinel.com | PMP Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| Sterling Journal-Advocate | journal-advocate.com | PMP Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
-| The Burlington Record | burlington-record.com | PMP Weeklies | Modern Earthy | Prairie Mountain Publishing | 2 |
+| Boulder Daily Camera | dailycamera.com | PMP | Modern Earthy | NEPA-PMP | 2 |
+| Greeley Tribune | greeleytribune.com | PMP | Modern Earthy | NEPA-PMP | 2 |
+| Longmont Times-Call | timescall.com | PMP | Modern Earthy | NEPA-PMP | 2 |
+| Loveland Reporter-Herald | reporterherald.com | PMP | Modern Earthy | NEPA-PMP | 2 |
+| Akron News-Reporter | akronnewsreporter.com | PMP Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| BoCoPreps | bocopreps.com | PMP Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| Broomfield Enterprise | broomfieldenterprise.com | PMP Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| Brush News-Tribune | brushnewstribune.com | PMP Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| Buffzone | buffzone.com | PMP Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| Cañon City Daily Record | canoncitydailyrecord.com | PMP Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| Colorado Hometown Weekly | coloradohometownweekly.com | PMP Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| Estes Park Trail-Gazette | eptrail.com | PMP Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| Fort Morgan Times | fortmorgantimes.com | PMP Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| South Platte Sentinel | southplattesentinel.com | PMP Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| Sterling Journal-Advocate | journal-advocate.com | PMP Weeklies | Modern Earthy | NEPA-PMP | 2 |
+| The Burlington Record | burlington-record.com | PMP Weeklies | Modern Earthy | NEPA-PMP | 2 |
 | Excelsior California | excelsiorcalifornia.com | SCNG | Modern Earthy | — | 4 |
 | Inland Valley Daily Bulletin | dailybulletin.com | SCNG | Measured Vibrant | — | 2 |
 | LA Daily News | dailynews.com | SCNG | Modern Earthy | — | 4 |
@@ -962,6 +956,77 @@ It still needs the sub-theme fixes above for the tokens it doesn't override.
 | The Morning Call | mcall.com | Tribune | Modern Earthy | Morning Call | 6 |
 | The Virginian-Pilot | pilotonline.com | Tribune | Measured Vibrant | — | 2 |
 | St. Paul Pioneer Press | twincities.com | Twin Cities | Bold Coastal | St. Paul Pioneer Press | 5 |
+
+---
+
+## 22. Spacing — 10px and 14px values off the 4/8 grid
+
+**Found:** 2026-10-01, while creating the spacing tokens. Measured live on chicagotribune.com (homepage, 1728px viewport, every visible element's padding, margin and gap).
+
+**Figma spec (source of truth):** spacing follows the 4/8 grid. The main file's "Spacing & Radius" collection has `spacing/050` 4, `spacing/100` 8, `spacing/150` 12, `spacing/200` 16, `spacing/250` 20, `spacing/300` 24.
+
+**Decision (Karl, 2026-10-01):** 10px and 14px are production drift, not design values. They are not tokens; production should move to the nearest grid value.
+
+**Production:**
+
+| Where | Live value | Fix |
+|---|---|---|
+| `.subscribe-button` (header, footer and article paywall CTA) | padding 14px / 10px | Use Button Primary Default: 16px / 20px (`spacing/200` / `spacing/250`). Same fix as entry 1. |
+| Main content wrapper (left/right page gutter) | padding 0 10px | Use `spacing/100` (8px) or `spacing/150` (12px); confirm with design which one. |
+| `ul.footer-menus`, `div.colophon` | padding 0 10px | Same as the page gutter. |
+
+**Context:** on that page 10px appears 17 times. The grid values are far more common (16px 79, 12px 46, 32px 36, 8px 34, 4px 28). Other off-grid values also appear (15px 38, 17px 20, 19px 17, 3px 28) and should be reviewed in a later pass.
+
+**Engineering patch (ready to apply):**
+
+```css
+/* 22a. Subscribe CTA = Button Primary Default (also closes entry 1) */
+.subscribe-button {
+  padding: 16px 20px;   /* was 14px 10px; spacing/200 vertical, spacing/250 horizontal */
+  font-size: 14px;      /* was 15px */
+}
+
+/* 22b. Page gutter. GUTTER = 8px (spacing/100) or 12px (spacing/150), pending Karl */
+.main-content-wrapper,   /* placeholder: the wrapper with padding: 0 10px today */
+ul.footer-menus,
+div.colophon {
+  padding-left: GUTTER;  /* was 10px */
+  padding-right: GUTTER; /* was 10px */
+}
+```
+
+Check after the change: the subscribe CTA keeps its 44px min height and its fill color per masthead, and the header, body and footer edges still line up with each other.
+
+**Status:** Open. 22a is ready for Engineering. 22b needs one design decision first (8px or 12px).
+
+---
+
+## 23. Radius — buttons are 4px; 5px on a button is drift
+
+**Found:** 2026-10-01. Live check of chicagotribune.com and ocregister.com (homepage and article) and denverpost.com (homepage): every button uses 4px (Subscribe Now, newsletter Sign Up buttons). Figma's Button Primary, Secondary, Tertiary and Linkstyle were already 4px.
+
+**Decision (Karl, 2026-10-01):** button radius is 4px across the board (`radius/sm`). In Figma, Action Button, Button Action and Button ActionMenu were changed from 5px to 4px, and every button shape is now bound to `radius/sm`. `radius/utility` (5px) stays, for containers only (Karl, 2026-10-01).
+
+**Production:**
+
+| Where | Live value | Fix |
+|---|---|---|
+| Search submit button (`.search-button`, masthead search form; see `components/navigation.md`) | border-radius 5px | Use 4px (`radius/sm`). |
+| Account dropdown panel (masthead; see `components/navigation.md`) | border-radius 0 0 5px 5px | No fix. It's a container, so 5px (`radius/utility`) is correct. |
+
+**Containers keep 5px (`radius/utility`):** InLineMessage containers, ModalsCenter parts, Form Field shapes, check boxes, the status badge and the account dropdown. In Figma their 5px corners are bound to `radius/utility`.
+
+**Engineering patch (ready to apply):**
+
+```css
+/* 23a. Masthead search submit = button radius */
+.search-button {
+  border-radius: 4px;   /* was 5px; radius/sm */
+}
+/* Leave the account dropdown at 0 0 5px 5px (radius/utility, container). */
+```
+
+**Status:** Open. Ready for Engineering.
 
 ---
 

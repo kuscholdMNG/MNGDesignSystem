@@ -1,4 +1,4 @@
-/* MNG Design System: all publication colors (design values). Generated 2026-09-30 from mng-colors.tokens.json. */
+/* MNG Design System: all publication colors (design values). Generated 2026-10-01 from mng-colors.tokens.json. */
 /* Use: <html data-mng-site="domain"> for a site, or data-mng-theme="key" for a theme. */
 :root {
   --mng-gray-black: #000000;
@@ -43,7 +43,7 @@
   --subsite-custom: #0097a7;
 }
 
-/* Modern Earthy (theme) · 30 publications · Engineering fixes: 4 (see production-vs-design-differences.md entry 21) */
+/* Modern Earthy (theme) · 25 publications · Engineering fixes: 4 (see production-vs-design-differences.md entry 21) */
 [data-mng-theme="modern-earthy"],
 [data-mng-site="dailyfreeman.com"],
 [data-mng-site="oneidadispatch.com"],
@@ -63,11 +63,6 @@
 [data-mng-site="nashobavalleyvoice.com"],
 [data-mng-site="lowellsun.com"],
 [data-mng-site="sentinelandenterprise.com"],
-[data-mng-site="citizensvoice.com"],
-[data-mng-site="thetimes-tribune.com"],
-[data-mng-site="wcexaminer.com"],
-[data-mng-site="republicanherald.com"],
-[data-mng-site="standardspeaker.com"],
 [data-mng-site="dailynews.com"],
 [data-mng-site="pasadenastarnews.com"],
 [data-mng-site="pressenterprise.com"],
@@ -312,11 +307,16 @@
   --nav-text: #141414;
 }
 
-/* Prairie Mountain Publishing (sub-theme of Modern Earthy) · 19 publications · Engineering fixes: 2 (see production-vs-design-differences.md entry 21) */
-[data-mng-theme="prairie-mountain-publishing"],
+/* NEPA-PMP (sub-theme of Modern Earthy) · 24 publications · Engineering fixes: 2 (see production-vs-design-differences.md entry 21) */
+[data-mng-theme="nepa-pmp"],
 [data-mng-site="coloradodaily.com"],
 [data-mng-site="julesburgadvocate.com"],
 [data-mng-site="lamarledger.com"],
+[data-mng-site="citizensvoice.com"],
+[data-mng-site="thetimes-tribune.com"],
+[data-mng-site="wcexaminer.com"],
+[data-mng-site="republicanherald.com"],
+[data-mng-site="standardspeaker.com"],
 [data-mng-site="dailycamera.com"],
 [data-mng-site="greeleytribune.com"],
 [data-mng-site="timescall.com"],
@@ -440,7 +440,7 @@
 [data-mng-site="thereporteronline.com"] { /* The Lansdale Reporter */ --subsite-custom: #164396; --subsite-text: #f9f9f9; }
 [data-mng-site="trentonian.com"] { /* Trentonian */ --subsite-custom: #0c8fcf; --subsite-text: #f9f9f9; }
 [data-mng-site="mainlinemedianews.com"] { /* Main Line Media News */ --subsite-text: #0a0a0a; }
-[data-mng-site="greeleytribune.com"] { /* Greeley Tribune · documented exception to Prairie Mountain Publishing (not a mismatch) */ --primary-light: #5b7b8b; --primary: #536e7f; --primary-dark: #44687f; }
+[data-mng-site="greeleytribune.com"] { /* Greeley Tribune · documented exception to NEPA-PMP (not a mismatch) */ --primary-light: #5b7b8b; --primary: #536e7f; --primary-dark: #44687f; }
 [data-mng-site="broomfieldenterprise.com"] { /* Broomfield Enterprise */ --subsite-custom: #0054a0; }
 [data-mng-site="coloradohometownweekly.com"] { /* Colorado Hometown Weekly */ --subsite-custom: #0054a0; }
 [data-mng-site="presstelegram.com"] { /* Long Beach Press-Telegram */ --subsite-custom: #4051b5; --subsite-text: #f9f9f9; }
