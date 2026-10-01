@@ -1,0 +1,8 @@
+# macOS Finder files
+.DS_Store
+
+# Zips are not kept in this project (README rule 4)
+*.zip
+
+# Local credentials, never committed
+claude-credentials
