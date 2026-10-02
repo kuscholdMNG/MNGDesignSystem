@@ -1049,6 +1049,24 @@ Check after the change: the subscribe CTA keeps its 44px min height and its fill
 
 **Also noted:** Denver Post's live `--tertiary` is `#A13B1E`, but its token is `#FFC518`; and its live `--primary-light` / `--primary-lighter` (`#C81632` / `#AF1628`) are the reverse of the tokens (`#AF1628` / `#C81632`). Check these against entry 21's Denver Post section.
 
+## 25. Sponsored content badge — OC Register's Nativo label is not the site's secondary color
+
+**Found:** 2026-10-02, live check of the six review sites (homepage, Latest Headlines and article lists).
+
+**Figma spec (source of truth):** the "Sponsored content" badge (WordPress Elements, Article Status Badge `Type=Sponsored`, `3344:63995`, and its instances in Latest Headlines, Top Zone and TopZone Article Card) uses `color/theme/secondary` for its background (Karl, 2026-10-02).
+
+**Production:** the live badge is the Nativo native-ad label (inline style set by the vendor template), not a theme class.
+
+| Site | Live label background | Site secondary | Match |
+|---|---|---|---|
+| denverpost.com | #003459 | #003459 | ✅ |
+| ocregister.com | #0097A7 | #FFEA00 | ❌ |
+| chicagotribune.com, orlandosentinel.com, canoncitydailyrecord.com, mcall.com | no Nativo sponsored unit on the homepage checked | — | not checked |
+
+**Fix:** set OC Register's Nativo template to the site's `secondary` (`#FFEA00`, with dark `near-black` text), or confirm with Ad Ops which color the vendor template should use per site. Re-check the other four sites when a sponsored unit is running.
+
+**Note:** the theme's own `.sponsored-content .sponsored-flag` (not the Nativo label) uses `primary-light` with white text, and `secondary` with dark text on images.
+
 ## How to use this doc
 
 Add a new dated, numbered entry whenever a Figma-vs-production gap or an explicit engineering/legal flag is found during an audit, rather than quietly "fixing" the design tokens to match whatever production happens to do. Mark each item's status (Open / Fixed / Confirmed-intentional) as it gets resolved, and keep the original finding text rather than deleting it once resolved — see how `tokens/colors/color-tokens-decision-log.md` and the component audit docs annotate resolved items in place, for the pattern to follow here too.
