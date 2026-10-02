@@ -21,7 +21,7 @@ This is a portable, AI-readable spec export from the **MNG Design System** Figma
 | 01 | [Button Primary](components/01-button-primary/button-primary.md) | Button Primary | `5328:15928` | 24 | Desktop, Mobile | 105 | Icons | InLineMessage, ModalsCenter, Modals |
 | 02 | [Button Secondary](components/02-button-secondary/button-secondary.md) | Button Secondary | `5333:16013` | 24 | Desktop, Mobile | 4 | Icons | — |
 | 03 | [Button Tertiary](components/03-button-tertiary/button-tertiary.md) | Button Tertiary | `5333:16089` | 24 | Desktop, Mobile | 18 | Icons | InLineMessage |
-| 04 | [Action Button](components/04-action-button/action-button.md) | Action Button | `7075:6357` | 4 | single size | 4 | Icons | — |
+| 04 | [Action Button](components/04-action-button/action-button.md) | Button Action (was Action Button) | `7075:6357` | 4 | single size | 4 | Icons | — |
 | 05 | [Button Linkstyle](components/05-button-linkstyle/button-linkstyle.md) | Button Linkstyle | `5428:3953` | 8 | single size | 71 | — | Modals, ModalsCenter, InLineMessage, Form Field |
 | 06 | [Pop-Up Modal Close](components/06-pop-up-modal-close/pop-up-modal-close.md) | Button Modal Close (was Button ModalClose) | `5335:16196` | 4 | single size | 26 | Icons | Modals, ModalsCenter |
 | 07 | [In-Line Close](components/07-in-line-close/in-line-close.md) | Button In-Line Close (was Button PanelClose) | `5335:16200` | 4 | single size | 100 | Icons | InLineMessage, ModalsOffset |
@@ -50,7 +50,7 @@ Every family has the same four states, from the page's "Button Interactions" not
 - **Default:** resting appearance.
 - **Hover:** pointer over the button. The fill or border changes to the family's hover token.
 - **Pressed:** mouse down or tap. It's currently the same as Hover everywhere, because no pressed token exists yet.
-- **InFocus:** keyboard focus. A focus ring is added around the Default look. The ring is 2px black on every family except Non-Button Hyperlink, which uses a teal ring.
+- **InFocus:** keyboard focus. A focus ring is added around the Default look. The ring is 2px black on every family except Non-Button Hyperlink, which uses a teal ring to match production (intentional).
 
 ## Breakpoints
 
@@ -67,23 +67,25 @@ The other five families are a single size at every viewport.
 
 Every color is bound to one of **9 variables** (see `tokens.json` and `tokens.css`): `color/theme/primary` #007580, `primary-dark` #0A5962, `primary-light` #00838F, `color/gray/max` #FFFFFF, `gray/600` #F1EFEB, `gray/500` #CCCAC7, `gray/400` #A7A6A3, `gray/min` #141414 and `gray/black` #000000. Since 2026-10-02 there are no unbound colors (the Mobile InFocus rings on Secondary and Tertiary were the last ones).
 
-Type: Noto Sans only. CTA buttons use Bold 16px Title Case. Action Button uses Bold 12px. Linkstyle uses Regular 16px. Hyperlink uses Regular 16.5px, which is off the scale.
+Type: Noto Sans only. CTA buttons use Bold 16px Title Case. Action Button uses Bold 12px. Linkstyle uses Regular 16px. Hyperlink uses Regular 16.5px, which is off the scale but matches production (intentional).
 
 ## Notable findings
 
 Resolved in Figma on 2026-10-02 (Karl's review):
+
+- **Hyperlink** styling (16.5px text, teal focus ring, dashed underline kept inside the InFocus box) matches production and is intentional, not an error. The Figma spec text now says so.
+- **Focus rings never change size or shift content:** a check of every Default vs. InFocus pair on the seven button families found identical component size and identical text and icon positions. The ring draws outside the button (40px button reads as 46px with the ring) without affecting layout.
 
 - **Pop-Up Modal Close InFocus:** the design was right (InFocus keeps the Default gray fill and border); the spec text was wrong and now says so.
 - **CTA heights:** Primary, Secondary and Tertiary are 40px in every state. Padding is 8px top/bottom (`spacing/100`) and 16px left/right (`spacing/200`), with a 40px min-height so a wrapped label can grow. Action Button (32px) and Linkstyle (38px) stay compact on purpose (Karl, 2026-10-02).
 - **Icons:** 16px on Primary, Secondary, Tertiary and Action Button; 12px on Modal Close and In-Line Close.
 - **Focus rings:** every ring is a `Focus Ring` frame, absolutely positioned 1px outside the element with a 2px outside stroke bound to `color/gray/black`. It never changes the component's size or pushes neighbours, so InFocus variants are now the same size as Default (Modal Close 32×32, Action Button 95×32, Linkstyle unchanged, CTAs 40px).
 - **In-Line Close InFocus ring:** 4px corners (`radius/sm`, matching the Hover/Pressed box), 1px offset outside the 40px hit area.
-- **Naming:** `Button ModalClose` → `Button Modal Close`, `Button PanelClose` → `Button In-Line Close`, `nonButton Hyperlink` → `Hyperlink`. All variant properties are capitalized (`State`, `Style`, `Icon`, `Breakpoint`), as are their values (`Default`, `Left`, `Right`, `Stacked`, `1 Row`). `Action Button` keeps its name so it doesn't collide with the separate `Button Action` set.
+- **Naming:** `Button ModalClose` → `Button Modal Close`, `Button PanelClose` → `Button In-Line Close`, `nonButton Hyperlink` → `Hyperlink`. All variant properties are capitalized (`State`, `Style`, `Icon`, `Breakpoint`), as are their values (`Default`, `Left`, `Right`, `Stacked`, `1 Row`). The documented set `7075:6357` is now `Button Action`, and the older library set on the same page (`5417:3876`, formerly `Button Action`) is now `Action Button` (Karl, 2026-10-02).
 
 Still open:
 
-- **Hyperlink** is 16.5px, has a teal focus ring and keeps a leftover dashed underline in InFocus. Figma already flags all three.
-- **Low adoption:** most Hover, Pressed, InFocus, Mobile and icon variants appear only in their documentation frame, or nowhere. The stacked Linkstyle variants and the Action Button aren't used anywhere yet.
+- **Low adoption:** most Hover, Pressed, InFocus, Mobile and icon variants appear only in their documentation frame, or nowhere. The stacked Linkstyle variants and Button Action (`7075:6357`) aren't used anywhere yet.
 - **Fixed since the 2026-09-24 export:** the Button Tertiary InFocus grid swap, and the Desktop focus-ring bindings on Secondary and Tertiary.
 
 Each component's `.md` has the full list under **Known issues**.

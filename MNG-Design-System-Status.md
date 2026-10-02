@@ -78,7 +78,7 @@ The mercurynews.com and eastbaytimes.com sites were removed from the list on 202
 | :---- | :---- | :---- |
 | Button Primary / Secondary / Tertiary | Main file, Buttons \| 2026.09.30 page | `5328:15928` / `5333:16013` / `5333:16089` |
 | Button Linkstyle (text-link buttons, used for disclosures) | Main file, Buttons \| 2026.09.30 page | `5428:3953` |
-| Action Button / Pop-Up Modal Close (`Button Modal Close`) / In-Line Close (`Button In-Line Close`) / Non-Button Hyperlink (`Hyperlink`) | Main file, Buttons \| 2026.09.30 page | `7075:6357` / `5335:16196` / `5335:16200` / `6282:5568` |
+| Action Button (`Button Action`) / Pop-Up Modal Close (`Button Modal Close`) / In-Line Close (`Button In-Line Close`) / Non-Button Hyperlink (`Hyperlink`) | Main file, Buttons \| 2026.09.30 page | `7075:6357` / `5335:16196` / `5335:16200` / `6282:5568` |
 | InLineMessage (alerts, panels, empty states) | Main file, In-Line Content Containers page | `2776:2` |
 | ModalsCenter / ModalsOffset | Main file, Modal Panels page (library copy also in Reader Dashboard v2.0) | `3040:2262` / `6497:6263` |
 | Icons | Main file, Icons page | `4693:5` |
@@ -117,8 +117,9 @@ The component specs in `components/` (modal, disclosure, empty-state-status-badg
     - Primary, Secondary and Tertiary are 40px tall in every state (8px top/bottom padding, 40px min-height so a wrapped label can grow). Action Button (32px) and Linkstyle (38px) stay compact (Karl, 2026-10-02).
     - Icons: 16px on Primary, Secondary, Tertiary and Action Button; 12px on Modal Close and In-Line Close.
     - Every focus ring is bound to `color/gray/black` and drawn outside the element (absolute `Focus Ring` frame, 1px offset), so it never changes size or pushes neighbours. The In-Line Close ring has 4px corners to match its Hover/Pressed box.
-    - Renamed: `Button Modal Close`, `Button In-Line Close`, `Hyperlink`; all variant properties and values capitalized (`State`, `Style`, `Icon`, `Breakpoint`; `Default`, `Left`, `Right`, `Stacked`, `1 Row`). `Action Button` keeps its name to avoid colliding with `Button Action`.
-    - Still open: Hyperlink's 16.5px text, teal focus ring and leftover dashed underline (flagged in Figma).
+    - Renamed: `Button Modal Close`, `Button In-Line Close`, `Hyperlink`; all variant properties and values capitalized (`State`, `Style`, `Icon`, `Breakpoint`; `Default`, `Left`, `Right`, `Stacked`, `1 Row`). The documented set `7075:6357` is now `Button Action`; the older library set `5417:3876` (formerly `Button Action`) is now `Action Button`.
+    - Focus rings: verified that no InFocus variant changes size or shifts its text or icons; the ring draws outside the button (a 40px button reads as 46px with the ring).
+    - Hyperlink's 16.5px text, teal focus ring and dashed underline inside the InFocus box match production and are intentional, not errors (Karl, 2026-10-02). The Figma spec text says so.
 19. **Re-export the Buttons page** to `figma-exports/mng-buttons-export/`. The per-component files still show the 2026-10-01 state; the README notes the 2026-10-02 changes.
 
 ## 7\. Standing rules
