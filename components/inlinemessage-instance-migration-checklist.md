@@ -54,7 +54,7 @@ I can also re-run the exact same scan script after the rebuild and diff the resu
 | ☐ Alerts and Icons | 13 | Broad mix — Header, ModalError, and several Dash* alerts |
 | ☐ Modal Panels \| 2025.12.29 | 12 | All `ModalError` (High, Alert) |
 | ☐ Breakpoints and Page Templates \| 2026.05.19 | 6 | All `Header` (High, HeaderAlert) |
-| ☐ Buttons \| 2026.02.27 | 3 | Mixed |
+| ☐ Buttons \| 2026.09.30 | 3 | Mixed |
 | ☐ Fonts (then "Fonts \| 2026.02.06") | 1 | `ModalError` (High, Alert) |
 
 ### ☐ Reader Dashboard v2.0

@@ -1,9 +1,7 @@
 # Production vs. Design Differences — Engineering Handoff
 
 > **Consolidated 2026-09-24.** Combines the Sept 22 version of this file (entries 1–17, unchanged except for the notes marked "2026-09-24") with a short duplicate created on Sept 24. That copy added one new item, now entry 18. Entry 19 and the method note at the end came from the HANDOFF and NOTE files in this folder. Entry 20 (icon font) was added 2026-09-25 from `components/icons.md`. Entry 21 (per-theme color fixes) was added 2026-09-25, when the Greeley Tribune color theme was folded into Prairie Mountain Publishing. Entries 18 and 21 were updated 2026-09-30 (Greeley exception, Hartford Courant verified) and 2026-10-01 (NEPA folded into the NEPA-PMP sub-theme; disputed sites verified live), and entry 21 now holds the full per-theme color fix list that used to be `tokens/colors/mng-colors-engineering-fixes.md` (retired). Notes for reading older entries:
-> - The Figma file called **"UI Style Guide"** below is the current **MNG Design System** file (same file, renamed; key `jFHYqhZbJjvWQmDI4myCsd`).
 > - `color-tokens.md` is now `tokens/colors/color-tokens-decision-log.md`. Current typography tokens are in `tokens/typography/typography-tokens.md`.
-> - The Figma file called **"Website Page Templates"** below (key `b1iZxkFwtAYq9rElmnCAzd`) has been renamed **"WordPress Elements"**.
 > - Greeley Tribune no longer has its own color theme or Figma mode (2026-09-25). Mentions of it below as a pilot site for layout, nav or typography still stand.
 
 **Purpose:** A running list of every place live production has been found diverging from the Figma design-system spec, or where something was explicitly flagged as needing engineering (or legal) attention. Figma is the source of truth for these systems; when production disagrees, the fix belongs here as an engineering item rather than being silently absorbed into design tokens. Each entry says where the drift is, what Figma says vs. what's live, and what engineering should do about it.
@@ -28,7 +26,7 @@
 
 ## 2. Reader Dashboard — Typography (2026-09-10)
 
-**Policy:** For anything specific to the Reader Dashboard, Figma is the source of truth — even where production currently differs. UI Style Guide's `Dashboard/*` typography tokens (in the "Dashboard Typography" collection) are kept at their Figma-specified values; any place production has been found rendering something different is recorded here instead, for engineering to either fix in production or flag back to design if the production value should actually be adopted.
+**Policy:** For anything specific to the Reader Dashboard, Figma is the source of truth — even where production currently differs. MNG Design System's `Dashboard/*` typography tokens (in the "Dashboard Typography" collection) are kept at their Figma-specified values; any place production has been found rendering something different is recorded here instead, for engineering to either fix in production or flag back to design if the production value should actually be adopted.
 
 ### 2.1 Page title size — `Dashboard/Titles/PageDesktop`
 
@@ -36,7 +34,7 @@
 
 **Production:** canoncitydailyrecord.com/dashboard/ (desktop width) renders this title at **36px**, via a Tailwind `lg:text-4xl` breakpoint utility class overriding the base size.
 
-**Action needed:** Reconcile production to the Figma-specified 26px, OR — if 36px is an intentional, approved change — get that confirmed with design so Figma can be updated to match and this item retired. Until then, UI Style Guide's token stays at 26px per the policy above.
+**Action needed:** Reconcile production to the Figma-specified 26px, OR — if 36px is an intentional, approved change — get that confirmed with design so Figma can be updated to match and this item retired. Until then, MNG Design System's token stays at 26px per the policy above.
 
 **Status:** Open.
 
@@ -54,7 +52,7 @@
 
 ### 2.3 `font/size/10` — unconfirmed in production
 
-**Figma:** Defined at 10px in Reader Dashboard v2.0's Type Primitives, carried into UI Style Guide.
+**Figma:** Defined at 10px in Reader Dashboard v2.0's Type Primitives, carried into MNG Design System.
 
 **Production:** No confirmed live sighting during this audit (only canoncitydailyrecord.com/dashboard/ was checked).
 
@@ -306,7 +304,7 @@ A device-signal CSS class is added client-side (confirmed not server-side) sligh
 
 ## 11. Color Tokens — Endless Tributes / Obituaries palette live-production audit
 
-**Found:** 2026-09-10, live-production verification of the 9 documented Endless Tributes colors (Shared Platform Reference — Style Guide section, Endless Tributes — Style Guide sub-section, now migrated into UI Style Guide's Color Pallets page) against denverpost.com's obituaries listing page and an obituary article subpage. Verified via Claude in Chrome: a `getComputedStyle()` scan of `backgroundColor`/`color`/`borderColor`/`boxShadow`/`fill` across all rendered DOM elements, plus a separate `document.styleSheets` rule-text scan (for rules not currently applied to any rendered element, and for actual `:hover`/`:active` pseudo-class declarations, since a synthetic `:hover` match after a simulated hover did not reliably surface them).
+**Found:** 2026-09-10, live-production verification of the 9 documented Endless Tributes colors (Shared Platform Reference — Style Guide section, Endless Tributes — Style Guide sub-section, now migrated into MNG Design System's Color Pallets page) against denverpost.com's obituaries listing page and an obituary article subpage. Verified via Claude in Chrome: a `getComputedStyle()` scan of `backgroundColor`/`color`/`borderColor`/`boxShadow`/`fill` across all rendered DOM elements, plus a separate `document.styleSheets` rule-text scan (for rules not currently applied to any rendered element, and for actual `:hover`/`:active` pseudo-class declarations, since a synthetic `:hover` match after a simulated hover did not reliably surface them).
 
 **Figma spec (Endless Tributes — Style Guide, 9 documented colors):**
 
@@ -336,7 +334,7 @@ A device-signal CSS class is added client-side (confirmed not server-side) sligh
 
 **Note on scope:** only Denver Post was checked in this pass (Karl scoped the request to "any one" production site). The other 5 sites in the repertoire (ocregister.com, chicagotribune.com, orlandosentinel.com, canoncitydailyrecord.com, mcall.com) have not yet been checked for these colors.
 
-**Figma action taken:** ~~none of these findings...~~ **Superseded 2026-09-10.** The original plan was to record these findings without adding them to Figma's Brand/Colors Variables groups, since UI Style Guide's `Colors` collection only had a fixed 7-color-slot-per-theme model (`theme/primary`, `theme/secondary`, `theme/tertiary`, `theme/primary-light`, `theme/primary-dark`, `theme/primary-lighter`, `theme/primary-darker`) with no room for the Endless Tributes palette's 9 colors without restructuring all 20 modes. **Karl's resolution:** rather than trying to shoehorn the tributes palette into the existing per-theme slot model (or into its own one-off "Endless Tributes" mode), all 9 colors were added as a new, separate `color/tributes/*` variable group — `primary-lighter`, `primary-light`, `primary`, `primary-dark`, `primary-darker`, `secondary`, `tertiary`, `tan`, `tan-light` — each carrying the same universal value across all 20 modes (BoldCoastal, ModernEarthy, MeasuredVibrant, DenverPost, Endless Tributes, and all 15 masthead-specific modes). This matches how obituary pages actually render in production: identically regardless of which site's masthead brand is active, so a single shared value per token across every mode is correct, not a compromise. The `--*-obit` CSS widget variables (`--primary-obit`, `--primary-obit-light`, `--secondary-obit`, `--tertiary-obit`, `--quaternary-obit`) and the undocumented `#ccc7bc` beige are unaffected by this — the widget vars are a live-code cleanup item for engineering, and `#ccc7bc` remains genuinely undocumented (doesn't match any of the 9 tributes tokens), so both stay open below.
+**Figma action taken:** ~~none of these findings...~~ **Superseded 2026-09-10.** The original plan was to record these findings without adding them to Figma's Brand/Colors Variables groups, since MNG Design System's `Colors` collection only had a fixed 7-color-slot-per-theme model (`theme/primary`, `theme/secondary`, `theme/tertiary`, `theme/primary-light`, `theme/primary-dark`, `theme/primary-lighter`, `theme/primary-darker`) with no room for the Endless Tributes palette's 9 colors without restructuring all 20 modes. **Karl's resolution:** rather than trying to shoehorn the tributes palette into the existing per-theme slot model (or into its own one-off "Endless Tributes" mode), all 9 colors were added as a new, separate `color/tributes/*` variable group — `primary-lighter`, `primary-light`, `primary`, `primary-dark`, `primary-darker`, `secondary`, `tertiary`, `tan`, `tan-light` — each carrying the same universal value across all 20 modes (BoldCoastal, ModernEarthy, MeasuredVibrant, DenverPost, Endless Tributes, and all 15 masthead-specific modes). This matches how obituary pages actually render in production: identically regardless of which site's masthead brand is active, so a single shared value per token across every mode is correct, not a compromise. The `--*-obit` CSS widget variables (`--primary-obit`, `--primary-obit-light`, `--secondary-obit`, `--tertiary-obit`, `--quaternary-obit`) and the undocumented `#ccc7bc` beige are unaffected by this — the widget vars are a live-code cleanup item for engineering, and `#ccc7bc` remains genuinely undocumented (doesn't match any of the 9 tributes tokens), so both stay open below.
 
 **Status:** Open for the `--*-obit` widget CSS variables (still live despite the "remove" flag) and the undocumented `#ccc7bc` beige. **Resolved 2026-09-10** for the tributes palette itself — all 9 colors are now proper Figma variables (`color/tributes/*`) applied across all 20 brand groups; the tan-light production drift (`#e8e6e2` spec vs. `#ecede7` live) is still an open engineering item to reconcile.
 
@@ -360,7 +358,7 @@ A device-signal CSS class is added client-side (confirmed not server-side) sligh
 
 ## 13. Masthead — Top-leaderboard ad slot renders at inconsistent sizes across page types
 
-**Found:** 2026-09-15, during the Masthead breakpoint audit (`breakpoint-audit.md`), 375px (mobile) pass, comparing OC Register live production against the `Masthead` component set (Website Page Templates → Menus and Parts).
+**Found:** 2026-09-15, during the Masthead breakpoint audit (`breakpoint-audit.md`), 375px (mobile) pass, comparing OC Register live production against the `Masthead` component set (WordPress Elements → Menus and Parts).
 
 **Figma spec (as of this finding, before the Figma fix below):** The `Masthead` component's `Default`-state ad placement was inconsistent across `Page` variants — Home showed an ad box labeled "Top Leaderboard 320x100," while Section Front and Article showed no ad at all beneath the masthead.
 
@@ -384,7 +382,7 @@ A device-signal CSS class is added client-side (confirmed not server-side) sligh
 
 ## 14. Masthead — Top nav bar overflows its container at the 1040–1279px (Tier 4) breakpoint
 
-**Found:** 2026-09-15, during the Masthead breakpoint audit (`breakpoint-audit.md`), XL-Desktop tier, comparing Chicago Tribune live production (one of the standing 6-site review list) against the `Masthead` component set (Website Page Templates → Menus and Parts).
+**Found:** 2026-09-15, during the Masthead breakpoint audit (`breakpoint-audit.md`), XL-Desktop tier, comparing Chicago Tribune live production (one of the standing 6-site review list) against the `Masthead` component set (WordPress Elements → Menus and Parts).
 
 **Production:** At 1040px width — the real breakpoint where the header switches to the full desktop nav — Chicago Tribune's top nav row (`.nav-primary`, 11 items: Business, Entertainment, Education, Immigration, Opinion, Politics, Sports, Suburbs, Chicago Magazine, Obituaries, BestReviews) does not fit within its container. The row's actual rendered width (1100.8px) is wider than its wrapper (973.75px). Because the page sets `overflow-x: hidden` on `<body>`, the row doesn't scroll into view — it's centered on the container and the overflow is simply clipped, cutting the first and last items off mid-word on both the left and right edges. No responsive fallback (smaller font, reduced spacing, wrapping, or item overflow menu) kicks in at this width.
 
@@ -398,7 +396,7 @@ Cross-checked against the standing 6-site list: Chicago Tribune and Orlando Sent
 
 **Action needed:** Engineering to add real responsive handling for the top nav at the 1040–1279px tier when the site's item count is high enough to overflow — options include a smaller font/tighter spacing at this tier, wrapping to a second line, or an overflow ("More") menu for items past what fits. Whatever the fix, it needs to apply platform-wide, not just to Chicago Tribune, since Orlando Sentinel hits the same 11-item count and any other site could grow into it.
 
-**Addendum (2026-09-22):** The clipping isn't fully resolved even at the widest Desktop tier — while fixing an unrelated Masthead side-margin bug at 1024/1100 (Website Page Templates → Homepage, `_archive/homepage-template-audit.md` §3.58), the same fixed-width `Top Nav` row (1322px) was found still clipped by ~21px per side at the full 1280px Desktop width, versus ~118.5px per side at 1100px. So this isn't strictly a "1040–1279px tier" problem that clears up at Desktop — it's a continuum that only becomes fully invisible somewhere above 1322px of available nav width. Doesn't change the action needed above, just widens the affected range engineering should account for.
+**Addendum (2026-09-22):** The clipping isn't fully resolved even at the widest Desktop tier — while fixing an unrelated Masthead side-margin bug at 1024/1100 (WordPress Elements → Homepage, `_archive/homepage-template-audit.md` §3.58), the same fixed-width `Top Nav` row (1322px) was found still clipped by ~21px per side at the full 1280px Desktop width, versus ~118.5px per side at 1100px. So this isn't strictly a "1040–1279px tier" problem that clears up at Desktop — it's a continuum that only becomes fully invisible somewhere above 1322px of available nav width. Doesn't change the action needed above, just widens the affected range engineering should account for.
 
 **Status:** Open.
 
@@ -488,7 +486,7 @@ The headline's flex/width allocation fails to shrink correctly relative to the f
 
 ## 19. Typography — headline tiers measured live with no matching Figma style
 
-**Found:** 2026-08-27, live typography audit (recorded in `HANDOFF-MNG-Design-System-Conversation.md` §2.2). **Re-measured 2026-09-24** on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune. The values were identical on all 7.
+**Found:** 2026-08-27, live typography audit (recorded in a handoff note since retired). **Re-measured 2026-09-24** on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune. The values were identical on all 7.
 
 **Production:**
 
@@ -1034,4 +1032,4 @@ Check after the change: the subscribe CTA keeps its 44px min height and its fill
 
 Add a new dated, numbered entry whenever a Figma-vs-production gap or an explicit engineering/legal flag is found during an audit, rather than quietly "fixing" the design tokens to match whatever production happens to do. Mark each item's status (Open / Fixed / Confirmed-intentional) as it gets resolved, and keep the original finding text rather than deleting it once resolved — see how `tokens/colors/color-tokens-decision-log.md` and the component audit docs annotate resolved items in place, for the pattern to follow here too.
 
-**Method note for live color checks** (from `NOTE-for-MNG-Design-System.md`, 2026-08-27): read themed CSS variables such as `--primary` on `document.querySelector('#page')`, not on `document.documentElement`. The WordPress Customizer's per-site override is scoped to `#page`, so reading at `:root` only shows the theme default. That mistake once produced a false drift finding on Modal and Disclosure.
+**Method note for live color checks** (from a 2026-08-27 note, since retired): read themed CSS variables such as `--primary` on `document.querySelector('#page')`, not on `document.documentElement`. The WordPress Customizer's per-site override is scoped to `#page`, so reading at `:root` only shows the theme default. That mistake once produced a false drift finding on Modal and Disclosure.

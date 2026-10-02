@@ -3,7 +3,6 @@
 > **Rewritten 2026-09-24.** Simplified from `font-token-audit.md` (Sept 9–10, 2026). The original ran as a session diary and later sections reversed earlier ones. This version keeps only the final outcome of each decision.
 > - Current token values: `typography-tokens.md` (this folder).
 > - Known Figma-vs-production gaps: `production-vs-design-differences.md` (MNGDesignSystem folder).
-> - "MNG Design System file" below means the current Figma file (formerly named "UI Style Guide").
 
 ## Background
 

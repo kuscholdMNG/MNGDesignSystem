@@ -2,12 +2,12 @@
 
 *Compiled 2026-09-02, via the Figma Desktop Bridge plugin (local Plugin API against files open in Figma Desktop) — no REST API calls used. Karl's request: map which design-system files would be affected by publishing the Reader Dashboard v2.0 → v2.1 upgrade.*
 
-> **File names (updated 2026-09-25):** "Website Page Templates" below is now **WordPress Elements** (`b1iZxkFwtAYq9rElmnCAzd`), and "UI Style Guide" is now the main **MNG Design System** file (`jFHYqhZbJjvWQmDI4myCsd`).
+> **File names:** WordPress Elements (`b1iZxkFwtAYq9rElmnCAzd`) was called "Website Page Templates", and the main MNG Design System file (`jFHYqhZbJjvWQmDI4myCsd`) was called "UI Style Guide", when this map was compiled. The names below are the current ones.
 
 ## Method
 
 1. Opened Reader Dashboard v2.0 in Figma Desktop (Desktop Bridge plugin running) and enumerated every published component/variant on its **"Components | 2026.02.25"** page — 21 component sets, 467 individual variants, each with its library `key`.
-2. Opened the other design-system files that also had the plugin running — **Website Page Templates** and **UI Style Guide** — and walked every page of each, checking every `INSTANCE` node's `mainComponent.key` against the Reader Dashboard key list.
+2. Opened the other design-system files that also had the plugin running — **WordPress Elements** and **MNG Design System** — and walked every page of each, checking every `INSTANCE` node's `mainComponent.key` against the Reader Dashboard key list.
 3. Recorded, per file and per page, which Reader Dashboard components are actually instantiated there, and how many times.
 
 **Caveat:** a full `loadAllPagesAsync()` sweep of Reader Dashboard v2.0 itself timed out — the file is large (8 audited dashboard sub-pages plus supporting pages). Only its "Components" page was used as the source of published keys, which matches the file's own convention (that's the page the design-system docs describe as holding the built library components). If any published component lives outside that page, it wouldn't be captured here.
@@ -18,26 +18,26 @@
 
 ## Files affected
 
-### Website Page Templates — 2 of 14 pages
+### WordPress Elements — 2 of 14 pages
 - **Menus and Parts** (heaviest usage found): the site nav menu — `NavMenu` (Desktop/TabletV/Mobile/FOLD, Open/Closed states, 13–14 instances each), `NavItem` (130 instances), `IndicatorLeft`/`IndicatorRight` (117–130 instances), `NavItemLabel` Selected states. This is the header/off-canvas nav that links out to Reader Dashboard — a v2.1 change to any of these atoms ripples through the whole site nav.
 - **Stand Alone Pages**: a broader mix — `NewsletterSublist` variants, `Tile Body Content` / `Item Tile` layout atoms, `Title-Bar Container` / `Title-SubLevel` (subscription-tier labels), `MobAp1`/`MobAp2` (mobile app items), `CCUpdateError` items, visible/info toggles. Reads like a reference/kitchen-sink page pulling in many Reader Dashboard pieces for use elsewhere on the site.
 
-### UI Style Guide — 4 of 27 pages
-- **\*\*\*Breakpoints and Page Templates | 2026.05.19** (heaviest here): the same `NavMenu`/`NavItem`/`Indicator` family as above (20 `NavItem` instances), tested across breakpoints — this page will need review alongside Website Page Templates' nav usage.
+### MNG Design System — 4 of 27 pages
+- **\*\*\*Breakpoints and Page Templates | 2026.05.19** (heaviest here): the same `NavMenu`/`NavItem`/`Indicator` family as above (20 `NavItem` instances), tested across breakpoints — this page will need review alongside WordPress Elements' nav usage.
 - **In-Line Content Containers | 2026.01.02**: 6× `Title-SubLevel`.
 - **Alerts and Icons**: light touch — one each of `NewsletterSublist`, `Title-Bar Container`, `Title-SubLevel`, an `info` visibility toggle.
-- **\*\*\*Buttons | 2026.02.27**: 2× a Desktop button state used inside `MarketsListsItems`.
+- **Buttons | 2026.09.30**: 2× a Desktop button state used inside `MarketsListsItems`.
 
 ## Component families with the most exposure
 
-1. **Nav family** (`NavMenu`, `NavItem`, `IndicatorLeft`/`IndicatorRight`, `NavItemLabel`) — by far the largest footprint, concentrated in Website Page Templates → Menus and Parts and UI Style Guide → Breakpoints and Page Templates.
+1. **Nav family** (`NavMenu`, `NavItem`, `IndicatorLeft`/`IndicatorRight`, `NavItemLabel`) — by far the largest footprint, concentrated in WordPress Elements → Menus and Parts and MNG Design System → Breakpoints and Page Templates.
 2. **Newsletter/subscription tile atoms** (`NewsletterSublist`, `Title-Bar Container`, `Title-SubLevel`) — spread across Stand Alone Pages, In-Line Content Containers, and Alerts and Icons.
 3. **Tile/content layout atoms** (`Tile Body Content`, `Item Tile`, `1stSec Left/Right`) — Stand Alone Pages and Menus and Parts.
 
 ## Suggested review order before publishing v2.1
 
-1. **Website Page Templates → Menus and Parts** and **UI Style Guide → \*\*\*Breakpoints and Page Templates** — the nav family instances live here and carry the largest instance counts.
-2. **Website Page Templates → Stand Alone Pages** — widest variety of component families touched.
+1. **WordPress Elements → Menus and Parts** and **MNG Design System → \*\*\*Breakpoints and Page Templates** — the nav family instances live here and carry the largest instance counts.
+2. **WordPress Elements → Stand Alone Pages** — widest variety of component families touched.
 
 ---
 
@@ -66,8 +66,8 @@ Article Personalization Features | 2026, Log In Methods, Auth0 Universal Login P
 
 1. **Account Selector Feat.** — heaviest by a wide margin, and structurally built on Reader Dashboard v2.0.
 2. **Single Use Landing Pages** — confirmed affected, but scope not fully measured (too large for one pass).
-3. **Website Page Templates** (Round 1) — nav family, site-wide.
-4. **UI Style Guide** (Round 1) — same nav family, breakpoint testing.
+3. **WordPress Elements** (Round 1) — nav family, site-wide.
+4. **MNG Design System** (Round 1) — same nav family, breakpoint testing.
 5. **Email Options for Non-Registered Users** — status unknown, needs a dedicated follow-up scan.
 6. Everything else in "light or occasional usage" above.
 
@@ -116,10 +116,10 @@ This resolves the "status unknown" flag from Round 2: the file is affected on 6 
 1. **Email Options for Non-Registered Users** — 2,709 matched instances across 6 of 7 pages; the widest and heaviest confirmed footprint of any file scanned, concentrated in the newsletter-sublist and markets/regions component families on the 03.23 and 03.04 unsubscribe-page revisions.
 2. **Account Selector Feat.** — structurally built on Reader Dashboard v2.0 (hundreds of instances per page), still the most architecturally dependent single file.
 3. **Single Use Landing Pages** — 1,094 matched instances across 5 of 7 pages, heaviest on the newsletter opt-in/out page.
-4. **Website Page Templates** (Round 1) — nav family, site-wide.
-5. **UI Style Guide** (Round 1) — same nav family, breakpoint testing.
+4. **WordPress Elements** (Round 1) — nav family, site-wide.
+5. **MNG Design System** (Round 1) — same nav family, breakpoint testing.
 6. Everything else in "light or occasional usage" above.
 
 ## Updated recommendation
 
-Before publishing v2.1, review in this order: **Account Selector Feat.** (structural dependency — treat as a first-class consumer), then **Email Options for Non-Registered Users** (highest matched-instance count, concentrated in newsletter-sublist and markets/regions atoms on its 2026.03.04 and 2026.03.23 pages), then **Single Use Landing Pages** (heaviest on its Newsletter Opt-In/Out page). All three files, plus Website Page Templates and UI Style Guide from Round 1, share the nav-family atoms (`NavMenu`, `NavItem`, `IndicatorLeft`/`Right`) — any v2.1 change to those atoms has the widest blast radius of anything in the library. Coverage of every file scanned in this exercise is now complete (no sampling, no partial scans, no "status unknown" files remaining).
+Before publishing v2.1, review in this order: **Account Selector Feat.** (structural dependency — treat as a first-class consumer), then **Email Options for Non-Registered Users** (highest matched-instance count, concentrated in newsletter-sublist and markets/regions atoms on its 2026.03.04 and 2026.03.23 pages), then **Single Use Landing Pages** (heaviest on its Newsletter Opt-In/Out page). All three files, plus WordPress Elements and the MNG Design System file from Round 1, share the nav-family atoms (`NavMenu`, `NavItem`, `IndicatorLeft`/`Right`) — any v2.1 change to those atoms has the widest blast radius of anything in the library. Coverage of every file scanned in this exercise is now complete (no sampling, no partial scans, no "status unknown" files remaining).

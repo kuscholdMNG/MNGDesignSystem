@@ -14,7 +14,7 @@ Running list of Article-page-specific gaps found during component audits, kept s
 
 Screenshot reference: captured live on ocregister.com at 375px width (see masthead audit for the full screenshot).
 
-**Gap:** No equivalent component exists yet in Figma (checked Website Page Templates → Menus and Parts, and the Masthead component set — not present there or elsewhere as far as this audit covered).
+**Gap:** No equivalent component exists yet in Figma (checked WordPress Elements → Menus and Parts, and the Masthead component set — not present there or elsewhere as far as this audit covered).
 
 **Action needed:** Build this as a proper Figma component — tooltip/popover with pointer, close (X) affordance, and the trust-standard copy above as editable text. Confirm with Karl whether this should live near the Masthead/article-header components or as its own standalone "Trust Indicator" component, and whether the copy is static or varies by content type.
 

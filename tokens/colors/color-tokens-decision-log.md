@@ -98,9 +98,9 @@ Single "Value" mode. Source: "Shared Platform Reference — Style Guide" → "Un
 
 ## 4. Endless Tributes collection
 
-Single "Value" mode. Source: "Shared Platform Reference — Style Guide" → "Should-Be vs Production (per original UI Style Guide)" → "Endless Tributes — Updates."
+Single "Value" mode. Source: "Shared Platform Reference — Style Guide" → "Should-Be vs Production (per original MNG Design System)" → "Endless Tributes — Updates."
 
-**Mirrored into UI Style Guide, 2026-09-10:** all 9 of these colors now also exist in UI Style Guide's `Colors` collection (`VariableCollectionId:3749:16`) as a new `color/tributes/*` variable group, with the same value across all 20 modes rather than being squeezed into the existing 7-color-slot-per-theme pattern or modeled as a one-off theme mode. This reflects how obituary pages actually render in production — identically regardless of which site's masthead brand is active — so a single universal value per token is correct.
+**Mirrored into MNG Design System, 2026-09-10:** all 9 of these colors now also exist in MNG Design System's `Colors` collection (`VariableCollectionId:3749:16`) as a new `color/tributes/*` variable group, with the same value across all 20 modes rather than being squeezed into the existing 7-color-slot-per-theme pattern or modeled as a one-off theme mode. This reflects how obituary pages actually render in production — identically regardless of which site's masthead brand is active — so a single universal value per token is correct.
 
 | Variable | Value | Production comparison |
 |---|---|---|

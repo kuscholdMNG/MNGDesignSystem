@@ -1,7 +1,6 @@
 # Typography Tokens
 
 > **Updated 2026-09-24.**
-> - The Figma file this describes was renamed **"UI Style Guide" → "MNG Design System"** (same file, key `jFHYqhZbJjvWQmDI4myCsd`).
 > - Every token and value in this doc was re-checked against the live Figma variables on 2026-09-24 and matches.
 > - Modern Earthy eyebrow is now **confirmed**, not a placeholder. See §3.
 > - **Added 2026-09-24:** 7 new Editorial styles (card tiers, headline list, related headline, lead-story media variant, body copy) and a new theme token, `font/theme/small-headline-family`. Measured live the same day on 7 sites.

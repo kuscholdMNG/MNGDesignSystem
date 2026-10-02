@@ -3,7 +3,7 @@
 
 **Date started:** September 14, 2026
 **Production reference:** ocregister.com (OC Register)
-**Figma source:** "Website Page Templates" file → **Menus and Parts** page → `Masthead` component set (node `456:2572`)
+**Figma source:** "WordPress Elements" file → **Menus and Parts** page → `Masthead` component set (node `456:2572`)
 **Also covers:** non-masthead element breakpoints found incidentally while scanning full pages (ad units, content templates, widgets) — see "Site-wide element breakpoint catalog" below.
 
 ---
@@ -317,7 +317,7 @@ Once the component was rebuilt at 1040px, two rows within it turned out to have 
 
 **Started:** 2026-09-15, per Karl. Same scope and method as the main audit above (Home/Section Front/Article, Default + Scrolled, all established breakpoints), but logged into an ad-free OC Register account instead of logged out. Each breakpoint below is paired against the matching logged-out breakpoint section above (Karl confirmed reusing the earlier logged-out audit as the baseline rather than re-browsing logged out each time).
 
-**User Status fix, done before the breakpoint passes below:** Karl pointed to the `User Status` source container (Figma node `456:5671`, Website Page Templates → Menus and Parts), which holds the shared `AccountMenu`/`UserStatus` component sets that feed the account icon into every Masthead variant. Checked every variant in the `Masthead` component set (all Device tiers × Default/AdFree/Scrolled × Home/Section Front/Article) and found all 39 were wired to `UserType=loggedIn`/`status=subscriber` — meaning Default and Scrolled states (which represent the logged-out baseline) were incorrectly showing the logged-in avatar. Fixed by swapping all 30 Default/Scrolled variants to their matching `loggedOut` `AccountMenu` variant per Device tier; left the 9 AdFree variants untouched since ad-free is itself a logged-in-subscriber state and was already wired correctly. Verified: XL-Desktop Default now shows "Subscribe"/"Log In" buttons instead of an avatar; SM-Mobile Default now shows the plain person-icon glyph instead of a photo avatar — both now match the original logged-out audit's findings.
+**User Status fix, done before the breakpoint passes below:** Karl pointed to the `User Status` source container (Figma node `456:5671`, WordPress Elements → Menus and Parts), which holds the shared `AccountMenu`/`UserStatus` component sets that feed the account icon into every Masthead variant. Checked every variant in the `Masthead` component set (all Device tiers × Default/AdFree/Scrolled × Home/Section Front/Article) and found all 39 were wired to `UserType=loggedIn`/`status=subscriber` — meaning Default and Scrolled states (which represent the logged-out baseline) were incorrectly showing the logged-in avatar. Fixed by swapping all 30 Default/Scrolled variants to their matching `loggedOut` `AccountMenu` variant per Device tier; left the 9 AdFree variants untouched since ad-free is itself a logged-in-subscriber state and was already wired correctly. Verified: XL-Desktop Default now shows "Subscribe"/"Log In" buttons instead of an avatar; SM-Mobile Default now shows the plain person-icon glyph instead of a photo avatar — both now match the original logged-out audit's findings.
 
 ### 375px — ✅ reviewed 2026-09-15
 
@@ -391,7 +391,7 @@ Root cause, traced via `figma_execute`: the account-icon-vs-buttons rendering do
 
 ## Obituaries masthead audit
 
-*Continuation of the project — see `HANDOFF-Obituaries-Dashboard-Masthead-Audit.md` for full status. **Logged-out pass complete** (all 7 widths: 375/700/1024/1100/1040/1280/1728, default + scrolled). **Ad-Free (logged-in) pass complete** (same 7 widths — see `## Obituaries Ad-Free Masthead Audit` below). Reader Dashboard not started.*
+*Continuation of the project — the HANDOFF note it pointed to was retired; current status is in `MNG-Design-System-Status.md`. **Logged-out pass complete** (all 7 widths: 375/700/1024/1100/1040/1280/1728, default + scrolled). **Ad-Free (logged-in) pass complete** (same 7 widths — see `## Obituaries Ad-Free Masthead Audit` below). Reader Dashboard not started.*
 
 ### Breakpoint investigation: does Obituaries differ from Home/SectionFront/Article? — ✅ resolved 2026-09-15
 
@@ -573,7 +573,7 @@ Identical to 1040/1100/1280px — no new behavior at the widest width tested, co
 
 ## Reader Dashboard masthead audit
 
-*Final phase of this project — see `HANDOFF-Obituaries-Dashboard-Masthead-Audit.md` for full status. Tested on **canoncitydailyrecord.com/dashboard/** (per Karl's direction) rather than ocregister.com, using a logged-in test subscriber account (`pafdainew@mailinator.com`) — the Reader Dashboard is a logged-in-only page, so there is no separate logged-out pass for this page type, matching Figma's own `Page=Dashboard` variant set (`Default`/`Scrolled` only, no `AdFree` state).*
+*Final phase of this project — the HANDOFF note it pointed to was retired; current status is in `MNG-Design-System-Status.md`. Tested on **canoncitydailyrecord.com/dashboard/** (per Karl's direction) rather than ocregister.com, using a logged-in test subscriber account (`pafdainew@mailinator.com`) — the Reader Dashboard is a logged-in-only page, so there is no separate logged-out pass for this page type, matching Figma's own `Page=Dashboard` variant set (`Default`/`Scrolled` only, no `AdFree` state).*
 
 **Figma coverage note:** unlike Obituaries, the `Page=Dashboard` branch of the `Masthead` component set is fully built out — all 5 device tiers × both `Default` and `Scrolled` states (10 variants total, confirmed via the component set's children). No variant-coverage gaps going into this pass.
 
@@ -611,7 +611,7 @@ Confirmed via literal CSS on the live page: the Dashboard's own React-rendered c
 
 
 ### 375px — ✅ reviewed 2026-09-15
-*Compared against Figma: `Device=SM-Mobile, State=Default, Page=Dashboard` (`456:3300`) in `Website Page Templates`.*
+*Compared against Figma: `Device=SM-Mobile, State=Default, Page=Dashboard` (`456:3300`) in `WordPress Elements`.*
 
 **Structure match — default:** hamburger / centered logo / avatar+chevron / search icon row → "Reader Dashboard ▾" dropdown row. Matches Figma `456:3300` exactly (confirms Figma correctly omits the breadcrumb, which is out of scope per Karl). Clicked the dropdown live: expands into an accordion listing Profile / Subscription / Benefits / Saved Articles / Gifted Articles / Newsletters / Mobile Apps / Get Support — matches the left-sidebar nav items seen at wider Default widths, just collapsed into a mobile accordion (see the documented-breakpoints table above for the authoritative Open/Closed spec).
 
