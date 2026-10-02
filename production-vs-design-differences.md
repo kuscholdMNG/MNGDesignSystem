@@ -1028,6 +1028,27 @@ Check after the change: the subscribe CTA keeps its 44px min height and its fill
 
 ---
 
+## 24. Breaking News bar — Denver Post uses primary-lighter instead of secondary
+
+**Found:** 2026-10-02, live check of the six review sites (theme CSS read on `#page`; no breaking bar was active, so the color was read from the site's own `.breaking-bar` rule).
+
+**Figma spec (source of truth):** the Breaking News Banner (WordPress Elements, `506:5632`) background is `color/theme/secondary` and its text is `color/theme/near-black` (bound 2026-10-02).
+
+**Production:**
+
+| Site | `.breaking-bar` background | Text | Token |
+|---|---|---|---|
+| ocregister.com | #FFEA00 | #0A0908 | secondary |
+| chicagotribune.com | #EEFF41 | #1F1E1C | secondary |
+| orlandosentinel.com | #EEFF41 | #1F1E1C | secondary |
+| canoncitydailyrecord.com | #EEFF41 | #141414 | secondary |
+| mcall.com | #EEFF41 | #141414 | secondary |
+| **denverpost.com** | **#AF1628** | #0A0908 | **primary-lighter** (Denver Post override) |
+
+**Open question (Karl):** keep Denver Post's red bar as a documented Denver Post exception, or have Engineering align it to `secondary` (`#003459`, navy, on Denver Post). Until decided, Figma stays on `secondary`.
+
+**Also noted:** Denver Post's live `--tertiary` is `#A13B1E`, but its token is `#FFC518`; and its live `--primary-light` / `--primary-lighter` (`#C81632` / `#AF1628`) are the reverse of the tokens (`#AF1628` / `#C81632`). Check these against entry 21's Denver Post section.
+
 ## How to use this doc
 
 Add a new dated, numbered entry whenever a Figma-vs-production gap or an explicit engineering/legal flag is found during an audit, rather than quietly "fixing" the design tokens to match whatever production happens to do. Mark each item's status (Open / Fixed / Confirmed-intentional) as it gets resolved, and keep the original finding text rather than deleting it once resolved — see how `tokens/colors/color-tokens-decision-log.md` and the component audit docs annotate resolved items in place, for the pattern to follow here too.
