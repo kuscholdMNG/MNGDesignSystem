@@ -1,5 +1,7 @@
 # Modal
 
+> **Updated 2026-09-25** (last change recorded in this doc). Current project status is in `MNG-Design-System-Status.md`.
+
 **Status:** ✅ **Specced from Figma 2026-09-01.** The Figma source is the **ModalsCenter** component set in the main MNG Design System file (`jFHYqhZbJjvWQmDI4myCsd`, Modal Panels page, node `3040:2262`), which Reader Dashboard v2.0 uses as a library component across its Profile Panel, Upgrade Subscription, Cancel Subscription, Update Payment Information, and Notification Preferences pages. Per Karl's direction 2026-09-01 ("Reader Dashboard designs are here..."), this Figma source superseded the live-site scrape below as the accurate source of truth — and the two agree almost exactly (see §6), which is a good cross-check. The spec models the Profile Panel's account-verification instance specifically (the same "email you a verification code" flow captured live below), `Device=TabletH` variant, instance id `6628:26265` in Reader Dashboard v2.0. A pilot rebuild of this modal was retired on 2026-09-25; use ModalsCenter.
 **Live-site source (original audit, 2026-08-xx):** `preprod.eastbaytimes.com/dashboard` (Reader Dashboard), triggered from Profile → Display Name "Update"
 **Implementation:** `react-modal` library (`ReactModal__Content` class), styled with Tailwind utility classes

@@ -1,5 +1,7 @@
 # Article Page — To-Do
 
+> **Updated 2026-10-02** for current Figma file names.
+
 Running list of Article-page-specific gaps found during component audits, kept separate from the general Masthead/breakpoint audit so Article-page work doesn't get buried in it.
 
 ---

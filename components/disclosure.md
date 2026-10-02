@@ -1,5 +1,7 @@
 # Disclosure
 
+> **Updated 2026-10-02** for the current Buttons page name and Button Linkstyle property names.
+
 **Status:** ✅ **Specced 2026-09-01.** The Figma source is **Button Linkstyle** in the main MNG Design System file (`jFHYqhZbJjvWQmDI4myCsd`, `Buttons | 2026.09.30` page, component set `5428:3953`), with the label swapped between "Show Login Methods" / "Hide Login Methods". A pilot rebuild of this pattern was retired on 2026-09-25; use Button Linkstyle.
 **Key correction, 2026-09-01 (Karl):** this was never a bespoke accordion/disclosure component at all. The toggle itself is a plain instance of the Button Linkstyle component. We spent real effort searching Reader Dashboard v2.0 and WordPress Elements (then "Website Page Templates") for a standalone "accordion" component before Karl pointed out where it actually lives — worth remembering for next time: check the main file's Buttons page for hyperlink-styled controls before assuming something is a bespoke pattern.
 **Source:** `preprod.eastbaytimes.com/dashboard` (Reader Dashboard), Profile tab

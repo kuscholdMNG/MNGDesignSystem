@@ -1,4 +1,6 @@
 # Breakpoint Audit
+
+> **Updated 2026-10-02** for current Figma file names and retired handoff notes. Audit content dates from 2026-09-14 to 2026-09-15.
 *(Renamed 2026-09-15 from "Masthead Breakpoint Audit" — broadened in scope to catalog every element breakpoint found during the audit, not just the masthead nav.)*
 
 **Date started:** September 14, 2026

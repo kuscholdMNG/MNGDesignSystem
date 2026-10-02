@@ -1,7 +1,7 @@
 # MNG Design System — Project Folder
 
 > Folder map and filing rules. **Every session working on this project reads this first and follows it.**
-> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). See "Working in GitHub" below.
+> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`.
 
 ## Folder map
 
@@ -21,7 +21,10 @@ MNGDesignSystem/
 │   ├── mng-design-system-export/           ← homepage, menus-and-parts, form-fields
 │   └── mng-buttons-export/                 ← all 8 Buttons-page families (primary, secondary, tertiary,
 │                                             action, linkstyle, modal close, in-line close, hyperlink)
-└── _archive/                               ← retired files, kept for history only
+├── scripts/                                ← generators that rebuild exports, one folder per export
+│   └── buttons-export/                     ← extract.js (Figma plugin code) + build-buttons-export.py
+└── _archive/                               ← retired files, kept for history only (empty right now;
+                                              git shows the folder again when a file is moved in)
 ```
 
 ## Where new files go
@@ -34,6 +37,7 @@ MNGDesignSystem/
 | Color token export, CSS, CSV, decisions | `tokens/colors/` (replace the files there). Color fixes for Engineering go in `production-vs-design-differences.md` entry 21. |
 | Typography tokens or decisions | `tokens/typography/` |
 | A Figma component export | `figma-exports/<export-name>/` (unzipped, replacing the old one) |
+| A script that rebuilds an export | `scripts/<export-name>/` (inputs and outputs explained at the top of the script) |
 | Anything no longer current | `_archive/` |
 
 ## Rules

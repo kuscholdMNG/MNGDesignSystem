@@ -1,5 +1,7 @@
 # Containers, Images & Ad Units
 
+> **Updated 2026-09-01** (last change recorded in this doc). Current project status is in `MNG-Design-System-Status.md`.
+
 **Status:** Grid/image treatment audited (live sites, homepage, desktop width only) — not yet built in Figma. Ad units fully re-audited 2026-08-31 across all 6 pilot sites, homepage + article, desktop + mobile (see §3), and cross-checked 2026-09-01 against the Ad Team's own "WordPress Ad Map" documentation (§3.1c) — strong agreement, plus new coverage of APP/AMP/vendor-widget surfaces we hadn't audited live.
 **Pilot sites:** Chicago Tribune (CT), Denver Post (DP), Orange County Register (OCR), Orlando Sentinel (OS) — audited. Greeley Tribune and mcall.com (both on the Modern Earthy shared theme) joined the pilot set 2026-08-27; ad units on both are now confirmed (2026-08-31, see §3) and match the CT/OCR/DP taxonomy. The grid/container and image-treatment findings in §1–§2 are still CT/DP/OCR/OS only — Greeley/mcall haven't been checked for those yet.
 **Platform:** same shared CMS as Navigation/Cards (WordPress, "mason"/"scng" themes)

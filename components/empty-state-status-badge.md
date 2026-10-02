@@ -1,5 +1,7 @@
 # Empty State Card & Status Badge
 
+> **Updated 2026-10-01** (last change recorded in this doc). Current project status is in `MNG-Design-System-Status.md`.
+
 **Status:** Spec measured 2026-09-01 directly from Figma, not a live-site scrape. The Figma source for the Empty State is the **InLineMessage** component set in the main MNG Design System file (`jFHYqhZbJjvWQmDI4myCsd`, node `2776:2`, 114 variants), which Reader Dashboard v2.0 uses as a library component. A pilot rebuild of both patterns was retired on 2026-09-25. Status Badge still has no real component anywhere (see §2).
 **Source:** "Reader Dashboard v2.0" Figma file (fileKey `PhXogWaQcnNSnQqxyRu4b2`) — Karl confirmed this file already has these patterns designed accurately, so this component doc is built from it directly rather than re-visiting the live Reader Dashboard. Empty State pulled from "Saved Articles | 2025.10.21" (node `3051:56937`); Status Badge pulled from "Benefits Panel | 2026.02.24".
 
