@@ -1,5 +1,7 @@
 # Buttons and links: MNG Design System export
 
+> **2026-10-02 Figma fixes (not yet re-exported).** Karl's review of the findings below was applied in Figma on 2026-10-02: CTA buttons are 40px tall (8px top/bottom padding, grows only when the label wraps), CTA icons are 16px, every focus ring is a bound `color/gray/black` frame drawn outside the button so it never changes the button's size, the In-Line Close ring has 4px corners and a 1px offset, and the sets and properties were renamed (see the Figma set name column). The per-component `.md`, `.json`, `.html` and PNG files still show the 2026-10-01 state until the next export.
+
 **Updated 2026-10-01** to cover all 8 button and link families on the **Buttons | 2026.09.30** page. The earlier export (2026-09-24) covered only Primary, Secondary and Tertiary; this one replaces it.
 
 This is a portable, AI-readable spec export from the **MNG Design System** Figma file (`jFHYqhZbJjvWQmDI4myCsd`), page [Buttons | 2026.09.30](https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=1079-34282). It holds 8 component sets with 96 variants in total. Design (Figma) is the source of truth. Values here are design values, not production values.
@@ -21,9 +23,9 @@ This is a portable, AI-readable spec export from the **MNG Design System** Figma
 | 03 | [Button Tertiary](components/03-button-tertiary/button-tertiary.md) | Button Tertiary | `5333:16089` | 24 | Desktop, Mobile | 18 | Icons | InLineMessage |
 | 04 | [Action Button](components/04-action-button/action-button.md) | Action Button | `7075:6357` | 4 | single size | 4 | Icons | — |
 | 05 | [Button Linkstyle](components/05-button-linkstyle/button-linkstyle.md) | Button Linkstyle | `5428:3953` | 8 | single size | 71 | — | Modals, ModalsCenter, InLineMessage, Form Field |
-| 06 | [Pop-Up Modal Close](components/06-pop-up-modal-close/pop-up-modal-close.md) | Button ModalClose | `5335:16196` | 4 | single size | 26 | Icons | Modals, ModalsCenter |
-| 07 | [In-Line Close](components/07-in-line-close/in-line-close.md) | Button PanelClose | `5335:16200` | 4 | single size | 100 | Icons | InLineMessage, ModalsOffset |
-| 08 | [Non-Button Hyperlink](components/08-non-button-hyperlink/non-button-hyperlink.md) | nonButton Hyperlink | `6282:5568` | 4 | single size | 8 | — | InLineMessage |
+| 06 | [Pop-Up Modal Close](components/06-pop-up-modal-close/pop-up-modal-close.md) | Button Modal Close (was Button ModalClose) | `5335:16196` | 4 | single size | 26 | Icons | Modals, ModalsCenter |
+| 07 | [In-Line Close](components/07-in-line-close/in-line-close.md) | Button In-Line Close (was Button PanelClose) | `5335:16200` | 4 | single size | 100 | Icons | InLineMessage, ModalsOffset |
+| 08 | [Non-Button Hyperlink](components/08-non-button-hyperlink/non-button-hyperlink.md) | Hyperlink (was nonButton Hyperlink) | `6282:5568` | 4 | single size | 8 | — | InLineMessage |
 
 All 8 are leaf components: none is built from another one in this export. The only dependency is the shared **Icons** set (`4693:5`), which isn't in this export. The icons used are `new-tab`, `content_copy` and `close`. Instance counts cover this file only. Library instances in WordPress Elements and Reader Dashboard v2.0 aren't counted.
 
@@ -63,19 +65,26 @@ The other five families are a single size at every viewport.
 
 ## Tokens summary
 
-Every color is bound to one of **9 variables** (see `tokens.json` and `tokens.css`): `color/theme/primary` #007580, `primary-dark` #0A5962, `primary-light` #00838F, `color/gray/max` #FFFFFF, `gray/600` #F1EFEB, `gray/500` #CCCAC7, `gray/400` #A7A6A3, `gray/min` #141414 and `gray/black` #000000. There are two exceptions: the Mobile Icon=None and Icon=left InFocus rings on Secondary and Tertiary use an unbound `#000000`.
+Every color is bound to one of **9 variables** (see `tokens.json` and `tokens.css`): `color/theme/primary` #007580, `primary-dark` #0A5962, `primary-light` #00838F, `color/gray/max` #FFFFFF, `gray/600` #F1EFEB, `gray/500` #CCCAC7, `gray/400` #A7A6A3, `gray/min` #141414 and `gray/black` #000000. Since 2026-10-02 there are no unbound colors (the Mobile InFocus rings on Secondary and Tertiary were the last ones).
 
 Type: Noto Sans only. CTA buttons use Bold 16px Title Case. Action Button uses Bold 12px. Linkstyle uses Regular 16px. Hyperlink uses Regular 16.5px, which is off the scale.
 
 ## Notable findings
 
-- **Pop-Up Modal Close InFocus** doesn't match its own spec. The text says the fill is removed, but the variant keeps the gray circle inside the ring.
-- **CTA button heights vary** (40, 41, 42 and 46px) even though the spec gives a 40px min-height. **Secondary and Tertiary icons** are 14px on some variants, while the spec says 16px.
-- **Non-Button Hyperlink** is 16.5px, has a teal focus ring and keeps a leftover dashed underline in InFocus. Figma already flags all three.
-- **In-Line Close InFocus ring** is square, with no offset. The spec says it should be offset 1px.
+Resolved in Figma on 2026-10-02 (Karl's review):
+
+- **Pop-Up Modal Close InFocus:** the design was right (InFocus keeps the Default gray fill and border); the spec text was wrong and now says so.
+- **CTA heights:** Primary, Secondary and Tertiary are 40px in every state. Padding is 8px top/bottom (`spacing/100`) and 16px left/right (`spacing/200`), with a 40px min-height so a wrapped label can grow. Action Button (32px) and Linkstyle (38px) stay compact on purpose (Karl, 2026-10-02).
+- **Icons:** 16px on Primary, Secondary, Tertiary and Action Button; 12px on Modal Close and In-Line Close.
+- **Focus rings:** every ring is a `Focus Ring` frame, absolutely positioned 1px outside the element with a 2px outside stroke bound to `color/gray/black`. It never changes the component's size or pushes neighbours, so InFocus variants are now the same size as Default (Modal Close 32×32, Action Button 95×32, Linkstyle unchanged, CTAs 40px).
+- **In-Line Close InFocus ring:** 4px corners (`radius/sm`, matching the Hover/Pressed box), 1px offset outside the 40px hit area.
+- **Naming:** `Button ModalClose` → `Button Modal Close`, `Button PanelClose` → `Button In-Line Close`, `nonButton Hyperlink` → `Hyperlink`. All variant properties are capitalized (`State`, `Style`, `Icon`, `Breakpoint`), as are their values (`Default`, `Left`, `Right`, `Stacked`, `1 Row`). `Action Button` keeps its name so it doesn't collide with the separate `Button Action` set.
+
+Still open:
+
+- **Hyperlink** is 16.5px, has a teal focus ring and keeps a leftover dashed underline in InFocus. Figma already flags all three.
 - **Low adoption:** most Hover, Pressed, InFocus, Mobile and icon variants appear only in their documentation frame, or nowhere. The stacked Linkstyle variants and the Action Button aren't used anywhere yet.
 - **Fixed since the 2026-09-24 export:** the Button Tertiary InFocus grid swap, and the Desktop focus-ring bindings on Secondary and Tertiary.
-- **Naming:** three set names differ from their page titles (`Button ModalClose`, `Button PanelClose`, `nonButton Hyperlink`), and Modal Close uses `state=default` in lower case. Renaming is safe.
 
 Each component's `.md` has the full list under **Known issues**.
 

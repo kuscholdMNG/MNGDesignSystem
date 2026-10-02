@@ -1,6 +1,6 @@
 # MNG Design System — Project Status
 
-> **Rewritten 2026-09-24.** Replaces the Aug 13 status doc, which later sections had contradicted. It had said there were 4 shared themes, that Denver Post was "bespoke" and that the eyebrow was standardized at 20px. This version keeps only what's true now. **Updated 2026-09-25** for the Greeley Tribune → Prairie Mountain Publishing color change, **2026-09-30** for the Greeley exception, Hartford Courant, the folder reorganization and the browser-resize rule, and **2026-10-01** for the full Buttons-page export (8 button and link families) and the NEPA-PMP color sub-theme, and again **2026-10-01** for the move from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`).
+> **Rewritten 2026-09-24.** Replaces the Aug 13 status doc, which later sections had contradicted. It had said there were 4 shared themes, that Denver Post was "bespoke" and that the eyebrow was standardized at 20px. This version keeps only what's true now. **Updated 2026-09-25** for the Greeley Tribune → Prairie Mountain Publishing color change, **2026-09-30** for the Greeley exception, Hartford Courant, the folder reorganization and the browser-resize rule, and **2026-10-01** for the full Buttons-page export (8 button and link families) and the NEPA-PMP color sub-theme, and again **2026-10-01** for the move from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). **Updated 2026-10-02** for the Buttons page fixes (item 18) and the button set renames.
 
 > - Color values: `tokens/colors/` (export \+ decision log). Color fixes for engineering: `production-vs-design-differences.md` entry 21\.  
 > - Typography values: `tokens/typography/` (tokens \+ decision log).  
@@ -78,7 +78,7 @@ The mercurynews.com and eastbaytimes.com sites were removed from the list on 202
 | :---- | :---- | :---- |
 | Button Primary / Secondary / Tertiary | Main file, Buttons \| 2026.09.30 page | `5328:15928` / `5333:16013` / `5333:16089` |
 | Button Linkstyle (text-link buttons, used for disclosures) | Main file, Buttons \| 2026.09.30 page | `5428:3953` |
-| Action Button / Pop-Up Modal Close (`Button ModalClose`) / In-Line Close (`Button PanelClose`) / Non-Button Hyperlink (`nonButton Hyperlink`) | Main file, Buttons \| 2026.09.30 page | `7075:6357` / `5335:16196` / `5335:16200` / `6282:5568` |
+| Action Button / Pop-Up Modal Close (`Button Modal Close`) / In-Line Close (`Button In-Line Close`) / Non-Button Hyperlink (`Hyperlink`) | Main file, Buttons \| 2026.09.30 page | `7075:6357` / `5335:16196` / `5335:16200` / `6282:5568` |
 | InLineMessage (alerts, panels, empty states) | Main file, In-Line Content Containers page | `2776:2` |
 | ModalsCenter / ModalsOffset | Main file, Modal Panels page (library copy also in Reader Dashboard v2.0) | `3040:2262` / `6497:6263` |
 | Icons | Main file, Icons page | `4693:5` |
@@ -112,12 +112,14 @@ The component specs in `components/` (modal, disclosure, empty-state-status-badg
 16. **Wrong-width variants in homepage templates** (WordPress Elements, Homepage): the 768 homepage uses the Footer's `SM-Mobile` variant (should be `MD-TabletV`), and the 1024 homepage uses the Footer's `XL-Desktop` variant (should be `LG-TabletH`). The detached TOP ZONE blocks at 1024 and 1100 still contain a `Device=Mobile` Zone 1 Lead Article Card. Found in the 2026-09-24 component export.  
 17. **Fonts outside Noto Sans / Noto Serif:** Droid Sans, Source Sans Pro, New York and Helvetica still appear in a few WordPress Elements components, mostly the Masthead variants and Sponsored items. Replace them with the production pair. Found in the 2026-09-24 component export.
 
-18. **Buttons page findings** (2026-10-01 export, `figma-exports/mng-buttons-export/`), for Karl's review:
-    - Pop-Up Modal Close InFocus keeps the gray fill and border, but its spec text says the fill is removed. Fix the text or the variant.
-    - CTA inner button heights vary (40/41/42/46px) against the 40px min-height. Secondary and Tertiary icons are 14px on some variants (spec: 16px). The Mobile InFocus rings on Secondary/Tertiary (Icon=None, left) are unbound `#000000`.
-    - Non-Button Hyperlink: 16.5px text, teal focus ring and a leftover dashed underline in InFocus (all already flagged in Figma).
-    - In-Line Close InFocus ring is square, with no offset (spec: 1px offset).
-    - Naming: Modal Close uses `state=default` in lower case. The set names `Button ModalClose`, `Button PanelClose` and `nonButton Hyperlink` don't match their page titles. Renaming is safe.
+18. ~~**Buttons page findings**~~ **Done 2026-10-02** (Karl's review of the 2026-10-01 export):
+    - Modal Close InFocus design was correct; the spec text was fixed (InFocus keeps the Default fill and border).
+    - Primary, Secondary and Tertiary are 40px tall in every state (8px top/bottom padding, 40px min-height so a wrapped label can grow). Action Button (32px) and Linkstyle (38px) stay compact (Karl, 2026-10-02).
+    - Icons: 16px on Primary, Secondary, Tertiary and Action Button; 12px on Modal Close and In-Line Close.
+    - Every focus ring is bound to `color/gray/black` and drawn outside the element (absolute `Focus Ring` frame, 1px offset), so it never changes size or pushes neighbours. The In-Line Close ring has 4px corners to match its Hover/Pressed box.
+    - Renamed: `Button Modal Close`, `Button In-Line Close`, `Hyperlink`; all variant properties and values capitalized (`State`, `Style`, `Icon`, `Breakpoint`; `Default`, `Left`, `Right`, `Stacked`, `1 Row`). `Action Button` keeps its name to avoid colliding with `Button Action`.
+    - Still open: Hyperlink's 16.5px text, teal focus ring and leftover dashed underline (flagged in Figma).
+19. **Re-export the Buttons page** to `figma-exports/mng-buttons-export/`. The per-component files still show the 2026-10-01 state; the README notes the 2026-10-02 changes.
 
 ## 7\. Standing rules
 
