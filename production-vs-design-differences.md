@@ -1049,23 +1049,23 @@ Check after the change: the subscribe CTA keeps its 44px min height and its fill
 
 **Also noted:** Denver Post's live `--tertiary` is `#A13B1E`, but its token is `#FFC518`; and its live `--primary-light` / `--primary-lighter` (`#C81632` / `#AF1628`) are the reverse of the tokens (`#AF1628` / `#C81632`). Check these against entry 21's Denver Post section.
 
-## 25. Sponsored content badge — OC Register's Nativo label is not the site's secondary color
+## 25. Sponsored content badge — needs to be fixed in production
 
 **Found:** 2026-10-02, live check of the six review sites (homepage, Latest Headlines and article lists).
 
-**Figma spec (source of truth):** the "Sponsored content" badge (WordPress Elements, Article Status Badge `Type=Sponsored`, `3344:63995`, and its instances in Latest Headlines, Top Zone and TopZone Article Card) uses `color/theme/secondary` for its background (Karl, 2026-10-02).
+**Figma spec (source of truth):** the "Sponsored content" badge (WordPress Elements, Article Status Badge `Type=Sponsored`, `3344:63995`, and its instances in Latest Headlines, Top Zone and TopZone Article Card) stays **#7D161E with white text** (Karl, 2026-10-02). It is intentionally not bound to a theme token for now: none of the theme roles works on every site (white text fails contrast on the yellow `secondary` themes, and `tertiary` passes on only 9 of 22 themes).
 
-**Production:** the live badge is the Nativo native-ad label (inline style set by the vendor template), not a theme class.
+**Production:** the live badge is the Nativo native-ad label (inline style set by the vendor template), not a theme class, and it doesn't match the design anywhere checked.
 
-| Site | Live label background | Site secondary | Match |
+| Site | Live label background | Design | Match |
 |---|---|---|---|
-| denverpost.com | #003459 | #003459 | ✅ |
-| ocregister.com | #0097A7 | #FFEA00 | ❌ |
-| chicagotribune.com, orlandosentinel.com, canoncitydailyrecord.com, mcall.com | no Nativo sponsored unit on the homepage checked | — | not checked |
+| denverpost.com | #003459 (navy, white text) | #7D161E | ❌ |
+| ocregister.com | #0097A7 | #7D161E | ❌ |
+| chicagotribune.com, orlandosentinel.com, canoncitydailyrecord.com, mcall.com | no Nativo sponsored unit on the homepage checked | #7D161E | not checked |
 
-**Fix:** set OC Register's Nativo template to the site's `secondary` (`#FFEA00`, with dark `near-black` text), or confirm with Ad Ops which color the vendor template should use per site. Re-check the other four sites when a sponsored unit is running.
+**Fix:** update the Nativo sponsored-label template on every site to the design badge (#7D161E background, white `gray/max` text, Noto Sans), with Ad Ops. Re-check the other four sites when a sponsored unit is running.
 
-**Note:** the theme's own `.sponsored-content .sponsored-flag` (not the Nativo label) uses `primary-light` with white text, and `secondary` with dark text on images.
+**Note:** the theme's own `.sponsored-content .sponsored-flag` (a different element) uses `primary-light` with white text, and `secondary` with dark text on images.
 
 ## How to use this doc
 
