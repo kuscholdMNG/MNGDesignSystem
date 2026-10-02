@@ -1,13 +1,14 @@
 {
  "schema": "mng-design-system/component-spec@1",
+ "exported": "2026-10-02",
  "kind": "component",
  "name": "Pop-Up Modal Close",
  "slug": "pop-up-modal-close",
  "order": 6,
- "figmaSetName": "Button ModalClose",
- "description": "Circular 32px close (X) button for pop-up modals (ModalsCenter, Modals/*). Light-gray circle at rest, white on Hover/Pressed.",
+ "figmaSetName": "Button Modal Close",
+ "description": "Circular 32px close (X) button for pop-up modals (ModalsCenter, Modals/*). Light-gray circle at rest, white on Hover/Pressed; InFocus keeps the Default look and adds the ring.",
  "componentDescription": null,
- "specText": "Pop-Up Modal Close | Last Updated: 2026.09.30 | Components | UPDATED: 2026.09.30 | Pop-Up Modal Close | Updated: 2026.09.30 | Default | Hover | Pressed | InFocus | Pop-Up Modal Close Button | Pop-Up Modal Title | Sub-Title Text | Body Section (As Needed) | Field Label  | Place holder text | Error message text. | We’ve encountered an error | We are unable to process your request at this time. To continue, please call us, or try again later. | Update Payment Info | CTA Hyperlink | CTA button | CTA Hyperlink | Pop-Up Modal Close | Updated: 2026.09.30 | Pop-Up Modal Close\nSize: 32×32px (34×34px on InFocus, from the added focus ring)\nCorner Radius: fully rounded (circle)\nPadding: 10px all sides (12px icon centered in the 32px circle)\nIcon: 12px square, \"close\" (X) icon\nIcon Color: color/gray/min / #141414 in every state — does not shift between Default, Hover, Pressed, or InFocus\nFill: color/gray/600 (Default); color/gray/max / white (Hover, Pressed); none (InFocus)\nBorder: 1px color/gray/400 (Default); 1px color/gray/500 (Hover, Pressed); InFocus adds a 2px black focus ring, offset 1px outside, no inner border\n\nMargin: not yet established for this component (unlike the CTA buttons' 8px min left/right margin) — flagging as an open spec gap. | States | Updated: 2026.09.30 | Default — resting appearance. Light gray fill (color/gray/600), 1px gray border (color/gray/400), near-black icon. | Hover — fill switches to white, border darkens to color/gray/500. Icon color stays the same. | Pressed — matches Hover exactly: white fill, color/gray/500 border. No separate pressed-only styling. | InFocus — removes the fill entirely and adds a 2px black focus ring, offset 1px outside the 32px circle. Appears on keyboard (Tab) focus for accessibility.",
+ "specText": "Pop-Up Modal Close | Last Updated: 2026.10.02 | Components | UPDATED: 2026.09.30 | Pop-Up Modal Close | Updated: 2026.09.30 | Default | Hover | Pressed | InFocus | Pop-Up Modal Close Button | Pop-Up Modal Close | Updated: 2026.09.30 | Pop-Up Modal Close\nSize: 32×32px in every state (the InFocus ring is drawn outside and doesn't change the size)\nCorner Radius: fully rounded (circle)\nPadding: 10px all sides (12px icon centered in the 32px circle)\nIcon: 12px square, \"close\" (X) icon\nIcon Color: color/gray/min / #141414 in every state — does not shift between Default, Hover, Pressed, or InFocus\nFill: color/gray/600 (Default, InFocus); color/gray/max / white (Hover, Pressed)\nBorder: 1px color/gray/400 (Default, InFocus); 1px color/gray/500 (Hover, Pressed); InFocus adds a 2px color/gray/black focus ring, offset 1px outside the circle\n\nMargin: not yet established for this component (unlike the CTA buttons' 8px min left/right margin) — flagging as an open spec gap. | States | Updated: 2026.09.30 | Default — resting appearance. Light gray fill (color/gray/600), 1px gray border (color/gray/400), near-black icon. | Hover — fill switches to white, border darkens to color/gray/500. Icon color stays the same. | Pressed — matches Hover exactly: white fill, color/gray/500 border. No separate pressed-only styling. | InFocus — keeps the Default fill and border and adds a 2px black focus ring, offset 1px outside the 32px circle. Appears on keyboard (Tab) focus for accessibility.",
  "figma": {
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
@@ -19,7 +20,7 @@
   "documentationUrl": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7078-7807",
   "variants": [
    {
-    "label": "default",
+    "label": "Default",
     "id": "5335:16193",
     "key": "45a9fbb66f6511cd51f74401a68c4c703b944b73",
     "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5335-16193"
@@ -45,19 +46,19 @@
   ]
  },
  "properties": {
-  "state": {
+  "State": {
    "type": "VARIANT",
-   "default": "default",
+   "default": "Default",
    "options": [
+    "Default",
     "Hover",
-    "InFocus",
-    "default",
-    "Pressed"
+    "Pressed",
+    "InFocus"
    ]
   }
  },
  "breakpoints": [
-  "all (single size)"
+  "all"
  ],
  "usage": {
   "totalInstances": 26,
@@ -68,64 +69,13 @@
   "pages": {
    "Modal Panels | 2025.12.29": 7
   },
-  "perVariant": [
-   {
-    "label": "default",
-    "total": 23,
-    "documentationFrames": 3,
-    "nestedInInstances": 0,
-    "inComponents": {
-     "Modals/MobileScroll/Login": 1,
-     "ModalsCenter / Device=Desktop": 1,
-     "ModalsCenter / Device=TabletV": 1,
-     "ModalsCenter / Device=TabletH": 1,
-     "ModalsCenter / Device=Mobile": 1,
-     "Modals/TabletH/Login": 1,
-     "Modals/TabletV/Login": 1,
-     "ModalsCenter / Device=FOLD": 1,
-     "Modals/FOLD/Login": 1,
-     "Modals/Desktop/Login": 1,
-     "ModalsCenter / Device=MobileScroll": 1,
-     "Modals/Mobile/Login": 1,
-     "Modals/Desktop": 1
-    },
-    "otherPages": {
-     "Modal Panels | 2025.12.29 ▸ Frame 12995": 6,
-     "Modal Panels | 2025.12.29 ▸ Frame 12672": 1
-    }
-   },
-   {
-    "label": "Hover",
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "Pressed",
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "InFocus",
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   }
-  ],
-  "scope": "Local instances in the MNG Design System file only. Instances in other files that use the published library (WordPress Elements, Reader Dashboard v2.0) are not counted."
+  "nestedInInstances": 0,
+  "scope": "Local instances in the MNG Design System file only."
  },
  "dependencies": [
   {
    "component": "Icons",
    "nodeId": "4693:5",
-   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=4693-5",
    "inThisExport": false,
    "count": 4
   }
@@ -135,9 +85,9 @@
  },
  "variants": [
   {
-   "label": "default",
+   "label": "Default",
    "variantProperties": {
-    "state": "default"
+    "State": "Default"
    },
    "id": "5335:16193",
    "key": "45a9fbb66f6511cd51f74401a68c4c703b944b73",
@@ -181,36 +131,29 @@
    ],
    "usage": {
     "total": 23,
-    "documentationFrames": 3,
-    "nestedInInstances": 0,
+    "doc": 3,
+    "nested": 0,
     "inComponents": {
-     "Modals/MobileScroll/Login": 1,
-     "ModalsCenter / Device=Desktop": 1,
-     "ModalsCenter / Device=TabletV": 1,
-     "ModalsCenter / Device=TabletH": 1,
-     "ModalsCenter / Device=Mobile": 1,
-     "Modals/TabletH/Login": 1,
-     "Modals/TabletV/Login": 1,
-     "ModalsCenter / Device=FOLD": 1,
-     "Modals/FOLD/Login": 1,
-     "Modals/Desktop/Login": 1,
-     "ModalsCenter / Device=MobileScroll": 1,
      "Modals/Mobile/Login": 1,
+     "Modals/TabletH/Login": 1,
+     "Modals/MobileScroll/Login": 1,
+     "ModalsCenter": 6,
+     "Modals/Desktop/Login": 1,
+     "Modals/FOLD/Login": 1,
+     "Modals/TabletV/Login": 1,
      "Modals/Desktop": 1
     },
-    "otherPages": {
+    "other": {
      "Modal Panels | 2025.12.29 ▸ Frame 12995": 6,
      "Modal Panels | 2025.12.29 ▸ Frame 12672": 1
     }
    },
    "layerTree": {
-    "name": "state=default",
+    "name": "State=Default",
     "type": "COMPONENT",
     "id": "5335:16193",
     "w": 32,
     "h": 32,
-    "x": 17,
-    "y": 16,
     "sizing": {
      "h": "FIXED",
      "v": "FIXED"
@@ -246,7 +189,7 @@
     "strokeAlign": "INSIDE",
     "children": [
      {
-      "name": "Icons",
+      "name": "Icon",
       "type": "INSTANCE",
       "id": "5335:16180",
       "w": 12,
@@ -271,26 +214,19 @@
       },
       "clip": true,
       "component": "Icons",
+      "componentSetId": "4693:5",
       "variant": {
        "Name": "close"
       },
-      "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
-      "mainId": "4693:36",
-      "setId": "4693:5",
-      "props": {}
+      "mainId": "4693:36"
      }
-    ],
-    "key": "45a9fbb66f6511cd51f74401a68c4c703b944b73",
-    "variantProperties": {
-     "state": "default"
-    },
-    "componentDescription": null
+    ]
    }
   },
   {
    "label": "Hover",
    "variantProperties": {
-    "state": "Hover"
+    "State": "Hover"
    },
    "id": "5335:16194",
    "key": "3003a972adb79714fa8f8da179a4975ee625280e",
@@ -334,19 +270,17 @@
    ],
    "usage": {
     "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
+    "doc": 1,
+    "nested": 0,
     "inComponents": {},
-    "otherPages": {}
+    "other": {}
    },
    "layerTree": {
-    "name": "state=Hover",
+    "name": "State=Hover",
     "type": "COMPONENT",
     "id": "5335:16194",
     "w": 32,
     "h": 32,
-    "x": 17,
-    "y": 64,
     "sizing": {
      "h": "FIXED",
      "v": "FIXED"
@@ -382,7 +316,7 @@
     "strokeAlign": "INSIDE",
     "children": [
      {
-      "name": "Icons",
+      "name": "Icon",
       "type": "INSTANCE",
       "id": "5335:16186",
       "w": 12,
@@ -407,26 +341,19 @@
       },
       "clip": true,
       "component": "Icons",
+      "componentSetId": "4693:5",
       "variant": {
        "Name": "close"
       },
-      "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
-      "mainId": "4693:36",
-      "setId": "4693:5",
-      "props": {}
+      "mainId": "4693:36"
      }
-    ],
-    "key": "3003a972adb79714fa8f8da179a4975ee625280e",
-    "variantProperties": {
-     "state": "Hover"
-    },
-    "componentDescription": null
+    ]
    }
   },
   {
    "label": "Pressed",
    "variantProperties": {
-    "state": "Pressed"
+    "State": "Pressed"
    },
    "id": "7078:7686",
    "key": "be3d5493da1f99a03caf81fe0aee3b8d7d3ac813",
@@ -470,19 +397,17 @@
    ],
    "usage": {
     "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
+    "doc": 1,
+    "nested": 0,
     "inComponents": {},
-    "otherPages": {}
+    "other": {}
    },
    "layerTree": {
-    "name": "state=Pressed",
+    "name": "State=Pressed",
     "type": "COMPONENT",
     "id": "7078:7686",
     "w": 32,
     "h": 32,
-    "x": 17,
-    "y": 112,
     "sizing": {
      "h": "FIXED",
      "v": "FIXED"
@@ -518,7 +443,7 @@
     "strokeAlign": "INSIDE",
     "children": [
      {
-      "name": "Icons",
+      "name": "Icon",
       "type": "INSTANCE",
       "id": "7078:7687",
       "w": 12,
@@ -543,118 +468,122 @@
       },
       "clip": true,
       "component": "Icons",
+      "componentSetId": "4693:5",
       "variant": {
        "Name": "close"
       },
-      "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
-      "mainId": "4693:36",
-      "setId": "4693:5",
-      "props": {}
+      "mainId": "4693:36"
      }
-    ],
-    "key": "be3d5493da1f99a03caf81fe0aee3b8d7d3ac813",
-    "variantProperties": {
-     "state": "Pressed"
-    },
-    "componentDescription": null
+    ]
    }
   },
   {
    "label": "InFocus",
    "variantProperties": {
-    "state": "InFocus"
+    "State": "InFocus"
    },
    "id": "5335:16195",
    "key": "0d2629a282e1f29e5dcac55c4df4e549cf2a1673",
    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5335-16195",
-   "width": 34,
-   "height": 34,
+   "width": 32,
+   "height": 32,
    "layout": {
     "dir": "HORIZONTAL",
-    "gap": 8,
+    "gap": 0,
     "pad": [
-     1,
-     1,
-     1,
-     1
+     0,
+     0,
+     0,
+     0
     ],
-    "main": "MIN",
+    "main": "CENTER",
     "cross": "CENTER"
    },
    "sizing": {
-    "h": "HUG",
-    "v": "HUG"
+    "h": "FIXED",
+    "v": "FIXED"
    },
-   "fills": null,
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#F1EFEB",
+     "variable": "Colors/color/gray/600"
+    }
+   ],
    "strokes": [
     {
      "type": "SOLID",
-     "hex": "#000000",
-     "variable": "Colors/color/gray/black"
+     "hex": "#A7A6A3",
+     "variable": "Colors/color/gray/400"
     }
    ],
-   "radius": 24,
+   "radius": 40,
    "preview": "previews/pop-up-modal-close--infocus.png",
    "breakpoints": [
     "all"
    ],
    "usage": {
     "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
+    "doc": 1,
+    "nested": 0,
     "inComponents": {},
-    "otherPages": {}
+    "other": {}
    },
    "layerTree": {
-    "name": "state=InFocus",
+    "name": "State=InFocus",
     "type": "COMPONENT",
     "id": "5335:16195",
-    "w": 34,
-    "h": 34,
-    "x": 16,
-    "y": 160,
+    "w": 32,
+    "h": 32,
     "sizing": {
-     "h": "HUG",
-     "v": "HUG"
+     "h": "FIXED",
+     "v": "FIXED"
     },
     "layout": {
      "dir": "HORIZONTAL",
-     "gap": 8,
+     "gap": 0,
      "pad": [
-      1,
-      1,
-      1,
-      1
+      0,
+      0,
+      0,
+      0
      ],
-     "main": "MIN",
+     "main": "CENTER",
      "cross": "CENTER"
     },
-    "radius": 24,
+    "radius": 40,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#F1EFEB",
+      "variable": "Colors/color/gray/600"
+     }
+    ],
     "strokes": [
      {
       "type": "SOLID",
-      "hex": "#000000",
-      "variable": "Colors/color/gray/black"
+      "hex": "#A7A6A3",
+      "variable": "Colors/color/gray/400"
      }
     ],
-    "strokeWeight": 2,
-    "strokeAlign": "OUTSIDE",
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
     "children": [
      {
-      "name": "Close Button",
-      "type": "FRAME",
-      "id": "5335:16190",
-      "w": 32,
-      "h": 32,
-      "x": 1,
-      "y": 1,
+      "name": "Icon",
+      "type": "INSTANCE",
+      "id": "5335:16191",
+      "w": 12,
+      "h": 12,
+      "x": 10,
+      "y": 10,
       "sizing": {
        "h": "FIXED",
        "v": "FIXED"
       },
       "layout": {
        "dir": "HORIZONTAL",
-       "gap": 0,
+       "gap": 8,
        "pad": [
         0,
         0,
@@ -664,66 +593,45 @@
        "main": "CENTER",
        "cross": "CENTER"
       },
+      "clip": true,
+      "component": "Icons",
+      "componentSetId": "4693:5",
+      "variant": {
+       "Name": "close"
+      },
+      "mainId": "4693:36"
+     },
+     {
+      "name": "Focus Ring",
+      "type": "FRAME",
+      "id": "7098:25002",
+      "w": 34,
+      "h": 34,
+      "x": -1,
+      "y": -1,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "absolute": true,
+      "constraints": {
+       "horizontal": "STRETCH",
+       "vertical": "STRETCH"
+      },
+      "clip": true,
       "radius": 40,
-      "fills": [
-       {
-        "type": "SOLID",
-        "hex": "#F1EFEB",
-        "variable": "Colors/color/gray/600"
-       }
-      ],
       "strokes": [
        {
         "type": "SOLID",
-        "hex": "#A7A6A3",
-        "variable": "Colors/color/gray/400"
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
        }
       ],
-      "strokeWeight": 1,
-      "strokeAlign": "INSIDE",
-      "children": [
-       {
-        "name": "Icons",
-        "type": "INSTANCE",
-        "id": "5335:16191",
-        "w": 12,
-        "h": 12,
-        "x": 10,
-        "y": 10,
-        "sizing": {
-         "h": "FIXED",
-         "v": "FIXED"
-        },
-        "layout": {
-         "dir": "HORIZONTAL",
-         "gap": 8,
-         "pad": [
-          0,
-          0,
-          0,
-          0
-         ],
-         "main": "CENTER",
-         "cross": "CENTER"
-        },
-        "clip": true,
-        "component": "Icons",
-        "variant": {
-         "Name": "close"
-        },
-        "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
-        "mainId": "4693:36",
-        "setId": "4693:5",
-        "props": {}
-       }
-      ]
+      "strokeWeight": 2,
+      "strokeAlign": "OUTSIDE",
+      "children": []
      }
-    ],
-    "key": "0d2629a282e1f29e5dcac55c4df4e549cf2a1673",
-    "variantProperties": {
-     "state": "InFocus"
-    },
-    "componentDescription": null
+    ]
    }
   }
  ],
@@ -733,53 +641,58 @@
    "token": "color/gray/600",
    "hex": "#F1EFEB",
    "usedAs": [
-    "fill on Close Button",
-    "fill on state=default"
+    "fill on State=Default",
+    "fill on State=InFocus"
    ]
   },
   {
    "token": "color/gray/400",
    "hex": "#A7A6A3",
    "usedAs": [
-    "stroke on Close Button",
-    "stroke on state=default"
+    "stroke on State=Default",
+    "stroke on State=InFocus"
    ]
   },
   {
    "token": "color/gray/max",
    "hex": "#FFFFFF",
    "usedAs": [
-    "fill on state=Hover",
-    "fill on state=Pressed"
+    "fill on State=Hover",
+    "fill on State=Pressed"
    ]
   },
   {
    "token": "color/gray/500",
    "hex": "#CCCAC7",
    "usedAs": [
-    "stroke on state=Hover",
-    "stroke on state=Pressed"
+    "stroke on State=Hover",
+    "stroke on State=Pressed"
    ]
   },
   {
    "token": "color/gray/black",
    "hex": "#000000",
    "usedAs": [
-    "stroke on state=InFocus"
+    "stroke on Focus Ring"
    ]
   }
  ],
+ "focusRing": {
+  "layer": "Focus Ring",
+  "stroke": "2px OUTSIDE",
+  "offset": "1px",
+  "color": "color/gray/black",
+  "affectsLayout": false
+ },
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
-  "Single size at every breakpoint (32×32; 34×34 on InFocus because of the ring wrapper). No Breakpoint property.",
-  "Sits in the modal header, top-right; see ModalsCenter in the main file."
+  "Single size at every breakpoint (32×32 in every state). No Breakpoint property.",
+  "Sits in the modal header, top-right; see ModalsCenter in the main file.",
+  "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (the 32px circle reads as 38px with the ring). In CSS: `outline: 2px solid var(--color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change."
  ],
  "productionRefs": [],
  "knownIssues": [
-  "**InFocus description disagrees with the component.** The Figma spec text says InFocus \"removes the fill entirely … no inner border\", but the InFocus variant still contains the Default circle (color/gray/600 fill + 1px color/gray/400 border) inside the 2px black ring. The preview confirms the gray fill is visible. Either the text or the variant needs to change (Karl to decide).",
-  "**Lower-case variant value.** The resting state is `state=default` (lower case); every other button family uses `Default`. Renaming it to `Default` is safe (Figma links by ID), but any code mapping state names should treat them the same.",
-  "**Figma set name differs from the doc title**: the component set is `Button ModalClose`.",
   "**Margin not specified** (open spec gap, per the Figma Specifications column).",
   "**3 variants are placed only in their own documentation frame** (not yet used in any real layout): `Hover`, `Pressed`, `InFocus`."
  ],

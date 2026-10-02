@@ -3,7 +3,7 @@ name: In-Line Close
 kind: component
 order: 7
 figma_file: jFHYqhZbJjvWQmDI4myCsd
-figma_set_name: Button PanelClose
+figma_set_name: Button In-Line Close
 figma_node: "5335:16200"
 component_key: f0d7dc9ffa766ef6e54c1d46416a37d1405acaa6
 variants: 4
@@ -12,18 +12,18 @@ built_from: [Icons]
 built_into: [InLineMessage, ModalsOffset]
 spec_json: in-line-close.json
 skeleton: in-line-close.html
-exported: 2026-10-01
+exported: 2026-10-02
 ---
 
 # In-Line Close
 
-> Close (X) button for in-line panels and alerts (InLineMessage, ModalsOffset). Bare 12px icon in a 40px hit area at rest; a 28px white box with 1px near-black border appears on Hover/Pressed.
+> Close (X) button for in-line panels and alerts (InLineMessage, ModalsOffset). Bare 12px icon in a 40px hit area at rest; the 28px `Box` gets a white fill and 1px near-black border on Hover/Pressed.
 
-**Specification text from the Figma documentation frame** (verbatim, ` | ` separates text layers):
+**Specification text from the Figma documentation frame** (verbatim, one text layer per line):
 
 ```text
 In-Line Close
-Last Updated: 2026.09.30
+Last Updated: 2026.10.02
 Components
 UPDATED: 2026.09.30
 In-Line Close
@@ -33,25 +33,15 @@ Hover
 Pressed
 InFocus
 In-Line Close Button
-Edit Your Display Name
-Requirements:
-25 character limit containing only letters, numbers, and spaces
-Must be appropriate and is subject to review
-Display Name
-Display name
-Error message text.
-Note: Display Name updates are reflected across all newspapers you have access to with this login.
-Save Changes
-Cancel Changes
 In-Line Close
 Updated: 2026.09.30
 In-Line Close
 Size: 40×40px hit area; visible box is 28×28px (Hover, Pressed only)
-Corner Radius: 4px (box, Hover/Pressed only — not a circle like Modal Close)
+Corner Radius: 4px (radius/sm) on the Hover/Pressed box and on the InFocus focus ring — not a circle like Modal Close
 Padding: 8px all sides (12px icon centered in the 28px box, on Hover/Pressed); Default and InFocus have no box, so the icon sits directly in the 40px hit area
 Icon: 12px square, "close" (X) icon, color/gray/min / #141414 in every state — does not shift between states
 Fill: none (Default); color/gray/max / white box (Hover, Pressed); none (InFocus)
-Border: none (Default); 1px color/gray/min box border (Hover, Pressed); InFocus adds a 2px black focus ring, offset 1px outside the 40px hit area, no inner box
+Border: none (Default); 1px color/gray/min box border (Hover, Pressed); InFocus adds a 2px color/gray/black focus ring with 4px corners, offset 1px outside the 40px hit area, no inner box
 Default intentionally has no visible box, fill, or border — just the bare icon in the 40px hit area. It stays this way at rest and only gains the box on Hover/Pressed.
 
 Margin: not yet established for this component (unlike the CTA buttons' 8px min left/right margin) — flagging as an open spec gap.
@@ -60,13 +50,13 @@ Updated: 2026.09.30
 Default — resting appearance. No visible box, fill, or border by design; just the bare icon in the 40px hit area.
 Hover — a white 28×28px box with a 1px color/gray/min border and 4px corner radius appears around the icon.
 Pressed — matches Hover exactly (same white box, border, and icon color). No separate pressed-only styling.
-InFocus — removes the box and adds a 2px black focus ring, offset 1px outside the full 40px hit area. Appears on keyboard (Tab) focus for accessibility.
+InFocus — removes the box and adds a 2px black focus ring with 4px corners (matching the Hover/Pressed box), offset 1px outside the full 40px hit area. Appears on keyboard (Tab) focus for accessibility.
 ```
 
 ## Figma references
 
 - File: **MNG Design System** (`jFHYqhZbJjvWQmDI4myCsd`), page **Buttons | 2026.09.30**
-- Component set: [`Button PanelClose` · 5335:16200](https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5335-16200) · key `f0d7dc9ffa766ef6e54c1d46416a37d1405acaa6`
+- Component set: [`Button In-Line Close` · 5335:16200](https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5335-16200) · key `f0d7dc9ffa766ef6e54c1d46416a37d1405acaa6`
 - Documentation frame: [7078:7975](https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7078-7975) · overview PNG: [previews/in-line-close--documentation.png](previews/in-line-close--documentation.png)
 
 | Variant | Node | Key | Size | Preview |
@@ -80,11 +70,11 @@ InFocus — removes the box and adds a 2px black focus ring, offset 1px outside 
 
 | Property | Type | Default | Options |
 |---|---|---|---|
-| state | VARIANT | Default | Default, Hover, InFocus, Pressed |
+| State | VARIANT | Default | Default, Hover, Pressed, InFocus |
 
 ## Where it is used
 
-Scope: Local instances in the MNG Design System file only. Instances in other files that use the published library (WordPress Elements, Reader Dashboard v2.0) are not counted.
+Scope: local instances in the MNG Design System file only. Instances in other files that use the published library (WordPress Elements, Reader Dashboard v2.0) are not counted.
 
 Total instances: **100**.
 
@@ -94,7 +84,7 @@ Placed directly on pages: In-Line Content Containers | 2026.01.02 ×5, Alerts an
 
 | Variant | Total | Doc frame | In components | Other placements |
 |---|---|---|---|---|
-| `Default` | 96 | 2 | 68 | In-Line Content Containers \| 2026.01.02 ▸ Frame 8 ×5, Alerts and Icons ▸ Proposed MNG Icon Set ×3, Buttons \| 2026.09.30 ▸ Frame 13001 ×1 |
+| `Default` | 96 | 2 | InLineMessage/Desktop/none/StandAloneEmailPrefs/Panel ×1, InLineMessage ×51, ModalsOffset ×9, InLineMessage/FOLD/Medium/DashSubsAcctShareALL/HeaderAlert ×1, InLineMessage/Mobile/none/StandAloneEmailPrefs/Panel ×2, InLineMessage/FOLD/none/StandAloneEmailPrefs/Panel ×2, InLineMessage/Desktop/Medium/DashSubsAcctShareALL/HeaderAlert ×1, InLineMessage/FOLD/Confirmation/Footer/Panel ×1 | In-Line Content Containers \| 2026.01.02 ▸ Frame 8 ×5, Alerts and Icons ▸ Proposed MNG Icon Set ×3, Buttons \| 2026.09.30 ▸ Frame 13001 ×1 |
 | `Hover` | 2 | 2 | — | — |
 | `Pressed` | 1 | 1 | — | — |
 | `InFocus` | 1 | 1 | — | — |
@@ -106,7 +96,9 @@ No Breakpoint property: one size at every viewport.
 ## Responsive rules
 
 - Single size at every breakpoint (40×40 hit area). No Breakpoint property.
+- Every state has the same layers (`Button` › `Box` › `Icon`); the `Box` has no fill or border in Default and InFocus.
 - Usually placed top-right of an InLineMessage panel, with the hit area aligned to the panel padding.
+- **Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (the ring surrounds the 40px hit area with 4px corners, matching the Hover/Pressed box). In CSS: `outline: 2px solid var(--color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change.
 
 ## Dependencies
 
@@ -120,17 +112,22 @@ Icon variants used: `close` ×4.
 
 ## Anatomy
 
+Every variant in the set has the same layer tree; InFocus only adds the `Focus Ring` frame. Hidden layers are marked.
+
 Default variant `Default`:
 
-- **state=Default** `COMPONENT` — 40×40, horizontal gap 8 pad 0/0/0/0, HUG×HUG
-  - **Button** `FRAME` — 40×40, horizontal gap 0 pad 0/0/0/0, FIXED×FIXED, r40
-    - **Icons** `INSTANCE` — 12×12, horizontal gap 8 pad 0/0/0/0, FIXED×FIXED, → Icons (Name=close)
+- **State=Default** `COMPONENT` — 40×40, horizontal, gap 8, pad 0/0/0/0, HUG×HUG
+  - **Button** `FRAME` — 40×40, horizontal, gap 0, pad 0/0/0/0, FIXED×FIXED, r40
+    - **Box** `FRAME` — 28×28, horizontal, gap 8, pad 8/8/8/8, HUG×HUG, r4 (radius/sm)
+      - **Icon** `INSTANCE` — 12×12, horizontal, gap 8, pad 0/0/0/0, FIXED×FIXED, → Icons (Name=close)
 
-InFocus variant `InFocus` (focus-ring structure):
+InFocus variant `InFocus`:
 
-- **state=InFocus** `COMPONENT` — 40×40, horizontal gap 8 pad 0/0/0/0, HUG×HUG, stroke color/gray/black, stroke 2 outside
-  - **Button** `FRAME` — 40×40, horizontal gap 0 pad 0/0/0/0, FIXED×FIXED, r40
-    - **Icons** `INSTANCE` — 12×12, horizontal gap 8 pad 0/0/0/0, FIXED×FIXED, → Icons (Name=close)
+- **State=InFocus** `COMPONENT` — 40×40, horizontal, gap 8, pad 0/0/0/0, HUG×HUG
+  - **Button** `FRAME` — 40×40, horizontal, gap 0, pad 0/0/0/0, FIXED×FIXED, r40
+    - **Box** `FRAME` — 28×28, horizontal, gap 8, pad 8/8/8/8, HUG×HUG, r4 (radius/sm)
+      - **Icon** `INSTANCE` — 12×12, horizontal, gap 8, pad 0/0/0/0, FIXED×FIXED, → Icons (Name=close)
+  - **Focus Ring** `FRAME` — 42×42, FIXED×FIXED, absolute at -1,-1, r4 (radius/sm), stroke color/gray/black, 2 outside
 
 Full layer trees for every variant are in the JSON twin (`variants[].layerTree`).
 
@@ -141,9 +138,9 @@ Full layer trees for every variant are in the JSON twin (`variants[].layerTree`)
 | `Default` | 40×40 | HUG×HUG | horizontal, gap 8, pad 0/0/0/0 | — | — | — |
 | `Hover` | 40×40 | HUG×HUG | horizontal, gap 8, pad 0/0/0/0 | — | — | — |
 | `Pressed` | 40×40 | HUG×HUG | horizontal, gap 8, pad 0/0/0/0 | — | — | — |
-| `InFocus` | 40×40 | HUG×HUG | horizontal, gap 8, pad 0/0/0/0 | — | — | color/gray/black |
+| `InFocus` | 40×40 | HUG×HUG | horizontal, gap 8, pad 0/0/0/0 | — | — | — |
 
-*Values are for the variant root. Most families wrap the visible button in an inner frame; see Anatomy.*
+*Values are for the variant root.*
 
 ## Typography
 
@@ -153,9 +150,9 @@ No text layers (icon-only).
 
 | Token | Hex | Used as |
 |---|---|---|
-| color/gray/max | #FFFFFF | fill on Frame 12942 |
-| color/gray/min | #141414 | stroke on Frame 12942 |
-| color/gray/black | #000000 | stroke on state=InFocus |
+| color/gray/max | #FFFFFF | fill on Box |
+| color/gray/min | #141414 | stroke on Box |
+| color/gray/black | #000000 | stroke on Focus Ring |
 
 Hex values are the MNG Design System default mode. At runtime use the token (`var(--color-theme-primary)` etc.); theme colors change per site. No effects (shadows/blurs) are used.
 
@@ -173,16 +170,15 @@ None recorded in Figma (no domains, selectors or layout tokens in descriptions o
 
 ## Known issues
 
-1. **InFocus ring has no offset and square corners.** The ring is a 2px OUTSIDE stroke on the 40px wrapper (padding 0, radius 0), so it touches the hit area and is square, while the spec text says "offset 1px outside" and the inner hit-area frame has radius 40. Confirm the intended ring shape.
-2. **Figma set name differs from the doc title**: the component set is `Button PanelClose`.
-3. **17 instances are nested inside other instances** (not counted per parent in "Where it is used").
-4. **Margin not specified** (open spec gap, per the Figma Specifications column).
-5. **3 variants are placed only in their own documentation frame** (not yet used in any real layout): `Hover`, `Pressed`, `InFocus`.
+1. **Margin not specified** (open spec gap, per the Figma Specifications column).
+2. **17 instances are nested inside other instances** (counted in the total, not per parent, in "Where it is used").
+3. **3 variants are placed only in their own documentation frame** (not yet used in any real layout): `Hover`, `Pressed`, `InFocus`.
 
 ## Rendering steps
 
-1. Pick the variant from the Properties table (state comes from interaction: Default → Hover on pointer-over → Pressed on mouse/touch down → InFocus on keyboard focus).
+1. Pick the variant from the Properties table (State comes from interaction: Default → Hover on pointer-over → Pressed on mouse/touch down → InFocus on keyboard focus).
 2. Copy that variant's structure from `in-line-close.html` (or build it from `variants[].layerTree` in the JSON).
-3. Use the color tokens from `../../tokens.css`, never the hex, so the site theme applies.
+3. Use the tokens from `../../tokens.css`, never the hex, so the site theme applies.
 4. Replace icon placeholders with the named `Icons` variant (see Dependencies).
-5. Check against the preview PNG in `previews/`.
+5. Draw the focus ring outside the element so it never changes layout (see Responsive rules).
+6. Check against the preview PNG in `previews/`.

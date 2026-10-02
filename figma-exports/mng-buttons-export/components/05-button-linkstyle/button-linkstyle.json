@@ -1,5 +1,6 @@
 {
  "schema": "mng-design-system/component-spec@1",
+ "exported": "2026-10-02",
  "kind": "component",
  "name": "Button Linkstyle",
  "slug": "button-linkstyle",
@@ -7,7 +8,7 @@
  "figmaSetName": "Button Linkstyle",
  "description": "Text-link styled button (used for disclosures and inline CTAs such as \"Forgot password?\"). Underlined brand-primary text at rest; a 1px brand-primary box appears on Hover/Pressed.",
  "componentDescription": null,
- "specText": "Button Linkstyle | Last Updated: 2026.09.30 | Components | UPDATED: 2026.09.30 | Button Linkstyle | Updated: 2026.09.30 | 1row | stacked | Default | Hover | Pressed | InFocus | Button Linkstyle | Updated: 2026.09.30 | Right Text Element | Button Linkstyle\nSize: 157×38px (1row) / 91×60px (stacked)\nCorner Radius: 4px (Hover, Pressed, and InFocus box states only; Default has no box)\nPadding: 8px all sides\nText: Noto Sans Regular 16px\nText Color: color/theme/primary / #007580\nBorder: none by default (underlined text instead); 1px color/theme/primary border appears on Hover/Pressed (underline removed); InFocus adds a 2px black focus ring, offset 1px outside, plus the 1px Hover-style border\n\nMargin: not yet established for this component (unlike the CTA buttons' 8px min left/right margin) — flagging as an open spec gap. | States | Updated: 2026.09.30 | Right Text Element | Default — resting appearance. Underlined text, no box border. | Right Text Element | Hover — underline is removed; a 1px color/theme/primary border appears around the content area, corner radius 4px. | Right Text Element | Pressed — same styling as Hover (1px color/theme/primary border, corner radius 4px). Now its own separate variant rather than combined with Hover. | Right Text Element | InFocus — adds a 2px black focus ring, offset 1px outside, in addition to the 1px Hover-style border. Appears on keyboard (Tab) focus for accessibility.",
+ "specText": "Button Linkstyle | Last Updated: 2026.10.02 | Components | UPDATED: 2026.09.30 | Button Linkstyle | Updated: 2026.09.30 | 1 Row | Stacked | Default | Hover | Pressed | InFocus | Button Linkstyle | Updated: 2026.09.30 | Button Linkstyle\nSize: 157×38px (1row) / 91×60px (stacked)\nCorner Radius: 4px (Hover, Pressed, and InFocus box states only; Default has no box)\nPadding: 8px all sides\nText: Noto Sans Regular 16px\nText Color: color/theme/primary / #007580\nBorder: none by default (underlined text instead); 1px color/theme/primary border appears on Hover/Pressed (underline removed); InFocus adds a 2px black focus ring, offset 1px outside, plus the 1px Hover-style border\n\nMargin: not yet established for this component (unlike the CTA buttons' 8px min left/right margin) — flagging as an open spec gap. | States | Updated: 2026.09.30 | Default — resting appearance. Underlined text, no box border. | Hover — underline is removed; a 1px color/theme/primary border appears around the content area, corner radius 4px. | Pressed — same styling as Hover (1px color/theme/primary border, corner radius 4px). Now its own separate variant rather than combined with Hover. | InFocus — adds a 2px black focus ring, offset 1px outside, in addition to the 1px Hover-style border. Appears on keyboard (Tab) focus for accessibility.",
  "figma": {
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
@@ -19,195 +20,102 @@
   "documentationUrl": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7075-7436",
   "variants": [
    {
-    "label": "1row / Default",
+    "label": "1 Row / Default",
     "id": "5428:3880",
     "key": "20acea4b24fb452a35d06e668dc376c1398a128c",
     "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3880"
    },
    {
-    "label": "stacked / Default",
-    "id": "5428:3881",
-    "key": "f2026049dee622f194386ec14502cd86d05e8c77",
-    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3881"
-   },
-   {
-    "label": "1row / Hover",
+    "label": "1 Row / Hover",
     "id": "5428:3882",
     "key": "b8943c851fa8fe2b3bb0f28859f728a51f2015c5",
     "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3882"
    },
    {
-    "label": "stacked / Hover",
-    "id": "5428:3883",
-    "key": "e75af993aad5a3a926eb47ddedbc36f6d1780013",
-    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3883"
-   },
-   {
-    "label": "1row / InFocus",
-    "id": "5428:3884",
-    "key": "f5f60e2106218d940ec53505a7b0b5b03ab75fda",
-    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3884"
-   },
-   {
-    "label": "stacked / InFocus",
-    "id": "5428:3885",
-    "key": "0b3538efc5f75addf36dae955fc4d13cdd6be596",
-    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3885"
-   },
-   {
-    "label": "1row / Pressed",
+    "label": "1 Row / Pressed",
     "id": "7078:7616",
     "key": "5bb9e219c8ed8bdf273317b7a46c18dba7faf5b3",
     "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7078-7616"
    },
    {
-    "label": "stacked / Pressed",
+    "label": "1 Row / InFocus",
+    "id": "5428:3884",
+    "key": "f5f60e2106218d940ec53505a7b0b5b03ab75fda",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3884"
+   },
+   {
+    "label": "Stacked / Default",
+    "id": "5428:3881",
+    "key": "f2026049dee622f194386ec14502cd86d05e8c77",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3881"
+   },
+   {
+    "label": "Stacked / Hover",
+    "id": "5428:3883",
+    "key": "e75af993aad5a3a926eb47ddedbc36f6d1780013",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3883"
+   },
+   {
+    "label": "Stacked / Pressed",
     "id": "7078:7620",
     "key": "b3891886f3fda0403642d552342f312b0f98035b",
     "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7078-7620"
+   },
+   {
+    "label": "Stacked / InFocus",
+    "id": "5428:3885",
+    "key": "0b3538efc5f75addf36dae955fc4d13cdd6be596",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3885"
    }
   ]
  },
  "properties": {
-  "style": {
+  "Style": {
    "type": "VARIANT",
-   "default": "1row",
+   "default": "1 Row",
    "options": [
-    "stacked",
-    "1row"
+    "1 Row",
+    "Stacked"
    ]
   },
-  "state": {
+  "State": {
    "type": "VARIANT",
    "default": "Default",
    "options": [
     "Default",
-    "Pressed",
+    "Hover",
     "InFocus",
-    "Hover"
+    "Pressed"
    ]
   }
  },
  "breakpoints": [
-  "all (single size)"
+  "all"
  ],
  "usage": {
   "totalInstances": 71,
   "builtInto": {
    "Modals": 14,
-   "InLineMessage": 15,
    "Form Field": 6,
+   "InLineMessage": 15,
    "ModalsCenter": 12
   },
   "pages": {
-   "In-Line Content Containers | 2026.01.02": 3,
-   "Modal Panels | 2025.12.29": 14
+   "Buttons | 2026.09.30": 2,
+   "Modal Panels | 2025.12.29": 14,
+   "In-Line Content Containers | 2026.01.02": 3
   },
-  "perVariant": [
-   {
-    "label": "1row / Default",
-    "total": 68,
-    "documentationFrames": 4,
-    "nestedInInstances": 0,
-    "inComponents": {
-     "Modals/Desktop": 2,
-     "InLineMessage/Desktop/none/StandAloneEmailPrefs/Panel": 6,
-     "Modals/Mobile/Login": 2,
-     "Form Field / Device=FOLD, Flavor=PasswordFilled": 1,
-     "InLineMessage/FOLD/none/StandAloneEmailPrefs/Panel": 6,
-     "Modals/FOLD/Login": 2,
-     "Modals/Desktop/Login": 2,
-     "Form Field / Device=Mobile, Flavor=PasswordEmpty": 1,
-     "Modals/TabletV/Login": 2,
-     "ModalsCenter / Device=MobileScroll": 2,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
-     "Modals/TabletH/Login": 2,
-     "Modals/MobileScroll/Login": 2,
-     "ModalsCenter / Device=Mobile": 2,
-     "Form Field / Device=FOLD, Flavor=PasswordEmpty": 1,
-     "ModalsCenter / Device=TabletV": 2,
-     "ModalsCenter / Device=FOLD": 2,
-     "ModalsCenter / Device=TabletH": 2,
-     "Form Field / Device=Mobile, Flavor=PasswordFilled": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
-     "Form Field / Device=Desktop, Flavor=PasswordFilled": 1,
-     "ModalsCenter / Device=Desktop": 2,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
-     "Form Field / Device=Desktop, Flavor=PasswordEmpty": 1
-    },
-    "otherPages": {
-     "In-Line Content Containers | 2026.01.02 ▸ Frame 8": 3,
-     "Modal Panels | 2025.12.29 ▸ Frame 12995": 12,
-     "Modal Panels | 2025.12.29 ▸ Frame 12672": 2
-    }
-   },
-   {
-    "label": "stacked / Default",
-    "total": 0,
-    "documentationFrames": 0,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "1row / Hover",
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "stacked / Hover",
-    "total": 0,
-    "documentationFrames": 0,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "1row / InFocus",
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "stacked / InFocus",
-    "total": 0,
-    "documentationFrames": 0,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "1row / Pressed",
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "stacked / Pressed",
-    "total": 0,
-    "documentationFrames": 0,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   }
-  ],
-  "scope": "Local instances in the MNG Design System file only. Instances in other files that use the published library (WordPress Elements, Reader Dashboard v2.0) are not counted."
+  "nestedInInstances": 0,
+  "scope": "Local instances in the MNG Design System file only."
  },
  "dependencies": [],
  "iconsUsed": {},
  "variants": [
   {
-   "label": "1row / Default",
+   "label": "1 Row / Default",
    "variantProperties": {
-    "style": "1row",
-    "state": "Default"
+    "Style": "1 Row",
+    "State": "Default"
    },
    "id": "5428:3880",
    "key": "20acea4b24fb452a35d06e668dc376c1398a128c",
@@ -233,54 +141,41 @@
    "fills": null,
    "strokes": null,
    "radius": null,
-   "preview": "previews/button-linkstyle--1row-default.png",
+   "preview": "previews/button-linkstyle--1-row-default.png",
    "breakpoints": [
     "all"
    ],
    "usage": {
     "total": 68,
-    "documentationFrames": 4,
-    "nestedInInstances": 0,
+    "doc": 2,
+    "nested": 0,
     "inComponents": {
      "Modals/Desktop": 2,
+     "Form Field": 6,
      "InLineMessage/Desktop/none/StandAloneEmailPrefs/Panel": 6,
      "Modals/Mobile/Login": 2,
-     "Form Field / Device=FOLD, Flavor=PasswordFilled": 1,
      "InLineMessage/FOLD/none/StandAloneEmailPrefs/Panel": 6,
-     "Modals/FOLD/Login": 2,
      "Modals/Desktop/Login": 2,
-     "Form Field / Device=Mobile, Flavor=PasswordEmpty": 1,
      "Modals/TabletV/Login": 2,
-     "ModalsCenter / Device=MobileScroll": 2,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
+     "ModalsCenter": 12,
+     "InLineMessage": 3,
      "Modals/TabletH/Login": 2,
-     "Modals/MobileScroll/Login": 2,
-     "ModalsCenter / Device=Mobile": 2,
-     "Form Field / Device=FOLD, Flavor=PasswordEmpty": 1,
-     "ModalsCenter / Device=TabletV": 2,
-     "ModalsCenter / Device=FOLD": 2,
-     "ModalsCenter / Device=TabletH": 2,
-     "Form Field / Device=Mobile, Flavor=PasswordFilled": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
-     "Form Field / Device=Desktop, Flavor=PasswordFilled": 1,
-     "ModalsCenter / Device=Desktop": 2,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
-     "Form Field / Device=Desktop, Flavor=PasswordEmpty": 1
+     "Modals/FOLD/Login": 2,
+     "Modals/MobileScroll/Login": 2
     },
-    "otherPages": {
-     "In-Line Content Containers | 2026.01.02 ▸ Frame 8": 3,
+    "other": {
+     "Buttons | 2026.09.30 ▸ Pop-Up Modal Close — Documentation": 2,
      "Modal Panels | 2025.12.29 ▸ Frame 12995": 12,
+     "In-Line Content Containers | 2026.01.02 ▸ Frame 8": 3,
      "Modal Panels | 2025.12.29 ▸ Frame 12672": 2
     }
    },
    "layerTree": {
-    "name": "style=1row, state=Default",
+    "name": "Style=1 Row, State=Default",
     "type": "COMPONENT",
     "id": "5428:3880",
     "w": 157,
     "h": 38,
-    "x": 16,
-    "y": 16,
     "sizing": {
      "h": "HUG",
      "v": "HUG"
@@ -299,7 +194,7 @@
     },
     "children": [
      {
-      "name": "Right Text Element",
+      "name": "Label",
       "type": "TEXT",
       "id": "5336:16228",
       "w": 141,
@@ -326,133 +221,18 @@
           "hex": "#007580",
           "variable": "Colors/color/theme/primary"
          }
-        ],
-        "textStyle": null
+        ]
        }
       ]
      }
-    ],
-    "key": "20acea4b24fb452a35d06e668dc376c1398a128c",
-    "variantProperties": {
-     "style": "1row",
-     "state": "Default"
-    },
-    "componentDescription": null
+    ]
    }
   },
   {
-   "label": "stacked / Default",
+   "label": "1 Row / Hover",
    "variantProperties": {
-    "style": "stacked",
-    "state": "Default"
-   },
-   "id": "5428:3881",
-   "key": "f2026049dee622f194386ec14502cd86d05e8c77",
-   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3881",
-   "width": 91,
-   "height": 60,
-   "layout": {
-    "dir": "HORIZONTAL",
-    "gap": 8,
-    "pad": [
-     8,
-     8,
-     8,
-     8
-    ],
-    "main": "CENTER",
-    "cross": "CENTER"
-   },
-   "sizing": {
-    "h": "HUG",
-    "v": "HUG"
-   },
-   "fills": null,
-   "strokes": null,
-   "radius": null,
-   "preview": "previews/button-linkstyle--stacked-default.png",
-   "breakpoints": [
-    "all"
-   ],
-   "usage": {
-    "total": 0,
-    "documentationFrames": 0,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   "layerTree": {
-    "name": "style=stacked, state=Default",
-    "type": "COMPONENT",
-    "id": "5428:3881",
-    "w": 91,
-    "h": 60,
-    "x": 215,
-    "y": 16,
-    "sizing": {
-     "h": "HUG",
-     "v": "HUG"
-    },
-    "layout": {
-     "dir": "HORIZONTAL",
-     "gap": 8,
-     "pad": [
-      8,
-      8,
-      8,
-      8
-     ],
-     "main": "CENTER",
-     "cross": "CENTER"
-    },
-    "children": [
-     {
-      "name": "Right Text Element",
-      "type": "TEXT",
-      "id": "5336:16230",
-      "w": 75,
-      "h": 44,
-      "x": 8,
-      "y": 8,
-      "sizing": {
-       "h": "FIXED",
-       "v": "HUG"
-      },
-      "text": "Right Text Element",
-      "autoResize": "HEIGHT",
-      "align": "RIGHT",
-      "styles": [
-       {
-        "font": "Noto Sans",
-        "weight": "Regular",
-        "size": 16,
-        "lineHeight": "auto",
-        "decoration": "UNDERLINE",
-        "color": [
-         {
-          "type": "SOLID",
-          "hex": "#007580",
-          "variable": "Colors/color/theme/primary"
-         }
-        ],
-        "textStyle": null
-       }
-      ]
-     }
-    ],
-    "key": "f2026049dee622f194386ec14502cd86d05e8c77",
-    "variantProperties": {
-     "style": "stacked",
-     "state": "Default"
-    },
-    "componentDescription": null
-   }
-  },
-  {
-   "label": "1row / Hover",
-   "variantProperties": {
-    "style": "1row",
-    "state": "Hover"
+    "Style": "1 Row",
+    "State": "Hover"
    },
    "id": "5428:3882",
    "key": "b8943c851fa8fe2b3bb0f28859f728a51f2015c5",
@@ -484,25 +264,23 @@
     }
    ],
    "radius": 4,
-   "preview": "previews/button-linkstyle--1row-hover.png",
+   "preview": "previews/button-linkstyle--1-row-hover.png",
    "breakpoints": [
     "all"
    ],
    "usage": {
     "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
+    "doc": 1,
+    "nested": 0,
     "inComponents": {},
-    "otherPages": {}
+    "other": {}
    },
    "layerTree": {
-    "name": "style=1row, state=Hover",
+    "name": "Style=1 Row, State=Hover",
     "type": "COMPONENT",
     "id": "5428:3882",
     "w": 157,
     "h": 38,
-    "x": 16,
-    "y": 92,
     "sizing": {
      "h": "HUG",
      "v": "HUG"
@@ -531,7 +309,7 @@
     "strokeAlign": "INSIDE",
     "children": [
      {
-      "name": "Right Text Element",
+      "name": "Label",
       "type": "TEXT",
       "id": "5336:16243",
       "w": 141,
@@ -557,25 +335,387 @@
           "hex": "#007580",
           "variable": "Colors/color/theme/primary"
          }
-        ],
-        "textStyle": null
+        ]
        }
       ]
      }
-    ],
-    "key": "b8943c851fa8fe2b3bb0f28859f728a51f2015c5",
-    "variantProperties": {
-     "style": "1row",
-     "state": "Hover"
-    },
-    "componentDescription": null
+    ]
    }
   },
   {
-   "label": "stacked / Hover",
+   "label": "1 Row / Pressed",
    "variantProperties": {
-    "style": "stacked",
-    "state": "Hover"
+    "Style": "1 Row",
+    "State": "Pressed"
+   },
+   "id": "7078:7616",
+   "key": "5bb9e219c8ed8bdf273317b7a46c18dba7faf5b3",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7078-7616",
+   "width": 157,
+   "height": 38,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 8,
+    "pad": [
+     8,
+     8,
+     8,
+     8
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": [
+    {
+     "type": "SOLID",
+     "hex": "#007580",
+     "variable": "Colors/color/theme/primary"
+    }
+   ],
+   "radius": 4,
+   "preview": "previews/button-linkstyle--1-row-pressed.png",
+   "breakpoints": [
+    "all"
+   ],
+   "usage": {
+    "total": 1,
+    "doc": 1,
+    "nested": 0,
+    "inComponents": {},
+    "other": {}
+   },
+   "layerTree": {
+    "name": "Style=1 Row, State=Pressed",
+    "type": "COMPONENT",
+    "id": "7078:7616",
+    "w": 157,
+    "h": 38,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 8,
+     "pad": [
+      8,
+      8,
+      8,
+      8
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "radius": 4,
+    "strokes": [
+     {
+      "type": "SOLID",
+      "hex": "#007580",
+      "variable": "Colors/color/theme/primary"
+     }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "children": [
+     {
+      "name": "Label",
+      "type": "TEXT",
+      "id": "7078:7618",
+      "w": 141,
+      "h": 22,
+      "x": 8,
+      "y": 8,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "Right Text Element",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "RIGHT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 16,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#007580",
+          "variable": "Colors/color/theme/primary"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "label": "1 Row / InFocus",
+   "variantProperties": {
+    "Style": "1 Row",
+    "State": "InFocus"
+   },
+   "id": "5428:3884",
+   "key": "f5f60e2106218d940ec53505a7b0b5b03ab75fda",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3884",
+   "width": 157,
+   "height": 38,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 8,
+    "pad": [
+     8,
+     8,
+     8,
+     8
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": [
+    {
+     "type": "SOLID",
+     "hex": "#007580",
+     "variable": "Colors/color/theme/primary"
+    }
+   ],
+   "radius": 4,
+   "preview": "previews/button-linkstyle--1-row-infocus.png",
+   "breakpoints": [
+    "all"
+   ],
+   "usage": {
+    "total": 1,
+    "doc": 1,
+    "nested": 0,
+    "inComponents": {},
+    "other": {}
+   },
+   "layerTree": {
+    "name": "Style=1 Row, State=InFocus",
+    "type": "COMPONENT",
+    "id": "5428:3884",
+    "w": 157,
+    "h": 38,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 8,
+     "pad": [
+      8,
+      8,
+      8,
+      8
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "radius": 4,
+    "strokes": [
+     {
+      "type": "SOLID",
+      "hex": "#007580",
+      "variable": "Colors/color/theme/primary"
+     }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "vars": {
+     "topLeftRadius": "Spacing & Radius/radius/sm",
+     "topRightRadius": "Spacing & Radius/radius/sm",
+     "bottomLeftRadius": "Spacing & Radius/radius/sm",
+     "bottomRightRadius": "Spacing & Radius/radius/sm"
+    },
+    "children": [
+     {
+      "name": "Label",
+      "type": "TEXT",
+      "id": "5336:16252",
+      "w": 141,
+      "h": 22,
+      "x": 8,
+      "y": 8,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "Right Text Element",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "RIGHT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 16,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#007580",
+          "variable": "Colors/color/theme/primary"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Focus Ring",
+      "type": "FRAME",
+      "id": "7098:25000",
+      "w": 159,
+      "h": 40,
+      "x": -1,
+      "y": -1,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "absolute": true,
+      "constraints": {
+       "horizontal": "STRETCH",
+       "vertical": "STRETCH"
+      },
+      "clip": true,
+      "radius": 4,
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
+       }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "OUTSIDE",
+      "vars": {
+       "topLeftRadius": "Spacing & Radius/radius/sm",
+       "topRightRadius": "Spacing & Radius/radius/sm",
+       "bottomLeftRadius": "Spacing & Radius/radius/sm",
+       "bottomRightRadius": "Spacing & Radius/radius/sm"
+      },
+      "children": []
+     }
+    ]
+   }
+  },
+  {
+   "label": "Stacked / Default",
+   "variantProperties": {
+    "Style": "Stacked",
+    "State": "Default"
+   },
+   "id": "5428:3881",
+   "key": "f2026049dee622f194386ec14502cd86d05e8c77",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3881",
+   "width": 91,
+   "height": 60,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 8,
+    "pad": [
+     8,
+     8,
+     8,
+     8
+    ],
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/button-linkstyle--stacked-default.png",
+   "breakpoints": [
+    "all"
+   ],
+   "usage": {
+    "total": 0,
+    "doc": 0,
+    "nested": 0,
+    "inComponents": {},
+    "other": {}
+   },
+   "layerTree": {
+    "name": "Style=Stacked, State=Default",
+    "type": "COMPONENT",
+    "id": "5428:3881",
+    "w": 91,
+    "h": 60,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 8,
+     "pad": [
+      8,
+      8,
+      8,
+      8
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "children": [
+     {
+      "name": "Label",
+      "type": "TEXT",
+      "id": "5336:16230",
+      "w": 75,
+      "h": 44,
+      "x": 8,
+      "y": 8,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "text": "Right Text Element",
+      "autoResize": "HEIGHT",
+      "align": "RIGHT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 16,
+        "lineHeight": "auto",
+        "decoration": "UNDERLINE",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#007580",
+          "variable": "Colors/color/theme/primary"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "label": "Stacked / Hover",
+   "variantProperties": {
+    "Style": "Stacked",
+    "State": "Hover"
    },
    "id": "5428:3883",
    "key": "e75af993aad5a3a926eb47ddedbc36f6d1780013",
@@ -613,19 +753,17 @@
    ],
    "usage": {
     "total": 0,
-    "documentationFrames": 0,
-    "nestedInInstances": 0,
+    "doc": 0,
+    "nested": 0,
     "inComponents": {},
-    "otherPages": {}
+    "other": {}
    },
    "layerTree": {
-    "name": "style=stacked, state=Hover",
+    "name": "Style=Stacked, State=Hover",
     "type": "COMPONENT",
     "id": "5428:3883",
     "w": 91,
     "h": 60,
-    "x": 215,
-    "y": 92,
     "sizing": {
      "h": "HUG",
      "v": "HUG"
@@ -654,7 +792,7 @@
     "strokeAlign": "INSIDE",
     "children": [
      {
-      "name": "Right Text Element",
+      "name": "Label",
       "type": "TEXT",
       "id": "5336:16245",
       "w": 75,
@@ -680,468 +818,18 @@
           "hex": "#007580",
           "variable": "Colors/color/theme/primary"
          }
-        ],
-        "textStyle": null
-       }
-      ]
-     }
-    ],
-    "key": "e75af993aad5a3a926eb47ddedbc36f6d1780013",
-    "variantProperties": {
-     "style": "stacked",
-     "state": "Hover"
-    },
-    "componentDescription": null
-   }
-  },
-  {
-   "label": "1row / InFocus",
-   "variantProperties": {
-    "style": "1row",
-    "state": "InFocus"
-   },
-   "id": "5428:3884",
-   "key": "f5f60e2106218d940ec53505a7b0b5b03ab75fda",
-   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3884",
-   "width": 159,
-   "height": 40,
-   "layout": {
-    "dir": "HORIZONTAL",
-    "gap": 8,
-    "pad": [
-     1,
-     1,
-     1,
-     1
-    ],
-    "main": "CENTER",
-    "cross": "CENTER"
-   },
-   "sizing": {
-    "h": "HUG",
-    "v": "HUG"
-   },
-   "fills": null,
-   "strokes": [
-    {
-     "type": "SOLID",
-     "hex": "#000000",
-     "variable": "Colors/color/gray/black"
-    }
-   ],
-   "radius": 4,
-   "preview": "previews/button-linkstyle--1row-infocus.png",
-   "breakpoints": [
-    "all"
-   ],
-   "usage": {
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   "layerTree": {
-    "name": "style=1row, state=InFocus",
-    "type": "COMPONENT",
-    "id": "5428:3884",
-    "w": 159,
-    "h": 40,
-    "x": 16,
-    "y": 244,
-    "sizing": {
-     "h": "HUG",
-     "v": "HUG"
-    },
-    "layout": {
-     "dir": "HORIZONTAL",
-     "gap": 8,
-     "pad": [
-      1,
-      1,
-      1,
-      1
-     ],
-     "main": "CENTER",
-     "cross": "CENTER"
-    },
-    "radius": 4,
-    "strokes": [
-     {
-      "type": "SOLID",
-      "hex": "#000000",
-      "variable": "Colors/color/gray/black"
-     }
-    ],
-    "strokeWeight": 2,
-    "strokeAlign": "OUTSIDE",
-    "children": [
-     {
-      "name": "Frame 12966",
-      "type": "FRAME",
-      "id": "5428:3887",
-      "w": 157,
-      "h": 38,
-      "x": 1,
-      "y": 1,
-      "sizing": {
-       "h": "HUG",
-       "v": "HUG"
-      },
-      "layout": {
-       "dir": "HORIZONTAL",
-       "gap": 8,
-       "pad": [
-        8,
-        8,
-        8,
-        8
-       ],
-       "main": "CENTER",
-       "cross": "CENTER"
-      },
-      "radius": 4,
-      "strokes": [
-       {
-        "type": "SOLID",
-        "hex": "#007580",
-        "variable": "Colors/color/theme/primary"
-       }
-      ],
-      "strokeWeight": 1,
-      "strokeAlign": "INSIDE",
-      "children": [
-       {
-        "name": "Right Text Element",
-        "type": "TEXT",
-        "id": "5336:16252",
-        "w": 141,
-        "h": 22,
-        "x": 8,
-        "y": 8,
-        "sizing": {
-         "h": "HUG",
-         "v": "HUG"
-        },
-        "text": "Right Text Element",
-        "autoResize": "WIDTH_AND_HEIGHT",
-        "align": "RIGHT",
-        "styles": [
-         {
-          "font": "Noto Sans",
-          "weight": "Regular",
-          "size": 16,
-          "lineHeight": "auto",
-          "color": [
-           {
-            "type": "SOLID",
-            "hex": "#007580",
-            "variable": "Colors/color/theme/primary"
-           }
-          ],
-          "textStyle": null
-         }
         ]
        }
       ]
      }
-    ],
-    "key": "f5f60e2106218d940ec53505a7b0b5b03ab75fda",
-    "variantProperties": {
-     "style": "1row",
-     "state": "InFocus"
-    },
-    "componentDescription": null
+    ]
    }
   },
   {
-   "label": "stacked / InFocus",
+   "label": "Stacked / Pressed",
    "variantProperties": {
-    "style": "stacked",
-    "state": "InFocus"
-   },
-   "id": "5428:3885",
-   "key": "0b3538efc5f75addf36dae955fc4d13cdd6be596",
-   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3885",
-   "width": 93,
-   "height": 62,
-   "layout": {
-    "dir": "HORIZONTAL",
-    "gap": 8,
-    "pad": [
-     1,
-     1,
-     1,
-     1
-    ],
-    "main": "CENTER",
-    "cross": "CENTER"
-   },
-   "sizing": {
-    "h": "HUG",
-    "v": "HUG"
-   },
-   "fills": null,
-   "strokes": [
-    {
-     "type": "SOLID",
-     "hex": "#000000",
-     "variable": "Colors/color/gray/black"
-    }
-   ],
-   "radius": 4,
-   "preview": "previews/button-linkstyle--stacked-infocus.png",
-   "breakpoints": [
-    "all"
-   ],
-   "usage": {
-    "total": 0,
-    "documentationFrames": 0,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   "layerTree": {
-    "name": "style=stacked, state=InFocus",
-    "type": "COMPONENT",
-    "id": "5428:3885",
-    "w": 93,
-    "h": 62,
-    "x": 215,
-    "y": 244,
-    "sizing": {
-     "h": "HUG",
-     "v": "HUG"
-    },
-    "layout": {
-     "dir": "HORIZONTAL",
-     "gap": 8,
-     "pad": [
-      1,
-      1,
-      1,
-      1
-     ],
-     "main": "CENTER",
-     "cross": "CENTER"
-    },
-    "radius": 4,
-    "strokes": [
-     {
-      "type": "SOLID",
-      "hex": "#000000",
-      "variable": "Colors/color/gray/black"
-     }
-    ],
-    "strokeWeight": 2,
-    "strokeAlign": "OUTSIDE",
-    "children": [
-     {
-      "name": "Frame 12967",
-      "type": "FRAME",
-      "id": "5428:3888",
-      "w": 91,
-      "h": 60,
-      "x": 1,
-      "y": 1,
-      "sizing": {
-       "h": "HUG",
-       "v": "HUG"
-      },
-      "layout": {
-       "dir": "HORIZONTAL",
-       "gap": 8,
-       "pad": [
-        8,
-        8,
-        8,
-        8
-       ],
-       "main": "CENTER",
-       "cross": "CENTER"
-      },
-      "radius": 4,
-      "strokes": [
-       {
-        "type": "SOLID",
-        "hex": "#007580",
-        "variable": "Colors/color/theme/primary"
-       }
-      ],
-      "strokeWeight": 1,
-      "strokeAlign": "INSIDE",
-      "children": [
-       {
-        "name": "Right Text Element",
-        "type": "TEXT",
-        "id": "5336:16254",
-        "w": 75,
-        "h": 44,
-        "x": 8,
-        "y": 8,
-        "sizing": {
-         "h": "FIXED",
-         "v": "HUG"
-        },
-        "text": "Right Text Element",
-        "autoResize": "HEIGHT",
-        "align": "RIGHT",
-        "styles": [
-         {
-          "font": "Noto Sans",
-          "weight": "Regular",
-          "size": 16,
-          "lineHeight": "auto",
-          "color": [
-           {
-            "type": "SOLID",
-            "hex": "#007580",
-            "variable": "Colors/color/theme/primary"
-           }
-          ],
-          "textStyle": null
-         }
-        ]
-       }
-      ]
-     }
-    ],
-    "key": "0b3538efc5f75addf36dae955fc4d13cdd6be596",
-    "variantProperties": {
-     "style": "stacked",
-     "state": "InFocus"
-    },
-    "componentDescription": null
-   }
-  },
-  {
-   "label": "1row / Pressed",
-   "variantProperties": {
-    "style": "1row",
-    "state": "Pressed"
-   },
-   "id": "7078:7616",
-   "key": "5bb9e219c8ed8bdf273317b7a46c18dba7faf5b3",
-   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7078-7616",
-   "width": 157,
-   "height": 38,
-   "layout": {
-    "dir": "HORIZONTAL",
-    "gap": 8,
-    "pad": [
-     8,
-     8,
-     8,
-     8
-    ],
-    "main": "CENTER",
-    "cross": "CENTER"
-   },
-   "sizing": {
-    "h": "HUG",
-    "v": "HUG"
-   },
-   "fills": null,
-   "strokes": [
-    {
-     "type": "SOLID",
-     "hex": "#007580",
-     "variable": "Colors/color/theme/primary"
-    }
-   ],
-   "radius": 4,
-   "preview": "previews/button-linkstyle--1row-pressed.png",
-   "breakpoints": [
-    "all"
-   ],
-   "usage": {
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   "layerTree": {
-    "name": "style=1row, state=Pressed",
-    "type": "COMPONENT",
-    "id": "7078:7616",
-    "w": 157,
-    "h": 38,
-    "x": 16,
-    "y": 168,
-    "sizing": {
-     "h": "HUG",
-     "v": "HUG"
-    },
-    "layout": {
-     "dir": "HORIZONTAL",
-     "gap": 8,
-     "pad": [
-      8,
-      8,
-      8,
-      8
-     ],
-     "main": "CENTER",
-     "cross": "CENTER"
-    },
-    "radius": 4,
-    "strokes": [
-     {
-      "type": "SOLID",
-      "hex": "#007580",
-      "variable": "Colors/color/theme/primary"
-     }
-    ],
-    "strokeWeight": 1,
-    "strokeAlign": "INSIDE",
-    "children": [
-     {
-      "name": "Right Text Element",
-      "type": "TEXT",
-      "id": "7078:7618",
-      "w": 141,
-      "h": 22,
-      "x": 8,
-      "y": 8,
-      "sizing": {
-       "h": "HUG",
-       "v": "HUG"
-      },
-      "text": "Right Text Element",
-      "autoResize": "WIDTH_AND_HEIGHT",
-      "align": "RIGHT",
-      "styles": [
-       {
-        "font": "Noto Sans",
-        "weight": "Regular",
-        "size": 16,
-        "lineHeight": "auto",
-        "color": [
-         {
-          "type": "SOLID",
-          "hex": "#007580",
-          "variable": "Colors/color/theme/primary"
-         }
-        ],
-        "textStyle": null
-       }
-      ]
-     }
-    ],
-    "key": "5bb9e219c8ed8bdf273317b7a46c18dba7faf5b3",
-    "variantProperties": {
-     "style": "1row",
-     "state": "Pressed"
-    },
-    "componentDescription": null
-   }
-  },
-  {
-   "label": "stacked / Pressed",
-   "variantProperties": {
-    "style": "stacked",
-    "state": "Pressed"
+    "Style": "Stacked",
+    "State": "Pressed"
    },
    "id": "7078:7620",
    "key": "b3891886f3fda0403642d552342f312b0f98035b",
@@ -1179,19 +867,17 @@
    ],
    "usage": {
     "total": 0,
-    "documentationFrames": 0,
-    "nestedInInstances": 0,
+    "doc": 0,
+    "nested": 0,
     "inComponents": {},
-    "otherPages": {}
+    "other": {}
    },
    "layerTree": {
-    "name": "style=stacked, state=Pressed",
+    "name": "Style=Stacked, State=Pressed",
     "type": "COMPONENT",
     "id": "7078:7620",
     "w": 91,
     "h": 60,
-    "x": 215,
-    "y": 168,
     "sizing": {
      "h": "HUG",
      "v": "HUG"
@@ -1220,7 +906,7 @@
     "strokeAlign": "INSIDE",
     "children": [
      {
-      "name": "Right Text Element",
+      "name": "Label",
       "type": "TEXT",
       "id": "7078:7622",
       "w": 75,
@@ -1246,18 +932,167 @@
           "hex": "#007580",
           "variable": "Colors/color/theme/primary"
          }
-        ],
-        "textStyle": null
+        ]
        }
       ]
      }
+    ]
+   }
+  },
+  {
+   "label": "Stacked / InFocus",
+   "variantProperties": {
+    "Style": "Stacked",
+    "State": "InFocus"
+   },
+   "id": "5428:3885",
+   "key": "0b3538efc5f75addf36dae955fc4d13cdd6be596",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3885",
+   "width": 91,
+   "height": 60,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 8,
+    "pad": [
+     8,
+     8,
+     8,
+     8
     ],
-    "key": "b3891886f3fda0403642d552342f312b0f98035b",
-    "variantProperties": {
-     "style": "stacked",
-     "state": "Pressed"
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": [
+    {
+     "type": "SOLID",
+     "hex": "#007580",
+     "variable": "Colors/color/theme/primary"
+    }
+   ],
+   "radius": 4,
+   "preview": "previews/button-linkstyle--stacked-infocus.png",
+   "breakpoints": [
+    "all"
+   ],
+   "usage": {
+    "total": 0,
+    "doc": 0,
+    "nested": 0,
+    "inComponents": {},
+    "other": {}
+   },
+   "layerTree": {
+    "name": "Style=Stacked, State=InFocus",
+    "type": "COMPONENT",
+    "id": "5428:3885",
+    "w": 91,
+    "h": 60,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
     },
-    "componentDescription": null
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 8,
+     "pad": [
+      8,
+      8,
+      8,
+      8
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "radius": 4,
+    "strokes": [
+     {
+      "type": "SOLID",
+      "hex": "#007580",
+      "variable": "Colors/color/theme/primary"
+     }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "vars": {
+     "topLeftRadius": "Spacing & Radius/radius/sm",
+     "topRightRadius": "Spacing & Radius/radius/sm",
+     "bottomLeftRadius": "Spacing & Radius/radius/sm",
+     "bottomRightRadius": "Spacing & Radius/radius/sm"
+    },
+    "children": [
+     {
+      "name": "Label",
+      "type": "TEXT",
+      "id": "5336:16254",
+      "w": 75,
+      "h": 44,
+      "x": 8,
+      "y": 8,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "text": "Right Text Element",
+      "autoResize": "HEIGHT",
+      "align": "RIGHT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 16,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#007580",
+          "variable": "Colors/color/theme/primary"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Focus Ring",
+      "type": "FRAME",
+      "id": "7098:25001",
+      "w": 93,
+      "h": 62,
+      "x": -1,
+      "y": -1,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "absolute": true,
+      "constraints": {
+       "horizontal": "STRETCH",
+       "vertical": "STRETCH"
+      },
+      "clip": true,
+      "radius": 4,
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
+       }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "OUTSIDE",
+      "vars": {
+       "topLeftRadius": "Spacing & Radius/radius/sm",
+       "topRightRadius": "Spacing & Radius/radius/sm",
+       "bottomLeftRadius": "Spacing & Radius/radius/sm",
+       "bottomRightRadius": "Spacing & Radius/radius/sm"
+      },
+      "children": []
+     }
+    ]
    }
   }
  ],
@@ -1267,23 +1102,11 @@
    "weight": "Regular",
    "size": 16,
    "lineHeight": "auto",
-   "case": null,
-   "decoration": "UNDERLINE",
-   "colorToken": "color/theme/primary",
+   "case": "—",
+   "color": "color/theme/primary",
+   "align": "RIGHT",
    "layers": [
-    "Right Text Element"
-   ]
-  },
-  {
-   "font": "Noto Sans",
-   "weight": "Regular",
-   "size": 16,
-   "lineHeight": "auto",
-   "case": null,
-   "decoration": null,
-   "colorToken": "color/theme/primary",
-   "layers": [
-    "Right Text Element"
+    "Label"
    ]
   }
  ],
@@ -1292,36 +1115,42 @@
    "token": "color/theme/primary",
    "hex": "#007580",
    "usedAs": [
-    "stroke on Frame 12966",
-    "stroke on Frame 12967",
-    "stroke on style=1row, state=Hover",
-    "stroke on style=1row, state=Pressed",
-    "stroke on style=stacked, state=Hover",
-    "stroke on style=stacked, state=Pressed",
-    "text on Right Text Element"
+    "stroke on Style=1 Row, State=Hover",
+    "stroke on Style=1 Row, State=InFocus",
+    "stroke on Style=1 Row, State=Pressed",
+    "stroke on Style=Stacked, State=Hover",
+    "stroke on Style=Stacked, State=InFocus",
+    "stroke on Style=Stacked, State=Pressed",
+    "text on Label"
    ]
   },
   {
    "token": "color/gray/black",
    "hex": "#000000",
    "usedAs": [
-    "stroke on style=1row, state=InFocus",
-    "stroke on style=stacked, state=InFocus"
+    "stroke on Focus Ring"
    ]
   }
  ],
+ "focusRing": {
+  "layer": "Focus Ring",
+  "stroke": "2px OUTSIDE",
+  "offset": "1px",
+  "color": "color/gray/black",
+  "affectsLayout": false
+ },
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
-  "Single size at every breakpoint. No Breakpoint property.",
-  "`style=1row` keeps the label on one line (157×38 with sample text). `style=stacked` fixes the text width at 75px so the label wraps to two lines (91×60), for narrow right-aligned slots."
+  "Single size at every breakpoint. No Breakpoint property. It stays compact (38px with one line), not 40px (Karl, 2026-10-02).",
+  "`Style=1 Row` keeps the label on one line (157×38 with sample text). `Style=Stacked` fixes the text width at 75px so the label wraps to two lines (91×60), for narrow right-aligned slots.",
+  "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (a 40px button reads as 46px with the ring). In CSS: `outline: 2px solid var(--color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change."
  ],
  "productionRefs": [],
  "knownIssues": [
-  "**Text is right-aligned in every variant** (layer name \"Right Text Element\"). Confirm this is intended for left-aligned uses.",
   "**Margin not specified** (open spec gap, per the Figma Specifications column).",
-  "**4 of 8 variants have 0 instances** anywhere in the file: `stacked / Default`, `stacked / Hover`, `stacked / InFocus`, `stacked / Pressed`.",
-  "**3 variants are placed only in their own documentation frame** (not yet used in any real layout): `1row / Hover`, `1row / InFocus`, `1row / Pressed`."
+  "**4 of 8 variants have 0 instances** anywhere in the file: `Stacked / Default`, `Stacked / Hover`, `Stacked / Pressed`, `Stacked / InFocus`.",
+  "**3 variants are placed only in their own documentation frame** (not yet used in any real layout): `1 Row / Hover`, `1 Row / Pressed`, `1 Row / InFocus`."
  ],
  "skeleton": "button-linkstyle.html",
  "paths": {

@@ -1,12 +1,15 @@
-/* MNG buttons export 2026-10-01: color tokens used by these components (default mode values). */
+/* MNG buttons export 2026-10-02: tokens used by these components (default mode values). */
 :root {
+  --color-gray-400: #A7A6A3;  /* color/gray/400 */
+  --color-gray-500: #CCCAC7;  /* color/gray/500 */
+  --color-gray-600: #F1EFEB;  /* color/gray/600 */
+  --color-gray-black: #000000;  /* color/gray/black */
+  --color-gray-max: #FFFFFF;  /* color/gray/max */
+  --color-gray-min: #141414;  /* color/gray/min */
   --color-theme-primary: #007580;  /* color/theme/primary */
   --color-theme-primary-dark: #0A5962;  /* color/theme/primary-dark */
-  --color-gray-max: #FFFFFF;  /* color/gray/max */
   --color-theme-primary-light: #00838F;  /* color/theme/primary-light */
-  --color-gray-black: #000000;  /* color/gray/black */
-  --color-gray-600: #F1EFEB;  /* color/gray/600 */
-  --color-gray-400: #A7A6A3;  /* color/gray/400 */
-  --color-gray-min: #141414;  /* color/gray/min */
-  --color-gray-500: #CCCAC7;  /* color/gray/500 */
+  --radius-sm: 4px;  /* radius/sm */
+  --spacing-100: 8px;  /* spacing/100 */
+  --spacing-200: 16px;  /* spacing/200 */
 }

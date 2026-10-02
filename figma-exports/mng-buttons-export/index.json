@@ -1,6 +1,6 @@
 {
  "schema": "mng-design-system/index@1",
- "exported": "2026-10-01",
+ "exported": "2026-10-02",
  "figma": {
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
@@ -25,12 +25,15 @@
    "builtInto": [
     "InLineMessage",
     "Modals",
-    "ModalsCenter"
+    "ModalsCenter",
+    "Page Body Templates",
+    "ReaderDash Tempates"
    ],
-   "totalInstances": 105,
+   "totalInstances": 111,
    "figmaNode": "5328:15928",
    "figmaUrl": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5328-15928",
-   "issues": 3,
+   "documentationFrame": "7012:33138",
+   "issues": 2,
    "paths": {
     "md": "components/01-button-primary/button-primary.md",
     "json": "components/01-button-primary/button-primary.json",
@@ -46,8 +49,8 @@
    "slug": "button-secondary",
    "variants": 24,
    "breakpoints": [
-    "Desktop",
-    "Mobile"
+    "Mobile",
+    "Desktop"
    ],
    "builtFrom": [
     "Icons"
@@ -56,7 +59,8 @@
    "totalInstances": 4,
    "figmaNode": "5333:16013",
    "figmaUrl": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5333-16013",
-   "issues": 5,
+   "documentationFrame": "7015:36207",
+   "issues": 2,
    "paths": {
     "md": "components/02-button-secondary/button-secondary.md",
     "json": "components/02-button-secondary/button-secondary.json",
@@ -84,7 +88,8 @@
    "totalInstances": 18,
    "figmaNode": "5333:16089",
    "figmaUrl": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5333-16089",
-   "issues": 5,
+   "documentationFrame": "7018:36565",
+   "issues": 2,
    "paths": {
     "md": "components/03-button-tertiary/button-tertiary.md",
     "json": "components/03-button-tertiary/button-tertiary.json",
@@ -96,11 +101,11 @@
    "order": 4,
    "kind": "component",
    "name": "Action Button",
-   "figmaSetName": "Action Button",
+   "figmaSetName": "Button Action",
    "slug": "action-button",
    "variants": 4,
    "breakpoints": [
-    "all (single size)"
+    "all"
    ],
    "builtFrom": [
     "Icons"
@@ -109,7 +114,8 @@
    "totalInstances": 4,
    "figmaNode": "7075:6357",
    "figmaUrl": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7075-6357",
-   "issues": 4,
+   "documentationFrame": "7075:6715",
+   "issues": 5,
    "paths": {
     "md": "components/04-action-button/action-button.md",
     "json": "components/04-action-button/action-button.json",
@@ -125,19 +131,20 @@
    "slug": "button-linkstyle",
    "variants": 8,
    "breakpoints": [
-    "all (single size)"
+    "all"
    ],
    "builtFrom": [],
    "builtInto": [
-    "Modals",
-    "InLineMessage",
     "Form Field",
+    "InLineMessage",
+    "Modals",
     "ModalsCenter"
    ],
    "totalInstances": 71,
    "figmaNode": "5428:3953",
    "figmaUrl": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5428-3953",
-   "issues": 4,
+   "documentationFrame": "7075:7436",
+   "issues": 3,
    "paths": {
     "md": "components/05-button-linkstyle/button-linkstyle.md",
     "json": "components/05-button-linkstyle/button-linkstyle.json",
@@ -149,11 +156,11 @@
    "order": 6,
    "kind": "component",
    "name": "Pop-Up Modal Close",
-   "figmaSetName": "Button ModalClose",
+   "figmaSetName": "Button Modal Close",
    "slug": "pop-up-modal-close",
    "variants": 4,
    "breakpoints": [
-    "all (single size)"
+    "all"
    ],
    "builtFrom": [
     "Icons"
@@ -165,7 +172,8 @@
    "totalInstances": 26,
    "figmaNode": "5335:16196",
    "figmaUrl": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5335-16196",
-   "issues": 5,
+   "documentationFrame": "7078:7807",
+   "issues": 2,
    "paths": {
     "md": "components/06-pop-up-modal-close/pop-up-modal-close.md",
     "json": "components/06-pop-up-modal-close/pop-up-modal-close.json",
@@ -177,11 +185,11 @@
    "order": 7,
    "kind": "component",
    "name": "In-Line Close",
-   "figmaSetName": "Button PanelClose",
+   "figmaSetName": "Button In-Line Close",
    "slug": "in-line-close",
    "variants": 4,
    "breakpoints": [
-    "all (single size)"
+    "all"
    ],
    "builtFrom": [
     "Icons"
@@ -193,7 +201,8 @@
    "totalInstances": 100,
    "figmaNode": "5335:16200",
    "figmaUrl": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=5335-16200",
-   "issues": 5,
+   "documentationFrame": "7078:7975",
+   "issues": 3,
    "paths": {
     "md": "components/07-in-line-close/in-line-close.md",
     "json": "components/07-in-line-close/in-line-close.json",
@@ -205,11 +214,11 @@
    "order": 8,
    "kind": "component",
    "name": "Non-Button Hyperlink",
-   "figmaSetName": "nonButton Hyperlink",
+   "figmaSetName": "Hyperlink",
    "slug": "non-button-hyperlink",
    "variants": 4,
    "breakpoints": [
-    "all (single size)"
+    "all"
    ],
    "builtFrom": [],
    "builtInto": [
@@ -218,7 +227,8 @@
    "totalInstances": 8,
    "figmaNode": "6282:5568",
    "figmaUrl": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6282-5568",
-   "issues": 6,
+   "documentationFrame": "7078:8121",
+   "issues": 1,
    "paths": {
     "md": "components/08-non-button-hyperlink/non-button-hyperlink.md",
     "json": "components/08-non-button-hyperlink/non-button-hyperlink.json",
@@ -227,5 +237,9 @@
    }
   }
  ],
- "templates": []
+ "templates": [],
+ "tokens": {
+  "json": "tokens.json",
+  "css": "tokens.css"
+ }
 }

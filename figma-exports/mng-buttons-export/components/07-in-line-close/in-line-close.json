@@ -1,13 +1,14 @@
 {
  "schema": "mng-design-system/component-spec@1",
+ "exported": "2026-10-02",
  "kind": "component",
  "name": "In-Line Close",
  "slug": "in-line-close",
  "order": 7,
- "figmaSetName": "Button PanelClose",
- "description": "Close (X) button for in-line panels and alerts (InLineMessage, ModalsOffset). Bare 12px icon in a 40px hit area at rest; a 28px white box with 1px near-black border appears on Hover/Pressed.",
+ "figmaSetName": "Button In-Line Close",
+ "description": "Close (X) button for in-line panels and alerts (InLineMessage, ModalsOffset). Bare 12px icon in a 40px hit area at rest; the 28px `Box` gets a white fill and 1px near-black border on Hover/Pressed.",
  "componentDescription": null,
- "specText": "In-Line Close | Last Updated: 2026.09.30 | Components | UPDATED: 2026.09.30 | In-Line Close | Updated: 2026.09.30 | Default | Hover | Pressed | InFocus | In-Line Close Button | Edit Your Display Name | Requirements:\n25 character limit containing only letters, numbers, and spaces\nMust be appropriate and is subject to review | Display Name | Display name | Error message text. | Note: Display Name updates are reflected across all newspapers you have access to with this login. | Save Changes | Cancel Changes | In-Line Close | Updated: 2026.09.30 | In-Line Close\nSize: 40×40px hit area; visible box is 28×28px (Hover, Pressed only)\nCorner Radius: 4px (box, Hover/Pressed only — not a circle like Modal Close)\nPadding: 8px all sides (12px icon centered in the 28px box, on Hover/Pressed); Default and InFocus have no box, so the icon sits directly in the 40px hit area\nIcon: 12px square, \"close\" (X) icon, color/gray/min / #141414 in every state — does not shift between states\nFill: none (Default); color/gray/max / white box (Hover, Pressed); none (InFocus)\nBorder: none (Default); 1px color/gray/min box border (Hover, Pressed); InFocus adds a 2px black focus ring, offset 1px outside the 40px hit area, no inner box\nDefault intentionally has no visible box, fill, or border — just the bare icon in the 40px hit area. It stays this way at rest and only gains the box on Hover/Pressed.\n\nMargin: not yet established for this component (unlike the CTA buttons' 8px min left/right margin) — flagging as an open spec gap. | States | Updated: 2026.09.30 | Default — resting appearance. No visible box, fill, or border by design; just the bare icon in the 40px hit area. | Hover — a white 28×28px box with a 1px color/gray/min border and 4px corner radius appears around the icon. | Pressed — matches Hover exactly (same white box, border, and icon color). No separate pressed-only styling. | InFocus — removes the box and adds a 2px black focus ring, offset 1px outside the full 40px hit area. Appears on keyboard (Tab) focus for accessibility.",
+ "specText": "In-Line Close | Last Updated: 2026.10.02 | Components | UPDATED: 2026.09.30 | In-Line Close | Updated: 2026.09.30 | Default | Hover | Pressed | InFocus | In-Line Close Button | In-Line Close | Updated: 2026.09.30 | In-Line Close\nSize: 40×40px hit area; visible box is 28×28px (Hover, Pressed only)\nCorner Radius: 4px (radius/sm) on the Hover/Pressed box and on the InFocus focus ring — not a circle like Modal Close\nPadding: 8px all sides (12px icon centered in the 28px box, on Hover/Pressed); Default and InFocus have no box, so the icon sits directly in the 40px hit area\nIcon: 12px square, \"close\" (X) icon, color/gray/min / #141414 in every state — does not shift between states\nFill: none (Default); color/gray/max / white box (Hover, Pressed); none (InFocus)\nBorder: none (Default); 1px color/gray/min box border (Hover, Pressed); InFocus adds a 2px color/gray/black focus ring with 4px corners, offset 1px outside the 40px hit area, no inner box\nDefault intentionally has no visible box, fill, or border — just the bare icon in the 40px hit area. It stays this way at rest and only gains the box on Hover/Pressed.\n\nMargin: not yet established for this component (unlike the CTA buttons' 8px min left/right margin) — flagging as an open spec gap. | States | Updated: 2026.09.30 | Default — resting appearance. No visible box, fill, or border by design; just the bare icon in the 40px hit area. | Hover — a white 28×28px box with a 1px color/gray/min border and 4px corner radius appears around the icon. | Pressed — matches Hover exactly (same white box, border, and icon color). No separate pressed-only styling. | InFocus — removes the box and adds a 2px black focus ring with 4px corners (matching the Hover/Pressed box), offset 1px outside the full 40px hit area. Appears on keyboard (Tab) focus for accessibility.",
  "figma": {
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
@@ -45,19 +46,19 @@
   ]
  },
  "properties": {
-  "state": {
+  "State": {
    "type": "VARIANT",
    "default": "Default",
    "options": [
     "Default",
     "Hover",
-    "InFocus",
-    "Pressed"
+    "Pressed",
+    "InFocus"
    ]
   }
  },
  "breakpoints": [
-  "all (single size)"
+  "all"
  ],
  "usage": {
   "totalInstances": 100,
@@ -70,118 +71,13 @@
    "Alerts and Icons": 3,
    "Buttons | 2026.09.30": 1
   },
-  "perVariant": [
-   {
-    "label": "Default",
-    "total": 96,
-    "documentationFrames": 2,
-    "nestedInInstances": 17,
-    "inComponents": {
-     "InLineMessage / Device=FOLD, Priority=Medium, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=Confirmation, Location=OptOutUnsub, PanelType=Panel": 1,
-     "InLineMessage / Device=Desktop, Priority=Confirmation, Location=Header, PanelType=HeaderAlert": 1,
-     "ModalsOffset / Device=XSFold, Options=AllOptions, Location=FixedFooter": 1,
-     "InLineMessage/FOLD/none/StandAloneEmailPrefs/Panel": 2,
-     "ModalsOffset / Device=XSFold, Options=OneTapCTA, Location=FixedFooter": 1,
-     "InLineMessage / Device=FOLD, Priority=Confirmation, Location=OptOutReSub, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=Confirmation, Location=Header, PanelType=HeaderAlert": 1,
-     "ModalsOffset / Device=SMMobile, Options=OneTapCTA, Location=FixedFooter": 1,
-     "InLineMessage/Mobile/none/StandAloneEmailPrefs/Panel": 2,
-     "InLineMessage / Device=FOLD, Priority=Confirmation, Location=OptOutUnsub, PanelType=Panel": 1,
-     "InLineMessage / Device=Menus, Priority=Medium, Location=DashSubsAcctShareALL, PanelType=HeaderAlert": 1,
-     "InLineMessage/Desktop/Medium/DashSubsAcctShareALL/HeaderAlert": 1,
-     "InLineMessage / Device=TabletH, Priority=Confirmation, Location=Header, PanelType=HeaderAlert": 1,
-     "ModalsOffset / Device=XSFold, Options=GOTcustom, Location=FixedFooter": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1,
-     "ModalsOffset / Device=SMMobile, Options=GOTcustom, Location=FixedFooter": 1,
-     "InLineMessage / Device=Desktop, Priority=Medium, Location=CustomCheckout, PanelType=Panel": 1,
-     "InLineMessage/Desktop/none/StandAloneEmailPrefs/Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=StandAlone, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
-     "InLineMessage / Device=TabletV, Priority=Confirmation, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=StandAlone, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=Medium, Location=CustomCheckout, PanelType=Panel": 1,
-     "InLineMessage / Device=TabletV, Priority=Medium, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=TabletH, Priority=Medium, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=low, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1,
-     "InLineMessage / Device=Menus, Priority=low, Location=AcctMenu, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=StandAlone, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=low, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=Medium, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
-     "InLineMessage / Device=Desktop, Priority=Confirmation, Location=OptOutReSub, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=Confirmation, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
-     "InLineMessage / Device=Menus, Priority=Confirmation, Location=AcctMenu, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Mobile, Priority=Medium, Location=DashSubsAcctShareALL, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=TabletV, Priority=Medium, Location=DashSubsAcctShareALL, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=Medium, Location=DashSubsAcctShareALL, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Mobile, Priority=low, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage/FOLD/Confirmation/Footer/Panel": 1,
-     "ModalsOffset / Device=XLDesktop, Options=OneTapCTA, Location=Float": 1,
-     "InLineMessage / Device=TabletH, Priority=low, Location=Header, PanelType=HeaderAlert": 1,
-     "ModalsOffset / Device=XLDesktop, Options=AllOptions, Location=Float": 1,
-     "ModalsOffset / Device=SMMobile, Options=AllOptions, Location=FixedFooter": 1,
-     "InLineMessage / Device=TabletV, Priority=low, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
-     "InLineMessage / Device=TabletH, Priority=Medium, Location=DashSubsAcctShareALL, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
-     "InLineMessage / Device=Menus, Priority=Medium, Location=AcctMenu, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
-     "InLineMessage/FOLD/Medium/DashSubsAcctShareALL/HeaderAlert": 1,
-     "ModalsOffset / Device=XLDesktop, Options=GOTcustom, Location=Float": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=Medium, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=Medium, Location=DashSubsAcctShareALL, PanelType=HeaderAlert": 1
-    },
-    "otherPages": {
-     "In-Line Content Containers | 2026.01.02 ▸ Frame 8": 5,
-     "Alerts and Icons ▸ Proposed MNG Icon Set": 3,
-     "Buttons | 2026.09.30 ▸ Frame 13001": 1
-    }
-   },
-   {
-    "label": "Hover",
-    "total": 2,
-    "documentationFrames": 2,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "Pressed",
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "InFocus",
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   }
-  ],
-  "scope": "Local instances in the MNG Design System file only. Instances in other files that use the published library (WordPress Elements, Reader Dashboard v2.0) are not counted."
+  "nestedInInstances": 17,
+  "scope": "Local instances in the MNG Design System file only."
  },
  "dependencies": [
   {
    "component": "Icons",
    "nodeId": "4693:5",
-   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=4693-5",
    "inThisExport": false,
    "count": 4
   }
@@ -193,7 +89,7 @@
   {
    "label": "Default",
    "variantProperties": {
-    "state": "Default"
+    "State": "Default"
    },
    "id": "5335:16197",
    "key": "209eeb588c83c8f52c054aabadda1bc6efd31727",
@@ -225,90 +121,30 @@
    ],
    "usage": {
     "total": 96,
-    "documentationFrames": 2,
-    "nestedInInstances": 17,
+    "doc": 2,
+    "nested": 17,
     "inComponents": {
-     "InLineMessage / Device=FOLD, Priority=Medium, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=Confirmation, Location=OptOutUnsub, PanelType=Panel": 1,
-     "InLineMessage / Device=Desktop, Priority=Confirmation, Location=Header, PanelType=HeaderAlert": 1,
-     "ModalsOffset / Device=XSFold, Options=AllOptions, Location=FixedFooter": 1,
-     "InLineMessage/FOLD/none/StandAloneEmailPrefs/Panel": 2,
-     "ModalsOffset / Device=XSFold, Options=OneTapCTA, Location=FixedFooter": 1,
-     "InLineMessage / Device=FOLD, Priority=Confirmation, Location=OptOutReSub, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=Confirmation, Location=Header, PanelType=HeaderAlert": 1,
-     "ModalsOffset / Device=SMMobile, Options=OneTapCTA, Location=FixedFooter": 1,
-     "InLineMessage/Mobile/none/StandAloneEmailPrefs/Panel": 2,
-     "InLineMessage / Device=FOLD, Priority=Confirmation, Location=OptOutUnsub, PanelType=Panel": 1,
-     "InLineMessage / Device=Menus, Priority=Medium, Location=DashSubsAcctShareALL, PanelType=HeaderAlert": 1,
-     "InLineMessage/Desktop/Medium/DashSubsAcctShareALL/HeaderAlert": 1,
-     "InLineMessage / Device=TabletH, Priority=Confirmation, Location=Header, PanelType=HeaderAlert": 1,
-     "ModalsOffset / Device=XSFold, Options=GOTcustom, Location=FixedFooter": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1,
-     "ModalsOffset / Device=SMMobile, Options=GOTcustom, Location=FixedFooter": 1,
-     "InLineMessage / Device=Desktop, Priority=Medium, Location=CustomCheckout, PanelType=Panel": 1,
      "InLineMessage/Desktop/none/StandAloneEmailPrefs/Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=StandAlone, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
-     "InLineMessage / Device=TabletV, Priority=Confirmation, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=StandAlone, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=Medium, Location=CustomCheckout, PanelType=Panel": 1,
-     "InLineMessage / Device=TabletV, Priority=Medium, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=TabletH, Priority=Medium, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=low, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1,
-     "InLineMessage / Device=Menus, Priority=low, Location=AcctMenu, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=StandAlone, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=low, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=Medium, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
-     "InLineMessage / Device=Desktop, Priority=Confirmation, Location=OptOutReSub, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=Confirmation, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
-     "InLineMessage / Device=Menus, Priority=Confirmation, Location=AcctMenu, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Mobile, Priority=Medium, Location=DashSubsAcctShareALL, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=TabletV, Priority=Medium, Location=DashSubsAcctShareALL, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=Medium, Location=DashSubsAcctShareALL, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Mobile, Priority=low, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage/FOLD/Confirmation/Footer/Panel": 1,
-     "ModalsOffset / Device=XLDesktop, Options=OneTapCTA, Location=Float": 1,
-     "InLineMessage / Device=TabletH, Priority=low, Location=Header, PanelType=HeaderAlert": 1,
-     "ModalsOffset / Device=XLDesktop, Options=AllOptions, Location=Float": 1,
-     "ModalsOffset / Device=SMMobile, Options=AllOptions, Location=FixedFooter": 1,
-     "InLineMessage / Device=TabletV, Priority=low, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
-     "InLineMessage / Device=TabletH, Priority=Medium, Location=DashSubsAcctShareALL, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
-     "InLineMessage / Device=Menus, Priority=Medium, Location=AcctMenu, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
+     "InLineMessage": 51,
+     "ModalsOffset": 9,
      "InLineMessage/FOLD/Medium/DashSubsAcctShareALL/HeaderAlert": 1,
-     "ModalsOffset / Device=XLDesktop, Options=GOTcustom, Location=Float": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=Medium, Location=Header, PanelType=HeaderAlert": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubsAcctShareALL, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=Medium, Location=DashSubsAcctShareALL, PanelType=HeaderAlert": 1
+     "InLineMessage/Mobile/none/StandAloneEmailPrefs/Panel": 2,
+     "InLineMessage/FOLD/none/StandAloneEmailPrefs/Panel": 2,
+     "InLineMessage/Desktop/Medium/DashSubsAcctShareALL/HeaderAlert": 1,
+     "InLineMessage/FOLD/Confirmation/Footer/Panel": 1
     },
-    "otherPages": {
+    "other": {
      "In-Line Content Containers | 2026.01.02 ▸ Frame 8": 5,
      "Alerts and Icons ▸ Proposed MNG Icon Set": 3,
      "Buttons | 2026.09.30 ▸ Frame 13001": 1
     }
    },
    "layerTree": {
-    "name": "state=Default",
+    "name": "State=Default",
     "type": "COMPONENT",
     "id": "5335:16197",
     "w": 40,
     "h": 40,
-    "x": 16,
-    "y": 16,
     "sizing": {
      "h": "HUG",
      "v": "HUG"
@@ -353,53 +189,81 @@
       "radius": 40,
       "children": [
        {
-        "name": "Icons",
-        "type": "INSTANCE",
-        "id": "5268:3472",
-        "w": 12,
-        "h": 12,
-        "x": 14,
-        "y": 14,
+        "name": "Box",
+        "type": "FRAME",
+        "id": "7099:25044",
+        "w": 28,
+        "h": 28,
+        "x": 6,
+        "y": 6,
         "sizing": {
-         "h": "FIXED",
-         "v": "FIXED"
+         "h": "HUG",
+         "v": "HUG"
         },
         "layout": {
          "dir": "HORIZONTAL",
          "gap": 8,
          "pad": [
-          0,
-          0,
-          0,
-          0
+          8,
+          8,
+          8,
+          8
          ],
          "main": "CENTER",
          "cross": "CENTER"
         },
         "clip": true,
-        "component": "Icons",
-        "variant": {
-         "Name": "close"
+        "radius": 4,
+        "vars": {
+         "topLeftRadius": "Spacing & Radius/radius/sm",
+         "topRightRadius": "Spacing & Radius/radius/sm",
+         "bottomLeftRadius": "Spacing & Radius/radius/sm",
+         "bottomRightRadius": "Spacing & Radius/radius/sm"
         },
-        "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
-        "mainId": "4693:36",
-        "setId": "4693:5",
-        "props": {}
+        "children": [
+         {
+          "name": "Icon",
+          "type": "INSTANCE",
+          "id": "5268:3472",
+          "w": 12,
+          "h": 12,
+          "x": 8,
+          "y": 8,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "componentSetId": "4693:5",
+          "variant": {
+           "Name": "close"
+          },
+          "mainId": "4693:36"
+         }
+        ]
        }
       ]
      }
-    ],
-    "key": "209eeb588c83c8f52c054aabadda1bc6efd31727",
-    "variantProperties": {
-     "state": "Default"
-    },
-    "componentDescription": null
+    ]
    }
   },
   {
    "label": "Hover",
    "variantProperties": {
-    "state": "Hover"
+    "State": "Hover"
    },
    "id": "5335:16198",
    "key": "75ad5b6822e7020ff0afb13884dcc2f2e81b59a7",
@@ -431,19 +295,17 @@
    ],
    "usage": {
     "total": 2,
-    "documentationFrames": 2,
-    "nestedInInstances": 0,
+    "doc": 2,
+    "nested": 0,
     "inComponents": {},
-    "otherPages": {}
+    "other": {}
    },
    "layerTree": {
-    "name": "state=Hover",
+    "name": "State=Hover",
     "type": "COMPONENT",
     "id": "5335:16198",
     "w": 40,
     "h": 40,
-    "x": 16,
-    "y": 72,
     "sizing": {
      "h": "HUG",
      "v": "HUG"
@@ -488,7 +350,7 @@
       "radius": 40,
       "children": [
        {
-        "name": "Frame 12942",
+        "name": "Box",
         "type": "FRAME",
         "id": "5328:15903",
         "w": 28,
@@ -530,7 +392,7 @@
         "strokeAlign": "INSIDE",
         "children": [
          {
-          "name": "Icons",
+          "name": "Icon",
           "type": "INSTANCE",
           "id": "5328:15900",
           "w": 12,
@@ -555,30 +417,23 @@
           },
           "clip": true,
           "component": "Icons",
+          "componentSetId": "4693:5",
           "variant": {
            "Name": "close"
           },
-          "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
-          "mainId": "4693:36",
-          "setId": "4693:5",
-          "props": {}
+          "mainId": "4693:36"
          }
         ]
        }
       ]
      }
-    ],
-    "key": "75ad5b6822e7020ff0afb13884dcc2f2e81b59a7",
-    "variantProperties": {
-     "state": "Hover"
-    },
-    "componentDescription": null
+    ]
    }
   },
   {
    "label": "Pressed",
    "variantProperties": {
-    "state": "Pressed"
+    "State": "Pressed"
    },
    "id": "7078:7697",
    "key": "ee6e9976a5cfef4d0c0ca4dbaf9d7b59ca8993e8",
@@ -610,19 +465,17 @@
    ],
    "usage": {
     "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
+    "doc": 1,
+    "nested": 0,
     "inComponents": {},
-    "otherPages": {}
+    "other": {}
    },
    "layerTree": {
-    "name": "state=Pressed",
+    "name": "State=Pressed",
     "type": "COMPONENT",
     "id": "7078:7697",
     "w": 40,
     "h": 40,
-    "x": 16,
-    "y": 128,
     "sizing": {
      "h": "HUG",
      "v": "HUG"
@@ -667,7 +520,7 @@
       "radius": 40,
       "children": [
        {
-        "name": "Frame 12942",
+        "name": "Box",
         "type": "FRAME",
         "id": "7078:7699",
         "w": 28,
@@ -709,7 +562,7 @@
         "strokeAlign": "INSIDE",
         "children": [
          {
-          "name": "Icons",
+          "name": "Icon",
           "type": "INSTANCE",
           "id": "7078:7700",
           "w": 12,
@@ -734,30 +587,23 @@
           },
           "clip": true,
           "component": "Icons",
+          "componentSetId": "4693:5",
           "variant": {
            "Name": "close"
           },
-          "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
-          "mainId": "4693:36",
-          "setId": "4693:5",
-          "props": {}
+          "mainId": "4693:36"
          }
         ]
        }
       ]
      }
-    ],
-    "key": "ee6e9976a5cfef4d0c0ca4dbaf9d7b59ca8993e8",
-    "variantProperties": {
-     "state": "Pressed"
-    },
-    "componentDescription": null
+    ]
    }
   },
   {
    "label": "InFocus",
    "variantProperties": {
-    "state": "InFocus"
+    "State": "InFocus"
    },
    "id": "5335:16199",
    "key": "1f8cafef65fc3434a4ccf0e9759807b29299a6b6",
@@ -781,13 +627,7 @@
     "v": "HUG"
    },
    "fills": null,
-   "strokes": [
-    {
-     "type": "SOLID",
-     "hex": "#000000",
-     "variable": "Colors/color/gray/black"
-    }
-   ],
+   "strokes": null,
    "radius": null,
    "preview": "previews/in-line-close--infocus.png",
    "breakpoints": [
@@ -795,19 +635,17 @@
    ],
    "usage": {
     "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
+    "doc": 1,
+    "nested": 0,
     "inComponents": {},
-    "otherPages": {}
+    "other": {}
    },
    "layerTree": {
-    "name": "state=InFocus",
+    "name": "State=InFocus",
     "type": "COMPONENT",
     "id": "5335:16199",
     "w": 40,
     "h": 40,
-    "x": 16,
-    "y": 184,
     "sizing": {
      "h": "HUG",
      "v": "HUG"
@@ -824,15 +662,6 @@
      "main": "MAX",
      "cross": "MIN"
     },
-    "strokes": [
-     {
-      "type": "SOLID",
-      "hex": "#000000",
-      "variable": "Colors/color/gray/black"
-     }
-    ],
-    "strokeWeight": 2,
-    "strokeAlign": "OUTSIDE",
     "children": [
      {
       "name": "Button",
@@ -861,47 +690,111 @@
       "radius": 40,
       "children": [
        {
-        "name": "Icons",
-        "type": "INSTANCE",
-        "id": "5328:15894",
-        "w": 12,
-        "h": 12,
-        "x": 14,
-        "y": 14,
+        "name": "Box",
+        "type": "FRAME",
+        "id": "7099:25045",
+        "w": 28,
+        "h": 28,
+        "x": 6,
+        "y": 6,
         "sizing": {
-         "h": "FIXED",
-         "v": "FIXED"
+         "h": "HUG",
+         "v": "HUG"
         },
         "layout": {
          "dir": "HORIZONTAL",
          "gap": 8,
          "pad": [
-          0,
-          0,
-          0,
-          0
+          8,
+          8,
+          8,
+          8
          ],
          "main": "CENTER",
          "cross": "CENTER"
         },
         "clip": true,
-        "component": "Icons",
-        "variant": {
-         "Name": "close"
+        "radius": 4,
+        "vars": {
+         "topLeftRadius": "Spacing & Radius/radius/sm",
+         "topRightRadius": "Spacing & Radius/radius/sm",
+         "bottomLeftRadius": "Spacing & Radius/radius/sm",
+         "bottomRightRadius": "Spacing & Radius/radius/sm"
         },
-        "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
-        "mainId": "4693:36",
-        "setId": "4693:5",
-        "props": {}
+        "children": [
+         {
+          "name": "Icon",
+          "type": "INSTANCE",
+          "id": "5328:15894",
+          "w": 12,
+          "h": 12,
+          "x": 8,
+          "y": 8,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "componentSetId": "4693:5",
+          "variant": {
+           "Name": "close"
+          },
+          "mainId": "4693:36"
+         }
+        ]
        }
       ]
+     },
+     {
+      "name": "Focus Ring",
+      "type": "FRAME",
+      "id": "7098:25003",
+      "w": 42,
+      "h": 42,
+      "x": -1,
+      "y": -1,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "absolute": true,
+      "constraints": {
+       "horizontal": "STRETCH",
+       "vertical": "STRETCH"
+      },
+      "clip": true,
+      "radius": 4,
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
+       }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "OUTSIDE",
+      "vars": {
+       "topLeftRadius": "Spacing & Radius/radius/sm",
+       "topRightRadius": "Spacing & Radius/radius/sm",
+       "bottomLeftRadius": "Spacing & Radius/radius/sm",
+       "bottomRightRadius": "Spacing & Radius/radius/sm"
+      },
+      "children": []
      }
-    ],
-    "key": "1f8cafef65fc3434a4ccf0e9759807b29299a6b6",
-    "variantProperties": {
-     "state": "InFocus"
-    },
-    "componentDescription": null
+    ]
    }
   }
  ],
@@ -911,36 +804,43 @@
    "token": "color/gray/max",
    "hex": "#FFFFFF",
    "usedAs": [
-    "fill on Frame 12942"
+    "fill on Box"
    ]
   },
   {
    "token": "color/gray/min",
    "hex": "#141414",
    "usedAs": [
-    "stroke on Frame 12942"
+    "stroke on Box"
    ]
   },
   {
    "token": "color/gray/black",
    "hex": "#000000",
    "usedAs": [
-    "stroke on state=InFocus"
+    "stroke on Focus Ring"
    ]
   }
  ],
+ "focusRing": {
+  "layer": "Focus Ring",
+  "stroke": "2px OUTSIDE",
+  "offset": "1px",
+  "color": "color/gray/black",
+  "affectsLayout": false
+ },
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
   "Single size at every breakpoint (40×40 hit area). No Breakpoint property.",
-  "Usually placed top-right of an InLineMessage panel, with the hit area aligned to the panel padding."
+  "Every state has the same layers (`Button` › `Box` › `Icon`); the `Box` has no fill or border in Default and InFocus.",
+  "Usually placed top-right of an InLineMessage panel, with the hit area aligned to the panel padding.",
+  "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (the ring surrounds the 40px hit area with 4px corners, matching the Hover/Pressed box). In CSS: `outline: 2px solid var(--color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change."
  ],
  "productionRefs": [],
  "knownIssues": [
-  "**InFocus ring has no offset and square corners.** The ring is a 2px OUTSIDE stroke on the 40px wrapper (padding 0, radius 0), so it touches the hit area and is square, while the spec text says \"offset 1px outside\" and the inner hit-area frame has radius 40. Confirm the intended ring shape.",
-  "**Figma set name differs from the doc title**: the component set is `Button PanelClose`.",
-  "**17 instances are nested inside other instances** (not counted per parent in \"Where it is used\").",
   "**Margin not specified** (open spec gap, per the Figma Specifications column).",
+  "**17 instances are nested inside other instances** (counted in the total, not per parent, in \"Where it is used\").",
   "**3 variants are placed only in their own documentation frame** (not yet used in any real layout): `Hover`, `Pressed`, `InFocus`."
  ],
  "skeleton": "in-line-close.html",

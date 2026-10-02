@@ -1,6 +1,6 @@
 # MNG Design System — Project Status
 
-> **Rewritten 2026-09-24.** Replaces the Aug 13 status doc, which later sections had contradicted. It had said there were 4 shared themes, that Denver Post was "bespoke" and that the eyebrow was standardized at 20px. This version keeps only what's true now. **Updated 2026-09-25** for the Greeley Tribune → Prairie Mountain Publishing color change, **2026-09-30** for the Greeley exception, Hartford Courant, the folder reorganization and the browser-resize rule, and **2026-10-01** for the full Buttons-page export (8 button and link families) and the NEPA-PMP color sub-theme, and again **2026-10-01** for the move from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). **Updated 2026-10-02** for the Buttons page fixes (item 18), the button set renames and the button layer-name cleanup.
+> **Rewritten 2026-09-24.** Replaces the Aug 13 status doc, which later sections had contradicted. It had said there were 4 shared themes, that Denver Post was "bespoke" and that the eyebrow was standardized at 20px. This version keeps only what's true now. **Updated 2026-09-25** for the Greeley Tribune → Prairie Mountain Publishing color change, **2026-09-30** for the Greeley exception, Hartford Courant, the folder reorganization and the browser-resize rule, and **2026-10-01** for the full Buttons-page export (8 button and link families) and the NEPA-PMP color sub-theme, and again **2026-10-01** for the move from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). **Updated 2026-10-02** for the Buttons page fixes (item 18), the button set renames, the button layer-name cleanup and the Buttons re-export.
 
 > - Color values: `tokens/colors/` (export \+ decision log). Color fixes for engineering: `production-vs-design-differences.md` entry 21\.  
 > - Typography values: `tokens/typography/` (tokens \+ decision log).  
@@ -88,7 +88,7 @@ The mercurynews.com and eastbaytimes.com sites were removed from the list on 202
 
 &nbsp;
 
-All 8 button and link families are exported to `figma-exports/mng-buttons-export/` (2026-10-01).
+All 8 button and link families are exported to `figma-exports/mng-buttons-export/` (re-exported 2026-10-02).
 
 The component specs in `components/` (modal, disclosure, empty-state-status-badge, card-teaser, navigation) describe these patterns; the Figma sources are the components above.
 
@@ -121,7 +121,7 @@ The component specs in `components/` (modal, disclosure, empty-state-status-badg
     - Focus rings: verified that no InFocus variant changes size or shifts its text or icons; the ring draws outside the button (a 40px button reads as 46px with the ring).
     - Hyperlink's 16.5px text, teal focus ring and dashed underline inside the InFocus box match production and are intentional, not errors (Karl, 2026-10-02). The Figma spec text says so.
     - **Layer names (2026-10-02):** every variant in a set now has the same layer tree, so text and icon overrides carry across variant swaps. CTAs: `Button` › `Content` › `Icon Left` / `Label` / `Icon Right`. Button Action: `Button` › `Content` › `Icon Left` / `Label` / `Icon Right`. Linkstyle: `Label`. Modal Close: `Icon`. In-Line Close: `Button` › `Box` › `Icon` (the Box has no fill or border in Default and InFocus). Hyperlink: `Label` (InFocus: `Underline` › `Label`, kept to match production). InFocus adds only a `Focus Ring` frame. The extra InFocus wrapper frames were removed without changing any visual or instance override. The 8 documentation frames have no generic `Frame ####` names left (`Content Row`, `Sub-header`, `Grid Row`, `Section: Desktop`, `Section Header`, `Demo Row`, `Diagram`, `State: Default`, `Sample`, `Divider`, `Padding Marker` and so on).
-19. **Re-export the Buttons page** to `figma-exports/mng-buttons-export/`. The per-component files still show the 2026-10-01 state; the README notes the 2026-10-02 changes.
+19. ~~**Re-export the Buttons page**~~ **Done 2026-10-02:** `figma-exports/mng-buttons-export/` was regenerated from the current Figma state (8 sets, 96 variants, new previews, layer names, sizes and tokens incl. `radius/sm`, `spacing/100`, `spacing/200`).
 
 ## 7\. Standing rules
 

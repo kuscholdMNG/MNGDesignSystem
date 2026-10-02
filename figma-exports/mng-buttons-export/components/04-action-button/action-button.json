@@ -1,13 +1,14 @@
 {
  "schema": "mng-design-system/component-spec@1",
+ "exported": "2026-10-02",
  "kind": "component",
  "name": "Action Button",
  "slug": "action-button",
  "order": 4,
- "figmaSetName": "Action Button",
- "description": "Small icon + label utility action (documented example: \"Copy Link\"). No box at rest; a 1px black border appears on Hover/Pressed.",
+ "figmaSetName": "Button Action",
+ "description": "Small icon + label utility action (documented example: \"Copy Link\"). No box at rest; a 1px black border appears on Hover/Pressed. Figma set name: `Button Action`.",
  "componentDescription": null,
- "specText": "Action Button | Last Updated: 2026.09.30 | Components | UPDATED: 2026.09.30 | Action Button | Updated: 2026.09.30 | Default | Hover | Pressed | InFocus | Action Button | Updated: 2026.09.30 | Copy Link | Action Button\nSize: 97×34px outer, 95×32px content area\nCorner Radius: 4px (radius/sm)\nPadding: 8px all sides within the content area\nSpacing between icon and label: 4px\nIcon: 16px square, fixed to the left of the label\nText: Noto Sans Bold 12px, center align\nText Color: color/gray/min / #141414\nBorder: \nnone by default; \n1px black border appears on Hover/Pressed; \nInFocus adds a 2px black focus ring, offset 1px outside the border\n\nNote: This is a simplified, single-purpose reference derived from the shared \"Button Action\" library component (kept separate and unchanged so existing designs on other files aren't affected). That source component bundles many additional pre-built icon+label combinations as hidden layers within the same component — Resend Invitation, Link Copied, Share (Android/Apple/Unknown), Preview Most Recent, Save/Saved, Gift Article, Remove, Cancel, and Delete — none of which are exposed as pickable Figma variants there. This documented version isolates just the \"Copy Link\" example. To use a different label/icon, duplicate this component and swap its icon instance and label text.\n\nMargin: not yet established for this component (unlike the CTA buttons' 8px min left/right margin) — flagging as an open spec gap. | States | Updated: 2026.09.30 | Copy Link | Default — resting appearance. No border; icon and label only. | Copy Link | Hover — pointer is over the button; a 1px black border appears around the content area. | Copy Link | Pressed — same visual treatment as Hover. No distinct pressed color token exists yet. | Copy Link | InFocus — adds a 2px black focus ring, offset 1px outside the 1px border. Appears on keyboard (Tab) focus for accessibility.",
+ "specText": "Action Button | Last Updated: 2026.10.02 | Components | UPDATED: 2026.09.30 | Action Button | Updated: 2026.09.30 | Default | Hover | Pressed | InFocus | Action Button | Updated: 2026.09.30 | Copy Link | Action Button\nSize: 95×32px in every state (the InFocus ring is drawn outside and doesn't change the size)\nCorner Radius: 4px (radius/sm)\nPadding: 8px all sides within the content area\nSpacing between icon and label: 4px\nIcon: 16px square, fixed to the left of the label\nText: Noto Sans Bold 12px, center align\nText Color: color/gray/min / #141414\nBorder: \nnone by default; \n1px black border appears on Hover/Pressed; \nInFocus adds a 2px black focus ring, offset 1px outside the border\n\nNote: This is a simplified, single-purpose reference derived from the older shared \"Action Button\" library component (renamed from \"Button Action\" on 2026-10-02) (kept separate and unchanged so existing designs on other files aren't affected). That source component bundles many additional pre-built icon+label combinations as hidden layers within the same component — Resend Invitation, Link Copied, Share (Android/Apple/Unknown), Preview Most Recent, Save/Saved, Gift Article, Remove, Cancel, and Delete — none of which are exposed as pickable Figma variants there. This documented version isolates just the \"Copy Link\" example. To use a different label/icon, duplicate this component and swap its icon instance and label text.\n\nMargin: not yet established for this component (unlike the CTA buttons' 8px min left/right margin) — flagging as an open spec gap. | States | Updated: 2026.09.30 | Default — resting appearance. No border; icon and label only. | Hover — pointer is over the button; a 1px black border appears around the content area. | Pressed — same visual treatment as Hover. No distinct pressed color token exists yet. | InFocus — adds a 2px black focus ring, offset 1px outside the 1px border. Appears on keyboard (Tab) focus for accessibility.",
  "figma": {
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
@@ -31,21 +32,21 @@
     "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7075-6415"
    },
    {
-    "label": "InFocus",
-    "id": "7075:6464",
-    "key": "e137200747fb8ca5258019e3cbfbf1651d0c5b1b",
-    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7075-6464"
-   },
-   {
     "label": "Pressed",
     "id": "7075:6513",
     "key": "4c610582687057110c2ef26b393bd7b9b52a2418",
     "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7075-6513"
+   },
+   {
+    "label": "InFocus",
+    "id": "7075:6464",
+    "key": "e137200747fb8ca5258019e3cbfbf1651d0c5b1b",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7075-6464"
    }
   ]
  },
  "properties": {
-  "state": {
+  "State": {
    "type": "VARIANT",
    "default": "Default",
    "options": [
@@ -57,53 +58,19 @@
   }
  },
  "breakpoints": [
-  "all (single size)"
+  "all"
  ],
  "usage": {
   "totalInstances": 4,
   "builtInto": {},
   "pages": {},
-  "perVariant": [
-   {
-    "label": "Default",
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "Hover",
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "InFocus",
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   {
-    "label": "Pressed",
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   }
-  ],
-  "scope": "Local instances in the MNG Design System file only. Instances in other files that use the published library (WordPress Elements, Reader Dashboard v2.0) are not counted."
+  "nestedInInstances": 0,
+  "scope": "Local instances in the MNG Design System file only."
  },
  "dependencies": [
   {
    "component": "Icons",
    "nodeId": "4693:5",
-   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=4693-5",
    "inThisExport": false,
    "count": 8
   }
@@ -115,21 +82,21 @@
   {
    "label": "Default",
    "variantProperties": {
-    "state": "Default"
+    "State": "Default"
    },
    "id": "7075:6358",
    "key": "d527026b821c1c754fc9bf003b8e9b5f022655ec",
    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7075-6358",
-   "width": 97,
-   "height": 34,
+   "width": 95,
+   "height": 32,
    "layout": {
     "dir": "HORIZONTAL",
     "gap": 1,
     "pad": [
-     1,
-     1,
-     1,
-     1
+     0,
+     0,
+     0,
+     0
     ],
     "main": "CENTER",
     "cross": "CENTER"
@@ -147,19 +114,17 @@
    ],
    "usage": {
     "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
+    "doc": 1,
+    "nested": 0,
     "inComponents": {},
-    "otherPages": {}
+    "other": {}
    },
    "layerTree": {
-    "name": "state=Default",
+    "name": "State=Default",
     "type": "COMPONENT",
     "id": "7075:6358",
-    "w": 97,
-    "h": 34,
-    "x": 16,
-    "y": 16,
+    "w": 95,
+    "h": 32,
     "sizing": {
      "h": "HUG",
      "v": "HUG"
@@ -168,24 +133,30 @@
      "dir": "HORIZONTAL",
      "gap": 1,
      "pad": [
-      1,
-      1,
-      1,
-      1
+      0,
+      0,
+      0,
+      0
      ],
      "main": "CENTER",
      "cross": "CENTER"
     },
     "radius": 4,
+    "vars": {
+     "topLeftRadius": "Spacing & Radius/radius/sm",
+     "topRightRadius": "Spacing & Radius/radius/sm",
+     "bottomLeftRadius": "Spacing & Radius/radius/sm",
+     "bottomRightRadius": "Spacing & Radius/radius/sm"
+    },
     "children": [
      {
-      "name": "options",
+      "name": "Button",
       "type": "FRAME",
       "id": "7075:6359",
       "w": 95,
       "h": 32,
-      "x": 1,
-      "y": 1,
+      "x": 0,
+      "y": 0,
       "sizing": {
        "h": "HUG",
        "v": "HUG"
@@ -203,11 +174,17 @@
        "cross": "CENTER"
       },
       "radius": 4,
+      "vars": {
+       "topLeftRadius": "Spacing & Radius/radius/sm",
+       "topRightRadius": "Spacing & Radius/radius/sm",
+       "bottomLeftRadius": "Spacing & Radius/radius/sm",
+       "bottomRightRadius": "Spacing & Radius/radius/sm"
+      },
       "children": [
        {
-        "name": "Sharing",
+        "name": "Content",
         "type": "FRAME",
-        "id": "7075:6360",
+        "id": "7075:6361",
         "w": 79,
         "h": 16,
         "x": 8,
@@ -217,176 +194,139 @@
          "v": "HUG"
         },
         "layout": {
-         "dir": "VERTICAL",
-         "gap": 8,
+         "dir": "HORIZONTAL",
+         "gap": 4,
          "pad": [
           0,
           0,
           0,
           0
          ],
-         "main": "CENTER",
+         "main": "MIN",
          "cross": "CENTER"
         },
         "children": [
          {
-          "name": "Copy Link",
-          "type": "FRAME",
-          "id": "7075:6361",
-          "w": 79,
+          "name": "Icon Left",
+          "type": "INSTANCE",
+          "id": "7075:6362",
+          "w": 16,
           "h": 16,
           "x": 0,
           "y": 0,
           "sizing": {
-           "h": "HUG",
-           "v": "HUG"
+           "h": "FIXED",
+           "v": "FIXED"
           },
           "layout": {
            "dir": "HORIZONTAL",
-           "gap": 4,
+           "gap": 8,
            "pad": [
             0,
             0,
             0,
             0
            ],
-           "main": "MIN",
+           "main": "CENTER",
            "cross": "CENTER"
           },
-          "children": [
+          "clip": true,
+          "component": "Icons",
+          "componentSetId": "4693:5",
+          "variant": {
+           "Name": "content_copy"
+          },
+          "mainId": "4693:38"
+         },
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "7075:6363",
+          "w": 59,
+          "h": 9,
+          "x": 20,
+          "y": 3.5,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Copy Link",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
            {
-            "name": "Icons",
-            "type": "INSTANCE",
-            "id": "7075:6362",
-            "w": 16,
-            "h": 16,
-            "x": 0,
-            "y": 0,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "HORIZONTAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "component": "Icons",
-            "variant": {
-             "Name": "content_copy"
-            },
-            "componentKey": "19ae8a4ad5847101739a195d2b5553f986fdd0e9",
-            "mainId": "4693:38",
-            "setId": "4693:5",
-            "props": {}
-           },
-           {
-            "name": "Details",
-            "type": "TEXT",
-            "id": "7075:6363",
-            "w": 59,
-            "h": 9,
-            "x": 20,
-            "y": 3.5,
-            "sizing": {
-             "h": "HUG",
-             "v": "HUG"
-            },
-            "text": "Copy Link",
-            "autoResize": "WIDTH_AND_HEIGHT",
-            "align": "LEFT",
-            "styles": [
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 12,
+            "lineHeight": "auto",
+            "color": [
              {
-              "font": "Noto Sans",
-              "weight": "Bold",
-              "size": 12,
-              "lineHeight": "auto",
-              "color": [
-               {
-                "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
-               }
-              ],
-              "textStyle": null
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
              }
             ]
-           },
-           {
-            "name": "Icons",
-            "type": "INSTANCE",
-            "id": "7075:6364",
-            "w": 16,
-            "h": 16,
-            "x": 83,
-            "y": 0,
-            "hidden": true,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "HORIZONTAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "component": "Icons",
-            "variant": {
-             "Name": "content_copy"
-            },
-            "componentKey": "19ae8a4ad5847101739a195d2b5553f986fdd0e9",
-            "mainId": "4693:38",
-            "setId": "4693:5",
-            "props": {}
            }
           ]
+         },
+         {
+          "name": "Icon Right",
+          "type": "INSTANCE",
+          "id": "7075:6364",
+          "w": 16,
+          "h": 16,
+          "x": 83,
+          "y": 0,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "componentSetId": "4693:5",
+          "variant": {
+           "Name": "content_copy"
+          },
+          "mainId": "4693:38"
          }
         ]
        }
       ]
      }
-    ],
-    "key": "d527026b821c1c754fc9bf003b8e9b5f022655ec",
-    "variantProperties": {
-     "state": "Default"
-    },
-    "componentDescription": null
+    ]
    }
   },
   {
    "label": "Hover",
    "variantProperties": {
-    "state": "Hover"
+    "State": "Hover"
    },
    "id": "7075:6415",
    "key": "b570062e77c40b3350abd9870bd28dbfde223246",
    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7075-6415",
-   "width": 97,
-   "height": 34,
+   "width": 95,
+   "height": 32,
    "layout": {
     "dir": "HORIZONTAL",
     "gap": 1,
     "pad": [
-     1,
-     1,
-     1,
-     1
+     0,
+     0,
+     0,
+     0
     ],
     "main": "CENTER",
     "cross": "CENTER"
@@ -404,19 +344,17 @@
    ],
    "usage": {
     "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
+    "doc": 1,
+    "nested": 0,
     "inComponents": {},
-    "otherPages": {}
+    "other": {}
    },
    "layerTree": {
-    "name": "state=Hover",
+    "name": "State=Hover",
     "type": "COMPONENT",
     "id": "7075:6415",
-    "w": 97,
-    "h": 34,
-    "x": 16,
-    "y": 66,
+    "w": 95,
+    "h": 32,
     "sizing": {
      "h": "HUG",
      "v": "HUG"
@@ -425,24 +363,30 @@
      "dir": "HORIZONTAL",
      "gap": 1,
      "pad": [
-      1,
-      1,
-      1,
-      1
+      0,
+      0,
+      0,
+      0
      ],
      "main": "CENTER",
      "cross": "CENTER"
     },
     "radius": 4,
+    "vars": {
+     "topLeftRadius": "Spacing & Radius/radius/sm",
+     "topRightRadius": "Spacing & Radius/radius/sm",
+     "bottomLeftRadius": "Spacing & Radius/radius/sm",
+     "bottomRightRadius": "Spacing & Radius/radius/sm"
+    },
     "children": [
      {
-      "name": "options",
+      "name": "Button",
       "type": "FRAME",
       "id": "7075:6416",
       "w": 95,
       "h": 32,
-      "x": 1,
-      "y": 1,
+      "x": 0,
+      "y": 0,
       "sizing": {
        "h": "HUG",
        "v": "HUG"
@@ -469,11 +413,17 @@
       ],
       "strokeWeight": 1,
       "strokeAlign": "INSIDE",
+      "vars": {
+       "topLeftRadius": "Spacing & Radius/radius/sm",
+       "topRightRadius": "Spacing & Radius/radius/sm",
+       "bottomLeftRadius": "Spacing & Radius/radius/sm",
+       "bottomRightRadius": "Spacing & Radius/radius/sm"
+      },
       "children": [
        {
-        "name": "Sharing",
+        "name": "Content",
         "type": "FRAME",
-        "id": "7075:6417",
+        "id": "7075:6418",
         "w": 79,
         "h": 16,
         "x": 8,
@@ -483,457 +433,139 @@
          "v": "HUG"
         },
         "layout": {
-         "dir": "VERTICAL",
-         "gap": 8,
+         "dir": "HORIZONTAL",
+         "gap": 4,
          "pad": [
           0,
           0,
           0,
           0
          ],
-         "main": "CENTER",
+         "main": "MIN",
          "cross": "CENTER"
         },
         "children": [
          {
-          "name": "Copy Link",
-          "type": "FRAME",
-          "id": "7075:6418",
-          "w": 79,
+          "name": "Icon Left",
+          "type": "INSTANCE",
+          "id": "7075:6419",
+          "w": 16,
           "h": 16,
           "x": 0,
           "y": 0,
           "sizing": {
-           "h": "HUG",
-           "v": "HUG"
+           "h": "FIXED",
+           "v": "FIXED"
           },
           "layout": {
            "dir": "HORIZONTAL",
-           "gap": 4,
+           "gap": 8,
            "pad": [
             0,
             0,
             0,
             0
            ],
-           "main": "MIN",
+           "main": "CENTER",
            "cross": "CENTER"
           },
-          "children": [
-           {
-            "name": "Icons",
-            "type": "INSTANCE",
-            "id": "7075:6419",
-            "w": 16,
-            "h": 16,
-            "x": 0,
-            "y": 0,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "HORIZONTAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "component": "Icons",
-            "variant": {
-             "Name": "content_copy"
-            },
-            "componentKey": "19ae8a4ad5847101739a195d2b5553f986fdd0e9",
-            "mainId": "4693:38",
-            "setId": "4693:5",
-            "props": {}
-           },
-           {
-            "name": "Details",
-            "type": "TEXT",
-            "id": "7075:6420",
-            "w": 59,
-            "h": 9,
-            "x": 20,
-            "y": 3.5,
-            "sizing": {
-             "h": "HUG",
-             "v": "HUG"
-            },
-            "text": "Copy Link",
-            "autoResize": "WIDTH_AND_HEIGHT",
-            "align": "LEFT",
-            "styles": [
-             {
-              "font": "Noto Sans",
-              "weight": "Bold",
-              "size": 12,
-              "lineHeight": "auto",
-              "color": [
-               {
-                "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
-               }
-              ],
-              "textStyle": null
-             }
-            ]
-           },
-           {
-            "name": "Icons",
-            "type": "INSTANCE",
-            "id": "7075:6421",
-            "w": 16,
-            "h": 16,
-            "x": 83,
-            "y": 0,
-            "hidden": true,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "HORIZONTAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "component": "Icons",
-            "variant": {
-             "Name": "content_copy"
-            },
-            "componentKey": "19ae8a4ad5847101739a195d2b5553f986fdd0e9",
-            "mainId": "4693:38",
-            "setId": "4693:5",
-            "props": {}
-           }
-          ]
-         }
-        ]
-       }
-      ]
-     }
-    ],
-    "key": "b570062e77c40b3350abd9870bd28dbfde223246",
-    "variantProperties": {
-     "state": "Hover"
-    },
-    "componentDescription": null
-   }
-  },
-  {
-   "label": "InFocus",
-   "variantProperties": {
-    "state": "InFocus"
-   },
-   "id": "7075:6464",
-   "key": "e137200747fb8ca5258019e3cbfbf1651d0c5b1b",
-   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7075-6464",
-   "width": 97,
-   "height": 34,
-   "layout": {
-    "dir": "HORIZONTAL",
-    "gap": 1,
-    "pad": [
-     1,
-     1,
-     1,
-     1
-    ],
-    "main": "CENTER",
-    "cross": "CENTER"
-   },
-   "sizing": {
-    "h": "HUG",
-    "v": "HUG"
-   },
-   "fills": null,
-   "strokes": [
-    {
-     "type": "SOLID",
-     "hex": "#000000",
-     "variable": "Colors/color/gray/black"
-    }
-   ],
-   "radius": 4,
-   "preview": "previews/action-button--infocus.png",
-   "breakpoints": [
-    "all"
-   ],
-   "usage": {
-    "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
-    "inComponents": {},
-    "otherPages": {}
-   },
-   "layerTree": {
-    "name": "state=InFocus",
-    "type": "COMPONENT",
-    "id": "7075:6464",
-    "w": 97,
-    "h": 34,
-    "x": 16,
-    "y": 166,
-    "sizing": {
-     "h": "HUG",
-     "v": "HUG"
-    },
-    "layout": {
-     "dir": "HORIZONTAL",
-     "gap": 1,
-     "pad": [
-      1,
-      1,
-      1,
-      1
-     ],
-     "main": "CENTER",
-     "cross": "CENTER"
-    },
-    "radius": 4,
-    "strokes": [
-     {
-      "type": "SOLID",
-      "hex": "#000000",
-      "variable": "Colors/color/gray/black"
-     }
-    ],
-    "strokeWeight": 2,
-    "strokeAlign": "OUTSIDE",
-    "children": [
-     {
-      "name": "options",
-      "type": "FRAME",
-      "id": "7075:6465",
-      "w": 95,
-      "h": 32,
-      "x": 1,
-      "y": 1,
-      "sizing": {
-       "h": "HUG",
-       "v": "HUG"
-      },
-      "layout": {
-       "dir": "HORIZONTAL",
-       "gap": 8,
-       "pad": [
-        8,
-        8,
-        8,
-        8
-       ],
-       "main": "CENTER",
-       "cross": "CENTER"
-      },
-      "radius": 4,
-      "strokes": [
-       {
-        "type": "SOLID",
-        "hex": "#000000",
-        "variable": "Colors/color/gray/black"
-       }
-      ],
-      "strokeWeight": 1,
-      "strokeAlign": "INSIDE",
-      "children": [
-       {
-        "name": "Sharing",
-        "type": "FRAME",
-        "id": "7075:6466",
-        "w": 79,
-        "h": 16,
-        "x": 8,
-        "y": 8,
-        "sizing": {
-         "h": "HUG",
-         "v": "HUG"
-        },
-        "layout": {
-         "dir": "VERTICAL",
-         "gap": 8,
-         "pad": [
-          0,
-          0,
-          0,
-          0
-         ],
-         "main": "CENTER",
-         "cross": "CENTER"
-        },
-        "children": [
+          "clip": true,
+          "component": "Icons",
+          "componentSetId": "4693:5",
+          "variant": {
+           "Name": "content_copy"
+          },
+          "mainId": "4693:38"
+         },
          {
-          "name": "Copy Link",
-          "type": "FRAME",
-          "id": "7075:6467",
-          "w": 79,
-          "h": 16,
-          "x": 0,
-          "y": 0,
+          "name": "Label",
+          "type": "TEXT",
+          "id": "7075:6420",
+          "w": 59,
+          "h": 9,
+          "x": 20,
+          "y": 3.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
           },
+          "text": "Copy Link",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 12,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Icon Right",
+          "type": "INSTANCE",
+          "id": "7075:6421",
+          "w": 16,
+          "h": 16,
+          "x": 83,
+          "y": 0,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
           "layout": {
            "dir": "HORIZONTAL",
-           "gap": 4,
+           "gap": 8,
            "pad": [
             0,
             0,
             0,
             0
            ],
-           "main": "MIN",
+           "main": "CENTER",
            "cross": "CENTER"
           },
-          "children": [
-           {
-            "name": "Icons",
-            "type": "INSTANCE",
-            "id": "7075:6468",
-            "w": 16,
-            "h": 16,
-            "x": 0,
-            "y": 0,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "HORIZONTAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "component": "Icons",
-            "variant": {
-             "Name": "content_copy"
-            },
-            "componentKey": "19ae8a4ad5847101739a195d2b5553f986fdd0e9",
-            "mainId": "4693:38",
-            "setId": "4693:5",
-            "props": {}
-           },
-           {
-            "name": "Details",
-            "type": "TEXT",
-            "id": "7075:6469",
-            "w": 59,
-            "h": 9,
-            "x": 20,
-            "y": 3.5,
-            "sizing": {
-             "h": "HUG",
-             "v": "HUG"
-            },
-            "text": "Copy Link",
-            "autoResize": "WIDTH_AND_HEIGHT",
-            "align": "LEFT",
-            "styles": [
-             {
-              "font": "Noto Sans",
-              "weight": "Bold",
-              "size": 12,
-              "lineHeight": "auto",
-              "color": [
-               {
-                "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
-               }
-              ],
-              "textStyle": null
-             }
-            ]
-           },
-           {
-            "name": "Icons",
-            "type": "INSTANCE",
-            "id": "7075:6470",
-            "w": 16,
-            "h": 16,
-            "x": 83,
-            "y": 0,
-            "hidden": true,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "HORIZONTAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "component": "Icons",
-            "variant": {
-             "Name": "content_copy"
-            },
-            "componentKey": "19ae8a4ad5847101739a195d2b5553f986fdd0e9",
-            "mainId": "4693:38",
-            "setId": "4693:5",
-            "props": {}
-           }
-          ]
+          "clip": true,
+          "component": "Icons",
+          "componentSetId": "4693:5",
+          "variant": {
+           "Name": "content_copy"
+          },
+          "mainId": "4693:38"
          }
         ]
        }
       ]
      }
-    ],
-    "key": "e137200747fb8ca5258019e3cbfbf1651d0c5b1b",
-    "variantProperties": {
-     "state": "InFocus"
-    },
-    "componentDescription": null
+    ]
    }
   },
   {
    "label": "Pressed",
    "variantProperties": {
-    "state": "Pressed"
+    "State": "Pressed"
    },
    "id": "7075:6513",
    "key": "4c610582687057110c2ef26b393bd7b9b52a2418",
    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7075-6513",
-   "width": 97,
-   "height": 34,
+   "width": 95,
+   "height": 32,
    "layout": {
     "dir": "HORIZONTAL",
     "gap": 1,
     "pad": [
-     1,
-     1,
-     1,
-     1
+     0,
+     0,
+     0,
+     0
     ],
     "main": "CENTER",
     "cross": "CENTER"
@@ -951,19 +583,17 @@
    ],
    "usage": {
     "total": 1,
-    "documentationFrames": 1,
-    "nestedInInstances": 0,
+    "doc": 1,
+    "nested": 0,
     "inComponents": {},
-    "otherPages": {}
+    "other": {}
    },
    "layerTree": {
-    "name": "state=Pressed",
+    "name": "State=Pressed",
     "type": "COMPONENT",
     "id": "7075:6513",
-    "w": 97,
-    "h": 34,
-    "x": 16,
-    "y": 116,
+    "w": 95,
+    "h": 32,
     "sizing": {
      "h": "HUG",
      "v": "HUG"
@@ -972,24 +602,30 @@
      "dir": "HORIZONTAL",
      "gap": 1,
      "pad": [
-      1,
-      1,
-      1,
-      1
+      0,
+      0,
+      0,
+      0
      ],
      "main": "CENTER",
      "cross": "CENTER"
     },
     "radius": 4,
+    "vars": {
+     "topLeftRadius": "Spacing & Radius/radius/sm",
+     "topRightRadius": "Spacing & Radius/radius/sm",
+     "bottomLeftRadius": "Spacing & Radius/radius/sm",
+     "bottomRightRadius": "Spacing & Radius/radius/sm"
+    },
     "children": [
      {
-      "name": "options",
+      "name": "Button",
       "type": "FRAME",
       "id": "7075:6514",
       "w": 95,
       "h": 32,
-      "x": 1,
-      "y": 1,
+      "x": 0,
+      "y": 0,
       "sizing": {
        "h": "HUG",
        "v": "HUG"
@@ -1016,11 +652,17 @@
       ],
       "strokeWeight": 1,
       "strokeAlign": "INSIDE",
+      "vars": {
+       "topLeftRadius": "Spacing & Radius/radius/sm",
+       "topRightRadius": "Spacing & Radius/radius/sm",
+       "bottomLeftRadius": "Spacing & Radius/radius/sm",
+       "bottomRightRadius": "Spacing & Radius/radius/sm"
+      },
       "children": [
        {
-        "name": "Sharing",
+        "name": "Content",
         "type": "FRAME",
-        "id": "7075:6515",
+        "id": "7075:6516",
         "w": 79,
         "h": 16,
         "x": 8,
@@ -1030,156 +672,394 @@
          "v": "HUG"
         },
         "layout": {
-         "dir": "VERTICAL",
-         "gap": 8,
+         "dir": "HORIZONTAL",
+         "gap": 4,
          "pad": [
           0,
           0,
           0,
           0
          ],
-         "main": "CENTER",
+         "main": "MIN",
          "cross": "CENTER"
         },
         "children": [
          {
-          "name": "Copy Link",
-          "type": "FRAME",
-          "id": "7075:6516",
-          "w": 79,
+          "name": "Icon Left",
+          "type": "INSTANCE",
+          "id": "7075:6517",
+          "w": 16,
           "h": 16,
           "x": 0,
           "y": 0,
           "sizing": {
-           "h": "HUG",
-           "v": "HUG"
+           "h": "FIXED",
+           "v": "FIXED"
           },
           "layout": {
            "dir": "HORIZONTAL",
-           "gap": 4,
+           "gap": 8,
            "pad": [
             0,
             0,
             0,
             0
            ],
-           "main": "MIN",
+           "main": "CENTER",
            "cross": "CENTER"
           },
-          "children": [
+          "clip": true,
+          "component": "Icons",
+          "componentSetId": "4693:5",
+          "variant": {
+           "Name": "content_copy"
+          },
+          "mainId": "4693:38"
+         },
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "7075:6518",
+          "w": 59,
+          "h": 9,
+          "x": 20,
+          "y": 3.5,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Copy Link",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
            {
-            "name": "Icons",
-            "type": "INSTANCE",
-            "id": "7075:6517",
-            "w": 16,
-            "h": 16,
-            "x": 0,
-            "y": 0,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "HORIZONTAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "component": "Icons",
-            "variant": {
-             "Name": "content_copy"
-            },
-            "componentKey": "19ae8a4ad5847101739a195d2b5553f986fdd0e9",
-            "mainId": "4693:38",
-            "setId": "4693:5",
-            "props": {}
-           },
-           {
-            "name": "Details",
-            "type": "TEXT",
-            "id": "7075:6518",
-            "w": 59,
-            "h": 9,
-            "x": 20,
-            "y": 3.5,
-            "sizing": {
-             "h": "HUG",
-             "v": "HUG"
-            },
-            "text": "Copy Link",
-            "autoResize": "WIDTH_AND_HEIGHT",
-            "align": "LEFT",
-            "styles": [
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 12,
+            "lineHeight": "auto",
+            "color": [
              {
-              "font": "Noto Sans",
-              "weight": "Bold",
-              "size": 12,
-              "lineHeight": "auto",
-              "color": [
-               {
-                "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
-               }
-              ],
-              "textStyle": null
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
              }
             ]
-           },
-           {
-            "name": "Icons",
-            "type": "INSTANCE",
-            "id": "7075:6519",
-            "w": 16,
-            "h": 16,
-            "x": 83,
-            "y": 0,
-            "hidden": true,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "HORIZONTAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "component": "Icons",
-            "variant": {
-             "Name": "content_copy"
-            },
-            "componentKey": "19ae8a4ad5847101739a195d2b5553f986fdd0e9",
-            "mainId": "4693:38",
-            "setId": "4693:5",
-            "props": {}
            }
           ]
+         },
+         {
+          "name": "Icon Right",
+          "type": "INSTANCE",
+          "id": "7075:6519",
+          "w": 16,
+          "h": 16,
+          "x": 83,
+          "y": 0,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "componentSetId": "4693:5",
+          "variant": {
+           "Name": "content_copy"
+          },
+          "mainId": "4693:38"
          }
         ]
        }
       ]
      }
+    ]
+   }
+  },
+  {
+   "label": "InFocus",
+   "variantProperties": {
+    "State": "InFocus"
+   },
+   "id": "7075:6464",
+   "key": "e137200747fb8ca5258019e3cbfbf1651d0c5b1b",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7075-6464",
+   "width": 95,
+   "height": 32,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 1,
+    "pad": [
+     0,
+     0,
+     0,
+     0
     ],
-    "key": "4c610582687057110c2ef26b393bd7b9b52a2418",
-    "variantProperties": {
-     "state": "Pressed"
+    "main": "CENTER",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": 4,
+   "preview": "previews/action-button--infocus.png",
+   "breakpoints": [
+    "all"
+   ],
+   "usage": {
+    "total": 1,
+    "doc": 1,
+    "nested": 0,
+    "inComponents": {},
+    "other": {}
+   },
+   "layerTree": {
+    "name": "State=InFocus",
+    "type": "COMPONENT",
+    "id": "7075:6464",
+    "w": 95,
+    "h": 32,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
     },
-    "componentDescription": null
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 1,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "CENTER"
+    },
+    "radius": 4,
+    "vars": {
+     "topLeftRadius": "Spacing & Radius/radius/sm",
+     "topRightRadius": "Spacing & Radius/radius/sm",
+     "bottomLeftRadius": "Spacing & Radius/radius/sm",
+     "bottomRightRadius": "Spacing & Radius/radius/sm"
+    },
+    "children": [
+     {
+      "name": "Button",
+      "type": "FRAME",
+      "id": "7075:6465",
+      "w": 95,
+      "h": 32,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        8,
+        8,
+        8,
+        8
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "radius": 4,
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "vars": {
+       "topLeftRadius": "Spacing & Radius/radius/sm",
+       "topRightRadius": "Spacing & Radius/radius/sm",
+       "bottomLeftRadius": "Spacing & Radius/radius/sm",
+       "bottomRightRadius": "Spacing & Radius/radius/sm"
+      },
+      "children": [
+       {
+        "name": "Content",
+        "type": "FRAME",
+        "id": "7075:6467",
+        "w": 79,
+        "h": 16,
+        "x": 8,
+        "y": 8,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Icon Left",
+          "type": "INSTANCE",
+          "id": "7075:6468",
+          "w": 16,
+          "h": 16,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "componentSetId": "4693:5",
+          "variant": {
+           "Name": "content_copy"
+          },
+          "mainId": "4693:38"
+         },
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "7075:6469",
+          "w": 59,
+          "h": 9,
+          "x": 20,
+          "y": 3.5,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "Copy Link",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Bold",
+            "size": 12,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Icon Right",
+          "type": "INSTANCE",
+          "id": "7075:6470",
+          "w": 16,
+          "h": 16,
+          "x": 83,
+          "y": 0,
+          "hidden": true,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "componentSetId": "4693:5",
+          "variant": {
+           "Name": "content_copy"
+          },
+          "mainId": "4693:38"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Focus Ring",
+      "type": "FRAME",
+      "id": "7098:24999",
+      "w": 97,
+      "h": 34,
+      "x": -1,
+      "y": -1,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "absolute": true,
+      "constraints": {
+       "horizontal": "STRETCH",
+       "vertical": "STRETCH"
+      },
+      "clip": true,
+      "radius": 4,
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
+       }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "OUTSIDE",
+      "vars": {
+       "topLeftRadius": "Spacing & Radius/radius/sm",
+       "topRightRadius": "Spacing & Radius/radius/sm",
+       "bottomLeftRadius": "Spacing & Radius/radius/sm",
+       "bottomRightRadius": "Spacing & Radius/radius/sm"
+      },
+      "children": []
+     }
+    ]
    }
   }
  ],
@@ -1189,11 +1069,11 @@
    "weight": "Bold",
    "size": 12,
    "lineHeight": "auto",
-   "case": null,
-   "decoration": null,
-   "colorToken": "color/gray/min",
+   "case": "—",
+   "color": "color/gray/min",
+   "align": "LEFT",
    "layers": [
-    "Details"
+    "Label"
    ]
   }
  ],
@@ -1202,30 +1082,39 @@
    "token": "color/gray/min",
    "hex": "#141414",
    "usedAs": [
-    "text on Details"
+    "text on Label"
    ]
   },
   {
    "token": "color/gray/black",
    "hex": "#000000",
    "usedAs": [
-    "stroke on options",
-    "stroke on state=InFocus"
+    "stroke on Button",
+    "stroke on Focus Ring"
    ]
   }
  ],
+ "focusRing": {
+  "layer": "Focus Ring",
+  "stroke": "2px OUTSIDE",
+  "offset": "1px",
+  "color": "color/gray/black",
+  "affectsLayout": false
+ },
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
-  "Single size at every breakpoint (97×34 outer, HUG). No Breakpoint property.",
-  "Width hugs icon + label; swapping the label changes the width."
+  "Single size at every breakpoint (95×32, HUG). No Breakpoint property. It stays compact (32px), not 40px (Karl, 2026-10-02).",
+  "Width hugs icon + label; swapping the label changes the width.",
+  "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (a 40px button reads as 46px with the ring). In CSS: `outline: 2px solid var(--color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change."
  ],
  "productionRefs": [],
  "knownIssues": [
-  "**Single-purpose reference.** This set only documents \"Copy Link\". The shared \"Button Action\" library component (other files) bundles Resend Invitation, Link Copied, Share (Android/Apple/Unknown), Preview Most Recent, Save/Saved, Gift Article, Remove, Cancel and Delete as hidden layers, none exposed as variants. To render another action, swap the icon instance and the label text.",
-  "**Hidden trailing icon.** Every variant carries a second, hidden `Icons` (content_copy) instance after the label. It is never shown; ignore it when rendering.",
+  "**Name swap (2026-10-02).** This documented set is `Button Action` (`7075:6357`). The older library set on the same page (`5417:3876`, formerly `Button Action`, kept for Reader Dashboard files) is now `Action Button`. The documentation frame keeps the page title \"Action Button\".",
+  "**Single-purpose reference.** This set only documents \"Copy Link\". The older `Action Button` library set bundles Resend Invitation, Link Copied, Share (Android/Apple/Unknown), Preview Most Recent, Save/Saved, Gift Article, Remove, Cancel and Delete as hidden layers, none exposed as variants. To render another action, swap the icon instance and the label text.",
+  "**Hidden trailing icon.** Every variant carries a hidden `Icon Right` (content_copy) after the label. It is never shown; ignore it when rendering.",
   "**Margin not specified** (open spec gap, per the Figma Specifications column).",
-  "**4 variants are placed only in their own documentation frame** (not yet used in any real layout): `Default`, `Hover`, `InFocus`, `Pressed`."
+  "**4 variants are placed only in their own documentation frame** (not yet used in any real layout): `Default`, `Hover`, `Pressed`, `InFocus`."
  ],
  "skeleton": "action-button.html",
  "paths": {
