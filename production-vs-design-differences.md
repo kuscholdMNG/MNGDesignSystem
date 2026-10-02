@@ -1067,6 +1067,16 @@ Check after the change: the subscribe CTA keeps its 44px min height and its fill
 
 **Note:** the theme's own `.sponsored-content .sponsored-flag` (a different element) uses `primary-light` with white text, and `secondary` with dark text on images.
 
+## 26. Mobile adhesion — empty sticky bar shows at 1024px and up
+
+**Found:** 2026-10-02, ocregister.com at a 1024px window (homepage and article page).
+
+**Figma spec (source of truth):** `mobile_adhesion` exists only below 1024px — Ad Blocks `Mobile Adhesion 320x50` / `300x50` on mobile and `Mobile Adhesion 728x90` at tablet (768). The 1024, 1100 and 1280 templates have no adhesion unit (the 1024 floating anchor was removed 2026-10-02).
+
+**Production:** at 1024px the `#mobile-adhesion` container is still fixed to the bottom of the viewport (1024×90, with its Close button), but the GPT slot has no valid size at that width (`getSizes(1024)` returns an empty list), so no ad can ever load. Readers see an empty bar.
+
+**Fix:** hide the `#mobile-adhesion` container (and its Close button) at the same breakpoint where the slot's size mapping goes empty (≥1024px), or remove the container from the DOM at desktop widths. Check the other five review sites.
+
 ## How to use this doc
 
 Add a new dated, numbered entry whenever a Figma-vs-production gap or an explicit engineering/legal flag is found during an audit, rather than quietly "fixing" the design tokens to match whatever production happens to do. Mark each item's status (Open / Fixed / Confirmed-intentional) as it gets resolved, and keep the original finding text rather than deleting it once resolved — see how `tokens/colors/color-tokens-decision-log.md` and the component audit docs annotate resolved items in place, for the pattern to follow here too.
