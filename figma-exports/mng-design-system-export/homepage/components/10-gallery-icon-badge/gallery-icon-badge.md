@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Gallery Icon Badge** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 768 HomePage (via Horizontal Thumbnail Card), Mobile HomePage (via Horizontal Thumbnail Card), 340 HomePage (via Horizontal Thumbnail Card), 1024 HomePage (via Horizontal Thumbnail Card), Desktop HomePage (via Horizontal Thumbnail Card), 1100 HomePage (via Horizontal Thumbnail Card); nested inside: Horizontal Thumbnail Card / Device=Tablet ×1, Horizontal Thumbnail Card / Device=Desktop ×1, Horizontal Thumbnail Card / Device=Mobile ×1
+- **Gallery Icon Badge** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 768 HomePage (via Horizontal Thumbnail Card), 1100 HomePage (via Horizontal Thumbnail Card), 1024 HomePage (via Horizontal Thumbnail Card), Mobile HomePage (via Horizontal Thumbnail Card), 340 HomePage (via Horizontal Thumbnail Card), Desktop HomePage (via Horizontal Thumbnail Card); nested inside: Horizontal Thumbnail Card / Device=Desktop ×1, Horizontal Thumbnail Card / Device=Tablet ×1, Horizontal Thumbnail Card / Device=Mobile ×1
 
 ## Breakpoints
 

@@ -89,11 +89,11 @@
       "Feature + List Content Block",
       "Section Rail Card"
      ],
-     "1024 HomePage": [
+     "768 HomePage": [
       "Feature + List Content Block",
       "Section Rail Card"
      ],
-     "768 HomePage": [
+     "1024 HomePage": [
       "Feature + List Content Block",
       "Section Rail Card"
      ],
@@ -110,10 +110,10 @@
     },
     "inComponents": {
      "Section Rail Card / Device=1100, Layout=Narrow": 4,
-     "Section Rail Card / Device=1024, Layout=Narrow": 4,
      "Section Rail Card / Device=Tablet, Layout=Narrow": 4,
-     "Section Rail Card / Device=Mobile, Layout=Narrow": 4,
      "Feature + List Content Block / Size=Narrow": 3,
+     "Section Rail Card / Device=Mobile, Layout=Narrow": 4,
+     "Section Rail Card / Device=1024, Layout=Narrow": 4,
      "Section Rail Card / Device=Desktop, Layout=Narrow": 4,
      "Feature + List Content Block / Size=Default": 3
     },
@@ -130,15 +130,18 @@
    {
     "label": "Style=Media Lead",
     "id": "3536:39050",
-    "templatesDirect": {
-     "340 HomePage": 1,
-     "Mobile HomePage": 1
-    },
+    "templatesDirect": {},
     "templatesVia": {
      "1100 HomePage": [
       "Photos Block"
      ],
      "1024 HomePage": [
+      "Photos Block"
+     ],
+     "Mobile HomePage": [
+      "Photos Block"
+     ],
+     "340 HomePage": [
       "Photos Block"
      ],
      "Desktop HomePage": [
@@ -149,10 +152,10 @@
      ]
     },
     "inComponents": {
+     "Photos Block / Device=Desktop": 1,
      "Photos Block / Device=1100": 1,
      "Photos Block / Device=1024": 1,
      "Photos Block / Device=Mobile": 1,
-     "Photos Block / Device=Desktop": 1,
      "Photos Block / Device=1280": 1,
      "Photos Block / Device=Tablet": 1
     },

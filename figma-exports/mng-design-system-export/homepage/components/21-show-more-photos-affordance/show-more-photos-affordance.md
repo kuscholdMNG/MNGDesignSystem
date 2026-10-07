@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Show More Photos Affordance** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): Mobile HomePage ×1, 340 HomePage ×1; templates (via assembly): 768 HomePage (via Photos Block), 1024 HomePage (via Photos Block), 1100 HomePage (via Photos Block), Desktop HomePage (via Photos Block); nested inside: Photos Block / Device=Tablet ×1, Photos Block / Device=1024 ×1, Photos Block / Device=1100 ×1, Photos Block / Device=Mobile ×1, Photos Block / Device=1280 ×1, Photos Block / Device=Desktop ×1
+- **Show More Photos Affordance** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Photos Block), 768 HomePage (via Photos Block), Mobile HomePage (via Photos Block), 340 HomePage (via Photos Block), 1100 HomePage (via Photos Block), Desktop HomePage (via Photos Block); nested inside: Photos Block / Device=1024 ×1, Photos Block / Device=Tablet ×1, Photos Block / Device=Mobile ×1, Photos Block / Device=1100 ×1, Photos Block / Device=Desktop ×1, Photos Block / Device=1280 ×1
 
 ## Breakpoints
 

@@ -52,10 +52,14 @@
   "340",
   "360",
   "768",
+  "1024",
+  "1100",
   "1280"
  ],
  "usage": {
   "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
    "340 HomePage",
    "768 HomePage",
    "Desktop HomePage",
@@ -110,13 +114,23 @@
     "templatesVia": {
      "Desktop HomePage": [
       "TOP ZONE Block"
+     ],
+     "1100 HomePage": [
+      "TOP ZONE Block"
+     ],
+     "1024 HomePage": [
+      "TOP ZONE Block"
      ]
     },
     "inComponents": {
-     "TOP ZONE Block / Device=Desktop": 1
+     "TOP ZONE Block / Device=Desktop": 1,
+     "TOP ZONE Block / Device=1100": 1,
+     "TOP ZONE Block / Device=1024": 1
     },
     "other": {},
     "breakpoints": [
+     "1024",
+     "1100",
      "1280"
     ]
    }
@@ -1170,6 +1184,8 @@
    "radius": null,
    "preview": "previews/latest-headlines--desktop.png",
    "breakpoints": [
+    "1024",
+    "1100",
     "1280"
    ],
    "layerTree": {
@@ -1247,7 +1263,7 @@
       "x": 0,
       "y": 42,
       "sizing": {
-       "h": "FIXED",
+       "h": "FILL",
        "v": "HUG"
       },
       "layout": {
@@ -1285,7 +1301,7 @@
       "x": 0,
       "y": 116,
       "sizing": {
-       "h": "FIXED",
+       "h": "FILL",
        "v": "HUG"
       },
       "layout": {
@@ -1323,7 +1339,7 @@
       "x": 0,
       "y": 206,
       "sizing": {
-       "h": "FIXED",
+       "h": "FILL",
        "v": "HUG"
       },
       "layout": {
@@ -1361,7 +1377,7 @@
       "x": 0,
       "y": 316,
       "sizing": {
-       "h": "FIXED",
+       "h": "FILL",
        "v": "HUG"
       },
       "layout": {
@@ -1399,7 +1415,7 @@
       "x": 0,
       "y": 446,
       "sizing": {
-       "h": "FIXED",
+       "h": "FILL",
        "v": "HUG"
       },
       "layout": {
@@ -1437,7 +1453,7 @@
       "x": 0,
       "y": 556,
       "sizing": {
-       "h": "FIXED",
+       "h": "FILL",
        "v": "HUG"
       },
       "layout": {
@@ -1475,7 +1491,7 @@
       "x": 0,
       "y": 666,
       "sizing": {
-       "h": "FIXED",
+       "h": "FILL",
        "v": "HUG"
       },
       "layout": {
@@ -1513,7 +1529,7 @@
       "x": 0,
       "y": 776,
       "sizing": {
-       "h": "FIXED",
+       "h": "FILL",
        "v": "HUG"
       },
       "layout": {
@@ -1551,7 +1567,7 @@
       "x": 0,
       "y": 937,
       "sizing": {
-       "h": "FIXED",
+       "h": "FILL",
        "v": "FIXED"
       },
       "layout": {
@@ -1657,7 +1673,7 @@
  "responsiveRules": [
   "Device=Mobile: 340×956, vertical gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360",
   "Device=Tablet: 748×956, vertical gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 768",
-  "Device=Desktop: 226×1072, vertical gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 1280"
+  "Device=Desktop: 226×1072, vertical gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280"
  ],
  "productionRefs": [],
  "knownIssues": [

@@ -55,25 +55,25 @@
      "768 HomePage": [
       "Horizontal Thumbnail Card"
      ],
+     "1100 HomePage": [
+      "Horizontal Thumbnail Card"
+     ],
+     "1024 HomePage": [
+      "Horizontal Thumbnail Card"
+     ],
      "Mobile HomePage": [
       "Horizontal Thumbnail Card"
      ],
      "340 HomePage": [
       "Horizontal Thumbnail Card"
      ],
-     "1024 HomePage": [
-      "Horizontal Thumbnail Card"
-     ],
      "Desktop HomePage": [
-      "Horizontal Thumbnail Card"
-     ],
-     "1100 HomePage": [
       "Horizontal Thumbnail Card"
      ]
     },
     "inComponents": {
-     "Horizontal Thumbnail Card / Device=Tablet": 1,
      "Horizontal Thumbnail Card / Device=Desktop": 1,
+     "Horizontal Thumbnail Card / Device=Tablet": 1,
      "Horizontal Thumbnail Card / Device=Mobile": 1
     },
     "other": {},

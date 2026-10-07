@@ -1,0 +1,4118 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "assembly",
+ "group": "homepage",
+ "name": "Upcoming Events Widget",
+ "slug": "upcoming-events-widget",
+ "order": 29,
+ "typeLabel": "Assembly · 5 variants",
+ "description": "Device = Mobile, Tablet, 1024, 1100, Desktop (340 / 448 / 704 / 780 / 960 × 250). Matches the production CitySpark widget: 2 / 3 / 4 / 4 / 5 Event Cards, 5 / 7 / 12 / 14 / 18 days, header buttons, edge arrows. Text is Noto Sans (production Roboto Condensed; production-vs-design entry 28).",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3557:24236",
+  "mainKey": "0e0f6ee3449a74f8060a49aa8f874252735b60d7",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-24236",
+  "variants": [
+   {
+    "label": "Device=Mobile",
+    "id": "3557:40212",
+    "key": "e1af7ed6ecbae7f194991dec4fd7234b8e648e97",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40212"
+   },
+   {
+    "label": "Device=Tablet",
+    "id": "3557:40278",
+    "key": "9b2fdc96cbe4b275eee78d03576e1a23ed531270",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40278"
+   },
+   {
+    "label": "Device=1024",
+    "id": "3557:40363",
+    "key": "dc2ed1491082416d2d9d167610fd0a8a02d54062",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40363"
+   },
+   {
+    "label": "Device=1100",
+    "id": "3395:51894",
+    "key": "32790cfe4f7dbc49b56e891b2a4fa59e0f73a49d",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3395-51894"
+   },
+   {
+    "label": "Device=Desktop",
+    "id": "3557:24235",
+    "key": "04c0447be33bc73881dc44b151df9fe9e7bf66e1",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-24235"
+   }
+  ]
+ },
+ "properties": {
+  "Device": {
+   "type": "VARIANT",
+   "default": "Mobile",
+   "options": [
+    "Mobile",
+    "Tablet",
+    "1100",
+    "1024",
+    "Desktop"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Upcoming Events Block"
+  ],
+  "perVariant": [
+   {
+    "label": "Device=Mobile",
+    "id": "3557:40212",
+    "templatesDirect": {},
+    "templatesVia": {
+     "Mobile HomePage": [
+      "Upcoming Events Block"
+     ],
+     "340 HomePage": [
+      "Upcoming Events Block"
+     ]
+    },
+    "inComponents": {
+     "Upcoming Events Block / Device=Mobile": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   },
+   {
+    "label": "Device=Tablet",
+    "id": "3557:40278",
+    "templatesDirect": {},
+    "templatesVia": {
+     "768 HomePage": [
+      "Upcoming Events Block"
+     ]
+    },
+    "inComponents": {
+     "Upcoming Events Block / Device=Tablet": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "768"
+    ]
+   },
+   {
+    "label": "Device=1024",
+    "id": "3557:40363",
+    "templatesDirect": {},
+    "templatesVia": {
+     "1024 HomePage": [
+      "Upcoming Events Block"
+     ]
+    },
+    "inComponents": {
+     "Upcoming Events Block / Device=1024": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "1024"
+    ]
+   },
+   {
+    "label": "Device=1100",
+    "id": "3395:51894",
+    "templatesDirect": {},
+    "templatesVia": {
+     "1100 HomePage": [
+      "Upcoming Events Block"
+     ]
+    },
+    "inComponents": {
+     "Upcoming Events Block / Device=1100": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "1100"
+    ]
+   },
+   {
+    "label": "Device=Desktop",
+    "id": "3557:24235",
+    "templatesDirect": {},
+    "templatesVia": {
+     "Desktop HomePage": [
+      "Upcoming Events Block"
+     ]
+    },
+    "inComponents": {
+     "Upcoming Events Block / Device=Desktop": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Upcoming Events Header Button",
+    "count": 2,
+    "inExport": true,
+    "section": "Upcoming Events Header Button",
+    "path": "../../components/27-upcoming-events-header-button/upcoming-events-header-button.md"
+   },
+   {
+    "name": "Event Card",
+    "count": 5,
+    "inExport": true,
+    "section": "Event Card",
+    "path": "../../components/23-event-card/event-card.md"
+   },
+   {
+    "name": "Upcoming Events Side Arrow",
+    "count": 2,
+    "inExport": true,
+    "section": "Upcoming Events Side Arrow",
+    "path": "../../components/28-upcoming-events-side-arrow/upcoming-events-side-arrow.md"
+   },
+   {
+    "name": "Date Picker Calendar Icon",
+    "count": 1,
+    "inExport": true,
+    "section": "Date Picker Calendar Icon",
+    "path": "../../components/25-date-picker-calendar-icon/date-picker-calendar-icon.md"
+   },
+   {
+    "name": "Date Picker Day",
+    "count": 18,
+    "inExport": true,
+    "section": "Date Picker Day",
+    "path": "../../components/24-date-picker-day/date-picker-day.md"
+   }
+  ],
+  "builtInto": [
+   {
+    "name": "Upcoming Events Block",
+    "path": "../30-upcoming-events-block/upcoming-events-block.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Device=Mobile",
+   "variantProperties": {
+    "Device": "Mobile"
+   },
+   "id": "3557:40212",
+   "key": "e1af7ed6ecbae7f194991dec4fd7234b8e648e97",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40212",
+   "width": 340,
+   "height": 250,
+   "layout": null,
+   "sizing": null,
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/upcoming-events-widget--mobile.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Device=Mobile",
+    "type": "COMPONENT",
+    "id": "3557:40212",
+    "w": 340,
+    "h": 250,
+    "x": 20,
+    "y": 20,
+    "clip": true,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF"
+     }
+    ],
+    "children": [
+     {
+      "name": "Header",
+      "type": "FRAME",
+      "id": "3557:40213",
+      "w": 332,
+      "h": 28,
+      "x": 4,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        20,
+        0,
+        10
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Title",
+        "type": "TEXT",
+        "id": "3557:40214",
+        "w": 257,
+        "h": 22,
+        "x": 10,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "text": "Upcoming Events",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 20,
+          "lineHeight": "22px",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#3B3B3B"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       },
+       {
+        "name": "Buttons",
+        "type": "FRAME",
+        "id": "3557:40215",
+        "w": 45,
+        "h": 23,
+        "x": 267,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8.399999618530273,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Upcoming Events Header Button",
+          "type": "INSTANCE",
+          "id": "3557:40216",
+          "w": 19.2,
+          "h": 23,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 2.799999952316284,
+           "pad": [
+            4,
+            4,
+            4,
+            4
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#0A5962",
+            "variable": "Colors/color/theme/primary-dark"
+           }
+          ],
+          "component": "Upcoming Events Header Button",
+          "variant": {
+           "Type": "See All Events",
+           "Label": "Off"
+          },
+          "componentKey": "546c42474ce4b3fbde3b0c77d6183a41ce381b41",
+          "mainId": "3557:40187"
+         },
+         {
+          "name": "Add your event",
+          "type": "INSTANCE",
+          "id": "3557:40221",
+          "w": 17.4,
+          "h": 23,
+          "x": 27.6,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 2.799999952316284,
+           "pad": [
+            4,
+            4,
+            4,
+            4
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#0A5962",
+            "variable": "Colors/color/theme/primary-dark"
+           }
+          ],
+          "component": "Upcoming Events Header Button",
+          "variant": {
+           "Type": "Add your event",
+           "Label": "Off"
+          },
+          "componentKey": "cd8b3aa55ec8ac9e11756ec780f91bc16112d42a",
+          "mainId": "3557:40197"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Event List",
+      "type": "FRAME",
+      "id": "3557:40226",
+      "w": 308,
+      "h": 172,
+      "x": 21,
+      "y": 28,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 10,
+       "pad": [
+        0,
+        10,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40227",
+        "w": 144,
+        "h": 172,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40240",
+        "w": 144,
+        "h": 172,
+        "x": 154,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       }
+      ]
+     },
+     {
+      "name": "Prev Arrow",
+      "type": "INSTANCE",
+      "id": "3557:40253",
+      "w": 20,
+      "h": 20,
+      "x": 0,
+      "y": 104,
+      "component": "Upcoming Events Side Arrow",
+      "variant": {
+       "Direction": "Left"
+      },
+      "componentKey": "7cecbc1dfc30089aaf1b66b18f09b805cfad868e",
+      "mainId": "3557:40203"
+     },
+     {
+      "name": "Next Arrow",
+      "type": "INSTANCE",
+      "id": "3557:40256",
+      "w": 20,
+      "h": 20,
+      "x": 320,
+      "y": 104,
+      "component": "Upcoming Events Side Arrow",
+      "variant": {
+       "Direction": "Right"
+      },
+      "componentKey": "6efc3e17906043563d80ce8c5c6d7a59836131f3",
+      "mainId": "3557:40206"
+     },
+     {
+      "name": "Date Strip",
+      "type": "FRAME",
+      "id": "3557:40259",
+      "w": 332,
+      "h": 50,
+      "x": 4,
+      "y": 200,
+      "clip": true,
+      "children": [
+       {
+        "name": "Date Picker Calendar Icon",
+        "type": "INSTANCE",
+        "id": "3557:40260",
+        "w": 50,
+        "h": 50,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          13.5,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Calendar Icon",
+        "componentKey": "df272b86e43ca88b03e9da0e4ec2b5b072c19726",
+        "mainId": "3395:51892"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40263",
+        "w": 50,
+        "h": 50,
+        "x": 50,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40266",
+        "w": 50,
+        "h": 50,
+        "x": 100,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40269",
+        "w": 50,
+        "h": 50,
+        "x": 150,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40272",
+        "w": 50,
+        "h": 50,
+        "x": 200,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40275",
+        "w": 50,
+        "h": 50,
+        "x": 250,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       }
+      ]
+     }
+    ],
+    "key": "e1af7ed6ecbae7f194991dec4fd7234b8e648e97",
+    "variantProperties": {
+     "Device": "Mobile"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=Tablet",
+   "variantProperties": {
+    "Device": "Tablet"
+   },
+   "id": "3557:40278",
+   "key": "9b2fdc96cbe4b275eee78d03576e1a23ed531270",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40278",
+   "width": 448,
+   "height": 250,
+   "layout": null,
+   "sizing": null,
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/upcoming-events-widget--tablet.png",
+   "breakpoints": [
+    "768"
+   ],
+   "layerTree": {
+    "name": "Device=Tablet",
+    "type": "COMPONENT",
+    "id": "3557:40278",
+    "w": 448,
+    "h": 250,
+    "x": 400,
+    "y": 20,
+    "clip": true,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF"
+     }
+    ],
+    "children": [
+     {
+      "name": "Header",
+      "type": "FRAME",
+      "id": "3557:40279",
+      "w": 440,
+      "h": 28,
+      "x": 4,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        20,
+        0,
+        10
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Title",
+        "type": "TEXT",
+        "id": "3557:40280",
+        "w": 194.4,
+        "h": 22,
+        "x": 10,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "text": "Upcoming Events",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 20,
+          "lineHeight": "22px",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#3B3B3B"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       },
+       {
+        "name": "Buttons",
+        "type": "FRAME",
+        "id": "3557:40281",
+        "w": 215.6,
+        "h": 23,
+        "x": 204.4,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 9.399999618530273,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Upcoming Events Header Button",
+          "type": "INSTANCE",
+          "id": "3557:40282",
+          "w": 100,
+          "h": 23,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 2.799999952316284,
+           "pad": [
+            4,
+            4,
+            4,
+            4
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#0A5962",
+            "variable": "Colors/color/theme/primary-dark"
+           }
+          ],
+          "component": "Upcoming Events Header Button",
+          "variant": {
+           "Type": "See All Events",
+           "Label": "On"
+          },
+          "componentKey": "7c902fe246fbe24841be073196de3a2ed89234cf",
+          "mainId": "3557:40182"
+         },
+         {
+          "name": "Add your event",
+          "type": "INSTANCE",
+          "id": "3557:40287",
+          "w": 106.2,
+          "h": 23,
+          "x": 109.4,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 2.799999952316284,
+           "pad": [
+            4,
+            4,
+            4,
+            4
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#0A5962",
+            "variable": "Colors/color/theme/primary-dark"
+           }
+          ],
+          "component": "Upcoming Events Header Button",
+          "variant": {
+           "Type": "Add your event",
+           "Label": "On"
+          },
+          "componentKey": "6378f04591d224f8ac2301a41d19a9581ddb094c",
+          "mainId": "3557:40192"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Event List",
+      "type": "FRAME",
+      "id": "3557:40292",
+      "w": 416,
+      "h": 172,
+      "x": 20.5,
+      "y": 28,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 10,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40293",
+        "w": 129,
+        "h": 172,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40306",
+        "w": 129,
+        "h": 172,
+        "x": 139,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40319",
+        "w": 129,
+        "h": 172,
+        "x": 278,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       }
+      ]
+     },
+     {
+      "name": "Prev Arrow",
+      "type": "INSTANCE",
+      "id": "3557:40332",
+      "w": 20,
+      "h": 20,
+      "x": 0,
+      "y": 104,
+      "component": "Upcoming Events Side Arrow",
+      "variant": {
+       "Direction": "Left"
+      },
+      "componentKey": "7cecbc1dfc30089aaf1b66b18f09b805cfad868e",
+      "mainId": "3557:40203"
+     },
+     {
+      "name": "Next Arrow",
+      "type": "INSTANCE",
+      "id": "3557:40335",
+      "w": 20,
+      "h": 20,
+      "x": 428,
+      "y": 104,
+      "component": "Upcoming Events Side Arrow",
+      "variant": {
+       "Direction": "Right"
+      },
+      "componentKey": "6efc3e17906043563d80ce8c5c6d7a59836131f3",
+      "mainId": "3557:40206"
+     },
+     {
+      "name": "Date Strip",
+      "type": "FRAME",
+      "id": "3557:40338",
+      "w": 440,
+      "h": 50,
+      "x": 4,
+      "y": 200,
+      "clip": true,
+      "children": [
+       {
+        "name": "Date Picker Calendar Icon",
+        "type": "INSTANCE",
+        "id": "3557:40339",
+        "w": 50,
+        "h": 50,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          13.5,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Calendar Icon",
+        "componentKey": "df272b86e43ca88b03e9da0e4ec2b5b072c19726",
+        "mainId": "3395:51892"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40342",
+        "w": 50,
+        "h": 50,
+        "x": 50,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40345",
+        "w": 50,
+        "h": 50,
+        "x": 100,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40348",
+        "w": 50,
+        "h": 50,
+        "x": 150,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40351",
+        "w": 50,
+        "h": 50,
+        "x": 200,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40354",
+        "w": 50,
+        "h": 50,
+        "x": 250,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40357",
+        "w": 50,
+        "h": 50,
+        "x": 300,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40360",
+        "w": 50,
+        "h": 50,
+        "x": 350,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       }
+      ]
+     }
+    ],
+    "key": "9b2fdc96cbe4b275eee78d03576e1a23ed531270",
+    "variantProperties": {
+     "Device": "Tablet"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=1024",
+   "variantProperties": {
+    "Device": "1024"
+   },
+   "id": "3557:40363",
+   "key": "dc2ed1491082416d2d9d167610fd0a8a02d54062",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40363",
+   "width": 704,
+   "height": 250,
+   "layout": null,
+   "sizing": null,
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/upcoming-events-widget--1024.png",
+   "breakpoints": [
+    "1024"
+   ],
+   "layerTree": {
+    "name": "Device=1024",
+    "type": "COMPONENT",
+    "id": "3557:40363",
+    "w": 704,
+    "h": 250,
+    "x": 888,
+    "y": 20,
+    "clip": true,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF"
+     }
+    ],
+    "children": [
+     {
+      "name": "Header",
+      "type": "FRAME",
+      "id": "3557:40364",
+      "w": 696,
+      "h": 28,
+      "x": 4,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        20,
+        0,
+        10
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Title",
+        "type": "TEXT",
+        "id": "3557:40365",
+        "w": 450.4,
+        "h": 22,
+        "x": 10,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "text": "Upcoming Events",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 20,
+          "lineHeight": "22px",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#3B3B3B"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       },
+       {
+        "name": "Buttons",
+        "type": "FRAME",
+        "id": "3557:40366",
+        "w": 215.6,
+        "h": 23,
+        "x": 460.4,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 9.399999618530273,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Upcoming Events Header Button",
+          "type": "INSTANCE",
+          "id": "3557:40367",
+          "w": 100,
+          "h": 23,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 2.799999952316284,
+           "pad": [
+            4,
+            4,
+            4,
+            4
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#0A5962",
+            "variable": "Colors/color/theme/primary-dark"
+           }
+          ],
+          "component": "Upcoming Events Header Button",
+          "variant": {
+           "Type": "See All Events",
+           "Label": "On"
+          },
+          "componentKey": "7c902fe246fbe24841be073196de3a2ed89234cf",
+          "mainId": "3557:40182"
+         },
+         {
+          "name": "Add your event",
+          "type": "INSTANCE",
+          "id": "3557:40372",
+          "w": 106.2,
+          "h": 23,
+          "x": 109.4,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 2.799999952316284,
+           "pad": [
+            4,
+            4,
+            4,
+            4
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#0A5962",
+            "variable": "Colors/color/theme/primary-dark"
+           }
+          ],
+          "component": "Upcoming Events Header Button",
+          "variant": {
+           "Type": "Add your event",
+           "Label": "On"
+          },
+          "componentKey": "6378f04591d224f8ac2301a41d19a9581ddb094c",
+          "mainId": "3557:40192"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Event List",
+      "type": "FRAME",
+      "id": "3557:40377",
+      "w": 672,
+      "h": 172,
+      "x": 21,
+      "y": 28,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 10,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40378",
+        "w": 158,
+        "h": 172,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40391",
+        "w": 158,
+        "h": 172,
+        "x": 168,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40404",
+        "w": 158,
+        "h": 172,
+        "x": 336,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40417",
+        "w": 158,
+        "h": 172,
+        "x": 504,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       }
+      ]
+     },
+     {
+      "name": "Prev Arrow",
+      "type": "INSTANCE",
+      "id": "3557:40430",
+      "w": 20,
+      "h": 20,
+      "x": 0,
+      "y": 104,
+      "component": "Upcoming Events Side Arrow",
+      "variant": {
+       "Direction": "Left"
+      },
+      "componentKey": "7cecbc1dfc30089aaf1b66b18f09b805cfad868e",
+      "mainId": "3557:40203"
+     },
+     {
+      "name": "Next Arrow",
+      "type": "INSTANCE",
+      "id": "3557:40433",
+      "w": 20,
+      "h": 20,
+      "x": 684,
+      "y": 104,
+      "component": "Upcoming Events Side Arrow",
+      "variant": {
+       "Direction": "Right"
+      },
+      "componentKey": "6efc3e17906043563d80ce8c5c6d7a59836131f3",
+      "mainId": "3557:40206"
+     },
+     {
+      "name": "Date Strip",
+      "type": "FRAME",
+      "id": "3557:40436",
+      "w": 696,
+      "h": 50,
+      "x": 4,
+      "y": 200,
+      "clip": true,
+      "children": [
+       {
+        "name": "Date Picker Calendar Icon",
+        "type": "INSTANCE",
+        "id": "3557:40437",
+        "w": 50,
+        "h": 50,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          13.5,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Calendar Icon",
+        "componentKey": "df272b86e43ca88b03e9da0e4ec2b5b072c19726",
+        "mainId": "3395:51892"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40440",
+        "w": 50,
+        "h": 50,
+        "x": 50,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40443",
+        "w": 50,
+        "h": 50,
+        "x": 100,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40446",
+        "w": 50,
+        "h": 50,
+        "x": 150,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40449",
+        "w": 50,
+        "h": 50,
+        "x": 200,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40452",
+        "w": 50,
+        "h": 50,
+        "x": 250,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40455",
+        "w": 50,
+        "h": 50,
+        "x": 300,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40458",
+        "w": 50,
+        "h": 50,
+        "x": 350,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40461",
+        "w": 50,
+        "h": 50,
+        "x": 400,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40464",
+        "w": 50,
+        "h": 50,
+        "x": 450,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40467",
+        "w": 50,
+        "h": 50,
+        "x": 500,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40470",
+        "w": 50,
+        "h": 50,
+        "x": 550,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40473",
+        "w": 50,
+        "h": 50,
+        "x": 600,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       }
+      ]
+     }
+    ],
+    "key": "dc2ed1491082416d2d9d167610fd0a8a02d54062",
+    "variantProperties": {
+     "Device": "1024"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=1100",
+   "variantProperties": {
+    "Device": "1100"
+   },
+   "id": "3395:51894",
+   "key": "32790cfe4f7dbc49b56e891b2a4fa59e0f73a49d",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3395-51894",
+   "width": 780,
+   "height": 250,
+   "layout": null,
+   "sizing": null,
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/upcoming-events-widget--1100.png",
+   "breakpoints": [
+    "1100"
+   ],
+   "layerTree": {
+    "name": "Device=1100",
+    "type": "COMPONENT",
+    "id": "3395:51894",
+    "w": 780,
+    "h": 250,
+    "x": 1632,
+    "y": 20,
+    "clip": true,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF"
+     }
+    ],
+    "children": [
+     {
+      "name": "Header",
+      "type": "FRAME",
+      "id": "3557:40476",
+      "w": 772,
+      "h": 28,
+      "x": 4,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        20,
+        0,
+        10
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Title",
+        "type": "TEXT",
+        "id": "3557:40477",
+        "w": 526.4,
+        "h": 22,
+        "x": 10,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "text": "Upcoming Events",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 20,
+          "lineHeight": "22px",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#3B3B3B"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       },
+       {
+        "name": "Buttons",
+        "type": "FRAME",
+        "id": "3557:40478",
+        "w": 215.6,
+        "h": 23,
+        "x": 536.4,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 9.399999618530273,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Upcoming Events Header Button",
+          "type": "INSTANCE",
+          "id": "3557:40479",
+          "w": 100,
+          "h": 23,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 2.799999952316284,
+           "pad": [
+            4,
+            4,
+            4,
+            4
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#0A5962",
+            "variable": "Colors/color/theme/primary-dark"
+           }
+          ],
+          "component": "Upcoming Events Header Button",
+          "variant": {
+           "Type": "See All Events",
+           "Label": "On"
+          },
+          "componentKey": "7c902fe246fbe24841be073196de3a2ed89234cf",
+          "mainId": "3557:40182"
+         },
+         {
+          "name": "Add your event",
+          "type": "INSTANCE",
+          "id": "3557:40484",
+          "w": 106.2,
+          "h": 23,
+          "x": 109.4,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 2.799999952316284,
+           "pad": [
+            4,
+            4,
+            4,
+            4
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#0A5962",
+            "variable": "Colors/color/theme/primary-dark"
+           }
+          ],
+          "component": "Upcoming Events Header Button",
+          "variant": {
+           "Type": "Add your event",
+           "Label": "On"
+          },
+          "componentKey": "6378f04591d224f8ac2301a41d19a9581ddb094c",
+          "mainId": "3557:40192"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Event List",
+      "type": "FRAME",
+      "id": "3557:40489",
+      "w": 748,
+      "h": 172,
+      "x": 21,
+      "y": 28,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 10,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40490",
+        "w": 177,
+        "h": 172,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40503",
+        "w": 177,
+        "h": 172,
+        "x": 187,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40516",
+        "w": 177,
+        "h": 172,
+        "x": 374,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40529",
+        "w": 177,
+        "h": 172,
+        "x": 561,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       }
+      ]
+     },
+     {
+      "name": "Prev Arrow",
+      "type": "INSTANCE",
+      "id": "3557:40542",
+      "w": 20,
+      "h": 20,
+      "x": 0,
+      "y": 104,
+      "component": "Upcoming Events Side Arrow",
+      "variant": {
+       "Direction": "Left"
+      },
+      "componentKey": "7cecbc1dfc30089aaf1b66b18f09b805cfad868e",
+      "mainId": "3557:40203"
+     },
+     {
+      "name": "Next Arrow",
+      "type": "INSTANCE",
+      "id": "3557:40545",
+      "w": 20,
+      "h": 20,
+      "x": 760,
+      "y": 104,
+      "component": "Upcoming Events Side Arrow",
+      "variant": {
+       "Direction": "Right"
+      },
+      "componentKey": "6efc3e17906043563d80ce8c5c6d7a59836131f3",
+      "mainId": "3557:40206"
+     },
+     {
+      "name": "Date Strip",
+      "type": "FRAME",
+      "id": "3557:40548",
+      "w": 772,
+      "h": 50,
+      "x": 4,
+      "y": 200,
+      "clip": true,
+      "children": [
+       {
+        "name": "Date Picker Calendar Icon",
+        "type": "INSTANCE",
+        "id": "3557:40549",
+        "w": 50,
+        "h": 50,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          13.5,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Calendar Icon",
+        "componentKey": "df272b86e43ca88b03e9da0e4ec2b5b072c19726",
+        "mainId": "3395:51892"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40552",
+        "w": 50,
+        "h": 50,
+        "x": 50,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40555",
+        "w": 50,
+        "h": 50,
+        "x": 100,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40558",
+        "w": 50,
+        "h": 50,
+        "x": 150,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40561",
+        "w": 50,
+        "h": 50,
+        "x": 200,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40564",
+        "w": 50,
+        "h": 50,
+        "x": 250,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40567",
+        "w": 50,
+        "h": 50,
+        "x": 300,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40570",
+        "w": 50,
+        "h": 50,
+        "x": 350,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40573",
+        "w": 50,
+        "h": 50,
+        "x": 400,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40576",
+        "w": 50,
+        "h": 50,
+        "x": 450,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40579",
+        "w": 50,
+        "h": 50,
+        "x": 500,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40582",
+        "w": 50,
+        "h": 50,
+        "x": 550,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40585",
+        "w": 50,
+        "h": 50,
+        "x": 600,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40588",
+        "w": 50,
+        "h": 50,
+        "x": 650,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40591",
+        "w": 50,
+        "h": 50,
+        "x": 700,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       }
+      ]
+     }
+    ],
+    "key": "32790cfe4f7dbc49b56e891b2a4fa59e0f73a49d",
+    "variantProperties": {
+     "Device": "1100"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=Desktop",
+   "variantProperties": {
+    "Device": "Desktop"
+   },
+   "id": "3557:24235",
+   "key": "04c0447be33bc73881dc44b151df9fe9e7bf66e1",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-24235",
+   "width": 960,
+   "height": 250,
+   "layout": null,
+   "sizing": null,
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/upcoming-events-widget--desktop.png",
+   "breakpoints": [
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Device=Desktop",
+    "type": "COMPONENT",
+    "id": "3557:24235",
+    "w": 960,
+    "h": 250,
+    "x": 2452,
+    "y": 20,
+    "clip": true,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF"
+     }
+    ],
+    "children": [
+     {
+      "name": "Header",
+      "type": "FRAME",
+      "id": "3557:40594",
+      "w": 952,
+      "h": 28,
+      "x": 4,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        20,
+        0,
+        10
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Title",
+        "type": "TEXT",
+        "id": "3557:40595",
+        "w": 706.4,
+        "h": 22,
+        "x": 10,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "text": "Upcoming Events",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 20,
+          "lineHeight": "22px",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#3B3B3B"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       },
+       {
+        "name": "Buttons",
+        "type": "FRAME",
+        "id": "3557:40596",
+        "w": 215.6,
+        "h": 23,
+        "x": 716.4,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 9.399999618530273,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Upcoming Events Header Button",
+          "type": "INSTANCE",
+          "id": "3557:40597",
+          "w": 100,
+          "h": 23,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 2.799999952316284,
+           "pad": [
+            4,
+            4,
+            4,
+            4
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#0A5962",
+            "variable": "Colors/color/theme/primary-dark"
+           }
+          ],
+          "component": "Upcoming Events Header Button",
+          "variant": {
+           "Type": "See All Events",
+           "Label": "On"
+          },
+          "componentKey": "7c902fe246fbe24841be073196de3a2ed89234cf",
+          "mainId": "3557:40182"
+         },
+         {
+          "name": "Add your event",
+          "type": "INSTANCE",
+          "id": "3557:40602",
+          "w": 106.2,
+          "h": 23,
+          "x": 109.4,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 2.799999952316284,
+           "pad": [
+            4,
+            4,
+            4,
+            4
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#0A5962",
+            "variable": "Colors/color/theme/primary-dark"
+           }
+          ],
+          "component": "Upcoming Events Header Button",
+          "variant": {
+           "Type": "Add your event",
+           "Label": "On"
+          },
+          "componentKey": "6378f04591d224f8ac2301a41d19a9581ddb094c",
+          "mainId": "3557:40192"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Event List",
+      "type": "FRAME",
+      "id": "3557:40607",
+      "w": 928,
+      "h": 172,
+      "x": 20,
+      "y": 28,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 10,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40608",
+        "w": 176,
+        "h": 172,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40621",
+        "w": 176,
+        "h": 172,
+        "x": 186,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40634",
+        "w": 176,
+        "h": 172,
+        "x": 372,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40647",
+        "w": 176,
+        "h": 172,
+        "x": 558,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       },
+       {
+        "name": "Event Card",
+        "type": "INSTANCE",
+        "id": "3557:40660",
+        "w": 176,
+        "h": 172,
+        "x": 744,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#0A5962",
+          "variable": "Colors/color/theme/primary-dark"
+         }
+        ],
+        "component": "Event Card",
+        "componentKey": "c7de86b4a1e4673b2f5e1d8b4dc3d3fa124493f6",
+        "mainId": "3395:51876"
+       }
+      ]
+     },
+     {
+      "name": "Prev Arrow",
+      "type": "INSTANCE",
+      "id": "3557:40673",
+      "w": 20,
+      "h": 20,
+      "x": 0,
+      "y": 104,
+      "component": "Upcoming Events Side Arrow",
+      "variant": {
+       "Direction": "Left"
+      },
+      "componentKey": "7cecbc1dfc30089aaf1b66b18f09b805cfad868e",
+      "mainId": "3557:40203"
+     },
+     {
+      "name": "Next Arrow",
+      "type": "INSTANCE",
+      "id": "3557:40676",
+      "w": 20,
+      "h": 20,
+      "x": 940,
+      "y": 104,
+      "component": "Upcoming Events Side Arrow",
+      "variant": {
+       "Direction": "Right"
+      },
+      "componentKey": "6efc3e17906043563d80ce8c5c6d7a59836131f3",
+      "mainId": "3557:40206"
+     },
+     {
+      "name": "Date Strip",
+      "type": "FRAME",
+      "id": "3557:40679",
+      "w": 952,
+      "h": 50,
+      "x": 4,
+      "y": 200,
+      "clip": true,
+      "children": [
+       {
+        "name": "Date Picker Calendar Icon",
+        "type": "INSTANCE",
+        "id": "3557:40680",
+        "w": 50,
+        "h": 50,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          13.5,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Calendar Icon",
+        "componentKey": "df272b86e43ca88b03e9da0e4ec2b5b072c19726",
+        "mainId": "3395:51892"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40683",
+        "w": 50,
+        "h": 50,
+        "x": 50,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40686",
+        "w": 50,
+        "h": 50,
+        "x": 100,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40689",
+        "w": 50,
+        "h": 50,
+        "x": 150,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40692",
+        "w": 50,
+        "h": 50,
+        "x": 200,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40695",
+        "w": 50,
+        "h": 50,
+        "x": 250,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40698",
+        "w": 50,
+        "h": 50,
+        "x": 300,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40701",
+        "w": 50,
+        "h": 50,
+        "x": 350,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40704",
+        "w": 50,
+        "h": 50,
+        "x": 400,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40707",
+        "w": 50,
+        "h": 50,
+        "x": 450,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40710",
+        "w": 50,
+        "h": 50,
+        "x": 500,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40713",
+        "w": 50,
+        "h": 50,
+        "x": 550,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40716",
+        "w": 50,
+        "h": 50,
+        "x": 600,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40719",
+        "w": 50,
+        "h": 50,
+        "x": 650,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40722",
+        "w": 50,
+        "h": 50,
+        "x": 700,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40725",
+        "w": 50,
+        "h": 50,
+        "x": 750,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40728",
+        "w": 50,
+        "h": 50,
+        "x": 800,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40731",
+        "w": 50,
+        "h": 50,
+        "x": 850,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       },
+       {
+        "name": "Date Picker Day",
+        "type": "INSTANCE",
+        "id": "3557:40734",
+        "w": 50,
+        "h": 50,
+        "x": 900,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          6,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Date Picker Day",
+        "componentKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+        "mainId": "3395:51889"
+       }
+      ]
+     }
+    ],
+    "key": "04c0447be33bc73881dc44b151df9fe9e7bf66e1",
+    "variantProperties": {
+     "Device": "Desktop"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Title",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 20,
+   "lineHeight": "22px",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#3B3B3B",
+   "token": null,
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Upcoming Events",
+   "variants": [
+    "Device=Mobile",
+    "Device=Tablet",
+    "Device=1024",
+    "Device=1100",
+    "Device=Desktop"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Device=Mobile",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Upcoming Events Header Button",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#0A5962",
+   "token": "Colors/color/theme/primary-dark",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Add your event",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#0A5962",
+   "token": "Colors/color/theme/primary-dark",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Event Card",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#0A5962",
+   "token": "Colors/color/theme/primary-dark",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=Tablet",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=1024",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=1100",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=Desktop",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Device=Mobile: 340×250 — renders at 340, 360",
+  "Device=Tablet: 448×250 — renders at 768",
+  "Device=1024: 704×250 — renders at 1024",
+  "Device=1100: 780×250 — renders at 1100",
+  "Device=Desktop: 960×250 — renders at 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "10 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×5, #3B3B3B ×5."
+ ],
+ "skeleton": "upcoming-events-widget.html",
+ "exported": "2026-10-07"
+}

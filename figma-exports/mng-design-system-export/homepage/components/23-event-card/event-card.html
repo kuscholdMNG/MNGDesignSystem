@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Event Card — skeleton</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../tokens.css">
+<style>
+*{box-sizing:border-box} body{margin:0;padding:24px;background:#f4f4f4;font-family:'Noto Sans',sans-serif;color:#141414}
+[hidden]{display:none!important}
+.skel-variant{margin:0 0 40px} .skel-variant>h1{font:600 13px/1.4 monospace;color:#555;margin:0 0 8px}
+.skel-stage{background:#fff;display:inline-block;outline:1px solid #ddd}
+.mng-c-event-card__event-card{width:176px;min-height:172px;position:relative;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden}
+.mng-c-event-card__image-area{align-self:stretch;height:130px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:#FFFFFF;overflow:hidden}
+.mng-c-event-card__article-image-placeholder{position:absolute;left:0px;top:0px;width:176px;height:130px;display:flex;flex-direction:column;gap:8px;padding:0px 0px 0px 0px;justify-content:center;align-items:center;position:relative;background:#E1A1FF;border:2px solid var(--mng-gray-min, #141414);box-sizing:border-box;overflow:hidden;aspect-ratio:176/130;background:#D9D9D9;margin:0}
+.mng-c-event-card__date-bar{position:absolute;left:0px;top:0px;width:176px;height:12.5px;background:#000000;overflow:hidden}
+.mng-c-event-card__tue-sep-15{position:absolute;left:2px;top:0px;width:59px;height:13px;font-family:'Noto Sans', sans-serif;font-size:11px;font-weight:400;line-height:12.5px;color:#EEEEEE;text-align:left;margin:0}
+.mng-c-event-card__details{align-self:stretch;height:42px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 2px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-c-event-card__event-title-placeholder-text-here{align-self:stretch;height:28px;flex-shrink:0;font-family:'Noto Sans', sans-serif;font-size:13px;font-weight:700;line-height:14px;color:#FFFFFF;text-align:left;margin:0;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.mng-c-event-card__venue-name-placeholder{align-self:stretch;height:14px;flex-shrink:0;font-family:'Noto Sans', sans-serif;font-size:12px;font-weight:400;line-height:14px;color:#FFFFFF;text-align:left;margin:0;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+</style></head>
+<body>
+<!-- Structural skeleton generated from Figma auto-layout. Instances are dashed placeholders; open the referenced file to render them. -->
+<section class="skel-variant" data-variant="Event Card">
+  <h1>Event Card · Event Card · 176×172</h1>
+  <div class="skel-stage">
+    <div class="mng-c-event-card__event-card" data-layer="Event Card">
+      <div class="mng-c-event-card__image-area" data-layer="Image Area">
+        <figure class="mng-c-event-card__article-image-placeholder" data-component="Article Image Placeholder" data-variant=""><!-- image slot 4:3 (176×130) — see homepage/components/03-article-image-placeholder/article-image-placeholder.html --></figure>
+        <div class="mng-c-event-card__date-bar" data-layer="Date Bar">
+          <span class="mng-c-event-card__tue-sep-15">Tue, Sep 15</span>
+        </div>
+      </div>
+      <div class="mng-c-event-card__details" data-layer="Details">
+        <h2 class="mng-c-event-card__event-title-placeholder-text-here">Event Title Placeholder Text Here</h2>
+        <span class="mng-c-event-card__venue-name-placeholder">Venue Name Placeholder</span>
+      </div>
+    </div>
+  </div>
+</section>
+</body></html>

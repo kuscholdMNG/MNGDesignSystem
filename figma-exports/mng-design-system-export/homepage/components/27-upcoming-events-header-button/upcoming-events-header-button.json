@@ -1,0 +1,907 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Upcoming Events Header Button",
+ "slug": "upcoming-events-header-button",
+ "order": 27,
+ "typeLabel": "Component · 4 variants",
+ "description": "Type = See All Events, Add your event · Label = On, Off. theme/primary-dark, pad 4, label 12/15 white. Label=Off (icon only) is used at 340/360.",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3557:40202",
+  "mainKey": "26e2331192774e16afcfa1ac704ba3868a3b0be7",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40202",
+  "variants": [
+   {
+    "label": "Type=See All Events, Label=On",
+    "id": "3557:40182",
+    "key": "7c902fe246fbe24841be073196de3a2ed89234cf",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40182"
+   },
+   {
+    "label": "Type=See All Events, Label=Off",
+    "id": "3557:40187",
+    "key": "546c42474ce4b3fbde3b0c77d6183a41ce381b41",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40187"
+   },
+   {
+    "label": "Type=Add your event, Label=On",
+    "id": "3557:40192",
+    "key": "6378f04591d224f8ac2301a41d19a9581ddb094c",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40192"
+   },
+   {
+    "label": "Type=Add your event, Label=Off",
+    "id": "3557:40197",
+    "key": "cd8b3aa55ec8ac9e11756ec780f91bc16112d42a",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40197"
+   }
+  ]
+ },
+ "properties": {
+  "Type": {
+   "type": "VARIANT",
+   "default": "See All Events",
+   "options": [
+    "See All Events",
+    "Add your event"
+   ]
+  },
+  "Label": {
+   "type": "VARIANT",
+   "default": "On",
+   "options": [
+    "On",
+    "Off"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Upcoming Events Widget"
+  ],
+  "perVariant": [
+   {
+    "label": "Type=See All Events, Label=On",
+    "id": "3557:40182",
+    "templatesDirect": {},
+    "templatesVia": {
+     "1024 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "Desktop HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "1100 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "768 HomePage": [
+      "Upcoming Events Widget"
+     ]
+    },
+    "inComponents": {
+     "Upcoming Events Widget / Device=1024": 1,
+     "Upcoming Events Widget / Device=Desktop": 1,
+     "Upcoming Events Widget / Device=1100": 1,
+     "Upcoming Events Widget / Device=Tablet": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Type=See All Events, Label=Off",
+    "id": "3557:40187",
+    "templatesDirect": {},
+    "templatesVia": {
+     "Mobile HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "340 HomePage": [
+      "Upcoming Events Widget"
+     ]
+    },
+    "inComponents": {
+     "Upcoming Events Widget / Device=Mobile": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   },
+   {
+    "label": "Type=Add your event, Label=On",
+    "id": "3557:40192",
+    "templatesDirect": {},
+    "templatesVia": {
+     "Desktop HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "1024 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "768 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "1100 HomePage": [
+      "Upcoming Events Widget"
+     ]
+    },
+    "inComponents": {
+     "Upcoming Events Widget / Device=Desktop": 1,
+     "Upcoming Events Widget / Device=1024": 1,
+     "Upcoming Events Widget / Device=Tablet": 1,
+     "Upcoming Events Widget / Device=1100": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Type=Add your event, Label=Off",
+    "id": "3557:40197",
+    "templatesDirect": {},
+    "templatesVia": {
+     "Mobile HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "340 HomePage": [
+      "Upcoming Events Widget"
+     ]
+    },
+    "inComponents": {
+     "Upcoming Events Widget / Device=Mobile": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Upcoming Events Calendar Glyph",
+    "count": 1,
+    "inExport": true,
+    "section": "Upcoming Events Calendar Glyph",
+    "path": "../26-upcoming-events-calendar-glyph/upcoming-events-calendar-glyph.md"
+   },
+   {
+    "name": "Icons",
+    "count": 1,
+    "inExport": false,
+    "section": null,
+    "path": null
+   }
+  ],
+  "builtInto": [
+   {
+    "name": "Upcoming Events Widget",
+    "path": "../../assemblies/29-upcoming-events-widget/upcoming-events-widget.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Type=See All Events, Label=On",
+   "variantProperties": {
+    "Type": "See All Events",
+    "Label": "On"
+   },
+   "id": "3557:40182",
+   "key": "7c902fe246fbe24841be073196de3a2ed89234cf",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40182",
+   "width": 100,
+   "height": 23,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 2.799999952316284,
+    "pad": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#0A5962",
+     "variable": "Colors/color/theme/primary-dark"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/upcoming-events-header-button--see-all-events-on.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Type=See All Events, Label=On",
+    "type": "COMPONENT",
+    "id": "3557:40182",
+    "w": 100,
+    "h": 23,
+    "x": 20,
+    "y": 20,
+    "sizing": {
+     "h": "HUG",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 2.799999952316284,
+     "pad": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#0A5962",
+      "variable": "Colors/color/theme/primary-dark"
+     }
+    ],
+    "children": [
+     {
+      "name": "Icon",
+      "type": "FRAME",
+      "id": "3557:40183",
+      "w": 11.2,
+      "h": 12.5,
+      "x": 4,
+      "y": 5.3,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "children": [
+       {
+        "name": "Upcoming Events Calendar Glyph",
+        "type": "INSTANCE",
+        "id": "3557:40184",
+        "w": 11.2,
+        "h": 12,
+        "x": 0,
+        "y": 0.3,
+        "component": "Upcoming Events Calendar Glyph",
+        "componentKey": "5406d0073387de6c154488bd6b4260333e411b1e",
+        "mainId": "3557:40167"
+       }
+      ]
+     },
+     {
+      "name": "Label",
+      "type": "TEXT",
+      "id": "3557:40186",
+      "w": 78,
+      "h": 15,
+      "x": 18,
+      "y": 4,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "See All Events",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 12,
+        "lineHeight": "15px",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "7c902fe246fbe24841be073196de3a2ed89234cf",
+    "variantProperties": {
+     "Type": "See All Events",
+     "Label": "On"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Type=See All Events, Label=Off",
+   "variantProperties": {
+    "Type": "See All Events",
+    "Label": "Off"
+   },
+   "id": "3557:40187",
+   "key": "546c42474ce4b3fbde3b0c77d6183a41ce381b41",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40187",
+   "width": 19.2,
+   "height": 23,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 2.799999952316284,
+    "pad": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#0A5962",
+     "variable": "Colors/color/theme/primary-dark"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/upcoming-events-header-button--see-all-events-off.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Type=See All Events, Label=Off",
+    "type": "COMPONENT",
+    "id": "3557:40187",
+    "w": 19.2,
+    "h": 23,
+    "x": 160,
+    "y": 20,
+    "sizing": {
+     "h": "HUG",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 2.799999952316284,
+     "pad": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#0A5962",
+      "variable": "Colors/color/theme/primary-dark"
+     }
+    ],
+    "children": [
+     {
+      "name": "Icon",
+      "type": "FRAME",
+      "id": "3557:40188",
+      "w": 11.2,
+      "h": 12.5,
+      "x": 4,
+      "y": 5.3,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "children": [
+       {
+        "name": "Upcoming Events Calendar Glyph",
+        "type": "INSTANCE",
+        "id": "3557:40189",
+        "w": 11.2,
+        "h": 12,
+        "x": 0,
+        "y": 0.3,
+        "component": "Upcoming Events Calendar Glyph",
+        "componentKey": "5406d0073387de6c154488bd6b4260333e411b1e",
+        "mainId": "3557:40167"
+       }
+      ]
+     },
+     {
+      "name": "Label",
+      "type": "TEXT",
+      "id": "3557:40191",
+      "w": 78,
+      "h": 15,
+      "x": 18,
+      "y": 4,
+      "hidden": true,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "text": "See All Events",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 12,
+        "lineHeight": "15px",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "546c42474ce4b3fbde3b0c77d6183a41ce381b41",
+    "variantProperties": {
+     "Type": "See All Events",
+     "Label": "Off"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Type=Add your event, Label=On",
+   "variantProperties": {
+    "Type": "Add your event",
+    "Label": "On"
+   },
+   "id": "3557:40192",
+   "key": "6378f04591d224f8ac2301a41d19a9581ddb094c",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40192",
+   "width": 106.2,
+   "height": 23,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 2.799999952316284,
+    "pad": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#0A5962",
+     "variable": "Colors/color/theme/primary-dark"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/upcoming-events-header-button--add-your-event-on.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Type=Add your event, Label=On",
+    "type": "COMPONENT",
+    "id": "3557:40192",
+    "w": 106.2,
+    "h": 23,
+    "x": 219.2,
+    "y": 20,
+    "sizing": {
+     "h": "HUG",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 2.799999952316284,
+     "pad": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#0A5962",
+      "variable": "Colors/color/theme/primary-dark"
+     }
+    ],
+    "children": [
+     {
+      "name": "Icon",
+      "type": "FRAME",
+      "id": "3557:40193",
+      "w": 9.4,
+      "h": 12.5,
+      "x": 4,
+      "y": 5.3,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "children": [
+       {
+        "name": "Icons",
+        "type": "INSTANCE",
+        "id": "3557:40194",
+        "w": 9.4,
+        "h": 9.4,
+        "x": 0,
+        "y": 1.5,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "component": "Icons",
+        "variant": {
+         "Name": "plus"
+        },
+        "componentKey": "ef4554506f429912a7b6ed56438f3326c6971ef2",
+        "mainId": "3527:18641",
+        "props": {}
+       }
+      ]
+     },
+     {
+      "name": "Label",
+      "type": "TEXT",
+      "id": "3557:40196",
+      "w": 86,
+      "h": 15,
+      "x": 16.2,
+      "y": 4,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "Add your event",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 12,
+        "lineHeight": "15px",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "6378f04591d224f8ac2301a41d19a9581ddb094c",
+    "variantProperties": {
+     "Type": "Add your event",
+     "Label": "On"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Type=Add your event, Label=Off",
+   "variantProperties": {
+    "Type": "Add your event",
+    "Label": "Off"
+   },
+   "id": "3557:40197",
+   "key": "cd8b3aa55ec8ac9e11756ec780f91bc16112d42a",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40197",
+   "width": 17.4,
+   "height": 23,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 2.799999952316284,
+    "pad": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "FIXED"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#0A5962",
+     "variable": "Colors/color/theme/primary-dark"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/upcoming-events-header-button--add-your-event-off.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Type=Add your event, Label=Off",
+    "type": "COMPONENT",
+    "id": "3557:40197",
+    "w": 17.4,
+    "h": 23,
+    "x": 365.4,
+    "y": 20,
+    "sizing": {
+     "h": "HUG",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 2.799999952316284,
+     "pad": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#0A5962",
+      "variable": "Colors/color/theme/primary-dark"
+     }
+    ],
+    "children": [
+     {
+      "name": "Icon",
+      "type": "FRAME",
+      "id": "3557:40198",
+      "w": 9.4,
+      "h": 12.5,
+      "x": 4,
+      "y": 5.3,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "children": [
+       {
+        "name": "Icons",
+        "type": "INSTANCE",
+        "id": "3557:40199",
+        "w": 9.4,
+        "h": 9.4,
+        "x": 0,
+        "y": 1.5,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "component": "Icons",
+        "variant": {
+         "Name": "plus"
+        },
+        "componentKey": "ef4554506f429912a7b6ed56438f3326c6971ef2",
+        "mainId": "3527:18641",
+        "props": {}
+       }
+      ]
+     },
+     {
+      "name": "Label",
+      "type": "TEXT",
+      "id": "3557:40201",
+      "w": 86,
+      "h": 15,
+      "x": 16.2,
+      "y": 4,
+      "hidden": true,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "text": "Add your event",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 12,
+        "lineHeight": "15px",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "cd8b3aa55ec8ac9e11756ec780f91bc16112d42a",
+    "variantProperties": {
+     "Type": "Add your event",
+     "Label": "Off"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Label",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 12,
+   "lineHeight": "15px",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#FFFFFF",
+   "token": null,
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "See All Events",
+   "variants": [
+    "Type=See All Events, Label=On",
+    "Type=See All Events, Label=Off",
+    "Type=Add your event, Label=On",
+    "Type=Add your event, Label=Off"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Type=See All Events, Label=On",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#0A5962",
+   "token": "Colors/color/theme/primary-dark",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Type=See All Events, Label=Off",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#0A5962",
+   "token": "Colors/color/theme/primary-dark",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Type=Add your event, Label=On",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#0A5962",
+   "token": "Colors/color/theme/primary-dark",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Type=Add your event, Label=Off",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#0A5962",
+   "token": "Colors/color/theme/primary-dark",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Type=See All Events, Label=On: 100×23, horizontal gap 2.8 pad 4/4/4/4 main MIN cross CENTER — renders at 768, 1024, 1100, 1280",
+  "Type=See All Events, Label=Off: 19.2×23, horizontal gap 2.8 pad 4/4/4/4 main MIN cross CENTER — renders at 340, 360",
+  "Type=Add your event, Label=On: 106.2×23, horizontal gap 2.8 pad 4/4/4/4 main MIN cross CENTER — renders at 768, 1024, 1100, 1280",
+  "Type=Add your event, Label=Off: 17.4×23, horizontal gap 2.8 pad 4/4/4/4 main MIN cross CENTER — renders at 340, 360"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "4 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×4."
+ ],
+ "skeleton": "upcoming-events-header-button.html",
+ "exported": "2026-10-07"
+}

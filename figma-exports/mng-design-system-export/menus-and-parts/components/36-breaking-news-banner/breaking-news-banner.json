@@ -1,0 +1,1207 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "menus-and-parts",
+ "name": "Breaking News Banner",
+ "slug": "breaking-news-banner",
+ "order": 36,
+ "typeLabel": "Component · 3 variants",
+ "description": null,
+ "designerNotes": [
+  "Breaking News Banner — Responsive Breakpoints"
+ ],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Menus and Parts",
+  "path": "Frame 12800 ▸ Frame 416 ▸ Frame 12804",
+  "mainId": "506:5632",
+  "mainKey": "fac66df253d4a1f179dbe7a4229be9f3dadd7a46",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=506-5632",
+  "variants": [
+   {
+    "label": "Property 1=Mobile",
+    "id": "538:5932",
+    "key": "d7086886f23704ca68569620e50dfad015544b54",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=538-5932"
+   },
+   {
+    "label": "Property 1=Tablet",
+    "id": "3477:63041",
+    "key": "47f13036170d46216df4ae6d653ea59d70e2fd2e",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3477-63041"
+   },
+   {
+    "label": "Property 1=Desktop",
+    "id": "506:5623",
+    "key": "1183d89f870acf2e091372d2da8a6323ce7a140f",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=506-5623"
+   }
+  ]
+ },
+ "properties": {
+  "Property 1": {
+   "type": "VARIANT",
+   "default": "Mobile",
+   "options": [
+    "Desktop",
+    "Mobile",
+    "Tablet"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [],
+  "perVariant": [
+   {
+    "label": "Property 1=Mobile",
+    "id": "538:5932",
+    "templatesDirect": {
+     "Mobile HomePage": 1,
+     "340 HomePage": 1
+    },
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {
+     "Section Front ▸ Frame 11639": 2
+    },
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   },
+   {
+    "label": "Property 1=Tablet",
+    "id": "3477:63041",
+    "templatesDirect": {
+     "768 HomePage": 1
+    },
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "768"
+    ]
+   },
+   {
+    "label": "Property 1=Desktop",
+    "id": "506:5623",
+    "templatesDirect": {
+     "Desktop HomePage": 1,
+     "1024 HomePage": 1,
+     "1100 HomePage": 1
+    },
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {
+     "Section Front ▸ Frame 11639": 2,
+     "Article Page ▸ Frame 11672": 2
+    },
+    "breakpoints": [
+     "1024",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Icons",
+    "count": 1,
+    "inExport": false,
+    "section": null,
+    "path": null
+   }
+  ],
+  "builtInto": []
+ },
+ "variants": [
+  {
+   "label": "Property 1=Mobile",
+   "variantProperties": {
+    "Property 1": "Mobile"
+   },
+   "id": "538:5932",
+   "key": "d7086886f23704ca68569620e50dfad015544b54",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=538-5932",
+   "width": 375,
+   "height": 99,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 12,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/breaking-news-banner--mobile.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Property 1=Mobile",
+    "type": "COMPONENT",
+    "id": "538:5932",
+    "w": 375,
+    "h": 99,
+    "x": 16,
+    "y": 27,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 12,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Breaking News Banner",
+      "type": "FRAME",
+      "id": "538:5933",
+      "w": 375,
+      "h": 99,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 12,
+       "pad": [
+        5,
+        10,
+        5,
+        10
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFEA00",
+        "variable": "Colors/color/theme/secondary"
+       }
+      ],
+      "children": [
+       {
+        "name": "Content",
+        "type": "FRAME",
+        "id": "538:5934",
+        "w": 327,
+        "h": 89,
+        "x": 10,
+        "y": 5,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "MIN"
+        },
+        "children": [
+         {
+          "name": "Title",
+          "type": "FRAME",
+          "id": "538:5970",
+          "w": 150,
+          "h": 23,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Breaking News",
+            "type": "TEXT",
+            "id": "538:5935",
+            "w": 150,
+            "h": 23,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Breaking News",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Bold",
+              "size": 18,
+              "lineHeight": "22.65px",
+              "case": "UPPER",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
+               }
+              ],
+              "textStyle": "Breaking News/Title"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Body",
+          "type": "FRAME",
+          "id": "538:5971",
+          "w": 327,
+          "h": 44,
+          "x": 0,
+          "y": 23,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Breaking News Headline will wrap until it goes forever as long as it is needed to go.",
+            "type": "TEXT",
+            "id": "538:5936",
+            "w": 327,
+            "h": 44,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "text": "Breaking News Headline will wrap until it goes forever as long as it is needed to go. ",
+            "autoResize": "HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Serif",
+              "weight": "Regular",
+              "size": 16,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
+               }
+              ],
+              "textStyle": "Breaking News/Item"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "September 23, 2025 at 12:34 pm",
+          "type": "TEXT",
+          "id": "582:9153",
+          "w": 244,
+          "h": 22,
+          "x": 0,
+          "y": 67,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "September 23, 2025 at 12:34 pm",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#0A0908",
+              "variable": "Colors/color/theme/near-black"
+             }
+            ],
+            "textStyle": "Breaking News/Meta"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Icons",
+        "type": "INSTANCE",
+        "id": "538:5937",
+        "w": 16,
+        "h": 16,
+        "x": 349,
+        "y": 41.5,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "component": "Icons",
+        "variant": {
+         "Name": "close"
+        },
+        "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
+        "mainId": "3527:18608",
+        "props": {}
+       }
+      ]
+     }
+    ],
+    "key": "d7086886f23704ca68569620e50dfad015544b54",
+    "variantProperties": {
+     "Property 1": "Mobile"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Property 1=Tablet",
+   "variantProperties": {
+    "Property 1": "Tablet"
+   },
+   "id": "3477:63041",
+   "key": "47f13036170d46216df4ae6d653ea59d70e2fd2e",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3477-63041",
+   "width": 768,
+   "height": 77,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 12,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/breaking-news-banner--tablet.png",
+   "breakpoints": [
+    "768"
+   ],
+   "layerTree": {
+    "name": "Property 1=Tablet",
+    "type": "COMPONENT",
+    "id": "3477:63041",
+    "w": 768,
+    "h": 77,
+    "x": 407,
+    "y": 38,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 12,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Breaking News Banner",
+      "type": "FRAME",
+      "id": "3477:63042",
+      "w": 768,
+      "h": 77,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 12,
+       "pad": [
+        5,
+        10,
+        5,
+        10
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFEA00",
+        "variable": "Colors/color/theme/secondary"
+       }
+      ],
+      "children": [
+       {
+        "name": "Content",
+        "type": "FRAME",
+        "id": "3477:63043",
+        "w": 720,
+        "h": 67,
+        "x": 10,
+        "y": 5,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "MIN"
+        },
+        "children": [
+         {
+          "name": "Title",
+          "type": "FRAME",
+          "id": "3477:63044",
+          "w": 150,
+          "h": 23,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Breaking News",
+            "type": "TEXT",
+            "id": "3477:63045",
+            "w": 150,
+            "h": 23,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Breaking News",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Bold",
+              "size": 18,
+              "lineHeight": "22.65px",
+              "case": "UPPER",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
+               }
+              ],
+              "textStyle": "Breaking News/Title"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Body",
+          "type": "FRAME",
+          "id": "3477:63046",
+          "w": 720,
+          "h": 22,
+          "x": 0,
+          "y": 23,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Breaking News Headline will wrap until it goes forever as long as it is needed to go.",
+            "type": "TEXT",
+            "id": "3477:63047",
+            "w": 720,
+            "h": 22,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "text": "Breaking News Headline will wrap until it goes forever as long as it is needed to go. ",
+            "autoResize": "HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Serif",
+              "weight": "Regular",
+              "size": 16,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
+               }
+              ],
+              "textStyle": "Breaking News/Item"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "September 23, 2025 at 12:34 pm",
+          "type": "TEXT",
+          "id": "3477:63048",
+          "w": 244,
+          "h": 22,
+          "x": 0,
+          "y": 45,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "text": "September 23, 2025 at 12:34 pm",
+          "autoResize": "WIDTH_AND_HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#0A0908",
+              "variable": "Colors/color/theme/near-black"
+             }
+            ],
+            "textStyle": "Breaking News/Meta"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Icons",
+        "type": "INSTANCE",
+        "id": "3477:63049",
+        "w": 16,
+        "h": 16,
+        "x": 742,
+        "y": 30.5,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "component": "Icons",
+        "variant": {
+         "Name": "close"
+        },
+        "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
+        "mainId": "3527:18608",
+        "props": {}
+       }
+      ]
+     }
+    ],
+    "key": "47f13036170d46216df4ae6d653ea59d70e2fd2e",
+    "variantProperties": {
+     "Property 1": "Tablet"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Property 1=Desktop",
+   "variantProperties": {
+    "Property 1": "Desktop"
+   },
+   "id": "506:5623",
+   "key": "1183d89f870acf2e091372d2da8a6323ce7a140f",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=506-5623",
+   "width": 1200,
+   "height": 33,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FILL",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/breaking-news-banner--desktop.png",
+   "breakpoints": [
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Property 1=Desktop",
+    "type": "COMPONENT",
+    "id": "506:5623",
+    "w": 1200,
+    "h": 33,
+    "x": 1191,
+    "y": 60,
+    "sizing": {
+     "h": "FILL",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Breaking News Banner",
+      "type": "FRAME",
+      "id": "538:5705",
+      "w": 1200,
+      "h": 33,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 12,
+       "pad": [
+        5,
+        10,
+        5,
+        10
+       ],
+       "main": "SPACE_BETWEEN",
+       "cross": "CENTER"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFEA00",
+        "variable": "Colors/color/theme/secondary"
+       }
+      ],
+      "children": [
+       {
+        "name": "Content",
+        "type": "FRAME",
+        "id": "538:5706",
+        "w": 615,
+        "h": 23,
+        "x": 10,
+        "y": 5,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Title",
+          "type": "FRAME",
+          "id": "538:5940",
+          "w": 150,
+          "h": 23,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Breaking News",
+            "type": "TEXT",
+            "id": "538:5707",
+            "w": 150,
+            "h": 23,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Breaking News",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Bold",
+              "size": 18,
+              "lineHeight": "22.65px",
+              "case": "UPPER",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
+               }
+              ],
+              "textStyle": "Breaking News/Title"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Body",
+          "type": "FRAME",
+          "id": "538:5953",
+          "w": 189,
+          "h": 22,
+          "x": 166,
+          "y": 0.5,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Breaking News Headline",
+            "type": "TEXT",
+            "id": "538:5708",
+            "w": 189,
+            "h": 22,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Breaking News Headline",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Serif",
+              "weight": "Regular",
+              "size": 16,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
+               }
+              ],
+              "textStyle": "Breaking News/Item"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Body",
+          "type": "FRAME",
+          "id": "582:9119",
+          "w": 244,
+          "h": 22,
+          "x": 371,
+          "y": 0.5,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "September 23, 2025 at 12:34 pm",
+            "type": "TEXT",
+            "id": "582:9120",
+            "w": 244,
+            "h": 22,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "September 23, 2025 at 12:34 pm",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Regular",
+              "size": 16,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
+               }
+              ],
+              "textStyle": "Breaking News/Meta"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Icons",
+        "type": "INSTANCE",
+        "id": "538:5466",
+        "w": 16,
+        "h": 16,
+        "x": 1174,
+        "y": 8.5,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "component": "Icons",
+        "variant": {
+         "Name": "close"
+        },
+        "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
+        "mainId": "3527:18608",
+        "props": {}
+       }
+      ]
+     }
+    ],
+    "key": "1183d89f870acf2e091372d2da8a6323ce7a140f",
+    "variantProperties": {
+     "Property 1": "Desktop"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Breaking News",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 18,
+   "lineHeight": "22.65px",
+   "letterSpacing": null,
+   "case": "UPPER",
+   "decoration": null,
+   "color": "#0A0908",
+   "token": "Colors/color/theme/near-black",
+   "typeToken": null,
+   "textStyle": "Breaking News/Title",
+   "truncate": null,
+   "sample": "Breaking News",
+   "variants": [
+    "Property 1=Mobile",
+    "Property 1=Tablet",
+    "Property 1=Desktop"
+   ]
+  },
+  {
+   "layer": "Breaking News Headline will wrap until it goes forever as long as it is needed to go.",
+   "font": "Noto Serif",
+   "weight": "Regular",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#0A0908",
+   "token": "Colors/color/theme/near-black",
+   "typeToken": null,
+   "textStyle": "Breaking News/Item",
+   "truncate": null,
+   "sample": "Breaking News Headline will wrap until it goes for",
+   "variants": [
+    "Property 1=Mobile",
+    "Property 1=Tablet"
+   ]
+  },
+  {
+   "layer": "September 23, 2025 at 12:34 pm",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#0A0908",
+   "token": "Colors/color/theme/near-black",
+   "typeToken": null,
+   "textStyle": "Breaking News/Meta",
+   "truncate": null,
+   "sample": "September 23, 2025 at 12:34 pm",
+   "variants": [
+    "Property 1=Mobile",
+    "Property 1=Tablet",
+    "Property 1=Desktop"
+   ]
+  },
+  {
+   "layer": "Breaking News Headline",
+   "font": "Noto Serif",
+   "weight": "Regular",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#0A0908",
+   "token": "Colors/color/theme/near-black",
+   "typeToken": null,
+   "textStyle": "Breaking News/Item",
+   "truncate": null,
+   "sample": "Breaking News Headline",
+   "variants": [
+    "Property 1=Desktop"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Breaking News Banner",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFEA00",
+   "token": "Colors/color/theme/secondary",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Property 1=Mobile: 375×99, horizontal gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360",
+  "Property 1=Tablet: 768×77, horizontal gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 768",
+  "Property 1=Desktop: 1200×33, horizontal gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 1024, 1100, 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [],
+ "skeleton": "breaking-news-banner.html",
+ "exported": "2026-10-07"
+}

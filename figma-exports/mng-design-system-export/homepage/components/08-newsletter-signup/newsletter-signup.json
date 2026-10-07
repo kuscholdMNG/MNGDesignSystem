@@ -59,8 +59,7 @@
    "Mobile HomePage"
   ],
   "builtInto": [
-   "Latest Headlines",
-   "TOP ZONE Block"
+   "Latest Headlines"
   ],
   "perVariant": [
    {
@@ -94,20 +93,18 @@
     "id": "3336:44763",
     "templatesDirect": {},
     "templatesVia": {
-     "1100 HomePage": [
-      "TOP ZONE Block"
-     ],
      "Desktop HomePage": [
       "Latest Headlines"
      ],
+     "1100 HomePage": [
+      "Latest Headlines"
+     ],
      "1024 HomePage": [
-      "TOP ZONE Block"
+      "Latest Headlines"
      ]
     },
     "inComponents": {
-     "TOP ZONE Block / Device=1100": 1,
-     "Latest Headlines / Device=Desktop": 1,
-     "TOP ZONE Block / Device=1024": 1
+     "Latest Headlines / Device=Desktop": 1
     },
     "other": {},
     "breakpoints": [
@@ -132,10 +129,6 @@
    {
     "name": "Latest Headlines",
     "path": "../../assemblies/09-latest-headlines/latest-headlines.md"
-   },
-   {
-    "name": "TOP ZONE Block",
-    "path": "../../assemblies/12-top-zone-block/top-zone-block.md"
    }
   ]
  },

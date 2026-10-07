@@ -66,17 +66,17 @@
      "1100 HomePage": [
       "Section Rail Card"
      ],
-     "768 HomePage": [
+     "Desktop HomePage": [
       "Section Rail Card"
      ],
-     "Desktop HomePage": [
+     "768 HomePage": [
       "Section Rail Card"
      ]
     },
     "inComponents": {
      "Section Rail Card / Device=1100, Layout=Wide": 1,
-     "Section Rail Card / Device=Tablet, Layout=Wide": 1,
-     "Section Rail Card / Device=1280, Layout=Wide": 1
+     "Section Rail Card / Device=1280, Layout=Wide": 1,
+     "Section Rail Card / Device=Tablet, Layout=Wide": 1
     },
     "other": {},
     "breakpoints": [

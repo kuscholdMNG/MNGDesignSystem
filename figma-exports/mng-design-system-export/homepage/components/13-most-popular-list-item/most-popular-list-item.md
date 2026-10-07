@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Most Popular List Item** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Blueconic Block (Most Popular)), 768 HomePage (via Blueconic Block (Most Popular)), Mobile HomePage (via Blueconic Block (Most Popular)), 340 HomePage (via Blueconic Block (Most Popular)), 1100 HomePage (via Blueconic Block (Most Popular)), Desktop HomePage (via Blueconic Block (Most Popular)); nested inside: Blueconic Block (Most Popular) / Device=1024 ×10, Blueconic Block (Most Popular) / Device=Desktop ×10, Blueconic Block (Most Popular) / Device=Tablet ×10, Blueconic Block (Most Popular) / Device=Mobile ×10, Blueconic Block (Most Popular) / Device=1100 ×10, Blueconic Block (Most Popular) / Device=1280 ×10
+- **Most Popular List Item** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Blueconic Block (Most Popular)), Mobile HomePage (via Blueconic Block (Most Popular)), 340 HomePage (via Blueconic Block (Most Popular)), 1100 HomePage (via Blueconic Block (Most Popular)), Desktop HomePage (via Blueconic Block (Most Popular)), 768 HomePage (via Blueconic Block (Most Popular)); nested inside: Blueconic Block (Most Popular) / Device=1024 ×10, Blueconic Block (Most Popular) / Device=Desktop ×10, Blueconic Block (Most Popular) / Device=Mobile ×10, Blueconic Block (Most Popular) / Device=1100 ×10, Blueconic Block (Most Popular) / Device=1280 ×10, Blueconic Block (Most Popular) / Device=Tablet ×10
 
 ## Breakpoints
 

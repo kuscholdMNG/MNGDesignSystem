@@ -1,0 +1,286 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Date Picker Day",
+ "slug": "date-picker-day",
+ "order": 24,
+ "typeLabel": "Component · Standalone",
+ "description": "Upcoming Events atom. 50×50: day 15/20 uppercase, date 20/19, #3B3B3B, no fill or border.",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3395:51889",
+  "mainKey": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3395-51889",
+  "variants": [
+   {
+    "label": "Date Picker Day",
+    "id": "3395:51889",
+    "key": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3395-51889"
+   }
+  ]
+ },
+ "properties": {},
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Upcoming Events Widget"
+  ],
+  "perVariant": [
+   {
+    "label": "Date Picker Day",
+    "id": "3395:51889",
+    "templatesDirect": {},
+    "templatesVia": {
+     "Desktop HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "1024 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "768 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "1100 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "Mobile HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "340 HomePage": [
+      "Upcoming Events Widget"
+     ]
+    },
+    "inComponents": {
+     "Upcoming Events Widget / Device=Desktop": 18,
+     "Upcoming Events Widget / Device=1024": 12,
+     "Upcoming Events Widget / Device=Tablet": 7,
+     "Upcoming Events Widget / Device=1100": 14,
+     "Upcoming Events Widget / Device=Mobile": 5
+    },
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [],
+  "builtInto": [
+   {
+    "name": "Upcoming Events Widget",
+    "path": "../../assemblies/29-upcoming-events-widget/upcoming-events-widget.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Date Picker Day",
+   "variantProperties": null,
+   "id": "3395:51889",
+   "key": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3395-51889",
+   "width": 50,
+   "height": 50,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     6,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/date-picker-day.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Date Picker Day",
+    "type": "COMPONENT",
+    "id": "3395:51889",
+    "w": 50,
+    "h": 50,
+    "x": 0,
+    "y": 0,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      6,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "children": [
+     {
+      "name": "Mon",
+      "type": "TEXT",
+      "id": "3395:51890",
+      "w": 37,
+      "h": 20,
+      "x": 6.5,
+      "y": 6,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "Mon",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 15,
+        "lineHeight": "20px",
+        "case": "UPPER",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#3B3B3B"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     },
+     {
+      "name": "14",
+      "type": "TEXT",
+      "id": "3395:51891",
+      "w": 23,
+      "h": 19,
+      "x": 13.5,
+      "y": 26,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "14",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 20,
+        "lineHeight": "19px",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#3B3B3B"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     }
+    ],
+    "key": "7b0015814ba0dd09c777e8f126ceb11608e6bf0d",
+    "variantProperties": null,
+    "componentDescription": "Upcoming Events atom. 50×50, day 15/20 uppercase + date 20/19, #3B3B3B, no fill or border."
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Mon",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 15,
+   "lineHeight": "20px",
+   "letterSpacing": null,
+   "case": "UPPER",
+   "decoration": null,
+   "color": "#3B3B3B",
+   "token": null,
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Mon",
+   "variants": [
+    "Date Picker Day"
+   ]
+  },
+  {
+   "layer": "14",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 20,
+   "lineHeight": "19px",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#3B3B3B",
+   "token": null,
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "14",
+   "variants": [
+    "Date Picker Day"
+   ]
+  }
+ ],
+ "colors": [],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Date Picker Day: 50×50, vertical gap 0 pad 6/0/0/0 main MIN cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "2 solid paints are hard-coded (not bound to a color variable): #3B3B3B ×2."
+ ],
+ "skeleton": "date-picker-day.html",
+ "exported": "2026-10-07"
+}

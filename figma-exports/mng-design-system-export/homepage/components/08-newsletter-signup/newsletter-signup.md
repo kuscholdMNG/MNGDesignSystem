@@ -9,7 +9,7 @@ component_key: 84f47333e168c6d47184245169a01ad2d8be9958
 variants: 2
 breakpoints: [340, 360, 768, 1024, 1100, 1280]
 built_from: ["Button Primary"]
-built_into: ["Latest Headlines", "TOP ZONE Block"]
+built_into: ["Latest Headlines"]
 spec_json: newsletter-signup.json
 skeleton: newsletter-signup.html
 exported: 2026-10-07
@@ -40,7 +40,7 @@ exported: 2026-10-07
 ## Where it is used
 
 - **Device=Mobile** — breakpoints: 340, 360, 768; templates (via assembly): 768 HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Mobile ×1
-- **Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via TOP ZONE Block), Desktop HomePage (via Latest Headlines), 1024 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=1100 ×1, Latest Headlines / Device=Desktop ×1, TOP ZONE Block / Device=1024 ×1
+- **Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via Latest Headlines), 1100 HomePage (via Latest Headlines), 1024 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Desktop ×1
 
 ## Breakpoints
 
@@ -67,7 +67,6 @@ exported: 2026-10-07
 **Built into:**
 
 - [Latest Headlines](../../assemblies/09-latest-headlines/latest-headlines.md)
-- [TOP ZONE Block](../../assemblies/12-top-zone-block/top-zone-block.md)
 
 ## Anatomy
 

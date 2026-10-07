@@ -1,0 +1,328 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "homepage",
+ "name": "Upcoming Events Side Arrow",
+ "slug": "upcoming-events-side-arrow",
+ "order": 28,
+ "typeLabel": "Component · 2 variants",
+ "description": "Direction = Left, Right. 20×20, #3B3B3B, at the card-row edges (y104).",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Homepage",
+  "path": null,
+  "mainId": "3557:40209",
+  "mainKey": "6423abf91ade006adc3cfbb23e6175da99435e60",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40209",
+  "variants": [
+   {
+    "label": "Direction=Left",
+    "id": "3557:40203",
+    "key": "7cecbc1dfc30089aaf1b66b18f09b805cfad868e",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40203"
+   },
+   {
+    "label": "Direction=Right",
+    "id": "3557:40206",
+    "key": "6efc3e17906043563d80ce8c5c6d7a59836131f3",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40206"
+   }
+  ]
+ },
+ "properties": {
+  "Direction": {
+   "type": "VARIANT",
+   "default": "Left",
+   "options": [
+    "Left",
+    "Right"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
+   "340 HomePage",
+   "768 HomePage",
+   "Desktop HomePage",
+   "Mobile HomePage"
+  ],
+  "builtInto": [
+   "Upcoming Events Widget"
+  ],
+  "perVariant": [
+   {
+    "label": "Direction=Left",
+    "id": "3557:40203",
+    "templatesDirect": {},
+    "templatesVia": {
+     "1100 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "1024 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "Mobile HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "340 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "768 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "Desktop HomePage": [
+      "Upcoming Events Widget"
+     ]
+    },
+    "inComponents": {
+     "Upcoming Events Widget / Device=1100": 1,
+     "Upcoming Events Widget / Device=1024": 1,
+     "Upcoming Events Widget / Device=Mobile": 1,
+     "Upcoming Events Widget / Device=Tablet": 1,
+     "Upcoming Events Widget / Device=Desktop": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Direction=Right",
+    "id": "3557:40206",
+    "templatesDirect": {},
+    "templatesVia": {
+     "1024 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "Mobile HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "340 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "768 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "1100 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "Desktop HomePage": [
+      "Upcoming Events Widget"
+     ]
+    },
+    "inComponents": {
+     "Upcoming Events Widget / Device=1024": 1,
+     "Upcoming Events Widget / Device=Mobile": 1,
+     "Upcoming Events Widget / Device=Tablet": 1,
+     "Upcoming Events Widget / Device=1100": 1,
+     "Upcoming Events Widget / Device=Desktop": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360",
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Icons",
+    "count": 1,
+    "inExport": false,
+    "section": null,
+    "path": null
+   }
+  ],
+  "builtInto": [
+   {
+    "name": "Upcoming Events Widget",
+    "path": "../../assemblies/29-upcoming-events-widget/upcoming-events-widget.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Direction=Left",
+   "variantProperties": {
+    "Direction": "Left"
+   },
+   "id": "3557:40203",
+   "key": "7cecbc1dfc30089aaf1b66b18f09b805cfad868e",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40203",
+   "width": 20,
+   "height": 20,
+   "layout": null,
+   "sizing": null,
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/upcoming-events-side-arrow--left.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Direction=Left",
+    "type": "COMPONENT",
+    "id": "3557:40203",
+    "w": 20,
+    "h": 20,
+    "x": 20,
+    "y": 20,
+    "children": [
+     {
+      "name": "Icons",
+      "type": "INSTANCE",
+      "id": "3557:40204",
+      "w": 16,
+      "h": 16,
+      "x": 2,
+      "y": 2,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        3,
+        0,
+        3
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "component": "Icons",
+      "variant": {
+       "Name": "arrow-left2"
+      },
+      "componentKey": "e78445e15fda5ac496282c2f656bb535bd00a7e8",
+      "mainId": "3527:18590",
+      "props": {}
+     }
+    ],
+    "key": "7cecbc1dfc30089aaf1b66b18f09b805cfad868e",
+    "variantProperties": {
+     "Direction": "Left"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Direction=Right",
+   "variantProperties": {
+    "Direction": "Right"
+   },
+   "id": "3557:40206",
+   "key": "6efc3e17906043563d80ce8c5c6d7a59836131f3",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3557-40206",
+   "width": 20,
+   "height": 20,
+   "layout": null,
+   "sizing": null,
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/upcoming-events-side-arrow--right.png",
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Direction=Right",
+    "type": "COMPONENT",
+    "id": "3557:40206",
+    "w": 20,
+    "h": 20,
+    "x": 80,
+    "y": 20,
+    "children": [
+     {
+      "name": "Icons",
+      "type": "INSTANCE",
+      "id": "3557:40207",
+      "w": 16,
+      "h": 16,
+      "x": 2,
+      "y": 2,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        3,
+        0,
+        3
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "component": "Icons",
+      "variant": {
+       "Name": "arrow-right2"
+      },
+      "componentKey": "5f9ce51d28e573815467abbfbd10b4228483ee32",
+      "mainId": "3527:18592",
+      "props": {}
+     }
+    ],
+    "key": "6efc3e17906043563d80ce8c5c6d7a59836131f3",
+    "variantProperties": {
+     "Direction": "Right"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [],
+ "colors": [],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Direction=Left: 20×20 — renders at 340, 360, 768, 1024, 1100, 1280",
+  "Direction=Right: 20×20 — renders at 340, 360, 768, 1024, 1100, 1280"
+ ],
+ "productionRefs": [],
+ "knownIssues": [],
+ "skeleton": "upcoming-events-side-arrow.html",
+ "exported": "2026-10-07"
+}

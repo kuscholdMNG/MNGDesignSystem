@@ -1,0 +1,968 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "menus-and-parts",
+ "name": "AlertLevel",
+ "slug": "alertlevel",
+ "order": 33,
+ "typeLabel": "Component · 8 variants",
+ "description": "Size=Large is for ReaderDashboard>Profile \nSize=Small is for Account Dropdown Menu",
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
+  "fileName": "WordPress Elements",
+  "page": "Menus and Parts",
+  "path": "Frame 12800 ▸ Frame 416 ▸ Frame 11820 ▸ Frame 12776 ▸ Frame 12636 ▸ User Status ▸ Frame 12757 ▸ Frame 12691",
+  "mainId": "456:5683",
+  "mainKey": "9196a8bca6b630f7ea65099a7307f7429a80d2c2",
+  "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5683",
+  "variants": [
+   {
+    "label": "Level=none, Size=Small",
+    "id": "456:5684",
+    "key": "d5de3a59c2ae4fed76b49fabe4b670a4bb12d14b",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5684"
+   },
+   {
+    "label": "Level=low, Size=Small",
+    "id": "456:5687",
+    "key": "6ccf659cd92777ab1f4b6a1869301faea5217cae",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5687"
+   },
+   {
+    "label": "Level=medium, Size=Small",
+    "id": "456:5690",
+    "key": "2e85efb4c15492fa006b170803ad299d413c5231",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5690"
+   },
+   {
+    "label": "Level=high, Size=Small",
+    "id": "456:5693",
+    "key": "c3d2feaa9f85a9720328e32ed4b6f12c67ea9de0",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5693"
+   },
+   {
+    "label": "Level=none, Size=Large",
+    "id": "456:5696",
+    "key": "d16b62ffa5a18e894545b1ddc7409f047443ac69",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5696"
+   },
+   {
+    "label": "Level=low, Size=Large",
+    "id": "456:5699",
+    "key": "8036f8bc3c34f593158947a5f8320e1afc2a9e48",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5699"
+   },
+   {
+    "label": "Level=medium, Size=Large",
+    "id": "456:5702",
+    "key": "7a90f50a5e533bf741e63a7c280d57e4273ba09b",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5702"
+   },
+   {
+    "label": "Level=high, Size=Large",
+    "id": "456:5705",
+    "key": "85e1e2d552a11444bd1db3286ee61b9715e4a842",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5705"
+   }
+  ]
+ },
+ "properties": {
+  "Level": {
+   "type": "VARIANT",
+   "default": "none",
+   "options": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ]
+  },
+  "Size": {
+   "type": "VARIANT",
+   "default": "Small",
+   "options": [
+    "Small",
+    "Large"
+   ]
+  }
+ },
+ "breakpoints": [],
+ "usage": {
+  "templates": [],
+  "builtInto": [
+   "UserPic"
+  ],
+  "perVariant": [
+   {
+    "label": "Level=none, Size=Small",
+    "id": "456:5684",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {
+     "UserPic / Size=Small, Status=Default": 1,
+     "UserPic / Size=Medium, Status=Default": 1
+    },
+    "other": {},
+    "breakpoints": []
+   },
+   {
+    "label": "Level=low, Size=Small",
+    "id": "456:5687",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {
+     "UserPic / Size=Medium, Status=Active": 2,
+     "UserPic / Size=Small, Status=Default": 1,
+     "UserPic / Size=Medium, Status=Default": 1,
+     "UserPic / Size=Small, Status=Active": 2
+    },
+    "other": {},
+    "breakpoints": []
+   },
+   {
+    "label": "Level=medium, Size=Small",
+    "id": "456:5690",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": []
+   },
+   {
+    "label": "Level=high, Size=Small",
+    "id": "456:5693",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": []
+   },
+   {
+    "label": "Level=none, Size=Large",
+    "id": "456:5696",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {
+     "UserPic / Size=Large, Status=Default": 1
+    },
+    "other": {},
+    "breakpoints": []
+   },
+   {
+    "label": "Level=low, Size=Large",
+    "id": "456:5699",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {
+     "UserPic / Size=Large, Status=Active": 2,
+     "UserPic / Size=Large, Status=Default": 1
+    },
+    "other": {},
+    "breakpoints": []
+   },
+   {
+    "label": "Level=medium, Size=Large",
+    "id": "456:5702",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": []
+   },
+   {
+    "label": "Level=high, Size=Large",
+    "id": "456:5705",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": []
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [],
+  "builtInto": [
+   {
+    "name": "UserPic",
+    "path": "../../assemblies/39-userpic/userpic.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Level=none, Size=Small",
+   "variantProperties": {
+    "Level": "none",
+    "Size": "Small"
+   },
+   "id": "456:5684",
+   "key": "d5de3a59c2ae4fed76b49fabe4b670a4bb12d14b",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5684",
+   "width": 8,
+   "height": 8,
+   "layout": null,
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/alertlevel--none-small.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Level=none, Size=Small",
+    "type": "COMPONENT",
+    "id": "456:5684",
+    "w": 8,
+    "h": 8,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "children": [
+     {
+      "name": "Indicator",
+      "type": "FRAME",
+      "id": "456:5685",
+      "w": 8,
+      "h": 8,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Dot",
+        "type": "ELLIPSE",
+        "id": "456:5686",
+        "w": 8,
+        "h": 8,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "opacity": 0,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#2E8000",
+          "variable": "Colors/color/feedback/low-success"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "d5de3a59c2ae4fed76b49fabe4b670a4bb12d14b",
+    "variantProperties": {
+     "Level": "none",
+     "Size": "Small"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Level=low, Size=Small",
+   "variantProperties": {
+    "Level": "low",
+    "Size": "Small"
+   },
+   "id": "456:5687",
+   "key": "6ccf659cd92777ab1f4b6a1869301faea5217cae",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5687",
+   "width": 8,
+   "height": 8,
+   "layout": null,
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/alertlevel--low-small.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Level=low, Size=Small",
+    "type": "COMPONENT",
+    "id": "456:5687",
+    "w": 8,
+    "h": 8,
+    "x": 32,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "children": [
+     {
+      "name": "Indicator",
+      "type": "FRAME",
+      "id": "456:5688",
+      "w": 8,
+      "h": 8,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Dot",
+        "type": "ELLIPSE",
+        "id": "456:5689",
+        "w": 8,
+        "h": 8,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#2E8000",
+          "variable": "Colors/color/feedback/low-success"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "6ccf659cd92777ab1f4b6a1869301faea5217cae",
+    "variantProperties": {
+     "Level": "low",
+     "Size": "Small"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Level=medium, Size=Small",
+   "variantProperties": {
+    "Level": "medium",
+    "Size": "Small"
+   },
+   "id": "456:5690",
+   "key": "2e85efb4c15492fa006b170803ad299d413c5231",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5690",
+   "width": 8,
+   "height": 8,
+   "layout": null,
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/alertlevel--medium-small.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Level=medium, Size=Small",
+    "type": "COMPONENT",
+    "id": "456:5690",
+    "w": 8,
+    "h": 8,
+    "x": 48,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "children": [
+     {
+      "name": "Indicator",
+      "type": "FRAME",
+      "id": "456:5691",
+      "w": 8,
+      "h": 8,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Dot",
+        "type": "ELLIPSE",
+        "id": "456:5692",
+        "w": 8,
+        "h": 8,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#856A00",
+          "variable": "Colors/color/feedback/medium"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "2e85efb4c15492fa006b170803ad299d413c5231",
+    "variantProperties": {
+     "Level": "medium",
+     "Size": "Small"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Level=high, Size=Small",
+   "variantProperties": {
+    "Level": "high",
+    "Size": "Small"
+   },
+   "id": "456:5693",
+   "key": "c3d2feaa9f85a9720328e32ed4b6f12c67ea9de0",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5693",
+   "width": 8,
+   "height": 8,
+   "layout": null,
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/alertlevel--high-small.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Level=high, Size=Small",
+    "type": "COMPONENT",
+    "id": "456:5693",
+    "w": 8,
+    "h": 8,
+    "x": 64,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "children": [
+     {
+      "name": "Indicator",
+      "type": "FRAME",
+      "id": "456:5694",
+      "w": 8,
+      "h": 8,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Dot",
+        "type": "ELLIPSE",
+        "id": "456:5695",
+        "w": 8,
+        "h": 8,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#CC2B27",
+          "variable": "Colors/color/feedback/high-error"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "c3d2feaa9f85a9720328e32ed4b6f12c67ea9de0",
+    "variantProperties": {
+     "Level": "high",
+     "Size": "Small"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Level=none, Size=Large",
+   "variantProperties": {
+    "Level": "none",
+    "Size": "Large"
+   },
+   "id": "456:5696",
+   "key": "d16b62ffa5a18e894545b1ddc7409f047443ac69",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5696",
+   "width": 16,
+   "height": 16,
+   "layout": null,
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/alertlevel--none-large.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Level=none, Size=Large",
+    "type": "COMPONENT",
+    "id": "456:5696",
+    "w": 16,
+    "h": 16,
+    "x": 80,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "children": [
+     {
+      "name": "Indicator",
+      "type": "FRAME",
+      "id": "456:5697",
+      "w": 16,
+      "h": 16,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Dot",
+        "type": "ELLIPSE",
+        "id": "456:5698",
+        "w": 16,
+        "h": 16,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "opacity": 0,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#2E8000",
+          "variable": "Colors/color/feedback/low-success"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "d16b62ffa5a18e894545b1ddc7409f047443ac69",
+    "variantProperties": {
+     "Level": "none",
+     "Size": "Large"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Level=low, Size=Large",
+   "variantProperties": {
+    "Level": "low",
+    "Size": "Large"
+   },
+   "id": "456:5699",
+   "key": "8036f8bc3c34f593158947a5f8320e1afc2a9e48",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5699",
+   "width": 16,
+   "height": 16,
+   "layout": null,
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/alertlevel--low-large.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Level=low, Size=Large",
+    "type": "COMPONENT",
+    "id": "456:5699",
+    "w": 16,
+    "h": 16,
+    "x": 24,
+    "y": 40,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "children": [
+     {
+      "name": "Indicator",
+      "type": "FRAME",
+      "id": "456:5700",
+      "w": 16,
+      "h": 16,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Dot",
+        "type": "ELLIPSE",
+        "id": "456:5701",
+        "w": 16,
+        "h": 16,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#2E8000",
+          "variable": "Colors/color/feedback/low-success"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "8036f8bc3c34f593158947a5f8320e1afc2a9e48",
+    "variantProperties": {
+     "Level": "low",
+     "Size": "Large"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Level=medium, Size=Large",
+   "variantProperties": {
+    "Level": "medium",
+    "Size": "Large"
+   },
+   "id": "456:5702",
+   "key": "7a90f50a5e533bf741e63a7c280d57e4273ba09b",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5702",
+   "width": 16,
+   "height": 16,
+   "layout": null,
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/alertlevel--medium-large.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Level=medium, Size=Large",
+    "type": "COMPONENT",
+    "id": "456:5702",
+    "w": 16,
+    "h": 16,
+    "x": 48,
+    "y": 40,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "children": [
+     {
+      "name": "Indicator",
+      "type": "FRAME",
+      "id": "456:5703",
+      "w": 16,
+      "h": 16,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Dot",
+        "type": "ELLIPSE",
+        "id": "456:5704",
+        "w": 16,
+        "h": 16,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#856A00",
+          "variable": "Colors/color/feedback/medium"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "7a90f50a5e533bf741e63a7c280d57e4273ba09b",
+    "variantProperties": {
+     "Level": "medium",
+     "Size": "Large"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Level=high, Size=Large",
+   "variantProperties": {
+    "Level": "high",
+    "Size": "Large"
+   },
+   "id": "456:5705",
+   "key": "85e1e2d552a11444bd1db3286ee61b9715e4a842",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5705",
+   "width": 16,
+   "height": 16,
+   "layout": null,
+   "sizing": {
+    "h": "FIXED",
+    "v": "FIXED"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/alertlevel--high-large.png",
+   "breakpoints": [],
+   "layerTree": {
+    "name": "Level=high, Size=Large",
+    "type": "COMPONENT",
+    "id": "456:5705",
+    "w": 16,
+    "h": 16,
+    "x": 72,
+    "y": 40,
+    "sizing": {
+     "h": "FIXED",
+     "v": "FIXED"
+    },
+    "children": [
+     {
+      "name": "Indicator",
+      "type": "FRAME",
+      "id": "456:5706",
+      "w": 16,
+      "h": 16,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "CENTER",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Dot",
+        "type": "ELLIPSE",
+        "id": "456:5707",
+        "w": 16,
+        "h": 16,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#CC2B27",
+          "variable": "Colors/color/feedback/high-error"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "85e1e2d552a11444bd1db3286ee61b9715e4a842",
+    "variantProperties": {
+     "Level": "high",
+     "Size": "Large"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [],
+ "colors": [
+  {
+   "layer": "Dot",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#2E8000",
+   "token": "Colors/color/feedback/low-success",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Dot",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#856A00",
+   "token": "Colors/color/feedback/medium",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Dot",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#CC2B27",
+   "token": "Colors/color/feedback/high-error",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Level=none, Size=Small: 8×8 — no breakpoint (not placed in a template)",
+  "Level=low, Size=Small: 8×8 — no breakpoint (not placed in a template)",
+  "Level=medium, Size=Small: 8×8 — no breakpoint (not placed in a template)",
+  "Level=high, Size=Small: 8×8 — no breakpoint (not placed in a template)",
+  "Level=none, Size=Large: 16×16 — no breakpoint (not placed in a template)",
+  "Level=low, Size=Large: 16×16 — no breakpoint (not placed in a template)",
+  "Level=medium, Size=Large: 16×16 — no breakpoint (not placed in a template)",
+  "Level=high, Size=Large: 16×16 — no breakpoint (not placed in a template)"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "4 of 8 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Level=medium, Size=Small`, `Level=high, Size=Small`, `Level=medium, Size=Large`, `Level=high, Size=Large`."
+ ],
+ "skeleton": "alertlevel.html",
+ "exported": "2026-10-07"
+}

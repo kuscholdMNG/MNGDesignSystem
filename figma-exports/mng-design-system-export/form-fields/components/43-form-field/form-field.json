@@ -1,0 +1,7552 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "component",
+ "group": "form-fields",
+ "name": "Form Field",
+ "slug": "form-field",
+ "order": 43,
+ "typeLabel": "Component · 10 variants",
+ "description": null,
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+  "fileName": "MNG Design System",
+  "page": "Form Fields | 2026.09.24",
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12911 ▸ Frame 12921 ▸ Frame 12912 ▸ Grid Content",
+  "mainId": "6963:6863",
+  "mainKey": "65f91c028cc42238d00387a53f812f839bf58969",
+  "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6963-6863",
+  "variants": [
+   {
+    "label": "Size=Desktop, State=Blank",
+    "id": "6962:6663",
+    "key": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6663"
+   },
+   {
+    "label": "Size=Mobile, State=Blank",
+    "id": "6962:6683",
+    "key": "3f929794d492ac59e2698f1f6f03f08d5f300068",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6683"
+   },
+   {
+    "label": "Size=Desktop, State=Filled",
+    "id": "6962:6703",
+    "key": "8a8927f4d4463a69d882546400ca307c27705ecb",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6703"
+   },
+   {
+    "label": "Size=Desktop, State=Focus",
+    "id": "6962:6723",
+    "key": "b45bfea1f5bf9d99f15502fd51b14ceb8cf8c627",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6723"
+   },
+   {
+    "label": "Size=Desktop, State=Error",
+    "id": "6962:6743",
+    "key": "e46f91b3b316cc72c63967053806eeaa2f5144e4",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6743"
+   },
+   {
+    "label": "Size=Desktop, State=Disabled",
+    "id": "6962:6763",
+    "key": "4c0fc4c01733aad7f72b7ca91acce3bacd3a0734",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6763"
+   },
+   {
+    "label": "Size=Mobile, State=Filled",
+    "id": "6962:6783",
+    "key": "a89ba9126bbe06b3f4a3d99ed66f3b95b61f4aa3",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6783"
+   },
+   {
+    "label": "Size=Mobile, State=Focus",
+    "id": "6962:6803",
+    "key": "56636632ef45874673c76e09eea94cc01e6a5745",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6803"
+   },
+   {
+    "label": "Size=Mobile, State=Error",
+    "id": "6962:6823",
+    "key": "76af9db63642f84be162427e024f30a9def14f6e",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6823"
+   },
+   {
+    "label": "Size=Mobile, State=Disabled",
+    "id": "6962:6843",
+    "key": "65676bd9d43c396729700a25fd16b9b352c59bef",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6843"
+   }
+  ]
+ },
+ "properties": {
+  "Label#6963:6": {
+   "type": "TEXT",
+   "default": "Field Label"
+  },
+  "Value#6963:7": {
+   "type": "TEXT",
+   "default": "Placeholder text"
+  },
+  "Error message#6963:8": {
+   "type": "TEXT",
+   "default": "Error message text."
+  },
+  "Show icon#6963:9": {
+   "type": "BOOLEAN",
+   "default": true
+  },
+  "Show label icon#6963:10": {
+   "type": "BOOLEAN",
+   "default": false
+  },
+  "Icon#6963:11": {
+   "type": "INSTANCE_SWAP",
+   "default": "2880:1506"
+  },
+  "Show right icon#6997:19": {
+   "type": "BOOLEAN",
+   "default": false
+  },
+  "Right icon#6997:30": {
+   "type": "INSTANCE_SWAP",
+   "default": "2880:1506"
+  },
+  "Show card badge#6997:41": {
+   "type": "BOOLEAN",
+   "default": false
+  },
+  "Card badge#6997:52": {
+   "type": "INSTANCE_SWAP",
+   "default": "4693:131"
+  },
+  "Size": {
+   "type": "VARIANT",
+   "default": "Desktop",
+   "options": [
+    "Desktop",
+    "Mobile"
+   ]
+  },
+  "State": {
+   "type": "VARIANT",
+   "default": "Blank",
+   "options": [
+    "Blank",
+    "Filled",
+    "Focus",
+    "Error",
+    "Disabled"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [],
+  "builtInto": [
+   "Form Field Assembly / Name pair",
+   "Form Field Assembly / Zip + Street #",
+   "Form Field Assembly / Zip + Phone",
+   "Form Field Assembly / Address block",
+   "Form Field Assembly / CC details",
+   "Form Field Assembly / Password"
+  ],
+  "perVariant": [
+   {
+    "label": "Size=Desktop, State=Blank",
+    "id": "6962:6663",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {
+     "ModalsCenter / Device=Desktop": 1,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
+     "Form Field Assembly / Zip + Street # / Size=Desktop": 2,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel": 4,
+     "ModalsCenter / Device=TabletH": 1,
+     "Form Field Assembly / Zip + Phone / Size=Desktop": 2,
+     "Form Field Assembly / CC details / Size=Desktop": 4,
+     "Form Field Assembly / Address block / Size=Desktop": 4,
+     "Modals/Desktop": 1,
+     "Form Field Assembly / Password / Size=Desktop": 2,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
+     "Form Field Assembly / Name pair / Size=Desktop": 2,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1
+    },
+    "other": {
+     "Modal Panels | 2025.12.29 ▸ Frame 12672": 3,
+     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 3
+    },
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Size=Mobile, State=Blank",
+    "id": "6962:6683",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {
+     "ModalsCenter / Device=TabletV": 1,
+     "Form Field Assembly / Zip + Phone / Size=Mobile": 2,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 4,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
+     "Form Field Assembly / Address block / Size=Mobile": 4,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
+     "ModalsCenter / Device=FOLD": 1,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
+     "Form Field Assembly / CC details / Size=Mobile": 4,
+     "Form Field Assembly / Zip + Street # / Size=Mobile": 2,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 4,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
+     "Form Field Assembly / Name pair / Size=Mobile": 2,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
+     "ModalsCenter / Device=MobileScroll": 1,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
+     "Form Field Assembly / Password / Size=Mobile": 2,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
+     "ModalsCenter / Device=Mobile": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   },
+   {
+    "label": "Size=Desktop, State=Filled",
+    "id": "6962:6703",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {
+     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 2
+    },
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Size=Desktop, State=Focus",
+    "id": "6962:6723",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Size=Desktop, State=Error",
+    "id": "6962:6743",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Size=Desktop, State=Disabled",
+    "id": "6962:6763",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Size=Mobile, State=Filled",
+    "id": "6962:6783",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   },
+   {
+    "label": "Size=Mobile, State=Focus",
+    "id": "6962:6803",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   },
+   {
+    "label": "Size=Mobile, State=Error",
+    "id": "6962:6823",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   },
+   {
+    "label": "Size=Mobile, State=Disabled",
+    "id": "6962:6843",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Icons",
+    "count": 3,
+    "inExport": false,
+    "section": null,
+    "path": null
+   }
+  ],
+  "builtInto": [
+   {
+    "name": "Form Field Assembly / Name pair",
+    "path": "../../assemblies/48-form-field-assembly-name-pair/form-field-assembly-name-pair.md"
+   },
+   {
+    "name": "Form Field Assembly / Zip + Street #",
+    "path": "../../assemblies/49-form-field-assembly-zip-street/form-field-assembly-zip-street.md"
+   },
+   {
+    "name": "Form Field Assembly / Zip + Phone",
+    "path": "../../assemblies/50-form-field-assembly-zip-phone/form-field-assembly-zip-phone.md"
+   },
+   {
+    "name": "Form Field Assembly / Address block",
+    "path": "../../assemblies/51-form-field-assembly-address-block/form-field-assembly-address-block.md"
+   },
+   {
+    "name": "Form Field Assembly / CC details",
+    "path": "../../assemblies/52-form-field-assembly-cc-details/form-field-assembly-cc-details.md"
+   },
+   {
+    "name": "Form Field Assembly / Password",
+    "path": "../../assemblies/53-form-field-assembly-password/form-field-assembly-password.md"
+   }
+  ]
+ },
+ "variants": [
+  {
+   "label": "Size=Desktop, State=Blank",
+   "variantProperties": {
+    "Size": "Desktop",
+    "State": "Blank"
+   },
+   "id": "6962:6663",
+   "key": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6663",
+   "width": 480,
+   "height": 103,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field--desktop-blank.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Size=Desktop, State=Blank",
+    "type": "COMPONENT",
+    "id": "6962:6663",
+    "w": 480,
+    "h": 103,
+    "x": 16,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Label Container",
+      "type": "FRAME",
+      "id": "6962:6664",
+      "w": 480,
+      "h": 22,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Label Icon Container",
+        "type": "FRAME",
+        "id": "6962:6665",
+        "w": 16,
+        "h": 15,
+        "x": 0,
+        "y": 3.5,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          2,
+          0,
+          2,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Label Icon",
+          "type": "VECTOR",
+          "id": "6962:6666",
+          "w": 16,
+          "h": 11,
+          "x": 0,
+          "y": 2,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Label Text Container",
+        "type": "FRAME",
+        "id": "6962:6667",
+        "w": 480,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "6962:6668",
+          "w": 480,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Field Label",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Input Field Container",
+      "type": "FRAME",
+      "id": "6962:6669",
+      "w": 480,
+      "h": 56,
+      "x": 0,
+      "y": 22,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "radius": 3,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#A7A6A3",
+        "variable": "Colors/color/gray/400"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "icon frame",
+        "type": "FRAME",
+        "id": "6962:6670",
+        "w": 56,
+        "h": 56,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6962:6671",
+          "w": 16,
+          "h": 16,
+          "x": 20,
+          "y": 20,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "Input Field",
+        "type": "FRAME",
+        "id": "6962:6672",
+        "w": 424,
+        "h": 56,
+        "x": 56,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          16,
+          8,
+          16
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         0,
+         3,
+         3,
+         0
+        ],
+        "children": [
+         {
+          "name": "Text Container",
+          "type": "FRAME",
+          "id": "6962:6673",
+          "w": 392,
+          "h": 25,
+          "x": 16,
+          "y": 15.5,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Value",
+            "type": "TEXT",
+            "id": "6962:6674",
+            "w": 137,
+            "h": 25,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Placeholder text",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Regular",
+              "size": 18,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#A7A6A3",
+                "variable": "Colors/color/gray/400"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Cursor Container",
+          "type": "FRAME",
+          "id": "6962:6675",
+          "w": 3,
+          "h": 20,
+          "x": 193,
+          "y": 18,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Cursor",
+            "type": "BOOLEAN_OPERATION",
+            "id": "6962:6676",
+            "w": 3,
+            "h": 20,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
+             }
+            ],
+            "children": [
+             {
+              "name": "Line 71 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6677",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 72 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6678",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 19,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 73 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6679",
+              "w": 20,
+              "h": 1,
+              "x": 2,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "card badge",
+          "type": "INSTANCE",
+          "id": "6997:27794",
+          "w": 66.5,
+          "h": 44,
+          "x": 341.5,
+          "y": 6,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            2,
+            2,
+            2,
+            2
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "radius": 5,
+          "component": "Icons",
+          "variant": {
+           "Name": "Visa"
+          },
+          "componentKey": "eff7a7ba9923fac77d1aa534f5b66b441a98adb1",
+          "mainId": "4693:131",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "icon frame right",
+        "type": "FRAME",
+        "id": "6997:27627",
+        "w": 56,
+        "h": 56,
+        "x": 424,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6997:27628",
+          "w": 16,
+          "h": 16,
+          "x": 20,
+          "y": 20,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container",
+      "type": "FRAME",
+      "id": "6962:6680",
+      "w": 480,
+      "h": 25,
+      "x": 0,
+      "y": 78,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "6962:6681",
+        "w": 480,
+        "h": 25,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "opacity": 0,
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 18,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
+    "variantProperties": {
+     "Size": "Desktop",
+     "State": "Blank"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Mobile, State=Blank",
+   "variantProperties": {
+    "Size": "Mobile",
+    "State": "Blank"
+   },
+   "id": "6962:6683",
+   "key": "3f929794d492ac59e2698f1f6f03f08d5f300068",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6683",
+   "width": 328,
+   "height": 81,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field--mobile-blank.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Size=Mobile, State=Blank",
+    "type": "COMPONENT",
+    "id": "6962:6683",
+    "w": 328,
+    "h": 81,
+    "x": 512,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Label Container",
+      "type": "FRAME",
+      "id": "6962:6684",
+      "w": 328,
+      "h": 19,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Label Icon Container",
+        "type": "FRAME",
+        "id": "6962:6685",
+        "w": 16,
+        "h": 15,
+        "x": 0,
+        "y": 3.5,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          2,
+          0,
+          2,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Label Icon",
+          "type": "VECTOR",
+          "id": "6962:6686",
+          "w": 16,
+          "h": 11,
+          "x": 0,
+          "y": 2,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Label Text Container",
+        "type": "FRAME",
+        "id": "6962:6687",
+        "w": 328,
+        "h": 19,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "6962:6688",
+          "w": 328,
+          "h": 19,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Field Label",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 14,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Input Field Container",
+      "type": "FRAME",
+      "id": "6962:6689",
+      "w": 328,
+      "h": 40,
+      "x": 0,
+      "y": 19,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "radius": 3,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#A7A6A3",
+        "variable": "Colors/color/gray/400"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "icon frame",
+        "type": "FRAME",
+        "id": "6962:6690",
+        "w": 40,
+        "h": 40,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6962:6691",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "Input Field",
+        "type": "FRAME",
+        "id": "6962:6692",
+        "w": 288,
+        "h": 40,
+        "x": 40,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          2,
+          16,
+          2,
+          16
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         0,
+         3,
+         3,
+         0
+        ],
+        "children": [
+         {
+          "name": "Text Container",
+          "type": "FRAME",
+          "id": "6962:6693",
+          "w": 256,
+          "h": 22,
+          "x": 16,
+          "y": 9,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Value",
+            "type": "TEXT",
+            "id": "6962:6694",
+            "w": 122,
+            "h": 22,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Placeholder text",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Regular",
+              "size": 16,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#A7A6A3",
+                "variable": "Colors/color/gray/400"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Cursor Container",
+          "type": "FRAME",
+          "id": "6962:6695",
+          "w": 3,
+          "h": 20,
+          "x": 193,
+          "y": 18,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Cursor",
+            "type": "BOOLEAN_OPERATION",
+            "id": "6962:6696",
+            "w": 3,
+            "h": 20,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
+             }
+            ],
+            "children": [
+             {
+              "name": "Line 71 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6697",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 72 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6698",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 19,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 73 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6699",
+              "w": 20,
+              "h": 1,
+              "x": 2,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "card badge",
+          "type": "INSTANCE",
+          "id": "6997:27808",
+          "w": 66.5,
+          "h": 44,
+          "x": 205.5,
+          "y": -2,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            2,
+            2,
+            2,
+            2
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "radius": 5,
+          "component": "Icons",
+          "variant": {
+           "Name": "Visa"
+          },
+          "componentKey": "eff7a7ba9923fac77d1aa534f5b66b441a98adb1",
+          "mainId": "4693:131",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "icon frame right",
+        "type": "FRAME",
+        "id": "6997:27630",
+        "w": 40,
+        "h": 40,
+        "x": 288,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6997:27631",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container",
+      "type": "FRAME",
+      "id": "6962:6700",
+      "w": 328,
+      "h": 22,
+      "x": 0,
+      "y": 59,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "6962:6701",
+        "w": 328,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "opacity": 0,
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 16,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "3f929794d492ac59e2698f1f6f03f08d5f300068",
+    "variantProperties": {
+     "Size": "Mobile",
+     "State": "Blank"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Desktop, State=Filled",
+   "variantProperties": {
+    "Size": "Desktop",
+    "State": "Filled"
+   },
+   "id": "6962:6703",
+   "key": "8a8927f4d4463a69d882546400ca307c27705ecb",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6703",
+   "width": 480,
+   "height": 103,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field--desktop-filled.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Size=Desktop, State=Filled",
+    "type": "COMPONENT",
+    "id": "6962:6703",
+    "w": 480,
+    "h": 103,
+    "x": 16,
+    "y": 135,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Label Container",
+      "type": "FRAME",
+      "id": "6962:6704",
+      "w": 480,
+      "h": 22,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Label Icon Container",
+        "type": "FRAME",
+        "id": "6962:6705",
+        "w": 16,
+        "h": 15,
+        "x": 0,
+        "y": 3.5,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          2,
+          0,
+          2,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Label Icon",
+          "type": "VECTOR",
+          "id": "6962:6706",
+          "w": 16,
+          "h": 11,
+          "x": 0,
+          "y": 2,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Label Text Container",
+        "type": "FRAME",
+        "id": "6962:6707",
+        "w": 480,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "6962:6708",
+          "w": 480,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Field Label",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Input Field Container",
+      "type": "FRAME",
+      "id": "6962:6709",
+      "w": 480,
+      "h": 56,
+      "x": 0,
+      "y": 22,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "radius": 3,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#A7A6A3",
+        "variable": "Colors/color/gray/400"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "icon frame",
+        "type": "FRAME",
+        "id": "6962:6710",
+        "w": 56,
+        "h": 56,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6962:6711",
+          "w": 16,
+          "h": 16,
+          "x": 20,
+          "y": 20,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "Input Field",
+        "type": "FRAME",
+        "id": "6962:6712",
+        "w": 424,
+        "h": 56,
+        "x": 56,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          16,
+          8,
+          16
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         0,
+         3,
+         3,
+         0
+        ],
+        "children": [
+         {
+          "name": "Text Container",
+          "type": "FRAME",
+          "id": "6962:6713",
+          "w": 392,
+          "h": 25,
+          "x": 16,
+          "y": 15.5,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Value",
+            "type": "TEXT",
+            "id": "6962:6714",
+            "w": 161,
+            "h": 25,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "you@example.com",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Regular",
+              "size": 18,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Cursor Container",
+          "type": "FRAME",
+          "id": "6962:6715",
+          "w": 3,
+          "h": 20,
+          "x": 193,
+          "y": 18,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Cursor",
+            "type": "BOOLEAN_OPERATION",
+            "id": "6962:6716",
+            "w": 3,
+            "h": 20,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
+             }
+            ],
+            "children": [
+             {
+              "name": "Line 71 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6717",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 72 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6718",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 19,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 73 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6719",
+              "w": 20,
+              "h": 1,
+              "x": 2,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "card badge",
+          "type": "INSTANCE",
+          "id": "6997:27826",
+          "w": 66.5,
+          "h": 44,
+          "x": 341.5,
+          "y": 6,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            2,
+            2,
+            2,
+            2
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "radius": 5,
+          "component": "Icons",
+          "variant": {
+           "Name": "Visa"
+          },
+          "componentKey": "eff7a7ba9923fac77d1aa534f5b66b441a98adb1",
+          "mainId": "4693:131",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "icon frame right",
+        "type": "FRAME",
+        "id": "6997:27633",
+        "w": 56,
+        "h": 56,
+        "x": 424,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6997:27634",
+          "w": 16,
+          "h": 16,
+          "x": 20,
+          "y": 20,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container",
+      "type": "FRAME",
+      "id": "6962:6720",
+      "w": 480,
+      "h": 25,
+      "x": 0,
+      "y": 78,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "6962:6721",
+        "w": 480,
+        "h": 25,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "opacity": 0,
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 18,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "8a8927f4d4463a69d882546400ca307c27705ecb",
+    "variantProperties": {
+     "Size": "Desktop",
+     "State": "Filled"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Desktop, State=Focus",
+   "variantProperties": {
+    "Size": "Desktop",
+    "State": "Focus"
+   },
+   "id": "6962:6723",
+   "key": "b45bfea1f5bf9d99f15502fd51b14ceb8cf8c627",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6723",
+   "width": 480,
+   "height": 103,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field--desktop-focus.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Size=Desktop, State=Focus",
+    "type": "COMPONENT",
+    "id": "6962:6723",
+    "w": 480,
+    "h": 103,
+    "x": 16,
+    "y": 254,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Label Container",
+      "type": "FRAME",
+      "id": "6962:6724",
+      "w": 480,
+      "h": 22,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Label Icon Container",
+        "type": "FRAME",
+        "id": "6962:6725",
+        "w": 16,
+        "h": 15,
+        "x": 0,
+        "y": 3.5,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          2,
+          0,
+          2,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Label Icon",
+          "type": "VECTOR",
+          "id": "6962:6726",
+          "w": 16,
+          "h": 11,
+          "x": 0,
+          "y": 2,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Label Text Container",
+        "type": "FRAME",
+        "id": "6962:6727",
+        "w": 480,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "6962:6728",
+          "w": 480,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Field Label",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Input Field Container",
+      "type": "FRAME",
+      "id": "6962:6729",
+      "w": 480,
+      "h": 56,
+      "x": 0,
+      "y": 22,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "radius": 3,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
+       }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "icon frame",
+        "type": "FRAME",
+        "id": "6962:6730",
+        "w": 56,
+        "h": 56,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6962:6731",
+          "w": 16,
+          "h": 16,
+          "x": 20,
+          "y": 20,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "Input Field",
+        "type": "FRAME",
+        "id": "6962:6732",
+        "w": 424,
+        "h": 56,
+        "x": 56,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          16,
+          8,
+          16
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         0,
+         3,
+         3,
+         0
+        ],
+        "children": [
+         {
+          "name": "Text Container",
+          "type": "FRAME",
+          "id": "6962:6733",
+          "w": 392,
+          "h": 25,
+          "x": 16,
+          "y": 15.5,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Value",
+            "type": "TEXT",
+            "id": "6962:6734",
+            "w": 137,
+            "h": 25,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Placeholder text",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Regular",
+              "size": 18,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#A7A6A3",
+                "variable": "Colors/color/gray/400"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Cursor Container",
+          "type": "FRAME",
+          "id": "6962:6735",
+          "w": 3,
+          "h": 20,
+          "x": 16,
+          "y": 18,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Cursor",
+            "type": "BOOLEAN_OPERATION",
+            "id": "6962:6736",
+            "w": 3,
+            "h": 20,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
+             }
+            ],
+            "children": [
+             {
+              "name": "Line 71 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6737",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 72 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6738",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 19,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 73 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6739",
+              "w": 20,
+              "h": 1,
+              "x": 2,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "card badge",
+          "type": "INSTANCE",
+          "id": "6997:27840",
+          "w": 66.5,
+          "h": 44,
+          "x": 341.5,
+          "y": 6,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            2,
+            2,
+            2,
+            2
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "radius": 5,
+          "component": "Icons",
+          "variant": {
+           "Name": "Visa"
+          },
+          "componentKey": "eff7a7ba9923fac77d1aa534f5b66b441a98adb1",
+          "mainId": "4693:131",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "icon frame right",
+        "type": "FRAME",
+        "id": "6997:27636",
+        "w": 56,
+        "h": 56,
+        "x": 424,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6997:27637",
+          "w": 16,
+          "h": 16,
+          "x": 20,
+          "y": 20,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container",
+      "type": "FRAME",
+      "id": "6962:6740",
+      "w": 480,
+      "h": 25,
+      "x": 0,
+      "y": 78,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "6962:6741",
+        "w": 480,
+        "h": 25,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "opacity": 0,
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 18,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "b45bfea1f5bf9d99f15502fd51b14ceb8cf8c627",
+    "variantProperties": {
+     "Size": "Desktop",
+     "State": "Focus"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Desktop, State=Error",
+   "variantProperties": {
+    "Size": "Desktop",
+    "State": "Error"
+   },
+   "id": "6962:6743",
+   "key": "e46f91b3b316cc72c63967053806eeaa2f5144e4",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6743",
+   "width": 480,
+   "height": 103,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field--desktop-error.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Size=Desktop, State=Error",
+    "type": "COMPONENT",
+    "id": "6962:6743",
+    "w": 480,
+    "h": 103,
+    "x": 16,
+    "y": 373,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Label Container",
+      "type": "FRAME",
+      "id": "6962:6744",
+      "w": 480,
+      "h": 22,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Label Icon Container",
+        "type": "FRAME",
+        "id": "6962:6745",
+        "w": 16,
+        "h": 15,
+        "x": 0,
+        "y": 3.5,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          2,
+          0,
+          2,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Label Icon",
+          "type": "VECTOR",
+          "id": "6962:6746",
+          "w": 16,
+          "h": 11,
+          "x": 0,
+          "y": 2,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Label Text Container",
+        "type": "FRAME",
+        "id": "6962:6747",
+        "w": 480,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "6962:6748",
+          "w": 480,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Field Label",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Input Field Container",
+      "type": "FRAME",
+      "id": "6962:6749",
+      "w": 480,
+      "h": 56,
+      "x": 0,
+      "y": 22,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "radius": 3,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CC2B27",
+        "variable": "Colors/color/feedback/high-error"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "icon frame",
+        "type": "FRAME",
+        "id": "6962:6750",
+        "w": 56,
+        "h": 56,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6962:6751",
+          "w": 16,
+          "h": 16,
+          "x": 20,
+          "y": 20,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "Input Field",
+        "type": "FRAME",
+        "id": "6962:6752",
+        "w": 424,
+        "h": 56,
+        "x": 56,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          16,
+          8,
+          16
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         0,
+         3,
+         3,
+         0
+        ],
+        "children": [
+         {
+          "name": "Text Container",
+          "type": "FRAME",
+          "id": "6962:6753",
+          "w": 392,
+          "h": 25,
+          "x": 16,
+          "y": 15.5,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Value",
+            "type": "TEXT",
+            "id": "6962:6754",
+            "w": 137,
+            "h": 25,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Placeholder text",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Regular",
+              "size": 18,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#A7A6A3",
+                "variable": "Colors/color/gray/400"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Cursor Container",
+          "type": "FRAME",
+          "id": "6962:6755",
+          "w": 3,
+          "h": 20,
+          "x": 193,
+          "y": 18,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Cursor",
+            "type": "BOOLEAN_OPERATION",
+            "id": "6962:6756",
+            "w": 3,
+            "h": 20,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
+             }
+            ],
+            "children": [
+             {
+              "name": "Line 71 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6757",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 72 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6758",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 19,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 73 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6759",
+              "w": 20,
+              "h": 1,
+              "x": 2,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "card badge",
+          "type": "INSTANCE",
+          "id": "6997:27854",
+          "w": 66.5,
+          "h": 44,
+          "x": 341.5,
+          "y": 6,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            2,
+            2,
+            2,
+            2
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "radius": 5,
+          "component": "Icons",
+          "variant": {
+           "Name": "Visa"
+          },
+          "componentKey": "eff7a7ba9923fac77d1aa534f5b66b441a98adb1",
+          "mainId": "4693:131",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "icon frame right",
+        "type": "FRAME",
+        "id": "6997:27639",
+        "w": 56,
+        "h": 56,
+        "x": 424,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6997:27640",
+          "w": 16,
+          "h": 16,
+          "x": 20,
+          "y": 20,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container",
+      "type": "FRAME",
+      "id": "6962:6760",
+      "w": 480,
+      "h": 25,
+      "x": 0,
+      "y": 78,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "6962:6761",
+        "w": 480,
+        "h": 25,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 18,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "e46f91b3b316cc72c63967053806eeaa2f5144e4",
+    "variantProperties": {
+     "Size": "Desktop",
+     "State": "Error"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Desktop, State=Disabled",
+   "variantProperties": {
+    "Size": "Desktop",
+    "State": "Disabled"
+   },
+   "id": "6962:6763",
+   "key": "4c0fc4c01733aad7f72b7ca91acce3bacd3a0734",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6763",
+   "width": 480,
+   "height": 103,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field--desktop-disabled.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Size=Desktop, State=Disabled",
+    "type": "COMPONENT",
+    "id": "6962:6763",
+    "w": 480,
+    "h": 103,
+    "x": 16,
+    "y": 492,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Label Container",
+      "type": "FRAME",
+      "id": "6962:6764",
+      "w": 480,
+      "h": 22,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Label Icon Container",
+        "type": "FRAME",
+        "id": "6962:6765",
+        "w": 16,
+        "h": 15,
+        "x": 0,
+        "y": 3.5,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          2,
+          0,
+          2,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Label Icon",
+          "type": "VECTOR",
+          "id": "6962:6766",
+          "w": 16,
+          "h": 11,
+          "x": 0,
+          "y": 2,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Label Text Container",
+        "type": "FRAME",
+        "id": "6962:6767",
+        "w": 480,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "6962:6768",
+          "w": 480,
+          "h": 22,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Field Label",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 16,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#838280",
+              "variable": "Colors/color/gray/300"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Input Field Container",
+      "type": "FRAME",
+      "id": "6962:6769",
+      "w": 480,
+      "h": 56,
+      "x": 0,
+      "y": 22,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "radius": 3,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#F1EFEB",
+        "variable": "Colors/color/gray/600"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "icon frame",
+        "type": "FRAME",
+        "id": "6962:6770",
+        "w": 56,
+        "h": 56,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6962:6771",
+          "w": 16,
+          "h": 16,
+          "x": 20,
+          "y": 20,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "Input Field",
+        "type": "FRAME",
+        "id": "6962:6772",
+        "w": 424,
+        "h": 56,
+        "x": 56,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          16,
+          8,
+          16
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         0,
+         3,
+         3,
+         0
+        ],
+        "children": [
+         {
+          "name": "Text Container",
+          "type": "FRAME",
+          "id": "6962:6773",
+          "w": 392,
+          "h": 25,
+          "x": 16,
+          "y": 15.5,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Value",
+            "type": "TEXT",
+            "id": "6962:6774",
+            "w": 137,
+            "h": 25,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Placeholder text",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Regular",
+              "size": 18,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#838280",
+                "variable": "Colors/color/gray/300"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Cursor Container",
+          "type": "FRAME",
+          "id": "6962:6775",
+          "w": 3,
+          "h": 20,
+          "x": 193,
+          "y": 18,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Cursor",
+            "type": "BOOLEAN_OPERATION",
+            "id": "6962:6776",
+            "w": 3,
+            "h": 20,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
+             }
+            ],
+            "children": [
+             {
+              "name": "Line 71 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6777",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 72 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6778",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 19,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 73 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6779",
+              "w": 20,
+              "h": 1,
+              "x": 2,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "card badge",
+          "type": "INSTANCE",
+          "id": "6997:27868",
+          "w": 66.5,
+          "h": 44,
+          "x": 341.5,
+          "y": 6,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            2,
+            2,
+            2,
+            2
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "radius": 5,
+          "component": "Icons",
+          "variant": {
+           "Name": "Visa"
+          },
+          "componentKey": "eff7a7ba9923fac77d1aa534f5b66b441a98adb1",
+          "mainId": "4693:131",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "icon frame right",
+        "type": "FRAME",
+        "id": "6997:27642",
+        "w": 56,
+        "h": 56,
+        "x": 424,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6997:27643",
+          "w": 16,
+          "h": 16,
+          "x": 20,
+          "y": 20,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container",
+      "type": "FRAME",
+      "id": "6962:6780",
+      "w": 480,
+      "h": 25,
+      "x": 0,
+      "y": 78,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "6962:6781",
+        "w": 480,
+        "h": 25,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "opacity": 0,
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 18,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "4c0fc4c01733aad7f72b7ca91acce3bacd3a0734",
+    "variantProperties": {
+     "Size": "Desktop",
+     "State": "Disabled"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Mobile, State=Filled",
+   "variantProperties": {
+    "Size": "Mobile",
+    "State": "Filled"
+   },
+   "id": "6962:6783",
+   "key": "a89ba9126bbe06b3f4a3d99ed66f3b95b61f4aa3",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6783",
+   "width": 328,
+   "height": 81,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field--mobile-filled.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Size=Mobile, State=Filled",
+    "type": "COMPONENT",
+    "id": "6962:6783",
+    "w": 328,
+    "h": 81,
+    "x": 512,
+    "y": 135,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Label Container",
+      "type": "FRAME",
+      "id": "6962:6784",
+      "w": 328,
+      "h": 19,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Label Icon Container",
+        "type": "FRAME",
+        "id": "6962:6785",
+        "w": 16,
+        "h": 15,
+        "x": 0,
+        "y": 3.5,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          2,
+          0,
+          2,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Label Icon",
+          "type": "VECTOR",
+          "id": "6962:6786",
+          "w": 16,
+          "h": 11,
+          "x": 0,
+          "y": 2,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Label Text Container",
+        "type": "FRAME",
+        "id": "6962:6787",
+        "w": 328,
+        "h": 19,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "6962:6788",
+          "w": 328,
+          "h": 19,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Field Label",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 14,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Input Field Container",
+      "type": "FRAME",
+      "id": "6962:6789",
+      "w": 328,
+      "h": 40,
+      "x": 0,
+      "y": 19,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "radius": 3,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#A7A6A3",
+        "variable": "Colors/color/gray/400"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "icon frame",
+        "type": "FRAME",
+        "id": "6962:6790",
+        "w": 40,
+        "h": 40,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6962:6791",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "Input Field",
+        "type": "FRAME",
+        "id": "6962:6792",
+        "w": 288,
+        "h": 40,
+        "x": 40,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          2,
+          16,
+          2,
+          16
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         0,
+         3,
+         3,
+         0
+        ],
+        "children": [
+         {
+          "name": "Text Container",
+          "type": "FRAME",
+          "id": "6962:6793",
+          "w": 256,
+          "h": 22,
+          "x": 16,
+          "y": 9,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Value",
+            "type": "TEXT",
+            "id": "6962:6794",
+            "w": 143,
+            "h": 22,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "you@example.com",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Regular",
+              "size": 16,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Cursor Container",
+          "type": "FRAME",
+          "id": "6962:6795",
+          "w": 3,
+          "h": 20,
+          "x": 193,
+          "y": 18,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Cursor",
+            "type": "BOOLEAN_OPERATION",
+            "id": "6962:6796",
+            "w": 3,
+            "h": 20,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
+             }
+            ],
+            "children": [
+             {
+              "name": "Line 71 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6797",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 72 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6798",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 19,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 73 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6799",
+              "w": 20,
+              "h": 1,
+              "x": 2,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "card badge",
+          "type": "INSTANCE",
+          "id": "6997:27882",
+          "w": 66.5,
+          "h": 44,
+          "x": 205.5,
+          "y": -2,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            2,
+            2,
+            2,
+            2
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "radius": 5,
+          "component": "Icons",
+          "variant": {
+           "Name": "Visa"
+          },
+          "componentKey": "eff7a7ba9923fac77d1aa534f5b66b441a98adb1",
+          "mainId": "4693:131",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "icon frame right",
+        "type": "FRAME",
+        "id": "6997:27645",
+        "w": 40,
+        "h": 40,
+        "x": 288,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6997:27646",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container",
+      "type": "FRAME",
+      "id": "6962:6800",
+      "w": 328,
+      "h": 22,
+      "x": 0,
+      "y": 59,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "6962:6801",
+        "w": 328,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "opacity": 0,
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 16,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "a89ba9126bbe06b3f4a3d99ed66f3b95b61f4aa3",
+    "variantProperties": {
+     "Size": "Mobile",
+     "State": "Filled"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Mobile, State=Focus",
+   "variantProperties": {
+    "Size": "Mobile",
+    "State": "Focus"
+   },
+   "id": "6962:6803",
+   "key": "56636632ef45874673c76e09eea94cc01e6a5745",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6803",
+   "width": 328,
+   "height": 81,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field--mobile-focus.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Size=Mobile, State=Focus",
+    "type": "COMPONENT",
+    "id": "6962:6803",
+    "w": 328,
+    "h": 81,
+    "x": 512,
+    "y": 254,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Label Container",
+      "type": "FRAME",
+      "id": "6962:6804",
+      "w": 328,
+      "h": 19,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Label Icon Container",
+        "type": "FRAME",
+        "id": "6962:6805",
+        "w": 16,
+        "h": 15,
+        "x": 0,
+        "y": 3.5,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          2,
+          0,
+          2,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Label Icon",
+          "type": "VECTOR",
+          "id": "6962:6806",
+          "w": 16,
+          "h": 11,
+          "x": 0,
+          "y": 2,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Label Text Container",
+        "type": "FRAME",
+        "id": "6962:6807",
+        "w": 328,
+        "h": 19,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "6962:6808",
+          "w": 328,
+          "h": 19,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Field Label",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 14,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Input Field Container",
+      "type": "FRAME",
+      "id": "6962:6809",
+      "w": 328,
+      "h": 40,
+      "x": 0,
+      "y": 19,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "radius": 3,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
+       }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "icon frame",
+        "type": "FRAME",
+        "id": "6962:6810",
+        "w": 40,
+        "h": 40,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6962:6811",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "Input Field",
+        "type": "FRAME",
+        "id": "6962:6812",
+        "w": 288,
+        "h": 40,
+        "x": 40,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          2,
+          16,
+          2,
+          16
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         0,
+         3,
+         3,
+         0
+        ],
+        "children": [
+         {
+          "name": "Text Container",
+          "type": "FRAME",
+          "id": "6962:6813",
+          "w": 256,
+          "h": 22,
+          "x": 16,
+          "y": 9,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Value",
+            "type": "TEXT",
+            "id": "6962:6814",
+            "w": 122,
+            "h": 22,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Placeholder text",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Regular",
+              "size": 16,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#A7A6A3",
+                "variable": "Colors/color/gray/400"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Cursor Container",
+          "type": "FRAME",
+          "id": "6962:6815",
+          "w": 3,
+          "h": 20,
+          "x": 16,
+          "y": 10,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Cursor",
+            "type": "BOOLEAN_OPERATION",
+            "id": "6962:6816",
+            "w": 3,
+            "h": 20,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
+             }
+            ],
+            "children": [
+             {
+              "name": "Line 71 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6817",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 72 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6818",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 19,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 73 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6819",
+              "w": 20,
+              "h": 1,
+              "x": 2,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "card badge",
+          "type": "INSTANCE",
+          "id": "6997:27900",
+          "w": 66.5,
+          "h": 44,
+          "x": 205.5,
+          "y": -2,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            2,
+            2,
+            2,
+            2
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "radius": 5,
+          "component": "Icons",
+          "variant": {
+           "Name": "Visa"
+          },
+          "componentKey": "eff7a7ba9923fac77d1aa534f5b66b441a98adb1",
+          "mainId": "4693:131",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "icon frame right",
+        "type": "FRAME",
+        "id": "6997:27648",
+        "w": 40,
+        "h": 40,
+        "x": 288,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6997:27649",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container",
+      "type": "FRAME",
+      "id": "6962:6820",
+      "w": 328,
+      "h": 22,
+      "x": 0,
+      "y": 59,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "6962:6821",
+        "w": 328,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "opacity": 0,
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 16,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "56636632ef45874673c76e09eea94cc01e6a5745",
+    "variantProperties": {
+     "Size": "Mobile",
+     "State": "Focus"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Mobile, State=Error",
+   "variantProperties": {
+    "Size": "Mobile",
+    "State": "Error"
+   },
+   "id": "6962:6823",
+   "key": "76af9db63642f84be162427e024f30a9def14f6e",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6823",
+   "width": 328,
+   "height": 81,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field--mobile-error.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Size=Mobile, State=Error",
+    "type": "COMPONENT",
+    "id": "6962:6823",
+    "w": 328,
+    "h": 81,
+    "x": 512,
+    "y": 373,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Label Container",
+      "type": "FRAME",
+      "id": "6962:6824",
+      "w": 328,
+      "h": 19,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Label Icon Container",
+        "type": "FRAME",
+        "id": "6962:6825",
+        "w": 16,
+        "h": 15,
+        "x": 0,
+        "y": 3.5,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          2,
+          0,
+          2,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Label Icon",
+          "type": "VECTOR",
+          "id": "6962:6826",
+          "w": 16,
+          "h": 11,
+          "x": 0,
+          "y": 2,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Label Text Container",
+        "type": "FRAME",
+        "id": "6962:6827",
+        "w": 328,
+        "h": 19,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "6962:6828",
+          "w": 328,
+          "h": 19,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Field Label",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 14,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Input Field Container",
+      "type": "FRAME",
+      "id": "6962:6829",
+      "w": 328,
+      "h": 40,
+      "x": 0,
+      "y": 19,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "radius": 3,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CC2B27",
+        "variable": "Colors/color/feedback/high-error"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "icon frame",
+        "type": "FRAME",
+        "id": "6962:6830",
+        "w": 40,
+        "h": 40,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6962:6831",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "Input Field",
+        "type": "FRAME",
+        "id": "6962:6832",
+        "w": 288,
+        "h": 40,
+        "x": 40,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          2,
+          16,
+          2,
+          16
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         0,
+         3,
+         3,
+         0
+        ],
+        "children": [
+         {
+          "name": "Text Container",
+          "type": "FRAME",
+          "id": "6962:6833",
+          "w": 256,
+          "h": 22,
+          "x": 16,
+          "y": 9,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Value",
+            "type": "TEXT",
+            "id": "6962:6834",
+            "w": 122,
+            "h": 22,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Placeholder text",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Regular",
+              "size": 16,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#A7A6A3",
+                "variable": "Colors/color/gray/400"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Cursor Container",
+          "type": "FRAME",
+          "id": "6962:6835",
+          "w": 3,
+          "h": 20,
+          "x": 193,
+          "y": 18,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Cursor",
+            "type": "BOOLEAN_OPERATION",
+            "id": "6962:6836",
+            "w": 3,
+            "h": 20,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
+             }
+            ],
+            "children": [
+             {
+              "name": "Line 71 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6837",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 72 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6838",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 19,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 73 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6839",
+              "w": 20,
+              "h": 1,
+              "x": 2,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "card badge",
+          "type": "INSTANCE",
+          "id": "6997:27918",
+          "w": 66.5,
+          "h": 44,
+          "x": 205.5,
+          "y": -2,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            2,
+            2,
+            2,
+            2
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "radius": 5,
+          "component": "Icons",
+          "variant": {
+           "Name": "Visa"
+          },
+          "componentKey": "eff7a7ba9923fac77d1aa534f5b66b441a98adb1",
+          "mainId": "4693:131",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "icon frame right",
+        "type": "FRAME",
+        "id": "6997:27651",
+        "w": 40,
+        "h": 40,
+        "x": 288,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6997:27652",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container",
+      "type": "FRAME",
+      "id": "6962:6840",
+      "w": 328,
+      "h": 22,
+      "x": 0,
+      "y": 59,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "6962:6841",
+        "w": 328,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 16,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "76af9db63642f84be162427e024f30a9def14f6e",
+    "variantProperties": {
+     "Size": "Mobile",
+     "State": "Error"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Mobile, State=Disabled",
+   "variantProperties": {
+    "Size": "Mobile",
+    "State": "Disabled"
+   },
+   "id": "6962:6843",
+   "key": "65676bd9d43c396729700a25fd16b9b352c59bef",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6843",
+   "width": 328,
+   "height": 81,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 0,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field--mobile-disabled.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Size=Mobile, State=Disabled",
+    "type": "COMPONENT",
+    "id": "6962:6843",
+    "w": 328,
+    "h": 81,
+    "x": 512,
+    "y": 492,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 0,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "children": [
+     {
+      "name": "Label Container",
+      "type": "FRAME",
+      "id": "6962:6844",
+      "w": 328,
+      "h": 19,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Label Icon Container",
+        "type": "FRAME",
+        "id": "6962:6845",
+        "w": 16,
+        "h": 15,
+        "x": 0,
+        "y": 3.5,
+        "hidden": true,
+        "sizing": {
+         "h": "HUG",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          2,
+          0,
+          2,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "children": [
+         {
+          "name": "Label Icon",
+          "type": "VECTOR",
+          "id": "6962:6846",
+          "w": 16,
+          "h": 11,
+          "x": 0,
+          "y": 2,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Label Text Container",
+        "type": "FRAME",
+        "id": "6962:6847",
+        "w": 328,
+        "h": 19,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "children": [
+         {
+          "name": "Label",
+          "type": "TEXT",
+          "id": "6962:6848",
+          "w": 328,
+          "h": 19,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "text": "Field Label",
+          "autoResize": "HEIGHT",
+          "align": "LEFT",
+          "styles": [
+           {
+            "font": "Noto Sans",
+            "weight": "Regular",
+            "size": 14,
+            "lineHeight": "auto",
+            "color": [
+             {
+              "type": "SOLID",
+              "hex": "#838280",
+              "variable": "Colors/color/gray/300"
+             }
+            ],
+            "textStyle": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Input Field Container",
+      "type": "FRAME",
+      "id": "6962:6849",
+      "w": 328,
+      "h": 40,
+      "x": 0,
+      "y": 19,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "clip": true,
+      "radius": 3,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#F1EFEB",
+        "variable": "Colors/color/gray/600"
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
+       }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "children": [
+       {
+        "name": "icon frame",
+        "type": "FRAME",
+        "id": "6962:6850",
+        "w": 40,
+        "h": 40,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6962:6851",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "Input Field",
+        "type": "FRAME",
+        "id": "6962:6852",
+        "w": 288,
+        "h": 40,
+        "x": 40,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          2,
+          16,
+          2,
+          16
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         0,
+         3,
+         3,
+         0
+        ],
+        "children": [
+         {
+          "name": "Text Container",
+          "type": "FRAME",
+          "id": "6962:6853",
+          "w": 256,
+          "h": 22,
+          "x": 16,
+          "y": 9,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Value",
+            "type": "TEXT",
+            "id": "6962:6854",
+            "w": 122,
+            "h": 22,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "HUG",
+             "v": "HUG"
+            },
+            "text": "Placeholder text",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "align": "LEFT",
+            "styles": [
+             {
+              "font": "Noto Sans",
+              "weight": "Regular",
+              "size": 16,
+              "lineHeight": "auto",
+              "color": [
+               {
+                "type": "SOLID",
+                "hex": "#838280",
+                "variable": "Colors/color/gray/300"
+               }
+              ],
+              "textStyle": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Cursor Container",
+          "type": "FRAME",
+          "id": "6962:6855",
+          "w": 3,
+          "h": 20,
+          "x": 193,
+          "y": 18,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "absolute": true,
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "CENTER"
+          },
+          "children": [
+           {
+            "name": "Cursor",
+            "type": "BOOLEAN_OPERATION",
+            "id": "6962:6856",
+            "w": 3,
+            "h": 20,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "FIXED"
+            },
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
+             }
+            ],
+            "children": [
+             {
+              "name": "Line 71 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6857",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 72 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6858",
+              "w": 3,
+              "h": 1,
+              "x": 0,
+              "y": 19,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             },
+             {
+              "name": "Line 73 (Stroke)",
+              "type": "VECTOR",
+              "id": "6962:6859",
+              "w": 20,
+              "h": 1,
+              "x": 2,
+              "y": 0,
+              "fills": [
+               {
+                "type": "SOLID",
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "card badge",
+          "type": "INSTANCE",
+          "id": "6997:27936",
+          "w": 66.5,
+          "h": 44,
+          "x": 205.5,
+          "y": -2,
+          "hidden": true,
+          "sizing": {
+           "h": "HUG",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            2,
+            2,
+            2,
+            2
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "radius": 5,
+          "component": "Icons",
+          "variant": {
+           "Name": "Visa"
+          },
+          "componentKey": "eff7a7ba9923fac77d1aa534f5b66b441a98adb1",
+          "mainId": "4693:131",
+          "props": {}
+         }
+        ]
+       },
+       {
+        "name": "icon frame right",
+        "type": "FRAME",
+        "id": "6997:27654",
+        "w": 40,
+        "h": 40,
+        "x": 288,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          20,
+          20,
+          20,
+          20
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": [
+         3,
+         0,
+         0,
+         3
+        ],
+        "children": [
+         {
+          "name": "Icons",
+          "type": "INSTANCE",
+          "id": "6997:27655",
+          "w": 16,
+          "h": 16,
+          "x": 12,
+          "y": 12,
+          "sizing": {
+           "h": "FIXED",
+           "v": "FIXED"
+          },
+          "layout": {
+           "dir": "HORIZONTAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "CENTER",
+           "cross": "CENTER"
+          },
+          "clip": true,
+          "component": "Icons",
+          "variant": {
+           "Name": "email"
+          },
+          "componentKey": "744d1a6289168958eb20a7d93b6c4cea7a824113",
+          "mainId": "2880:1506",
+          "props": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container",
+      "type": "FRAME",
+      "id": "6962:6860",
+      "w": 328,
+      "h": 22,
+      "x": 0,
+      "y": 59,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "6962:6861",
+        "w": 328,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "opacity": 0,
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 16,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "65676bd9d43c396729700a25fd16b9b352c59bef",
+    "variantProperties": {
+     "Size": "Mobile",
+     "State": "Disabled"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Label",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Field Label",
+   "variants": [
+    "Size=Desktop, State=Blank",
+    "Size=Desktop, State=Filled",
+    "Size=Desktop, State=Focus",
+    "Size=Desktop, State=Error"
+   ]
+  },
+  {
+   "layer": "Value",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 18,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#A7A6A3",
+   "token": "Colors/color/gray/400",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Placeholder text",
+   "variants": [
+    "Size=Desktop, State=Blank",
+    "Size=Desktop, State=Focus",
+    "Size=Desktop, State=Error"
+   ]
+  },
+  {
+   "layer": "Error Message Text.",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 18,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#CC2B27",
+   "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Error message text.",
+   "variants": [
+    "Size=Desktop, State=Blank",
+    "Size=Desktop, State=Filled",
+    "Size=Desktop, State=Focus",
+    "Size=Desktop, State=Error",
+    "Size=Desktop, State=Disabled"
+   ]
+  },
+  {
+   "layer": "Label",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 14,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Field Label",
+   "variants": [
+    "Size=Mobile, State=Blank",
+    "Size=Mobile, State=Filled",
+    "Size=Mobile, State=Focus",
+    "Size=Mobile, State=Error"
+   ]
+  },
+  {
+   "layer": "Value",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#A7A6A3",
+   "token": "Colors/color/gray/400",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Placeholder text",
+   "variants": [
+    "Size=Mobile, State=Blank",
+    "Size=Mobile, State=Focus",
+    "Size=Mobile, State=Error"
+   ]
+  },
+  {
+   "layer": "Error Message Text.",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#CC2B27",
+   "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Error message text.",
+   "variants": [
+    "Size=Mobile, State=Blank",
+    "Size=Mobile, State=Filled",
+    "Size=Mobile, State=Focus",
+    "Size=Mobile, State=Error",
+    "Size=Mobile, State=Disabled"
+   ]
+  },
+  {
+   "layer": "Value",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 18,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "you@example.com",
+   "variants": [
+    "Size=Desktop, State=Filled"
+   ]
+  },
+  {
+   "layer": "Label",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#838280",
+   "token": "Colors/color/gray/300",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Field Label",
+   "variants": [
+    "Size=Desktop, State=Disabled"
+   ]
+  },
+  {
+   "layer": "Value",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 18,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#838280",
+   "token": "Colors/color/gray/300",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Placeholder text",
+   "variants": [
+    "Size=Desktop, State=Disabled"
+   ]
+  },
+  {
+   "layer": "Value",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "you@example.com",
+   "variants": [
+    "Size=Mobile, State=Filled"
+   ]
+  },
+  {
+   "layer": "Label",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 14,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#838280",
+   "token": "Colors/color/gray/300",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Field Label",
+   "variants": [
+    "Size=Mobile, State=Disabled"
+   ]
+  },
+  {
+   "layer": "Value",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#838280",
+   "token": "Colors/color/gray/300",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Placeholder text",
+   "variants": [
+    "Size=Mobile, State=Disabled"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Label Icon",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Input Field Container",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Input Field Container",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#A7A6A3",
+   "token": "Colors/color/gray/400",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  },
+  {
+   "layer": "icon frame",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#F1EFEB",
+   "token": "Colors/color/gray/600",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Cursor",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#000000",
+   "token": "Colors/color/gray/black",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Line 71 (Stroke)",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#000000",
+   "token": "Colors/color/gray/black",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Line 72 (Stroke)",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#000000",
+   "token": "Colors/color/gray/black",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Line 73 (Stroke)",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#000000",
+   "token": "Colors/color/gray/black",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Input Field Container",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#000000",
+   "token": "Colors/color/gray/black",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
+   "layer": "Input Field Container",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#CC2B27",
+   "token": "Colors/color/feedback/high-error",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  },
+  {
+   "layer": "Input Field Container",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#F1EFEB",
+   "token": "Colors/color/gray/600",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Input Field Container",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#CCCAC7",
+   "token": "Colors/color/gray/500",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Error state adds a red message line below the field, so the component gets taller. Leave vertical room for it in forms.",
+  "Size=Desktop, State=Blank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280",
+  "Size=Mobile, State=Blank: 328×81, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360",
+  "Size=Desktop, State=Filled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280",
+  "Size=Desktop, State=Focus: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280",
+  "Size=Desktop, State=Error: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280",
+  "Size=Desktop, State=Disabled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280",
+  "Size=Mobile, State=Filled: 328×81, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360",
+  "Size=Mobile, State=Focus: 328×81, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360",
+  "Size=Mobile, State=Error: 328×81, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360",
+  "Size=Mobile, State=Disabled: 328×81, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "7 of 10 variants have no instances anywhere in MNG Design System (unused, or used only from another file): `Size=Desktop, State=Focus`, `Size=Desktop, State=Error`, `Size=Desktop, State=Disabled`, `Size=Mobile, State=Filled`, `Size=Mobile, State=Focus`, `Size=Mobile, State=Error`, `Size=Mobile, State=Disabled`."
+ ],
+ "skeleton": "form-field.html",
+ "exported": "2026-10-07"
+}

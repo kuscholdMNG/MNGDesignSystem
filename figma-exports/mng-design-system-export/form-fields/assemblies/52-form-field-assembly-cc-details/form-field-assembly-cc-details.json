@@ -1,0 +1,832 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "assembly",
+ "group": "form-fields",
+ "name": "Form Field Assembly / CC details",
+ "slug": "form-field-assembly-cc-details",
+ "order": 52,
+ "typeLabel": "Assembly · 2 variants",
+ "description": null,
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+  "fileName": "MNG Design System",
+  "page": "Form Fields | 2026.09.24",
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12911 ▸ Frame 12918 ▸ Assembly: CC details — Documentation ▸ Frame 11535 ▸ Frame 11522",
+  "mainId": "7003:28816",
+  "mainKey": "b8f9b47fc2388d4c04fe6194aa2180c6fabdca84",
+  "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28816",
+  "variants": [
+   {
+    "label": "Size=Desktop",
+    "id": "7003:28778",
+    "key": "979c2ad0b3f7e2f8e4fbe55a75153e3374c3f597",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28778"
+   },
+   {
+    "label": "Size=Mobile",
+    "id": "7003:28815",
+    "key": "c2de0b4a3bdb26a3b3c419c56823536db3c64300",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28815"
+   }
+  ]
+ },
+ "properties": {
+  "Error message#7003:87": {
+   "type": "TEXT",
+   "default": "Error message text."
+  },
+  "Show error#7003:90": {
+   "type": "BOOLEAN",
+   "default": false
+  },
+  "Show card number#7003:111": {
+   "type": "BOOLEAN",
+   "default": true
+  },
+  "Size": {
+   "type": "VARIANT",
+   "default": "Desktop",
+   "options": [
+    "Desktop",
+    "Mobile"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [],
+  "builtInto": [],
+  "perVariant": [
+   {
+    "label": "Size=Desktop",
+    "id": "7003:28778",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Size=Mobile",
+    "id": "7003:28815",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1
+    },
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Form Field",
+    "count": 4,
+    "inExport": true,
+    "section": "Form Field",
+    "path": "../../components/43-form-field/form-field.md"
+   }
+  ],
+  "builtInto": []
+ },
+ "variants": [
+  {
+   "label": "Size=Desktop",
+   "variantProperties": {
+    "Size": "Desktop"
+   },
+   "id": "7003:28778",
+   "key": "979c2ad0b3f7e2f8e4fbe55a75153e3374c3f597",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28778",
+   "width": 312,
+   "height": 197,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field-assembly-cc-details--desktop.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Size=Desktop",
+    "type": "COMPONENT",
+    "id": "7003:28778",
+    "w": 312,
+    "h": 197,
+    "x": 17,
+    "y": 17,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "clip": true,
+    "children": [
+     {
+      "name": "Form Field",
+      "type": "INSTANCE",
+      "id": "7003:28743",
+      "w": 312,
+      "h": 78,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "component": "Form Field",
+      "variant": {
+       "Size": "Desktop",
+       "State": "Blank"
+      },
+      "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
+      "mainId": "6962:6663",
+      "props": {
+       "Card badge": "4693:131",
+       "Right icon": "2880:1506",
+       "Show right icon": false,
+       "Show label icon": false,
+       "Value": "1234 5678 9012 3456",
+       "Show icon": false,
+       "Icon": "2880:1506",
+       "Error message": "Error message text.",
+       "Show card badge": true,
+       "Label": "Card Number"
+      }
+     },
+     {
+      "name": "Fields",
+      "type": "FRAME",
+      "id": "7003:28744",
+      "w": 286,
+      "h": 78,
+      "x": 0,
+      "y": 86,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Form Field",
+        "type": "INSTANCE",
+        "id": "7003:28745",
+        "w": 96,
+        "h": 78,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Form Field",
+        "variant": {
+         "Size": "Desktop",
+         "State": "Blank"
+        },
+        "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
+        "mainId": "6962:6663",
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "12/34",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Exp. Date"
+        }
+       },
+       {
+        "name": "Form Field",
+        "type": "INSTANCE",
+        "id": "7003:28746",
+        "w": 74,
+        "h": 78,
+        "x": 112,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Form Field",
+        "variant": {
+         "Size": "Desktop",
+         "State": "Blank"
+        },
+        "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
+        "mainId": "6962:6663",
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "1234",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "CVV"
+        }
+       },
+       {
+        "name": "Form Field",
+        "type": "INSTANCE",
+        "id": "7003:28747",
+        "w": 84,
+        "h": 78,
+        "x": 202,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Form Field",
+        "variant": {
+         "Size": "Desktop",
+         "State": "Blank"
+        },
+        "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
+        "mainId": "6962:6663",
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "90210",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Zip Code"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container (Shared)",
+      "type": "FRAME",
+      "id": "7003:28748",
+      "w": 270,
+      "h": 25,
+      "x": 0,
+      "y": 172,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "7003:28749",
+        "w": 270,
+        "h": 25,
+        "x": 0,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 18,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "979c2ad0b3f7e2f8e4fbe55a75153e3374c3f597",
+    "variantProperties": {
+     "Size": "Desktop"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Mobile",
+   "variantProperties": {
+    "Size": "Mobile"
+   },
+   "id": "7003:28815",
+   "key": "c2de0b4a3bdb26a3b3c419c56823536db3c64300",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28815",
+   "width": 264,
+   "height": 148,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 4,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field-assembly-cc-details--mobile.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Size=Mobile",
+    "type": "COMPONENT",
+    "id": "7003:28815",
+    "w": 264,
+    "h": 148,
+    "x": 345,
+    "y": 17,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 4,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "clip": true,
+    "children": [
+     {
+      "name": "Form Field",
+      "type": "INSTANCE",
+      "id": "7003:28780",
+      "w": 264,
+      "h": 59,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "component": "Form Field",
+      "variant": {
+       "Size": "Mobile",
+       "State": "Blank"
+      },
+      "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
+      "mainId": "6962:6683",
+      "props": {
+       "Right icon": "2880:1506",
+       "Card badge": "3289:2650",
+       "Show label icon": false,
+       "Show right icon": false,
+       "Value": "1234 5678 9012 3456",
+       "Show icon": false,
+       "Icon": "2880:1506",
+       "Error message": "Error message text.",
+       "Show card badge": true,
+       "Label": "Card Number"
+      }
+     },
+     {
+      "name": "Fields",
+      "type": "FRAME",
+      "id": "7003:28781",
+      "w": 253,
+      "h": 59,
+      "x": 0,
+      "y": 63,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Form Field",
+        "type": "INSTANCE",
+        "id": "7003:28782",
+        "w": 90,
+        "h": 59,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Form Field",
+        "variant": {
+         "Size": "Mobile",
+         "State": "Blank"
+        },
+        "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
+        "mainId": "6962:6683",
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "12/34",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Exp. Date"
+        }
+       },
+       {
+        "name": "Form Field",
+        "type": "INSTANCE",
+        "id": "7003:28783",
+        "w": 69,
+        "h": 59,
+        "x": 98,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Form Field",
+        "variant": {
+         "Size": "Mobile",
+         "State": "Blank"
+        },
+        "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
+        "mainId": "6962:6683",
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "1234",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "CVV"
+        }
+       },
+       {
+        "name": "Form Field",
+        "type": "INSTANCE",
+        "id": "7003:28784",
+        "w": 78,
+        "h": 59,
+        "x": 175,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Form Field",
+        "variant": {
+         "Size": "Mobile",
+         "State": "Blank"
+        },
+        "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
+        "mainId": "6962:6683",
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "90210",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Zip Code"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container (Shared)",
+      "type": "FRAME",
+      "id": "7003:28785",
+      "w": 238,
+      "h": 22,
+      "x": 0,
+      "y": 126,
+      "sizing": {
+       "h": "FIXED",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "7003:28786",
+        "w": 238,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 16,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "c2de0b4a3bdb26a3b3c419c56823536db3c64300",
+    "variantProperties": {
+     "Size": "Mobile"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Error Message Text.",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 18,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#CC2B27",
+   "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Error message text.",
+   "variants": [
+    "Size=Desktop"
+   ]
+  },
+  {
+   "layer": "Error Message Text.",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#CC2B27",
+   "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Error message text.",
+   "variants": [
+    "Size=Mobile"
+   ]
+  }
+ ],
+ "colors": [],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Size=Desktop: 312×197, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280",
+  "Size=Mobile: 264×148, vertical gap 4 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360"
+ ],
+ "productionRefs": [],
+ "knownIssues": [],
+ "skeleton": "form-field-assembly-cc-details.html",
+ "exported": "2026-10-07"
+}

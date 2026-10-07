@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upcoming Events Widget — skeleton</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../tokens.css">
+<style>
+*{box-sizing:border-box} body{margin:0;padding:24px;background:#f4f4f4;font-family:'Noto Sans',sans-serif;color:#141414}
+[hidden]{display:none!important}
+.skel-variant{margin:0 0 40px} .skel-variant>h1{font:600 13px/1.4 monospace;color:#555;margin:0 0 8px}
+.skel-stage{background:#fff;display:inline-block;outline:1px solid #ddd}
+.mng-a-upcoming-events-widget__device-mobile{width:340px;min-height:250px;position:relative;background:#FFFFFF;overflow:hidden}
+.mng-a-upcoming-events-widget__header{position:absolute;left:4px;top:0px;width:332px;height:28px;display:flex;flex-direction:row;gap:0px;padding:0px 20px 0px 10px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-a-upcoming-events-widget__title{flex:1 1 0;min-width:0;font-family:'Noto Sans', sans-serif;font-size:20px;font-weight:400;line-height:22px;color:#3B3B3B;text-align:left;margin:0}
+.mng-a-upcoming-events-widget__buttons{display:flex;flex-direction:row;gap:8.4px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-a-upcoming-events-widget__upcoming-events-header-button{width:19.2px;flex-shrink:0;height:23px;flex-shrink:0;display:flex;flex-direction:row;gap:2.8px;padding:4px 4px 4px 4px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-theme-primary-dark, #0A5962);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__add-your-event{width:17.4px;flex-shrink:0;height:23px;flex-shrink:0;display:flex;flex-direction:row;gap:2.8px;padding:4px 4px 4px 4px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-theme-primary-dark, #0A5962);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-list{position:absolute;left:21px;top:28px;width:308px;height:172px;display:flex;flex-direction:row;gap:10px;padding:0px 10px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card{flex:1 1 0;min-width:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-2{flex:1 1 0;min-width:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__prev-arrow{position:absolute;left:0px;top:104px;width:20px;height:20px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__next-arrow{position:absolute;left:320px;top:104px;width:20px;height:20px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-strip{position:absolute;left:4px;top:200px;width:332px;height:50px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-calendar-icon{position:absolute;left:0px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:13.5px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day{position:absolute;left:50px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-2{position:absolute;left:100px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-3{position:absolute;left:150px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-4{position:absolute;left:200px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-5{position:absolute;left:250px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__device-tablet{width:448px;min-height:250px;position:relative;background:#FFFFFF;overflow:hidden}
+.mng-a-upcoming-events-widget__header-2{position:absolute;left:4px;top:0px;width:440px;height:28px;display:flex;flex-direction:row;gap:0px;padding:0px 20px 0px 10px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-a-upcoming-events-widget__buttons-2{display:flex;flex-direction:row;gap:9.4px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-a-upcoming-events-widget__upcoming-events-header-button-2{width:100px;flex-shrink:0;height:23px;flex-shrink:0;display:flex;flex-direction:row;gap:2.8px;padding:4px 4px 4px 4px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-theme-primary-dark, #0A5962);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__add-your-event-2{width:106.2px;flex-shrink:0;height:23px;flex-shrink:0;display:flex;flex-direction:row;gap:2.8px;padding:4px 4px 4px 4px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-theme-primary-dark, #0A5962);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-list-2{position:absolute;left:20.5px;top:28px;width:416px;height:172px;display:flex;flex-direction:row;gap:10px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-3{width:129px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-4{width:129px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-5{width:129px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__prev-arrow-2{position:absolute;left:0px;top:104px;width:20px;height:20px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__next-arrow-2{position:absolute;left:428px;top:104px;width:20px;height:20px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-strip-2{position:absolute;left:4px;top:200px;width:440px;height:50px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-calendar-icon-2{position:absolute;left:0px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:13.5px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-6{position:absolute;left:50px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-7{position:absolute;left:100px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-8{position:absolute;left:150px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-9{position:absolute;left:200px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-10{position:absolute;left:250px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-11{position:absolute;left:300px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-12{position:absolute;left:350px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__device-1024{width:704px;min-height:250px;position:relative;background:#FFFFFF;overflow:hidden}
+.mng-a-upcoming-events-widget__header-3{position:absolute;left:4px;top:0px;width:696px;height:28px;display:flex;flex-direction:row;gap:0px;padding:0px 20px 0px 10px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-a-upcoming-events-widget__upcoming-events-header-button-3{width:100px;flex-shrink:0;height:23px;flex-shrink:0;display:flex;flex-direction:row;gap:2.8px;padding:4px 4px 4px 4px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-theme-primary-dark, #0A5962);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__add-your-event-3{width:106.2px;flex-shrink:0;height:23px;flex-shrink:0;display:flex;flex-direction:row;gap:2.8px;padding:4px 4px 4px 4px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-theme-primary-dark, #0A5962);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-list-3{position:absolute;left:21px;top:28px;width:672px;height:172px;display:flex;flex-direction:row;gap:10px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-6{width:158px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-7{width:158px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-8{width:158px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-9{width:158px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__prev-arrow-3{position:absolute;left:0px;top:104px;width:20px;height:20px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__next-arrow-3{position:absolute;left:684px;top:104px;width:20px;height:20px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-strip-3{position:absolute;left:4px;top:200px;width:696px;height:50px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-calendar-icon-3{position:absolute;left:0px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:13.5px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-13{position:absolute;left:50px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-14{position:absolute;left:100px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-15{position:absolute;left:150px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-16{position:absolute;left:200px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-17{position:absolute;left:250px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-18{position:absolute;left:300px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-19{position:absolute;left:350px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-20{position:absolute;left:400px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-21{position:absolute;left:450px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-22{position:absolute;left:500px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-23{position:absolute;left:550px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-24{position:absolute;left:600px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__device-1100{width:780px;min-height:250px;position:relative;background:#FFFFFF;overflow:hidden}
+.mng-a-upcoming-events-widget__header-4{position:absolute;left:4px;top:0px;width:772px;height:28px;display:flex;flex-direction:row;gap:0px;padding:0px 20px 0px 10px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-a-upcoming-events-widget__upcoming-events-header-button-4{width:100px;flex-shrink:0;height:23px;flex-shrink:0;display:flex;flex-direction:row;gap:2.8px;padding:4px 4px 4px 4px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-theme-primary-dark, #0A5962);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__add-your-event-4{width:106.2px;flex-shrink:0;height:23px;flex-shrink:0;display:flex;flex-direction:row;gap:2.8px;padding:4px 4px 4px 4px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-theme-primary-dark, #0A5962);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-list-4{position:absolute;left:21px;top:28px;width:748px;height:172px;display:flex;flex-direction:row;gap:10px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-10{width:177px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-11{width:177px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-12{width:177px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-13{width:177px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__prev-arrow-4{position:absolute;left:0px;top:104px;width:20px;height:20px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__next-arrow-4{position:absolute;left:760px;top:104px;width:20px;height:20px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-strip-4{position:absolute;left:4px;top:200px;width:772px;height:50px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-calendar-icon-4{position:absolute;left:0px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:13.5px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-25{position:absolute;left:50px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-26{position:absolute;left:100px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-27{position:absolute;left:150px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-28{position:absolute;left:200px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-29{position:absolute;left:250px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-30{position:absolute;left:300px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-31{position:absolute;left:350px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-32{position:absolute;left:400px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-33{position:absolute;left:450px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-34{position:absolute;left:500px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-35{position:absolute;left:550px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-36{position:absolute;left:600px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-37{position:absolute;left:650px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-38{position:absolute;left:700px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__device-desktop{width:960px;min-height:250px;position:relative;background:#FFFFFF;overflow:hidden}
+.mng-a-upcoming-events-widget__header-5{position:absolute;left:4px;top:0px;width:952px;height:28px;display:flex;flex-direction:row;gap:0px;padding:0px 20px 0px 10px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-a-upcoming-events-widget__upcoming-events-header-button-5{width:100px;flex-shrink:0;height:23px;flex-shrink:0;display:flex;flex-direction:row;gap:2.8px;padding:4px 4px 4px 4px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-theme-primary-dark, #0A5962);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__add-your-event-5{width:106.2px;flex-shrink:0;height:23px;flex-shrink:0;display:flex;flex-direction:row;gap:2.8px;padding:4px 4px 4px 4px;justify-content:flex-start;align-items:center;position:relative;background:var(--mng-theme-primary-dark, #0A5962);box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-list-5{position:absolute;left:20px;top:28px;width:928px;height:172px;display:flex;flex-direction:row;gap:10px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-14{width:176px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-15{width:176px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-16{width:176px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-17{width:176px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__event-card-18{width:176px;flex-shrink:0;height:172px;flex-shrink:0;display:flex;flex-direction:column;gap:0px;padding:0px 0px 0px 0px;justify-content:flex-start;align-items:flex-start;position:relative;background:var(--mng-theme-primary-dark, #0A5962);overflow:hidden;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__prev-arrow-5{position:absolute;left:0px;top:104px;width:20px;height:20px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__next-arrow-5{position:absolute;left:940px;top:104px;width:20px;height:20px;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-strip-5{position:absolute;left:4px;top:200px;width:952px;height:50px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-calendar-icon-5{position:absolute;left:0px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:13.5px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-39{position:absolute;left:50px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-40{position:absolute;left:100px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-41{position:absolute;left:150px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-42{position:absolute;left:200px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-43{position:absolute;left:250px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-44{position:absolute;left:300px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-45{position:absolute;left:350px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-46{position:absolute;left:400px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-47{position:absolute;left:450px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-48{position:absolute;left:500px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-49{position:absolute;left:550px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-50{position:absolute;left:600px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-51{position:absolute;left:650px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-52{position:absolute;left:700px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-53{position:absolute;left:750px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-54{position:absolute;left:800px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-55{position:absolute;left:850px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+.mng-a-upcoming-events-widget__date-picker-day-56{position:absolute;left:900px;top:0px;width:50px;height:50px;display:flex;flex-direction:column;gap:0px;padding:6px 0px 0px 0px;justify-content:flex-start;align-items:center;position:relative;box-sizing:border-box;border:1px dashed #8A8A8A;background:repeating-linear-gradient(45deg,#fafafa,#fafafa 6px,#f0f0f0 6px,#f0f0f0 12px);font:11px/1.3 monospace;color:#555;padding:4px;overflow:hidden}
+</style></head>
+<body>
+<!-- Structural skeleton generated from Figma auto-layout. Instances are dashed placeholders; open the referenced file to render them. -->
+<section class="skel-variant" data-variant="Device=Mobile">
+  <h1>Upcoming Events Widget · Device=Mobile · 340×250</h1>
+  <div class="skel-stage">
+    <div class="mng-a-upcoming-events-widget__device-mobile" data-layer="Device=Mobile">
+      <div class="mng-a-upcoming-events-widget__header" data-layer="Header">
+        <h2 class="mng-a-upcoming-events-widget__title">Upcoming Events</h2>
+        <div class="mng-a-upcoming-events-widget__buttons" data-layer="Buttons">
+          <!-- instance of "Upcoming Events Header Button" → homepage/components/27-upcoming-events-header-button/upcoming-events-header-button.html -->
+          <div class="mng-a-upcoming-events-widget__upcoming-events-header-button" data-component="Upcoming Events Header Button" data-variant="Type=See All Events, Label=Off" data-label="Upcoming Events Header Button">Upcoming Events Header Button · Type=See All Events, Label=Off</div>
+          <!-- instance of "Upcoming Events Header Button" → homepage/components/27-upcoming-events-header-button/upcoming-events-header-button.html -->
+          <div class="mng-a-upcoming-events-widget__add-your-event" data-component="Upcoming Events Header Button" data-variant="Type=Add your event, Label=Off" data-label="Add your event">Upcoming Events Header Button · Type=Add your event, Label=Off</div>
+        </div>
+      </div>
+      <div class="mng-a-upcoming-events-widget__event-list" data-layer="Event List">
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-2" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+      </div>
+      <!-- instance of "Upcoming Events Side Arrow" → homepage/components/28-upcoming-events-side-arrow/upcoming-events-side-arrow.html -->
+      <div class="mng-a-upcoming-events-widget__prev-arrow" data-component="Upcoming Events Side Arrow" data-variant="Direction=Left" data-label="Prev Arrow">Upcoming Events Side Arrow · Direction=Left</div>
+      <!-- instance of "Upcoming Events Side Arrow" → homepage/components/28-upcoming-events-side-arrow/upcoming-events-side-arrow.html -->
+      <div class="mng-a-upcoming-events-widget__next-arrow" data-component="Upcoming Events Side Arrow" data-variant="Direction=Right" data-label="Next Arrow">Upcoming Events Side Arrow · Direction=Right</div>
+      <div class="mng-a-upcoming-events-widget__date-strip" data-layer="Date Strip">
+        <!-- instance of "Date Picker Calendar Icon" → homepage/components/25-date-picker-calendar-icon/date-picker-calendar-icon.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-calendar-icon" data-component="Date Picker Calendar Icon" data-variant="" data-label="Date Picker Calendar Icon">Date Picker Calendar Icon</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-2" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-3" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-4" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-5" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=Tablet">
+  <h1>Upcoming Events Widget · Device=Tablet · 448×250</h1>
+  <div class="skel-stage">
+    <div class="mng-a-upcoming-events-widget__device-tablet" data-layer="Device=Tablet">
+      <div class="mng-a-upcoming-events-widget__header-2" data-layer="Header">
+        <h2 class="mng-a-upcoming-events-widget__title">Upcoming Events</h2>
+        <div class="mng-a-upcoming-events-widget__buttons-2" data-layer="Buttons">
+          <!-- instance of "Upcoming Events Header Button" → homepage/components/27-upcoming-events-header-button/upcoming-events-header-button.html -->
+          <div class="mng-a-upcoming-events-widget__upcoming-events-header-button-2" data-component="Upcoming Events Header Button" data-variant="Type=See All Events, Label=On" data-label="Upcoming Events Header Button">Upcoming Events Header Button · Type=See All Events, Label=On</div>
+          <!-- instance of "Upcoming Events Header Button" → homepage/components/27-upcoming-events-header-button/upcoming-events-header-button.html -->
+          <div class="mng-a-upcoming-events-widget__add-your-event-2" data-component="Upcoming Events Header Button" data-variant="Type=Add your event, Label=On" data-label="Add your event">Upcoming Events Header Button · Type=Add your event, Label=On</div>
+        </div>
+      </div>
+      <div class="mng-a-upcoming-events-widget__event-list-2" data-layer="Event List">
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-3" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-4" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-5" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+      </div>
+      <!-- instance of "Upcoming Events Side Arrow" → homepage/components/28-upcoming-events-side-arrow/upcoming-events-side-arrow.html -->
+      <div class="mng-a-upcoming-events-widget__prev-arrow-2" data-component="Upcoming Events Side Arrow" data-variant="Direction=Left" data-label="Prev Arrow">Upcoming Events Side Arrow · Direction=Left</div>
+      <!-- instance of "Upcoming Events Side Arrow" → homepage/components/28-upcoming-events-side-arrow/upcoming-events-side-arrow.html -->
+      <div class="mng-a-upcoming-events-widget__next-arrow-2" data-component="Upcoming Events Side Arrow" data-variant="Direction=Right" data-label="Next Arrow">Upcoming Events Side Arrow · Direction=Right</div>
+      <div class="mng-a-upcoming-events-widget__date-strip-2" data-layer="Date Strip">
+        <!-- instance of "Date Picker Calendar Icon" → homepage/components/25-date-picker-calendar-icon/date-picker-calendar-icon.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-calendar-icon-2" data-component="Date Picker Calendar Icon" data-variant="" data-label="Date Picker Calendar Icon">Date Picker Calendar Icon</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-6" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-7" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-8" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-9" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-10" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-11" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-12" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=1024">
+  <h1>Upcoming Events Widget · Device=1024 · 704×250</h1>
+  <div class="skel-stage">
+    <div class="mng-a-upcoming-events-widget__device-1024" data-layer="Device=1024">
+      <div class="mng-a-upcoming-events-widget__header-3" data-layer="Header">
+        <h2 class="mng-a-upcoming-events-widget__title">Upcoming Events</h2>
+        <div class="mng-a-upcoming-events-widget__buttons-2" data-layer="Buttons">
+          <!-- instance of "Upcoming Events Header Button" → homepage/components/27-upcoming-events-header-button/upcoming-events-header-button.html -->
+          <div class="mng-a-upcoming-events-widget__upcoming-events-header-button-3" data-component="Upcoming Events Header Button" data-variant="Type=See All Events, Label=On" data-label="Upcoming Events Header Button">Upcoming Events Header Button · Type=See All Events, Label=On</div>
+          <!-- instance of "Upcoming Events Header Button" → homepage/components/27-upcoming-events-header-button/upcoming-events-header-button.html -->
+          <div class="mng-a-upcoming-events-widget__add-your-event-3" data-component="Upcoming Events Header Button" data-variant="Type=Add your event, Label=On" data-label="Add your event">Upcoming Events Header Button · Type=Add your event, Label=On</div>
+        </div>
+      </div>
+      <div class="mng-a-upcoming-events-widget__event-list-3" data-layer="Event List">
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-6" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-7" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-8" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-9" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+      </div>
+      <!-- instance of "Upcoming Events Side Arrow" → homepage/components/28-upcoming-events-side-arrow/upcoming-events-side-arrow.html -->
+      <div class="mng-a-upcoming-events-widget__prev-arrow-3" data-component="Upcoming Events Side Arrow" data-variant="Direction=Left" data-label="Prev Arrow">Upcoming Events Side Arrow · Direction=Left</div>
+      <!-- instance of "Upcoming Events Side Arrow" → homepage/components/28-upcoming-events-side-arrow/upcoming-events-side-arrow.html -->
+      <div class="mng-a-upcoming-events-widget__next-arrow-3" data-component="Upcoming Events Side Arrow" data-variant="Direction=Right" data-label="Next Arrow">Upcoming Events Side Arrow · Direction=Right</div>
+      <div class="mng-a-upcoming-events-widget__date-strip-3" data-layer="Date Strip">
+        <!-- instance of "Date Picker Calendar Icon" → homepage/components/25-date-picker-calendar-icon/date-picker-calendar-icon.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-calendar-icon-3" data-component="Date Picker Calendar Icon" data-variant="" data-label="Date Picker Calendar Icon">Date Picker Calendar Icon</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-13" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-14" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-15" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-16" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-17" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-18" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-19" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-20" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-21" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-22" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-23" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-24" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=1100">
+  <h1>Upcoming Events Widget · Device=1100 · 780×250</h1>
+  <div class="skel-stage">
+    <div class="mng-a-upcoming-events-widget__device-1100" data-layer="Device=1100">
+      <div class="mng-a-upcoming-events-widget__header-4" data-layer="Header">
+        <h2 class="mng-a-upcoming-events-widget__title">Upcoming Events</h2>
+        <div class="mng-a-upcoming-events-widget__buttons-2" data-layer="Buttons">
+          <!-- instance of "Upcoming Events Header Button" → homepage/components/27-upcoming-events-header-button/upcoming-events-header-button.html -->
+          <div class="mng-a-upcoming-events-widget__upcoming-events-header-button-4" data-component="Upcoming Events Header Button" data-variant="Type=See All Events, Label=On" data-label="Upcoming Events Header Button">Upcoming Events Header Button · Type=See All Events, Label=On</div>
+          <!-- instance of "Upcoming Events Header Button" → homepage/components/27-upcoming-events-header-button/upcoming-events-header-button.html -->
+          <div class="mng-a-upcoming-events-widget__add-your-event-4" data-component="Upcoming Events Header Button" data-variant="Type=Add your event, Label=On" data-label="Add your event">Upcoming Events Header Button · Type=Add your event, Label=On</div>
+        </div>
+      </div>
+      <div class="mng-a-upcoming-events-widget__event-list-4" data-layer="Event List">
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-10" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-11" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-12" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-13" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+      </div>
+      <!-- instance of "Upcoming Events Side Arrow" → homepage/components/28-upcoming-events-side-arrow/upcoming-events-side-arrow.html -->
+      <div class="mng-a-upcoming-events-widget__prev-arrow-4" data-component="Upcoming Events Side Arrow" data-variant="Direction=Left" data-label="Prev Arrow">Upcoming Events Side Arrow · Direction=Left</div>
+      <!-- instance of "Upcoming Events Side Arrow" → homepage/components/28-upcoming-events-side-arrow/upcoming-events-side-arrow.html -->
+      <div class="mng-a-upcoming-events-widget__next-arrow-4" data-component="Upcoming Events Side Arrow" data-variant="Direction=Right" data-label="Next Arrow">Upcoming Events Side Arrow · Direction=Right</div>
+      <div class="mng-a-upcoming-events-widget__date-strip-4" data-layer="Date Strip">
+        <!-- instance of "Date Picker Calendar Icon" → homepage/components/25-date-picker-calendar-icon/date-picker-calendar-icon.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-calendar-icon-4" data-component="Date Picker Calendar Icon" data-variant="" data-label="Date Picker Calendar Icon">Date Picker Calendar Icon</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-25" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-26" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-27" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-28" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-29" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-30" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-31" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-32" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-33" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-34" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-35" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-36" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-37" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-38" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skel-variant" data-variant="Device=Desktop">
+  <h1>Upcoming Events Widget · Device=Desktop · 960×250</h1>
+  <div class="skel-stage">
+    <div class="mng-a-upcoming-events-widget__device-desktop" data-layer="Device=Desktop">
+      <div class="mng-a-upcoming-events-widget__header-5" data-layer="Header">
+        <h2 class="mng-a-upcoming-events-widget__title">Upcoming Events</h2>
+        <div class="mng-a-upcoming-events-widget__buttons-2" data-layer="Buttons">
+          <!-- instance of "Upcoming Events Header Button" → homepage/components/27-upcoming-events-header-button/upcoming-events-header-button.html -->
+          <div class="mng-a-upcoming-events-widget__upcoming-events-header-button-5" data-component="Upcoming Events Header Button" data-variant="Type=See All Events, Label=On" data-label="Upcoming Events Header Button">Upcoming Events Header Button · Type=See All Events, Label=On</div>
+          <!-- instance of "Upcoming Events Header Button" → homepage/components/27-upcoming-events-header-button/upcoming-events-header-button.html -->
+          <div class="mng-a-upcoming-events-widget__add-your-event-5" data-component="Upcoming Events Header Button" data-variant="Type=Add your event, Label=On" data-label="Add your event">Upcoming Events Header Button · Type=Add your event, Label=On</div>
+        </div>
+      </div>
+      <div class="mng-a-upcoming-events-widget__event-list-5" data-layer="Event List">
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-14" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-15" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-16" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-17" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+        <!-- instance of "Event Card" → homepage/components/23-event-card/event-card.html -->
+        <div class="mng-a-upcoming-events-widget__event-card-18" data-component="Event Card" data-variant="" data-label="Event Card">Event Card</div>
+      </div>
+      <!-- instance of "Upcoming Events Side Arrow" → homepage/components/28-upcoming-events-side-arrow/upcoming-events-side-arrow.html -->
+      <div class="mng-a-upcoming-events-widget__prev-arrow-5" data-component="Upcoming Events Side Arrow" data-variant="Direction=Left" data-label="Prev Arrow">Upcoming Events Side Arrow · Direction=Left</div>
+      <!-- instance of "Upcoming Events Side Arrow" → homepage/components/28-upcoming-events-side-arrow/upcoming-events-side-arrow.html -->
+      <div class="mng-a-upcoming-events-widget__next-arrow-5" data-component="Upcoming Events Side Arrow" data-variant="Direction=Right" data-label="Next Arrow">Upcoming Events Side Arrow · Direction=Right</div>
+      <div class="mng-a-upcoming-events-widget__date-strip-5" data-layer="Date Strip">
+        <!-- instance of "Date Picker Calendar Icon" → homepage/components/25-date-picker-calendar-icon/date-picker-calendar-icon.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-calendar-icon-5" data-component="Date Picker Calendar Icon" data-variant="" data-label="Date Picker Calendar Icon">Date Picker Calendar Icon</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-39" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-40" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-41" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-42" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-43" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-44" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-45" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-46" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-47" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-48" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-49" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-50" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-51" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-52" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-53" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-54" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-55" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+        <!-- instance of "Date Picker Day" → homepage/components/24-date-picker-day/date-picker-day.html -->
+        <div class="mng-a-upcoming-events-widget__date-picker-day-56" data-component="Date Picker Day" data-variant="" data-label="Date Picker Day">Date Picker Day</div>
+      </div>
+    </div>
+  </div>
+</section>
+</body></html>

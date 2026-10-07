@@ -55,6 +55,9 @@
      "768 HomePage": [
       "Zone 1 Lead Article Card"
      ],
+     "Desktop HomePage": [
+      "Zone 1 Lead Article Card"
+     ],
      "1100 HomePage": [
       "Zone 1 Lead Article Card"
      ],
@@ -66,15 +69,12 @@
      ],
      "340 HomePage": [
       "Zone 1 Lead Article Card"
-     ],
-     "Desktop HomePage": [
-      "Zone 1 Lead Article Card"
      ]
     },
     "inComponents": {
      "Zone 1 Lead Article Card / Device=Tablet": 3,
-     "Zone 1 Lead Article Card / Device=Mobile": 3,
-     "Zone 1 Lead Article Card / Device=Desktop": 3
+     "Zone 1 Lead Article Card / Device=Desktop": 3,
+     "Zone 1 Lead Article Card / Device=Mobile": 3
     },
     "other": {},
     "breakpoints": [

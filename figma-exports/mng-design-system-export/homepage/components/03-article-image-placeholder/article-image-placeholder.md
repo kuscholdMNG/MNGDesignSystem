@@ -9,7 +9,7 @@ component_key: 682588ec19d35ed6a03e5a8e45b70e5fbc16d7cf
 variants: 1
 breakpoints: [340, 360, 768, 1024, 1100, 1280]
 built_from: []
-built_into: ["Zone 1 Lead Article Card", "TopZone Article Card", "Horizontal Thumbnail Card", "Horizontal Feature Card", "1Col Article Card", "Feature + List Content Block"]
+built_into: ["Zone 1 Lead Article Card", "TopZone Article Card", "Horizontal Thumbnail Card", "Horizontal Feature Card", "1Col Article Card", "Feature + List Content Block", "Event Card"]
 spec_json: article-image-placeholder.json
 skeleton: article-image-placeholder.html
 exported: 2026-10-07
@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Article Image Placeholder** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via 1Col Article Card, Horizontal Feature Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 1100 HomePage (via 1Col Article Card, Horizontal Feature Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 768 HomePage (via 1Col Article Card, Horizontal Feature Card, Horizontal Thumbnail Card, Zone 1 Lead Article Card), 1024 HomePage (via 1Col Article Card, Feature + List Content Block, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), Mobile HomePage (via 1Col Article Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 340 HomePage (via 1Col Article Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card); nested inside: Horizontal Thumbnail Card / Device=Desktop ×1, TopZone Article Card / Device=Desktop ×1, Horizontal Feature Card ×1, Event Card (768, 129w) ×1, Zone 1 Lead Article Card / Device=Tablet ×1, Feature + List Content Block / Size=Narrow ×1, Horizontal Thumbnail Card / Device=Tablet ×1, TopZone Article Card / Device=1024 ×1, Zone 1 Lead Article Card / Device=Desktop ×1, Event Card ×2, Horizontal Thumbnail Card / Device=Mobile ×1, TopZone Article Card / Device=1100 ×1, 1Col Article Card / Style=Media Lead ×1, TopZone Article Card / Device=Mobile ×1, 1Col Article Card / Style=Standard ×1, Zone 1 Lead Article Card / Device=Mobile ×1
+- **Article Image Placeholder** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Mobile HomePage (via 1Col Article Card, Event Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 340 HomePage (via 1Col Article Card, Event Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 768 HomePage (via 1Col Article Card, Event Card, Horizontal Feature Card, Horizontal Thumbnail Card, Zone 1 Lead Article Card), 1100 HomePage (via 1Col Article Card, Event Card, Horizontal Feature Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), Desktop HomePage (via 1Col Article Card, Event Card, Horizontal Feature Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 1024 HomePage (via 1Col Article Card, Event Card, Feature + List Content Block, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card); nested inside: TopZone Article Card / Device=Mobile ×1, Event Card ×2, Horizontal Thumbnail Card / Device=Mobile ×1, Zone 1 Lead Article Card / Device=Tablet ×1, Horizontal Thumbnail Card / Device=Tablet ×1, Zone 1 Lead Article Card / Device=Desktop ×1, Feature + List Content Block / Size=Narrow ×1, Horizontal Thumbnail Card / Device=Desktop ×1, TopZone Article Card / Device=Desktop ×1, Zone 1 Lead Article Card / Device=Mobile ×1, Horizontal Feature Card ×1, 1Col Article Card / Style=Standard ×1, 1Col Article Card / Style=Media Lead ×1, TopZone Article Card / Device=1100 ×1, TopZone Article Card / Device=1024 ×1
 
 ## Breakpoints
 
@@ -67,6 +67,7 @@ _Nothing — leaf component._
 - [Horizontal Feature Card](../15-horizontal-feature-card/horizontal-feature-card.md)
 - [1Col Article Card](../16-1col-article-card/1col-article-card.md)
 - [Feature + List Content Block](../../assemblies/17-feature-list-content-block/feature-list-content-block.md)
+- [Event Card](../23-event-card/event-card.md)
 
 ## Anatomy
 

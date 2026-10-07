@@ -7,7 +7,7 @@ figma_file: "WordPress Elements (b1iZxkFwtAYq9rElmnCAzd)"
 figma_node: "3476:62396"
 component_key: a8093d9af051cf493da6a481a57b6c9119f9cbbf
 variants: 3
-breakpoints: [340, 360, 768, 1280]
+breakpoints: [340, 360, 768, 1024, 1100, 1280]
 built_from: ["Section Title / Eyebrow", "Latest Headlines List Item", "Newsletter Signup"]
 built_into: ["TOP ZONE Block"]
 spec_json: latest-headlines.json
@@ -42,7 +42,7 @@ exported: 2026-10-07
 
 - **Device=Mobile** — breakpoints: 340, 360; templates (via assembly): Mobile HomePage (via TOP ZONE Block), 340 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Mobile ×1
 - **Device=Tablet** — breakpoints: 768; templates (via assembly): 768 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Tablet ×1
-- **Device=Desktop** — breakpoints: 1280; templates (via assembly): Desktop HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Desktop ×1
+- **Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via TOP ZONE Block), 1100 HomePage (via TOP ZONE Block), 1024 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Desktop ×1, TOP ZONE Block / Device=1100 ×1, TOP ZONE Block / Device=1024 ×1
 
 ## Breakpoints
 
@@ -51,13 +51,15 @@ exported: 2026-10-07
 | 340 | ≤639px (XS-Fold, built 340) | Device=Mobile |
 | 360 | ≤639px (SM-Mobile, built 360) | Device=Mobile |
 | 768 | 640–799px (MD-TabletV) | Device=Tablet |
+| 1024 | 800–1039px (LG-TabletH, built 1009) | Device=Desktop |
+| 1100 | ≥1040px (XL-Desktop, built 1085) | Device=Desktop |
 | 1280 | ≥1040px (XL-Desktop, built 1280) | Device=Desktop |
 
 ## Responsive rules
 
 - Device=Mobile: 340×956, vertical gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360
 - Device=Tablet: 748×956, vertical gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 768
-- Device=Desktop: 226×1072, vertical gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 1280
+- Device=Desktop: 226×1072, vertical gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 
 ## Dependencies
 
@@ -106,13 +108,13 @@ exported: 2026-10-07
 ```
 - Device=Desktop — component 226×1072 [vertical gap 12] (fixed/hug)
   - Section Title / Eyebrow — instance 226×30 [vertical gap 6] (fill/hug) → Section Title / Eyebrow [Style=Underline]
-  - Latest Headlines List Item — instance 226×62 [vertical gap 4] (fixed/hug) → Latest Headlines List Item [Type=First]
-  - Latest Headlines List Item — instance 226×78 [vertical gap 16] (fixed/hug) → Latest Headlines List Item [Type=Standard]
-  - Latest Headlines List Item — instance 226×98 [vertical gap 16] (fixed/hug) → Latest Headlines List Item [Type=Standard]
-  - Latest Headlines List Item — instance 226×118 [vertical gap 16] (fixed/hug) → Latest Headlines List Item [Type=Standard]
-  - Latest Headlines List Item — instance 226×98 [vertical gap 16] (fixed/hug) → Latest Headlines List Item [Type=Standard] ×3
-  - Latest Headlines List Item — instance 226×149 [vertical gap 16] (fixed/hug) → Latest Headlines List Item [Type=Sponsored]
-  - Newsletter Signup — instance 226×135 [vertical gap 8] (fixed/fixed) → Newsletter Signup [Device=Desktop]
+  - Latest Headlines List Item — instance 226×62 [vertical gap 4] (fill/hug) → Latest Headlines List Item [Type=First]
+  - Latest Headlines List Item — instance 226×78 [vertical gap 16] (fill/hug) → Latest Headlines List Item [Type=Standard]
+  - Latest Headlines List Item — instance 226×98 [vertical gap 16] (fill/hug) → Latest Headlines List Item [Type=Standard]
+  - Latest Headlines List Item — instance 226×118 [vertical gap 16] (fill/hug) → Latest Headlines List Item [Type=Standard]
+  - Latest Headlines List Item — instance 226×98 [vertical gap 16] (fill/hug) → Latest Headlines List Item [Type=Standard] ×3
+  - Latest Headlines List Item — instance 226×149 [vertical gap 16] (fill/hug) → Latest Headlines List Item [Type=Sponsored]
+  - Newsletter Signup — instance 226×135 [vertical gap 8] (fill/fixed) → Newsletter Signup [Device=Desktop]
 ```
 
 ## Size & layout

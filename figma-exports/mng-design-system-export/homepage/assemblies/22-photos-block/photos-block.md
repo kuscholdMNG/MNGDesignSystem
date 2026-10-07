@@ -43,7 +43,7 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Device=Mobile** — breakpoints: 340, 360; no instances in this file
+- **Device=Mobile** — breakpoints: 340, 360; templates (direct): Mobile HomePage ×1, 340 HomePage ×1
 - **Device=Tablet** — breakpoints: 768; templates (direct): 768 HomePage ×1
 - **Device=Desktop** — breakpoints: 1100, 1280; no instances in this file
 - **Device=1280** — breakpoints: 1280; templates (direct): Desktop HomePage ×1
@@ -208,7 +208,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- 2 of 6 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=Mobile`, `Device=Desktop`.
+- 1 of 6 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=Desktop`.
 - The 340 and 360 templates use a 'Photos Block' frame (not an instance) that copies Device=Mobile, so Device=Mobile shows as unused.
 
 ## Rendering steps

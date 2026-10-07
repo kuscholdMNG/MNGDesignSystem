@@ -55,9 +55,6 @@
      "1024 HomePage": [
       "Blueconic Block (Most Popular)"
      ],
-     "768 HomePage": [
-      "Blueconic Block (Most Popular)"
-     ],
      "Mobile HomePage": [
       "Blueconic Block (Most Popular)"
      ],
@@ -69,15 +66,18 @@
      ],
      "Desktop HomePage": [
       "Blueconic Block (Most Popular)"
+     ],
+     "768 HomePage": [
+      "Blueconic Block (Most Popular)"
      ]
     },
     "inComponents": {
      "Blueconic Block (Most Popular) / Device=1024": 10,
      "Blueconic Block (Most Popular) / Device=Desktop": 10,
-     "Blueconic Block (Most Popular) / Device=Tablet": 10,
      "Blueconic Block (Most Popular) / Device=Mobile": 10,
      "Blueconic Block (Most Popular) / Device=1100": 10,
-     "Blueconic Block (Most Popular) / Device=1280": 10
+     "Blueconic Block (Most Popular) / Device=1280": 10,
+     "Blueconic Block (Most Popular) / Device=Tablet": 10
     },
     "other": {},
     "breakpoints": [

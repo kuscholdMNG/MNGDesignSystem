@@ -81,15 +81,20 @@
   "templates": [
    "1024 HomePage",
    "1100 HomePage",
+   "340 HomePage",
    "768 HomePage",
-   "Desktop HomePage"
+   "Desktop HomePage",
+   "Mobile HomePage"
   ],
   "builtInto": [],
   "perVariant": [
    {
     "label": "Device=Mobile",
     "id": "3352:20864",
-    "templatesDirect": {},
+    "templatesDirect": {
+     "Mobile HomePage": 1,
+     "340 HomePage": 1
+    },
     "templatesVia": {},
     "inComponents": {},
     "other": {},
@@ -3547,7 +3552,7 @@
  ],
  "productionRefs": [],
  "knownIssues": [
-  "2 of 6 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=Mobile`, `Device=Desktop`.",
+  "1 of 6 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=Desktop`.",
   "The 340 and 360 templates use a 'Photos Block' frame (not an instance) that copies Device=Mobile, so Device=Mobile shows as unused."
  ],
  "skeleton": "photos-block.html",

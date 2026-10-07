@@ -8,7 +8,7 @@ figma_node: "3352:19482"
 component_key: 7a4ff4e26dbe4cde51851d2fa71c64f0c4f6ddd1
 variants: 5
 breakpoints: [340, 360, 768, 1024, 1100, 1280]
-built_from: ["Zone 1 Lead Article Card", "TopZone Article Card", "Latest Headlines", "Ad Blocks", "Horizontal Thumbnail Card", "Section Title / Eyebrow", "Latest Headlines List Item", "Newsletter Signup"]
+built_from: ["Zone 1 Lead Article Card", "TopZone Article Card", "Latest Headlines", "Ad Blocks", "Horizontal Thumbnail Card"]
 built_into: []
 spec_json: top-zone-block.json
 skeleton: top-zone-block.html
@@ -31,7 +31,7 @@ exported: 2026-10-07
 | Device=Mobile | [3352:19481](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-19481) | 6f47ee23795007df62f06ec3ef7f576a1c87eb75 | 340×2378.7 | ![Device=Mobile](previews/top-zone-block--mobile.png) |
 | Device=Desktop | [3352:19480](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-19480) | 36fdd688499b8f976a904d80a176e92d829057d4 | 1264×1088 | ![Device=Desktop](previews/top-zone-block--desktop.png) |
 | Device=Tablet | [3383:46168](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46168) | b4a1a32615aabad34160c7c1eb0c826d46033f51 | 748×1787 | ![Device=Tablet](previews/top-zone-block--tablet.png) |
-| Device=1024 | [3553:32881](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3553-32881) | b48f78878f58785c9a3bfa7f2babad967900c32d | 989×1088 | ![Device=1024](previews/top-zone-block--1024.png) |
+| Device=1024 | [3553:32881](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3553-32881) | b48f78878f58785c9a3bfa7f2babad967900c32d | 989×1066 | ![Device=1024](previews/top-zone-block--1024.png) |
 | Device=1100 | [3553:33340](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3553-33340) | a2e3848a12d934ff77250990ec1fff1c9418267c | 1065×1313.7 | ![Device=1100](previews/top-zone-block--1100.png) |
 
 ## Properties
@@ -69,7 +69,7 @@ exported: 2026-10-07
 - Device=Mobile: 340×2378.7, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360
 - Device=Desktop: 1264×1088, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1280
 - Device=Tablet: 748×1787, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768
-- Device=1024: 989×1088, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1024
+- Device=1024: 989×1066, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1024
 - Device=1100: 1065×1313.7, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1100
 
 ## Dependencies
@@ -81,9 +81,6 @@ exported: 2026-10-07
 - [Latest Headlines](../09-latest-headlines/latest-headlines.md) ×1
 - Ad Blocks ×1 _(not in this export)_
 - [Horizontal Thumbnail Card](../../components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.md) ×4
-- [Section Title / Eyebrow](../../components/06-section-title-eyebrow/section-title-eyebrow.md) ×1
-- [Latest Headlines List Item](../../components/07-latest-headlines-list-item/latest-headlines-list-item.md) ×8
-- [Newsletter Signup](../../components/08-newsletter-signup/newsletter-signup.md) ×1
 
 **Built into:**
 
@@ -135,22 +132,14 @@ _Not used inside another exported item._
 **Device=1024**
 
 ```
-- Device=1024 — component 989×1088 [horizontal gap 16] (fixed/hug)
+- Device=1024 — component 989×1066 [horizontal gap 16] (fixed/hug)
   - Frame 11645 — frame 405×1019.2 [vertical gap 0] (fixed/hug)
     - Zone 1 Lead Article Card (1024, Tier 3 — Device=Mobile variant swapped in, matches real production vertical-stack layout at 800-1279px) — instance 405×608.7 [vertical gap 8] (fill/hug) → Zone 1 Lead Article Card [Device=Mobile]
     - Top Zones 2-5 — frame 405×205.3 [horizontal gap 20] (fill/hug)
       - TopZone Article Card — instance 192.5×189.3 [vertical gap 8] (fill/hug) → TopZone Article Card [Device=1024] ×2
     - Top Zones 2-5 — frame 405×205.3 [horizontal gap 20] (fill/hug)
       - TopZone Article Card — instance 192.5×189.3 [vertical gap 8] (fill/hug) → TopZone Article Card [Device=1024] ×2
-  - Latest Headlines MinCol — frame 252×1072 [vertical gap 12] (fill/hug)
-    - Section Title / Eyebrow — instance 252×30 [vertical gap 6] (fill/hug) → Section Title / Eyebrow [Style=Underline]
-    - Latest Headlines List Item — instance 226×62 [vertical gap 4] (fixed/hug) → Latest Headlines List Item [Type=First]
-    - Latest Headlines List Item — instance 226×78 [vertical gap 16] (fixed/hug) → Latest Headlines List Item [Type=Standard]
-    - Latest Headlines List Item — instance 226×98 [vertical gap 16] (fixed/hug) → Latest Headlines List Item [Type=Standard]
-    - Latest Headlines List Item — instance 226×118 [vertical gap 16] (fixed/hug) → Latest Headlines List Item [Type=Standard]
-    - Latest Headlines List Item — instance 226×98 [vertical gap 16] (fixed/hug) → Latest Headlines List Item [Type=Standard] ×3
-    - Latest Headlines List Item — instance 226×149 [vertical gap 16] (fixed/hug) → Latest Headlines List Item [Type=Sponsored]
-    - Newsletter Signup — instance 226×135 [vertical gap 8] (fixed/fixed) → Newsletter Signup [Device=Desktop]
+  - Latest Headlines — instance 252×1012 [vertical gap 12] (fill/hug) → Latest Headlines [Device=Desktop]
   - Right Rail — frame 300×1050 [vertical gap 16] (fixed/hug)
     - Ad Blocks — instance 300×1050 [vertical gap 8] (fixed/fixed) → Ad Blocks [Device=Desktop, Name=Cube 1 RRail ATF 300x1050]
 ```
@@ -163,15 +152,7 @@ _Not used inside another exported item._
     - Zone 1 Lead Article Card (1100, Tier 4 — Device=Mobile variant swapped in, matches real production vertical-stack layout at 800-1279px) — instance 500×541.7 [vertical gap 8] (fill/hug) → Zone 1 Lead Article Card [Device=Mobile]
     - Top Zones 2-5 — frame 500×756 [vertical gap 16] (fill/hug)
       - TopZone Article Card — instance 500×173 [vertical gap 16] (fill/hug) → TopZone Article Card [Device=1100] ×4
-  - Latest Headlines MinCol — frame 219×1092 [vertical gap 12] (fill/hug)
-    - Section Title / Eyebrow — instance 219×30 [vertical gap 6] (fill/hug) → Section Title / Eyebrow [Style=Underline]
-    - Latest Headlines List Item — instance 219×82 [vertical gap 4] (fill/hug) → Latest Headlines List Item [Type=First]
-    - Latest Headlines List Item — instance 219×78 [vertical gap 16] (fill/hug) → Latest Headlines List Item [Type=Standard]
-    - Latest Headlines List Item — instance 219×98 [vertical gap 16] (fill/hug) → Latest Headlines List Item [Type=Standard]
-    - Latest Headlines List Item — instance 219×118 [vertical gap 16] (fill/hug) → Latest Headlines List Item [Type=Standard]
-    - Latest Headlines List Item — instance 219×98 [vertical gap 16] (fill/hug) → Latest Headlines List Item [Type=Standard] ×3
-    - Latest Headlines List Item — instance 219×149 [vertical gap 16] (fill/hug) → Latest Headlines List Item [Type=Sponsored]
-    - Newsletter Signup — instance 219×135 [vertical gap 8] (fill/fixed) → Newsletter Signup [Device=Desktop]
+  - Latest Headlines — instance 219×1092 [vertical gap 12] (fill/hug) → Latest Headlines [Device=Desktop]
   - Right Rail — frame 314×1050 [vertical gap 16] (fixed/hug)
     - Ad Blocks — instance 300×1050 [vertical gap 8] (fixed/fixed) → Ad Blocks [Device=Desktop, Name=Cube 1 RRail ATF 300x1050]
 ```
@@ -183,7 +164,7 @@ _Not used inside another exported item._
 | Device=Mobile | 340×2378.7 | FIXED | HUG | vertical gap 16 pad 0/0/0/0 main MIN cross MIN |  |  |
 | Device=Desktop | 1264×1088 | FIXED | HUG | horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN |  |  |
 | Device=Tablet | 748×1787 | FIXED | HUG | vertical gap 16 pad 0/0/0/0 main MIN cross MIN |  |  |
-| Device=1024 | 989×1088 | FIXED | HUG | horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN |  |  |
+| Device=1024 | 989×1066 | FIXED | HUG | horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN |  |  |
 | Device=1100 | 1065×1313.7 | FIXED | HUG | horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN |  |  |
 
 ## Typography
@@ -202,9 +183,6 @@ _No text._
 | Device=Desktop | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Device=1024 | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Zone 1 Lead Article Card (1024, Tier 3 — Device=Mobile varia | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Latest Headlines MinCol | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Latest Headlines List Item | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Newsletter Signup | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
 | Device=1100 | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Zone 1 Lead Article Card (1100, Tier 4 — Device=Mobile varia | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 

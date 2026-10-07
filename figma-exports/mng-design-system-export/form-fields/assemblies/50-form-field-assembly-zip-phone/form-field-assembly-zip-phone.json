@@ -1,0 +1,649 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "assembly",
+ "group": "form-fields",
+ "name": "Form Field Assembly / Zip + Phone",
+ "slug": "form-field-assembly-zip-phone",
+ "order": 50,
+ "typeLabel": "Assembly · 2 variants",
+ "description": null,
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+  "fileName": "MNG Design System",
+  "page": "Form Fields | 2026.09.24",
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12911 ▸ Frame 12918 ▸ Assembly: Zip + Phone — Documentation ▸ Frame 11535 ▸ Frame 11522",
+  "mainId": "7003:28666",
+  "mainKey": "9c3b98ff80f9c0bbfcc69598e6ceddb467ad2d28",
+  "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28666",
+  "variants": [
+   {
+    "label": "Size=Desktop",
+    "id": "7003:28658",
+    "key": "1c961d989a7ccd72f1a791c8da11d992eefb2561",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28658"
+   },
+   {
+    "label": "Size=Mobile",
+    "id": "7003:28665",
+    "key": "7b726747ac4cf7ad38ad85f127853661aea7220f",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28665"
+   }
+  ]
+ },
+ "properties": {
+  "Error message#7003:75": {
+   "type": "TEXT",
+   "default": "Error message text."
+  },
+  "Show error#7003:78": {
+   "type": "BOOLEAN",
+   "default": false
+  },
+  "Size": {
+   "type": "VARIANT",
+   "default": "Desktop",
+   "options": [
+    "Desktop",
+    "Mobile"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [],
+  "builtInto": [],
+  "perVariant": [
+   {
+    "label": "Size=Desktop",
+    "id": "7003:28658",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Size=Mobile",
+    "id": "7003:28665",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Form Field",
+    "count": 2,
+    "inExport": true,
+    "section": "Form Field",
+    "path": "../../components/43-form-field/form-field.md"
+   }
+  ],
+  "builtInto": []
+ },
+ "variants": [
+  {
+   "label": "Size=Desktop",
+   "variantProperties": {
+    "Size": "Desktop"
+   },
+   "id": "7003:28658",
+   "key": "1c961d989a7ccd72f1a791c8da11d992eefb2561",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28658",
+   "width": 480,
+   "height": 111,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field-assembly-zip-phone--desktop.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Size=Desktop",
+    "type": "COMPONENT",
+    "id": "7003:28658",
+    "w": 480,
+    "h": 111,
+    "x": 17,
+    "y": 17,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "clip": true,
+    "children": [
+     {
+      "name": "Fields",
+      "type": "FRAME",
+      "id": "7003:28653",
+      "w": 480,
+      "h": 78,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 16,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Form Field",
+        "type": "INSTANCE",
+        "id": "7003:28654",
+        "w": 84,
+        "h": 78,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Form Field",
+        "variant": {
+         "Size": "Desktop",
+         "State": "Blank"
+        },
+        "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
+        "mainId": "6962:6663",
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "90210",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Zip Code"
+        }
+       },
+       {
+        "name": "Form Field",
+        "type": "INSTANCE",
+        "id": "7003:28655",
+        "w": 380,
+        "h": 78,
+        "x": 100,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Form Field",
+        "variant": {
+         "Size": "Desktop",
+         "State": "Blank"
+        },
+        "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
+        "mainId": "6962:6663",
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "Phone Number",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Phone Number"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container (Shared)",
+      "type": "FRAME",
+      "id": "7003:28656",
+      "w": 480,
+      "h": 25,
+      "x": 0,
+      "y": 86,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "7003:28657",
+        "w": 480,
+        "h": 25,
+        "x": 0,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 18,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "1c961d989a7ccd72f1a791c8da11d992eefb2561",
+    "variantProperties": {
+     "Size": "Desktop"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Mobile",
+   "variantProperties": {
+    "Size": "Mobile"
+   },
+   "id": "7003:28665",
+   "key": "7b726747ac4cf7ad38ad85f127853661aea7220f",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28665",
+   "width": 328,
+   "height": 87,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 6,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field-assembly-zip-phone--mobile.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Size=Mobile",
+    "type": "COMPONENT",
+    "id": "7003:28665",
+    "w": 328,
+    "h": 87,
+    "x": 513,
+    "y": 17,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 6,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "clip": true,
+    "children": [
+     {
+      "name": "Fields",
+      "type": "FRAME",
+      "id": "7003:28660",
+      "w": 328,
+      "h": 59,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Form Field",
+        "type": "INSTANCE",
+        "id": "7003:28661",
+        "w": 78,
+        "h": 59,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Form Field",
+        "variant": {
+         "Size": "Mobile",
+         "State": "Blank"
+        },
+        "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
+        "mainId": "6962:6683",
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "90210",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Zip Code"
+        }
+       },
+       {
+        "name": "Form Field",
+        "type": "INSTANCE",
+        "id": "7003:28662",
+        "w": 242,
+        "h": 59,
+        "x": 86,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 0,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Form Field",
+        "variant": {
+         "Size": "Mobile",
+         "State": "Blank"
+        },
+        "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
+        "mainId": "6962:6683",
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "Phone Number",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Phone Number"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container (Shared)",
+      "type": "FRAME",
+      "id": "7003:28663",
+      "w": 328,
+      "h": 22,
+      "x": 0,
+      "y": 65,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 8,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Error Message Text.",
+        "type": "TEXT",
+        "id": "7003:28664",
+        "w": 328,
+        "h": 22,
+        "x": 0,
+        "y": 0,
+        "hidden": true,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "text": "Error message text.",
+        "autoResize": "HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 16,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "7b726747ac4cf7ad38ad85f127853661aea7220f",
+    "variantProperties": {
+     "Size": "Mobile"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Error Message Text.",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 18,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#CC2B27",
+   "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Error message text.",
+   "variants": [
+    "Size=Desktop"
+   ]
+  },
+  {
+   "layer": "Error Message Text.",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#CC2B27",
+   "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Error message text.",
+   "variants": [
+    "Size=Mobile"
+   ]
+  }
+ ],
+ "colors": [],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Size=Desktop: 480×111, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280",
+  "Size=Mobile: 328×87, vertical gap 6 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360"
+ ],
+ "productionRefs": [],
+ "knownIssues": [
+  "No variant has instances in MNG Design System (unused here, or used only from another file): `Size=Desktop`, `Size=Mobile`."
+ ],
+ "skeleton": "form-field-assembly-zip-phone.html",
+ "exported": "2026-10-07"
+}

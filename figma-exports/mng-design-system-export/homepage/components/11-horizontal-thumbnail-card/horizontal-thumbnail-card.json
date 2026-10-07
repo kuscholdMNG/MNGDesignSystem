@@ -92,30 +92,33 @@
    {
     "label": "Device=Mobile",
     "id": "3362:2991",
-    "templatesDirect": {
-     "Mobile HomePage": 5,
-     "340 HomePage": 5
-    },
+    "templatesDirect": {},
     "templatesVia": {
-     "1024 HomePage": [
-      "Photos Block"
-     ],
-     "Desktop HomePage": [
-      "Photos Block"
-     ],
      "1100 HomePage": [
+      "Photos Block"
+     ],
+     "1024 HomePage": [
       "Photos Block"
      ],
      "768 HomePage": [
       "Photos Block"
+     ],
+     "Mobile HomePage": [
+      "Photos Block"
+     ],
+     "340 HomePage": [
+      "Photos Block"
+     ],
+     "Desktop HomePage": [
+      "Photos Block"
      ]
     },
     "inComponents": {
-     "Photos Block / Device=1024": 6,
-     "Photos Block / Device=Mobile": 5,
-     "Photos Block / Device=1280": 6,
      "Photos Block / Device=1100": 6,
-     "Photos Block / Device=Tablet": 6
+     "Photos Block / Device=1024": 6,
+     "Photos Block / Device=Tablet": 6,
+     "Photos Block / Device=Mobile": 5,
+     "Photos Block / Device=1280": 6
     },
     "other": {},
     "breakpoints": [

@@ -50,15 +50,18 @@
    {
     "label": "Show More Photos Affordance",
     "id": "3352:24180",
-    "templatesDirect": {
-     "Mobile HomePage": 1,
-     "340 HomePage": 1
-    },
+    "templatesDirect": {},
     "templatesVia": {
+     "1024 HomePage": [
+      "Photos Block"
+     ],
      "768 HomePage": [
       "Photos Block"
      ],
-     "1024 HomePage": [
+     "Mobile HomePage": [
+      "Photos Block"
+     ],
+     "340 HomePage": [
       "Photos Block"
      ],
      "1100 HomePage": [
@@ -69,12 +72,12 @@
      ]
     },
     "inComponents": {
-     "Photos Block / Device=Tablet": 1,
      "Photos Block / Device=1024": 1,
-     "Photos Block / Device=1100": 1,
+     "Photos Block / Device=Tablet": 1,
      "Photos Block / Device=Mobile": 1,
-     "Photos Block / Device=1280": 1,
-     "Photos Block / Device=Desktop": 1
+     "Photos Block / Device=1100": 1,
+     "Photos Block / Device=Desktop": 1,
+     "Photos Block / Device=1280": 1
     },
     "other": {},
     "breakpoints": [

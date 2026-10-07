@@ -1,0 +1,1238 @@
+{
+ "schema": "mng/component-spec@1",
+ "kind": "assembly",
+ "group": "form-fields",
+ "name": "Form Field Assembly / Verification Code",
+ "slug": "form-field-assembly-verification-code",
+ "order": 54,
+ "typeLabel": "Assembly · 2 variants",
+ "description": null,
+ "designerNotes": [],
+ "figma": {
+  "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+  "fileName": "MNG Design System",
+  "page": "Form Fields | 2026.09.24",
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12915 ▸ Frame 12939",
+  "mainId": "7003:29223",
+  "mainKey": "7c0d7e73c63480ff2ecd5a4d2d360a7d470aaa3c",
+  "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-29223",
+  "variants": [
+   {
+    "label": "Size=Desktop",
+    "id": "7003:29120",
+    "key": "88238fb7858db54d5d7cd0f8a2fa691f290cc644",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-29120"
+   },
+   {
+    "label": "Size=Mobile",
+    "id": "7003:29222",
+    "key": "75cedc751ec83f3d0e138e00a5502364c335badd",
+    "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-29222"
+   }
+  ]
+ },
+ "properties": {
+  "Error message#7003:99": {
+   "type": "TEXT",
+   "default": "Error message text."
+  },
+  "Show error#7003:102": {
+   "type": "BOOLEAN",
+   "default": false
+  },
+  "Label#7003:105": {
+   "type": "TEXT",
+   "default": "Verification Code"
+  },
+  "Size": {
+   "type": "VARIANT",
+   "default": "Desktop",
+   "options": [
+    "Desktop",
+    "Mobile"
+   ]
+  }
+ },
+ "breakpoints": [
+  "340",
+  "360",
+  "768",
+  "1024",
+  "1100",
+  "1280"
+ ],
+ "usage": {
+  "templates": [],
+  "builtInto": [],
+  "perVariant": [
+   {
+    "label": "Size=Desktop",
+    "id": "7003:29120",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {
+     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 1
+    },
+    "breakpoints": [
+     "768",
+     "1024",
+     "1100",
+     "1280"
+    ]
+   },
+   {
+    "label": "Size=Mobile",
+    "id": "7003:29222",
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {
+     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 1
+    },
+    "breakpoints": [
+     "340",
+     "360"
+    ]
+   }
+  ]
+ },
+ "dependencies": {
+  "builtFrom": [
+   {
+    "name": "Code Box",
+    "count": 6,
+    "inExport": true,
+    "section": "Code Box",
+    "path": "../../components/44-code-box/code-box.md"
+   }
+  ],
+  "builtInto": []
+ },
+ "variants": [
+  {
+   "label": "Size=Desktop",
+   "variantProperties": {
+    "Size": "Desktop"
+   },
+   "id": "7003:29120",
+   "key": "88238fb7858db54d5d7cd0f8a2fa691f290cc644",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-29120",
+   "width": 236,
+   "height": 119,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 8,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field-assembly-verification-code--desktop.png",
+   "breakpoints": [
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Size=Desktop",
+    "type": "COMPONENT",
+    "id": "7003:29120",
+    "w": 236,
+    "h": 119,
+    "x": 17,
+    "y": 17,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 8,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "clip": true,
+    "children": [
+     {
+      "name": "Label",
+      "type": "TEXT",
+      "id": "7003:28942",
+      "w": 128,
+      "h": 22,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "Verification Code",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 16,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     },
+     {
+      "name": "Code Box Row",
+      "type": "FRAME",
+      "id": "7003:28943",
+      "w": 236,
+      "h": 56,
+      "x": 0,
+      "y": 30,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 4,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Code Box",
+        "type": "INSTANCE",
+        "id": "7003:28944",
+        "w": 36,
+        "h": 56,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          0,
+          8,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "component": "Code Box",
+        "variant": {
+         "Size": "Desktop",
+         "State": "Blank"
+        },
+        "componentKey": "eb4a281a25dc2a29a2faf3e8036c96440b406922",
+        "mainId": "6964:6999",
+        "props": {
+         "Value": ""
+        }
+       },
+       {
+        "name": "Code Box",
+        "type": "INSTANCE",
+        "id": "7003:28945",
+        "w": 36,
+        "h": 56,
+        "x": 40,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          0,
+          8,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "component": "Code Box",
+        "variant": {
+         "Size": "Desktop",
+         "State": "Blank"
+        },
+        "componentKey": "eb4a281a25dc2a29a2faf3e8036c96440b406922",
+        "mainId": "6964:6999",
+        "props": {
+         "Value": ""
+        }
+       },
+       {
+        "name": "Code Box",
+        "type": "INSTANCE",
+        "id": "7003:28946",
+        "w": 36,
+        "h": 56,
+        "x": 80,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          0,
+          8,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "component": "Code Box",
+        "variant": {
+         "Size": "Desktop",
+         "State": "Blank"
+        },
+        "componentKey": "eb4a281a25dc2a29a2faf3e8036c96440b406922",
+        "mainId": "6964:6999",
+        "props": {
+         "Value": ""
+        }
+       },
+       {
+        "name": "Code Box",
+        "type": "INSTANCE",
+        "id": "7003:28947",
+        "w": 36,
+        "h": 56,
+        "x": 120,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          0,
+          8,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "component": "Code Box",
+        "variant": {
+         "Size": "Desktop",
+         "State": "Blank"
+        },
+        "componentKey": "eb4a281a25dc2a29a2faf3e8036c96440b406922",
+        "mainId": "6964:6999",
+        "props": {
+         "Value": ""
+        }
+       },
+       {
+        "name": "Code Box",
+        "type": "INSTANCE",
+        "id": "7003:28948",
+        "w": 36,
+        "h": 56,
+        "x": 160,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          0,
+          8,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "component": "Code Box",
+        "variant": {
+         "Size": "Desktop",
+         "State": "Blank"
+        },
+        "componentKey": "eb4a281a25dc2a29a2faf3e8036c96440b406922",
+        "mainId": "6964:6999",
+        "props": {
+         "Value": ""
+        }
+       },
+       {
+        "name": "Code Box",
+        "type": "INSTANCE",
+        "id": "7003:28949",
+        "w": 36,
+        "h": 56,
+        "x": 200,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          0,
+          8,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "component": "Code Box",
+        "variant": {
+         "Size": "Desktop",
+         "State": "Blank"
+        },
+        "componentKey": "eb4a281a25dc2a29a2faf3e8036c96440b406922",
+        "mainId": "6964:6999",
+        "props": {
+         "Value": ""
+        }
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container (Shared)",
+      "type": "FRAME",
+      "id": "7010:32723",
+      "w": 236,
+      "h": 25,
+      "x": 0,
+      "y": 94,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "children": [
+       {
+        "name": "Error message text.",
+        "type": "TEXT",
+        "id": "7003:28950",
+        "w": 165,
+        "h": 25,
+        "x": 0,
+        "y": 94,
+        "hidden": true,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "text": "Error message text.",
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 18,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "88238fb7858db54d5d7cd0f8a2fa691f290cc644",
+    "variantProperties": {
+     "Size": "Desktop"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Size=Mobile",
+   "variantProperties": {
+    "Size": "Mobile"
+   },
+   "id": "7003:29222",
+   "key": "75cedc751ec83f3d0e138e00a5502364c335badd",
+   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-29222",
+   "width": 171,
+   "height": 93,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 6,
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "main": "MIN",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "HUG",
+    "v": "HUG"
+   },
+   "fills": null,
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/form-field-assembly-verification-code--mobile.png",
+   "breakpoints": [
+    "340",
+    "360"
+   ],
+   "layerTree": {
+    "name": "Size=Mobile",
+    "type": "COMPONENT",
+    "id": "7003:29222",
+    "w": 171,
+    "h": 93,
+    "x": 269,
+    "y": 17,
+    "sizing": {
+     "h": "HUG",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 6,
+     "pad": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "main": "MIN",
+     "cross": "MIN"
+    },
+    "clip": true,
+    "children": [
+     {
+      "name": "Label",
+      "type": "TEXT",
+      "id": "7003:29122",
+      "w": 112,
+      "h": 19,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "text": "Verification Code",
+      "autoResize": "WIDTH_AND_HEIGHT",
+      "align": "LEFT",
+      "styles": [
+       {
+        "font": "Noto Sans",
+        "weight": "Regular",
+        "size": 14,
+        "lineHeight": "auto",
+        "color": [
+         {
+          "type": "SOLID",
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
+         }
+        ],
+        "textStyle": null
+       }
+      ]
+     },
+     {
+      "name": "Code Box Row",
+      "type": "FRAME",
+      "id": "7003:29123",
+      "w": 171,
+      "h": 40,
+      "x": 0,
+      "y": 25,
+      "sizing": {
+       "h": "HUG",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 3,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "clip": true,
+      "children": [
+       {
+        "name": "Code Box",
+        "type": "INSTANCE",
+        "id": "7003:29124",
+        "w": 26,
+        "h": 40,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          0,
+          8,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "component": "Code Box",
+        "variant": {
+         "Size": "Mobile",
+         "State": "Blank"
+        },
+        "componentKey": "19a71b11eb5b9b8b80b3527be3e996e07cab0da7",
+        "mainId": "6972:7524",
+        "props": {
+         "Value": ""
+        }
+       },
+       {
+        "name": "Code Box",
+        "type": "INSTANCE",
+        "id": "7003:29125",
+        "w": 26,
+        "h": 40,
+        "x": 29,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          0,
+          8,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "component": "Code Box",
+        "variant": {
+         "Size": "Mobile",
+         "State": "Blank"
+        },
+        "componentKey": "19a71b11eb5b9b8b80b3527be3e996e07cab0da7",
+        "mainId": "6972:7524",
+        "props": {
+         "Value": ""
+        }
+       },
+       {
+        "name": "Code Box",
+        "type": "INSTANCE",
+        "id": "7003:29126",
+        "w": 26,
+        "h": 40,
+        "x": 58,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          0,
+          8,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "component": "Code Box",
+        "variant": {
+         "Size": "Mobile",
+         "State": "Blank"
+        },
+        "componentKey": "19a71b11eb5b9b8b80b3527be3e996e07cab0da7",
+        "mainId": "6972:7524",
+        "props": {
+         "Value": ""
+        }
+       },
+       {
+        "name": "Code Box",
+        "type": "INSTANCE",
+        "id": "7003:29127",
+        "w": 26,
+        "h": 40,
+        "x": 87,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          0,
+          8,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "component": "Code Box",
+        "variant": {
+         "Size": "Mobile",
+         "State": "Blank"
+        },
+        "componentKey": "19a71b11eb5b9b8b80b3527be3e996e07cab0da7",
+        "mainId": "6972:7524",
+        "props": {
+         "Value": ""
+        }
+       },
+       {
+        "name": "Code Box",
+        "type": "INSTANCE",
+        "id": "7003:29128",
+        "w": 26,
+        "h": 40,
+        "x": 116,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          0,
+          8,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "component": "Code Box",
+        "variant": {
+         "Size": "Mobile",
+         "State": "Blank"
+        },
+        "componentKey": "19a71b11eb5b9b8b80b3527be3e996e07cab0da7",
+        "mainId": "6972:7524",
+        "props": {
+         "Value": ""
+        }
+       },
+       {
+        "name": "Code Box",
+        "type": "INSTANCE",
+        "id": "7003:29129",
+        "w": 26,
+        "h": 40,
+        "x": 145,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 8,
+         "pad": [
+          8,
+          0,
+          8,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "radius": 3,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#A7A6A3",
+          "variable": "Colors/color/gray/400"
+         }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "component": "Code Box",
+        "variant": {
+         "Size": "Mobile",
+         "State": "Blank"
+        },
+        "componentKey": "19a71b11eb5b9b8b80b3527be3e996e07cab0da7",
+        "mainId": "6972:7524",
+        "props": {
+         "Value": ""
+        }
+       }
+      ]
+     },
+     {
+      "name": "Error Message Container (Shared)",
+      "type": "FRAME",
+      "id": "7010:32724",
+      "w": 171,
+      "h": 22,
+      "x": 0,
+      "y": 71,
+      "sizing": {
+       "h": "FILL",
+       "v": "FIXED"
+      },
+      "layout": {
+       "dir": "HORIZONTAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "children": [
+       {
+        "name": "Error message text.",
+        "type": "TEXT",
+        "id": "7003:29130",
+        "w": 129,
+        "h": 19,
+        "x": 0,
+        "y": 71,
+        "hidden": true,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "text": "Error message text.",
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "styles": [
+         {
+          "font": "Noto Sans",
+          "weight": "Regular",
+          "size": 14,
+          "lineHeight": "auto",
+          "color": [
+           {
+            "type": "SOLID",
+            "hex": "#CC2B27",
+            "variable": "Colors/color/feedback/high-error"
+           }
+          ],
+          "textStyle": null
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "key": "75cedc751ec83f3d0e138e00a5502364c335badd",
+    "variantProperties": {
+     "Size": "Mobile"
+    },
+    "componentDescription": null
+   }
+  }
+ ],
+ "typography": [
+  {
+   "layer": "Label",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#000000",
+   "token": "Colors/color/gray/black",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Verification Code",
+   "variants": [
+    "Size=Desktop"
+   ]
+  },
+  {
+   "layer": "Error message text.",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 18,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#CC2B27",
+   "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Error message text.",
+   "variants": [
+    "Size=Desktop"
+   ]
+  },
+  {
+   "layer": "Label",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 14,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#000000",
+   "token": "Colors/color/gray/black",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Verification Code",
+   "variants": [
+    "Size=Mobile"
+   ]
+  },
+  {
+   "layer": "Error message text.",
+   "font": "Noto Sans",
+   "weight": "Regular",
+   "size": 14,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#CC2B27",
+   "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "Error message text.",
+   "variants": [
+    "Size=Mobile"
+   ]
+  }
+ ],
+ "colors": [
+  {
+   "layer": "Code Box",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Code Box",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#A7A6A3",
+   "token": "Colors/color/gray/400",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  }
+ ],
+ "imageRatios": [],
+ "adSlots": [],
+ "responsiveRules": [
+  "Size=Desktop: 236×119, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280",
+  "Size=Mobile: 171×93, vertical gap 6 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360"
+ ],
+ "productionRefs": [],
+ "knownIssues": [],
+ "skeleton": "form-field-assembly-verification-code.html",
+ "exported": "2026-10-07"
+}

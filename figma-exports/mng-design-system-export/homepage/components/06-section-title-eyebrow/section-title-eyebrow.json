@@ -64,7 +64,6 @@
   ],
   "builtInto": [
    "Latest Headlines",
-   "TOP ZONE Block",
    "Blueconic Block (Most Popular)",
    "Section Rail Card",
    "Photos Block"
@@ -73,19 +72,12 @@
    {
     "label": "Style=Underline",
     "id": "3326:41622",
-    "templatesDirect": {
-     "340 HomePage": 1,
-     "Mobile HomePage": 1
-    },
+    "templatesDirect": {},
     "templatesVia": {
-     "340 HomePage": [
+     "1024 HomePage": [
       "Blueconic Block (Most Popular)",
       "Latest Headlines",
-      "Section Rail Card"
-     ],
-     "Mobile HomePage": [
-      "Blueconic Block (Most Popular)",
-      "Latest Headlines",
+      "Photos Block",
       "Section Rail Card"
      ],
      "Desktop HomePage": [
@@ -96,9 +88,9 @@
      ],
      "1100 HomePage": [
       "Blueconic Block (Most Popular)",
+      "Latest Headlines",
       "Photos Block",
-      "Section Rail Card",
-      "TOP ZONE Block"
+      "Section Rail Card"
      ],
      "768 HomePage": [
       "Blueconic Block (Most Popular)",
@@ -106,40 +98,44 @@
       "Photos Block",
       "Section Rail Card"
      ],
-     "1024 HomePage": [
+     "Mobile HomePage": [
       "Blueconic Block (Most Popular)",
+      "Latest Headlines",
       "Photos Block",
-      "Section Rail Card",
-      "TOP ZONE Block"
+      "Section Rail Card"
+     ],
+     "340 HomePage": [
+      "Blueconic Block (Most Popular)",
+      "Latest Headlines",
+      "Photos Block",
+      "Section Rail Card"
      ]
     },
     "inComponents": {
-     "Photos Block / Device=1280": 1,
-     "Photos Block / Device=Mobile": 1,
-     "Section Rail Card / Device=1100, Layout=Wide": 1,
-     "Latest Headlines / Device=Tablet": 1,
-     "Photos Block / Device=1024": 1,
-     "Photos Block / Device=1100": 1,
-     "Blueconic Block (Most Popular) / Device=1100": 1,
-     "Latest Headlines / Device=Desktop": 1,
-     "Blueconic Block (Most Popular) / Device=Tablet": 1,
-     "Section Rail Card / Device=Tablet, Layout=Narrow": 1,
-     "Blueconic Block (Most Popular) / Device=1024": 1,
-     "Blueconic Block (Most Popular) / Device=Mobile": 1,
-     "Section Rail Card / Device=1100, Layout=Narrow": 1,
-     "Blueconic Block (Most Popular) / Device=Desktop": 1,
-     "Section Rail Card / Device=Tablet, Layout=Wide": 1,
-     "TOP ZONE Block / Device=1024": 1,
-     "Section Rail Card / Device=1024, Layout=Narrow": 1,
-     "Section Rail Card / Device=Desktop, Layout=Narrow": 1,
-     "TOP ZONE Block / Device=1100": 1,
-     "Photos Block / Device=Tablet": 1,
-     "Photos Block / Device=Desktop": 1,
      "Section Rail Card / Device=1024, Layout=Wide": 1,
-     "Blueconic Block (Most Popular) / Device=1280": 1,
+     "Photos Block / Device=Desktop": 1,
      "Section Rail Card / Device=1280, Layout=Wide": 1,
+     "Section Rail Card / Device=1100, Layout=Narrow": 1,
+     "Blueconic Block (Most Popular) / Device=1024": 1,
+     "Section Rail Card / Device=Tablet, Layout=Wide": 1,
+     "Section Rail Card / Device=Tablet, Layout=Narrow": 1,
+     "Section Rail Card / Device=1100, Layout=Wide": 1,
+     "Blueconic Block (Most Popular) / Device=Tablet": 1,
+     "Section Rail Card / Device=Desktop, Layout=Narrow": 1,
+     "Blueconic Block (Most Popular) / Device=Mobile": 1,
+     "Photos Block / Device=1024": 1,
+     "Latest Headlines / Device=Desktop": 1,
+     "Blueconic Block (Most Popular) / Device=1100": 1,
+     "Section Rail Card / Device=1024, Layout=Narrow": 1,
+     "Photos Block / Device=1100": 1,
+     "Photos Block / Device=Tablet": 1,
+     "Latest Headlines / Device=Tablet": 1,
+     "Blueconic Block (Most Popular) / Device=1280": 1,
      "Latest Headlines / Device=Mobile": 1,
-     "Section Rail Card / Device=Mobile, Layout=Narrow": 1
+     "Blueconic Block (Most Popular) / Device=Desktop": 1,
+     "Photos Block / Device=Mobile": 1,
+     "Section Rail Card / Device=Mobile, Layout=Narrow": 1,
+     "Photos Block / Device=1280": 1
     },
     "other": {},
     "breakpoints": [
@@ -176,10 +172,6 @@
    {
     "name": "Latest Headlines",
     "path": "../../assemblies/09-latest-headlines/latest-headlines.md"
-   },
-   {
-    "name": "TOP ZONE Block",
-    "path": "../../assemblies/12-top-zone-block/top-zone-block.md"
    },
    {
     "name": "Blueconic Block (Most Popular)",

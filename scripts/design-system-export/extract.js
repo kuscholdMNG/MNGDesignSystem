@@ -78,7 +78,7 @@ const mains=[]; // all homepage mains (from 3334:42288 sections) + the menus IDs
 function ctx(i){let p=i,page=null,top=null,tmpl=null,inComp=null;while(p&&p.type!=='DOCUMENT'){if(p.type==='PAGE')page=p.name;if(p.parent&&p.parent.type==='PAGE')top=p.name;if(p.parent&&p.parent.id===TPL)tmpl=p.name;if(!inComp&&p!==i&&p.type==='COMPONENT')inComp=(p.parent&&p.parent.type==='COMPONENT_SET')?p.parent.name+' / '+p.name:p.name;p=p.parent;}return {page,top,tmpl,inComp};}
 const out={};for(const m of mains){const comps=m.type==='COMPONENT_SET'?m.children.filter(c=>c.type==='COMPONENT'):[m];
  for(const c of comps){const insts=await c.getInstancesAsync();const tm={},inc={},other={};
-  for(const i of insts){let nested=false;{let p=i.parent;while(p&&p.type!=='PAGE'){if(p.type==='INSTANCE'){nested=true;break}p=p.parent}}if(nested)continue;const x=ctx(i);if(x.inComp)inc[x.inComp]=(inc[x.inComp]||0)+1;else if(x.tmpl)tm[x.tmpl]=(tm[x.tmpl]||0)+1;else{const k=x.page+' ▸ '+x.top;other[k]=(other[k]||0)+1;}}
+  for(const i of insts){let nested=false;{let p=i.parent;while(p&&p.type!=='PAGE'){if(p.type==='INSTANCE'){nested=true;break}p=p.parent}}if(nested)continue;const x=ctx(i);if(!x.page)continue; /* skip deleted nodes getInstancesAsync still returns */if(x.inComp)inc[x.inComp]=(inc[x.inComp]||0)+1;else if(x.tmpl)tm[x.tmpl]=(tm[x.tmpl]||0)+1;else{const k=x.page+' ▸ '+x.top;other[k]=(other[k]||0)+1;}}
   out[c.id]={set:m.name,variant:c.name,templates:tm,inComponents:inc,other}}}
 return {USAGE_MARKER:'wp',out};
 */

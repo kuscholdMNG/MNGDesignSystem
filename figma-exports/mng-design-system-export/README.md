@@ -1,6 +1,6 @@
 # MNG Design System — component spec export
 
-Exported 2026-10-07 from Figma. 49 items (27 components, 22 assemblies, 356 variants). Page templates are not included; the homepage templates are used only as "where it is used" and breakpoint evidence.
+Exported 2026-10-07 from Figma. 55 items (32 components, 23 assemblies, 370 variants). Page templates are not included; the homepage templates are used only as "where it is used" and breakpoint evidence.
 
 Rebuild: run the calls in `scripts/design-system-export/extract.js` in Figma, then `python3 scripts/design-system-export/build-design-system-export.py <raw> <previews> figma-exports/mng-design-system-export`.
 
@@ -32,7 +32,7 @@ Rebuild: run the calls in `scripts/design-system-export/extract.js` in Figma, th
 
 Variant values map onto these keys as follows: `XS-Fold`/`FOLD` → 340, `SM-Mobile`/`Mobile` → 360 (and 340 when no Fold variant exists), `MD-TabletV`/`Tablet` → 768, `LG-TabletH`/`1024` → 1024, `XL-Desktop`/`Desktop` → 1100 and 1280. Form-field `Size=Mobile` → ≤639px and `Size=Desktop` → ≥640px. When a variant is placed in a homepage template, the template decides its breakpoints.
 
-## Homepage components (24)
+## Homepage components (30)
 
 | # | Item | Kind | Variants | Breakpoints | Built from (in export) | Issues |
 |---|---|---|---|---|---|---|
@@ -44,10 +44,10 @@ Variant values map onto these keys as follows: `XS-Fold`/`FOLD` → 340, `SM-Mob
 | 6 | [Section Title / Eyebrow](homepage/components/06-section-title-eyebrow/section-title-eyebrow.md) | component | 2 | 340, 360, 768, 1024, 1100, 1280 |  | 1 |
 | 7 | [Latest Headlines List Item](homepage/components/07-latest-headlines-list-item/latest-headlines-list-item.md) | component | 3 | 340, 360, 768, 1024, 1100, 1280 | Article Status Badge | 0 |
 | 8 | [Newsletter Signup](homepage/components/08-newsletter-signup/newsletter-signup.md) | component | 2 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
-| 9 | [Latest Headlines](homepage/assemblies/09-latest-headlines/latest-headlines.md) | assembly | 3 | 340, 360, 768, 1280 | Section Title / Eyebrow, Latest Headlines List Item, Newsletter Signup | 1 |
+| 9 | [Latest Headlines](homepage/assemblies/09-latest-headlines/latest-headlines.md) | assembly | 3 | 340, 360, 768, 1024, 1100, 1280 | Section Title / Eyebrow, Latest Headlines List Item, Newsletter Signup | 1 |
 | 10 | [Gallery Icon Badge](homepage/components/10-gallery-icon-badge/gallery-icon-badge.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
 | 11 | [Horizontal Thumbnail Card](homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.md) | component | 3 | 340, 360, 768, 1024, 1100, 1280 | Article Image Placeholder, Gallery Icon Badge | 2 |
-| 12 | [TOP ZONE Block](homepage/assemblies/12-top-zone-block/top-zone-block.md) | assembly | 5 | 340, 360, 768, 1024, 1100, 1280 | Zone 1 Lead Article Card, TopZone Article Card, Latest Headlines, Horizontal Thumbnail Card, Section Title / Eyebrow, Latest Headlines List Item, Newsletter Signup | 0 |
+| 12 | [TOP ZONE Block](homepage/assemblies/12-top-zone-block/top-zone-block.md) | assembly | 5 | 340, 360, 768, 1024, 1100, 1280 | Zone 1 Lead Article Card, TopZone Article Card, Latest Headlines, Horizontal Thumbnail Card | 0 |
 | 13 | [Most Popular List Item](homepage/components/13-most-popular-list-item/most-popular-list-item.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
 | 14 | [Blueconic Block (Most Popular)](homepage/assemblies/14-blueconic-block-most-popular/blueconic-block-most-popular.md) | assembly | 6 | 340, 360, 768, 1024, 1100, 1280 | Section Title / Eyebrow, Most Popular List Item | 2 |
 | 15 | [Horizontal Feature Card](homepage/components/15-horizontal-feature-card/horizontal-feature-card.md) | component | 1 | 768, 1100, 1280 | Article Image Placeholder | 0 |
@@ -58,43 +58,49 @@ Variant values map onto these keys as follows: `XS-Fold`/`FOLD` → 340, `SM-Mob
 | 20 | [Videos from OCRegister Carousel](homepage/assemblies/20-videos-from-ocregister-carousel/videos-from-ocregister-carousel.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Video Tile Image Placeholder | 2 |
 | 21 | [Show More Photos Affordance](homepage/components/21-show-more-photos-affordance/show-more-photos-affordance.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
 | 22 | [Photos Block](homepage/assemblies/22-photos-block/photos-block.md) | assembly | 6 | 340, 360, 768, 1024, 1100, 1280 | Section Title / Eyebrow, 1Col Article Card, Horizontal Thumbnail Card, Show More Photos Affordance | 2 |
-| 23 | [Upcoming Events Widget (768, 3 cards, 7 days)](homepage/components/23-upcoming-events-widget-768-3-cards-7-days/upcoming-events-widget-768-3-cards-7-days.md) | component | 1 | 768 |  | 1 |
-| 24 | [Upcoming Events Block](homepage/assemblies/24-upcoming-events-block/upcoming-events-block.md) | assembly | 5 | 340, 360, 768, 1024, 1100, 1280 | Upcoming Events Widget (768, 3 cards, 7 days) | 1 |
+| 23 | [Event Card](homepage/components/23-event-card/event-card.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 | Article Image Placeholder | 1 |
+| 24 | [Date Picker Day](homepage/components/24-date-picker-day/date-picker-day.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 |  | 1 |
+| 25 | [Date Picker Calendar Icon](homepage/components/25-date-picker-calendar-icon/date-picker-calendar-icon.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 | Upcoming Events Calendar Glyph | 0 |
+| 26 | [Upcoming Events Calendar Glyph](homepage/components/26-upcoming-events-calendar-glyph/upcoming-events-calendar-glyph.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 |  | 1 |
+| 27 | [Upcoming Events Header Button](homepage/components/27-upcoming-events-header-button/upcoming-events-header-button.md) | component | 4 | 340, 360, 768, 1024, 1100, 1280 | Upcoming Events Calendar Glyph | 1 |
+| 28 | [Upcoming Events Side Arrow](homepage/components/28-upcoming-events-side-arrow/upcoming-events-side-arrow.md) | component | 2 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
+| 29 | [Upcoming Events Widget](homepage/assemblies/29-upcoming-events-widget/upcoming-events-widget.md) | assembly | 5 | 340, 360, 768, 1024, 1100, 1280 | Upcoming Events Header Button, Event Card, Upcoming Events Side Arrow, Date Picker Calendar Icon, Date Picker Day | 1 |
+| 30 | [Upcoming Events Block](homepage/assemblies/30-upcoming-events-block/upcoming-events-block.md) | assembly | 5 | 340, 360, 768, 1024, 1100, 1280 | Upcoming Events Widget | 0 |
 
 ## Menus and Parts (12)
 
 | # | Item | Kind | Variants | Breakpoints | Built from (in export) | Issues |
 |---|---|---|---|---|---|---|
-| 25 | [Weather Bug](menus-and-parts/components/25-weather-bug/weather-bug.md) | component | 2 | 1100, 1280 |  | 2 |
-| 26 | [SectionMenuHeader](menus-and-parts/components/26-sectionmenuheader/sectionmenuheader.md) | component | 6 | 340, 360, 768, 1024, 1100, 1280 |  | 2 |
-| 27 | [AlertLevel](menus-and-parts/components/27-alertlevel/alertlevel.md) | component | 8 |  |  | 1 |
-| 28 | [UserImage](menus-and-parts/components/28-userimage/userimage.md) | component | 12 |  |  | 2 |
-| 29 | [SearchBar](menus-and-parts/components/29-searchbar/searchbar.md) | component | 2 |  |  | 1 |
-| 30 | [Breaking News Banner](menus-and-parts/components/30-breaking-news-banner/breaking-news-banner.md) | component | 3 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
-| 31 | [Footer](menus-and-parts/components/31-footer/footer.md) | component | 5 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
-| 32 | [SectionMenuItem](menus-and-parts/assemblies/32-sectionmenuitem/sectionmenuitem.md) | assembly | 9 |  | Weather Bug | 1 |
-| 33 | [UserPic](menus-and-parts/assemblies/33-userpic/userpic.md) | assembly | 6 |  | UserImage, AlertLevel | 1 |
-| 34 | [SectionMenu](menus-and-parts/assemblies/34-sectionmenu/sectionmenu.md) | assembly | 15 | 340, 360, 768, 1024, 1100, 1280 | SectionMenuHeader, SectionMenuItem | 3 |
-| 35 | [UserStatus](menus-and-parts/assemblies/35-userstatus/userstatus.md) | assembly | 4 | 340, 360, 768, 1024, 1100, 1280 | UserPic | 3 |
-| 36 | [Masthead](menus-and-parts/assemblies/36-masthead/masthead.md) | assembly | 75 | 340, 360, 768, 1024, 1100, 1280 | SectionMenu, Weather Bug | 1 |
+| 31 | [Weather Bug](menus-and-parts/components/31-weather-bug/weather-bug.md) | component | 2 | 1100, 1280 |  | 2 |
+| 32 | [SectionMenuHeader](menus-and-parts/components/32-sectionmenuheader/sectionmenuheader.md) | component | 6 | 340, 360, 768, 1024, 1100, 1280 |  | 2 |
+| 33 | [AlertLevel](menus-and-parts/components/33-alertlevel/alertlevel.md) | component | 8 |  |  | 1 |
+| 34 | [UserImage](menus-and-parts/components/34-userimage/userimage.md) | component | 12 |  |  | 2 |
+| 35 | [SearchBar](menus-and-parts/components/35-searchbar/searchbar.md) | component | 2 |  |  | 1 |
+| 36 | [Breaking News Banner](menus-and-parts/components/36-breaking-news-banner/breaking-news-banner.md) | component | 3 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
+| 37 | [Footer](menus-and-parts/components/37-footer/footer.md) | component | 5 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
+| 38 | [SectionMenuItem](menus-and-parts/assemblies/38-sectionmenuitem/sectionmenuitem.md) | assembly | 9 |  | Weather Bug | 1 |
+| 39 | [UserPic](menus-and-parts/assemblies/39-userpic/userpic.md) | assembly | 6 |  | UserImage, AlertLevel | 1 |
+| 40 | [SectionMenu](menus-and-parts/assemblies/40-sectionmenu/sectionmenu.md) | assembly | 15 | 340, 360, 768, 1024, 1100, 1280 | SectionMenuHeader, SectionMenuItem | 3 |
+| 41 | [UserStatus](menus-and-parts/assemblies/41-userstatus/userstatus.md) | assembly | 4 | 340, 360, 768, 1024, 1100, 1280 | UserPic | 3 |
+| 42 | [Masthead](menus-and-parts/assemblies/42-masthead/masthead.md) | assembly | 75 | 340, 360, 768, 1024, 1100, 1280 | SectionMenu, Weather Bug | 1 |
 
 ## Form Fields (13)
 
 | # | Item | Kind | Variants | Breakpoints | Built from (in export) | Issues |
 |---|---|---|---|---|---|---|
-| 37 | [Form Field](form-fields/components/37-form-field/form-field.md) | component | 10 | 340, 360, 768, 1024, 1100, 1280 |  | 1 |
-| 38 | [Code Box](form-fields/components/38-code-box/code-box.md) | component | 10 | 340, 360, 768, 1024, 1100, 1280 |  | 1 |
-| 39 | [Form Field Assembly / Checkbox + Terms](form-fields/assemblies/39-form-field-assembly-checkbox-terms/form-field-assembly-checkbox-terms.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
-| 40 | [Search Field / Obituaries — Core](form-fields/components/40-search-field-obituaries-core/search-field-obituaries-core.md) | component | 1 |  |  | 0 |
-| 41 | [Form Field (Dashboard Mockup Set)](form-fields/components/41-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.md) | component | 102 | 340, 360, 768, 1024, 1100, 1280 |  | 1 |
-| 42 | [Form Field Assembly / Name pair](form-fields/assemblies/42-form-field-assembly-name-pair/form-field-assembly-name-pair.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Form Field | 1 |
-| 43 | [Form Field Assembly / Zip + Street #](form-fields/assemblies/43-form-field-assembly-zip-street/form-field-assembly-zip-street.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Form Field | 1 |
-| 44 | [Form Field Assembly / Zip + Phone](form-fields/assemblies/44-form-field-assembly-zip-phone/form-field-assembly-zip-phone.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Form Field | 1 |
-| 45 | [Form Field Assembly / Address block](form-fields/assemblies/45-form-field-assembly-address-block/form-field-assembly-address-block.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Form Field | 1 |
-| 46 | [Form Field Assembly / CC details](form-fields/assemblies/46-form-field-assembly-cc-details/form-field-assembly-cc-details.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Form Field | 0 |
-| 47 | [Form Field Assembly / Password](form-fields/assemblies/47-form-field-assembly-password/form-field-assembly-password.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Form Field | 1 |
-| 48 | [Form Field Assembly / Verification Code](form-fields/assemblies/48-form-field-assembly-verification-code/form-field-assembly-verification-code.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Code Box | 0 |
-| 49 | [Search Field / Obituaries](form-fields/assemblies/49-search-field-obituaries/search-field-obituaries.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Search Field / Obituaries — Core | 1 |
+| 43 | [Form Field](form-fields/components/43-form-field/form-field.md) | component | 10 | 340, 360, 768, 1024, 1100, 1280 |  | 1 |
+| 44 | [Code Box](form-fields/components/44-code-box/code-box.md) | component | 10 | 340, 360, 768, 1024, 1100, 1280 |  | 1 |
+| 45 | [Form Field Assembly / Checkbox + Terms](form-fields/assemblies/45-form-field-assembly-checkbox-terms/form-field-assembly-checkbox-terms.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
+| 46 | [Search Field / Obituaries — Core](form-fields/components/46-search-field-obituaries-core/search-field-obituaries-core.md) | component | 1 |  |  | 0 |
+| 47 | [Form Field (Dashboard Mockup Set)](form-fields/components/47-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.md) | component | 102 | 340, 360, 768, 1024, 1100, 1280 |  | 1 |
+| 48 | [Form Field Assembly / Name pair](form-fields/assemblies/48-form-field-assembly-name-pair/form-field-assembly-name-pair.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Form Field | 1 |
+| 49 | [Form Field Assembly / Zip + Street #](form-fields/assemblies/49-form-field-assembly-zip-street/form-field-assembly-zip-street.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Form Field | 1 |
+| 50 | [Form Field Assembly / Zip + Phone](form-fields/assemblies/50-form-field-assembly-zip-phone/form-field-assembly-zip-phone.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Form Field | 1 |
+| 51 | [Form Field Assembly / Address block](form-fields/assemblies/51-form-field-assembly-address-block/form-field-assembly-address-block.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Form Field | 1 |
+| 52 | [Form Field Assembly / CC details](form-fields/assemblies/52-form-field-assembly-cc-details/form-field-assembly-cc-details.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Form Field | 0 |
+| 53 | [Form Field Assembly / Password](form-fields/assemblies/53-form-field-assembly-password/form-field-assembly-password.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Form Field | 1 |
+| 54 | [Form Field Assembly / Verification Code](form-fields/assemblies/54-form-field-assembly-verification-code/form-field-assembly-verification-code.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Code Box | 0 |
+| 55 | [Search Field / Obituaries](form-fields/assemblies/55-search-field-obituaries/search-field-obituaries.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Search Field / Obituaries — Core | 1 |
 
 ## Dependency graph
 
@@ -123,37 +129,43 @@ flowchart LR
     n19[["Videos from OCRegister Carousel"]]
     n20["Show More Photos Affordance"]
     n21[["Photos Block"]]
-    n22["Upcoming Events Widget (768, 3 cards, 7 days)"]
-    n23[["Upcoming Events Block"]]
+    n22["Event Card"]
+    n23["Date Picker Day"]
+    n24["Date Picker Calendar Icon"]
+    n25["Upcoming Events Calendar Glyph"]
+    n26["Upcoming Events Header Button"]
+    n27["Upcoming Events Side Arrow"]
+    n28[["Upcoming Events Widget"]]
+    n29[["Upcoming Events Block"]]
   end
   subgraph menus_and_parts["Menus and Parts"]
-    n24["Weather Bug"]
-    n25["SectionMenuHeader"]
-    n26["AlertLevel"]
-    n27["UserImage"]
-    n28["SearchBar"]
-    n29["Breaking News Banner"]
-    n30["Footer"]
-    n31[["SectionMenuItem"]]
-    n32[["UserPic"]]
-    n33[["SectionMenu"]]
-    n34[["UserStatus"]]
-    n35[["Masthead"]]
+    n30["Weather Bug"]
+    n31["SectionMenuHeader"]
+    n32["AlertLevel"]
+    n33["UserImage"]
+    n34["SearchBar"]
+    n35["Breaking News Banner"]
+    n36["Footer"]
+    n37[["SectionMenuItem"]]
+    n38[["UserPic"]]
+    n39[["SectionMenu"]]
+    n40[["UserStatus"]]
+    n41[["Masthead"]]
   end
   subgraph form_fields["Form Fields"]
-    n36["Form Field"]
-    n37["Code Box"]
-    n38[["Form Field Assembly / Checkbox + Terms"]]
-    n39["Search Field / Obituaries — Core"]
-    n40["Form Field (Dashboard Mockup Set)"]
-    n41[["Form Field Assembly / Name pair"]]
-    n42[["Form Field Assembly / Zip + Street #"]]
-    n43[["Form Field Assembly / Zip + Phone"]]
-    n44[["Form Field Assembly / Address block"]]
-    n45[["Form Field Assembly / CC details"]]
-    n46[["Form Field Assembly / Password"]]
-    n47[["Form Field Assembly / Verification Code"]]
-    n48[["Search Field / Obituaries"]]
+    n42["Form Field"]
+    n43["Code Box"]
+    n44[["Form Field Assembly / Checkbox + Terms"]]
+    n45["Search Field / Obituaries — Core"]
+    n46["Form Field (Dashboard Mockup Set)"]
+    n47[["Form Field Assembly / Name pair"]]
+    n48[["Form Field Assembly / Zip + Street #"]]
+    n49[["Form Field Assembly / Zip + Phone"]]
+    n50[["Form Field Assembly / Address block"]]
+    n51[["Form Field Assembly / CC details"]]
+    n52[["Form Field Assembly / Password"]]
+    n53[["Form Field Assembly / Verification Code"]]
+    n54[["Search Field / Obituaries"]]
   end
   n0 --> n3
   n2 --> n3
@@ -170,9 +182,6 @@ flowchart LR
   n4 --> n11
   n8 --> n11
   n10 --> n11
-  n5 --> n11
-  n6 --> n11
-  n7 --> n11
   n5 --> n13
   n12 --> n13
   n2 --> n14
@@ -189,23 +198,31 @@ flowchart LR
   n15 --> n21
   n10 --> n21
   n20 --> n21
-  n22 --> n23
-  n24 --> n31
-  n27 --> n32
-  n26 --> n32
-  n25 --> n33
-  n31 --> n33
-  n32 --> n34
-  n33 --> n35
-  n24 --> n35
-  n36 --> n41
-  n36 --> n42
-  n36 --> n43
-  n36 --> n44
-  n36 --> n45
-  n36 --> n46
-  n37 --> n47
-  n39 --> n48
+  n2 --> n22
+  n25 --> n24
+  n25 --> n26
+  n26 --> n28
+  n22 --> n28
+  n27 --> n28
+  n24 --> n28
+  n23 --> n28
+  n28 --> n29
+  n30 --> n37
+  n33 --> n38
+  n32 --> n38
+  n31 --> n39
+  n37 --> n39
+  n38 --> n40
+  n39 --> n41
+  n30 --> n41
+  n42 --> n47
+  n42 --> n48
+  n42 --> n49
+  n42 --> n50
+  n42 --> n51
+  n42 --> n52
+  n43 --> n53
+  n45 --> n54
 ```
 
 Assemblies are drawn as `[[ ]]`. Arrows point from the building block to the item that contains it.

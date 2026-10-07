@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Related Article List Item** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 768 HomePage (via Zone 1 Lead Article Card), 1100 HomePage (via Zone 1 Lead Article Card), 1024 HomePage (via Zone 1 Lead Article Card), Mobile HomePage (via Zone 1 Lead Article Card), 340 HomePage (via Zone 1 Lead Article Card), Desktop HomePage (via Zone 1 Lead Article Card); nested inside: Zone 1 Lead Article Card / Device=Tablet ×3, Zone 1 Lead Article Card / Device=Mobile ×3, Zone 1 Lead Article Card / Device=Desktop ×3
+- **Related Article List Item** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 768 HomePage (via Zone 1 Lead Article Card), Desktop HomePage (via Zone 1 Lead Article Card), 1100 HomePage (via Zone 1 Lead Article Card), 1024 HomePage (via Zone 1 Lead Article Card), Mobile HomePage (via Zone 1 Lead Article Card), 340 HomePage (via Zone 1 Lead Article Card); nested inside: Zone 1 Lead Article Card / Device=Tablet ×3, Zone 1 Lead Article Card / Device=Desktop ×3, Zone 1 Lead Article Card / Device=Mobile ×3
 
 ## Breakpoints
 
