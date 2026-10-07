@@ -80,31 +80,22 @@
      "Desktop HomePage": [
       "Latest Headlines"
      ],
+     "768 HomePage": [
+      "Latest Headlines"
+     ],
      "Mobile HomePage": [
       "Latest Headlines"
      ],
      "340 HomePage": [
       "Latest Headlines"
-     ],
-     "768 HomePage": [
-      "Latest Headlines"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "Latest Headlines / Device=Desktop": 1,
-     "Latest Headlines / Device=Mobile": 1,
-     "Latest Headlines / Device=Tablet": 1
+     "Latest Headlines / Device=Tablet": 1,
+     "Latest Headlines / Device=Mobile": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -118,8 +109,8 @@
     "label": "Type=Standard",
     "id": "3336:46116",
     "templatesDirect": {
-     "1100 HomePage": 6,
-     "1024 HomePage": 6
+     "1024 HomePage": 6,
+     "1100 HomePage": 6
     },
     "templatesVia": {
      "Mobile HomePage": [
@@ -128,28 +119,19 @@
      "340 HomePage": [
       "Latest Headlines"
      ],
-     "768 HomePage": [
+     "Desktop HomePage": [
       "Latest Headlines"
      ],
-     "Desktop HomePage": [
+     "768 HomePage": [
       "Latest Headlines"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "Latest Headlines / Device=Mobile": 6,
-     "Latest Headlines / Device=Tablet": 6,
-     "Latest Headlines / Device=Desktop": 6
+     "Latest Headlines / Device=Desktop": 6,
+     "Latest Headlines / Device=Tablet": 6
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -167,6 +149,9 @@
      "1024 HomePage": 1
     },
     "templatesVia": {
+     "Desktop HomePage": [
+      "Latest Headlines"
+     ],
      "768 HomePage": [
       "Latest Headlines"
      ],
@@ -175,26 +160,14 @@
      ],
      "340 HomePage": [
       "Latest Headlines"
-     ],
-     "Desktop HomePage": [
-      "Latest Headlines"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
+     "Latest Headlines / Device=Desktop": 1,
      "Latest Headlines / Device=Tablet": 1,
-     "Latest Headlines / Device=Mobile": 1,
-     "Latest Headlines / Device=Desktop": 1
+     "Latest Headlines / Device=Mobile": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -210,7 +183,7 @@
   "builtFrom": [
    {
     "name": "Article Status Badge",
-    "count": 3,
+    "count": 1,
     "inExport": true,
     "section": "Article Status Badge",
     "path": "../01-article-status-badge/article-status-badge.md"
@@ -536,7 +509,7 @@
     ],
     "children": [
      {
-      "name": "Line 1",
+      "name": "Bottom Border Line",
       "type": "LINE",
       "id": "3336:46098",
       "w": 226,
@@ -752,7 +725,7 @@
    "key": "4a28da74cdd8fc131f87a55c16f435ca71b9533e",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46117",
    "width": 226,
-   "height": 146,
+   "height": 149,
    "layout": {
     "dir": "VERTICAL",
     "gap": 16,
@@ -792,7 +765,7 @@
     "type": "COMPONENT",
     "id": "3336:46117",
     "w": 226,
-    "h": 146,
+    "h": 149,
     "x": 16,
     "y": 190,
     "sizing": {
@@ -820,7 +793,7 @@
     ],
     "children": [
      {
-      "name": "Line 1",
+      "name": "Bottom Border Line",
       "type": "LINE",
       "id": "3336:46106",
       "w": 226,
@@ -846,7 +819,7 @@
       "type": "FRAME",
       "id": "3336:46107",
       "w": 226,
-      "h": 130,
+      "h": 133,
       "x": 0,
       "y": 16,
       "sizing": {
@@ -867,10 +840,10 @@
       },
       "children": [
        {
-        "name": "Frame 323",
+        "name": "Badge Container",
         "type": "FRAME",
         "id": "3336:46108",
-        "w": 138,
+        "w": 153,
         "h": 27,
         "x": 0,
         "y": 0,
@@ -895,7 +868,7 @@
           "name": "Article Status Badge",
           "type": "INSTANCE",
           "id": "3344:64041",
-          "w": 138,
+          "w": 153,
           "h": 27,
           "x": 0,
           "y": 0,
@@ -994,7 +967,7 @@
         "type": "FRAME",
         "id": "3336:46112",
         "w": 226,
-        "h": 35,
+        "h": 38,
         "x": 0,
         "y": 95,
         "sizing": {
@@ -1019,7 +992,7 @@
           "type": "TEXT",
           "id": "3336:46113",
           "w": 226,
-          "h": 15,
+          "h": 18,
           "x": 0,
           "y": 0,
           "sizing": {
@@ -1031,7 +1004,7 @@
           "align": "LEFT",
           "styles": [
            {
-            "font": "Droid Sans",
+            "font": "Noto Sans",
             "weight": "Regular",
             "size": 13,
             "lineHeight": "auto",
@@ -1042,7 +1015,7 @@
               "variable": "Colors/color/gray/200"
              }
             ],
-            "textStyle": "ByLine/date"
+            "textStyle": null
            }
           ]
          },
@@ -1053,7 +1026,7 @@
           "w": 60,
           "h": 12,
           "x": 0,
-          "y": 23,
+          "y": 26,
           "sizing": {
            "h": "FIXED",
            "v": "FIXED"
@@ -1090,6 +1063,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": "Additional Headlines",
    "truncate": null,
    "sample": "Latest headlines Number ONE: This wraps to two lin",
@@ -1108,6 +1082,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "56 mins ago",
@@ -1126,6 +1101,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": "Additional Headlines",
    "truncate": null,
    "sample": "Latest headlines Number Seven: Wraps to two lines.",
@@ -1144,6 +1120,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "57 mins ago",
@@ -1162,6 +1139,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": "Additional Headlines",
    "truncate": null,
    "sample": "Latest headlines Number Twelve: This one wraps to ",
@@ -1171,7 +1149,7 @@
   },
   {
    "layer": "By Xcel Energy",
-   "font": "Droid Sans",
+   "font": "Noto Sans",
    "weight": "Regular",
    "size": 13,
    "lineHeight": "auto",
@@ -1180,7 +1158,8 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
-   "textStyle": "ByLine/date",
+   "typeToken": null,
+   "textStyle": null,
    "truncate": null,
    "sample": "By Xcel Energy",
    "variants": [
@@ -1210,7 +1189,7 @@
    "strokeWeight": null
   },
   {
-   "layer": "Line 1",
+   "layer": "Bottom Border Line",
    "role": "stroke",
    "type": "SOLID",
    "hex": "#CCCAC7",
@@ -1230,13 +1209,13 @@
    "strokeWeight": null
   },
   {
-   "layer": "90D7B78FD37C47F7A7A09F85AE8E804B 1",
+   "layer": "Article Status Badge",
    "role": "fill",
-   "type": "IMAGE",
-   "hex": null,
+   "type": "SOLID",
+   "hex": "#7D161E",
    "token": null,
    "opacity": null,
-   "note": " IMAGE FILL",
+   "note": "",
    "strokeWeight": null
   }
  ],
@@ -1245,12 +1224,10 @@
  "responsiveRules": [
   "Type=First: 226×62, vertical gap 4 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280",
   "Type=Standard: 226×78, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280",
-  "Type=Sponsored: 226×146, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280"
+  "Type=Sponsored: 226×149, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280"
  ],
  "productionRefs": [],
- "knownIssues": [
-  "`Type=Sponsored`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Sans Regular ×1."
- ],
+ "knownIssues": [],
  "skeleton": "latest-headlines-list-item.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

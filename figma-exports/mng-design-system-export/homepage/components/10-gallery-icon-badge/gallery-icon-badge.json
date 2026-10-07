@@ -44,53 +44,34 @@
    "Mobile HomePage"
   ],
   "builtInto": [
-   "Horizontal Thumbnail Card",
-   "Photos Block"
+   "Horizontal Thumbnail Card"
   ],
   "perVariant": [
    {
     "label": "Gallery Icon Badge",
     "id": "3362:2959",
     "templatesDirect": {
-     "768 HomePage": 10,
-     "1100 HomePage": 6,
      "Desktop HomePage": 6,
      "1024 HomePage": 6,
-     "Mobile HomePage": 5,
-     "340 HomePage": 5
+     "1100 HomePage": 6
     },
     "templatesVia": {
      "768 HomePage": [
-      "Horizontal Thumbnail Card",
-      "Photos Block",
-      "TOP ZONE Block"
-     ],
-     "340 HomePage": [
       "Horizontal Thumbnail Card"
      ],
      "Mobile HomePage": [
       "Horizontal Thumbnail Card"
+     ],
+     "340 HomePage": [
+      "Horizontal Thumbnail Card"
      ]
     },
-    "nestedIn": {
-     "Photos Block / Device=Tablet": 6,
-     "TOP ZONE Block / Device=Tablet": 4,
-     "Photos Block / Device=Desktop": 6,
-     "Photos Block / Device=Mobile": 5,
-     "Horizontal Thumbnail Card / Device=Desktop": 1,
+    "inComponents": {
+     "Horizontal Thumbnail Card / Device=Tablet": 1,
      "Horizontal Thumbnail Card / Device=Mobile": 1,
-     "Horizontal Thumbnail Card / Device=Tablet": 1
+     "Horizontal Thumbnail Card / Device=Desktop": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -116,10 +97,6 @@
    {
     "name": "Horizontal Thumbnail Card",
     "path": "../11-horizontal-thumbnail-card/horizontal-thumbnail-card.md"
-   },
-   {
-    "name": "Photos Block",
-    "path": "../../assemblies/22-photos-block/photos-block.md"
    }
   ]
  },
@@ -152,7 +129,7 @@
     {
      "type": "SOLID",
      "hex": "#000000",
-     "opacity": 0.55
+     "variable": "Colors/color/gray/black"
     }
    ],
    "strokes": null,
@@ -195,7 +172,7 @@
      {
       "type": "SOLID",
       "hex": "#000000",
-      "opacity": 0.55
+      "variable": "Colors/color/gray/black"
      }
     ],
     "children": [
@@ -229,10 +206,13 @@
        "Name": "slideshow"
       },
       "componentKey": "69c11abdb66a02677cb7d047412fe64d8c7c284c",
-      "mainId": "3493:81115",
+      "mainId": "3527:18652",
       "props": {}
      }
-    ]
+    ],
+    "key": "0a14bf42a7c1ff5db7aea4dedb38ebea41c76862",
+    "variantProperties": null,
+    "componentDescription": null
    }
   }
  ],
@@ -243,8 +223,8 @@
    "role": "fill",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
-   "opacity": 0.55,
+   "token": "Colors/color/gray/black",
+   "opacity": null,
    "note": "",
    "strokeWeight": null
   }
@@ -255,9 +235,7 @@
   "Gallery Icon Badge: 28×28, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280"
  ],
  "productionRefs": [],
- "knownIssues": [
-  "1 solid paints are hard-coded (not bound to a color variable): #000000 ×1."
- ],
+ "knownIssues": [],
  "skeleton": "gallery-icon-badge.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

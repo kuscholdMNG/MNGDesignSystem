@@ -50,29 +50,9 @@
    {
     "label": "Related Article List Item",
     "id": "3334:43017",
-    "templatesDirect": {
-     "768 HomePage": 3,
-     "Desktop HomePage": 3,
-     "340 HomePage": 3,
-     "1024 HomePage": 3,
-     "Mobile HomePage": 3,
-     "1100 HomePage": 3
-    },
+    "templatesDirect": {},
     "templatesVia": {
      "768 HomePage": [
-      "TOP ZONE Block",
-      "Zone 1 Lead Article Card"
-     ],
-     "Desktop HomePage": [
-      "TOP ZONE Block",
-      "Zone 1 Lead Article Card"
-     ],
-     "Mobile HomePage": [
-      "TOP ZONE Block",
-      "Zone 1 Lead Article Card"
-     ],
-     "340 HomePage": [
-      "TOP ZONE Block",
       "Zone 1 Lead Article Card"
      ],
      "1100 HomePage": [
@@ -80,26 +60,23 @@
      ],
      "1024 HomePage": [
       "Zone 1 Lead Article Card"
+     ],
+     "Mobile HomePage": [
+      "Zone 1 Lead Article Card"
+     ],
+     "340 HomePage": [
+      "Zone 1 Lead Article Card"
+     ],
+     "Desktop HomePage": [
+      "Zone 1 Lead Article Card"
      ]
     },
-    "nestedIn": {
-     "TOP ZONE Block / Device=Tablet": 3,
-     "TOP ZONE Block / Device=Desktop": 3,
-     "Zone 1 Lead Article Card / Device=Desktop": 3,
+    "inComponents": {
      "Zone 1 Lead Article Card / Device=Tablet": 3,
-     "TOP ZONE Block / Device=Mobile": 3,
-     "Zone 1 Lead Article Card / Device=Mobile": 3
+     "Zone 1 Lead Article Card / Device=Mobile": 3,
+     "Zone 1 Lead Article Card / Device=Desktop": 3
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -208,7 +185,7 @@
       },
       "children": [
        {
-        "name": "Vector",
+        "name": "Bullet Dot",
         "type": "VECTOR",
         "id": "3334:43011",
         "w": 6,
@@ -305,7 +282,7 @@
           "align": "LEFT",
           "styles": [
            {
-            "font": "Droid Serif",
+            "font": "Noto Serif",
             "weight": "Bold",
             "size": 12,
             "lineHeight": "15px",
@@ -383,14 +360,17 @@
        }
       ]
      }
-    ]
+    ],
+    "key": "b713574ec2e2bb93789c51812dfb4f34cb971a71",
+    "variantProperties": null,
+    "componentDescription": "Atomic related-article row (bullet + title + relative timestamp) used inside the Zone 1 lead article card's Related Articles list."
    }
   }
  ],
  "typography": [
   {
    "layer": "Game Day: Turning LeBron James’ record numbers into words",
-   "font": "Droid Serif",
+   "font": "Noto Serif",
    "weight": "Bold",
    "size": 12,
    "lineHeight": "15px",
@@ -399,6 +379,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Game Day: Turning LeBron James’ record numbers int",
@@ -417,6 +398,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "56 mins ago",
@@ -427,7 +409,7 @@
  ],
  "colors": [
   {
-   "layer": "Vector",
+   "layer": "Bullet Dot",
    "role": "fill",
    "type": "SOLID",
    "hex": "#141414",
@@ -437,7 +419,7 @@
    "strokeWeight": null
   },
   {
-   "layer": "Vector",
+   "layer": "Bullet Dot",
    "role": "stroke",
    "type": "SOLID",
    "hex": "#F1EFEB",
@@ -453,9 +435,7 @@
   "Related Article List Item: 1194×45, horizontal gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280"
  ],
  "productionRefs": [],
- "knownIssues": [
-  "`Related Article List Item`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Serif Bold ×1."
- ],
+ "knownIssues": [],
  "skeleton": "related-article-list-item.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

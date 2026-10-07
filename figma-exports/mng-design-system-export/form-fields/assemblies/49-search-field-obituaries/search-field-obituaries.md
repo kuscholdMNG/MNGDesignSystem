@@ -12,17 +12,12 @@ built_from: ["Search Field / Obituaries — Core"]
 built_into: []
 spec_json: search-field-obituaries.json
 skeleton: search-field-obituaries.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Search Field / Obituaries
 
 **Assembly · 2 variants** · Form Fields · source: MNG Design System ▸ Form Fields | 2026.09.24
-
-**Designer notes on the canvas:**
-
-- Search Field / Obituaries
-- Production padding (ocregister.com/obituaries) baked in per breakpoint: Mobile <640px uses a 360px reference (10px top/bottom, 7.2px left/right); Desktop ≥640px uses the 640px breakpoint itself (15px top/bottom, 12.8px left/right).
 
 ## Figma references
 
@@ -42,8 +37,8 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Size=Mobile** — breakpoints: 340, 360; no instances found
-- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; no instances found
+- **Size=Mobile** — breakpoints: 340, 360; no instances in this file
+- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; no instances in this file
 
 ## Breakpoints
 
@@ -65,11 +60,11 @@ exported: 2026-09-24
 
 **Built from:**
 
-- [Search Field / Obituaries — Core](../../components/40-search-field-obituaries-core/search-field-obituaries-core.md) ×2
+- [Search Field / Obituaries — Core](../../components/40-search-field-obituaries-core/search-field-obituaries-core.md) ×1
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -96,11 +91,14 @@ exported: 2026-09-24
 
 ## Typography
 
-_None._
+_No text._
 
 ## Color & effects
 
-_None._
+| Layer | Role | Type | Hex | Token | Opacity | Note |
+|---|---|---|---|---|---|---|
+| Search Field / Obituaries — Core | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Search Field / Obituaries — Core | stroke | SOLID | #A7A6A3 | Colors/color/gray/400 |  |  |
 
 ## Image ratios
 
@@ -112,7 +110,7 @@ _None._
 
 ## Production references
 
-- `ocregister.com/obituaries`
+_None found in descriptions or layer names._
 
 ## Known issues
 

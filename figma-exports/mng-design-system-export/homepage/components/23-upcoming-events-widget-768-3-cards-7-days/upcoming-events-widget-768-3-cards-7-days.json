@@ -46,14 +46,10 @@
       "Upcoming Events Block"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "Upcoming Events Block / Device=Tablet": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "768"
-    ],
+    "other": {},
     "breakpoints": [
      "768"
     ]
@@ -177,7 +173,8 @@
           "color": [
            {
             "type": "SOLID",
-            "hex": "#141414"
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
            }
           ],
           "textStyle": null
@@ -296,7 +293,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#FFFFFF"
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
            }
           ],
           "children": [
@@ -343,7 +341,7 @@
             "strokeAlign": "INSIDE",
             "children": [
              {
-              "name": "Union",
+              "name": "Placeholder X",
               "type": "BOOLEAN_OPERATION",
               "id": "3470:51198",
               "w": 129,
@@ -363,7 +361,7 @@
               ],
               "children": [
                {
-                "name": "Vector 1",
+                "name": "Diagonal 1",
                 "type": "VECTOR",
                 "id": "3470:51199",
                 "w": 127.6,
@@ -380,7 +378,7 @@
                 "strokeAlign": "CENTER"
                },
                {
-                "name": "Vector 2",
+                "name": "Diagonal 2",
                 "type": "VECTOR",
                 "id": "3470:51200",
                 "w": 127.6,
@@ -399,13 +397,13 @@
               ]
              },
              {
-              "name": "Frame 11643",
+              "name": "Label",
               "type": "FRAME",
               "id": "3470:51201",
-              "w": 179,
-              "h": 19,
-              "x": -25,
-              "y": 51,
+              "w": 168,
+              "h": 22,
+              "x": -19.5,
+              "y": 49.5,
               "sizing": {
                "h": "HUG",
                "v": "HUG"
@@ -428,8 +426,8 @@
                 "name": "ARTICLE IMAGE",
                 "type": "TEXT",
                 "id": "3470:51202",
-                "w": 179,
-                "h": 19,
+                "w": 168,
+                "h": 22,
                 "x": 0,
                 "y": 0,
                 "sizing": {
@@ -450,8 +448,8 @@
                 "align": "LEFT",
                 "styles": [
                  {
-                  "font": "New York",
-                  "weight": "Black",
+                  "font": "Noto Serif",
+                  "weight": "Bold",
                   "size": 16,
                   "lineHeight": "auto",
                   "letterSpacing": "10%",
@@ -488,7 +486,7 @@
              {
               "type": "SOLID",
               "hex": "#000000",
-              "opacity": 0.65
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -496,8 +494,8 @@
               "name": "Tue, Sep 15",
               "type": "TEXT",
               "id": "3470:51188",
-              "w": 44,
-              "h": 11,
+              "w": 49,
+              "h": 12,
               "x": 5,
               "y": 2,
               "text": "Tue, Sep 15",
@@ -505,14 +503,15 @@
               "align": "LEFT",
               "styles": [
                {
-                "font": "Source Sans Pro",
+                "font": "Noto Sans",
                 "weight": "SemiBold",
                 "size": 9,
                 "lineHeight": "auto",
                 "color": [
                  {
                   "type": "SOLID",
-                  "hex": "#FFFFFF"
+                  "hex": "#FFFFFF",
+                  "variable": "Colors/color/gray/max"
                  }
                 ],
                 "textStyle": null
@@ -575,7 +574,8 @@
               "color": [
                {
                 "type": "SOLID",
-                "hex": "#141414"
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
                }
               ],
               "textStyle": null
@@ -587,7 +587,7 @@
             "type": "TEXT",
             "id": "3470:51191",
             "w": 125,
-            "h": 13,
+            "h": 14,
             "x": 2,
             "y": 38,
             "sizing": {
@@ -599,7 +599,7 @@
             "align": "LEFT",
             "styles": [
              {
-              "font": "Source Sans Pro",
+              "font": "Noto Sans",
               "weight": "Regular",
               "size": 10,
               "lineHeight": "auto",
@@ -671,7 +671,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#FFFFFF"
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
            }
           ],
           "children": [
@@ -718,7 +719,7 @@
             "strokeAlign": "INSIDE",
             "children": [
              {
-              "name": "Union",
+              "name": "Placeholder X",
               "type": "BOOLEAN_OPERATION",
               "id": "3470:51217",
               "w": 129,
@@ -738,7 +739,7 @@
               ],
               "children": [
                {
-                "name": "Vector 1",
+                "name": "Diagonal 1",
                 "type": "VECTOR",
                 "id": "3470:51218",
                 "w": 127.6,
@@ -755,7 +756,7 @@
                 "strokeAlign": "CENTER"
                },
                {
-                "name": "Vector 2",
+                "name": "Diagonal 2",
                 "type": "VECTOR",
                 "id": "3470:51219",
                 "w": 127.6,
@@ -774,13 +775,13 @@
               ]
              },
              {
-              "name": "Frame 11643",
+              "name": "Label",
               "type": "FRAME",
               "id": "3470:51220",
-              "w": 179,
-              "h": 19,
-              "x": -25,
-              "y": 51,
+              "w": 168,
+              "h": 22,
+              "x": -19.5,
+              "y": 49.5,
               "sizing": {
                "h": "HUG",
                "v": "HUG"
@@ -803,8 +804,8 @@
                 "name": "ARTICLE IMAGE",
                 "type": "TEXT",
                 "id": "3470:51221",
-                "w": 179,
-                "h": 19,
+                "w": 168,
+                "h": 22,
                 "x": 0,
                 "y": 0,
                 "sizing": {
@@ -825,8 +826,8 @@
                 "align": "LEFT",
                 "styles": [
                  {
-                  "font": "New York",
-                  "weight": "Black",
+                  "font": "Noto Serif",
+                  "weight": "Bold",
                   "size": 16,
                   "lineHeight": "auto",
                   "letterSpacing": "10%",
@@ -863,7 +864,7 @@
              {
               "type": "SOLID",
               "hex": "#000000",
-              "opacity": 0.65
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -871,8 +872,8 @@
               "name": "Tue, Sep 15",
               "type": "TEXT",
               "id": "3470:51207",
-              "w": 44,
-              "h": 11,
+              "w": 49,
+              "h": 12,
               "x": 5,
               "y": 2,
               "text": "Tue, Sep 15",
@@ -880,14 +881,15 @@
               "align": "LEFT",
               "styles": [
                {
-                "font": "Source Sans Pro",
+                "font": "Noto Sans",
                 "weight": "SemiBold",
                 "size": 9,
                 "lineHeight": "auto",
                 "color": [
                  {
                   "type": "SOLID",
-                  "hex": "#FFFFFF"
+                  "hex": "#FFFFFF",
+                  "variable": "Colors/color/gray/max"
                  }
                 ],
                 "textStyle": null
@@ -950,7 +952,8 @@
               "color": [
                {
                 "type": "SOLID",
-                "hex": "#141414"
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
                }
               ],
               "textStyle": null
@@ -962,7 +965,7 @@
             "type": "TEXT",
             "id": "3470:51210",
             "w": 125,
-            "h": 13,
+            "h": 14,
             "x": 2,
             "y": 38,
             "sizing": {
@@ -974,7 +977,7 @@
             "align": "LEFT",
             "styles": [
              {
-              "font": "Source Sans Pro",
+              "font": "Noto Sans",
               "weight": "Regular",
               "size": 10,
               "lineHeight": "auto",
@@ -1046,7 +1049,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#FFFFFF"
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
            }
           ],
           "children": [
@@ -1093,7 +1097,7 @@
             "strokeAlign": "INSIDE",
             "children": [
              {
-              "name": "Union",
+              "name": "Placeholder X",
               "type": "BOOLEAN_OPERATION",
               "id": "3470:51236",
               "w": 129,
@@ -1113,7 +1117,7 @@
               ],
               "children": [
                {
-                "name": "Vector 1",
+                "name": "Diagonal 1",
                 "type": "VECTOR",
                 "id": "3470:51237",
                 "w": 127.6,
@@ -1130,7 +1134,7 @@
                 "strokeAlign": "CENTER"
                },
                {
-                "name": "Vector 2",
+                "name": "Diagonal 2",
                 "type": "VECTOR",
                 "id": "3470:51238",
                 "w": 127.6,
@@ -1149,13 +1153,13 @@
               ]
              },
              {
-              "name": "Frame 11643",
+              "name": "Label",
               "type": "FRAME",
               "id": "3470:51239",
-              "w": 179,
-              "h": 19,
-              "x": -25,
-              "y": 51,
+              "w": 168,
+              "h": 22,
+              "x": -19.5,
+              "y": 49.5,
               "sizing": {
                "h": "HUG",
                "v": "HUG"
@@ -1178,8 +1182,8 @@
                 "name": "ARTICLE IMAGE",
                 "type": "TEXT",
                 "id": "3470:51240",
-                "w": 179,
-                "h": 19,
+                "w": 168,
+                "h": 22,
                 "x": 0,
                 "y": 0,
                 "sizing": {
@@ -1200,8 +1204,8 @@
                 "align": "LEFT",
                 "styles": [
                  {
-                  "font": "New York",
-                  "weight": "Black",
+                  "font": "Noto Serif",
+                  "weight": "Bold",
                   "size": 16,
                   "lineHeight": "auto",
                   "letterSpacing": "10%",
@@ -1238,7 +1242,7 @@
              {
               "type": "SOLID",
               "hex": "#000000",
-              "opacity": 0.65
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -1246,8 +1250,8 @@
               "name": "Tue, Sep 15",
               "type": "TEXT",
               "id": "3470:51226",
-              "w": 44,
-              "h": 11,
+              "w": 49,
+              "h": 12,
               "x": 5,
               "y": 2,
               "text": "Tue, Sep 15",
@@ -1255,14 +1259,15 @@
               "align": "LEFT",
               "styles": [
                {
-                "font": "Source Sans Pro",
+                "font": "Noto Sans",
                 "weight": "SemiBold",
                 "size": 9,
                 "lineHeight": "auto",
                 "color": [
                  {
                   "type": "SOLID",
-                  "hex": "#FFFFFF"
+                  "hex": "#FFFFFF",
+                  "variable": "Colors/color/gray/max"
                  }
                 ],
                 "textStyle": null
@@ -1325,7 +1330,8 @@
               "color": [
                {
                 "type": "SOLID",
-                "hex": "#141414"
+                "hex": "#141414",
+                "variable": "Colors/color/gray/min"
                }
               ],
               "textStyle": null
@@ -1337,7 +1343,7 @@
             "type": "TEXT",
             "id": "3470:51229",
             "w": 125,
-            "h": 13,
+            "h": 14,
             "x": 2,
             "y": 38,
             "sizing": {
@@ -1349,7 +1355,7 @@
             "align": "LEFT",
             "styles": [
              {
-              "font": "Source Sans Pro",
+              "font": "Noto Sans",
               "weight": "Regular",
               "size": 10,
               "lineHeight": "auto",
@@ -1430,10 +1436,10 @@
           "name": "CAL",
           "type": "TEXT",
           "id": "3470:51242",
-          "w": 15,
-          "h": 11,
-          "x": 17.5,
-          "y": 17,
+          "w": 17,
+          "h": 12,
+          "x": 16.5,
+          "y": 16.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -1443,14 +1449,15 @@
           "align": "LEFT",
           "styles": [
            {
-            "font": "Source Sans Pro",
+            "font": "Noto Sans",
             "weight": "SemiBold",
             "size": 9,
             "lineHeight": "auto",
             "color": [
              {
               "type": "SOLID",
-              "hex": "#FFFFFF"
+              "hex": "#FFFFFF",
+              "variable": "Colors/color/gray/max"
              }
             ],
             "textStyle": null
@@ -1502,10 +1509,10 @@
           "name": "MON",
           "type": "TEXT",
           "id": "3470:51244",
-          "w": 21,
-          "h": 13,
-          "x": 14.5,
-          "y": 4,
+          "w": 26,
+          "h": 14,
+          "x": 12,
+          "y": 3.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -1515,7 +1522,7 @@
           "align": "LEFT",
           "styles": [
            {
-            "font": "Source Sans Pro",
+            "font": "Noto Sans",
             "weight": "SemiBold",
             "size": 10,
             "lineHeight": "auto",
@@ -1536,7 +1543,7 @@
           "w": 19,
           "h": 22,
           "x": 15.5,
-          "y": 19,
+          "y": 19.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -1553,7 +1560,8 @@
             "color": [
              {
               "type": "SOLID",
-              "hex": "#141414"
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
              }
             ],
             "textStyle": null
@@ -1602,13 +1610,13 @@
         "strokeAlign": "INSIDE",
         "children": [
          {
-          "name": "MON",
+          "name": "TUE",
           "type": "TEXT",
           "id": "3470:51247",
-          "w": 18,
-          "h": 13,
-          "x": 16,
-          "y": 4,
+          "w": 19,
+          "h": 14,
+          "x": 15.5,
+          "y": 3.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -1618,7 +1626,7 @@
           "align": "LEFT",
           "styles": [
            {
-            "font": "Source Sans Pro",
+            "font": "Noto Sans",
             "weight": "SemiBold",
             "size": 10,
             "lineHeight": "auto",
@@ -1633,13 +1641,13 @@
           ]
          },
          {
-          "name": "14",
+          "name": "15",
           "type": "TEXT",
           "id": "3470:51248",
           "w": 19,
           "h": 22,
           "x": 15.5,
-          "y": 19,
+          "y": 19.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -1656,7 +1664,8 @@
             "color": [
              {
               "type": "SOLID",
-              "hex": "#141414"
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
              }
             ],
             "textStyle": null
@@ -1705,13 +1714,13 @@
         "strokeAlign": "INSIDE",
         "children": [
          {
-          "name": "MON",
+          "name": "WED",
           "type": "TEXT",
           "id": "3470:51250",
-          "w": 20,
-          "h": 13,
-          "x": 15,
-          "y": 4,
+          "w": 23,
+          "h": 14,
+          "x": 13.5,
+          "y": 3.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -1721,7 +1730,7 @@
           "align": "LEFT",
           "styles": [
            {
-            "font": "Source Sans Pro",
+            "font": "Noto Sans",
             "weight": "SemiBold",
             "size": 10,
             "lineHeight": "auto",
@@ -1736,13 +1745,13 @@
           ]
          },
          {
-          "name": "14",
+          "name": "16",
           "type": "TEXT",
           "id": "3470:51251",
           "w": 19,
           "h": 22,
           "x": 15.5,
-          "y": 19,
+          "y": 19.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -1759,7 +1768,8 @@
             "color": [
              {
               "type": "SOLID",
-              "hex": "#141414"
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
              }
             ],
             "textStyle": null
@@ -1808,13 +1818,13 @@
         "strokeAlign": "INSIDE",
         "children": [
          {
-          "name": "MON",
+          "name": "THU",
           "type": "TEXT",
           "id": "3470:51253",
-          "w": 19,
-          "h": 13,
-          "x": 15.5,
-          "y": 4,
+          "w": 21,
+          "h": 14,
+          "x": 14.5,
+          "y": 3.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -1824,7 +1834,7 @@
           "align": "LEFT",
           "styles": [
            {
-            "font": "Source Sans Pro",
+            "font": "Noto Sans",
             "weight": "SemiBold",
             "size": 10,
             "lineHeight": "auto",
@@ -1839,13 +1849,13 @@
           ]
          },
          {
-          "name": "14",
+          "name": "17",
           "type": "TEXT",
           "id": "3470:51254",
           "w": 19,
           "h": 22,
           "x": 15.5,
-          "y": 19,
+          "y": 19.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -1862,7 +1872,8 @@
             "color": [
              {
               "type": "SOLID",
-              "hex": "#141414"
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
              }
             ],
             "textStyle": null
@@ -1911,13 +1922,13 @@
         "strokeAlign": "INSIDE",
         "children": [
          {
-          "name": "MON",
+          "name": "FRI",
           "type": "TEXT",
           "id": "3470:51256",
-          "w": 14,
-          "h": 13,
-          "x": 18,
-          "y": 4,
+          "w": 16,
+          "h": 14,
+          "x": 17,
+          "y": 3.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -1927,7 +1938,7 @@
           "align": "LEFT",
           "styles": [
            {
-            "font": "Source Sans Pro",
+            "font": "Noto Sans",
             "weight": "SemiBold",
             "size": 10,
             "lineHeight": "auto",
@@ -1942,13 +1953,13 @@
           ]
          },
          {
-          "name": "14",
+          "name": "18",
           "type": "TEXT",
           "id": "3470:51257",
           "w": 19,
           "h": 22,
           "x": 15.5,
-          "y": 19,
+          "y": 19.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -1965,7 +1976,8 @@
             "color": [
              {
               "type": "SOLID",
-              "hex": "#141414"
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
              }
             ],
             "textStyle": null
@@ -2014,13 +2026,13 @@
         "strokeAlign": "INSIDE",
         "children": [
          {
-          "name": "MON",
+          "name": "SAT",
           "type": "TEXT",
           "id": "3470:51259",
-          "w": 16,
-          "h": 13,
-          "x": 17,
-          "y": 4,
+          "w": 18,
+          "h": 14,
+          "x": 16,
+          "y": 3.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -2030,7 +2042,7 @@
           "align": "LEFT",
           "styles": [
            {
-            "font": "Source Sans Pro",
+            "font": "Noto Sans",
             "weight": "SemiBold",
             "size": 10,
             "lineHeight": "auto",
@@ -2045,13 +2057,13 @@
           ]
          },
          {
-          "name": "14",
+          "name": "19",
           "type": "TEXT",
           "id": "3470:51260",
           "w": 19,
           "h": 22,
           "x": 15.5,
-          "y": 19,
+          "y": 19.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -2068,7 +2080,8 @@
             "color": [
              {
               "type": "SOLID",
-              "hex": "#141414"
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
              }
             ],
             "textStyle": null
@@ -2117,13 +2130,13 @@
         "strokeAlign": "INSIDE",
         "children": [
          {
-          "name": "MON",
+          "name": "SUN",
           "type": "TEXT",
           "id": "3470:51262",
-          "w": 19,
-          "h": 13,
-          "x": 15.5,
-          "y": 4,
+          "w": 21,
+          "h": 14,
+          "x": 14.5,
+          "y": 3.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -2133,7 +2146,7 @@
           "align": "LEFT",
           "styles": [
            {
-            "font": "Source Sans Pro",
+            "font": "Noto Sans",
             "weight": "SemiBold",
             "size": 10,
             "lineHeight": "auto",
@@ -2148,13 +2161,13 @@
           ]
          },
          {
-          "name": "14",
+          "name": "20",
           "type": "TEXT",
           "id": "3470:51263",
           "w": 19,
           "h": 22,
           "x": 15.5,
-          "y": 19,
+          "y": 19.5,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -2171,7 +2184,8 @@
             "color": [
              {
               "type": "SOLID",
-              "hex": "#141414"
+              "hex": "#141414",
+              "variable": "Colors/color/gray/min"
              }
             ],
             "textStyle": null
@@ -2182,7 +2196,10 @@
        }
       ]
      }
-    ]
+    ],
+    "key": "5729ce5a5beca9edccf2836f37c6e1fc6765e9b3",
+    "variantProperties": null,
+    "componentDescription": null
    }
   }
  ],
@@ -2197,7 +2214,8 @@
    "case": null,
    "decoration": null,
    "color": "#141414",
-   "token": null,
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Upcoming Events",
@@ -2216,6 +2234,7 @@
    "decoration": null,
    "color": "#808080",
    "token": null,
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "<  >",
@@ -2225,8 +2244,8 @@
   },
   {
    "layer": "ARTICLE IMAGE",
-   "font": "New York",
-   "weight": "Black",
+   "font": "Noto Serif",
+   "weight": "Bold",
    "size": 16,
    "lineHeight": "auto",
    "letterSpacing": "10%",
@@ -2234,16 +2253,19 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "GRAPHIC / IMAGE",
    "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)",
+    "Upcoming Events Widget (768, 3 cards, 7 days)",
     "Upcoming Events Widget (768, 3 cards, 7 days)"
    ]
   },
   {
    "layer": "Tue, Sep 15",
-   "font": "Source Sans Pro",
+   "font": "Noto Sans",
    "weight": "SemiBold",
    "size": 9,
    "lineHeight": "auto",
@@ -2251,11 +2273,14 @@
    "case": null,
    "decoration": null,
    "color": "#FFFFFF",
-   "token": null,
+   "token": "Colors/color/gray/max",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Tue, Sep 15",
    "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)",
+    "Upcoming Events Widget (768, 3 cards, 7 days)",
     "Upcoming Events Widget (768, 3 cards, 7 days)"
    ]
   },
@@ -2269,17 +2294,20 @@
    "case": null,
    "decoration": null,
    "color": "#141414",
-   "token": null,
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
-   "truncate": null,
+   "truncate": "None lines",
    "sample": "Event Title Placeholder Text Here",
    "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)",
+    "Upcoming Events Widget (768, 3 cards, 7 days)",
     "Upcoming Events Widget (768, 3 cards, 7 days)"
    ]
   },
   {
    "layer": "Venue Name Placeholder",
-   "font": "Source Sans Pro",
+   "font": "Noto Sans",
    "weight": "Regular",
    "size": 10,
    "lineHeight": "auto",
@@ -2288,16 +2316,19 @@
    "decoration": null,
    "color": "#666666",
    "token": null,
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Venue Name Placeholder",
    "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)",
+    "Upcoming Events Widget (768, 3 cards, 7 days)",
     "Upcoming Events Widget (768, 3 cards, 7 days)"
    ]
   },
   {
    "layer": "CAL",
-   "font": "Source Sans Pro",
+   "font": "Noto Sans",
    "weight": "SemiBold",
    "size": 9,
    "lineHeight": "auto",
@@ -2305,7 +2336,8 @@
    "case": null,
    "decoration": null,
    "color": "#FFFFFF",
-   "token": null,
+   "token": "Colors/color/gray/max",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "CAL",
@@ -2315,7 +2347,7 @@
   },
   {
    "layer": "MON",
-   "font": "Source Sans Pro",
+   "font": "Noto Sans",
    "weight": "SemiBold",
    "size": 10,
    "lineHeight": "auto",
@@ -2324,6 +2356,7 @@
    "decoration": null,
    "color": "#595959",
    "token": null,
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "MON",
@@ -2341,10 +2374,239 @@
    "case": null,
    "decoration": null,
    "color": "#141414",
-   "token": null,
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "14",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "TUE",
+   "font": "Noto Sans",
+   "weight": "SemiBold",
+   "size": 10,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#595959",
+   "token": null,
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "TUE",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "15",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "15",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "WED",
+   "font": "Noto Sans",
+   "weight": "SemiBold",
+   "size": 10,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#595959",
+   "token": null,
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "WED",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "16",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "16",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "THU",
+   "font": "Noto Sans",
+   "weight": "SemiBold",
+   "size": 10,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#595959",
+   "token": null,
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "THU",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "17",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "17",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "FRI",
+   "font": "Noto Sans",
+   "weight": "SemiBold",
+   "size": 10,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#595959",
+   "token": null,
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "FRI",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "18",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "18",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "SAT",
+   "font": "Noto Sans",
+   "weight": "SemiBold",
+   "size": 10,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#595959",
+   "token": null,
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "SAT",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "19",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "19",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "SUN",
+   "font": "Noto Sans",
+   "weight": "SemiBold",
+   "size": 10,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#595959",
+   "token": null,
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "SUN",
+   "variants": [
+    "Upcoming Events Widget (768, 3 cards, 7 days)"
+   ]
+  },
+  {
+   "layer": "20",
+   "font": "Noto Sans",
+   "weight": "Bold",
+   "size": 16,
+   "lineHeight": "auto",
+   "letterSpacing": null,
+   "case": null,
+   "decoration": null,
+   "color": "#141414",
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
+   "textStyle": null,
+   "truncate": null,
+   "sample": "20",
    "variants": [
     "Upcoming Events Widget (768, 3 cards, 7 days)"
    ]
@@ -2356,7 +2618,7 @@
    "role": "fill",
    "type": "SOLID",
    "hex": "#FFFFFF",
-   "token": null,
+   "token": "Colors/color/gray/max",
    "opacity": null,
    "note": "",
    "strokeWeight": null
@@ -2368,7 +2630,7 @@
    "hex": "#E1A1FF",
    "token": null,
    "opacity": null,
-   "note": "",
+   "note": "image placeholder fill",
    "strokeWeight": null
   },
   {
@@ -2382,7 +2644,7 @@
    "strokeWeight": 2
   },
   {
-   "layer": "Union",
+   "layer": "Placeholder X",
    "role": "fill",
    "type": "SOLID",
    "hex": "#141414",
@@ -2392,7 +2654,7 @@
    "strokeWeight": null
   },
   {
-   "layer": "Vector 1",
+   "layer": "Diagonal 1",
    "role": "stroke",
    "type": "SOLID",
    "hex": "#111111",
@@ -2402,7 +2664,7 @@
    "strokeWeight": 2
   },
   {
-   "layer": "Vector 2",
+   "layer": "Diagonal 2",
    "role": "stroke",
    "type": "SOLID",
    "hex": "#111111",
@@ -2410,24 +2672,14 @@
    "opacity": null,
    "note": "",
    "strokeWeight": 2
-  },
-  {
-   "layer": "ARTICLE IMAGE",
-   "role": "stroke",
-   "type": "SOLID",
-   "hex": "#F1EFEB",
-   "token": "Colors/color/gray/600",
-   "opacity": null,
-   "note": "",
-   "strokeWeight": 3
   },
   {
    "layer": "Date Bar",
    "role": "fill",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
-   "opacity": 0.65,
+   "token": "Colors/color/gray/black",
+   "opacity": null,
    "note": "",
    "strokeWeight": null
   },
@@ -2458,20 +2710,44 @@
    "hex": "#D9D9D9",
    "token": null,
    "opacity": null,
-   "note": "Figma default placeholder grey (image slot)",
+   "note": "image placeholder fill",
    "strokeWeight": 1
   }
  ],
- "imageRatios": [],
+ "imageRatios": [
+  {
+   "layer": "Article Image Placeholder",
+   "w": 129,
+   "h": 122,
+   "ratio": "1.06:1",
+   "source": "frame",
+   "variant": "Upcoming Events Widget (768, 3 cards, 7 days)"
+  },
+  {
+   "layer": "Article Image Placeholder",
+   "w": 129,
+   "h": 122,
+   "ratio": "1.06:1",
+   "source": "frame",
+   "variant": "Upcoming Events Widget (768, 3 cards, 7 days)"
+  },
+  {
+   "layer": "Article Image Placeholder",
+   "w": 129,
+   "h": 122,
+   "ratio": "1.06:1",
+   "source": "frame",
+   "variant": "Upcoming Events Widget (768, 3 cards, 7 days)"
+  }
+ ],
  "adSlots": [],
  "responsiveRules": [
   "Upcoming Events Widget (768, 3 cards, 7 days): 407×250, vertical gap 4 pad 0/0/0/0 main MIN cross MIN — renders at 768"
  ],
  "productionRefs": [],
  "knownIssues": [
-  "`Upcoming Events Widget (768, 3 cards, 7 days)`: fonts outside the production pair (Noto Sans / Noto Serif): New York Black ×3, Source Sans Pro SemiBold ×11, Source Sans Pro Regular ×3.",
-  "49 solid paints are hard-coded (not bound to a color variable): #141414 ×11, #FFFFFF ×7, #F2F2F2 ×7, #595959 ×7, #111111 ×6, #E1A1FF ×3."
+  "35 solid paints are hard-coded (not bound to a color variable): #F2F2F2 ×7, #D9D9D9 ×7, #595959 ×7, #111111 ×6, #E1A1FF ×3, #666666 ×3, #808080 ×1, #262626 ×1."
  ],
  "skeleton": "upcoming-events-widget-768-3-cards-7-days.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

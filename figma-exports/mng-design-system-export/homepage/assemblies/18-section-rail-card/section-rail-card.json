@@ -122,16 +122,8 @@
      "340 HomePage": 9
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [
-     "340",
-     "360"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -144,17 +136,9 @@
      "Desktop HomePage": 3
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [
-     "1280"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
-     "1100",
      "1280"
     ]
    },
@@ -165,14 +149,8 @@
      "768 HomePage": 3
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768"
-    ],
-    "observedBreakpoints": [
-     "768"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768"
     ]
@@ -184,14 +162,8 @@
      "768 HomePage": 6
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768"
-    ],
-    "observedBreakpoints": [
-     "768"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768"
     ]
@@ -203,14 +175,8 @@
      "1024 HomePage": 3
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1024"
-    ],
-    "observedBreakpoints": [
-     "1024"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "1024"
     ]
@@ -222,14 +188,8 @@
      "1100 HomePage": 3
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1100"
-    ],
-    "observedBreakpoints": [
-     "1100"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "1100"
     ]
@@ -241,14 +201,8 @@
      "1024 HomePage": 6
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1024"
-    ],
-    "observedBreakpoints": [
-     "1024"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "1024"
     ]
@@ -260,14 +214,8 @@
      "1100 HomePage": 6
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1100"
-    ],
-    "observedBreakpoints": [
-     "1100"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "1100"
     ]
@@ -279,14 +227,8 @@
      "Desktop HomePage": 6
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1280"
-    ],
-    "observedBreakpoints": [
-     "1280"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "1280"
     ]
@@ -297,21 +239,21 @@
   "builtFrom": [
    {
     "name": "Section Title / Eyebrow",
-    "count": 9,
+    "count": 1,
     "inExport": true,
     "section": "Section Title / Eyebrow",
     "path": "../../components/06-section-title-eyebrow/section-title-eyebrow.md"
    },
    {
     "name": "1Col Article Card",
-    "count": 20,
+    "count": 4,
     "inExport": true,
     "section": "1Col Article Card",
     "path": "../../components/16-1col-article-card/1col-article-card.md"
    },
    {
     "name": "Feature + List Content Block",
-    "count": 4,
+    "count": 1,
     "inExport": true,
     "section": "Feature + List Content Block",
     "path": "../17-feature-list-content-block/feature-list-content-block.md"
@@ -330,7 +272,7 @@
    "key": "edee2be023963cf675ee580ff5cfc4de809ea3ff",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-22066",
    "width": 296,
-   "height": 818,
+   "height": 794,
    "layout": {
     "dir": "VERTICAL",
     "gap": 24,
@@ -366,7 +308,7 @@
     "type": "COMPONENT",
     "id": "3352:22066",
     "w": 296,
-    "h": 818,
+    "h": 794,
     "x": 16,
     "y": 16,
     "sizing": {
@@ -398,7 +340,7 @@
       "type": "FRAME",
       "id": "3352:21996",
       "w": 296,
-      "h": 786,
+      "h": 762,
       "x": 0,
       "y": 0,
       "sizing": {
@@ -491,7 +433,7 @@
         "type": "FRAME",
         "id": "3352:21999",
         "w": 296,
-        "h": 732,
+        "h": 708,
         "x": 0,
         "y": 54,
         "sizing": {
@@ -516,7 +458,7 @@
           "type": "INSTANCE",
           "id": "3352:25975",
           "w": 296,
-          "h": 378,
+          "h": 372,
           "x": 0,
           "y": 0,
           "sizing": {
@@ -543,6 +485,9 @@
            }
           ],
           "component": "1Col Article Card",
+          "variant": {
+           "Style": "Standard"
+          },
           "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
           "mainId": "3352:24163",
           "props": {
@@ -557,9 +502,9 @@
           "type": "INSTANCE",
           "id": "3352:26135",
           "w": 296,
-          "h": 102,
+          "h": 96,
           "x": 0,
-          "y": 394,
+          "y": 388,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -584,6 +529,9 @@
            }
           ],
           "component": "1Col Article Card",
+          "variant": {
+           "Style": "Standard"
+          },
           "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
           "mainId": "3352:24163",
           "props": {
@@ -598,9 +546,9 @@
           "type": "INSTANCE",
           "id": "3352:26199",
           "w": 296,
-          "h": 102,
+          "h": 96,
           "x": 0,
-          "y": 512,
+          "y": 500,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -625,6 +573,9 @@
            }
           ],
           "component": "1Col Article Card",
+          "variant": {
+           "Style": "Standard"
+          },
           "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
           "mainId": "3352:24163",
           "props": {
@@ -639,9 +590,9 @@
           "type": "INSTANCE",
           "id": "3352:26295",
           "w": 296,
-          "h": 102,
+          "h": 96,
           "x": 0,
-          "y": 630,
+          "y": 612,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
@@ -666,6 +617,9 @@
            }
           ],
           "component": "1Col Article Card",
+          "variant": {
+           "Style": "Standard"
+          },
           "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
           "mainId": "3352:24163",
           "props": {
@@ -720,7 +674,6 @@
    "radius": null,
    "preview": "previews/section-rail-card--desktop-narrow.png",
    "breakpoints": [
-    "1100",
     "1280"
    ],
    "layerTree": {
@@ -821,7 +774,7 @@
       "type": "INSTANCE",
       "id": "3352:25335",
       "w": 296,
-      "h": 378,
+      "h": 372,
       "x": 0,
       "y": 46,
       "sizing": {
@@ -848,6 +801,9 @@
        }
       ],
       "component": "1Col Article Card",
+      "variant": {
+       "Style": "Standard"
+      },
       "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
       "mainId": "3352:24163",
       "props": {
@@ -862,9 +818,9 @@
       "type": "INSTANCE",
       "id": "3352:25479",
       "w": 296,
-      "h": 102,
+      "h": 96,
       "x": 0,
-      "y": 440,
+      "y": 434,
       "sizing": {
        "h": "FIXED",
        "v": "HUG"
@@ -889,6 +845,9 @@
        }
       ],
       "component": "1Col Article Card",
+      "variant": {
+       "Style": "Standard"
+      },
       "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
       "mainId": "3352:24163",
       "props": {
@@ -903,9 +862,9 @@
       "type": "INSTANCE",
       "id": "3352:25687",
       "w": 296,
-      "h": 102,
+      "h": 96,
       "x": 0,
-      "y": 558,
+      "y": 546,
       "sizing": {
        "h": "FIXED",
        "v": "HUG"
@@ -930,6 +889,9 @@
        }
       ],
       "component": "1Col Article Card",
+      "variant": {
+       "Style": "Standard"
+      },
       "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
       "mainId": "3352:24163",
       "props": {
@@ -944,9 +906,9 @@
       "type": "INSTANCE",
       "id": "3352:25799",
       "w": 296,
-      "h": 102,
+      "h": 96,
       "x": 0,
-      "y": 676,
+      "y": 658,
       "sizing": {
        "h": "FIXED",
        "v": "HUG"
@@ -971,6 +933,9 @@
        }
       ],
       "component": "1Col Article Card",
+      "variant": {
+       "Style": "Standard"
+      },
       "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
       "mainId": "3352:24163",
       "props": {
@@ -999,7 +964,7 @@
    "key": "3b44a196f904cae8eff2ce006ad42a604702c74d",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46831",
    "width": 358,
-   "height": 818,
+   "height": 794,
    "layout": {
     "dir": "VERTICAL",
     "gap": 24,
@@ -1034,7 +999,7 @@
     "type": "COMPONENT",
     "id": "3383:46831",
     "w": 358,
-    "h": 818,
+    "h": 794,
     "x": 328,
     "y": 16,
     "sizing": {
@@ -1066,7 +1031,7 @@
       "type": "FRAME",
       "id": "3383:46832",
       "w": 358,
-      "h": 786,
+      "h": 762,
       "x": 0,
       "y": 0,
       "sizing": {
@@ -1159,7 +1124,7 @@
         "type": "FRAME",
         "id": "3383:46835",
         "w": 358,
-        "h": 732,
+        "h": 708,
         "x": 0,
         "y": 54,
         "sizing": {
@@ -1184,7 +1149,7 @@
           "type": "INSTANCE",
           "id": "3383:46836",
           "w": 358,
-          "h": 378,
+          "h": 372,
           "x": 0,
           "y": 0,
           "sizing": {
@@ -1211,6 +1176,9 @@
            }
           ],
           "component": "1Col Article Card",
+          "variant": {
+           "Style": "Standard"
+          },
           "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
           "mainId": "3352:24163",
           "props": {
@@ -1225,9 +1193,9 @@
           "type": "INSTANCE",
           "id": "3383:46837",
           "w": 358,
-          "h": 102,
+          "h": 96,
           "x": 0,
-          "y": 394,
+          "y": 388,
           "sizing": {
            "h": "FIXED",
            "v": "HUG"
@@ -1252,6 +1220,9 @@
            }
           ],
           "component": "1Col Article Card",
+          "variant": {
+           "Style": "Standard"
+          },
           "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
           "mainId": "3352:24163",
           "props": {
@@ -1266,9 +1237,9 @@
           "type": "INSTANCE",
           "id": "3383:46838",
           "w": 358,
-          "h": 102,
+          "h": 96,
           "x": 0,
-          "y": 512,
+          "y": 500,
           "sizing": {
            "h": "FIXED",
            "v": "HUG"
@@ -1293,6 +1264,9 @@
            }
           ],
           "component": "1Col Article Card",
+          "variant": {
+           "Style": "Standard"
+          },
           "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
           "mainId": "3352:24163",
           "props": {
@@ -1307,9 +1281,9 @@
           "type": "INSTANCE",
           "id": "3383:46839",
           "w": 358,
-          "h": 102,
+          "h": 96,
           "x": 0,
-          "y": 630,
+          "y": 612,
           "sizing": {
            "h": "FIXED",
            "v": "HUG"
@@ -1334,6 +1308,9 @@
            }
           ],
           "component": "1Col Article Card",
+          "variant": {
+           "Style": "Standard"
+          },
           "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
           "mainId": "3352:24163",
           "props": {
@@ -1366,7 +1343,7 @@
    "key": "b4f2a0688a47649b0ecc5bae007f06ac64eaf417",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46746",
    "width": 748,
-   "height": 502,
+   "height": 410,
    "layout": {
     "dir": "VERTICAL",
     "gap": 24,
@@ -1401,7 +1378,7 @@
     "type": "COMPONENT",
     "id": "3383:46746",
     "w": 748,
-    "h": 502,
+    "h": 410,
     "x": 328,
     "y": 933,
     "sizing": {
@@ -1433,7 +1410,7 @@
       "type": "FRAME",
       "id": "3383:46747",
       "w": 748,
-      "h": 470,
+      "h": 378,
       "x": 0,
       "y": 0,
       "sizing": {
@@ -1526,7 +1503,7 @@
         "type": "INSTANCE",
         "id": "3478:63612",
         "w": 748,
-        "h": 416,
+        "h": 324,
         "x": 0,
         "y": 54,
         "sizing": {
@@ -1573,7 +1550,7 @@
    "key": "8d3d7b5955f32538b35968f1a7429d9e8cc3313f",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3445-55994",
    "width": 484,
-   "height": 674,
+   "height": 658,
    "layout": {
     "dir": "VERTICAL",
     "gap": 16,
@@ -1602,7 +1579,7 @@
     "type": "COMPONENT",
     "id": "3445:55994",
     "w": 484,
-    "h": 674,
+    "h": 658,
     "x": 1092,
     "y": 16,
     "sizing": {
@@ -1695,7 +1672,7 @@
       "type": "INSTANCE",
       "id": "3445:55997",
       "w": 484,
-      "h": 352,
+      "h": 348,
       "x": 0,
       "y": 46,
       "sizing": {
@@ -1722,6 +1699,9 @@
        }
       ],
       "component": "1Col Article Card",
+      "variant": {
+       "Style": "Standard"
+      },
       "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
       "mainId": "3352:24163",
       "props": {
@@ -1736,9 +1716,9 @@
       "type": "INSTANCE",
       "id": "3445:55998",
       "w": 484,
-      "h": 76,
+      "h": 72,
       "x": 0,
-      "y": 414,
+      "y": 410,
       "sizing": {
        "h": "FILL",
        "v": "HUG"
@@ -1763,6 +1743,9 @@
        }
       ],
       "component": "1Col Article Card",
+      "variant": {
+       "Style": "Standard"
+      },
       "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
       "mainId": "3352:24163",
       "props": {
@@ -1777,9 +1760,9 @@
       "type": "INSTANCE",
       "id": "3445:55999",
       "w": 484,
-      "h": 76,
+      "h": 72,
       "x": 0,
-      "y": 506,
+      "y": 498,
       "sizing": {
        "h": "FILL",
        "v": "HUG"
@@ -1804,6 +1787,9 @@
        }
       ],
       "component": "1Col Article Card",
+      "variant": {
+       "Style": "Standard"
+      },
       "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
       "mainId": "3352:24163",
       "props": {
@@ -1818,9 +1804,9 @@
       "type": "INSTANCE",
       "id": "3445:56000",
       "w": 484,
-      "h": 76,
+      "h": 72,
       "x": 0,
-      "y": 598,
+      "y": 586,
       "sizing": {
        "h": "FILL",
        "v": "HUG"
@@ -1845,6 +1831,9 @@
        }
       ],
       "component": "1Col Article Card",
+      "variant": {
+       "Style": "Standard"
+      },
       "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
       "mainId": "3352:24163",
       "props": {
@@ -1873,7 +1862,7 @@
    "key": "cb767c709d26904179312aa86c0e0543028191a3",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3445-56061",
    "width": 251,
-   "height": 901,
+   "height": 869,
    "layout": {
     "dir": "VERTICAL",
     "gap": 16,
@@ -1902,7 +1891,7 @@
     "type": "COMPONENT",
     "id": "3445:56061",
     "w": 251,
-    "h": 901,
+    "h": 869,
     "x": 1693,
     "y": 16,
     "sizing": {
@@ -1995,7 +1984,7 @@
       "type": "INSTANCE",
       "id": "3445:56064",
       "w": 251,
-      "h": 423,
+      "h": 415,
       "x": 0,
       "y": 46,
       "sizing": {
@@ -2022,6 +2011,9 @@
        }
       ],
       "component": "1Col Article Card",
+      "variant": {
+       "Style": "Standard"
+      },
       "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
       "mainId": "3352:24163",
       "props": {
@@ -2036,9 +2028,9 @@
       "type": "INSTANCE",
       "id": "3445:56065",
       "w": 251,
-      "h": 128,
+      "h": 120,
       "x": 0,
-      "y": 485,
+      "y": 477,
       "sizing": {
        "h": "FILL",
        "v": "HUG"
@@ -2063,6 +2055,9 @@
        }
       ],
       "component": "1Col Article Card",
+      "variant": {
+       "Style": "Standard"
+      },
       "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
       "mainId": "3352:24163",
       "props": {
@@ -2077,9 +2072,9 @@
       "type": "INSTANCE",
       "id": "3445:56066",
       "w": 251,
-      "h": 128,
+      "h": 120,
       "x": 0,
-      "y": 629,
+      "y": 613,
       "sizing": {
        "h": "FILL",
        "v": "HUG"
@@ -2104,6 +2099,9 @@
        }
       ],
       "component": "1Col Article Card",
+      "variant": {
+       "Style": "Standard"
+      },
       "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
       "mainId": "3352:24163",
       "props": {
@@ -2118,9 +2116,9 @@
       "type": "INSTANCE",
       "id": "3445:56067",
       "w": 251,
-      "h": 128,
+      "h": 120,
       "x": 0,
-      "y": 773,
+      "y": 749,
       "sizing": {
        "h": "FILL",
        "v": "HUG"
@@ -2145,6 +2143,9 @@
        }
       ],
       "component": "1Col Article Card",
+      "variant": {
+       "Style": "Standard"
+      },
       "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
       "mainId": "3352:24163",
       "props": {
@@ -2173,7 +2174,7 @@
    "key": "2db0cc5ecc5064327d9311445d183faf405e9af7",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3476-60465",
    "width": 585,
-   "height": 580,
+   "height": 550,
    "layout": {
     "dir": "VERTICAL",
     "gap": 24,
@@ -2208,7 +2209,7 @@
     "type": "COMPONENT",
     "id": "3476:60465",
     "w": 585,
-    "h": 580,
+    "h": 550,
     "x": 1092,
     "y": 933,
     "sizing": {
@@ -2240,7 +2241,7 @@
       "type": "FRAME",
       "id": "3476:60457",
       "w": 585,
-      "h": 548,
+      "h": 518,
       "x": 0,
       "y": 0,
       "sizing": {
@@ -2333,7 +2334,7 @@
         "type": "INSTANCE",
         "id": "3484:66934",
         "w": 585,
-        "h": 494,
+        "h": 464,
         "x": 0,
         "y": 54,
         "sizing": {
@@ -2380,7 +2381,7 @@
    "key": "da0fe7f95386430425adb5745621581eb6549ad5",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3476-60484",
    "width": 731,
-   "height": 502,
+   "height": 466,
    "layout": {
     "dir": "VERTICAL",
     "gap": 24,
@@ -2415,7 +2416,7 @@
     "type": "COMPONENT",
     "id": "3476:60484",
     "w": 731,
-    "h": 502,
+    "h": 466,
     "x": 1693,
     "y": 933,
     "sizing": {
@@ -2447,7 +2448,7 @@
       "type": "FRAME",
       "id": "3476:60476",
       "w": 731,
-      "h": 470,
+      "h": 434,
       "x": 0,
       "y": 0,
       "sizing": {
@@ -2540,7 +2541,7 @@
         "type": "INSTANCE",
         "id": "3478:64252",
         "w": 731,
-        "h": 416,
+        "h": 380,
         "x": 0,
         "y": 54,
         "sizing": {
@@ -2587,7 +2588,7 @@
    "key": "8021b5e7c4489fec57fe07cb4285e193de1bdb3b",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3478-63072",
    "width": 940,
-   "height": 502,
+   "height": 406,
    "layout": {
     "dir": "VERTICAL",
     "gap": 24,
@@ -2622,7 +2623,7 @@
     "type": "COMPONENT",
     "id": "3478:63072",
     "w": 940,
-    "h": 502,
+    "h": 406,
     "x": 2758.7,
     "y": 933,
     "sizing": {
@@ -2654,7 +2655,7 @@
       "type": "FRAME",
       "id": "3478:63073",
       "w": 940,
-      "h": 470,
+      "h": 374,
       "x": 0,
       "y": 0,
       "sizing": {
@@ -2747,7 +2748,7 @@
         "type": "INSTANCE",
         "id": "3478:66254",
         "w": 940,
-        "h": 416,
+        "h": 320,
         "x": 0,
         "y": 54,
         "sizing": {
@@ -2799,6 +2800,16 @@
   },
   {
    "layer": "3Col Header",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "1Col Article Card",
    "role": "fill",
    "type": "SOLID",
    "hex": "#FFFFFF",
@@ -2874,20 +2885,20 @@
   "Wide variants (checked against the previews): Section Title on top, then a lead story with image left and headline/dek right, plus a 3-item headline list in a right column.",
   "Narrow variants: single column. Section Title, then a full-width image lead, then stacked 1Col Article Card headlines.",
   "The 1024 and 1100 variants exist because production uses fixed landing-item widths at those breakpoints. Use them instead of scaling the Desktop variant.",
-  "Device=Mobile, Layout=Narrow: 296×818, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 340, 360",
-  "Device=Desktop, Layout=Narrow: 302.7×778, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280",
-  "Device=Tablet, Layout=Narrow: 358×818, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 768",
-  "Device=Tablet, Layout=Wide: 748×502, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 768",
-  "Device=1024, Layout=Narrow: 484×674, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024",
-  "Device=1100, Layout=Narrow: 251×901, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1100",
-  "Device=1024, Layout=Wide: 585×580, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 1024",
-  "Device=1100, Layout=Wide: 731×502, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 1100",
-  "Device=1280, Layout=Wide: 940×502, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 1280"
+  "Device=Mobile, Layout=Narrow: 296×794, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 340, 360",
+  "Device=Desktop, Layout=Narrow: 302.7×778, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1280",
+  "Device=Tablet, Layout=Narrow: 358×794, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 768",
+  "Device=Tablet, Layout=Wide: 748×410, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 768",
+  "Device=1024, Layout=Narrow: 484×658, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024",
+  "Device=1100, Layout=Narrow: 251×869, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1100",
+  "Device=1024, Layout=Wide: 585×550, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 1024",
+  "Device=1100, Layout=Wide: 731×466, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 1100",
+  "Device=1280, Layout=Wide: 940×406, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 1280"
  ],
  "productionRefs": [
   "ocregister.com"
  ],
  "knownIssues": [],
  "skeleton": "section-rail-card.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

@@ -61,34 +61,24 @@
    {
     "label": "Size=Default",
     "id": "3478:63611",
-    "templatesDirect": {
-     "Desktop HomePage": 6,
-     "768 HomePage": 6,
-     "1100 HomePage": 6
-    },
+    "templatesDirect": {},
     "templatesVia": {
+     "1100 HomePage": [
+      "Section Rail Card"
+     ],
      "Desktop HomePage": [
       "Section Rail Card"
      ],
      "768 HomePage": [
       "Section Rail Card"
-     ],
-     "1100 HomePage": [
-      "Section Rail Card"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
+     "Section Rail Card / Device=1100, Layout=Wide": 1,
      "Section Rail Card / Device=1280, Layout=Wide": 1,
-     "Section Rail Card / Device=Tablet, Layout=Wide": 1,
-     "Section Rail Card / Device=1100, Layout=Wide": 1
+     "Section Rail Card / Device=Tablet, Layout=Wide": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "768",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "768",
      "1100",
@@ -98,22 +88,16 @@
    {
     "label": "Size=Narrow",
     "id": "3484:66879",
-    "templatesDirect": {
-     "1024 HomePage": 6
-    },
+    "templatesDirect": {},
     "templatesVia": {
      "1024 HomePage": [
       "Section Rail Card"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "Section Rail Card / Device=1024, Layout=Wide": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "1024"
-    ],
+    "other": {},
     "breakpoints": [
      "1024"
     ]
@@ -131,7 +115,7 @@
    },
    {
     "name": "1Col Article Card",
-    "count": 6,
+    "count": 3,
     "inExport": true,
     "section": "1Col Article Card",
     "path": "../../components/16-1col-article-card/1col-article-card.md"
@@ -161,7 +145,7 @@
    "key": "d9c96ebd29527f812f5906abd384c00e203583e9",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3478-63611",
    "width": 940,
-   "height": 416,
+   "height": 320,
    "layout": {
     "dir": "HORIZONTAL",
     "gap": 16,
@@ -192,7 +176,7 @@
     "type": "COMPONENT",
     "id": "3478:63611",
     "w": 940,
-    "h": 416,
+    "h": 320,
     "x": 617,
     "y": 16,
     "sizing": {
@@ -246,7 +230,7 @@
       "type": "FRAME",
       "id": "3478:63530",
       "w": 276,
-      "h": 416,
+      "h": 320,
       "x": 664,
       "y": 0,
       "sizing": {
@@ -271,7 +255,7 @@
         "type": "INSTANCE",
         "id": "3478:63531",
         "w": 276,
-        "h": 128,
+        "h": 96,
         "x": 0,
         "y": 0,
         "sizing": {
@@ -298,6 +282,9 @@
          }
         ],
         "component": "1Col Article Card",
+        "variant": {
+         "Style": "Standard"
+        },
         "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
         "mainId": "3352:24163",
         "props": {
@@ -312,9 +299,9 @@
         "type": "INSTANCE",
         "id": "3478:63532",
         "w": 276,
-        "h": 128,
+        "h": 96,
         "x": 0,
-        "y": 144,
+        "y": 112,
         "sizing": {
          "h": "FILL",
          "v": "HUG"
@@ -339,6 +326,9 @@
          }
         ],
         "component": "1Col Article Card",
+        "variant": {
+         "Style": "Standard"
+        },
         "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
         "mainId": "3352:24163",
         "props": {
@@ -353,9 +343,9 @@
         "type": "INSTANCE",
         "id": "3478:63533",
         "w": 276,
-        "h": 128,
+        "h": 96,
         "x": 0,
-        "y": 288,
+        "y": 224,
         "sizing": {
          "h": "FILL",
          "v": "HUG"
@@ -380,6 +370,9 @@
          }
         ],
         "component": "1Col Article Card",
+        "variant": {
+         "Style": "Standard"
+        },
         "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
         "mainId": "3352:24163",
         "props": {
@@ -408,7 +401,7 @@
    "key": "6e8d20beb8cdbe33910a2c93824ebdda43d964c0",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3484-66879",
    "width": 585,
-   "height": 494,
+   "height": 464,
    "layout": {
     "dir": "HORIZONTAL",
     "gap": 16,
@@ -437,7 +430,7 @@
     "type": "COMPONENT",
     "id": "3484:66879",
     "w": 585,
-    "h": 494,
+    "h": 464,
     "x": 16,
     "y": 16,
     "sizing": {
@@ -462,7 +455,7 @@
       "type": "FRAME",
       "id": "3484:66898",
       "w": 369,
-      "h": 321,
+      "h": 324,
       "x": 0,
       "y": 0,
       "sizing": {
@@ -488,7 +481,7 @@
         "type": "FRAME",
         "id": "3484:66899",
         "w": 369,
-        "h": 313,
+        "h": 316,
         "x": 0,
         "y": 0,
         "sizing": {
@@ -558,7 +551,7 @@
           "type": "FRAME",
           "id": "3484:66901",
           "w": 161,
-          "h": 313,
+          "h": 316,
           "x": 208,
           "y": 0,
           "sizing": {
@@ -644,7 +637,7 @@
             "type": "FRAME",
             "id": "3484:66904",
             "w": 161,
-            "h": 60,
+            "h": 63,
             "x": 0,
             "y": 253,
             "sizing": {
@@ -670,12 +663,19 @@
               "type": "TEXT",
               "id": "3484:66905",
               "w": 161,
-              "h": 60,
+              "h": 63,
               "x": 0,
               "y": 0,
               "sizing": {
                "h": "FILL",
                "v": "HUG"
+              },
+              "vars": {
+               "letterSpacing": "Typeography Tokens/Editorial/Body/Excerpt/LetterSpacing",
+               "fontSize": "Typeography Tokens/Editorial/Body/Excerpt/Size",
+               "fontStyle": "Typeography Tokens/Editorial/Body/Excerpt/Style",
+               "fontFamily": "Typeography Tokens/Editorial/Body/Excerpt/Family",
+               "lineHeight": "Typeography Tokens/Editorial/Body/Excerpt/LineHeight"
               },
               "text": "Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail.",
               "autoResize": "HEIGHT",
@@ -685,7 +685,7 @@
                 "font": "Noto Sans",
                 "weight": "Regular",
                 "size": 15,
-                "lineHeight": "auto",
+                "lineHeight": "21px",
                 "color": [
                  {
                   "type": "SOLID",
@@ -710,7 +710,7 @@
         "w": 369,
         "h": 0,
         "x": 0,
-        "y": 321,
+        "y": 324,
         "sizing": {
          "h": "FILL",
          "v": "FIXED"
@@ -732,7 +732,7 @@
       "type": "FRAME",
       "id": "3484:66881",
       "w": 200,
-      "h": 494,
+      "h": 464,
       "x": 385,
       "y": 0,
       "sizing": {
@@ -757,7 +757,7 @@
         "type": "INSTANCE",
         "id": "3484:66882",
         "w": 200,
-        "h": 154,
+        "h": 144,
         "x": 0,
         "y": 0,
         "sizing": {
@@ -784,6 +784,9 @@
          }
         ],
         "component": "1Col Article Card",
+        "variant": {
+         "Style": "Standard"
+        },
         "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
         "mainId": "3352:24163",
         "props": {
@@ -798,9 +801,9 @@
         "type": "INSTANCE",
         "id": "3484:66883",
         "w": 200,
-        "h": 154,
+        "h": 144,
         "x": 0,
-        "y": 170,
+        "y": 160,
         "sizing": {
          "h": "FILL",
          "v": "HUG"
@@ -825,6 +828,9 @@
          }
         ],
         "component": "1Col Article Card",
+        "variant": {
+         "Style": "Standard"
+        },
         "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
         "mainId": "3352:24163",
         "props": {
@@ -839,9 +845,9 @@
         "type": "INSTANCE",
         "id": "3484:66884",
         "w": 200,
-        "h": 154,
+        "h": 144,
         "x": 0,
-        "y": 340,
+        "y": 320,
         "sizing": {
          "h": "FILL",
          "v": "HUG"
@@ -866,6 +872,9 @@
          }
         ],
         "component": "1Col Article Card",
+        "variant": {
+         "Style": "Standard"
+        },
         "componentKey": "480dedb94931bf80d85b41c0a7e921311b39dc0d",
         "mainId": "3352:24163",
         "props": {
@@ -898,6 +907,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Article Headline on News paper homepage in Wide ra",
@@ -910,12 +920,13 @@
    "font": "Noto Sans",
    "weight": "Regular",
    "size": 15,
-   "lineHeight": "auto",
+   "lineHeight": "21px",
    "letterSpacing": null,
    "case": null,
    "decoration": null,
    "color": "#393938",
    "token": "Colors/color/gray/100",
+   "typeToken": "Editorial/Body/Excerpt",
    "textStyle": null,
    "truncate": null,
    "sample": "Vanroy Evan Smith, 39, of Long Beach is being held",
@@ -925,6 +936,36 @@
   }
  ],
  "colors": [
+  {
+   "layer": "1Col Article Card",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Article Graphic",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#E1A1FF",
+   "token": null,
+   "opacity": null,
+   "note": "image placeholder fill",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Article Graphic",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
   {
    "layer": "Bottom Border Line",
    "role": "stroke",
@@ -948,8 +989,8 @@
  ],
  "adSlots": [],
  "responsiveRules": [
-  "Size=Default: 940×416, horizontal gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1100, 1280",
-  "Size=Narrow: 585×494, horizontal gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024"
+  "Size=Default: 940×320, horizontal gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1100, 1280",
+  "Size=Narrow: 585×464, horizontal gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024"
  ],
  "productionRefs": [
   ".headline-list",
@@ -957,5 +998,5 @@
  ],
  "knownIssues": [],
  "skeleton": "feature-list-content-block.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

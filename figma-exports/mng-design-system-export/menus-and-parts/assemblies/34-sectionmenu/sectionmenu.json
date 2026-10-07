@@ -12,15 +12,7 @@
   "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
   "fileName": "WordPress Elements",
   "page": "Menus and Parts",
-  "path": [
-   "Frame 12800",
-   "Frame 416",
-   "Frame 11820",
-   "Main Container",
-   "Push Nav Section Menu",
-   "SectionMenu Documented",
-   "Grid Row"
-  ],
+  "path": "Frame 12800 ▸ Frame 416 ▸ Frame 11820 ▸ Main Container ▸ Push Nav Section Menu ▸ SectionMenu Documented ▸ Grid Row",
   "mainId": "456:5837",
   "mainKey": "c8e491010e441c0201b947dfc91b0af3a1d466f9",
   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5837",
@@ -171,11 +163,7 @@
    {
     "label": "View=Closed, Device=XL-Desktop, UserType=all",
     "id": "456:5838",
-    "templatesDirect": {
-     "1024 HomePage": 1,
-     "1100 HomePage": 1,
-     "Desktop HomePage": 1
-    },
+    "templatesDirect": {},
     "templatesVia": {
      "1024 HomePage": [
       "Masthead"
@@ -187,63 +175,52 @@
       "Masthead"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=SectionFront": 1,
      "Masthead/tabletH/default/home": 2,
      "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Article": 1,
-     "ObitMastHead/TabletH/Scrolled/Default/SectionFront": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Article": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home": 1,
-     "ObitMastHead / Device=TabletH, View=Default, Subscriber=Adfree, Page=SectionFront": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=SectionFront": 1,
-     "Masthead/tabletH/DefaultAdFree/home": 2,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront": 1,
-     "Masthead/tabletH/DefaultAdFree/article": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Home": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard": 1,
-     "Masthead/desktop/default/article": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Home": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obituaries": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries": 1,
      "Masthead/desktop/DefaultAdFree/SectionFront": 2,
-     "ObitMastHead / Device=TabletH, View=Default, Subscriber=Default, Page=ObitPage": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Article": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Home": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Dashboard": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Dashboard": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront": 1,
-     "ObitMastHead / Device=Desktop, View=Default, Subscriber=Adfree, Page=SectionFront": 1,
-     "ObitMastHead / Device=TabletH, View=Default, Subscriber=Standard, Page=SectionFront": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obituaries": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home": 1,
+     "Masthead/tabletH/DefaultAdFree/home": 2,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Home": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries": 1,
+     "Masthead/tabletH/DefaultAdFree/article": 1,
      "ObitMastHead / Device=TabletH, View=Scrolled, Subscriber=Default, Page=SectionFront": 1,
-     "ObitMastHead / Device=Desktop, View=Scrolled, Subscriber=Default, Page=SectionFront": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=SectionFront": 1,
+     "ObitMastHead / Device=TabletH, View=Default, Subscriber=Standard, Page=SectionFront": 1,
      "ObitMastHead / Device=Desktop, View=Default, Subscriber=Standard, Page=SectionFront": 1,
      "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home": 1,
+     "ObitMastHead/TabletH/Scrolled/Default/SectionFront": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Home": 1,
+     "ObitMastHead / Device=TabletH, View=Default, Subscriber=Adfree, Page=SectionFront": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Article": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Dashboard": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Home": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Dashboard": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront": 1,
+     "ObitMastHead / Device=TabletH, View=Default, Subscriber=Default, Page=ObitPage": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries": 1,
+     "ObitMastHead / Device=Desktop, View=Scrolled, Subscriber=Default, Page=SectionFront": 1,
+     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Article": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article": 1,
+     "Masthead/desktop/default/article": 1,
      "ObitMastHead / Device=Desktop, View=Default, Subscriber=Default, Page=ObitPage": 1,
      "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries": 1
+     "ObitMastHead / Device=Desktop, View=Default, Subscriber=Adfree, Page=SectionFront": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront": 1
     },
-    "otherPages": {
-     "Menus and Parts ▸ Frame 12800": 27
-    },
-    "declaredBreakpoints": [
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "1024",
      "1100",
@@ -253,46 +230,36 @@
    {
     "label": "View=Closed, Device=MD-TabletV, UserType=all",
     "id": "456:5840",
-    "templatesDirect": {
-     "768 HomePage": 1
-    },
+    "templatesDirect": {},
     "templatesVia": {
      "768 HomePage": [
       "Masthead"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "Masthead / Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=Obituaries": 1,
      "ObitMastHead/TabletV/Scrolled/Default/SectionFront": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Obituaries": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Dashboard": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Home": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=SectionFront": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Dashboard": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Article": 1,
-     "ObitMastHead / Device=TabletV, View=Default, Subscriber=Standard, Page=ObitPage": 1,
-     "ObitMastHead / Device=TabletV, View=Default, Subscriber=Adfree, Page=SectionFront": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Article": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Article": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Home": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=SectionFront": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=SectionFront": 1,
-     "ObitMastHead / Device=TabletV, View=Default, Subscriber=Default, Page=ObitPage": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Home": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituaries": 1,
      "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Obituaries": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Dashboard": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Home": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Home": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Dashboard": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Article": 1,
+     "ObitMastHead / Device=TabletV, View=Default, Subscriber=Adfree, Page=SectionFront": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=SectionFront": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Article": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Article": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=SectionFront": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Home": 1,
+     "ObitMastHead / Device=TabletV, View=Default, Subscriber=Standard, Page=ObitPage": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=SectionFront": 1,
+     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituaries": 1,
      "ObitMastHead / Device=TabletV, View=Default, Subscriber=Standard, Page=SectionFront": 1,
+     "ObitMastHead / Device=TabletV, View=Default, Subscriber=Default, Page=ObitPage": 1,
      "ObitMastHead / Device=TabletV, View=Scrolled, Subscriber=Default, Page=SectionFront": 1
     },
-    "otherPages": {
-     "Menus and Parts ▸ Frame 12800": 16
-    },
-    "declaredBreakpoints": [
-     "768"
-    ],
-    "observedBreakpoints": [
-     "768"
-    ],
+    "other": {},
     "breakpoints": [
      "768"
     ]
@@ -300,10 +267,7 @@
    {
     "label": "View=Closed, Device=SM-Mobile, UserType=all",
     "id": "456:5842",
-    "templatesDirect": {
-     "340 HomePage": 1,
-     "Mobile HomePage": 1
-    },
+    "templatesDirect": {},
     "templatesVia": {
      "Mobile HomePage": [
       "Masthead"
@@ -312,79 +276,72 @@
       "Masthead"
      ]
     },
-    "nestedIn": {
-     "Masthead/tabletH/scrolled/article": 1,
-     "ObitMastHead/Mobile/Default/Adfree/SectionFront": 4,
+    "inComponents": {
      "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Home": 1,
-     "ObitMastHead/Fold/Default/Standard/SectionFront": 1,
      "ObitMastHead / Device=TabletH, View=Scrolled, Subscriber=Default, Page=ObitPage": 1,
      "ObitMastHead / Device=Mobile, View=Default, Subscriber=Standard, Page=SectionFront": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
+     "ObitMastHead/Mobile/Default/Adfree/SectionFront": 4,
+     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Home": 1,
      "ObitMastHead/Mobile/Default/Standard/SectionFront": 2,
+     "ObitMastHead / Device=Desktop, View=Scrolled, Subscriber=Default, Page=ObitPage": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Obituaries": 1,
+     "Masthead/Device=XS-Fold (≤639px, built 340px), State=AdFree-Scrolled, Page=Obituaries": 1,
      "ObitMastHead/Fold/Scrolled/Default/SectionFront": 1,
-     "ObitMastHead/Mobile/Scrolled/Default/ObitPage": 1,
-     "ObitMastHead / Device=Fold, View=Scrolled, Subscriber=Default, Page=SectionFront": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=SectionFront": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree-Scrolled, Page=Obituaries": 1,
-     "ObitMastHead/Fold/Default/Adfree/SectionFront": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Article": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries": 1,
+     "ObitMastHead / Device=Mobile, View=Default, Subscriber=Adfree, Page=SectionFront": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree-Scrolled, Page=Obituaries": 1,
      "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=SectionFront": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Article": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Dashboard": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Dashboard": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Home": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree-Scrolled, Page=Obituaries": 1,
      "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Obituaries": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=SectionFront": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Article": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=SectionFront": 1,
+     "ObitMastHead/Fold/Scrolled/Default/ObitPage": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Dashboard": 1,
+     "ObitMastHead/Fold/Default/Standard/SectionFront": 1,
+     "ObitMastHead/Mobile/Scrolled/Default/SectionFront": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=SectionFront": 1,
+     "Masthead/tabletH/scrolled/article": 1,
+     "ObitMastHead/Fold/Default/Adfree/SectionFront": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Article": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Dashboard": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Home": 1,
+     "AccountMenu / Status=alert, View=Open, Device=XS-Fold, UserType=PremSub": 1,
+     "ObitMastHead / Device=Mobile, View=Default, Subscriber=Default, Page=ObitPage": 1,
+     "ObitMastHead/Mobile/Scrolled/Adfree/SectionFront": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Article": 1,
+     "Masthead/XS-Fold (≤639px · built 340px)/AdFree-Scrolled/Obituaries": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Home": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Home": 1,
+     "ObitMastHead / Device=Fold, View=Scrolled, Subscriber=Default, Page=SectionFront": 1,
+     "AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
+     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=SectionFront": 1,
+     "ObitMastHead / Device=Fold, View=Default, Subscriber=Default, Page=ObitPage": 1,
+     "ObitMastHead / Device=TabletV, View=Scrolled, Subscriber=Default, Page=ObitPage": 1,
+     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=SectionFront": 1,
+     "ObitMastHead / Device=Mobile, View=Scrolled, Subscriber=Adfree, Page=SectionFront": 1,
      "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries": 1,
      "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries": 1,
-     "AccountMenu / Status=loggedOut, View=Open, Device=SM-Mobile, UserType=loggedOut": 1,
-     "AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=SectionFront": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Article": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Dashboard": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Home": 1,
-     "AccountMenu / Status=alert, View=Open, Device=XS-Fold, UserType=PremSub": 1,
-     "ObitMastHead / Device=Fold, View=Scrolled, Subscriber=Default, Page=ObitPage": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Article": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Dashboard": 1,
-     "ObitMastHead/Fold/Scrolled/Default/ObitPage": 1,
-     "ObitMastHead / Device=Fold, View=Default, Subscriber=Standard, Page=SectionFront": 1,
-     "ObitMastHead / Device=Mobile, View=Default, Subscriber=Adfree, Page=SectionFront": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries": 1,
      "ObitMastHead / Device=Mobile, View=Scrolled, Subscriber=Default, Page=ObitPage": 1,
-     "ObitMastHead/Mobile/Scrolled/Default/SectionFront": 1,
-     "Masthead/XS-Fold (≤639px · built 340px)/AdFree-Scrolled/Obituaries": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=SectionFront": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Article": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Home": 1,
-     "ObitMastHead / Device=Fold, View=Default, Subscriber=Default, Page=ObitPage": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=SectionFront": 1,
-     "ObitMastHead / Device=TabletV, View=Scrolled, Subscriber=Default, Page=ObitPage": 1,
-     "ObitMastHead / Device=Mobile, View=Scrolled, Subscriber=Adfree, Page=SectionFront": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Home": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Article": 1,
-     "ObitMastHead / Device=Desktop, View=Scrolled, Subscriber=Default, Page=ObitPage": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Home": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Home": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=SectionFront": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Dashboard": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Dashboard": 1,
      "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article": 1,
-     "ObitMastHead/Mobile/Scrolled/Adfree/SectionFront": 1,
+     "ObitMastHead/Mobile/Scrolled/Default/ObitPage": 1,
+     "ObitMastHead / Device=Fold, View=Default, Subscriber=Standard, Page=SectionFront": 1,
+     "AccountMenu / Status=loggedOut, View=Open, Device=SM-Mobile, UserType=loggedOut": 1,
      "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Article": 1,
-     "ObitMastHead / Device=Mobile, View=Default, Subscriber=Default, Page=ObitPage": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Article": 1,
-     "ObitMastHead / Device=Fold, View=Default, Subscriber=Adfree, Page=SectionFront": 1,
-     "Masthead/Device=XS-Fold (≤639px, built 340px), State=AdFree-Scrolled, Page=Obituaries": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Obituaries": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree-Scrolled, Page=Obituaries": 1
+     "ObitMastHead / Device=Fold, View=Scrolled, Subscriber=Default, Page=ObitPage": 1,
+     "ObitMastHead / Device=Fold, View=Default, Subscriber=Adfree, Page=SectionFront": 1
     },
-    "otherPages": {
-     "Menus and Parts ▸ Frame 12800": 32
+    "other": {
+     "Menus and Parts ▸ Frame 12800": 2
     },
-    "declaredBreakpoints": [
-     "360"
-    ],
-    "observedBreakpoints": [
-     "340",
-     "360"
-    ],
     "breakpoints": [
      "340",
      "360"
@@ -395,12 +352,8 @@
     "id": "3344:64074",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340"
     ]
@@ -410,12 +363,8 @@
     "id": "3344:64076",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1024"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "1024"
     ]
@@ -425,13 +374,8 @@
     "id": "456:5844",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "1100",
      "1280"
@@ -442,13 +386,8 @@
     "id": "456:5859",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "1100",
      "1280"
@@ -459,12 +398,8 @@
     "id": "456:5875",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "360"
     ]
@@ -474,12 +409,8 @@
     "id": "456:5891",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "360"
     ]
@@ -489,12 +420,8 @@
     "id": "3344:64078",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340"
     ]
@@ -504,12 +431,8 @@
     "id": "3344:64109",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340"
     ]
@@ -519,12 +442,8 @@
     "id": "3344:64094",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1024"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "1024"
     ]
@@ -534,12 +453,8 @@
     "id": "3344:64126",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1024"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "1024"
     ]
@@ -549,12 +464,8 @@
     "id": "3344:64973",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768"
     ]
@@ -564,12 +475,8 @@
     "id": "3344:64989",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768"
     ]
@@ -580,14 +487,14 @@
   "builtFrom": [
    {
     "name": "SectionMenuHeader",
-    "count": 15,
+    "count": 1,
     "inExport": true,
     "section": "SectionMenuHeader",
     "path": "../../components/26-sectionmenuheader/sectionmenuheader.md"
    },
    {
     "name": "SectionMenuItem",
-    "count": 131,
+    "count": 14,
     "inExport": true,
     "section": "SectionMenuItem",
     "path": "../32-sectionmenuitem/sectionmenuitem.md"
@@ -7956,7 +7863,27 @@
  "typography": [],
  "colors": [
   {
+   "layer": "SectionMenuHeader",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
    "layer": "Container",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "SectionMenuItem",
    "role": "fill",
    "type": "SOLID",
    "hex": "#FFFFFF",
@@ -7992,5 +7919,5 @@
   "`View=Closed, Device=SM-Mobile, UserType=all` is declared for 360 but is placed in template(s) at 340 — check the variant choice."
  ],
  "skeleton": "sectionmenu.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

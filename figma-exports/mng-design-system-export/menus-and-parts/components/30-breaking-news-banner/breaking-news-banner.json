@@ -14,11 +14,7 @@
   "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
   "fileName": "WordPress Elements",
   "page": "Menus and Parts",
-  "path": [
-   "Frame 12800",
-   "Frame 416",
-   "Frame 12804"
-  ],
+  "path": "Frame 12800 ▸ Frame 416 ▸ Frame 12804",
   "mainId": "506:5632",
   "mainKey": "fac66df253d4a1f179dbe7a4229be9f3dadd7a46",
   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=506-5632",
@@ -81,18 +77,10 @@
      "340 HomePage": 1
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
+    "inComponents": {},
+    "other": {
      "Section Front ▸ Frame 11639": 2
     },
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [
-     "340",
-     "360"
-    ],
     "breakpoints": [
      "340",
      "360"
@@ -105,14 +93,8 @@
      "768 HomePage": 1
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768"
-    ],
-    "observedBreakpoints": [
-     "768"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768"
     ]
@@ -126,21 +108,11 @@
      "1100 HomePage": 1
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
+    "inComponents": {},
+    "other": {
      "Section Front ▸ Frame 11639": 2,
      "Article Page ▸ Frame 11672": 2
     },
-    "declaredBreakpoints": [
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [
-     "1024",
-     "1100",
-     "1280"
-    ],
     "breakpoints": [
      "1024",
      "1100",
@@ -153,7 +125,7 @@
   "builtFrom": [
    {
     "name": "Icons",
-    "count": 3,
+    "count": 1,
     "inExport": false,
     "section": null,
     "path": null
@@ -248,7 +220,8 @@
       "fills": [
        {
         "type": "SOLID",
-        "hex": "#FFC518"
+        "hex": "#FFEA00",
+        "variable": "Colors/color/theme/secondary"
        }
       ],
       "children": [
@@ -322,13 +295,13 @@
               "font": "Noto Sans",
               "weight": "Bold",
               "size": 18,
-              "lineHeight": "22.652000427246094px",
+              "lineHeight": "22.65px",
               "case": "UPPER",
               "color": [
                {
                 "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
                }
               ],
               "textStyle": "Breaking News/Title"
@@ -386,8 +359,8 @@
               "color": [
                {
                 "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
                }
               ],
               "textStyle": "Breaking News/Item"
@@ -420,8 +393,8 @@
             "color": [
              {
               "type": "SOLID",
-              "hex": "#141414",
-              "variable": "Colors/color/gray/min"
+              "hex": "#0A0908",
+              "variable": "Colors/color/theme/near-black"
              }
             ],
             "textStyle": "Breaking News/Meta"
@@ -460,7 +433,7 @@
          "Name": "close"
         },
         "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
-        "mainId": "3493:81071",
+        "mainId": "3527:18608",
         "props": {}
        }
       ]
@@ -558,7 +531,8 @@
       "fills": [
        {
         "type": "SOLID",
-        "hex": "#FFC518"
+        "hex": "#FFEA00",
+        "variable": "Colors/color/theme/secondary"
        }
       ],
       "children": [
@@ -632,13 +606,13 @@
               "font": "Noto Sans",
               "weight": "Bold",
               "size": 18,
-              "lineHeight": "22.652000427246094px",
+              "lineHeight": "22.65px",
               "case": "UPPER",
               "color": [
                {
                 "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
                }
               ],
               "textStyle": "Breaking News/Title"
@@ -696,8 +670,8 @@
               "color": [
                {
                 "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
                }
               ],
               "textStyle": "Breaking News/Item"
@@ -730,8 +704,8 @@
             "color": [
              {
               "type": "SOLID",
-              "hex": "#141414",
-              "variable": "Colors/color/gray/min"
+              "hex": "#0A0908",
+              "variable": "Colors/color/theme/near-black"
              }
             ],
             "textStyle": "Breaking News/Meta"
@@ -770,7 +744,7 @@
          "Name": "close"
         },
         "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
-        "mainId": "3493:81071",
+        "mainId": "3527:18608",
         "props": {}
        }
       ]
@@ -870,7 +844,8 @@
       "fills": [
        {
         "type": "SOLID",
-        "hex": "#FFC518"
+        "hex": "#FFEA00",
+        "variable": "Colors/color/theme/secondary"
        }
       ],
       "children": [
@@ -944,13 +919,13 @@
               "font": "Noto Sans",
               "weight": "Bold",
               "size": 18,
-              "lineHeight": "22.652000427246094px",
+              "lineHeight": "22.65px",
               "case": "UPPER",
               "color": [
                {
                 "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
                }
               ],
               "textStyle": "Breaking News/Title"
@@ -1008,8 +983,8 @@
               "color": [
                {
                 "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
                }
               ],
               "textStyle": "Breaking News/Item"
@@ -1067,8 +1042,8 @@
               "color": [
                {
                 "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
+                "hex": "#0A0908",
+                "variable": "Colors/color/theme/near-black"
                }
               ],
               "textStyle": "Breaking News/Meta"
@@ -1109,7 +1084,7 @@
          "Name": "close"
         },
         "componentKey": "98dc68f243d03b6f87365a31a19caba443a54112",
-        "mainId": "3493:81071",
+        "mainId": "3527:18608",
         "props": {}
        }
       ]
@@ -1129,12 +1104,13 @@
    "font": "Noto Sans",
    "weight": "Bold",
    "size": 18,
-   "lineHeight": "22.652000427246094px",
+   "lineHeight": "22.65px",
    "letterSpacing": null,
    "case": "UPPER",
    "decoration": null,
-   "color": "#141414",
-   "token": "Colors/color/gray/min",
+   "color": "#0A0908",
+   "token": "Colors/color/theme/near-black",
+   "typeToken": null,
    "textStyle": "Breaking News/Title",
    "truncate": null,
    "sample": "Breaking News",
@@ -1153,8 +1129,9 @@
    "letterSpacing": null,
    "case": null,
    "decoration": null,
-   "color": "#141414",
-   "token": "Colors/color/gray/min",
+   "color": "#0A0908",
+   "token": "Colors/color/theme/near-black",
+   "typeToken": null,
    "textStyle": "Breaking News/Item",
    "truncate": null,
    "sample": "Breaking News Headline will wrap until it goes for",
@@ -1172,8 +1149,9 @@
    "letterSpacing": null,
    "case": null,
    "decoration": null,
-   "color": "#141414",
-   "token": "Colors/color/gray/min",
+   "color": "#0A0908",
+   "token": "Colors/color/theme/near-black",
+   "typeToken": null,
    "textStyle": "Breaking News/Meta",
    "truncate": null,
    "sample": "September 23, 2025 at 12:34 pm",
@@ -1192,8 +1170,9 @@
    "letterSpacing": null,
    "case": null,
    "decoration": null,
-   "color": "#141414",
-   "token": "Colors/color/gray/min",
+   "color": "#0A0908",
+   "token": "Colors/color/theme/near-black",
+   "typeToken": null,
    "textStyle": "Breaking News/Item",
    "truncate": null,
    "sample": "Breaking News Headline",
@@ -1207,8 +1186,8 @@
    "layer": "Breaking News Banner",
    "role": "fill",
    "type": "SOLID",
-   "hex": "#FFC518",
-   "token": null,
+   "hex": "#FFEA00",
+   "token": "Colors/color/theme/secondary",
    "opacity": null,
    "note": "",
    "strokeWeight": null
@@ -1222,9 +1201,7 @@
   "Property 1=Desktop: 1200×33, horizontal gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 1024, 1100, 1280"
  ],
  "productionRefs": [],
- "knownIssues": [
-  "3 solid paints are hard-coded (not bound to a color variable): #FFC518 ×3."
- ],
+ "knownIssues": [],
  "skeleton": "breaking-news-banner.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

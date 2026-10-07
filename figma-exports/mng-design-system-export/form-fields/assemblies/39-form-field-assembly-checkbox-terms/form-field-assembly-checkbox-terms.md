@@ -12,7 +12,7 @@ built_from: ["CheckBox"]
 built_into: []
 spec_json: form-field-assembly-checkbox-terms.json
 skeleton: form-field-assembly-checkbox-terms.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Form Field Assembly / Checkbox + Terms
@@ -22,7 +22,6 @@ exported: 2026-09-24
 **Designer notes on the canvas:**
 
 - Checkbox + Terms
-- A CheckBox instance (status=unselected, inFocus=False, interaction=Default - from the Check Boxes page component, not a Form Field variant) placed in a horizontal row with body text, vertically centered on the checkbox. Desktop: 40px checkbox, 8px gap, 16px text. Mobile: checkbox scaled to 28px, 6px gap, 13px text - see the smaller sample at left. "Terms of Service" and "Privacy Policy" would be Button/Hyperlink instances layered into the text in product use. Use the CheckBox component's own selected/focus/hover/pressed/disabled variants for the corresponding interaction states - they are not 
 
 ## Figma references
 
@@ -45,8 +44,8 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; nested inside: InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel ×1; other pages: Check Boxes | 2026.02.27 ▸ Frame 12791 ×5, In-Line Content Containers | 2026.01.02 ▸ Frame 8 ×1
-- **Size=Mobile** — breakpoints: 340, 360; nested inside: InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel ×1, InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel ×1; other pages: Check Boxes | 2026.02.27 ▸ Frame 12791 ×4, In-Line Content Containers | 2026.01.02 ▸ Frame 8 ×2
+- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; nested inside: InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel ×1; other pages: Check Boxes | 2026.02.27 ▸ Frame 12791 ×5
+- **Size=Mobile** — breakpoints: 340, 360; nested inside: InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel ×1, InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel ×1; other pages: Check Boxes | 2026.02.27 ▸ Frame 12791 ×4
 
 ## Breakpoints
 
@@ -68,11 +67,11 @@ exported: 2026-09-24
 
 **Built from:**
 
-- CheckBox ×2 _(not in this export)_
+- CheckBox ×1 _(not in this export)_
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -107,12 +106,12 @@ exported: 2026-09-24
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| I agree to the Terms of Service and Privacy Policy. | Noto Sans | Regular | 16 | auto |  |  | #000000 |  |  | I agree to the Terms of Service and Privacy Policy |
-| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Please accept terms and conditions. |
-| I agree to the Terms of Service and Privacy Policy. | Noto Sans | Regular | 13 | auto |  |  | #000000 |  |  | I agree to the Terms of Service and Privacy Policy |
-| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Please accept terms and conditions. |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| I agree to the Terms of Service and Privacy Policy. | Noto Sans | Regular | 16 | auto |  |  | #000000 | Colors/color/gray/black |  |  | I agree to the Terms of Service and Privacy Policy | Size=Desktop |
+| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Please accept terms and conditions. | Size=Desktop |
+| I agree to the Terms of Service and Privacy Policy. | Noto Sans | Regular | 13 | auto |  |  | #000000 | Colors/color/gray/black |  |  | I agree to the Terms of Service and Privacy Policy | Size=Mobile |
+| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Please accept terms and conditions. | Size=Mobile |
 
 ## Color & effects
 
@@ -132,7 +131,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- 2 solid paints are hard-coded (not bound to a color variable): #000000 ×2.
+_None detected._
 
 ## Rendering steps
 

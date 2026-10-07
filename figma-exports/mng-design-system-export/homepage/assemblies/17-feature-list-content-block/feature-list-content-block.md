@@ -12,7 +12,7 @@ built_from: ["Horizontal Feature Card", "1Col Article Card", "Article Image Plac
 built_into: ["Section Rail Card"]
 spec_json: feature-list-content-block.json
 skeleton: feature-list-content-block.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Feature + List Content Block
@@ -30,8 +30,8 @@ exported: 2026-09-24
 
 | Variant | Node | Key | Size | Preview |
 |---|---|---|---|---|
-| Size=Default | [3478:63611](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3478-63611) | d9c96ebd29527f812f5906abd384c00e203583e9 | 940×416 | ![Size=Default](previews/feature-list-content-block--default.png) |
-| Size=Narrow | [3484:66879](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3484-66879) | 6e8d20beb8cdbe33910a2c93824ebdda43d964c0 | 585×494 | ![Size=Narrow](previews/feature-list-content-block--narrow.png) |
+| Size=Default | [3478:63611](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3478-63611) | d9c96ebd29527f812f5906abd384c00e203583e9 | 940×320 | ![Size=Default](previews/feature-list-content-block--default.png) |
+| Size=Narrow | [3484:66879](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3484-66879) | 6e8d20beb8cdbe33910a2c93824ebdda43d964c0 | 585×464 | ![Size=Narrow](previews/feature-list-content-block--narrow.png) |
 
 ## Properties
 
@@ -41,15 +41,13 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Size=Default** — breakpoints: 768, 1100, 1280; templates (direct): Desktop HomePage ×6, 768 HomePage ×6, 1100 HomePage ×6; templates (via assembly): Desktop HomePage (via Section Rail Card), 768 HomePage (via Section Rail Card), 1100 HomePage (via Section Rail Card); nested inside: Section Rail Card / Device=1280, Layout=Wide ×1, Section Rail Card / Device=Tablet, Layout=Wide ×1, Section Rail Card / Device=1100, Layout=Wide ×1
-- **Size=Narrow** — breakpoints: 1024; templates (direct): 1024 HomePage ×6; templates (via assembly): 1024 HomePage (via Section Rail Card); nested inside: Section Rail Card / Device=1024, Layout=Wide ×1
+- **Size=Default** — breakpoints: 768, 1100, 1280; templates (via assembly): 1100 HomePage (via Section Rail Card), Desktop HomePage (via Section Rail Card), 768 HomePage (via Section Rail Card); nested inside: Section Rail Card / Device=1100, Layout=Wide ×1, Section Rail Card / Device=1280, Layout=Wide ×1, Section Rail Card / Device=Tablet, Layout=Wide ×1
+- **Size=Narrow** — breakpoints: 1024; templates (via assembly): 1024 HomePage (via Section Rail Card); nested inside: Section Rail Card / Device=1024, Layout=Wide ×1
 
 ## Breakpoints
 
 | Key | Viewport | Variant(s) |
 |---|---|---|
-| 340 | ≤639px (XS-Fold, built 340) | — |
-| 360 | ≤639px (SM-Mobile, built 360) | — |
 | 768 | 640–799px (MD-TabletV) | Size=Default |
 | 1024 | 800–1039px (LG-TabletH, built 1009) | Size=Narrow |
 | 1100 | ≥1040px (XL-Desktop, built 1085) | Size=Default |
@@ -57,15 +55,15 @@ exported: 2026-09-24
 
 ## Responsive rules
 
-- Size=Default: 940×416, horizontal gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1100, 1280
-- Size=Narrow: 585×494, horizontal gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024
+- Size=Default: 940×320, horizontal gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1100, 1280
+- Size=Narrow: 585×464, horizontal gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024
 
 ## Dependencies
 
 **Built from:**
 
 - [Horizontal Feature Card](../../components/15-horizontal-feature-card/horizontal-feature-card.md) ×1
-- [1Col Article Card](../../components/16-1col-article-card/1col-article-card.md) ×6
+- [1Col Article Card](../../components/16-1col-article-card/1col-article-card.md) ×3
 - [Article Image Placeholder](../../components/03-article-image-placeholder/article-image-placeholder.md) ×1
 
 **Built into:**
@@ -77,44 +75,46 @@ exported: 2026-09-24
 **Size=Default**
 
 ```
-- Size=Default — component 940×416 [horizontal gap 16] (fixed/hug)
+- Size=Default — component 940×320 [horizontal gap 16] (fixed/hug)
   - Horizontal Feature Card — instance 648×203 [vertical gap 8] (fill/hug) → Horizontal Feature Card
-  - Headline List — frame 276×416 [vertical gap 16] (fixed/hug)
-    - 1Col Article Card — instance 276×128 [vertical gap 8] (fill/hug) → 1Col Article Card ×3
+  - Headline List — frame 276×320 [vertical gap 16] (fixed/hug)
+    - 1Col Article Card — instance 276×96 [vertical gap 8] (fill/hug) → 1Col Article Card [Style=Standard] ×3
 ```
 
 **Size=Narrow**
 
 ```
-- Size=Narrow — component 585×494 [horizontal gap 16] (fixed/hug)
-  - Horizontal Feature Card — frame 369×321 [vertical gap 8] (fill/hug)
-    - Content — frame 369×313 [horizontal gap 28] (fill/hug)
+- Size=Narrow — component 585×464 [horizontal gap 16] (fixed/hug)
+  - Horizontal Feature Card — frame 369×324 [vertical gap 8] (fill/hug)
+    - Content — frame 369×316 [horizontal gap 28] (fill/hug)
       - Article Graphic — instance 180×135 [vertical gap 8] (fixed/fixed) → Article Image Placeholder
-      - Text Column — frame 161×313 [vertical gap 8] (fill/hug)
-        - … 2 children
+      - Text Column — frame 161×316 [vertical gap 8] (fill/hug)
     - Bottom Border Line — line 369×0 (fill/fixed)
-  - Headline List — frame 200×494 [vertical gap 16] (fixed/hug)
-    - 1Col Article Card — instance 200×154 [vertical gap 8] (fill/hug) → 1Col Article Card ×3
+  - Headline List — frame 200×464 [vertical gap 16] (fixed/hug)
+    - 1Col Article Card — instance 200×144 [vertical gap 8] (fill/hug) → 1Col Article Card [Style=Standard] ×3
 ```
 
 ## Size & layout
 
 | Variant | Size | Width | Height | Auto-layout | Radius | Clip |
 |---|---|---|---|---|---|---|
-| Size=Default | 940×416 | FIXED | HUG | horizontal gap 16 pad 0/0/0/0 main MIN cross MIN |  |  |
-| Size=Narrow | 585×494 | FIXED | HUG | horizontal gap 16 pad 0/0/0/0 main MIN cross MIN |  |  |
+| Size=Default | 940×320 | FIXED | HUG | horizontal gap 16 pad 0/0/0/0 main MIN cross MIN |  |  |
+| Size=Narrow | 585×464 | FIXED | HUG | horizontal gap 16 pad 0/0/0/0 main MIN cross MIN |  |  |
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Article Headline on News paper homepage in Wide rail lead position | Noto Serif | Bold | 26 | auto |  |  | #141414 | Colors/color/gray/min |  | Article Headline on News paper homepage in Wide ra |
-| Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail. | Noto Sans | Regular | 15 | auto |  |  | #393938 | Colors/color/gray/100 |  | Vanroy Evan Smith, 39, of Long Beach is being held |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Article Headline on News paper homepage in Wide rail lead po | Noto Serif | Bold | 26 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Article Headline on News paper homepage in Wide ra | Size=Narrow |
+| Vanroy Evan Smith, 39, of Long Beach is being held on $1 mil | Noto Sans | Regular | 15 | 21px |  |  | #393938 | Colors/color/gray/100 | Editorial/Body/Excerpt |  | Vanroy Evan Smith, 39, of Long Beach is being held | Size=Narrow |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
+| 1Col Article Card | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Article Graphic | fill | SOLID | #E1A1FF |  |  | image placeholder fill |
+| Article Graphic | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
 | Bottom Border Line | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
 
 ## Image ratios

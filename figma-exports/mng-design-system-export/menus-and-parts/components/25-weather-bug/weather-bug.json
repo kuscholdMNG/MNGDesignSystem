@@ -14,15 +14,7 @@
   "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
   "fileName": "WordPress Elements",
   "page": "Menus and Parts",
-  "path": [
-   "Frame 12800",
-   "Frame 416",
-   "Frame 11820",
-   "Main Container",
-   "Push Nav Section Menu",
-   "Frame 12802",
-   "Frame 12803"
-  ],
+  "path": "Frame 12800 ▸ Frame 416 ▸ Frame 11820 ▸ Main Container ▸ Push Nav Section Menu ▸ Frame 12802 ▸ Frame 12803",
   "mainId": "654:10020",
   "mainKey": "edece4e844bea8a8dd7526e6e39df1d00a56ad72",
   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=654-10020",
@@ -70,21 +62,16 @@
     "id": "654:10019",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
+    "inComponents": {
      "SectionMenuItem / leftIcon=no, withSubItems=no, View=default, kind=Weather": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "other": {},
     "breakpoints": []
    },
    {
     "label": "Location=Masthead",
     "id": "653:5076",
-    "templatesDirect": {
-     "Desktop HomePage": 1,
-     "1100 HomePage": 1
-    },
+    "templatesDirect": {},
     "templatesVia": {
      "Desktop HomePage": [
       "Masthead"
@@ -93,27 +80,20 @@
       "Masthead"
      ]
     },
-    "nestedIn": {
-     "Masthead/desktop/DefaultAdFree/SectionFront": 4,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront": 2,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard": 1,
-     "Masthead/desktop/default/article": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article": 1,
-     "Masthead/tabletH/DefaultAdFree/home": 2,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article": 2,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home": 2,
+    "inComponents": {
      "Masthead/tabletH/default/home": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home": 1
+     "Masthead/tabletH/DefaultAdFree/home": 2,
+     "Masthead/desktop/DefaultAdFree/SectionFront": 4,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article": 2,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront": 2,
+     "Masthead/desktop/default/article": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home": 2,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article": 1
     },
-    "otherPages": {
-     "Menus and Parts ▸ Frame 12800": 13
-    },
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "1100",
      "1280"
@@ -125,7 +105,7 @@
   "builtFrom": [
    {
     "name": "tornado",
-    "count": 2,
+    "count": 1,
     "inExport": false,
     "section": null,
     "path": null
@@ -213,7 +193,7 @@
     ],
     "children": [
      {
-      "name": "Frame 75",
+      "name": "Weather",
       "type": "FRAME",
       "id": "654:10058",
       "w": 60,
@@ -289,7 +269,7 @@
       ]
      },
      {
-      "name": "Frame 37",
+      "name": "Date and E-Edition",
       "type": "FRAME",
       "id": "654:10061",
       "w": 196,
@@ -397,8 +377,8 @@
    "id": "653:5076",
    "key": "66512bfbd9aae46b5ef77a75ab72cfd0e23305fd",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=653-5076",
-   "width": 336,
-   "height": 37,
+   "width": 345,
+   "height": 42,
    "layout": {
     "dir": "HORIZONTAL",
     "gap": 12,
@@ -433,8 +413,8 @@
     "name": "Location=Masthead",
     "type": "COMPONENT",
     "id": "653:5076",
-    "w": 336,
-    "h": 37,
+    "w": 345,
+    "h": 42,
     "x": 16,
     "y": 112,
     "sizing": {
@@ -462,7 +442,7 @@
     ],
     "children": [
      {
-      "name": "Frame 75",
+      "name": "Weather",
       "type": "FRAME",
       "id": "653:5061",
       "w": 60,
@@ -538,11 +518,11 @@
       ]
      },
      {
-      "name": "Frame 37",
+      "name": "Date and E-Edition",
       "type": "FRAME",
       "id": "653:5064",
-      "w": 264,
-      "h": 37,
+      "w": 273,
+      "h": 42,
       "x": 72,
       "y": 0,
       "sizing": {
@@ -566,8 +546,8 @@
         "name": "Wednesday, September 25th, 2022",
         "type": "TEXT",
         "id": "653:5065",
-        "w": 264,
-        "h": 19,
+        "w": 273,
+        "h": 22,
         "x": 0,
         "y": 0,
         "sizing": {
@@ -579,7 +559,7 @@
         "align": "LEFT",
         "styles": [
          {
-          "font": "Droid Sans",
+          "font": "Noto Sans",
           "weight": "Bold",
           "size": 16,
           "lineHeight": "auto",
@@ -591,7 +571,7 @@
             "variable": "Colors/color/gray/min"
            }
           ],
-          "textStyle": "Masthead/Weather Widget"
+          "textStyle": null
          }
         ]
        },
@@ -599,10 +579,10 @@
         "name": "Today’s E Edition",
         "type": "TEXT",
         "id": "653:5066",
-        "w": 90,
-        "h": 14,
+        "w": 94,
+        "h": 16,
         "x": 0,
-        "y": 23,
+        "y": 26,
         "sizing": {
          "h": "HUG",
          "v": "HUG"
@@ -612,7 +592,7 @@
         "align": "LEFT",
         "styles": [
          {
-          "font": "Droid Sans",
+          "font": "Noto Sans",
           "weight": "Regular",
           "size": 12,
           "lineHeight": "auto",
@@ -624,7 +604,7 @@
             "variable": "Colors/color/gray/min"
            }
           ],
-          "textStyle": "Masthead/Today's E Edition"
+          "textStyle": null
          }
         ]
        }
@@ -651,6 +631,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": "Masthead/Weather Temp",
    "truncate": null,
    "sample": "87°F",
@@ -670,6 +651,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Wednesday, September 25th, 2025",
@@ -688,16 +670,18 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Today’s E Edition",
    "variants": [
-    "Location=SectionMenu"
+    "Location=SectionMenu",
+    "Location=Masthead"
    ]
   },
   {
    "layer": "Wednesday, September 25th, 2022",
-   "font": "Droid Sans",
+   "font": "Noto Sans",
    "weight": "Bold",
    "size": 16,
    "lineHeight": "auto",
@@ -706,27 +690,10 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "textStyle": "Masthead/Weather Widget",
+   "typeToken": null,
+   "textStyle": null,
    "truncate": null,
    "sample": "Wednesday, September 25th, 2022",
-   "variants": [
-    "Location=Masthead"
-   ]
-  },
-  {
-   "layer": "Today’s E Edition",
-   "font": "Droid Sans",
-   "weight": "Regular",
-   "size": 12,
-   "lineHeight": "auto",
-   "letterSpacing": null,
-   "case": "TITLE",
-   "decoration": null,
-   "color": "#141414",
-   "token": "Colors/color/gray/min",
-   "textStyle": "Masthead/Today's E Edition",
-   "truncate": null,
-   "sample": "Today’s E Edition",
    "variants": [
     "Location=Masthead"
    ]
@@ -757,14 +724,14 @@
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
-  "Location=SectionMenu: 300×80, horizontal gap 12 pad 8/16/8/16 main MIN cross CENTER — renders at (no breakpoint evidence)",
-  "Location=Masthead: 336×37, horizontal gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280"
+  "Location=SectionMenu: 300×80, horizontal gap 12 pad 8/16/8/16 main MIN cross CENTER — no breakpoint (not placed in a template)",
+  "Location=Masthead: 345×42, horizontal gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280"
  ],
  "productionRefs": [],
  "knownIssues": [
-  "`Location=SectionMenu`: fonts outside the production pair (Noto Sans / Noto Serif): Helvetica Bold ×1.",
-  "`Location=Masthead`: fonts outside the production pair (Noto Sans / Noto Serif): Helvetica Bold ×1, Droid Sans Bold ×1, Droid Sans Regular ×1."
+  "`Location=SectionMenu`: fonts outside the production set (Noto Sans / Noto Serif, no Display styles): Helvetica Bold ×1.",
+  "`Location=Masthead`: fonts outside the production set (Noto Sans / Noto Serif, no Display styles): Helvetica Bold ×1."
  ],
  "skeleton": "weather-bug.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

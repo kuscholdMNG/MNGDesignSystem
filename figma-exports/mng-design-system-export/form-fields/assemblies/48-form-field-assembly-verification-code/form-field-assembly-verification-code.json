@@ -12,11 +12,7 @@
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
   "page": "Form Fields | 2026.09.24",
-  "path": [
-   "Form Field & Code Box — Documentation",
-   "Frame 12915",
-   "Frame 12939"
-  ],
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12915 ▸ Frame 12939",
   "mainId": "7003:29223",
   "mainKey": "7c0d7e73c63480ff2ecd5a4d2d360a7d470aaa3c",
   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-29223",
@@ -74,17 +70,10 @@
     "id": "7003:29120",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
+    "inComponents": {},
+    "other": {
      "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 1
     },
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "768",
      "1024",
@@ -97,15 +86,10 @@
     "id": "7003:29222",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
+    "inComponents": {},
+    "other": {
      "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 1
     },
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "340",
      "360"
@@ -117,7 +101,7 @@
   "builtFrom": [
    {
     "name": "Code Box",
-    "count": 12,
+    "count": 6,
     "inExport": true,
     "section": "Code Box",
     "path": "../../components/38-code-box/code-box.md"
@@ -212,7 +196,8 @@
         "color": [
          {
           "type": "SOLID",
-          "hex": "#000000"
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
          }
         ],
         "textStyle": null
@@ -220,7 +205,7 @@
       ]
      },
      {
-      "name": "Frame",
+      "name": "Code Box Row",
       "type": "FRAME",
       "id": "7003:28943",
       "w": 236,
@@ -717,7 +702,8 @@
         "color": [
          {
           "type": "SOLID",
-          "hex": "#000000"
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
          }
         ],
         "textStyle": null
@@ -725,7 +711,7 @@
       ]
      },
      {
-      "name": "Frame",
+      "name": "Code Box Row",
       "type": "FRAME",
       "id": "7003:29123",
       "w": 171,
@@ -1150,7 +1136,8 @@
    "case": null,
    "decoration": null,
    "color": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Verification Code",
@@ -1169,6 +1156,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Error message text.",
@@ -1186,7 +1174,8 @@
    "case": null,
    "decoration": null,
    "color": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Verification Code",
@@ -1205,6 +1194,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Error message text.",
@@ -1213,7 +1203,28 @@
    ]
   }
  ],
- "colors": [],
+ "colors": [
+  {
+   "layer": "Code Box",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Code Box",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#A7A6A3",
+   "token": "Colors/color/gray/400",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  }
+ ],
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
@@ -1221,9 +1232,7 @@
   "Size=Mobile: 171×93, vertical gap 6 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360"
  ],
  "productionRefs": [],
- "knownIssues": [
-  "2 solid paints are hard-coded (not bound to a color variable): #000000 ×2."
- ],
+ "knownIssues": [],
  "skeleton": "form-field-assembly-verification-code.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

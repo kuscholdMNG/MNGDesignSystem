@@ -51,12 +51,9 @@
     "label": "Most Popular List Item",
     "id": "3352:24171",
     "templatesDirect": {
-     "768 HomePage": 10,
-     "1100 HomePage": 10,
      "Desktop HomePage": 10,
-     "1024 HomePage": 10,
-     "340 HomePage": 10,
-     "Mobile HomePage": 10
+     "1100 HomePage": 10,
+     "1024 HomePage": 10
     },
     "templatesVia": {
      "768 HomePage": [
@@ -69,21 +66,12 @@
       "Blueconic Block (Most Popular)"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "Blueconic Block (Most Popular) / Device=Tablet": 10,
      "Blueconic Block (Most Popular) / Device=Desktop": 10,
      "Blueconic Block (Most Popular) / Device=Mobile": 10
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -305,7 +293,10 @@
        }
       ]
      }
-    ]
+    ],
+    "key": "7af31a2e303ffc881a654e1094cbc7d622d2da3f",
+    "variantProperties": null,
+    "componentDescription": null
    }
   }
  ],
@@ -321,6 +312,7 @@
    "decoration": null,
    "color": "#FFFFFF",
    "token": "Colors/color/gray/max",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "1",
@@ -339,6 +331,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": "Blueconic/Title",
    "truncate": null,
    "sample": "Dear Abby: My clothes make her cry, and I feel lik",
@@ -377,5 +370,5 @@
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "most-popular-list-item.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

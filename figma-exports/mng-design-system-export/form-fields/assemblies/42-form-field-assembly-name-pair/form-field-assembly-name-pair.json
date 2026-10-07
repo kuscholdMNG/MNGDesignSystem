@@ -7,22 +7,12 @@
  "order": 42,
  "typeLabel": "Assembly · 2 variants",
  "description": null,
- "designerNotes": [
-  "First Name and Last Name as two Form Field instances placed side by side in a horizontal auto-layout row. Desktop uses the Desktop size, 16px gap, each resized to half width (~232px). \n\nMobile uses the Mobile size, an 8px gap, each resized to half width (~160px) - see the smaller sample at right. \n\nOn a very narrow viewport, stack the two fields instead of placing them side by side. Each field's own error message space is hidden, so one shared error area spans the full row width below both fields instead of reserving blank error space twice."
- ],
+ "designerNotes": [],
  "figma": {
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
   "page": "Form Fields | 2026.09.24",
-  "path": [
-   "Form Field & Code Box — Documentation",
-   "Frame 12911",
-   "Frame 12918",
-   "Assembly: Name pair — Documentation",
-   "Frame 11535",
-   "Frame 11522",
-   "Assembly: Name pair"
-  ],
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12911 ▸ Frame 12918 ▸ Assembly: Name pair — Documentation ▸ Frame 11535 ▸ Frame 11522 ▸ Assembly: Name pair",
   "mainId": "7003:28636",
   "mainKey": "9f22b5b30dacf8c88668cf02f7d14e0dcc90e27a",
   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28636",
@@ -76,15 +66,8 @@
     "id": "7003:28627",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768",
      "1024",
@@ -97,13 +80,8 @@
     "id": "7003:28635",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -115,10 +93,10 @@
   "builtFrom": [
    {
     "name": "Form Field",
-    "count": 4,
+    "count": 2,
     "inExport": true,
-    "section": "Form Field (Dashboard Mockup Set)",
-    "path": "../../components/41-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.md"
+    "section": "Form Field",
+    "path": "../../components/37-form-field/form-field.md"
    }
   ],
   "builtInto": []
@@ -239,11 +217,22 @@
         "component": "Form Field",
         "variant": {
          "Size": "Desktop",
-         "State": "Filled"
+         "State": "Blank"
         },
         "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
         "mainId": "6962:6663",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "First Name",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "First Name"
+        }
        },
        {
         "name": "Form Field",
@@ -272,11 +261,22 @@
         "component": "Form Field",
         "variant": {
          "Size": "Desktop",
-         "State": "Filled"
+         "State": "Blank"
         },
         "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
         "mainId": "6962:6663",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "Last Name",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Last Name"
+        }
        }
       ]
      },
@@ -465,7 +465,18 @@
         },
         "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
         "mainId": "6962:6683",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "First Name",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "First Name"
+        }
        },
        {
         "name": "Form Field",
@@ -498,7 +509,18 @@
         },
         "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
         "mainId": "6962:6683",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "Last Name",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Last Name"
+        }
        }
       ]
      },
@@ -583,6 +605,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Error message text.",
@@ -601,6 +624,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Error message text.",
@@ -621,5 +645,5 @@
   "No variant has instances in MNG Design System (unused here, or used only from another file): `Size=Desktop`, `Size=Mobile`."
  ],
  "skeleton": "form-field-assembly-name-pair.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

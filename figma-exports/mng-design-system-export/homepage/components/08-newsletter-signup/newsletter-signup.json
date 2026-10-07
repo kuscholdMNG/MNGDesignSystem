@@ -77,21 +77,11 @@
       "Latest Headlines"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "Latest Headlines / Device=Tablet": 1,
      "Latest Headlines / Device=Mobile": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360",
-     "768"
-    ],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -110,23 +100,11 @@
       "Latest Headlines"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "Latest Headlines / Device=Desktop": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
-     "768",
      "1024",
      "1100",
      "1280"
@@ -138,7 +116,7 @@
   "builtFrom": [
    {
     "name": "Button Primary",
-    "count": 2,
+    "count": 1,
     "inExport": false,
     "section": null,
     "path": null
@@ -343,8 +321,8 @@
           "x": 8,
           "y": 0,
           "sizing": {
-           "h": "HUG",
-           "v": "FIXED"
+           "h": "FIXED",
+           "v": "HUG"
           },
           "layout": {
            "dir": "VERTICAL",
@@ -355,16 +333,17 @@
             0,
             8
            ],
-           "main": "CENTER",
-           "cross": "CENTER"
+           "main": "MIN",
+           "cross": "MIN"
           },
           "component": "Button Primary",
           "variant": {
            "Icon": "None",
-           "state": "Default"
+           "State": "Default",
+           "Breakpoint": "Desktop"
           },
           "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-          "mainId": "3493:81371"
+          "mainId": "3532:28385"
          }
         ]
        }
@@ -415,7 +394,6 @@
    "radius": null,
    "preview": "previews/newsletter-signup--desktop.png",
    "breakpoints": [
-    "768",
     "1024",
     "1100",
     "1280"
@@ -453,7 +431,7 @@
     ],
     "children": [
      {
-      "name": "Frame 295",
+      "name": "Heading Container",
       "type": "FRAME",
       "id": "3336:44753",
       "w": 194,
@@ -512,7 +490,7 @@
       ]
      },
      {
-      "name": "Frame 11711",
+      "name": "Button Container",
       "type": "FRAME",
       "id": "3336:44755",
       "w": 125,
@@ -545,8 +523,8 @@
         "x": 8,
         "y": 0,
         "sizing": {
-         "h": "HUG",
-         "v": "FIXED"
+         "h": "FIXED",
+         "v": "HUG"
         },
         "layout": {
          "dir": "VERTICAL",
@@ -557,16 +535,17 @@
           0,
           8
          ],
-         "main": "CENTER",
-         "cross": "CENTER"
+         "main": "MIN",
+         "cross": "MIN"
         },
         "component": "Button Primary",
         "variant": {
          "Icon": "None",
-         "state": "Default"
+         "State": "Default",
+         "Breakpoint": "Desktop"
         },
         "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-        "mainId": "3493:81371"
+        "mainId": "3532:28385"
        }
       ]
      }
@@ -591,6 +570,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Sign up for Newsletters and Alerts",
@@ -626,10 +606,10 @@
  "adSlots": [],
  "responsiveRules": [
   "Device=Mobile: 340×135, vertical gap 8 pad 16/16/16/16 main CENTER cross CENTER — renders at 340, 360, 768",
-  "Device=Desktop: 226×135, vertical gap 8 pad 16/16/16/16 main SPACE_BETWEEN cross CENTER — renders at 768, 1024, 1100, 1280"
+  "Device=Desktop: 226×135, vertical gap 8 pad 16/16/16/16 main SPACE_BETWEEN cross CENTER — renders at 1024, 1100, 1280"
  ],
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "newsletter-signup.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

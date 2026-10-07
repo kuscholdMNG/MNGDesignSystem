@@ -12,16 +12,12 @@ built_from: ["Form Field"]
 built_into: []
 spec_json: form-field-assembly-zip-phone.json
 skeleton: form-field-assembly-zip-phone.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Form Field Assembly / Zip + Phone
 
 **Assembly · 2 variants** · Form Fields · source: MNG Design System ▸ Form Fields | 2026.09.24
-
-**Designer notes on the canvas:**
-
-- Zip Code is auto-sized to fit its own label/value content (5 digits) - measured directly from the rendered text rather than a guessed number. Currently: 84px Desktop / 78px Mobile. Phone Number takes the rest of the row (Fill sizing). Desktop: 16px gap. Mobile: 8px gap - see the smaller sample at left. Used where a quick lookup only needs a zip and a phone number rather than a full address or name pattern.
 
 ## Figma references
 
@@ -43,8 +39,8 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Size=Mobile** — breakpoints: 340, 360; no instances found
+- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; no instances in this file
+- **Size=Mobile** — breakpoints: 340, 360; no instances in this file
 
 ## Breakpoints
 
@@ -66,11 +62,11 @@ exported: 2026-09-24
 
 **Built from:**
 
-- [Form Field](../../components/41-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.md) ×4
+- [Form Field](../../components/37-form-field/form-field.md) ×2
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -79,8 +75,8 @@ exported: 2026-09-24
 ```
 - Size=Desktop — component 480×111 [vertical gap 8] (fixed/hug)
   - Fields — frame 480×78 [horizontal gap 16] (fill/hug)
-    - Form Field — instance 84×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Filled]
-    - Form Field — instance 380×78 [vertical gap 0] (fill/hug) → Form Field [Size=Desktop, State=Filled]
+    - Form Field — instance 84×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Blank]
+    - Form Field — instance 380×78 [vertical gap 0] (fill/hug) → Form Field [Size=Desktop, State=Blank]
   - Error Message Container (Shared) — frame 480×25 [horizontal gap 8] (fill/fixed)
     - Error Message Text. — text 480×25 (fixed/fixed) "Error message text." (hidden)
 ```
@@ -105,10 +101,10 @@ exported: 2026-09-24
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Error message text. |
-| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Error message text. |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Desktop |
+| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Mobile |
 
 ## Color & effects
 

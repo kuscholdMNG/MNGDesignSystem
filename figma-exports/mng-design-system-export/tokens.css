@@ -8,10 +8,14 @@
   --mng-gray-400: #A7A6A3;
   --mng-gray-500: #CCCAC7;
   --mng-gray-600: #F1EFEB;
+  --mng-gray-black: #000000;
   --mng-gray-max: #FFFFFF;
   --mng-gray-min: #141414;
-  --mng-theme-primary: #007580;  /* other theme modes: #8D092D */
-  --mng-theme-primary-dark: #0A5962;
+  --mng-theme-near-black: #0A0908;  /* varies by theme — see tokens.json byTheme */
+  --mng-theme-primary: #007580;  /* varies by theme — see tokens.json byTheme */
+  --mng-theme-primary-dark: #0A5962;  /* varies by theme — see tokens.json byTheme */
+  --mng-theme-secondary: #FFEA00;  /* varies by theme — see tokens.json byTheme */
+  --mng-tributes-primary: #8D092D;
   --mng-font-sans: "Noto Sans", system-ui, sans-serif;
   --mng-font-serif: "Noto Serif", Georgia, serif;
 }

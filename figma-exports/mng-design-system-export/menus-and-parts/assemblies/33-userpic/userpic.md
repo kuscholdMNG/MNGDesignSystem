@@ -7,12 +7,12 @@ figma_file: "WordPress Elements (b1iZxkFwtAYq9rElmnCAzd)"
 figma_node: "456:5674"
 component_key: b0a98e06e6e220ea1c7d4a247494ff5525fe0dd7
 variants: 6
-breakpoints: [340, 360, 768, 1024]
+breakpoints: []
 built_from: ["UserImage", "AlertLevel"]
 built_into: ["UserStatus"]
 spec_json: userpic.json
 skeleton: userpic.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # UserPic
@@ -24,7 +24,6 @@ exported: 2026-09-24
 - User Type
 - UserPic
 - UserPic | Sample Model; do not use
-- User: Type, Status, Pic
 
 ## Figma references
 
@@ -49,39 +48,34 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Size=Small, Status=Default** — breakpoints: 340, 360, 768, 1024; templates (via assembly): 340 HomePage (via UserStatus), 768 HomePage (via UserStatus), 1024 HomePage (via UserStatus), Mobile HomePage (via UserStatus); nested inside: UserStatus / Device=Desktop, status=nonSub ×1, UserStatus / Device=mobile, status=none ×1, UserStatus / Device=Desktop, status=subscriber ×1
-- **Size=Small, Status=Active** — breakpoints: —; no instances found
-- **Size=Medium, Status=Default** — breakpoints: —; nested inside: NewsletterManagement / Device=Desktop ×1, DigiSubActivation / Device=Fold ×1, PaymentMethodUpdates / Device=Fold ×1, PaymentMethodUpdates / Device=Mobile ×1, DigiSubActivation / Device=Mobile ×1, NewsletterManagement / Device=Fold ×1, DigiSubActivation / Device=Desktop ×1, PaymentMethodUpdates / Device=Desktop ×1
+- **Size=Small, Status=Default** — breakpoints: —; nested inside: UserStatus / Device=mobile, status=none ×1, UserStatus / Device=Desktop, status=nonSub ×1, UserStatus / Device=Desktop, status=subscriber ×1
+- **Size=Small, Status=Active** — breakpoints: —; no instances in this file
+- **Size=Medium, Status=Default** — breakpoints: —; no instances in this file
 - **Size=Medium, Status=Active** — breakpoints: —; other pages: Menus and Parts ▸ Frame 12800 ×1
-- **Size=Large, Status=Default** — breakpoints: —; no instances found
-- **Size=Large, Status=Active** — breakpoints: —; no instances found
+- **Size=Large, Status=Default** — breakpoints: —; no instances in this file
+- **Size=Large, Status=Active** — breakpoints: —; no instances in this file
 
 ## Breakpoints
 
 | Key | Viewport | Variant(s) |
 |---|---|---|
-| 340 | ≤639px (XS-Fold, built 340) | Size=Small, Status=Default |
-| 360 | ≤639px (SM-Mobile, built 360) | Size=Small, Status=Default |
-| 768 | 640–799px (MD-TabletV) | Size=Small, Status=Default |
-| 1024 | 800–1039px (LG-TabletH, built 1009) | Size=Small, Status=Default |
-| 1100 | ≥1040px (XL-Desktop, built 1085) | — |
-| 1280 | ≥1040px (XL-Desktop, built 1280) | — |
+| — | not placed in any homepage template | — |
 
 ## Responsive rules
 
-- Size=Small, Status=Default: 30×30, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — renders at 340, 360, 768, 1024
-- Size=Small, Status=Active: 30×30, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — renders at (no breakpoint evidence)
-- Size=Medium, Status=Default: 40×40, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — renders at (no breakpoint evidence)
-- Size=Medium, Status=Active: 40×40, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — renders at (no breakpoint evidence)
-- Size=Large, Status=Default: 64×64, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — renders at (no breakpoint evidence)
-- Size=Large, Status=Active: 64×64, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — renders at (no breakpoint evidence)
+- Size=Small, Status=Default: 30×30, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)
+- Size=Small, Status=Active: 30×30, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)
+- Size=Medium, Status=Default: 40×40, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)
+- Size=Medium, Status=Active: 40×40, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)
+- Size=Large, Status=Default: 64×64, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)
+- Size=Large, Status=Active: 64×64, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)
 
 ## Dependencies
 
 **Built from:**
 
-- [UserImage](../../components/28-userimage/userimage.md) ×6
-- [AlertLevel](../../components/27-alertlevel/alertlevel.md) ×12
+- [UserImage](../../components/28-userimage/userimage.md) ×1
+- [AlertLevel](../../components/27-alertlevel/alertlevel.md) ×2
 
 **Built into:**
 
@@ -153,7 +147,7 @@ exported: 2026-09-24
 
 ## Typography
 
-_None._
+_No text._
 
 ## Color & effects
 
@@ -173,7 +167,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- 3 of 6 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Size=Small, Status=Active`, `Size=Large, Status=Default`, `Size=Large, Status=Active`.
+- 4 of 6 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Size=Small, Status=Active`, `Size=Medium, Status=Default`, `Size=Large, Status=Default`, `Size=Large, Status=Active`.
 
 ## Rendering steps
 

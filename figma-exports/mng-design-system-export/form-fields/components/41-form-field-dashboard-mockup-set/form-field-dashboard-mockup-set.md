@@ -9,10 +9,10 @@ component_key: 6c2bd6b3a0ae38b11acf9f4a44445ed0ffdc030f
 variants: 102
 breakpoints: [340, 360, 768, 1024, 1100, 1280]
 built_from: ["CheckBox", "Icons", "Button Linkstyle"]
-built_into: ["Form Field Assembly / Name pair", "Form Field Assembly / Zip + Street #", "Form Field Assembly / Zip + Phone", "Form Field Assembly / Address block", "Form Field Assembly / CC details", "Form Field Assembly / Password"]
+built_into: []
 spec_json: form-field-dashboard-mockup-set.json
 skeleton: form-field-dashboard-mockup-set.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Form Field (Dashboard Mockup Set)
@@ -138,108 +138,108 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Device=Mobile, Flavor=chckBoxWordsBlank** — breakpoints: 360, 768; no instances found
-- **Device=FOLD, Flavor=chckBoxWordsBlank** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=chckBoxWordsFilled** — breakpoints: 360, 768; no instances found
-- **Device=FOLD, Flavor=chckBoxWordsFilled** — breakpoints: 340; no instances found
-- **Device=Desktop, Flavor=chckBoxWordsFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=chckBoxWordsBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=FOLD, Flavor=phoneFilled** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=phoneFilled** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=phoneFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
+- **Device=Mobile, Flavor=chckBoxWordsBlank** — breakpoints: 360, 768; no instances in this file
+- **Device=FOLD, Flavor=chckBoxWordsBlank** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=chckBoxWordsFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=FOLD, Flavor=chckBoxWordsFilled** — breakpoints: 340; no instances in this file
+- **Device=Desktop, Flavor=chckBoxWordsFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=chckBoxWordsBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=FOLD, Flavor=phoneFilled** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=phoneFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=phoneFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
 - **Device=FOLD, Flavor=phoneBlank** — breakpoints: 340; nested inside: InLineMessage/FOLD/none/StandAlone/panel ×1, InLineMessage/FOLD/none/StandAloneEmailPrefs/Panel ×1
 - **Device=Mobile, Flavor=phoneBlank** — breakpoints: 360, 768; nested inside: InLineMessage/Mobile/none/DashSubsAcctShareALL/Panel ×1, InLineMessage/Mobile/none/StandAlone/panel ×1, InLineMessage/Mobile/none/StandAloneEmailPrefs/Panel ×1
-- **Device=Desktop, Flavor=phoneBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=FOLD, Flavor=addyBlockFilled** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=ZipAddyBlockFilled** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=ZipPhoneBlockFilled** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=addyBlockFilled** — breakpoints: 360, 768; no instances found
-- **Device=Mobile, Flavor=ZipAddyBlockFilled** — breakpoints: 360, 768; no instances found
-- **Device=Mobile, Flavor=ZipPhoneBlockFilled** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=addyBlockFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=ZipAddyBlockFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=ZipPhoneBlockFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=FOLD, Flavor=addyBlockBlank** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=ZipAddyBlockBlank** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=ZipPhoneBlockBlank** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=FLNameBlank** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=LastNameBlank** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=FLNameFilled** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=LastNameFilled** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=addyBlockBlank** — breakpoints: 360, 768; no instances found
-- **Device=Mobile, Flavor=ZipAddyBlockBlank** — breakpoints: 360, 768; no instances found
-- **Device=Mobile, Flavor=ZipPhoneBlockBlank** — breakpoints: 360, 768; no instances found
-- **Device=Mobile, Flavor=FLNameBlank** — breakpoints: 360, 768; no instances found
-- **Device=Mobile, Flavor=LastNameBlank** — breakpoints: 360, 768; no instances found
-- **Device=Mobile, Flavor=FLNameFilled** — breakpoints: 360, 768; no instances found
-- **Device=Mobile, Flavor=LastNameFilled** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=addyBlockBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=ZipAddyBlockBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=ZipPhoneBlockBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=FLNameBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=LastNameBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=FLNameFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=LastNameFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=FOLD, Flavor=CCdeetsFilled** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=CCdeetsFilled** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=CCdeetsFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=FOLD, Flavor=CCdeetsBlank** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=CCdeetsBlank** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=CCdeetsBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=FOLD, Flavor=CCnumFilled** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=AcctNumFilled** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=CCnumFilled** — breakpoints: 360, 768; no instances found
-- **Device=Mobile, Flavor=AcctNumFilled** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=CCnumFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=AcctNumFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=FOLD, Flavor=CCnumBlank** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=AcctNumBlank** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=CCnumBlank** — breakpoints: 360, 768; no instances found
-- **Device=Mobile, Flavor=AcctNumBlank** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=CCnumBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=AcctNumBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=FOLD, Flavor=PINfilled** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=PINfilled** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=PINfilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
+- **Device=Desktop, Flavor=phoneBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=FOLD, Flavor=addyBlockFilled** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=ZipAddyBlockFilled** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=ZipPhoneBlockFilled** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=addyBlockFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Mobile, Flavor=ZipAddyBlockFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Mobile, Flavor=ZipPhoneBlockFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=addyBlockFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=ZipAddyBlockFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=ZipPhoneBlockFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=FOLD, Flavor=addyBlockBlank** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=ZipAddyBlockBlank** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=ZipPhoneBlockBlank** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=FLNameBlank** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=LastNameBlank** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=FLNameFilled** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=LastNameFilled** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=addyBlockBlank** — breakpoints: 360, 768; no instances in this file
+- **Device=Mobile, Flavor=ZipAddyBlockBlank** — breakpoints: 360, 768; no instances in this file
+- **Device=Mobile, Flavor=ZipPhoneBlockBlank** — breakpoints: 360, 768; no instances in this file
+- **Device=Mobile, Flavor=FLNameBlank** — breakpoints: 360, 768; no instances in this file
+- **Device=Mobile, Flavor=LastNameBlank** — breakpoints: 360, 768; no instances in this file
+- **Device=Mobile, Flavor=FLNameFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Mobile, Flavor=LastNameFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=addyBlockBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=ZipAddyBlockBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=ZipPhoneBlockBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=FLNameBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=LastNameBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=FLNameFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=LastNameFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=FOLD, Flavor=CCdeetsFilled** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=CCdeetsFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=CCdeetsFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=FOLD, Flavor=CCdeetsBlank** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=CCdeetsBlank** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=CCdeetsBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=FOLD, Flavor=CCnumFilled** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=AcctNumFilled** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=CCnumFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Mobile, Flavor=AcctNumFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=CCnumFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=AcctNumFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=FOLD, Flavor=CCnumBlank** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=AcctNumBlank** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=CCnumBlank** — breakpoints: 360, 768; no instances in this file
+- **Device=Mobile, Flavor=AcctNumBlank** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=CCnumBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=AcctNumBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=FOLD, Flavor=PINfilled** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=PINfilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=PINfilled** — breakpoints: 1024, 1100, 1280; no instances in this file
 - **Device=FOLD, Flavor=PINblank** — breakpoints: 340; nested inside: InLineMessage/FOLD/none/DashSMSPIN/Panel ×1, InLineMessage/FOLD/none/StandAloneEmailPrefs/Panel ×1
 - **Device=Mobile, Flavor=PINblank** — breakpoints: 360, 768; nested inside: InLineMessage/Mobile/none/DashSMSPIN/Panel ×1
-- **Device=Desktop, Flavor=PINblank** — breakpoints: 768, 1024, 1100, 1280; nested inside: InLineMessage/Desktop/none/DashSMSPIN/Panel ×1, InLineMessage/Desktop/none/StandAloneEmailPrefs/Panel ×1
-- **Device=FOLD, Flavor=EmailFilled** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=EmailFilled** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=EmailFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=FOLD, Flavor=EmailBlank** — breakpoints: 340; no instances found
+- **Device=Desktop, Flavor=PINblank** — breakpoints: 1024, 1100, 1280; nested inside: InLineMessage/Desktop/none/DashSMSPIN/Panel ×1, InLineMessage/Desktop/none/StandAloneEmailPrefs/Panel ×1
+- **Device=FOLD, Flavor=EmailFilled** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=EmailFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=EmailFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=FOLD, Flavor=EmailBlank** — breakpoints: 340; no instances in this file
 - **Device=Mobile, Flavor=EmailBlank** — breakpoints: 360, 768; nested inside: InLineMessage/Mobile/none/DashSubsAcctShareALL/Panel ×1
-- **Device=Desktop, Flavor=EmailBlank** — breakpoints: 768, 1024, 1100, 1280; nested inside: InLineMessage/Desktop/none/StandAloneEmailPrefs/Panel ×1, InLineMessage/FOLD/none/StandAloneEmailPrefs/Panel ×1
-- **Device=FOLD, Flavor=subNameFilled** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=subNameFilled** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=subNameFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=FOLD, Flavor=subNameBlank** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=subNameBlank** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=subNameBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Mobile, Flavor=displayNameFilled** — breakpoints: 360, 768; no instances found
-- **Device=FOLD, Flavor=displayNameFilled** — breakpoints: 340; no instances found
-- **Device=Desktop, Flavor=displayNameFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=FOLD, Flavor=displayNameBlank** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=PasswordNewBlank** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=PasswordEmpty** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=PasswordNewFilled** — breakpoints: 340; no instances found
-- **Device=FOLD, Flavor=PasswordFilled** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=PasswordNewFilled** — breakpoints: 360, 768; no instances found
-- **Device=Mobile, Flavor=PasswordFilled** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=PasswordNewFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=PasswordFilled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Mobile, Flavor=PasswordNewBlank** — breakpoints: 360, 768; no instances found
-- **Device=Mobile, Flavor=PasswordEmpty** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=displayNameBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=PasswordNewBlank** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Desktop, Flavor=PasswordEmpty** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=Mobile, Flavor=displayNameBlank** — breakpoints: 360, 768; no instances found
-- **Device=FOLD, Flavor=IconTitle** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=IconTitle** — breakpoints: 360, 768; no instances found
-- **Device=Desktop, Flavor=IconTitle** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Device=FOLD, Flavor=basic** — breakpoints: 340; no instances found
-- **Device=Mobile, Flavor=basic** — breakpoints: 360, 768; nested inside: Modals/TabletV/Login ×1, Modals/MobileScroll/Login ×1, Modals/FOLD/Login ×1, Modals/Mobile/Login ×1
-- **Device=Desktop, Flavor=basic** — breakpoints: 768, 1024, 1100, 1280; nested inside: Modals/TabletH/Login ×1, Modals/Desktop/Login ×1
+- **Device=Desktop, Flavor=EmailBlank** — breakpoints: 1024, 1100, 1280; nested inside: InLineMessage/Desktop/none/StandAloneEmailPrefs/Panel ×1, InLineMessage/FOLD/none/StandAloneEmailPrefs/Panel ×1
+- **Device=FOLD, Flavor=subNameFilled** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=subNameFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=subNameFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=FOLD, Flavor=subNameBlank** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=subNameBlank** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=subNameBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Mobile, Flavor=displayNameFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=FOLD, Flavor=displayNameFilled** — breakpoints: 340; no instances in this file
+- **Device=Desktop, Flavor=displayNameFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=FOLD, Flavor=displayNameBlank** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=PasswordNewBlank** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=PasswordEmpty** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=PasswordNewFilled** — breakpoints: 340; no instances in this file
+- **Device=FOLD, Flavor=PasswordFilled** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=PasswordNewFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Mobile, Flavor=PasswordFilled** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=PasswordNewFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=PasswordFilled** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Mobile, Flavor=PasswordNewBlank** — breakpoints: 360, 768; no instances in this file
+- **Device=Mobile, Flavor=PasswordEmpty** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=displayNameBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=PasswordNewBlank** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Desktop, Flavor=PasswordEmpty** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=Mobile, Flavor=displayNameBlank** — breakpoints: 360, 768; no instances in this file
+- **Device=FOLD, Flavor=IconTitle** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=IconTitle** — breakpoints: 360, 768; no instances in this file
+- **Device=Desktop, Flavor=IconTitle** — breakpoints: 1024, 1100, 1280; no instances in this file
+- **Device=FOLD, Flavor=basic** — breakpoints: 340; no instances in this file
+- **Device=Mobile, Flavor=basic** — breakpoints: 360, 768; nested inside: Modals/Mobile/Login ×1, Modals/FOLD/Login ×1, Modals/TabletV/Login ×1, Modals/MobileScroll/Login ×1
+- **Device=Desktop, Flavor=basic** — breakpoints: 1024, 1100, 1280; nested inside: Modals/Desktop/Login ×1, Modals/TabletH/Login ×1
 
 ## Breakpoints
 
@@ -247,7 +247,7 @@ exported: 2026-09-24
 |---|---|---|
 | 340 | ≤639px (XS-Fold, built 340) | Device=FOLD, Flavor=chckBoxWordsBlank, Device=FOLD, Flavor=chckBoxWordsFilled, Device=FOLD, Flavor=phoneFilled, Device=FOLD, Flavor=phoneBlank, Device=FOLD, Flavor=addyBlockFilled, Device=FOLD, Flavor=ZipAddyBlockFilled, Device=FOLD, Flavor=ZipPhoneBlockFilled, Device=FOLD, Flavor=addyBlockBlank, Device=FOLD, Flavor=ZipAddyBlockBlank, Device=FOLD, Flavor=ZipPhoneBlockBlank, Device=FOLD, Flavor=FLNameBlank, Device=FOLD, Flavor=LastNameBlank, Device=FOLD, Flavor=FLNameFilled, Device=FOLD, Flavor=LastNameFilled, Device=FOLD, Flavor=CCdeetsFilled, Device=FOLD, Flavor=CCdeetsBlank, Device=FOLD, Flavor=CCnumFilled, Device=FOLD, Flavor=AcctNumFilled, Device=FOLD, Flavor=CCnumBlank, Device=FOLD, Flavor=AcctNumBlank, Device=FOLD, Flavor=PINfilled, Device=FOLD, Flavor=PINblank, Device=FOLD, Flavor=EmailFilled, Device=FOLD, Flavor=EmailBlank, Device=FOLD, Flavor=subNameFilled, Device=FOLD, Flavor=subNameBlank, Device=FOLD, Flavor=displayNameFilled, Device=FOLD, Flavor=displayNameBlank, Device=FOLD, Flavor=PasswordNewBlank, Device=FOLD, Flavor=PasswordEmpty, Device=FOLD, Flavor=PasswordNewFilled, Device=FOLD, Flavor=PasswordFilled, Device=FOLD, Flavor=IconTitle, Device=FOLD, Flavor=basic |
 | 360 | ≤639px (SM-Mobile, built 360) | Device=Mobile, Flavor=chckBoxWordsBlank, Device=Mobile, Flavor=chckBoxWordsFilled, Device=Mobile, Flavor=phoneFilled, Device=Mobile, Flavor=phoneBlank, Device=Mobile, Flavor=addyBlockFilled, Device=Mobile, Flavor=ZipAddyBlockFilled, Device=Mobile, Flavor=ZipPhoneBlockFilled, Device=Mobile, Flavor=addyBlockBlank, Device=Mobile, Flavor=ZipAddyBlockBlank, Device=Mobile, Flavor=ZipPhoneBlockBlank, Device=Mobile, Flavor=FLNameBlank, Device=Mobile, Flavor=LastNameBlank, Device=Mobile, Flavor=FLNameFilled, Device=Mobile, Flavor=LastNameFilled, Device=Mobile, Flavor=CCdeetsFilled, Device=Mobile, Flavor=CCdeetsBlank, Device=Mobile, Flavor=CCnumFilled, Device=Mobile, Flavor=AcctNumFilled, Device=Mobile, Flavor=CCnumBlank, Device=Mobile, Flavor=AcctNumBlank, Device=Mobile, Flavor=PINfilled, Device=Mobile, Flavor=PINblank, Device=Mobile, Flavor=EmailFilled, Device=Mobile, Flavor=EmailBlank, Device=Mobile, Flavor=subNameFilled, Device=Mobile, Flavor=subNameBlank, Device=Mobile, Flavor=displayNameFilled, Device=Mobile, Flavor=PasswordNewFilled, Device=Mobile, Flavor=PasswordFilled, Device=Mobile, Flavor=PasswordNewBlank, Device=Mobile, Flavor=PasswordEmpty, Device=Mobile, Flavor=displayNameBlank, Device=Mobile, Flavor=IconTitle, Device=Mobile, Flavor=basic |
-| 768 | 640–799px (MD-TabletV) | Device=Mobile, Flavor=chckBoxWordsBlank, Device=Mobile, Flavor=chckBoxWordsFilled, Device=Desktop, Flavor=chckBoxWordsFilled, Device=Desktop, Flavor=chckBoxWordsBlank, Device=Mobile, Flavor=phoneFilled, Device=Desktop, Flavor=phoneFilled, Device=Mobile, Flavor=phoneBlank, Device=Desktop, Flavor=phoneBlank, Device=Mobile, Flavor=addyBlockFilled, Device=Mobile, Flavor=ZipAddyBlockFilled, Device=Mobile, Flavor=ZipPhoneBlockFilled, Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=ZipAddyBlockFilled, Device=Desktop, Flavor=ZipPhoneBlockFilled, Device=Mobile, Flavor=addyBlockBlank, Device=Mobile, Flavor=ZipAddyBlockBlank, Device=Mobile, Flavor=ZipPhoneBlockBlank, Device=Mobile, Flavor=FLNameBlank, Device=Mobile, Flavor=LastNameBlank, Device=Mobile, Flavor=FLNameFilled, Device=Mobile, Flavor=LastNameFilled, Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=ZipAddyBlockBlank, Device=Desktop, Flavor=ZipPhoneBlockBlank, Device=Desktop, Flavor=FLNameBlank, Device=Desktop, Flavor=LastNameBlank, Device=Desktop, Flavor=FLNameFilled, Device=Desktop, Flavor=LastNameFilled, Device=Mobile, Flavor=CCdeetsFilled, Device=Desktop, Flavor=CCdeetsFilled, Device=Mobile, Flavor=CCdeetsBlank, Device=Desktop, Flavor=CCdeetsBlank, Device=Mobile, Flavor=CCnumFilled, Device=Mobile, Flavor=AcctNumFilled, Device=Desktop, Flavor=CCnumFilled, Device=Desktop, Flavor=AcctNumFilled, Device=Mobile, Flavor=CCnumBlank, Device=Mobile, Flavor=AcctNumBlank, Device=Desktop, Flavor=CCnumBlank, Device=Desktop, Flavor=AcctNumBlank, Device=Mobile, Flavor=PINfilled, Device=Desktop, Flavor=PINfilled, Device=Mobile, Flavor=PINblank, Device=Desktop, Flavor=PINblank, Device=Mobile, Flavor=EmailFilled, Device=Desktop, Flavor=EmailFilled, Device=Mobile, Flavor=EmailBlank, Device=Desktop, Flavor=EmailBlank, Device=Mobile, Flavor=subNameFilled, Device=Desktop, Flavor=subNameFilled, Device=Mobile, Flavor=subNameBlank, Device=Desktop, Flavor=subNameBlank, Device=Mobile, Flavor=displayNameFilled, Device=Desktop, Flavor=displayNameFilled, Device=Mobile, Flavor=PasswordNewFilled, Device=Mobile, Flavor=PasswordFilled, Device=Desktop, Flavor=PasswordNewFilled, Device=Desktop, Flavor=PasswordFilled, Device=Mobile, Flavor=PasswordNewBlank, Device=Mobile, Flavor=PasswordEmpty, Device=Desktop, Flavor=displayNameBlank, Device=Desktop, Flavor=PasswordNewBlank, Device=Desktop, Flavor=PasswordEmpty, Device=Mobile, Flavor=displayNameBlank, Device=Mobile, Flavor=IconTitle, Device=Desktop, Flavor=IconTitle, Device=Mobile, Flavor=basic, Device=Desktop, Flavor=basic |
+| 768 | 640–799px (MD-TabletV) | Device=Mobile, Flavor=chckBoxWordsBlank, Device=Mobile, Flavor=chckBoxWordsFilled, Device=Mobile, Flavor=phoneFilled, Device=Mobile, Flavor=phoneBlank, Device=Mobile, Flavor=addyBlockFilled, Device=Mobile, Flavor=ZipAddyBlockFilled, Device=Mobile, Flavor=ZipPhoneBlockFilled, Device=Mobile, Flavor=addyBlockBlank, Device=Mobile, Flavor=ZipAddyBlockBlank, Device=Mobile, Flavor=ZipPhoneBlockBlank, Device=Mobile, Flavor=FLNameBlank, Device=Mobile, Flavor=LastNameBlank, Device=Mobile, Flavor=FLNameFilled, Device=Mobile, Flavor=LastNameFilled, Device=Mobile, Flavor=CCdeetsFilled, Device=Mobile, Flavor=CCdeetsBlank, Device=Mobile, Flavor=CCnumFilled, Device=Mobile, Flavor=AcctNumFilled, Device=Mobile, Flavor=CCnumBlank, Device=Mobile, Flavor=AcctNumBlank, Device=Mobile, Flavor=PINfilled, Device=Mobile, Flavor=PINblank, Device=Mobile, Flavor=EmailFilled, Device=Mobile, Flavor=EmailBlank, Device=Mobile, Flavor=subNameFilled, Device=Mobile, Flavor=subNameBlank, Device=Mobile, Flavor=displayNameFilled, Device=Mobile, Flavor=PasswordNewFilled, Device=Mobile, Flavor=PasswordFilled, Device=Mobile, Flavor=PasswordNewBlank, Device=Mobile, Flavor=PasswordEmpty, Device=Mobile, Flavor=displayNameBlank, Device=Mobile, Flavor=IconTitle, Device=Mobile, Flavor=basic |
 | 1024 | 800–1039px (LG-TabletH, built 1009) | Device=Desktop, Flavor=chckBoxWordsFilled, Device=Desktop, Flavor=chckBoxWordsBlank, Device=Desktop, Flavor=phoneFilled, Device=Desktop, Flavor=phoneBlank, Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=ZipAddyBlockFilled, Device=Desktop, Flavor=ZipPhoneBlockFilled, Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=ZipAddyBlockBlank, Device=Desktop, Flavor=ZipPhoneBlockBlank, Device=Desktop, Flavor=FLNameBlank, Device=Desktop, Flavor=LastNameBlank, Device=Desktop, Flavor=FLNameFilled, Device=Desktop, Flavor=LastNameFilled, Device=Desktop, Flavor=CCdeetsFilled, Device=Desktop, Flavor=CCdeetsBlank, Device=Desktop, Flavor=CCnumFilled, Device=Desktop, Flavor=AcctNumFilled, Device=Desktop, Flavor=CCnumBlank, Device=Desktop, Flavor=AcctNumBlank, Device=Desktop, Flavor=PINfilled, Device=Desktop, Flavor=PINblank, Device=Desktop, Flavor=EmailFilled, Device=Desktop, Flavor=EmailBlank, Device=Desktop, Flavor=subNameFilled, Device=Desktop, Flavor=subNameBlank, Device=Desktop, Flavor=displayNameFilled, Device=Desktop, Flavor=PasswordNewFilled, Device=Desktop, Flavor=PasswordFilled, Device=Desktop, Flavor=displayNameBlank, Device=Desktop, Flavor=PasswordNewBlank, Device=Desktop, Flavor=PasswordEmpty, Device=Desktop, Flavor=IconTitle, Device=Desktop, Flavor=basic |
 | 1100 | ≥1040px (XL-Desktop, built 1085) | Device=Desktop, Flavor=chckBoxWordsFilled, Device=Desktop, Flavor=chckBoxWordsBlank, Device=Desktop, Flavor=phoneFilled, Device=Desktop, Flavor=phoneBlank, Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=ZipAddyBlockFilled, Device=Desktop, Flavor=ZipPhoneBlockFilled, Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=ZipAddyBlockBlank, Device=Desktop, Flavor=ZipPhoneBlockBlank, Device=Desktop, Flavor=FLNameBlank, Device=Desktop, Flavor=LastNameBlank, Device=Desktop, Flavor=FLNameFilled, Device=Desktop, Flavor=LastNameFilled, Device=Desktop, Flavor=CCdeetsFilled, Device=Desktop, Flavor=CCdeetsBlank, Device=Desktop, Flavor=CCnumFilled, Device=Desktop, Flavor=AcctNumFilled, Device=Desktop, Flavor=CCnumBlank, Device=Desktop, Flavor=AcctNumBlank, Device=Desktop, Flavor=PINfilled, Device=Desktop, Flavor=PINblank, Device=Desktop, Flavor=EmailFilled, Device=Desktop, Flavor=EmailBlank, Device=Desktop, Flavor=subNameFilled, Device=Desktop, Flavor=subNameBlank, Device=Desktop, Flavor=displayNameFilled, Device=Desktop, Flavor=PasswordNewFilled, Device=Desktop, Flavor=PasswordFilled, Device=Desktop, Flavor=displayNameBlank, Device=Desktop, Flavor=PasswordNewBlank, Device=Desktop, Flavor=PasswordEmpty, Device=Desktop, Flavor=IconTitle, Device=Desktop, Flavor=basic |
 | 1280 | ≥1040px (XL-Desktop, built 1280) | Device=Desktop, Flavor=chckBoxWordsFilled, Device=Desktop, Flavor=chckBoxWordsBlank, Device=Desktop, Flavor=phoneFilled, Device=Desktop, Flavor=phoneBlank, Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=ZipAddyBlockFilled, Device=Desktop, Flavor=ZipPhoneBlockFilled, Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=ZipAddyBlockBlank, Device=Desktop, Flavor=ZipPhoneBlockBlank, Device=Desktop, Flavor=FLNameBlank, Device=Desktop, Flavor=LastNameBlank, Device=Desktop, Flavor=FLNameFilled, Device=Desktop, Flavor=LastNameFilled, Device=Desktop, Flavor=CCdeetsFilled, Device=Desktop, Flavor=CCdeetsBlank, Device=Desktop, Flavor=CCnumFilled, Device=Desktop, Flavor=AcctNumFilled, Device=Desktop, Flavor=CCnumBlank, Device=Desktop, Flavor=AcctNumBlank, Device=Desktop, Flavor=PINfilled, Device=Desktop, Flavor=PINblank, Device=Desktop, Flavor=EmailFilled, Device=Desktop, Flavor=EmailBlank, Device=Desktop, Flavor=subNameFilled, Device=Desktop, Flavor=subNameBlank, Device=Desktop, Flavor=displayNameFilled, Device=Desktop, Flavor=PasswordNewFilled, Device=Desktop, Flavor=PasswordFilled, Device=Desktop, Flavor=displayNameBlank, Device=Desktop, Flavor=PasswordNewBlank, Device=Desktop, Flavor=PasswordEmpty, Device=Desktop, Flavor=IconTitle, Device=Desktop, Flavor=basic |
@@ -258,23 +258,23 @@ exported: 2026-09-24
 - Device=FOLD, Flavor=chckBoxWordsBlank: 276×133, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=chckBoxWordsFilled: 300×114, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
 - Device=FOLD, Flavor=chckBoxWordsFilled: 276×133, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
-- Device=Desktop, Flavor=chckBoxWordsFilled: 480×98, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=chckBoxWordsBlank: 480×98, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=chckBoxWordsFilled: 480×98, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=chckBoxWordsBlank: 480×98, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=phoneFilled: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=phoneFilled: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=phoneFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=phoneFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=phoneBlank: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=phoneBlank: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=phoneBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=phoneBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=addyBlockFilled: 276×199, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=FOLD, Flavor=ZipAddyBlockFilled: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=FOLD, Flavor=ZipPhoneBlockFilled: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=addyBlockFilled: 300×140, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
 - Device=Mobile, Flavor=ZipAddyBlockFilled: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
 - Device=Mobile, Flavor=ZipPhoneBlockFilled: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=addyBlockFilled: 480×201, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=ZipAddyBlockFilled: 480×113, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=ZipPhoneBlockFilled: 480×113, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=addyBlockFilled: 480×201, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=ZipAddyBlockFilled: 480×113, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=ZipPhoneBlockFilled: 480×113, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=addyBlockBlank: 276×199, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=FOLD, Flavor=ZipAddyBlockBlank: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=FOLD, Flavor=ZipPhoneBlockBlank: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
@@ -289,52 +289,52 @@ exported: 2026-09-24
 - Device=Mobile, Flavor=LastNameBlank: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
 - Device=Mobile, Flavor=FLNameFilled: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
 - Device=Mobile, Flavor=LastNameFilled: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=addyBlockBlank: 480×181, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=ZipAddyBlockBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=ZipPhoneBlockBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=FLNameBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=LastNameBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=FLNameFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=LastNameFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=addyBlockBlank: 480×181, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=ZipAddyBlockBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=ZipPhoneBlockBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=FLNameBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=LastNameBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=FLNameFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=LastNameFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=CCdeetsFilled: 259×83, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=CCdeetsFilled: 238×83, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=CCdeetsFilled: 270×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=CCdeetsFilled: 270×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=CCdeetsBlank: 260×83, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=CCdeetsBlank: 244×83, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=CCdeetsBlank: 294×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=CCdeetsBlank: 294×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=CCnumFilled: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=FOLD, Flavor=AcctNumFilled: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=CCnumFilled: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
 - Device=Mobile, Flavor=AcctNumFilled: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=CCnumFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=AcctNumFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=CCnumFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=AcctNumFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=CCnumBlank: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=FOLD, Flavor=AcctNumBlank: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=CCnumBlank: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
 - Device=Mobile, Flavor=AcctNumBlank: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=CCnumBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=AcctNumBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=CCnumBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=AcctNumBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=PINfilled: 200×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=PINfilled: 200×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=PINfilled: 236×107, vertical gap 2 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=PINfilled: 236×107, vertical gap 2 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=PINblank: 200×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=PINblank: 200×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=PINblank: 236×107, vertical gap 2 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=PINblank: 236×107, vertical gap 2 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=EmailFilled: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=EmailFilled: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=EmailFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=EmailFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=EmailBlank: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=EmailBlank: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=EmailBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=EmailBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=subNameFilled: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=subNameFilled: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=subNameFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=subNameFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=subNameBlank: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=subNameBlank: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=subNameBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=subNameBlank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=Mobile, Flavor=displayNameFilled: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
 - Device=FOLD, Flavor=displayNameFilled: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
-- Device=Desktop, Flavor=displayNameFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=displayNameFilled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=displayNameBlank: 276×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=FOLD, Flavor=PasswordNewBlank: 276×211, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=FOLD, Flavor=PasswordEmpty: 276×123, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — renders at 340
@@ -342,37 +342,32 @@ exported: 2026-09-24
 - Device=FOLD, Flavor=PasswordFilled: 276×123, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=PasswordNewFilled: 300×211, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
 - Device=Mobile, Flavor=PasswordFilled: 300×123, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=PasswordNewFilled: 480×249, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=PasswordFilled: 480×142, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=PasswordNewFilled: 480×249, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=PasswordFilled: 480×142, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=Mobile, Flavor=PasswordNewBlank: 300×211, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
 - Device=Mobile, Flavor=PasswordEmpty: 300×123, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=displayNameBlank: 480×107, vertical gap 2 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=PasswordNewBlank: 480×249, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
-- Device=Desktop, Flavor=PasswordEmpty: 480×144, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=displayNameBlank: 480×107, vertical gap 2 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=PasswordNewBlank: 480×249, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop, Flavor=PasswordEmpty: 480×144, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=Mobile, Flavor=displayNameBlank: 300×81, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
 - Device=FOLD, Flavor=IconTitle: 276×85, vertical gap 2 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=IconTitle: 300×85, vertical gap 2 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=IconTitle: 480×107, vertical gap 2 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=IconTitle: 480×107, vertical gap 2 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 - Device=FOLD, Flavor=basic: 276×85, vertical gap 2 pad 0/0/0/0 main CENTER cross MIN — renders at 340
 - Device=Mobile, Flavor=basic: 300×85, vertical gap 2 pad 0/0/0/0 main CENTER cross MIN — renders at 360, 768
-- Device=Desktop, Flavor=basic: 480×107, vertical gap 2 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Device=Desktop, Flavor=basic: 480×107, vertical gap 2 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
 
 ## Dependencies
 
 **Built from:**
 
-- CheckBox ×6 _(not in this export)_
-- Icons ×83 _(not in this export)_
-- Button Linkstyle ×6 _(not in this export)_
+- CheckBox ×1 _(not in this export)_
+- Icons ×4 _(not in this export)_
+- Button Linkstyle ×1 _(not in this export)_
 
 **Built into:**
 
-- [Form Field Assembly / Name pair](../../assemblies/42-form-field-assembly-name-pair/form-field-assembly-name-pair.md)
-- [Form Field Assembly / Zip + Street #](../../assemblies/43-form-field-assembly-zip-street/form-field-assembly-zip-street.md)
-- [Form Field Assembly / Zip + Phone](../../assemblies/44-form-field-assembly-zip-phone/form-field-assembly-zip-phone.md)
-- [Form Field Assembly / Address block](../../assemblies/45-form-field-assembly-address-block/form-field-assembly-address-block.md)
-- [Form Field Assembly / CC details](../../assemblies/46-form-field-assembly-cc-details/form-field-assembly-cc-details.md)
-- [Form Field Assembly / Password](../../assemblies/47-form-field-assembly-password/form-field-assembly-password.md)
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -427,7 +422,206 @@ exported: 2026-09-24
     - Error Message Text. — text 300×22 (fill/hug) "Please accept terms and conditions."
 ```
 
-_99 more variants — full layer trees are in `form-field-dashboard-mockup-set.json` → `variants[].layerTree`._
+**Device=FOLD, Flavor=chckBoxWordsFilled**
+
+```
+- Device=FOLD, Flavor=chckBoxWordsFilled — component 276×133 [vertical gap 0] (fixed/hug)
+  - Main Container — frame 276×111 [horizontal gap 0] (fill/hug)
+    - Checkbox Container — frame 40×111 [vertical gap 8] (hug/fill)
+      - CheckBox — instance 40×40 [horizontal gap 8] (fixed/fixed) → CheckBox [status=selected, inFocus=False, interaction=Default]
+    - Text Container — frame 236×111 [vertical gap 0] (fill/hug)
+      - SubExclusive Container — frame 440×13 [horizontal gap 8] (fixed/hug) (hidden)
+        - SubExclusiveBadge — frame 138×11 [horizontal gap 8] (hug/hug)
+          - Subscriber Exclusive — text 134×7 (hug/hug) "Subscriber Exclusive"
+      - Text Body — frame 236×95 [horizontal gap 8] (fill/hug)
+        - Text — text 236×95 (fill/hug) "I agree to Terms and Conditions. Terms o"
+  - Error Message Container — frame 276×22 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 276×22 (fill/hug) "Please accept terms and conditions."
+```
+
+**Device=Desktop, Flavor=chckBoxWordsFilled**
+
+```
+- Device=Desktop, Flavor=chckBoxWordsFilled — component 480×98 [vertical gap 0] (fixed/hug)
+  - Main Container — frame 480×73 [horizontal gap 0] (fill/hug)
+    - Checkbox Container — frame 40×73 [vertical gap 8] (hug/fill)
+      - CheckBox — instance 40×40 [horizontal gap 8] (fixed/fixed) → CheckBox [status=selected, inFocus=False, interaction=Default]
+    - Text Container — frame 440×73 [vertical gap 0] (fill/hug)
+      - SubExclusive Container — frame 440×13 [horizontal gap 8] (fixed/hug) (hidden)
+        - SubExclusiveBadge — frame 138×11 [horizontal gap 8] (hug/hug)
+          - Subscriber Exclusive — text 134×7 (hug/hug) "Subscriber Exclusive"
+      - Text Body — frame 440×57 [horizontal gap 8] (fill/hug)
+        - Text — text 440×57 (fill/hug) "I agree to Terms and Conditions. Terms o"
+  - Error Message Container — frame 480×25 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 480×25 (fill/hug) "Please accept terms and conditions."
+```
+
+**Device=Desktop, Flavor=chckBoxWordsBlank**
+
+```
+- Device=Desktop, Flavor=chckBoxWordsBlank — component 480×98 [vertical gap 0] (fixed/hug)
+  - Main Container — frame 480×73 [horizontal gap 0] (fill/hug)
+    - Checkbox Container — frame 40×73 [vertical gap 8] (hug/fill)
+      - CheckBox — instance 40×40 [horizontal gap 8] (fixed/fixed) → CheckBox [status=unselected, inFocus=False, interaction=Default]
+    - Text Container — frame 440×73 [vertical gap 0] (fill/hug)
+      - SubExclusive Container — frame 440×13 [horizontal gap 8] (fixed/hug) (hidden)
+        - SubExclusiveBadge — frame 138×11 [horizontal gap 8] (hug/hug)
+          - Subscriber Exclusive — text 134×7 (hug/hug) "Subscriber Exclusive"
+      - Text Body — frame 440×57 [horizontal gap 8] (fill/hug)
+        - Text — text 440×57 (fill/hug) "I agree to Terms and Conditions. Terms o"
+  - Error Message Container — frame 480×25 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 480×25 (fill/hug) "Please accept terms and conditions."
+```
+
+**Device=FOLD, Flavor=phoneFilled**
+
+```
+- Device=FOLD, Flavor=phoneFilled — component 276×81 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 276×19 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 276×19 [horizontal gap 8] (fill/hug)
+      - Label — text 276×19 (fill/hug) "Phone Number (optional)"
+  - Input Field Container — frame 276×40 [horizontal gap 0] (fill/hug)
+    - icon frame — frame 40×40 [vertical gap 8] (fixed/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=phone]
+    - Input Field — frame 236×40 [horizontal gap 0] (fill/fixed)
+      - Text Container — frame 204×22 [horizontal gap 8] (fill/hug)
+        - Input Text — text 204×22 (fill/hug) "585-352-8290"
+      - Icons — instance 40.3×28 [horizontal gap 8] (hug/hug) → Icons [Name=MastcardSMALL] (hidden)
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+  - Error Message Container — frame 276×22 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 276×22 (fill/hug) "Error message text."
+```
+
+**Device=Mobile, Flavor=phoneFilled**
+
+```
+- Device=Mobile, Flavor=phoneFilled — component 300×81 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 300×19 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 300×19 [horizontal gap 8] (fill/hug)
+      - Label — text 300×19 (fill/hug) "Phone Number (optional)"
+  - Input Field Container — frame 300×40 [horizontal gap 0] (fill/hug)
+    - icon frame — frame 40×40 [vertical gap 8] (fixed/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=phone]
+    - Input Field — frame 260×40 [horizontal gap 0] (fill/fixed)
+      - Text Container — frame 228×22 [horizontal gap 8] (fill/hug)
+        - Input Text — text 228×22 (fill/hug) "585-352-8290"
+      - Icons — instance 40.3×28 [horizontal gap 8] (hug/hug) → Icons [Name=MastcardSMALL] (hidden)
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+  - Error Message Container — frame 300×22 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 300×22 (fill/hug) "Error message text."
+```
+
+**Device=Desktop, Flavor=phoneFilled**
+
+```
+- Device=Desktop, Flavor=phoneFilled — component 480×103 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 480×22 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 480×22 [horizontal gap 8] (fill/hug)
+      - Label — text 480×22 (fill/hug) "Phone Number (optional)"
+  - Input Field Container — frame 480×56 [horizontal gap 0] (fill/fixed)
+    - icon frame — frame 56×56 [vertical gap 8] (hug/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=phone]
+    - Input Field — frame 424×56 [horizontal gap 8] (fill/fixed)
+      - Text Container — frame 115×25 [horizontal gap 8] (hug/hug)
+        - Input Text — text 115×25 (hug/hug) "585-352-8290"
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+  - Error Message Container — frame 480×25 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 480×25 (fill/hug) "Error message text."
+```
+
+**Device=FOLD, Flavor=phoneBlank**
+
+```
+- Device=FOLD, Flavor=phoneBlank — component 276×81 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 276×19 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 276×19 [horizontal gap 8] (fill/hug)
+      - Label — text 276×19 (fill/hug) "Phone Number (optional)"
+  - Input Field Container — frame 276×40 [horizontal gap 0] (fill/hug)
+    - icon frame — frame 40×40 [vertical gap 8] (fixed/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=phone]
+    - Input Field — frame 236×40 [horizontal gap 0] (fill/fixed)
+      - Text Container — frame 204×22 [horizontal gap 8] (fill/hug)
+        - Placeholder Text — text 204×22 (fill/hug) "###-###-####"
+      - Icons — instance 40.3×28 [horizontal gap 8] (hug/hug) → Icons [Name=MastcardSMALL] (hidden)
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+  - Error Message Container — frame 276×22 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 276×22 (fill/hug) "Error message text."
+```
+
+**Device=Mobile, Flavor=phoneBlank**
+
+```
+- Device=Mobile, Flavor=phoneBlank — component 300×81 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 300×19 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 300×19 [horizontal gap 8] (fill/hug)
+      - Label — text 300×19 (fill/hug) "Phone Number (optional)"
+  - Input Field Container — frame 300×40 [horizontal gap 0] (fill/hug)
+    - icon frame — frame 40×40 [vertical gap 8] (fixed/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=phone]
+    - Input Field — frame 260×40 [horizontal gap 0] (fill/fixed)
+      - Text Container — frame 228×22 [horizontal gap 8] (fill/hug)
+        - Placeholder Text — text 228×22 (fill/hug) "###-###-####"
+      - Icons — instance 40.3×28 [horizontal gap 8] (hug/hug) → Icons [Name=MastcardSMALL] (hidden)
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+  - Error Message Container — frame 300×22 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 300×22 (fill/hug) "Error message text."
+```
+
+**Device=Desktop, Flavor=phoneBlank**
+
+```
+- Device=Desktop, Flavor=phoneBlank — component 480×103 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 480×22 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 480×22 [horizontal gap 8] (fill/hug)
+      - Label — text 480×22 (fill/hug) "Phone Number (optional)"
+  - Input Field Container — frame 480×56 [horizontal gap 0] (fill/fixed)
+    - icon frame — frame 56×56 [vertical gap 8] (hug/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=phone]
+    - Input Field — frame 424×56 [horizontal gap 8] (fill/fixed)
+      - Text Container — frame 128×25 [horizontal gap 8] (hug/hug)
+        - Placeholder — text 128×25 (hug/hug) "###-###-####"
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+  - Error Message Container — frame 480×25 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 480×25 (fill/hug) "Error message text."
+```
+
+_90 more variants — see `variants[].layerTree` in form-field-dashboard-mockup-set.json._
 
 ## Size & layout
 
@@ -538,85 +732,86 @@ _99 more variants — full layer trees are in `form-field-dashboard-mockup-set.j
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Subscriber Exclusive | Noto Sans | SemiBold | 10 | 22.652000427246094px | 10% | UPPER | #FFFFFF |  |  | Subscriber Exclusive |
-| Text | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | I agree to Terms and Conditions. Terms of service  |
-| Text | Noto Sans | Italic | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | I agree to Terms and Conditions. Terms of service  |
-| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Please accept terms and conditions. |
-| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Please accept terms and conditions. |
-| Label | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | Phone Number (optional) |
-| Input Text | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | 585-352-8290 |
-| Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Phone Number (optional) |
-| Input Text | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  | 585-352-8290 |
-| Placeholder Text | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | ###-###-#### |
-| Placeholder | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | ###-###-#### |
-| Street Address Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Street Address |
-| Street Address Input | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  | 27 Hiawatha Trail |
-| City Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | City |
-| City Input | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  | Spencerport |
-| State Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | State |
-| State Input | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  | NY |
-| Zip Code Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Zip Code |
-| Zip Code Input | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  | 14559 |
-| Input | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | 123456 Street Name |
-| Input | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | 123456 |
-| Input | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Philip |
-| Input Text | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | 123456 Street Name |
-| Input Text | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | 123456 |
-| Street Address Input | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | 123456 Street Name Street type Blvd |
-| City Input | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | City Name Here  |
-| State Input | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | ST |
-| Zip Code Input | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | ##### |
-| Exp. Date Label | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | Exp. Date |
-| Exp. Date Value | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | 04/11 |
-| CVV Label | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | CVV |
-| CVV Value | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | 1234 |
-| Zip Code Label | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | Zip Code |
-| Zip Code Value | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | 80239 |
-| Exp. Date Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Exp. Date |
-| Exp. Date Value | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  | 04/11 |
-| CVV Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | CVV |
-| CVV Value | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  | 1234 |
-| Zip Code Value | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  | 80239 |
-| Exp. Date Placeholder | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | MM/YY |
-| CVV Placeholder | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | #### |
-| Zip Code Placeholder | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | ##### |
-| Exp. Date Placeholder | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | MM/YY |
-| CVV Placeholder | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | #### |
-| Zip Code Placeholder | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | ##### |
-| Credit Card Number | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | Credit Card Number |
-| Credit Card Number Value | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | 4011 5678 9102 1234 |
-| Print Account Number | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | Print Account Number |
-| Input Value | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  | 4011 5678 9102 1234 |
-| Placeholder Text | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | #### #### #### #### |
-| Digit | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | 1 |
-| Digit | Noto Sans | Bold | 18 | auto |  |  | #141414 | Colors/color/gray/min |  | 1 |
-| 1 | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | 1 |
-| 2 | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | 2 |
-| 3 | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | 3 |
-| 4 | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | 4 |
-| 5 | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | 5 |
-| 6 | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | 6 |
-| Verification Code | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | Verification Code |
-| Verification Code | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Verification Code |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Subscriber Exclusive | Noto Sans | SemiBold | 10 | 22.65px | 10% | UPPER | #FFFFFF | Colors/color/gray/max |  |  | Subscriber Exclusive | Device=Mobile, Flavor=chckBoxWordsBlank, Device=FOLD, Flavor=chckBoxWordsBlank, Device=Mobile, Flavor=chckBoxWordsFilled, Device=FOLD, Flavor=chckBoxWordsFilled, Device=Desktop, Flavor=chckBoxWordsFilled, Device=Desktop, Flavor=chckBoxWordsBlank |
+| Text | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | I agree to  | Device=Mobile, Flavor=chckBoxWordsBlank, Device=FOLD, Flavor=chckBoxWordsBlank, Device=Mobile, Flavor=chckBoxWordsFilled, Device=FOLD, Flavor=chckBoxWordsFilled, Device=Desktop, Flavor=chckBoxWordsFilled, Device=Desktop, Flavor=chckBoxWordsBlank |
+| Text | Noto Sans | Italic | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Terms and Conditions | Device=Mobile, Flavor=chckBoxWordsBlank, Device=FOLD, Flavor=chckBoxWordsBlank, Device=Mobile, Flavor=chckBoxWordsFilled, Device=FOLD, Flavor=chckBoxWordsFilled, Device=Desktop, Flavor=chckBoxWordsFilled, Device=Desktop, Flavor=chckBoxWordsBlank |
+| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Please accept terms and conditions. | Device=Mobile, Flavor=chckBoxWordsBlank, Device=FOLD, Flavor=chckBoxWordsBlank, Device=Mobile, Flavor=chckBoxWordsFilled, Device=FOLD, Flavor=chckBoxWordsFilled, Device=FOLD, Flavor=phoneFilled, Device=Mobile, Flavor=phoneFilled, Device=FOLD, Flavor=phoneBlank, Device=Mobile, Flavor=phoneBlank, Device=FOLD, Flavor=addyBlockFilled, Device=FOLD, Flavor=ZipAddyBlockFilled, Device=FOLD, Flavor=ZipPhoneBlockFilled, Device=Mobile, Flavor=addyBlockFilled, Device=Mobile, Flavor=ZipAddyBlockFilled, Device=Mobile, Flavor=ZipPhoneBlockFilled, Device=FOLD, Flavor=addyBlockBlank, Device=FOLD, Flavor=ZipAddyBlockBlank, Device=FOLD, Flavor=ZipPhoneBlockBlank, Device=FOLD, Flavor=FLNameBlank, Device=FOLD, Flavor=LastNameBlank, Device=FOLD, Flavor=FLNameFilled, Device=FOLD, Flavor=LastNameFilled, Device=Mobile, Flavor=addyBlockBlank, Device=Mobile, Flavor=ZipAddyBlockBlank, Device=Mobile, Flavor=ZipPhoneBlockBlank, Device=Mobile, Flavor=FLNameBlank, Device=Mobile, Flavor=LastNameBlank, Device=Mobile, Flavor=FLNameFilled, Device=Mobile, Flavor=LastNameFilled, Device=FOLD, Flavor=CCdeetsFilled, Device=Mobile, Flavor=CCdeetsFilled, Device=FOLD, Flavor=CCdeetsBlank, Device=Mobile, Flavor=CCdeetsBlank, Device=FOLD, Flavor=CCnumFilled, Device=FOLD, Flavor=AcctNumFilled, Device=Mobile, Flavor=CCnumFilled, Device=Mobile, Flavor=AcctNumFilled, Device=FOLD, Flavor=CCnumBlank, Device=FOLD, Flavor=AcctNumBlank, Device=Mobile, Flavor=CCnumBlank, Device=Mobile, Flavor=AcctNumBlank, Device=FOLD, Flavor=PINfilled, Device=Mobile, Flavor=PINfilled, Device=FOLD, Flavor=PINblank, Device=Mobile, Flavor=PINblank, Device=FOLD, Flavor=EmailFilled, Device=Mobile, Flavor=EmailFilled, Device=FOLD, Flavor=EmailBlank, Device=Mobile, Flavor=EmailBlank, Device=FOLD, Flavor=subNameFilled, Device=Mobile, Flavor=subNameFilled, Device=FOLD, Flavor=subNameBlank, Device=Mobile, Flavor=subNameBlank, Device=Mobile, Flavor=displayNameFilled, Device=FOLD, Flavor=displayNameFilled, Device=FOLD, Flavor=displayNameBlank, Device=FOLD, Flavor=PasswordNewBlank, Device=FOLD, Flavor=PasswordEmpty, Device=FOLD, Flavor=PasswordNewFilled, Device=FOLD, Flavor=PasswordFilled, Device=Mobile, Flavor=PasswordNewFilled, Device=Mobile, Flavor=PasswordFilled, Device=Desktop, Flavor=PasswordNewFilled, Device=Desktop, Flavor=PasswordFilled, Device=Mobile, Flavor=PasswordNewBlank, Device=Mobile, Flavor=PasswordEmpty, Device=Desktop, Flavor=PasswordNewBlank, Device=Desktop, Flavor=PasswordEmpty, Device=Mobile, Flavor=displayNameBlank, Device=FOLD, Flavor=IconTitle, Device=Mobile, Flavor=IconTitle, Device=FOLD, Flavor=basic, Device=Mobile, Flavor=basic |
+| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Please accept terms and conditions. | Device=Desktop, Flavor=chckBoxWordsFilled, Device=Desktop, Flavor=chckBoxWordsBlank, Device=Desktop, Flavor=phoneFilled, Device=Desktop, Flavor=phoneBlank, Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=ZipAddyBlockFilled, Device=Desktop, Flavor=ZipPhoneBlockFilled, Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=ZipAddyBlockBlank, Device=Desktop, Flavor=ZipPhoneBlockBlank, Device=Desktop, Flavor=FLNameBlank, Device=Desktop, Flavor=LastNameBlank, Device=Desktop, Flavor=FLNameFilled, Device=Desktop, Flavor=LastNameFilled, Device=Desktop, Flavor=CCdeetsFilled, Device=Desktop, Flavor=CCdeetsBlank, Device=Desktop, Flavor=CCnumFilled, Device=Desktop, Flavor=AcctNumFilled, Device=Desktop, Flavor=CCnumBlank, Device=Desktop, Flavor=AcctNumBlank, Device=Desktop, Flavor=PINfilled, Device=Desktop, Flavor=PINblank, Device=Desktop, Flavor=EmailFilled, Device=Desktop, Flavor=EmailBlank, Device=Desktop, Flavor=subNameFilled, Device=Desktop, Flavor=subNameBlank, Device=Desktop, Flavor=displayNameFilled, Device=Desktop, Flavor=displayNameBlank, Device=Desktop, Flavor=IconTitle, Device=Desktop, Flavor=basic |
+| Label | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Phone Number (optional) | Device=FOLD, Flavor=phoneFilled, Device=Mobile, Flavor=phoneFilled, Device=FOLD, Flavor=phoneBlank, Device=Mobile, Flavor=phoneBlank, Device=FOLD, Flavor=addyBlockFilled, Device=FOLD, Flavor=ZipAddyBlockFilled, Device=FOLD, Flavor=ZipPhoneBlockFilled, Device=Mobile, Flavor=addyBlockFilled, Device=Mobile, Flavor=ZipAddyBlockFilled, Device=Mobile, Flavor=ZipPhoneBlockFilled, Device=FOLD, Flavor=addyBlockBlank, Device=FOLD, Flavor=ZipAddyBlockBlank, Device=FOLD, Flavor=ZipPhoneBlockBlank, Device=FOLD, Flavor=FLNameBlank, Device=FOLD, Flavor=LastNameBlank, Device=FOLD, Flavor=FLNameFilled, Device=FOLD, Flavor=LastNameFilled, Device=Mobile, Flavor=addyBlockBlank, Device=Mobile, Flavor=ZipAddyBlockBlank, Device=Mobile, Flavor=ZipPhoneBlockBlank, Device=Mobile, Flavor=FLNameBlank, Device=Mobile, Flavor=LastNameBlank, Device=Mobile, Flavor=FLNameFilled, Device=Mobile, Flavor=LastNameFilled, Device=FOLD, Flavor=CCnumFilled, Device=FOLD, Flavor=AcctNumFilled, Device=FOLD, Flavor=PINfilled, Device=Mobile, Flavor=PINfilled, Device=FOLD, Flavor=PINblank, Device=FOLD, Flavor=EmailFilled, Device=Mobile, Flavor=EmailFilled, Device=FOLD, Flavor=EmailBlank, Device=Mobile, Flavor=EmailBlank, Device=FOLD, Flavor=subNameFilled, Device=Mobile, Flavor=subNameFilled, Device=FOLD, Flavor=subNameBlank, Device=Mobile, Flavor=subNameBlank, Device=Mobile, Flavor=displayNameFilled, Device=FOLD, Flavor=displayNameFilled, Device=FOLD, Flavor=displayNameBlank, Device=Mobile, Flavor=displayNameBlank, Device=FOLD, Flavor=IconTitle, Device=Mobile, Flavor=IconTitle, Device=FOLD, Flavor=basic, Device=Mobile, Flavor=basic |
+| Input Text | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 585-352-8290 | Device=FOLD, Flavor=phoneFilled, Device=Mobile, Flavor=phoneFilled, Device=FOLD, Flavor=addyBlockFilled, Device=Mobile, Flavor=addyBlockFilled, Device=Mobile, Flavor=FLNameFilled, Device=Mobile, Flavor=LastNameFilled, Device=FOLD, Flavor=CCnumFilled, Device=FOLD, Flavor=AcctNumFilled, Device=FOLD, Flavor=EmailFilled, Device=Mobile, Flavor=EmailFilled, Device=FOLD, Flavor=subNameFilled, Device=Mobile, Flavor=subNameFilled, Device=Mobile, Flavor=displayNameFilled, Device=FOLD, Flavor=displayNameFilled |
+| Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Phone Number (optional) | Device=Desktop, Flavor=phoneFilled, Device=Desktop, Flavor=phoneBlank, Device=Desktop, Flavor=CCnumFilled, Device=Desktop, Flavor=AcctNumFilled, Device=Desktop, Flavor=CCnumBlank, Device=Desktop, Flavor=PINfilled, Device=Desktop, Flavor=EmailFilled, Device=Desktop, Flavor=EmailBlank, Device=Desktop, Flavor=subNameFilled, Device=Desktop, Flavor=subNameBlank, Device=Desktop, Flavor=displayNameFilled, Device=Desktop, Flavor=displayNameBlank, Device=Desktop, Flavor=IconTitle, Device=Desktop, Flavor=basic |
+| Input Text | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 585-352-8290 | Device=Desktop, Flavor=phoneFilled, Device=FOLD, Flavor=addyBlockFilled, Device=FOLD, Flavor=ZipAddyBlockFilled, Device=FOLD, Flavor=ZipPhoneBlockFilled, Device=Mobile, Flavor=addyBlockFilled, Device=Mobile, Flavor=ZipAddyBlockFilled, Device=Mobile, Flavor=ZipPhoneBlockFilled, Device=Desktop, Flavor=EmailFilled, Device=Desktop, Flavor=subNameFilled, Device=Desktop, Flavor=displayNameFilled |
+| Placeholder Text | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | ###-###-#### | Device=FOLD, Flavor=phoneBlank, Device=Mobile, Flavor=phoneBlank, Device=FOLD, Flavor=CCnumBlank, Device=FOLD, Flavor=AcctNumBlank, Device=Mobile, Flavor=CCnumBlank, Device=Mobile, Flavor=AcctNumBlank, Device=Mobile, Flavor=EmailBlank, Device=FOLD, Flavor=IconTitle, Device=Mobile, Flavor=IconTitle, Device=FOLD, Flavor=basic, Device=Mobile, Flavor=basic |
+| Placeholder | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | ###-###-#### | Device=Desktop, Flavor=phoneBlank |
+| Street Address Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Street Address | Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=ZipAddyBlockFilled, Device=Desktop, Flavor=ZipPhoneBlockFilled, Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=ZipAddyBlockBlank, Device=Desktop, Flavor=ZipPhoneBlockBlank |
+| Street Address Input | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 27 Hiawatha Trail | Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=ZipAddyBlockFilled, Device=Desktop, Flavor=ZipPhoneBlockFilled |
+| City Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | City | Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=FLNameBlank, Device=Desktop, Flavor=FLNameFilled |
+| City Input | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Spencerport | Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=FLNameFilled |
+| State Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | State | Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=FLNameBlank, Device=Desktop, Flavor=LastNameBlank, Device=Desktop, Flavor=FLNameFilled, Device=Desktop, Flavor=LastNameFilled |
+| State Input | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | NY | Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=FLNameFilled, Device=Desktop, Flavor=LastNameFilled |
+| Zip Code Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Zip Code | Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=ZipAddyBlockFilled, Device=Desktop, Flavor=ZipPhoneBlockFilled, Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=ZipAddyBlockBlank, Device=Desktop, Flavor=ZipPhoneBlockBlank, Device=Desktop, Flavor=CCdeetsFilled, Device=Desktop, Flavor=CCdeetsBlank, Device=Desktop, Flavor=AcctNumBlank |
+| Zip Code Input | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 14559 | Device=Desktop, Flavor=addyBlockFilled, Device=Desktop, Flavor=ZipAddyBlockFilled, Device=Desktop, Flavor=ZipPhoneBlockFilled |
+| Input | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | 123456 Street Name | Device=FOLD, Flavor=addyBlockBlank, Device=FOLD, Flavor=ZipAddyBlockBlank, Device=FOLD, Flavor=ZipPhoneBlockBlank, Device=FOLD, Flavor=FLNameBlank, Device=FOLD, Flavor=LastNameBlank |
+| Input | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | 123456 | Device=FOLD, Flavor=ZipAddyBlockBlank, Device=FOLD, Flavor=ZipPhoneBlockBlank |
+| Input | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Philip | Device=FOLD, Flavor=FLNameFilled, Device=FOLD, Flavor=LastNameFilled |
+| Input Text | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | 123456 Street Name | Device=Mobile, Flavor=addyBlockBlank, Device=Mobile, Flavor=ZipAddyBlockBlank, Device=Mobile, Flavor=ZipPhoneBlockBlank, Device=Mobile, Flavor=FLNameBlank, Device=Mobile, Flavor=LastNameBlank, Device=FOLD, Flavor=EmailBlank, Device=FOLD, Flavor=subNameBlank, Device=Mobile, Flavor=subNameBlank |
+| Input Text | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | 123456 | Device=Mobile, Flavor=ZipAddyBlockBlank, Device=Mobile, Flavor=ZipPhoneBlockBlank, Device=Desktop, Flavor=EmailBlank, Device=Desktop, Flavor=subNameBlank |
+| Street Address Input | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | 123456 Street Name Street type Blvd | Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=ZipAddyBlockBlank, Device=Desktop, Flavor=ZipPhoneBlockBlank |
+| City Input | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | City Name Here  | Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=FLNameBlank |
+| State Input | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | ST | Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=FLNameBlank, Device=Desktop, Flavor=LastNameBlank |
+| Zip Code Input | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | ##### | Device=Desktop, Flavor=addyBlockBlank, Device=Desktop, Flavor=ZipAddyBlockBlank, Device=Desktop, Flavor=ZipPhoneBlockBlank, Device=Desktop, Flavor=AcctNumBlank |
+| Exp. Date Label | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Exp. Date | Device=FOLD, Flavor=CCdeetsFilled, Device=Mobile, Flavor=CCdeetsFilled, Device=FOLD, Flavor=CCdeetsBlank, Device=Mobile, Flavor=CCdeetsBlank |
+| Exp. Date Value | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 04/11 | Device=FOLD, Flavor=CCdeetsFilled, Device=Mobile, Flavor=CCdeetsFilled |
+| CVV Label | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | CVV | Device=FOLD, Flavor=CCdeetsFilled, Device=Mobile, Flavor=CCdeetsFilled, Device=FOLD, Flavor=CCdeetsBlank, Device=Mobile, Flavor=CCdeetsBlank |
+| CVV Value | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 1234 | Device=FOLD, Flavor=CCdeetsFilled, Device=Mobile, Flavor=CCdeetsFilled |
+| Zip Code Label | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Zip Code | Device=FOLD, Flavor=CCdeetsFilled, Device=Mobile, Flavor=CCdeetsFilled, Device=FOLD, Flavor=CCdeetsBlank, Device=Mobile, Flavor=CCdeetsBlank |
+| Zip Code Value | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 80239 | Device=FOLD, Flavor=CCdeetsFilled, Device=Mobile, Flavor=CCdeetsFilled |
+| Exp. Date Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Exp. Date | Device=Desktop, Flavor=CCdeetsFilled, Device=Desktop, Flavor=CCdeetsBlank |
+| Exp. Date Value | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 04/11 | Device=Desktop, Flavor=CCdeetsFilled |
+| CVV Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | CVV | Device=Desktop, Flavor=CCdeetsFilled, Device=Desktop, Flavor=CCdeetsBlank |
+| CVV Value | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 1234 | Device=Desktop, Flavor=CCdeetsFilled |
+| Zip Code Value | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 80239 | Device=Desktop, Flavor=CCdeetsFilled |
+| Exp. Date Placeholder | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | MM/YY | Device=FOLD, Flavor=CCdeetsBlank, Device=Mobile, Flavor=CCdeetsBlank |
+| CVV Placeholder | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | #### | Device=FOLD, Flavor=CCdeetsBlank, Device=Mobile, Flavor=CCdeetsBlank |
+| Zip Code Placeholder | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | ##### | Device=FOLD, Flavor=CCdeetsBlank, Device=Mobile, Flavor=CCdeetsBlank |
+| Exp. Date Placeholder | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | MM/YY | Device=Desktop, Flavor=CCdeetsBlank |
+| CVV Placeholder | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | #### | Device=Desktop, Flavor=CCdeetsBlank |
+| Zip Code Placeholder | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | ##### | Device=Desktop, Flavor=CCdeetsBlank |
+| Credit Card Number | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Credit Card Number | Device=Mobile, Flavor=CCnumFilled, Device=FOLD, Flavor=CCnumBlank, Device=Mobile, Flavor=CCnumBlank |
+| Credit Card Number Value | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 4011 5678 9102 1234 | Device=Mobile, Flavor=CCnumFilled, Device=Mobile, Flavor=AcctNumFilled |
+| Print Account Number | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Print Account Number | Device=Mobile, Flavor=AcctNumFilled, Device=FOLD, Flavor=AcctNumBlank, Device=Mobile, Flavor=AcctNumBlank |
+| Input Value | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 4011 5678 9102 1234 | Device=Desktop, Flavor=CCnumFilled, Device=Desktop, Flavor=AcctNumFilled |
+| Placeholder Text | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | #### #### #### #### | Device=Desktop, Flavor=CCnumBlank, Device=Desktop, Flavor=displayNameBlank, Device=Desktop, Flavor=IconTitle, Device=Desktop, Flavor=basic |
+| Digit | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 1 | Device=FOLD, Flavor=PINfilled, Device=Mobile, Flavor=PINfilled |
+| Digit | Noto Sans | Bold | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 1 | Device=Desktop, Flavor=PINfilled |
+| 1 | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 1 | Device=FOLD, Flavor=PINblank, Device=Mobile, Flavor=PINblank |
+| 2 | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 2 | Device=FOLD, Flavor=PINblank, Device=Mobile, Flavor=PINblank |
+| 3 | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 3 | Device=FOLD, Flavor=PINblank, Device=Mobile, Flavor=PINblank |
+| 4 | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 4 | Device=FOLD, Flavor=PINblank, Device=Mobile, Flavor=PINblank |
+| 5 | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 5 | Device=FOLD, Flavor=PINblank, Device=Mobile, Flavor=PINblank |
+| 6 | Noto Sans | Bold | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 6 | Device=FOLD, Flavor=PINblank, Device=Mobile, Flavor=PINblank |
+| Verification Code | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Verification Code | Device=Mobile, Flavor=PINblank |
+| Verification Code | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Verification Code | Device=Desktop, Flavor=PINblank |
 
-_12 more rows in JSON._
+_12 more rows in form-field-dashboard-mockup-set.json → typography._
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| SubExclusiveBadge | fill | SOLID | #007580 | ⚠ unbound |  |  |
-| Vector | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
+| SubExclusiveBadge | fill | SOLID | #007580 | Colors/color/theme/primary |  |  |
+| Label Icon | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
 | icon frame | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
 | icon frame | stroke | SOLID | #A7A6A3 | Colors/color/gray/400 |  |  |
 | Input Field | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Input Field | stroke | SOLID | #A7A6A3 | Colors/color/gray/400 |  |  |
-| Union | fill | SOLID | #000000 | ⚠ unbound |  |  |
-| Line 71 (Stroke) | fill | SOLID | #000000 | ⚠ unbound |  |  |
-| Line 72 (Stroke) | fill | SOLID | #000000 | ⚠ unbound |  |  |
-| Line 73 (Stroke) | fill | SOLID | #000000 | ⚠ unbound |  |  |
+| Icons | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Cursor | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
+| Line 71 (Stroke) | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
+| Line 72 (Stroke) | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
+| Line 73 (Stroke) | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
 
 ## Image ratios
 
@@ -632,8 +827,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- 93 of 102 variants have no instances anywhere in MNG Design System (unused, or used only from another file): `Device=Mobile, Flavor=chckBoxWordsBlank`, `Device=FOLD, Flavor=chckBoxWordsBlank`, `Device=Mobile, Flavor=chckBoxWordsFilled`, `Device=FOLD, Flavor=chckBoxWordsFilled`, `Device=Desktop, Flavor=chckBoxWordsFilled`, `Device=Desktop, Flavor=chckBoxWordsBlank`, `Device=FOLD, Flavor=phoneFilled`, `Device=Mobile, Flavor=phoneFilled`, `Device=Desktop, Flavor=phoneFilled`, `Device=Desktop, Flavor=phoneBlank`, `Device=FOLD, Flavor=addyBlockFilled`, `Device=FOLD, Flavor=ZipAddyBlockFilled`, `Device=FOLD, Flavor=ZipPhoneBlockFilled`, `Device=Mobile, Flavor=addyBlockFilled`, `Device=Mobile, Flavor=ZipAddyBlockFilled`, `Device=Mobile, Flavor=ZipPhoneBlockFilled`, `Device=Desktop, Flavor=addyBlockFilled`, `Device=Desktop, Flavor=ZipAddyBlockFilled`, `Device=Desktop, Flavor=ZipPhoneBlockFilled`, `Device=FOLD, Flavor=addyBlockBlank` ….
-- 720 solid paints are hard-coded (not bound to a color variable): #000000 ×708, #007580 ×6, #FFFFFF ×6.
+- 93 of 102 variants have no instances anywhere in MNG Design System (unused, or used only from another file): `Device=Mobile, Flavor=chckBoxWordsBlank`, `Device=FOLD, Flavor=chckBoxWordsBlank`, `Device=Mobile, Flavor=chckBoxWordsFilled`, `Device=FOLD, Flavor=chckBoxWordsFilled`, `Device=Desktop, Flavor=chckBoxWordsFilled`, `Device=Desktop, Flavor=chckBoxWordsBlank`, `Device=FOLD, Flavor=phoneFilled`, `Device=Mobile, Flavor=phoneFilled`, `Device=Desktop, Flavor=phoneFilled`, `Device=Desktop, Flavor=phoneBlank`, `Device=FOLD, Flavor=addyBlockFilled`, `Device=FOLD, Flavor=ZipAddyBlockFilled`, `Device=FOLD, Flavor=ZipPhoneBlockFilled`, `Device=Mobile, Flavor=addyBlockFilled`, `Device=Mobile, Flavor=ZipAddyBlockFilled`, `Device=Mobile, Flavor=ZipPhoneBlockFilled`, `Device=Desktop, Flavor=addyBlockFilled`, `Device=Desktop, Flavor=ZipAddyBlockFilled`, `Device=Desktop, Flavor=ZipPhoneBlockFilled`, `Device=FOLD, Flavor=addyBlockBlank`, `Device=FOLD, Flavor=ZipAddyBlockBlank`, `Device=FOLD, Flavor=ZipPhoneBlockBlank`, `Device=FOLD, Flavor=FLNameBlank`, `Device=FOLD, Flavor=LastNameBlank`, `Device=FOLD, Flavor=FLNameFilled`, `Device=FOLD, Flavor=LastNameFilled`, `Device=Mobile, Flavor=addyBlockBlank`, `Device=Mobile, Flavor=ZipAddyBlockBlank`, `Device=Mobile, Flavor=ZipPhoneBlockBlank`, `Device=Mobile, Flavor=FLNameBlank`, `Device=Mobile, Flavor=LastNameBlank`, `Device=Mobile, Flavor=FLNameFilled`, `Device=Mobile, Flavor=LastNameFilled`, `Device=Desktop, Flavor=addyBlockBlank`, `Device=Desktop, Flavor=ZipAddyBlockBlank`, `Device=Desktop, Flavor=ZipPhoneBlockBlank`, `Device=Desktop, Flavor=FLNameBlank`, `Device=Desktop, Flavor=LastNameBlank`, `Device=Desktop, Flavor=FLNameFilled`, `Device=Desktop, Flavor=LastNameFilled`, `Device=FOLD, Flavor=CCdeetsFilled`, `Device=Mobile, Flavor=CCdeetsFilled`, `Device=Desktop, Flavor=CCdeetsFilled`, `Device=FOLD, Flavor=CCdeetsBlank`, `Device=Mobile, Flavor=CCdeetsBlank`, `Device=Desktop, Flavor=CCdeetsBlank`, `Device=FOLD, Flavor=CCnumFilled`, `Device=FOLD, Flavor=AcctNumFilled`, `Device=Mobile, Flavor=CCnumFilled`, `Device=Mobile, Flavor=AcctNumFilled`, `Device=Desktop, Flavor=CCnumFilled`, `Device=Desktop, Flavor=AcctNumFilled`, `Device=FOLD, Flavor=CCnumBlank`, `Device=FOLD, Flavor=AcctNumBlank`, `Device=Mobile, Flavor=CCnumBlank`, `Device=Mobile, Flavor=AcctNumBlank`, `Device=Desktop, Flavor=CCnumBlank`, `Device=Desktop, Flavor=AcctNumBlank`, `Device=FOLD, Flavor=PINfilled`, `Device=Mobile, Flavor=PINfilled`, `Device=Desktop, Flavor=PINfilled`, `Device=FOLD, Flavor=EmailFilled`, `Device=Mobile, Flavor=EmailFilled`, `Device=Desktop, Flavor=EmailFilled`, `Device=FOLD, Flavor=EmailBlank`, `Device=FOLD, Flavor=subNameFilled`, `Device=Mobile, Flavor=subNameFilled`, `Device=Desktop, Flavor=subNameFilled`, `Device=FOLD, Flavor=subNameBlank`, `Device=Mobile, Flavor=subNameBlank`, `Device=Desktop, Flavor=subNameBlank`, `Device=Mobile, Flavor=displayNameFilled`, `Device=FOLD, Flavor=displayNameFilled`, `Device=Desktop, Flavor=displayNameFilled`, `Device=FOLD, Flavor=displayNameBlank`, `Device=FOLD, Flavor=PasswordNewBlank`, `Device=FOLD, Flavor=PasswordEmpty`, `Device=FOLD, Flavor=PasswordNewFilled`, `Device=FOLD, Flavor=PasswordFilled`, `Device=Mobile, Flavor=PasswordNewFilled`, `Device=Mobile, Flavor=PasswordFilled`, `Device=Desktop, Flavor=PasswordNewFilled`, `Device=Desktop, Flavor=PasswordFilled`, `Device=Mobile, Flavor=PasswordNewBlank`, `Device=Mobile, Flavor=PasswordEmpty`, `Device=Desktop, Flavor=displayNameBlank`, `Device=Desktop, Flavor=PasswordNewBlank`, `Device=Desktop, Flavor=PasswordEmpty`, `Device=Mobile, Flavor=displayNameBlank`, `Device=FOLD, Flavor=IconTitle`, `Device=Mobile, Flavor=IconTitle`, `Device=Desktop, Flavor=IconTitle`, `Device=FOLD, Flavor=basic`.
 
 ## Rendering steps
 

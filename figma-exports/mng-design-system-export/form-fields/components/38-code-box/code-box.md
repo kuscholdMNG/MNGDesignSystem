@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Form Field Assembly / Verification Code"]
 spec_json: code-box.json
 skeleton: code-box.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Code Box
@@ -47,16 +47,16 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Size=Desktop, State=Blank** — breakpoints: 768, 1024, 1100, 1280; nested inside: Form Field Assembly / Verification Code / Size=Desktop ×6; other pages: Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×10
+- **Size=Desktop, State=Blank** — breakpoints: 768, 1024, 1100, 1280; nested inside: Form Field Assembly / Verification Code / Size=Desktop ×6; other pages: Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×5
 - **Size=Desktop, State=Filled** — breakpoints: 768, 1024, 1100, 1280; other pages: Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×6
-- **Size=Desktop, State=Focus** — breakpoints: 768, 1024, 1100, 1280; other pages: Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×2
-- **Size=Desktop, State=Error** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Size=Desktop, State=Disabled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Size=Mobile, State=Blank** — breakpoints: 340, 360; nested inside: Form Field Assembly / Verification Code / Size=Mobile ×6; other pages: Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×10
+- **Size=Desktop, State=Focus** — breakpoints: 768, 1024, 1100, 1280; other pages: Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×1
+- **Size=Desktop, State=Error** — breakpoints: 768, 1024, 1100, 1280; no instances in this file
+- **Size=Desktop, State=Disabled** — breakpoints: 768, 1024, 1100, 1280; no instances in this file
+- **Size=Mobile, State=Blank** — breakpoints: 340, 360; nested inside: Form Field Assembly / Verification Code / Size=Mobile ×6; other pages: Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×5
 - **Size=Mobile, State=Filled** — breakpoints: 340, 360; other pages: Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×6
-- **Size=Mobile, State=Focus** — breakpoints: 340, 360; other pages: Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×2
-- **Size=Mobile, State=Error** — breakpoints: 340, 360; no instances found
-- **Size=Mobile, State=Disabled** — breakpoints: 340, 360; no instances found
+- **Size=Mobile, State=Focus** — breakpoints: 340, 360; other pages: Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×1
+- **Size=Mobile, State=Error** — breakpoints: 340, 360; no instances in this file
+- **Size=Mobile, State=Disabled** — breakpoints: 340, 360; no instances in this file
 
 ## Breakpoints
 
@@ -86,7 +86,7 @@ exported: 2026-09-24
 
 **Built from:**
 
-- _nothing (leaf component)_
+_Nothing — leaf component._
 
 **Built into:**
 
@@ -101,7 +101,7 @@ exported: 2026-09-24
   - Text Container — frame 0×25 [horizontal gap 8] (hug/hug)
     - Value — text 0×25 (hug/hug) ""
   - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
-    - Union — boolean_operation 3×20 (fixed/fixed)
+    - Cursor — boolean operation 3×20 (fixed/fixed)
       - Line 71 (Stroke) — vector 3×1
       - Line 72 (Stroke) — vector 3×1
       - Line 73 (Stroke) — vector 20×1
@@ -114,7 +114,7 @@ exported: 2026-09-24
   - Text Container — frame 11×25 [horizontal gap 8] (hug/hug)
     - Value — text 11×25 (hug/hug) "5"
   - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
-    - Union — boolean_operation 3×20 (fixed/fixed)
+    - Cursor — boolean operation 3×20 (fixed/fixed)
       - Line 71 (Stroke) — vector 3×1
       - Line 72 (Stroke) — vector 3×1
       - Line 73 (Stroke) — vector 20×1
@@ -127,13 +127,102 @@ exported: 2026-09-24
   - Text Container — frame 0×25 [horizontal gap 8] (hug/hug)
     - Value — text 0×25 (hug/hug) ""
   - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug)
-    - Union — boolean_operation 3×20 (fixed/fixed)
+    - Cursor — boolean operation 3×20 (fixed/fixed)
       - Line 71 (Stroke) — vector 3×1
       - Line 72 (Stroke) — vector 3×1
       - Line 73 (Stroke) — vector 20×1
 ```
 
-_7 more variants — full layer trees are in `code-box.json` → `variants[].layerTree`._
+**Size=Desktop, State=Error**
+
+```
+- Size=Desktop, State=Error — component 36×56 [horizontal gap 8] (fixed/fixed)
+  - Text Container — frame 0×25 [horizontal gap 8] (hug/hug)
+    - Value — text 0×25 (hug/hug) ""
+  - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+    - Cursor — boolean operation 3×20 (fixed/fixed)
+      - Line 71 (Stroke) — vector 3×1
+      - Line 72 (Stroke) — vector 3×1
+      - Line 73 (Stroke) — vector 20×1
+```
+
+**Size=Desktop, State=Disabled**
+
+```
+- Size=Desktop, State=Disabled — component 36×56 [horizontal gap 8] (fixed/fixed)
+  - Text Container — frame 0×25 [horizontal gap 8] (hug/hug)
+    - Value — text 0×25 (hug/hug) ""
+  - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+    - Cursor — boolean operation 3×20 (fixed/fixed)
+      - Line 71 (Stroke) — vector 3×1
+      - Line 72 (Stroke) — vector 3×1
+      - Line 73 (Stroke) — vector 20×1
+```
+
+**Size=Mobile, State=Blank**
+
+```
+- Size=Mobile, State=Blank — component 26×40 [horizontal gap 8] (fixed/fixed)
+  - Text Container — frame 0×22 [horizontal gap 8] (hug/hug)
+    - Value — text 0×22 (hug/hug) ""
+  - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+    - Cursor — boolean operation 2.1×14 (fixed/fixed)
+      - Line 71 (Stroke) — vector 2.1×0.7
+      - Line 72 (Stroke) — vector 2.1×0.7
+      - Line 73 (Stroke) — vector 14×0.7
+```
+
+**Size=Mobile, State=Filled**
+
+```
+- Size=Mobile, State=Filled — component 26×40 [horizontal gap 8] (fixed/fixed)
+  - Text Container — frame 10×22 [horizontal gap 8] (hug/hug)
+    - Value — text 10×22 (hug/hug) "5"
+  - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+    - Cursor — boolean operation 2.1×14 (fixed/fixed)
+      - Line 71 (Stroke) — vector 2.1×0.7
+      - Line 72 (Stroke) — vector 2.1×0.7
+      - Line 73 (Stroke) — vector 14×0.7
+```
+
+**Size=Mobile, State=Focus**
+
+```
+- Size=Mobile, State=Focus — component 26×40 [horizontal gap 8] (fixed/fixed)
+  - Text Container — frame 0×22 [horizontal gap 8] (hug/hug)
+    - Value — text 0×22 (hug/hug) ""
+  - Cursor Container — frame 2.1×14 [horizontal gap 8] (hug/hug)
+    - Cursor — boolean operation 2.1×14 (fixed/fixed)
+      - Line 71 (Stroke) — vector 2.1×0.7
+      - Line 72 (Stroke) — vector 2.1×0.7
+      - Line 73 (Stroke) — vector 14×0.7
+```
+
+**Size=Mobile, State=Error**
+
+```
+- Size=Mobile, State=Error — component 26×40 [horizontal gap 8] (fixed/fixed)
+  - Text Container — frame 0×22 [horizontal gap 8] (hug/hug)
+    - Value — text 0×22 (hug/hug) ""
+  - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+    - Cursor — boolean operation 2.1×14 (fixed/fixed)
+      - Line 71 (Stroke) — vector 2.1×0.7
+      - Line 72 (Stroke) — vector 2.1×0.7
+      - Line 73 (Stroke) — vector 14×0.7
+```
+
+**Size=Mobile, State=Disabled**
+
+```
+- Size=Mobile, State=Disabled — component 26×40 [horizontal gap 8] (fixed/fixed)
+  - Text Container — frame 0×22 [horizontal gap 8] (hug/hug)
+    - Value — text 0×22 (hug/hug) ""
+  - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+    - Cursor — boolean operation 2.1×14 (fixed/fixed)
+      - Line 71 (Stroke) — vector 2.1×0.7
+      - Line 72 (Stroke) — vector 2.1×0.7
+      - Line 73 (Stroke) — vector 14×0.7
+```
 
 ## Size & layout
 
@@ -152,10 +241,10 @@ _7 more variants — full layer trees are in `code-box.json` → `variants[].lay
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Value | Noto Sans | Bold | 18 | auto |  |  | #141414 | Colors/color/gray/min |  | 5 |
-| Value | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | 5 |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Value | Noto Sans | Bold | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 5 | Size=Desktop, State=Filled |
+| Value | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 5 | Size=Mobile, State=Filled |
 
 ## Color & effects
 
@@ -163,14 +252,14 @@ _7 more variants — full layer trees are in `code-box.json` → `variants[].lay
 |---|---|---|---|---|---|---|
 | Size=Desktop, State=Blank | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Size=Desktop, State=Blank | stroke | SOLID | #A7A6A3 | Colors/color/gray/400 |  |  |
-| Union | fill | SOLID | #000000 | ⚠ unbound |  |  |
-| Line 71 (Stroke) | fill | SOLID | #000000 | ⚠ unbound |  |  |
-| Line 72 (Stroke) | fill | SOLID | #000000 | ⚠ unbound |  |  |
-| Line 73 (Stroke) | fill | SOLID | #000000 | ⚠ unbound |  |  |
+| Cursor | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
+| Line 71 (Stroke) | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
+| Line 72 (Stroke) | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
+| Line 73 (Stroke) | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
 | Size=Desktop, State=Filled | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Size=Desktop, State=Filled | stroke | SOLID | #A7A6A3 | Colors/color/gray/400 |  |  |
 | Size=Desktop, State=Focus | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Size=Desktop, State=Focus | stroke | SOLID | #000000 | ⚠ unbound |  |  |
+| Size=Desktop, State=Focus | stroke | SOLID | #000000 | Colors/color/gray/black |  |  |
 | Size=Desktop, State=Error | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Size=Desktop, State=Error | stroke | SOLID | #CC2B27 | Colors/color/feedback/high-error |  |  |
 | Size=Desktop, State=Disabled | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
@@ -180,7 +269,7 @@ _7 more variants — full layer trees are in `code-box.json` → `variants[].lay
 | Size=Mobile, State=Filled | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Size=Mobile, State=Filled | stroke | SOLID | #A7A6A3 | Colors/color/gray/400 |  |  |
 | Size=Mobile, State=Focus | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Size=Mobile, State=Focus | stroke | SOLID | #000000 | ⚠ unbound |  |  |
+| Size=Mobile, State=Focus | stroke | SOLID | #000000 | Colors/color/gray/black |  |  |
 | Size=Mobile, State=Error | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Size=Mobile, State=Error | stroke | SOLID | #CC2B27 | Colors/color/feedback/high-error |  |  |
 | Size=Mobile, State=Disabled | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
@@ -201,7 +290,6 @@ _None found in descriptions or layer names._
 ## Known issues
 
 - 4 of 10 variants have no instances anywhere in MNG Design System (unused, or used only from another file): `Size=Desktop, State=Error`, `Size=Desktop, State=Disabled`, `Size=Mobile, State=Error`, `Size=Mobile, State=Disabled`.
-- 42 solid paints are hard-coded (not bound to a color variable): #000000 ×42.
 
 ## Rendering steps
 

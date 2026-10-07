@@ -12,7 +12,7 @@ built_from: ["SectionMenuHeader", "SectionMenuItem"]
 built_into: ["Masthead"]
 spec_json: sectionmenu.json
 skeleton: sectionmenu.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # SectionMenu
@@ -60,21 +60,21 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **View=Closed, Device=XL-Desktop, UserType=all** — breakpoints: 1024, 1100, 1280; templates (direct): 1024 HomePage ×1, 1100 HomePage ×1, Desktop HomePage ×1; templates (via assembly): 1024 HomePage (via Masthead), Desktop HomePage (via Masthead), 1100 HomePage (via Masthead); nested inside: Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=SectionFront ×1, Masthead/tabletH/default/home ×2, Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Article ×1, ObitMastHead/TabletH/Scrolled/Default/SectionFront ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries ×1, Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries ×1, Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries ×1, Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Article ×1, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home ×1, ObitMastHead / Device=TabletH, View=Default, Subscriber=Adfree, Page=SectionFront ×1, Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=SectionFront ×1, Masthead/tabletH/DefaultAdFree/home ×2 …; other pages: Menus and Parts ▸ Frame 12800 ×27
-- **View=Closed, Device=MD-TabletV, UserType=all** — breakpoints: 768; templates (direct): 768 HomePage ×1; templates (via assembly): 768 HomePage (via Masthead); nested inside: Masthead / Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=Obituaries ×1, ObitMastHead/TabletV/Scrolled/Default/SectionFront ×1, Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Obituaries ×1, Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Dashboard ×1, Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Home ×1, Masthead / Device=MD-TabletV (640–799px), State=Default, Page=SectionFront ×1, Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Dashboard ×1, Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Article ×1, ObitMastHead / Device=TabletV, View=Default, Subscriber=Standard, Page=ObitPage ×1, ObitMastHead / Device=TabletV, View=Default, Subscriber=Adfree, Page=SectionFront ×1, Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Article ×1, Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Article ×1 …; other pages: Menus and Parts ▸ Frame 12800 ×16
-- **View=Closed, Device=SM-Mobile, UserType=all** — breakpoints: 340, 360; templates (direct): 340 HomePage ×1, Mobile HomePage ×1; templates (via assembly): Mobile HomePage (via Masthead), 340 HomePage (via Masthead); nested inside: Masthead/tabletH/scrolled/article ×1, ObitMastHead/Mobile/Default/Adfree/SectionFront ×4, Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Home ×1, ObitMastHead/Fold/Default/Standard/SectionFront ×1, ObitMastHead / Device=TabletH, View=Scrolled, Subscriber=Default, Page=ObitPage ×1, ObitMastHead / Device=Mobile, View=Default, Subscriber=Standard, Page=SectionFront ×1, AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub ×1, ObitMastHead/Mobile/Default/Standard/SectionFront ×2, ObitMastHead/Fold/Scrolled/Default/SectionFront ×1, ObitMastHead/Mobile/Scrolled/Default/ObitPage ×1, ObitMastHead / Device=Fold, View=Scrolled, Subscriber=Default, Page=SectionFront ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=SectionFront ×1 …; other pages: Menus and Parts ▸ Frame 12800 ×32
-- **View=Closed, Device=XS-Fold, UserType=all** — breakpoints: 340; no instances found
-- **View=Closed, Device=LG-TabletH, UserType=all** — breakpoints: 1024; no instances found
-- **View=Open, Device=XL-Desktop, UserType=subscriber** — breakpoints: 1100, 1280; no instances found
-- **View=Open, Device=XL-Desktop, UserType=nonSub** — breakpoints: 1100, 1280; no instances found
-- **View=Open, Device=SM-Mobile, UserType=subscriber** — breakpoints: 360; no instances found
-- **View=Open, Device=SM-Mobile, UserType=nonSub** — breakpoints: 360; no instances found
-- **View=Open, Device=XS-Fold, UserType=subscriber** — breakpoints: 340; no instances found
-- **View=Open, Device=XS-Fold, UserType=nonSub** — breakpoints: 340; no instances found
-- **View=Open, Device=LG-TabletH, UserType=subscriber** — breakpoints: 1024; no instances found
-- **View=Open, Device=LG-TabletH, UserType=nonSub** — breakpoints: 1024; no instances found
-- **View=Open, Device=MD-TabletV, UserType=subscriber** — breakpoints: 768; no instances found
-- **View=Open, Device=MD-TabletV, UserType=nonSub** — breakpoints: 768; no instances found
+- **View=Closed, Device=XL-Desktop, UserType=all** — breakpoints: 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Masthead), Desktop HomePage (via Masthead), 1100 HomePage (via Masthead); nested inside: Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=SectionFront ×1, Masthead/tabletH/default/home ×2, Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Article ×1, Masthead/desktop/DefaultAdFree/SectionFront ×2, Masthead / Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obituaries ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries ×1, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home ×1, Masthead/tabletH/DefaultAdFree/home ×2, Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard ×1, Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Home ×1, Masthead / Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries ×1, Masthead/tabletH/DefaultAdFree/article ×1, ObitMastHead / Device=TabletH, View=Scrolled, Subscriber=Default, Page=SectionFront ×1, Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=SectionFront ×1, ObitMastHead / Device=TabletH, View=Default, Subscriber=Standard, Page=SectionFront ×1, ObitMastHead / Device=Desktop, View=Default, Subscriber=Standard, Page=SectionFront ×1, Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home ×1, ObitMastHead/TabletH/Scrolled/Default/SectionFront ×1, Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Home ×1, ObitMastHead / Device=TabletH, View=Default, Subscriber=Adfree, Page=SectionFront ×1, Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Article ×1, Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries ×1, Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Dashboard ×1, Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Home ×1, Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Dashboard ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront ×1, ObitMastHead / Device=TabletH, View=Default, Subscriber=Default, Page=ObitPage ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home ×1, Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront ×1, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries ×1, Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront ×1, Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard ×1, Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries ×1, Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries ×1, ObitMastHead / Device=Desktop, View=Scrolled, Subscriber=Default, Page=SectionFront ×1, Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Article ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article ×1, Masthead/desktop/default/article ×1, ObitMastHead / Device=Desktop, View=Default, Subscriber=Default, Page=ObitPage ×1, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article ×1, ObitMastHead / Device=Desktop, View=Default, Subscriber=Adfree, Page=SectionFront ×1, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront ×1
+- **View=Closed, Device=MD-TabletV, UserType=all** — breakpoints: 768; templates (via assembly): 768 HomePage (via Masthead); nested inside: Masthead / Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=Obituaries ×1, ObitMastHead/TabletV/Scrolled/Default/SectionFront ×1, Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries ×1, Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Obituaries ×1, Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Dashboard ×1, Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Home ×1, Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Home ×1, Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Dashboard ×1, Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Article ×1, ObitMastHead / Device=TabletV, View=Default, Subscriber=Adfree, Page=SectionFront ×1, Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=SectionFront ×1, Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Article ×1, Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Article ×1, Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=SectionFront ×1, Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Home ×1, ObitMastHead / Device=TabletV, View=Default, Subscriber=Standard, Page=ObitPage ×1, Masthead / Device=MD-TabletV (640–799px), State=Default, Page=SectionFront ×1, Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituaries ×1, ObitMastHead / Device=TabletV, View=Default, Subscriber=Standard, Page=SectionFront ×1, ObitMastHead / Device=TabletV, View=Default, Subscriber=Default, Page=ObitPage ×1, ObitMastHead / Device=TabletV, View=Scrolled, Subscriber=Default, Page=SectionFront ×1
+- **View=Closed, Device=SM-Mobile, UserType=all** — breakpoints: 340, 360; templates (via assembly): Mobile HomePage (via Masthead), 340 HomePage (via Masthead); nested inside: Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Home ×1, ObitMastHead / Device=TabletH, View=Scrolled, Subscriber=Default, Page=ObitPage ×1, ObitMastHead / Device=Mobile, View=Default, Subscriber=Standard, Page=SectionFront ×1, ObitMastHead/Mobile/Default/Adfree/SectionFront ×4, AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Home ×1, ObitMastHead/Mobile/Default/Standard/SectionFront ×2, ObitMastHead / Device=Desktop, View=Scrolled, Subscriber=Default, Page=ObitPage ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Obituaries ×1, Masthead/Device=XS-Fold (≤639px, built 340px), State=AdFree-Scrolled, Page=Obituaries ×1, ObitMastHead/Fold/Scrolled/Default/SectionFront ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Article ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries ×1, ObitMastHead / Device=Mobile, View=Default, Subscriber=Adfree, Page=SectionFront ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree-Scrolled, Page=Obituaries ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=SectionFront ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Article ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Dashboard ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Dashboard ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Home ×1, AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree-Scrolled, Page=Obituaries ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Obituaries ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=SectionFront ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Article ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=SectionFront ×1, ObitMastHead/Fold/Scrolled/Default/ObitPage ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Dashboard ×1, ObitMastHead/Fold/Default/Standard/SectionFront ×1, ObitMastHead/Mobile/Scrolled/Default/SectionFront ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=SectionFront ×1, Masthead/tabletH/scrolled/article ×1, ObitMastHead/Fold/Default/Adfree/SectionFront ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Article ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Dashboard ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Home ×1, AccountMenu / Status=alert, View=Open, Device=XS-Fold, UserType=PremSub ×1, ObitMastHead / Device=Mobile, View=Default, Subscriber=Default, Page=ObitPage ×1, ObitMastHead/Mobile/Scrolled/Adfree/SectionFront ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Article ×1, Masthead/XS-Fold (≤639px · built 340px)/AdFree-Scrolled/Obituaries ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Home ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Home ×1, ObitMastHead / Device=Fold, View=Scrolled, Subscriber=Default, Page=SectionFront ×1, AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=SectionFront ×1, ObitMastHead / Device=Fold, View=Default, Subscriber=Default, Page=ObitPage ×1, ObitMastHead / Device=TabletV, View=Scrolled, Subscriber=Default, Page=ObitPage ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=SectionFront ×1, ObitMastHead / Device=Mobile, View=Scrolled, Subscriber=Adfree, Page=SectionFront ×1, Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries ×1, ObitMastHead / Device=Mobile, View=Scrolled, Subscriber=Default, Page=ObitPage ×1, Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article ×1, ObitMastHead/Mobile/Scrolled/Default/ObitPage ×1, ObitMastHead / Device=Fold, View=Default, Subscriber=Standard, Page=SectionFront ×1, AccountMenu / Status=loggedOut, View=Open, Device=SM-Mobile, UserType=loggedOut ×1, Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Article ×1, ObitMastHead / Device=Fold, View=Scrolled, Subscriber=Default, Page=ObitPage ×1, ObitMastHead / Device=Fold, View=Default, Subscriber=Adfree, Page=SectionFront ×1; other pages: Menus and Parts ▸ Frame 12800 ×2
+- **View=Closed, Device=XS-Fold, UserType=all** — breakpoints: 340; no instances in this file
+- **View=Closed, Device=LG-TabletH, UserType=all** — breakpoints: 1024; no instances in this file
+- **View=Open, Device=XL-Desktop, UserType=subscriber** — breakpoints: 1100, 1280; no instances in this file
+- **View=Open, Device=XL-Desktop, UserType=nonSub** — breakpoints: 1100, 1280; no instances in this file
+- **View=Open, Device=SM-Mobile, UserType=subscriber** — breakpoints: 360; no instances in this file
+- **View=Open, Device=SM-Mobile, UserType=nonSub** — breakpoints: 360; no instances in this file
+- **View=Open, Device=XS-Fold, UserType=subscriber** — breakpoints: 340; no instances in this file
+- **View=Open, Device=XS-Fold, UserType=nonSub** — breakpoints: 340; no instances in this file
+- **View=Open, Device=LG-TabletH, UserType=subscriber** — breakpoints: 1024; no instances in this file
+- **View=Open, Device=LG-TabletH, UserType=nonSub** — breakpoints: 1024; no instances in this file
+- **View=Open, Device=MD-TabletV, UserType=subscriber** — breakpoints: 768; no instances in this file
+- **View=Open, Device=MD-TabletV, UserType=nonSub** — breakpoints: 768; no instances in this file
 
 ## Breakpoints
 
@@ -109,8 +109,8 @@ exported: 2026-09-24
 
 **Built from:**
 
-- [SectionMenuHeader](../../components/26-sectionmenuheader/sectionmenuheader.md) ×15
-- [SectionMenuItem](../32-sectionmenuitem/sectionmenuitem.md) ×131
+- [SectionMenuHeader](../../components/26-sectionmenuheader/sectionmenuheader.md) ×1
+- [SectionMenuItem](../32-sectionmenuitem/sectionmenuitem.md) ×14
 
 **Built into:**
 
@@ -139,7 +139,112 @@ exported: 2026-09-24
   - SectionMenuHeader — instance 64×64 [vertical gap 0] (hug/fixed) → SectionMenuHeader [View=Closed, Device=TabletV]
 ```
 
-_12 more variants — full layer trees are in `sectionmenu.json` → `variants[].layerTree`._
+**View=Closed, Device=XS-Fold, UserType=all**
+
+```
+- View=Closed, Device=XS-Fold, UserType=all — component 64×64 [vertical gap 0] (hug/hug)
+  - SectionMenuHeader — instance 64×64 [vertical gap 0] (hug/fixed) → SectionMenuHeader [View=Closed, Device=TabletV]
+```
+
+**View=Closed, Device=LG-TabletH, UserType=all**
+
+```
+- View=Closed, Device=LG-TabletH, UserType=all — component 300×64 [vertical gap 0] (hug/hug)
+  - SectionMenuHeader — instance 300×64 [vertical gap 0] (fixed/fixed) → SectionMenuHeader [View=Closed, Device=Desktop]
+```
+
+**View=Open, Device=XL-Desktop, UserType=subscriber**
+
+```
+- View=Open, Device=XL-Desktop, UserType=subscriber — component 300×668 [vertical gap 0] (hug/hug)
+  - SectionMenuHeader — instance 300×64 [vertical gap 0] (fixed/fixed) → SectionMenuHeader [View=Open, Device=Desktop]
+  - Container — frame 300×604 [vertical gap 0] (hug/hug)
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=yes, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=yes, View=closed, kind=main] ×9
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×156 [vertical gap 0] (fixed/hug) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=CTAMessage]
+```
+
+**View=Open, Device=XL-Desktop, UserType=nonSub**
+
+```
+- View=Open, Device=XL-Desktop, UserType=nonSub — component 300×740 [vertical gap 0] (hug/hug)
+  - SectionMenuHeader — instance 300×64 [vertical gap 0] (fixed/fixed) → SectionMenuHeader [View=Open, Device=Desktop]
+  - Container — frame 300×676 [vertical gap 0] (hug/hug)
+    - SectionMenuItem — instance 300×72 [vertical gap 0] (fixed/hug) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=CTAButton]
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=yes, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=yes, View=closed, kind=main] ×9
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×156 [vertical gap 0] (fixed/hug) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=CTAMessage]
+```
+
+**View=Open, Device=SM-Mobile, UserType=subscriber**
+
+```
+- View=Open, Device=SM-Mobile, UserType=subscriber — component 300×748 [vertical gap 0] (hug/hug)
+  - SectionMenuHeader — instance 64×64 [vertical gap 0] (fixed/fixed) → SectionMenuHeader [View=Open, Device=Mobile]
+  - Container — frame 300×684 [vertical gap 0] (hug/hug)
+    - SectionMenuItem — instance 300×80 [horizontal gap 12] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=Weather]
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=yes, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=yes, View=closed, kind=main] ×9
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×156 [vertical gap 0] (fixed/hug) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=CTAMessage]
+```
+
+**View=Open, Device=SM-Mobile, UserType=nonSub**
+
+```
+- View=Open, Device=SM-Mobile, UserType=nonSub — component 300×820 [vertical gap 0] (hug/hug)
+  - SectionMenuHeader — instance 64×64 [vertical gap 0] (fixed/fixed) → SectionMenuHeader [View=Open, Device=Mobile]
+  - Container — frame 300×756 [vertical gap 0] (hug/hug)
+    - SectionMenuItem — instance 300×72 [vertical gap 0] (fixed/hug) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=CTAButton]
+    - SectionMenuItem — instance 300×80 [horizontal gap 12] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=Weather]
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=yes, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=yes, View=closed, kind=main] ×9
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×156 [vertical gap 0] (fixed/hug) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=CTAMessage]
+```
+
+**View=Open, Device=XS-Fold, UserType=subscriber**
+
+```
+- View=Open, Device=XS-Fold, UserType=subscriber — component 300×748 [vertical gap 0] (hug/hug)
+  - SectionMenuHeader — instance 64×64 [vertical gap 0] (fixed/fixed) → SectionMenuHeader [View=Open, Device=Mobile]
+  - Container — frame 300×684 [vertical gap 0] (hug/hug)
+    - SectionMenuItem — instance 300×80 [horizontal gap 12] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=Weather]
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=yes, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=yes, View=closed, kind=main] ×9
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×156 [vertical gap 0] (fixed/hug) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=CTAMessage]
+```
+
+**View=Open, Device=XS-Fold, UserType=nonSub**
+
+```
+- View=Open, Device=XS-Fold, UserType=nonSub — component 300×820 [vertical gap 0] (hug/hug)
+  - SectionMenuHeader — instance 64×64 [vertical gap 0] (fixed/fixed) → SectionMenuHeader [View=Open, Device=Mobile]
+  - Container — frame 300×756 [vertical gap 0] (hug/hug)
+    - SectionMenuItem — instance 300×72 [vertical gap 0] (fixed/hug) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=CTAButton]
+    - SectionMenuItem — instance 300×80 [horizontal gap 12] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=Weather]
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=yes, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=yes, View=closed, kind=main] ×9
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×156 [vertical gap 0] (fixed/hug) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=CTAMessage]
+```
+
+**View=Open, Device=LG-TabletH, UserType=subscriber**
+
+```
+- View=Open, Device=LG-TabletH, UserType=subscriber — component 300×668 [vertical gap 0] (hug/hug)
+  - SectionMenuHeader — instance 300×64 [vertical gap 0] (fixed/fixed) → SectionMenuHeader [View=Open, Device=Desktop]
+  - Container — frame 300×604 [vertical gap 0] (hug/hug)
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=yes, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=yes, View=closed, kind=main] ×9
+    - SectionMenuItem — instance 300×40 [vertical gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=main]
+    - SectionMenuItem — instance 300×156 [vertical gap 0] (fixed/hug) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=CTAMessage]
+```
+
+_3 more variants — see `variants[].layerTree` in sectionmenu.json._
 
 ## Size & layout
 
@@ -163,13 +268,15 @@ _12 more variants — full layer trees are in `sectionmenu.json` → `variants[]
 
 ## Typography
 
-_None._
+_No text._
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
+| SectionMenuHeader | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Container | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| SectionMenuItem | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 
 ## Image ratios
 

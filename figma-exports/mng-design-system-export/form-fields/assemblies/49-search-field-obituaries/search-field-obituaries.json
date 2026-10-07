@@ -7,20 +7,12 @@
  "order": 49,
  "typeLabel": "Assembly · 2 variants",
  "description": null,
- "designerNotes": [
-  "Search Field / Obituaries",
-  "Production padding (ocregister.com/obituaries) baked in per breakpoint: Mobile <640px uses a 360px reference (10px top/bottom, 7.2px left/right); Desktop ≥640px uses the 640px breakpoint itself (15px top/bottom, 12.8px left/right)."
- ],
+ "designerNotes": [],
  "figma": {
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
   "page": "Form Fields | 2026.09.24",
-  "path": [
-   "Form Field & Code Box — Documentation",
-   "Frame 12860",
-   "Frame 12925",
-   "Frame 12928"
-  ],
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12860 ▸ Frame 12925 ▸ Frame 12928",
   "mainId": "6996:27351",
   "mainKey": "39edef9096118c31c76c65dc3692f0ec90a960ff",
   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6996-27351",
@@ -66,13 +58,8 @@
     "id": "6996:27287",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -83,15 +70,8 @@
     "id": "6996:27295",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768",
      "1024",
@@ -105,7 +85,7 @@
   "builtFrom": [
    {
     "name": "Search Field / Obituaries — Core",
-    "count": 2,
+    "count": 1,
     "inExport": true,
     "section": "Search Field / Obituaries — Core",
     "path": "../../components/40-search-field-obituaries-core/search-field-obituaries-core.md"
@@ -342,19 +322,38 @@
   }
  ],
  "typography": [],
- "colors": [],
+ "colors": [
+  {
+   "layer": "Search Field / Obituaries — Core",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Search Field / Obituaries — Core",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#A7A6A3",
+   "token": "Colors/color/gray/400",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  }
+ ],
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
   "Size=Mobile: 486.4×64, horizontal gap 0 pad 10/7.2/10/7.2 main MIN cross MIN — renders at 340, 360",
   "Size=Desktop: 497.6×74, horizontal gap 0 pad 15/12.8/15/12.8 main MIN cross MIN — renders at 768, 1024, 1100, 1280"
  ],
- "productionRefs": [
-  "ocregister.com/obituaries"
- ],
+ "productionRefs": [],
  "knownIssues": [
   "No variant has instances in MNG Design System (unused here, or used only from another file): `Size=Mobile`, `Size=Desktop`."
  ],
  "skeleton": "search-field-obituaries.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

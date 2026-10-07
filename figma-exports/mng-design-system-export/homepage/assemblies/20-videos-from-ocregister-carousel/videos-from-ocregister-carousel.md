@@ -12,7 +12,7 @@ built_from: ["Video Tile Image Placeholder"]
 built_into: []
 spec_json: videos-from-ocregister-carousel.json
 skeleton: videos-from-ocregister-carousel.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Videos from OCRegister Carousel
@@ -21,12 +21,11 @@ exported: 2026-09-24
 
 > Instagram video carousel (header + Video Tile Image Placeholder row + scroll indicator), instanced on every homepage breakpoint. Two main components share this name: the populated one used by the templates, and an empty 1245×100 shell with no layers that no template references — flagged for review/removal.
 
-> Real production content block: 'Videos from @OCRegister' (prod selector .dfm-page-middle-flex-container), a Flourish-embedded horizontal video carousel that sits between the four-across/category row and the Photos block on every breakpoint. Built as a FILL-width header/subtitle/tile-row/scroll-indicator stack; the Tile Row uses clipsContent=true to simulate horizontal scroll — extra tiles beyond the visible width are intentionally clipped, not a layout bug. Placed as instances in all 6 homepage assemblies (Mobile/340/768/1024/Desktop/1100), each set to layoutSizingHorizontal=FILL to match its container's content width. See homepage-template-audit.md section on the video carousel build for full detail.
-
 ## Figma references
 
 - File: WordPress Elements (`b1iZxkFwtAYq9rElmnCAzd`) · Page: Homepage
 - Main: [Videos from OCRegister Carousel](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3419-55122) · node `3419:55122` · key `8440dab024c062758ef2eefdac32320283804015`
+- Main: [Videos from OCRegister Carousel](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3419-55120) · node `3419:55120` · key `b83dd4446cceb462b97bb4c4cd9a3487566cd7aa`
 
 | Variant | Node | Key | Size | Preview |
 |---|---|---|---|---|
@@ -40,7 +39,7 @@ _None._
 ## Where it is used
 
 - **Videos from OCRegister Carousel** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1024 HomePage ×1, 1100 HomePage ×1, 340 HomePage ×1, 768 HomePage ×1, Mobile HomePage ×1, Desktop HomePage ×1
-- **Videos from OCRegister Carousel** — breakpoints: —; no instances found
+- **Videos from OCRegister Carousel** — breakpoints: —; no instances in this file
 
 ## Breakpoints
 
@@ -56,7 +55,7 @@ _None._
 ## Responsive rules
 
 - Videos from OCRegister Carousel: 1245×404, vertical gap 8 pad 16/0/16/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280
-- Videos from OCRegister Carousel: 1245×100, vertical gap 8 pad 16/0/16/0 main MIN cross MIN — renders at (no breakpoint evidence)
+- Videos from OCRegister Carousel: 1245×100, vertical gap 8 pad 16/0/16/0 main MIN cross MIN — no breakpoint (not placed in a template)
 
 ## Dependencies
 
@@ -66,7 +65,7 @@ _None._
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -97,19 +96,21 @@ _None._
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Videos from @OCRegister | Noto Serif | Bold | 26 | auto |  |  | #141414 |  |  | Videos from @OCRegister |
-| Videos from @OCRegister | Noto Serif | Bold | 26 | auto |  |  | #1651BA |  |  | Videos from @OCRegister |
-| Watch as our journalists report on our local news coverage in these Instagram videos. | Noto Sans | Regular | 15 | auto |  |  | #393938 |  |  | Watch as our journalists report on our local news  |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Videos from @OCRegister | Noto Serif | Bold | 26 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Videos from @ | Videos from OCRegister Carousel |
+| Videos from @OCRegister | Noto Serif | Bold | 26 | auto |  |  | #1651BA |  |  |  | OCRegister | Videos from OCRegister Carousel |
+| Watch as our journalists report on our local news coverage i | Noto Sans | Regular | 15 | auto |  |  | #393938 | Colors/color/gray/100 |  |  | Watch as our journalists report on our local news  | Videos from OCRegister Carousel |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| Videos from OCRegister Carousel | fill | SOLID | #FFFFFF | ⚠ unbound |  |  |
-| Scroll Indicator Track | fill | SOLID | #E5E4E1 | ⚠ unbound |  |  |
-| Scroll Indicator Thumb | fill | SOLID | #B2B1AD | ⚠ unbound |  |  |
+| Videos from OCRegister Carousel | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Video Tile Image Placeholder | fill | SOLID | #E1A1FF |  |  | image placeholder fill |
+| Video Tile Image Placeholder | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
+| Scroll Indicator Track | fill | SOLID | #E5E4E1 |  |  |  |
+| Scroll Indicator Thumb | fill | SOLID | #B2B1AD |  |  |  |
 
 ## Image ratios
 
@@ -132,11 +133,12 @@ _None._
 ## Production references
 
 - `.dfm-page-middle-flex-container`
+- `.md`
 
 ## Known issues
 
 - 1 of 2 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Videos from OCRegister Carousel`.
-- 7 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×2, #141414 ×1, #1651BA ×1, #393938 ×1, #E5E4E1 ×1, #B2B1AD ×1.
+- 3 solid paints are hard-coded (not bound to a color variable): #1651BA ×1, #E5E4E1 ×1, #B2B1AD ×1.
 
 ## Rendering steps
 

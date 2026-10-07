@@ -12,7 +12,7 @@ built_from: ["Article Status Badge", "Article Image Placeholder", "Related Artic
 built_into: ["TOP ZONE Block"]
 spec_json: zone-1-lead-article-card.json
 skeleton: zone-1-lead-article-card.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Zone 1 Lead Article Card
@@ -40,9 +40,9 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Device=Mobile** — breakpoints: 340, 360, 1024, 1100; templates (direct): 1100 HomePage ×1, 1024 HomePage ×1, Mobile HomePage ×1, 340 HomePage ×1; templates (via assembly): Mobile HomePage (via TOP ZONE Block), 340 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Mobile ×1
-- **Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (direct): Desktop HomePage ×1; templates (via assembly): Desktop HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Desktop ×1
-- **Device=Tablet** — breakpoints: 768; templates (direct): 768 HomePage ×1; templates (via assembly): 768 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Tablet ×1
+- **Device=Mobile** — breakpoints: 340, 360, 1024, 1100; templates (direct): 1100 HomePage ×1, 1024 HomePage ×1; templates (via assembly): Mobile HomePage (via TOP ZONE Block), 340 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Mobile ×1
+- **Device=Desktop** — breakpoints: 1280; templates (via assembly): Desktop HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Desktop ×1
+- **Device=Tablet** — breakpoints: 768; templates (via assembly): 768 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Tablet ×1
 
 ## Breakpoints
 
@@ -51,23 +51,23 @@ exported: 2026-09-24
 | 340 | ≤639px (XS-Fold, built 340) | Device=Mobile |
 | 360 | ≤639px (SM-Mobile, built 360) | Device=Mobile |
 | 768 | 640–799px (MD-TabletV) | Device=Tablet |
-| 1024 | 800–1039px (LG-TabletH, built 1009) | Device=Mobile, Device=Desktop |
-| 1100 | ≥1040px (XL-Desktop, built 1085) | Device=Mobile, Device=Desktop |
+| 1024 | 800–1039px (LG-TabletH, built 1009) | Device=Mobile |
+| 1100 | ≥1040px (XL-Desktop, built 1085) | Device=Mobile |
 | 1280 | ≥1040px (XL-Desktop, built 1280) | Device=Desktop |
 
 ## Responsive rules
 
 - Device=Mobile: 340×648.7, vertical gap 8 pad 0/0/16/0 main MIN cross CENTER — renders at 340, 360, 1024, 1100
-- Device=Desktop: 706×349, horizontal gap 20 pad 0/0/16/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=Desktop: 706×349, horizontal gap 20 pad 0/0/16/0 main MIN cross MIN — renders at 1280
 - Device=Tablet: 748×349, horizontal gap 32 pad 0/0/16/0 main MIN cross MIN — renders at 768
 
 ## Dependencies
 
 **Built from:**
 
-- [Article Status Badge](../01-article-status-badge/article-status-badge.md) ×3
-- [Article Image Placeholder](../03-article-image-placeholder/article-image-placeholder.md) ×3
-- [Related Article List Item](../02-related-article-list-item/related-article-list-item.md) ×9
+- [Article Status Badge](../01-article-status-badge/article-status-badge.md) ×1
+- [Article Image Placeholder](../03-article-image-placeholder/article-image-placeholder.md) ×1
+- [Related Article List Item](../02-related-article-list-item/related-article-list-item.md) ×3
 
 **Built into:**
 
@@ -93,7 +93,7 @@ exported: 2026-09-24
     - Related Articles Body — frame 340×135 [vertical gap 4] (fill/hug)
       - Related Article List Item — instance 340×45 [horizontal gap 0] (fill/fixed) → Related Article List Item
       - Related Article List Item — instance 340×41 [horizontal gap 0] (fill/fixed) → Related Article List Item ×2
-  - Line 1 — line 340×0 (fill/fixed)
+  - Bottom Border Line — line 340×0 (fill/fixed)
 ```
 
 **Device=Desktop**
@@ -146,20 +146,22 @@ exported: 2026-09-24
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Man charged with murder after fatal attack on bicycling doctor in Dana Point | Noto Serif | Bold | 25 | 33px | -3% |  | #141414 |  |  | Man charged with murder after fatal attack on bicy |
-| Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail. | Noto Sans | Regular | 15 | 19px |  |  | #393938 | Colors/color/gray/100 |  | Vanroy Evan Smith, 39, of Long Beach is being held |
-| Header | Noto Serif | Bold | 12 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  | Related |
-| Man charged with murder after fatal attack on bicycling doctor in Dana Point | Noto Serif | Bold | 29 | 33px | -3% |  | #141414 | Colors/color/gray/min |  | Man charged with murder after fatal attack on bicy |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Man charged with murder after fatal attack on bicycling doct | Noto Serif | Bold | 25 | 33px | -3% |  | #141414 | Colors/color/gray/min |  |  | Man charged with murder after fatal attack on bicy | Device=Mobile |
+| Vanroy Evan Smith, 39, of Long Beach is being held on $1 mil | Noto Sans | Regular | 15 | 19px |  |  | #393938 | Colors/color/gray/100 | Editorial/Body/ExcerptCompact |  | Vanroy Evan Smith, 39, of Long Beach is being held | all |
+| Header | Noto Serif | Bold | 12 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | Related | all |
+| Man charged with murder after fatal attack on bicycling doct | Noto Serif | Bold | 29 | 33px | -3% |  | #141414 | Colors/color/gray/min |  |  | Man charged with murder after fatal attack on bicy | Device=Desktop, Device=Tablet |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
 | Device=Mobile | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Article Image Placeholder | fill | SOLID | #E1A1FF |  |  | image placeholder fill |
+| Article Image Placeholder | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
 | Related Articles Header | stroke | SOLID | #5E5D5C | Colors/color/gray/200 |  |  |
-| Line 1 | stroke | SOLID | #D7D6D2 | ⚠ unbound |  |  |
+| Bottom Border Line | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
 | Device=Desktop | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Device=Tablet | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 
@@ -167,9 +169,9 @@ exported: 2026-09-24
 
 | Variant | Layer | Size | Ratio | Source |
 |---|---|---|---|---|
-| Device=Mobile | Article Image Placeholder | 340×235.7 | 340:236 (≈1.44) | Article Image Placeholder |
-| Device=Desktop | Article Image Placeholder | 391×271 | 391:271 (≈1.44) | Article Image Placeholder |
-| Device=Tablet | Article Image Placeholder | 391×271 | 391:271 (≈1.44) | Article Image Placeholder |
+| Device=Mobile | Article Image Placeholder | 340×235.7 | 1.44:1 | Article Image Placeholder |
+| Device=Desktop | Article Image Placeholder | 391×271 | 1.44:1 | Article Image Placeholder |
+| Device=Tablet | Article Image Placeholder | 391×271 | 1.44:1 | Article Image Placeholder |
 
 ## Ad slots
 
@@ -182,7 +184,6 @@ _None found in descriptions or layer names._
 ## Known issues
 
 - `Device=Mobile` is declared for 340, 360 but is placed in template(s) at 1024, 1100 — check the variant choice.
-- 2 solid paints are hard-coded (not bound to a color variable): #141414 ×1, #D7D6D2 ×1.
 
 ## Rendering steps
 

@@ -12,16 +12,12 @@ built_from: ["Form Field"]
 built_into: []
 spec_json: form-field-assembly-password.json
 skeleton: form-field-assembly-password.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Form Field Assembly / Password
 
 **Assembly · 2 variants** · Form Fields · source: MNG Design System ▸ Form Fields | 2026.09.24
-
-**Designer notes on the canvas:**
-
-- Password as a full-width Form Field instance (Show icon = off), with all three requirements always visible below it as helper text - Minimum length is 6, Include at least 1 letter, Include at least 1 number - matching the copy and styling from the Create a Password flow: color/feedback/low-success (green), not the standard text color, since it reads as active guidance rather than a plain label. Followed by an optional Confirm Password instance built the same way. Password's own error message space is hidden, so the requirements list sits directly under the field with no reserved gap above it -
 
 ## Figma references
 
@@ -43,8 +39,8 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Size=Mobile** — breakpoints: 340, 360; no instances found
+- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; no instances in this file
+- **Size=Mobile** — breakpoints: 340, 360; no instances in this file
 
 ## Breakpoints
 
@@ -66,11 +62,11 @@ exported: 2026-09-24
 
 **Built from:**
 
-- [Form Field](../../components/41-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.md) ×4
+- [Form Field](../../components/37-form-field/form-field.md) ×2
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -78,10 +74,10 @@ exported: 2026-09-24
 
 ```
 - Size=Desktop — component 480×276 [vertical gap 8] (fixed/hug)
-  - Form Field — instance 480×103 [vertical gap 0] (fill/hug) → Form Field [Size=Desktop, State=Filled]
+  - Form Field — instance 480×103 [vertical gap 0] (fill/hug) → Form Field [Size=Desktop, State=Blank]
   - Minimum length is 6 Include at least 1 letter Include at least 1 number — text 157×54 (hug/hug) "Minimum length is 6
 Include at least 1 l"
-  - Form Field — instance 480×103 [vertical gap 0] (fill/hug) → Form Field [Size=Desktop, State=Filled]
+  - Form Field — instance 480×103 [vertical gap 0] (fill/hug) → Form Field [Size=Desktop, State=Blank]
 ```
 
 **Size=Mobile**
@@ -103,10 +99,10 @@ Include at least 1 l"
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Minimum length is 6 Include at least 1 letter Include at least 1 number | Noto Sans | Regular | 13 | auto |  |  | #2E8000 | Colors/color/feedback/low-success |  | Minimum length is 6 Include at least 1 letter Incl |
-| Minimum length is 6 Include at least 1 letter Include at least 1 number | Noto Sans | Regular | 12 | auto |  |  | #2E8000 | Colors/color/feedback/low-success |  | Minimum length is 6 Include at least 1 letter Incl |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Minimum length is 6 Include at least 1 letter Include at lea | Noto Sans | Regular | 13 | auto |  |  | #2E8000 | Colors/color/feedback/low-success |  |  | Minimum length is 6 Include at least 1 letter Incl | Size=Desktop |
+| Minimum length is 6 Include at least 1 letter Include at lea | Noto Sans | Regular | 12 | auto |  |  | #2E8000 | Colors/color/feedback/low-success |  |  | Minimum length is 6 Include at least 1 letter Incl | Size=Mobile |
 
 ## Color & effects
 

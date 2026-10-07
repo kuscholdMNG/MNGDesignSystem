@@ -52,8 +52,6 @@
   "340",
   "360",
   "768",
-  "1024",
-  "1100",
   "1280"
  ],
  "usage": {
@@ -73,16 +71,8 @@
      "340 HomePage": 1
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [
-     "340",
-     "360"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -95,19 +85,9 @@
      "Desktop HomePage": 1
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [
-     "1280"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
-     "1024",
-     "1100",
      "1280"
     ]
    },
@@ -118,14 +98,8 @@
      "768 HomePage": 1
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768"
-    ],
-    "observedBreakpoints": [
-     "768"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768"
     ]
@@ -136,7 +110,7 @@
   "builtFrom": [
    {
     "name": "Zone 1 Lead Article Card",
-    "count": 3,
+    "count": 1,
     "inExport": true,
     "section": "Zone 1 Lead Article Card",
     "path": "../../components/04-zone-1-lead-article-card/zone-1-lead-article-card.md"
@@ -157,14 +131,14 @@
    },
    {
     "name": "Latest Headlines",
-    "count": 3,
+    "count": 1,
     "inExport": true,
     "section": "Latest Headlines",
     "path": "../09-latest-headlines/latest-headlines.md"
    },
    {
     "name": "Ad Blocks",
-    "count": 3,
+    "count": 1,
     "inExport": false,
     "section": null,
     "path": null
@@ -196,7 +170,7 @@
    "key": "6f47ee23795007df62f06ec3ef7f576a1c87eb75",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-19481",
    "width": 340,
-   "height": 2375.7,
+   "height": 2378.7,
    "layout": {
     "dir": "VERTICAL",
     "gap": 16,
@@ -226,7 +200,7 @@
     "type": "COMPONENT",
     "id": "3352:19481",
     "w": 340,
-    "h": 2375.7,
+    "h": 2378.7,
     "x": 16,
     "y": 16,
     "sizing": {
@@ -472,7 +446,7 @@
           ]
          },
          {
-          "name": "Line 1",
+          "name": "Bottom Border Line",
           "type": "LINE",
           "id": "3352:19155",
           "w": 340,
@@ -486,7 +460,8 @@
           "strokes": [
            {
             "type": "SOLID",
-            "hex": "#D7D6D2"
+            "hex": "#CCCAC7",
+            "variable": "Colors/color/gray/500"
            }
           ],
           "strokeWeight": 1,
@@ -615,7 +590,7 @@
       "type": "INSTANCE",
       "id": "3476:62413",
       "w": 340,
-      "h": 953,
+      "h": 956,
       "x": 0,
       "y": 1156.7,
       "sizing": {
@@ -655,7 +630,7 @@
       "w": 340,
       "h": 250,
       "x": 0,
-      "y": 2125.7,
+      "y": 2128.7,
       "sizing": {
        "h": "FILL",
        "v": "HUG"
@@ -716,10 +691,10 @@
         "component": "Ad Blocks",
         "variant": {
          "Device": "All",
-         "Name": "Cube Article 300x250"
+         "Name": "Cube 1 RRail ATF 300x250"
         },
-        "componentKey": "0f353809c294c7809fa4a16d54a134ef7771a493",
-        "mainId": "527:2495"
+        "componentKey": "9955f49b4034a06a3d8818e2d80938ad2fcfed30",
+        "mainId": "3536:36839"
        }
       ]
      }
@@ -768,8 +743,6 @@
    "radius": null,
    "preview": "previews/top-zone-block--desktop.png",
    "breakpoints": [
-    "1024",
-    "1100",
     "1280"
    ],
    "layerTree": {
@@ -805,7 +778,7 @@
     ],
     "children": [
      {
-      "name": "Frame 11645",
+      "name": "Lead Column",
       "type": "FRAME",
       "id": "3352:19126",
       "w": 706,
@@ -966,13 +939,13 @@
             "strokeAlign": "INSIDE",
             "children": [
              {
-              "name": "Union",
+              "name": "Placeholder X",
               "type": "BOOLEAN_OPERATION",
               "id": "3478:66041",
-              "w": 335.9,
-              "h": 189.3,
-              "x": 0.1,
-              "y": -0.2,
+              "w": 336,
+              "h": 189,
+              "x": 0,
+              "y": 0,
               "sizing": {
                "h": "FILL",
                "v": "FILL"
@@ -986,34 +959,36 @@
               ],
               "children": [
                {
-                "name": "Vector 1",
+                "name": "Diagonal 1",
                 "type": "VECTOR",
                 "id": "3478:66042",
-                "w": 334.9,
-                "h": 187.6,
-                "x": 0.6,
-                "y": 0.7,
+                "w": 335,
+                "h": 187.3,
+                "x": 0.5,
+                "y": 0.9,
                 "strokes": [
                  {
                   "type": "SOLID",
-                  "hex": "#111111"
+                  "hex": "#141414",
+                  "variable": "Colors/color/gray/min"
                  }
                 ],
                 "strokeWeight": 2,
                 "strokeAlign": "CENTER"
                },
                {
-                "name": "Vector 2",
+                "name": "Diagonal 2",
                 "type": "VECTOR",
                 "id": "3478:66043",
-                "w": 334.9,
-                "h": 187.6,
-                "x": 335.4,
-                "y": 0.7,
+                "w": 335,
+                "h": 187.3,
+                "x": 335.5,
+                "y": 0.9,
                 "strokes": [
                  {
                   "type": "SOLID",
-                  "hex": "#111111"
+                  "hex": "#141414",
+                  "variable": "Colors/color/gray/min"
                  }
                 ],
                 "strokeWeight": 2,
@@ -1022,13 +997,13 @@
               ]
              },
              {
-              "name": "Frame 11643",
+              "name": "Label",
               "type": "FRAME",
               "id": "3478:66044",
-              "w": 179,
-              "h": 19,
-              "x": 78,
-              "y": 85,
+              "w": 168,
+              "h": 22,
+              "x": 83.5,
+              "y": 83.5,
               "sizing": {
                "h": "HUG",
                "v": "HUG"
@@ -1051,8 +1026,8 @@
                 "name": "ARTICLE IMAGE",
                 "type": "TEXT",
                 "id": "3478:66045",
-                "w": 179,
-                "h": 19,
+                "w": 168,
+                "h": 22,
                 "x": 0,
                 "y": 0,
                 "sizing": {
@@ -1073,8 +1048,8 @@
                 "align": "LEFT",
                 "styles": [
                  {
-                  "font": "New York",
-                  "weight": "Black",
+                  "font": "Noto Serif",
+                  "weight": "Bold",
                   "size": 16,
                   "lineHeight": "auto",
                   "letterSpacing": "10%",
@@ -1266,13 +1241,13 @@
             "strokeAlign": "INSIDE",
             "children": [
              {
-              "name": "Union",
+              "name": "Placeholder X",
               "type": "BOOLEAN_OPERATION",
               "id": "3478:66057",
-              "w": 335.9,
-              "h": 189.3,
-              "x": 0.1,
-              "y": -0.2,
+              "w": 336,
+              "h": 189,
+              "x": 0,
+              "y": 0,
               "sizing": {
                "h": "FILL",
                "v": "FILL"
@@ -1286,34 +1261,36 @@
               ],
               "children": [
                {
-                "name": "Vector 1",
+                "name": "Diagonal 1",
                 "type": "VECTOR",
                 "id": "3478:66058",
-                "w": 334.9,
-                "h": 187.6,
-                "x": 0.6,
-                "y": 0.7,
+                "w": 335,
+                "h": 187.3,
+                "x": 0.5,
+                "y": 0.9,
                 "strokes": [
                  {
                   "type": "SOLID",
-                  "hex": "#111111"
+                  "hex": "#141414",
+                  "variable": "Colors/color/gray/min"
                  }
                 ],
                 "strokeWeight": 2,
                 "strokeAlign": "CENTER"
                },
                {
-                "name": "Vector 2",
+                "name": "Diagonal 2",
                 "type": "VECTOR",
                 "id": "3478:66059",
-                "w": 334.9,
-                "h": 187.6,
-                "x": 335.4,
-                "y": 0.7,
+                "w": 335,
+                "h": 187.3,
+                "x": 335.5,
+                "y": 0.9,
                 "strokes": [
                  {
                   "type": "SOLID",
-                  "hex": "#111111"
+                  "hex": "#141414",
+                  "variable": "Colors/color/gray/min"
                  }
                 ],
                 "strokeWeight": 2,
@@ -1322,13 +1299,13 @@
               ]
              },
              {
-              "name": "Frame 11643",
+              "name": "Label",
               "type": "FRAME",
               "id": "3478:66060",
-              "w": 179,
-              "h": 19,
-              "x": 78,
-              "y": 85,
+              "w": 168,
+              "h": 22,
+              "x": 83.5,
+              "y": 83.5,
               "sizing": {
                "h": "HUG",
                "v": "HUG"
@@ -1351,8 +1328,8 @@
                 "name": "ARTICLE IMAGE",
                 "type": "TEXT",
                 "id": "3478:66061",
-                "w": 179,
-                "h": 19,
+                "w": 168,
+                "h": 22,
                 "x": 0,
                 "y": 0,
                 "sizing": {
@@ -1373,8 +1350,8 @@
                 "align": "LEFT",
                 "styles": [
                  {
-                  "font": "New York",
-                  "weight": "Black",
+                  "font": "Noto Serif",
+                  "weight": "Bold",
                   "size": 16,
                   "lineHeight": "auto",
                   "letterSpacing": "10%",
@@ -1593,13 +1570,13 @@
             "strokeAlign": "INSIDE",
             "children": [
              {
-              "name": "Union",
+              "name": "Placeholder X",
               "type": "BOOLEAN_OPERATION",
               "id": "3478:66073",
-              "w": 335.9,
-              "h": 189.3,
-              "x": 0.1,
-              "y": -0.2,
+              "w": 336,
+              "h": 189,
+              "x": 0,
+              "y": 0,
               "sizing": {
                "h": "FILL",
                "v": "FILL"
@@ -1613,34 +1590,36 @@
               ],
               "children": [
                {
-                "name": "Vector 1",
+                "name": "Diagonal 1",
                 "type": "VECTOR",
                 "id": "3478:66074",
-                "w": 334.9,
-                "h": 187.6,
-                "x": 0.6,
-                "y": 0.7,
+                "w": 335,
+                "h": 187.3,
+                "x": 0.5,
+                "y": 0.9,
                 "strokes": [
                  {
                   "type": "SOLID",
-                  "hex": "#111111"
+                  "hex": "#141414",
+                  "variable": "Colors/color/gray/min"
                  }
                 ],
                 "strokeWeight": 2,
                 "strokeAlign": "CENTER"
                },
                {
-                "name": "Vector 2",
+                "name": "Diagonal 2",
                 "type": "VECTOR",
                 "id": "3478:66075",
-                "w": 334.9,
-                "h": 187.6,
-                "x": 335.4,
-                "y": 0.7,
+                "w": 335,
+                "h": 187.3,
+                "x": 335.5,
+                "y": 0.9,
                 "strokes": [
                  {
                   "type": "SOLID",
-                  "hex": "#111111"
+                  "hex": "#141414",
+                  "variable": "Colors/color/gray/min"
                  }
                 ],
                 "strokeWeight": 2,
@@ -1649,13 +1628,13 @@
               ]
              },
              {
-              "name": "Frame 11643",
+              "name": "Label",
               "type": "FRAME",
               "id": "3478:66076",
-              "w": 179,
-              "h": 19,
-              "x": 78,
-              "y": 85,
+              "w": 168,
+              "h": 22,
+              "x": 83.5,
+              "y": 83.5,
               "sizing": {
                "h": "HUG",
                "v": "HUG"
@@ -1678,8 +1657,8 @@
                 "name": "ARTICLE IMAGE",
                 "type": "TEXT",
                 "id": "3478:66077",
-                "w": 179,
-                "h": 19,
+                "w": 168,
+                "h": 22,
                 "x": 0,
                 "y": 0,
                 "sizing": {
@@ -1700,8 +1679,8 @@
                 "align": "LEFT",
                 "styles": [
                  {
-                  "font": "New York",
-                  "weight": "Black",
+                  "font": "Noto Serif",
+                  "weight": "Bold",
                   "size": 16,
                   "lineHeight": "auto",
                   "letterSpacing": "10%",
@@ -1893,13 +1872,13 @@
             "strokeAlign": "INSIDE",
             "children": [
              {
-              "name": "Union",
+              "name": "Placeholder X",
               "type": "BOOLEAN_OPERATION",
               "id": "3478:66089",
-              "w": 335.9,
-              "h": 189.3,
-              "x": 0.1,
-              "y": -0.2,
+              "w": 336,
+              "h": 189,
+              "x": 0,
+              "y": 0,
               "sizing": {
                "h": "FILL",
                "v": "FILL"
@@ -1913,34 +1892,36 @@
               ],
               "children": [
                {
-                "name": "Vector 1",
+                "name": "Diagonal 1",
                 "type": "VECTOR",
                 "id": "3478:66090",
-                "w": 334.9,
-                "h": 187.6,
-                "x": 0.6,
-                "y": 0.7,
+                "w": 335,
+                "h": 187.3,
+                "x": 0.5,
+                "y": 0.9,
                 "strokes": [
                  {
                   "type": "SOLID",
-                  "hex": "#111111"
+                  "hex": "#141414",
+                  "variable": "Colors/color/gray/min"
                  }
                 ],
                 "strokeWeight": 2,
                 "strokeAlign": "CENTER"
                },
                {
-                "name": "Vector 2",
+                "name": "Diagonal 2",
                 "type": "VECTOR",
                 "id": "3478:66091",
-                "w": 334.9,
-                "h": 187.6,
-                "x": 335.4,
-                "y": 0.7,
+                "w": 335,
+                "h": 187.3,
+                "x": 335.5,
+                "y": 0.9,
                 "strokes": [
                  {
                   "type": "SOLID",
-                  "hex": "#111111"
+                  "hex": "#141414",
+                  "variable": "Colors/color/gray/min"
                  }
                 ],
                 "strokeWeight": 2,
@@ -1949,13 +1930,13 @@
               ]
              },
              {
-              "name": "Frame 11643",
+              "name": "Label",
               "type": "FRAME",
               "id": "3478:66092",
-              "w": 179,
-              "h": 19,
-              "x": 78,
-              "y": 85,
+              "w": 168,
+              "h": 22,
+              "x": 83.5,
+              "y": 83.5,
               "sizing": {
                "h": "HUG",
                "v": "HUG"
@@ -1978,8 +1959,8 @@
                 "name": "ARTICLE IMAGE",
                 "type": "TEXT",
                 "id": "3478:66093",
-                "w": 179,
-                "h": 19,
+                "w": 168,
+                "h": 22,
                 "x": 0,
                 "y": 0,
                 "sizing": {
@@ -2000,8 +1981,8 @@
                 "align": "LEFT",
                 "styles": [
                  {
-                  "font": "New York",
-                  "weight": "Black",
+                  "font": "Noto Serif",
+                  "weight": "Bold",
                   "size": 16,
                   "lineHeight": "auto",
                   "letterSpacing": "10%",
@@ -2128,7 +2109,7 @@
       "type": "INSTANCE",
       "id": "3476:62595",
       "w": 226,
-      "h": 1069,
+      "h": 1072,
       "x": 722,
       "y": 0,
       "sizing": {
@@ -2253,7 +2234,7 @@
    "key": "b4a1a32615aabad34160c7c1eb0c826d46033f51",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46168",
    "width": 748,
-   "height": 1784,
+   "height": 1787,
    "layout": {
     "dir": "VERTICAL",
     "gap": 16,
@@ -2282,7 +2263,7 @@
     "type": "COMPONENT",
     "id": "3383:46168",
     "w": 748,
-    "h": 1784,
+    "h": 1787,
     "x": 372.1,
     "y": 16,
     "sizing": {
@@ -2596,7 +2577,7 @@
       "type": "INSTANCE",
       "id": "3476:62504",
       "w": 748,
-      "h": 953,
+      "h": 956,
       "x": 0,
       "y": 565,
       "sizing": {
@@ -2636,7 +2617,7 @@
       "w": 748,
       "h": 250,
       "x": 0,
-      "y": 1534,
+      "y": 1537,
       "sizing": {
        "h": "FILL",
        "v": "HUG"
@@ -2697,10 +2678,10 @@
         "component": "Ad Blocks",
         "variant": {
          "Device": "All",
-         "Name": "Cube Article 300x250"
+         "Name": "Cube 1 RRail ATF 300x250"
         },
-        "componentKey": "0f353809c294c7809fa4a16d54a134ef7771a493",
-        "mainId": "527:2495"
+        "componentKey": "9955f49b4034a06a3d8818e2d80938ad2fcfed30",
+        "mainId": "3536:36839"
        }
       ]
      }
@@ -2725,6 +2706,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Article Headline on News paper homepage in second ",
@@ -2734,8 +2716,8 @@
   },
   {
    "layer": "ARTICLE IMAGE",
-   "font": "New York",
-   "weight": "Black",
+   "font": "Noto Serif",
+   "weight": "Bold",
    "size": 16,
    "lineHeight": "auto",
    "letterSpacing": "10%",
@@ -2743,10 +2725,14 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "GRAPHIC / IMAGE",
    "variants": [
+    "Device=Desktop",
+    "Device=Desktop",
+    "Device=Desktop",
     "Device=Desktop"
    ]
   },
@@ -2761,47 +2747,31 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Article Headline on News paper homepage in second ",
    "variants": [
+    "Device=Desktop",
+    "Device=Desktop",
+    "Device=Desktop",
     "Device=Desktop"
    ]
   }
  ],
  "colors": [
   {
+   "layer": "Zone 1 Lead Article Card",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
    "layer": "TopZone Article Card MOBILE",
-   "role": "fill",
-   "type": "SOLID",
-   "hex": "#FFFFFF",
-   "token": "Colors/color/gray/max",
-   "opacity": null,
-   "note": "",
-   "strokeWeight": null
-  },
-  {
-   "layer": "Line 1",
-   "role": "stroke",
-   "type": "SOLID",
-   "hex": "#D7D6D2",
-   "token": null,
-   "opacity": null,
-   "note": "",
-   "strokeWeight": 1
-  },
-  {
-   "layer": "Device=Desktop",
-   "role": "fill",
-   "type": "SOLID",
-   "hex": "#FFFFFF",
-   "token": "Colors/color/gray/max",
-   "opacity": null,
-   "note": "",
-   "strokeWeight": null
-  },
-  {
-   "layer": "TopZone Article Card",
    "role": "fill",
    "type": "SOLID",
    "hex": "#FFFFFF",
@@ -2817,7 +2787,7 @@
    "hex": "#E1A1FF",
    "token": null,
    "opacity": null,
-   "note": "",
+   "note": "image placeholder fill",
    "strokeWeight": null
   },
   {
@@ -2831,7 +2801,67 @@
    "strokeWeight": 2
   },
   {
-   "layer": "Union",
+   "layer": "Bottom Border Line",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#CCCAC7",
+   "token": "Colors/color/gray/500",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 1
+  },
+  {
+   "layer": "TopZone Article Card",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Latest Headlines",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Ad Blocks",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#85FF9B",
+   "token": null,
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Ad Blocks",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
+   "layer": "Device=Desktop",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Placeholder X",
    "role": "fill",
    "type": "SOLID",
    "hex": "#141414",
@@ -2841,34 +2871,34 @@
    "strokeWeight": null
   },
   {
-   "layer": "Vector 1",
+   "layer": "Diagonal 1",
    "role": "stroke",
    "type": "SOLID",
-   "hex": "#111111",
-   "token": null,
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
    "opacity": null,
    "note": "",
    "strokeWeight": 2
   },
   {
-   "layer": "Vector 2",
+   "layer": "Diagonal 2",
    "role": "stroke",
    "type": "SOLID",
-   "hex": "#111111",
-   "token": null,
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
    "opacity": null,
    "note": "",
    "strokeWeight": 2
   },
   {
-   "layer": "ARTICLE IMAGE",
-   "role": "stroke",
+   "layer": "Article Status Badge",
+   "role": "fill",
    "type": "SOLID",
-   "hex": "#F1EFEB",
-   "token": "Colors/color/gray/600",
+   "hex": "#7D161E",
+   "token": null,
    "opacity": null,
    "note": "",
-   "strokeWeight": 3
+   "strokeWeight": null
   }
  ],
  "imageRatios": [
@@ -2879,50 +2909,90 @@
    "ratio": "3:2",
    "source": "Article Image Placeholder",
    "variant": "Device=Mobile"
+  },
+  {
+   "layer": "Article Image Placeholder",
+   "w": 336,
+   "h": 189,
+   "ratio": "16:9",
+   "source": "frame",
+   "variant": "Device=Desktop"
+  },
+  {
+   "layer": "Article Image Placeholder",
+   "w": 336,
+   "h": 189,
+   "ratio": "16:9",
+   "source": "frame",
+   "variant": "Device=Desktop"
+  },
+  {
+   "layer": "Article Image Placeholder",
+   "w": 336,
+   "h": 189,
+   "ratio": "16:9",
+   "source": "frame",
+   "variant": "Device=Desktop"
+  },
+  {
+   "layer": "Article Image Placeholder",
+   "w": 336,
+   "h": 189,
+   "ratio": "16:9",
+   "source": "frame",
+   "variant": "Device=Desktop"
   }
  ],
  "adSlots": [
   {
+   "layer": "Ad Block Container",
+   "unit": null,
+   "device": null,
+   "size": "340×250",
+   "variant": "Device=Mobile"
+  },
+  {
    "layer": "Ad Blocks",
-   "unit": "Cube Article 300x250",
+   "unit": "Cube 1 RRail ATF 300x250",
    "device": "All",
-   "w": 300,
-   "h": 250,
-   "parent": "Ad Block Container",
+   "size": "300×250",
    "variant": "Device=Mobile"
   },
   {
    "layer": "Ad Blocks",
    "unit": "Cube 1 RRail ATF 300x1050",
    "device": "Desktop",
-   "w": 300,
-   "h": 1050,
-   "parent": "Right Rail",
+   "size": "300×1050",
    "variant": "Device=Desktop"
   },
   {
+   "layer": "Ad Block Container",
+   "unit": null,
+   "device": null,
+   "size": "748×250",
+   "variant": "Device=Tablet"
+  },
+  {
    "layer": "Ad Blocks",
-   "unit": "Cube Article 300x250",
+   "unit": "Cube 1 RRail ATF 300x250",
    "device": "All",
-   "w": 300,
-   "h": 250,
-   "parent": "Ad Block Container",
+   "size": "300×250",
    "variant": "Device=Tablet"
   }
  ],
  "responsiveRules": [
-  "Desktop (checked against the preview): three columns. Left: Zone 1 lead card (headline + image side by side) over a 2×2 grid of TopZone cards. Middle: Latest Headlines rail with a sponsored item and newsletter signup. Right: a Cube 1 RRail ATF 300×1050 ad.",
-  "Tablet: lead card and image across the top, then a 2×2 group of horizontal thumbnail cards, then Latest Headlines full width, with a Cube Article 300×250 ad at the bottom.",
-  "Mobile: one column. The lead card stacks headline → image → dek → related list, followed by four horizontal thumbnail cards, Latest Headlines, and a Cube Article 300×250 ad.",
-  "Device=Mobile: 340×2375.7, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360",
-  "Device=Desktop: 1264×1123, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1024, 1100, 1280",
-  "Device=Tablet: 748×1784, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768"
+  "Desktop (checked against the preview): three columns. Left: Zone 1 lead card (headline + image side by side) over a 2×2 grid of TopZone cards. Middle: Latest Headlines rail with a sponsored item and newsletter signup. Right: a tall 300×1050 rail ad.",
+  "Tablet: lead card and image across the top, then a 2×2 group of horizontal thumbnail cards, then Latest Headlines full width, with a 300×250 cube ad at the bottom.",
+  "Mobile: one column. The lead card stacks headline → image → dek → related list, followed by four horizontal thumbnail cards, Latest Headlines, and a 300×250 cube ad.",
+  "Device=Mobile: 340×2378.7, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360",
+  "Device=Desktop: 1264×1123, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1280",
+  "Device=Tablet: 748×1787, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768"
  ],
  "productionRefs": [],
  "knownIssues": [
-  "`Device=Desktop`: fonts outside the production pair (Noto Sans / Noto Serif): New York Black ×4.",
-  "13 solid paints are hard-coded (not bound to a color variable): #111111 ×8, #E1A1FF ×4, #D7D6D2 ×1."
+  "4 solid paints are hard-coded (not bound to a color variable): #E1A1FF ×4.",
+  "The 1024 and 1100 HomePage templates use detached, resized copies ('TOP ZONE Block (Desktop, detached+resized for 1024…)' and 'TOP ZONE Block (detached, resized for 1100…)') instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
  ],
  "skeleton": "top-zone-block.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

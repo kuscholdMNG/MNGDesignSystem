@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Photos Block"]
 spec_json: show-more-photos-affordance.json
 skeleton: show-more-photos-affordance.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Show More Photos Affordance
@@ -28,7 +28,7 @@ exported: 2026-09-24
 
 | Variant | Node | Key | Size | Preview |
 |---|---|---|---|---|
-| Show More Photos Affordance | [3352:24180](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-24180) | df4464b15997ef2b7b310ca9cd6a8b427de277a7 | 793×136.7 | ![Show More Photos Affordance](previews/show-more-photos-affordance.png) |
+| Show More Photos Affordance | [3352:24180](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-24180) | df4464b15997ef2b7b310ca9cd6a8b427de277a7 | 793×140.7 | ![Show More Photos Affordance](previews/show-more-photos-affordance.png) |
 
 ## Properties
 
@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Show More Photos Affordance** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): Desktop HomePage ×1, 1100 HomePage ×1, 1024 HomePage ×1, Mobile HomePage ×1, 340 HomePage ×1, 768 HomePage ×1; templates (via assembly): 768 HomePage (via Photos Block); nested inside: Photos Block / Device=Mobile ×1, Photos Block / Device=Desktop ×1, Photos Block / Device=Tablet ×1
+- **Show More Photos Affordance** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): Desktop HomePage ×1, 1100 HomePage ×1, 1024 HomePage ×1, Mobile HomePage ×1, 340 HomePage ×1; templates (via assembly): 768 HomePage (via Photos Block); nested inside: Photos Block / Device=Mobile ×1, Photos Block / Device=Desktop ×1, Photos Block / Device=Tablet ×1
 
 ## Breakpoints
 
@@ -51,13 +51,13 @@ _None._
 
 ## Responsive rules
 
-- Show More Photos Affordance: 793×136.7, vertical gap 4 pad 0/0/40/0 main MIN cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280
+- Show More Photos Affordance: 793×140.7, vertical gap 4 pad 0/0/40/0 main MIN cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280
 
 ## Dependencies
 
 **Built from:**
 
-- _nothing (leaf component)_
+_Nothing — leaf component._
 
 **Built into:**
 
@@ -68,34 +68,34 @@ _None._
 **Show More Photos Affordance**
 
 ```
-- Show More Photos Affordance — component 793×136.7 [vertical gap 4] (fixed/hug)
-  - Frame 342 — frame 793×70.7 [horizontal gap 0] (fill/hug)
-    - Line 1 — line 361.1×0 (fill/fixed)
-    - Rectangle 11 — rectangle 50×50 (fixed/fixed)
-    - Line 2 — line 361.1×0 (fill/fixed)
-  - Show More Photos — text 193×22 (hug/hug) "Show More Photos"
+- Show More Photos Affordance — component 793×140.7 [vertical gap 4] (fixed/hug)
+  - Divider Row — frame 793×70.7 [horizontal gap 0] (fill/hug)
+    - Divider Left — line 361.1×0 (fill/fixed)
+    - Diamond — rectangle 50×50 (fixed/fixed)
+    - Divider Right — line 361.1×0 (fill/fixed)
+  - Show More Photos — text 202×26 (hug/hug) "Show More Photos"
 ```
 
 ## Size & layout
 
 | Variant | Size | Width | Height | Auto-layout | Radius | Clip |
 |---|---|---|---|---|---|---|
-| Show More Photos Affordance | 793×136.7 | FIXED | HUG | vertical gap 4 pad 0/0/40/0 main MIN cross CENTER |  |  |
+| Show More Photos Affordance | 793×140.7 | FIXED | HUG | vertical gap 4 pad 0/0/40/0 main MIN cross CENTER |  |  |
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Show More Photos | Droid Sans | Bold | 19 | auto |  | UPPER | #007580 | Colors/color/theme/primary |  | Show More Photos |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Show More Photos | Noto Sans | Bold | 19 | auto |  | UPPER | #007580 | Colors/color/theme/primary |  |  | Show More Photos | all |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| Line 1 | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
-| Rectangle 11 | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
-| Rectangle 11 | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
-| Line 2 | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
+| Divider Left | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
+| Diamond | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
+| Diamond | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
+| Divider Right | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
 
 ## Image ratios
 
@@ -111,7 +111,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- `Show More Photos Affordance`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Sans Bold ×1.
+_None detected._
 
 ## Rendering steps
 

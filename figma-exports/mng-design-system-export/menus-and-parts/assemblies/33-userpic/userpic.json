@@ -10,22 +10,13 @@
  "designerNotes": [
   "User Type",
   "UserPic",
-  "UserPic | Sample Model; do not use",
-  "User: Type, Status, Pic"
+  "UserPic | Sample Model; do not use"
  ],
  "figma": {
   "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
   "fileName": "WordPress Elements",
   "page": "Menus and Parts",
-  "path": [
-   "Frame 12800",
-   "Frame 416",
-   "Frame 11820",
-   "Frame 12776",
-   "Frame 12636",
-   "User Status",
-   "Frame 12757"
-  ],
+  "path": "Frame 12800 ▸ Frame 416 ▸ Frame 11820 ▸ Frame 12776 ▸ Frame 12636 ▸ User Status ▸ Frame 12757",
   "mainId": "456:5674",
   "mainKey": "b0a98e06e6e220ea1c7d4a247494ff5525fe0dd7",
   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5674",
@@ -87,19 +78,9 @@
    ]
   }
  },
- "breakpoints": [
-  "340",
-  "360",
-  "768",
-  "1024"
- ],
+ "breakpoints": [],
  "usage": {
-  "templates": [
-   "1024 HomePage",
-   "340 HomePage",
-   "768 HomePage",
-   "Mobile HomePage"
-  ],
+  "templates": [],
   "builtInto": [
    "UserStatus"
   ],
@@ -108,49 +89,22 @@
     "label": "Size=Small, Status=Default",
     "id": "456:5675",
     "templatesDirect": {},
-    "templatesVia": {
-     "340 HomePage": [
-      "UserStatus"
-     ],
-     "768 HomePage": [
-      "UserStatus"
-     ],
-     "1024 HomePage": [
-      "UserStatus"
-     ],
-     "Mobile HomePage": [
-      "UserStatus"
-     ]
-    },
-    "nestedIn": {
-     "UserStatus / Device=Desktop, status=nonSub": 1,
+    "templatesVia": {},
+    "inComponents": {
      "UserStatus / Device=mobile, status=none": 1,
+     "UserStatus / Device=Desktop, status=nonSub": 1,
      "UserStatus / Device=Desktop, status=subscriber": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024"
-    ],
-    "breakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024"
-    ]
+    "other": {},
+    "breakpoints": []
    },
    {
     "label": "Size=Small, Status=Active",
     "id": "712:6222",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -158,19 +112,8 @@
     "id": "456:5678",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
-     "NewsletterManagement / Device=Desktop": 1,
-     "DigiSubActivation / Device=Fold": 1,
-     "PaymentMethodUpdates / Device=Fold": 1,
-     "PaymentMethodUpdates / Device=Mobile": 1,
-     "DigiSubActivation / Device=Mobile": 1,
-     "NewsletterManagement / Device=Fold": 1,
-     "DigiSubActivation / Device=Desktop": 1,
-     "PaymentMethodUpdates / Device=Desktop": 1
-    },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -178,12 +121,10 @@
     "id": "712:6292",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
+    "inComponents": {},
+    "other": {
      "Menus and Parts ▸ Frame 12800": 1
     },
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
     "breakpoints": []
    },
    {
@@ -191,10 +132,8 @@
     "id": "712:6226",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -202,10 +141,8 @@
     "id": "712:6295",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    }
   ]
@@ -214,14 +151,14 @@
   "builtFrom": [
    {
     "name": "UserImage",
-    "count": 6,
+    "count": 1,
     "inExport": true,
     "section": "UserImage",
     "path": "../../components/28-userimage/userimage.md"
    },
    {
     "name": "AlertLevel",
-    "count": 12,
+    "count": 2,
     "inExport": true,
     "section": "AlertLevel",
     "path": "../../components/27-alertlevel/alertlevel.md"
@@ -266,12 +203,7 @@
    "strokes": null,
    "radius": null,
    "preview": "previews/userpic--small-default.png",
-   "breakpoints": [
-    "340",
-    "360",
-    "768",
-    "1024"
-   ],
+   "breakpoints": [],
    "layerTree": {
     "name": "Size=Small, Status=Default",
     "type": "COMPONENT",
@@ -1098,17 +1030,17 @@
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
-  "Size=Small, Status=Default: 30×30, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — renders at 340, 360, 768, 1024",
-  "Size=Small, Status=Active: 30×30, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — renders at (no breakpoint evidence)",
-  "Size=Medium, Status=Default: 40×40, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — renders at (no breakpoint evidence)",
-  "Size=Medium, Status=Active: 40×40, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — renders at (no breakpoint evidence)",
-  "Size=Large, Status=Default: 64×64, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — renders at (no breakpoint evidence)",
-  "Size=Large, Status=Active: 64×64, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — renders at (no breakpoint evidence)"
+  "Size=Small, Status=Default: 30×30, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)",
+  "Size=Small, Status=Active: 30×30, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)",
+  "Size=Medium, Status=Default: 40×40, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)",
+  "Size=Medium, Status=Active: 40×40, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)",
+  "Size=Large, Status=Default: 64×64, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)",
+  "Size=Large, Status=Active: 64×64, horizontal gap 8 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)"
  ],
  "productionRefs": [],
  "knownIssues": [
-  "3 of 6 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Size=Small, Status=Active`, `Size=Large, Status=Default`, `Size=Large, Status=Active`."
+  "4 of 6 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Size=Small, Status=Active`, `Size=Medium, Status=Default`, `Size=Large, Status=Default`, `Size=Large, Status=Active`."
  ],
  "skeleton": "userpic.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

@@ -12,7 +12,7 @@ built_from: ["Icons"]
 built_into: []
 spec_json: breaking-news-banner.json
 skeleton: breaking-news-banner.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Breaking News Banner
@@ -67,11 +67,11 @@ exported: 2026-09-24
 
 **Built from:**
 
-- Icons ×3 _(not in this export)_
+- Icons ×1 _(not in this export)_
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -128,18 +128,18 @@ exported: 2026-09-24
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Breaking News | Noto Sans | Bold | 18 | 22.652000427246094px |  | UPPER | #141414 | Colors/color/gray/min |  | Breaking News |
-| Breaking News Headline will wrap until it goes forever as long as it is needed to go. | Noto Serif | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Breaking News Headline will wrap until it goes for |
-| September 23, 2025 at 12:34 pm | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | September 23, 2025 at 12:34 pm |
-| Breaking News Headline | Noto Serif | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Breaking News Headline |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Breaking News | Noto Sans | Bold | 18 | 22.65px |  | UPPER | #0A0908 | Colors/color/theme/near-black |  |  | Breaking News | all |
+| Breaking News Headline will wrap until it goes forever as lo | Noto Serif | Regular | 16 | auto |  |  | #0A0908 | Colors/color/theme/near-black |  |  | Breaking News Headline will wrap until it goes for | Property 1=Mobile, Property 1=Tablet |
+| September 23, 2025 at 12:34 pm | Noto Sans | Regular | 16 | auto |  |  | #0A0908 | Colors/color/theme/near-black |  |  | September 23, 2025 at 12:34 pm | all |
+| Breaking News Headline | Noto Serif | Regular | 16 | auto |  |  | #0A0908 | Colors/color/theme/near-black |  |  | Breaking News Headline | Property 1=Desktop |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| Breaking News Banner | fill | SOLID | #FFC518 | ⚠ unbound |  |  |
+| Breaking News Banner | fill | SOLID | #FFEA00 | Colors/color/theme/secondary |  |  |
 
 ## Image ratios
 
@@ -155,7 +155,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- 3 solid paints are hard-coded (not bound to a color variable): #FFC518 ×3.
+_None detected._
 
 ## Rendering steps
 

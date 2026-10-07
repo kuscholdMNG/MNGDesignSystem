@@ -12,16 +12,12 @@ built_from: ["Form Field"]
 built_into: []
 spec_json: form-field-assembly-address-block.json
 skeleton: form-field-assembly-address-block.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Form Field Assembly / Address block
 
 **Assembly · 2 variants** · Form Fields · source: MNG Design System ▸ Form Fields | 2026.09.24
-
-**Designer notes on the canvas:**
-
-- Street Address as a full-width Form Field instance, followed by City / State / Zip Code in a row. State (2 chars) and Zip Code (5 digits) are auto-sized to fit their own label/value content - Figma measures the actual rendered text (not a guessed number), so the box is always exactly as wide as it needs to be and re-measures itself whenever the label, placeholder, or font size changes. Currently: Desktop State 55px, Zip 84px; Mobile State 53px, Zip 78px. City takes the rest of the row (Fill sizing) since city names vary in length. Desktop: 16px gaps, 8px vertical spacing between rows. Mobile: 
 
 ## Figma references
 
@@ -43,8 +39,8 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Size=Mobile** — breakpoints: 340, 360; no instances found
+- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; no instances in this file
+- **Size=Mobile** — breakpoints: 340, 360; no instances in this file
 
 ## Breakpoints
 
@@ -66,11 +62,11 @@ exported: 2026-09-24
 
 **Built from:**
 
-- [Form Field](../../components/41-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.md) ×8
+- [Form Field](../../components/37-form-field/form-field.md) ×4
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -78,11 +74,11 @@ exported: 2026-09-24
 
 ```
 - Size=Desktop — component 480×197 [vertical gap 8] (fixed/hug)
-  - Form Field — instance 480×78 [vertical gap 0] (fill/hug) → Form Field [Size=Desktop, State=Filled]
+  - Form Field — instance 480×78 [vertical gap 0] (fill/hug) → Form Field [Size=Desktop, State=Blank]
   - Fields — frame 480×78 [horizontal gap 16] (fill/hug)
-    - Form Field — instance 309×78 [vertical gap 0] (fill/hug) → Form Field [Size=Desktop, State=Filled]
-    - Form Field — instance 55×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Filled]
-    - Form Field — instance 84×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Filled]
+    - Form Field — instance 309×78 [vertical gap 0] (fill/hug) → Form Field [Size=Desktop, State=Blank]
+    - Form Field — instance 55×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Blank]
+    - Form Field — instance 84×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Blank]
   - Error Message Container (Shared) — frame 480×25 [horizontal gap 8] (fill/fixed)
     - Error Message Text. — text 480×25 (fixed/fixed) "Error message text." (hidden)
 ```
@@ -109,10 +105,10 @@ exported: 2026-09-24
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Error message text. |
-| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Error message text. |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Desktop |
+| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Mobile |
 
 ## Color & effects
 

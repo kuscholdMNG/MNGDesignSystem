@@ -72,16 +72,8 @@
      "340 HomePage": 1
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [
-     "340",
-     "360"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -94,14 +86,8 @@
      "768 HomePage": 1
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768"
-    ],
-    "observedBreakpoints": [
-     "768"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768"
     ]
@@ -111,14 +97,8 @@
     "id": "3352:20524",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "1024",
      "1100",
@@ -131,14 +111,14 @@
   "builtFrom": [
    {
     "name": "Section Title / Eyebrow",
-    "count": 3,
+    "count": 1,
     "inExport": true,
     "section": "Section Title / Eyebrow",
     "path": "../../components/06-section-title-eyebrow/section-title-eyebrow.md"
    },
    {
     "name": "Most Popular List Item",
-    "count": 30,
+    "count": 10,
     "inExport": true,
     "section": "Most Popular List Item",
     "path": "../../components/13-most-popular-list-item/most-popular-list-item.md"
@@ -176,7 +156,8 @@
    "fills": [
     {
      "type": "SOLID",
-     "hex": "#FFFFFF"
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
     }
    ],
    "strokes": null,
@@ -213,7 +194,8 @@
     "fills": [
      {
       "type": "SOLID",
-      "hex": "#FFFFFF"
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
      }
     ],
     "children": [
@@ -244,7 +226,8 @@
       "fills": [
        {
         "type": "SOLID",
-        "hex": "#FFFFFF"
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
        }
       ],
       "children": [
@@ -275,7 +258,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#FFFFFF"
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
          }
         ],
         "children": [
@@ -342,7 +326,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#FFFFFF"
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
          }
         ],
         "children": [
@@ -764,7 +749,8 @@
    "fills": [
     {
      "type": "SOLID",
-     "hex": "#FFFFFF"
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
     }
    ],
    "strokes": null,
@@ -800,7 +786,8 @@
     "fills": [
      {
       "type": "SOLID",
-      "hex": "#FFFFFF"
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
      }
     ],
     "children": [
@@ -831,7 +818,8 @@
       "fills": [
        {
         "type": "SOLID",
-        "hex": "#FFFFFF"
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
        }
       ],
       "children": [
@@ -862,7 +850,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#FFFFFF"
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
          }
         ],
         "children": [
@@ -929,7 +918,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#FFFFFF"
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
          }
         ],
         "children": [
@@ -1979,53 +1969,13 @@
    "role": "fill",
    "type": "SOLID",
    "hex": "#FFFFFF",
-   "token": null,
+   "token": "Colors/color/gray/max",
    "opacity": null,
    "note": "",
    "strokeWeight": null
   },
   {
    "layer": "Content Container",
-   "role": "fill",
-   "type": "SOLID",
-   "hex": "#FFFFFF",
-   "token": null,
-   "opacity": null,
-   "note": "",
-   "strokeWeight": null
-  },
-  {
-   "layer": "Blueconic Header MOBILE",
-   "role": "fill",
-   "type": "SOLID",
-   "hex": "#FFFFFF",
-   "token": null,
-   "opacity": null,
-   "note": "",
-   "strokeWeight": null
-  },
-  {
-   "layer": "List Container",
-   "role": "fill",
-   "type": "SOLID",
-   "hex": "#FFFFFF",
-   "token": null,
-   "opacity": null,
-   "note": "",
-   "strokeWeight": null
-  },
-  {
-   "layer": "Device=Tablet",
-   "role": "fill",
-   "type": "SOLID",
-   "hex": "#FFFFFF",
-   "token": null,
-   "opacity": null,
-   "note": "",
-   "strokeWeight": null
-  },
-  {
-   "layer": "Device=Desktop",
    "role": "fill",
    "type": "SOLID",
    "hex": "#FFFFFF",
@@ -2035,7 +1985,47 @@
    "strokeWeight": null
   },
   {
-   "layer": "Content Container",
+   "layer": "Blueconic Header MOBILE",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "List Container",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Most Popular List Item",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=Tablet",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=Desktop",
    "role": "fill",
    "type": "SOLID",
    "hex": "#FFFFFF",
@@ -2075,8 +2065,8 @@
  "productionRefs": [],
  "knownIssues": [
   "1 of 3 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=Desktop`.",
-  "8 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×8."
+  "The 1024, 1100 and 1280 HomePage templates use detached, resized copies ('Blueconic Block Content (Tablet, detached, resized to 585…)') instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
  ],
  "skeleton": "blueconic-block-most-popular.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

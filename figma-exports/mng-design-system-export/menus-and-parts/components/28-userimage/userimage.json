@@ -7,25 +7,12 @@
  "order": 28,
  "typeLabel": "Component · 12 variants",
  "description": null,
- "designerNotes": [
-  "User Type",
-  "UserPic",
-  "UserPic | Sample Model; do not use"
- ],
+ "designerNotes": [],
  "figma": {
   "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
   "fileName": "WordPress Elements",
   "page": "Menus and Parts",
-  "path": [
-   "Frame 12800",
-   "Frame 416",
-   "Frame 11820",
-   "Frame 12776",
-   "Frame 12636",
-   "User Status",
-   "Frame 12757",
-   "Frame 12691"
-  ],
+  "path": "Frame 12800 ▸ Frame 416 ▸ Frame 11820 ▸ Frame 12776 ▸ Frame 12636 ▸ User Status ▸ Frame 12757 ▸ Frame 12691",
   "mainId": "456:5708",
   "mainKey": "72a3f7d5c88a366288aae1b0835999779027f8ea",
   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5708",
@@ -126,19 +113,9 @@
    ]
   }
  },
- "breakpoints": [
-  "340",
-  "360",
-  "768",
-  "1024"
- ],
+ "breakpoints": [],
  "usage": {
-  "templates": [
-   "1024 HomePage",
-   "340 HomePage",
-   "768 HomePage",
-   "Mobile HomePage"
-  ],
+  "templates": [],
   "builtInto": [
    "UserPic"
   ],
@@ -148,13 +125,11 @@
     "id": "456:5711",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
+    "inComponents": {
      "UserPic / Size=Large, Status=Active": 1,
      "UserPic / Size=Large, Status=Default": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "other": {},
     "breakpoints": []
    },
    {
@@ -162,10 +137,8 @@
     "id": "456:5713",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -173,10 +146,8 @@
     "id": "712:1495",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -184,10 +155,8 @@
     "id": "456:5720",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -195,10 +164,8 @@
     "id": "456:5722",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -206,13 +173,11 @@
     "id": "712:6288",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
+    "inComponents": {
      "UserPic / Size=Medium, Status=Active": 1,
      "UserPic / Size=Medium, Status=Default": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "other": {},
     "breakpoints": []
    },
    {
@@ -220,10 +185,8 @@
     "id": "712:6290",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -231,10 +194,8 @@
     "id": "712:6283",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -242,58 +203,29 @@
     "id": "712:6286",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
     "label": "Size=small, Graphic=social",
     "id": "456:5709",
     "templatesDirect": {},
-    "templatesVia": {
-     "340 HomePage": [
-      "UserPic"
-     ],
-     "768 HomePage": [
-      "UserPic"
-     ],
-     "1024 HomePage": [
-      "UserPic"
-     ],
-     "Mobile HomePage": [
-      "UserPic"
-     ]
-    },
-    "nestedIn": {
+    "templatesVia": {},
+    "inComponents": {
      "UserPic / Size=Small, Status=Active": 1,
      "UserPic / Size=Small, Status=Default": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024"
-    ],
-    "breakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024"
-    ]
+    "other": {},
+    "breakpoints": []
    },
    {
     "label": "Size=small, Graphic=unknown",
     "id": "456:5715",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -301,10 +233,8 @@
     "id": "456:5718",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    }
   ]
@@ -313,7 +243,7 @@
   "builtFrom": [
    {
     "name": "Icons",
-    "count": 3,
+    "count": 1,
     "inExport": false,
     "section": null,
     "path": null
@@ -603,7 +533,7 @@
        "Name": "user"
       },
       "componentKey": "1eec3c572b35b5eb4fb4e93ca84561f70017db8b",
-      "mainId": "3493:81122",
+      "mainId": "3527:18659",
       "props": {}
      }
     ],
@@ -1115,7 +1045,7 @@
        "Name": "user"
       },
       "componentKey": "1eec3c572b35b5eb4fb4e93ca84561f70017db8b",
-      "mainId": "3493:81122",
+      "mainId": "3527:18659",
       "props": {}
      }
     ],
@@ -1269,12 +1199,7 @@
    "strokes": null,
    "radius": 80,
    "preview": "previews/userimage--small-social.png",
-   "breakpoints": [
-    "340",
-    "360",
-    "768",
-    "1024"
-   ],
+   "breakpoints": [],
    "layerTree": {
     "name": "Size=small, Graphic=social",
     "type": "COMPONENT",
@@ -1432,7 +1357,7 @@
        "Name": "user"
       },
       "componentKey": "1eec3c572b35b5eb4fb4e93ca84561f70017db8b",
-      "mainId": "3493:81122",
+      "mainId": "3527:18659",
       "props": {}
      }
     ],
@@ -1568,6 +1493,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "GM",
@@ -1587,6 +1513,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "GM",
@@ -1605,6 +1532,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "GM",
@@ -1614,26 +1542,6 @@
   }
  ],
  "colors": [
-  {
-   "layer": "gritty 1",
-   "role": "fill",
-   "type": "IMAGE",
-   "hex": null,
-   "token": null,
-   "opacity": null,
-   "note": " IMAGE CROP",
-   "strokeWeight": null
-  },
-  {
-   "layer": "phillie-phanatic-philadelphia-phillies",
-   "role": "fill",
-   "type": "IMAGE",
-   "hex": null,
-   "token": null,
-   "opacity": null,
-   "note": " IMAGE CROP",
-   "strokeWeight": null
-  },
   {
    "layer": "Size=large, Graphic=unknown",
    "role": "fill",
@@ -1708,18 +1616,18 @@
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
-  "Size=large, Graphic=social: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
-  "Size=large, Graphic=socialPhillip: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
-  "Size=large, Graphic=unknown: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
-  "Size=large, Graphic=monogram: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
-  "Size=large, Graphic=monogramPP: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
-  "Size=medium, Graphic=social: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
-  "Size=medium, Graphic=socialPhillip: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
-  "Size=medium, Graphic=unknown: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
-  "Size=medium, Graphic=monogram: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
-  "Size=small, Graphic=social: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at 340, 360, 768, 1024",
-  "Size=small, Graphic=unknown: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)",
-  "Size=small, Graphic=monogram: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)"
+  "Size=large, Graphic=social: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)",
+  "Size=large, Graphic=socialPhillip: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)",
+  "Size=large, Graphic=unknown: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)",
+  "Size=large, Graphic=monogram: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)",
+  "Size=large, Graphic=monogramPP: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)",
+  "Size=medium, Graphic=social: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)",
+  "Size=medium, Graphic=socialPhillip: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)",
+  "Size=medium, Graphic=unknown: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)",
+  "Size=medium, Graphic=monogram: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)",
+  "Size=small, Graphic=social: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)",
+  "Size=small, Graphic=unknown: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)",
+  "Size=small, Graphic=monogram: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)"
  ],
  "productionRefs": [],
  "knownIssues": [
@@ -1727,5 +1635,5 @@
   "3 solid paints are hard-coded (not bound to a color variable): #FF702C ×3."
  ],
  "skeleton": "userimage.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

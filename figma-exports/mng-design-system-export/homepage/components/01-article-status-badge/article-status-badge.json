@@ -70,22 +70,18 @@
    "TopZone Article Card",
    "Latest Headlines List Item",
    "TOP ZONE Block",
-   "1Col Article Card",
-   "Photos Block"
+   "1Col Article Card"
   ],
   "perVariant": [
    {
     "label": "Type=None",
     "id": "3344:63994",
-    "templatesDirect": {
-     "768 HomePage": 7,
-     "Mobile HomePage": 10,
-     "340 HomePage": 10,
-     "1024 HomePage": 7,
-     "1100 HomePage": 7,
-     "Desktop HomePage": 7
-    },
+    "templatesDirect": {},
     "templatesVia": {
+     "Desktop HomePage": [
+      "Latest Headlines List Item",
+      "Zone 1 Lead Article Card"
+     ],
      "1100 HomePage": [
       "Latest Headlines List Item",
       "Zone 1 Lead Article Card"
@@ -95,45 +91,29 @@
       "Zone 1 Lead Article Card"
      ],
      "Mobile HomePage": [
+      "Latest Headlines List Item",
       "TopZone Article Card",
       "Zone 1 Lead Article Card"
      ],
      "340 HomePage": [
+      "Latest Headlines List Item",
       "TopZone Article Card",
       "Zone 1 Lead Article Card"
      ],
-     "Desktop HomePage": [
-      "Latest Headlines",
-      "Zone 1 Lead Article Card"
-     ],
      "768 HomePage": [
+      "Latest Headlines List Item",
       "Zone 1 Lead Article Card"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
+     "Zone 1 Lead Article Card / Device=Desktop": 1,
      "Zone 1 Lead Article Card / Device=Mobile": 1,
-     "TOP ZONE Block / Device=Mobile": 10,
-     "TopZone Article Card / Device=Mobile": 1,
-     "Latest Headlines / Device=Desktop": 6,
-     "Latest Headlines / Device=Mobile": 6,
-     "TOP ZONE Block / Device=Desktop": 7,
-     "Zone 1 Lead Article Card / Device=Tablet": 1,
-     "TOP ZONE Block / Device=Tablet": 7,
-     "Latest Headlines / Device=Tablet": 6,
      "Latest Headlines List Item / Type=First": 1,
      "Latest Headlines List Item / Type=Standard": 1,
-     "Zone 1 Lead Article Card / Device=Desktop": 1
+     "Zone 1 Lead Article Card / Device=Tablet": 1,
+     "TopZone Article Card / Device=Mobile": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -146,34 +126,32 @@
    {
     "label": "Type=Subscriber",
     "id": "3344:63989",
-    "templatesDirect": {
-     "768 HomePage": 1,
-     "Mobile HomePage": 1,
-     "1024 HomePage": 1,
-     "Desktop HomePage": 1,
-     "340 HomePage": 1,
-     "1100 HomePage": 1
-    },
+    "templatesDirect": {},
     "templatesVia": {
+     "1100 HomePage": [
+      "1Col Article Card"
+     ],
+     "Desktop HomePage": [
+      "1Col Article Card"
+     ],
      "768 HomePage": [
-      "Photos Block"
+      "1Col Article Card"
+     ],
+     "1024 HomePage": [
+      "1Col Article Card"
+     ],
+     "Mobile HomePage": [
+      "1Col Article Card"
+     ],
+     "340 HomePage": [
+      "1Col Article Card"
      ]
     },
-    "nestedIn": {
-     "Photos Block / Device=Tablet": 1,
-     "1Col Article Card": 1,
-     "Photos Block / Device=Mobile": 1
+    "inComponents": {
+     "1Col Article Card / Style=Standard": 1,
+     "1Col Article Card / Style=Media Lead": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -187,53 +165,36 @@
     "label": "Type=Sponsored",
     "id": "3344:63991",
     "templatesDirect": {
-     "Desktop HomePage": 5,
-     "1024 HomePage": 5,
-     "1100 HomePage": 5,
-     "340 HomePage": 1,
-     "Mobile HomePage": 1,
-     "768 HomePage": 1
+     "1100 HomePage": 4,
+     "1024 HomePage": 4
     },
     "templatesVia": {
-     "Desktop HomePage": [
-      "TOP ZONE Block"
-     ],
-     "768 HomePage": [
-      "TOP ZONE Block"
-     ],
-     "Mobile HomePage": [
-      "TOP ZONE Block"
-     ],
-     "340 HomePage": [
-      "TOP ZONE Block"
-     ],
      "1100 HomePage": [
       "Latest Headlines List Item"
      ],
      "1024 HomePage": [
       "Latest Headlines List Item"
+     ],
+     "Desktop HomePage": [
+      "Latest Headlines List Item",
+      "TOP ZONE Block"
+     ],
+     "768 HomePage": [
+      "Latest Headlines List Item"
+     ],
+     "Mobile HomePage": [
+      "Latest Headlines List Item"
+     ],
+     "340 HomePage": [
+      "Latest Headlines List Item"
      ]
     },
-    "nestedIn": {
-     "TOP ZONE Block / Device=Desktop": 5,
-     "TOP ZONE Block / Device=Tablet": 1,
-     "TOP ZONE Block / Device=Mobile": 1,
-     "Latest Headlines / Device=Mobile": 1,
-     "Latest Headlines / Device=Desktop": 1,
-     "Latest Headlines / Device=Tablet": 1,
+    "inComponents": {
+     "TOP ZONE Block / Device=Desktop": 4,
      "TopZone Article Card / Device=Desktop": 1,
      "Latest Headlines List Item / Type=Sponsored": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -267,10 +228,6 @@
    {
     "name": "1Col Article Card",
     "path": "../16-1col-article-card/1col-article-card.md"
-   },
-   {
-    "name": "Photos Block",
-    "path": "../../assemblies/22-photos-block/photos-block.md"
    }
   ]
  },
@@ -354,7 +311,7 @@
    "id": "3344:63989",
    "key": "3d7f0e03fdd71c7edddda24d4c13fadddb581fbd",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3344-63989",
-   "width": 114,
+   "width": 127,
    "height": 27,
    "layout": {
     "dir": "HORIZONTAL",
@@ -394,7 +351,7 @@
     "name": "Type=Subscriber",
     "type": "COMPONENT",
     "id": "3344:63989",
-    "w": 114,
+    "w": 127,
     "h": 27,
     "x": 16,
     "y": 48,
@@ -426,7 +383,7 @@
       "name": "Subscriber Only",
       "type": "TEXT",
       "id": "3344:63990",
-      "w": 104,
+      "w": 117,
       "h": 23,
       "x": 5,
       "y": 2,
@@ -439,10 +396,10 @@
       "align": "LEFT",
       "styles": [
        {
-        "font": "Source Sans Pro",
+        "font": "Noto Sans",
         "weight": "SemiBold",
         "size": 13,
-        "lineHeight": "22.652000427246094px",
+        "lineHeight": "22.65px",
         "case": "UPPER",
         "color": [
          {
@@ -471,7 +428,7 @@
    "id": "3344:63991",
    "key": "2cba7cf7dd45bbf3b7d1d71d53de2acd577e3217",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3344-63991",
-   "width": 138,
+   "width": 153,
    "height": 27,
    "layout": {
     "dir": "HORIZONTAL",
@@ -510,7 +467,7 @@
     "name": "Type=Sponsored",
     "type": "COMPONENT",
     "id": "3344:63991",
-    "w": 138,
+    "w": 153,
     "h": 27,
     "x": 16,
     "y": 91,
@@ -541,7 +498,7 @@
       "name": "Sponsored content",
       "type": "TEXT",
       "id": "3344:63992",
-      "w": 128,
+      "w": 143,
       "h": 23,
       "x": 5,
       "y": 2,
@@ -554,10 +511,10 @@
       "align": "LEFT",
       "styles": [
        {
-        "font": "Source Sans Pro",
+        "font": "Noto Sans",
         "weight": "SemiBold",
         "size": 13,
-        "lineHeight": "22.652000427246094px",
+        "lineHeight": "22.65px",
         "case": "UPPER",
         "color": [
          {
@@ -582,15 +539,16 @@
  "typography": [
   {
    "layer": "Subscriber Only",
-   "font": "Source Sans Pro",
+   "font": "Noto Sans",
    "weight": "SemiBold",
    "size": 13,
-   "lineHeight": "22.652000427246094px",
+   "lineHeight": "22.65px",
    "letterSpacing": null,
    "case": "UPPER",
    "decoration": null,
    "color": "#FFFFFF",
    "token": "Colors/color/gray/max",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Subscriber Only",
@@ -600,15 +558,16 @@
   },
   {
    "layer": "Sponsored content",
-   "font": "Source Sans Pro",
+   "font": "Noto Sans",
    "weight": "SemiBold",
    "size": 13,
-   "lineHeight": "22.652000427246094px",
+   "lineHeight": "22.65px",
    "letterSpacing": null,
    "case": "UPPER",
    "decoration": null,
    "color": "#FFFFFF",
    "token": "Colors/color/gray/max",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Sponsored content",
@@ -643,16 +602,14 @@
  "adSlots": [],
  "responsiveRules": [
   "Type=None: 0×0, horizontal gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280",
-  "Type=Subscriber: 114×27, horizontal gap 8 pad 2/5/2/5 main CENTER cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280",
-  "Type=Sponsored: 138×27, horizontal gap 8 pad 2/5/2/5 main CENTER cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280"
+  "Type=Subscriber: 127×27, horizontal gap 8 pad 2/5/2/5 main CENTER cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280",
+  "Type=Sponsored: 153×27, horizontal gap 8 pad 2/5/2/5 main CENTER cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280"
  ],
  "productionRefs": [],
  "knownIssues": [
   "Variant `Type=None` is 0×0 (intentionally empty state?) — no preview exported.",
-  "`Type=Subscriber`: fonts outside the production pair (Noto Sans / Noto Serif): Source Sans Pro SemiBold ×1.",
-  "`Type=Sponsored`: fonts outside the production pair (Noto Sans / Noto Serif): Source Sans Pro SemiBold ×1.",
   "1 solid paints are hard-coded (not bound to a color variable): #7D161E ×1."
  ],
  "skeleton": "article-status-badge.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

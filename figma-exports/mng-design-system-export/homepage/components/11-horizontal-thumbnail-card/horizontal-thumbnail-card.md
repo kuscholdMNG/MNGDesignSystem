@@ -12,7 +12,7 @@ built_from: ["Article Image Placeholder", "Gallery Icon Badge"]
 built_into: ["TOP ZONE Block", "Photos Block"]
 spec_json: horizontal-thumbnail-card.json
 skeleton: horizontal-thumbnail-card.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Horizontal Thumbnail Card
@@ -42,8 +42,8 @@ exported: 2026-09-24
 ## Where it is used
 
 - **Device=Desktop** — breakpoints: 1024, 1100, 1280; nested inside: Photos Block / Device=Desktop ×6
-- **Device=Mobile** — breakpoints: 340, 360; templates (direct): 340 HomePage ×5, Mobile HomePage ×5; nested inside: Photos Block / Device=Mobile ×5
-- **Device=Tablet** — breakpoints: 768; templates (direct): 768 HomePage ×4; templates (via assembly): 768 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Tablet ×4
+- **Device=Mobile** — breakpoints: 340, 360, 768; templates (direct): Mobile HomePage ×5, 340 HomePage ×5; templates (via assembly): 768 HomePage (via Photos Block); nested inside: Photos Block / Device=Tablet ×6, Photos Block / Device=Mobile ×5
+- **Device=Tablet** — breakpoints: 768; templates (via assembly): 768 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Tablet ×4
 
 ## Breakpoints
 
@@ -51,7 +51,7 @@ exported: 2026-09-24
 |---|---|---|
 | 340 | ≤639px (XS-Fold, built 340) | Device=Mobile |
 | 360 | ≤639px (SM-Mobile, built 360) | Device=Mobile |
-| 768 | 640–799px (MD-TabletV) | Device=Tablet |
+| 768 | 640–799px (MD-TabletV) | Device=Mobile, Device=Tablet |
 | 1024 | 800–1039px (LG-TabletH, built 1009) | Device=Desktop |
 | 1100 | ≥1040px (XL-Desktop, built 1085) | Device=Desktop |
 | 1280 | ≥1040px (XL-Desktop, built 1280) | Device=Desktop |
@@ -59,15 +59,15 @@ exported: 2026-09-24
 ## Responsive rules
 
 - Device=Desktop: 336×98, vertical gap 8 pad 8/0/8/0 main MIN cross MIN — renders at 1024, 1100, 1280
-- Device=Mobile: 336×67, vertical gap 4 pad 6/0/6/0 main MIN cross MIN — renders at 340, 360
+- Device=Mobile: 336×67, vertical gap 4 pad 6/0/6/0 main MIN cross MIN — renders at 340, 360, 768
 - Device=Tablet: 358×84, vertical gap 8 pad 8/0/8/0 main MIN cross MIN — renders at 768
 
 ## Dependencies
 
 **Built from:**
 
-- [Article Image Placeholder](../03-article-image-placeholder/article-image-placeholder.md) ×3
-- [Gallery Icon Badge](../10-gallery-icon-badge/gallery-icon-badge.md) ×3
+- [Article Image Placeholder](../03-article-image-placeholder/article-image-placeholder.md) ×1
+- [Gallery Icon Badge](../10-gallery-icon-badge/gallery-icon-badge.md) ×1
 
 **Built into:**
 
@@ -84,9 +84,9 @@ exported: 2026-09-24
     - Image Container — frame 110×74 [horizontal gap 0] (fixed/fixed)
       - Article Image Placeholder — instance 110×74 [vertical gap 8] (fixed/fixed) → Article Image Placeholder
       - Gallery Icon Badge — instance 28×28 [horizontal gap 0] (fixed/fixed) → Gallery Icon Badge
-    - Headline — frame 214×66 [vertical gap 0] (fill/hug)
-      - Article Headline on News paper homepage in thumbnail list position — text 214×66 (fill/hug) "Article Headline on News paper homepage "
-  - Line 1 — line 336×0 (fill/fixed)
+    - Headline — frame 214×57 [vertical gap 0] (fill/hug)
+      - Article Headline on News paper homepage in thumbnail list position — text 214×57 (fill/hug) "Article Headline on News paper homepage "
+  - Bottom Border Line — line 336×0 (fill/fixed)
 ```
 
 **Device=Mobile**
@@ -99,7 +99,7 @@ exported: 2026-09-24
       - Gallery Icon Badge — instance 28×28 [horizontal gap 0] (fixed/fixed) → Gallery Icon Badge
     - Headline — frame 231×51 [vertical gap 0] (fill/fixed)
       - Article Headline on News paper homepage in thumbnail list position — text 231×51 (fill/fixed) "Article Headline on News paper homepage "
-  - Line 1 — line 336×0 (fill/fixed)
+  - Bottom Border Line — line 336×0 (fill/fixed)
 ```
 
 **Device=Tablet**
@@ -110,9 +110,9 @@ exported: 2026-09-24
     - Image Container — frame 90×60 [horizontal gap 0] (fixed/fixed)
       - Article Image Placeholder — instance 90×60 [vertical gap 8] (fixed/fixed) → Article Image Placeholder
       - Gallery Icon Badge — instance 28×28 [horizontal gap 0] (fixed/fixed) → Gallery Icon Badge
-    - Headline — frame 256×60 [vertical gap 0] (fill/hug)
-      - Article Headline on News paper homepage in thumbnail list position — text 256×60 (fill/hug) "Article Headline on News paper homepage "
-  - Line 1 — line 358×0 (fill/fixed)
+    - Headline — frame 256×57 [vertical gap 0] (fill/hug)
+      - Article Headline on News paper homepage in thumbnail list position — text 256×57 (fill/hug) "Article Headline on News paper homepage "
+  - Bottom Border Line — line 358×0 (fill/fixed)
 ```
 
 ## Size & layout
@@ -125,16 +125,18 @@ exported: 2026-09-24
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Article Headline on News paper homepage in thumbnail list position | Noto Serif | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Article Headline on News paper homepage in thumbna |
-| Article Headline on News paper homepage in thumbnail list position | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  | Article Headline on News paper homepage in thumbna |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Article Headline on News paper homepage in thumbnail list po | Noto Sans | SemiBold | 15 | 19px | -0.15px |  | #141414 | Colors/color/gray/min | Editorial/Titles/HeadlineList |  | Article Headline on News paper homepage in thumbna | all |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| Line 1 | stroke | SOLID | #D7D6D2 | ⚠ unbound |  |  |
+| Article Image Placeholder | fill | SOLID | #E1A1FF |  |  | image placeholder fill |
+| Article Image Placeholder | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
+| Gallery Icon Badge | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
+| Bottom Border Line | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
 
 ## Image ratios
 
@@ -154,7 +156,8 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- 3 solid paints are hard-coded (not bound to a color variable): #D7D6D2 ×3.
+- `Device=Mobile` is declared for 340, 360 but is placed in template(s) at 768 — check the variant choice.
+- The 1024, 1100 and 1280 HomePage templates use detached, resized copies (18 'Horizontal Thumbnail Card (…, Photos secondary list, detached — resized…)' layers inside the detached Photos content) instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list.
 
 ## Rendering steps
 

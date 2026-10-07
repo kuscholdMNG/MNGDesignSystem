@@ -8,22 +8,13 @@
  "typeLabel": "Component · 2 variants",
  "description": null,
  "designerNotes": [
-  "Search Button/Bar",
-  "Search FAB and Feature"
+  "Search Button/Bar"
  ],
  "figma": {
   "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
   "fileName": "WordPress Elements",
   "page": "Menus and Parts",
-  "path": [
-   "Frame 12800",
-   "Frame 416",
-   "Frame 11820",
-   "Frame 12776",
-   "Container",
-   "Container",
-   "Search Bar"
-  ],
+  "path": "Frame 12800 ▸ Frame 416 ▸ Frame 11820 ▸ Frame 12776 ▸ Container ▸ Container ▸ Search Bar",
   "mainId": "456:5910",
   "mainKey": "408765eef4ffc037695dd7789e51f02a61120df8",
   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5910",
@@ -52,189 +43,51 @@
    ]
   }
  },
- "breakpoints": [
-  "340",
-  "360",
-  "768",
-  "1024",
-  "1100",
-  "1280"
- ],
+ "breakpoints": [],
  "usage": {
-  "templates": [
-   "1024 HomePage",
-   "1100 HomePage",
-   "340 HomePage",
-   "768 HomePage",
-   "Desktop HomePage",
-   "Mobile HomePage"
-  ],
+  "templates": [],
   "builtInto": [],
   "perVariant": [
    {
     "label": "Status=Default",
     "id": "456:5911",
-    "templatesDirect": {
-     "1100 HomePage": 1,
-     "Mobile HomePage": 1,
-     "Desktop HomePage": 1,
-     "340 HomePage": 1,
-     "768 HomePage": 1,
-     "1024 HomePage": 1
-    },
-    "templatesVia": {
-     "340 HomePage": [
-      "Masthead"
-     ],
-     "Mobile HomePage": [
-      "Masthead"
-     ],
-     "Desktop HomePage": [
-      "Masthead"
-     ],
-     "1100 HomePage": [
-      "Masthead"
-     ],
-     "1024 HomePage": [
-      "Masthead"
-     ],
-     "768 HomePage": [
-      "Masthead"
-     ]
-    },
-    "nestedIn": {
-     "AccountMenu / Status=loggedOut, View=Open, Device=SM-Mobile, UserType=loggedOut": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Home": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=PremSub": 1,
-     "AccountMenu / Status=alert, View=Open, Device=XL-Desktop, UserType=PremSub": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Dashboard": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=nonSub": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Home": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Article": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Home": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=SectionFront": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=BasicSub": 1,
+    "templatesDirect": {},
+    "templatesVia": {},
+    "inComponents": {
+     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=groupSub": 1,
      "AccountMenu / Status=loggedIn, View=Closed, Device=LG-TabletH, UserType=loggedIn": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Home": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=SectionFront": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries": 1,
+     "AccountMenu / Status=loggedOut, View=Closed, Device=MD-TabletV, UserType=loggedOut": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=nonSub": 1,
+     "AccountMenu / Status=alert, View=Open, Device=XL-Desktop, UserType=PremSub": 1,
+     "AccountMenu / Status=loggedOut, View=Closed, Device=LG-TabletH, UserType=loggedOut": 1,
+     "AccountMenu / Status=loggedOut, View=Closed, Device=XL-Desktop, UserType=loggedOut": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=GroupAnon": 1,
      "AccountMenu / Status=loggedIn, View=Closed, Device=SM-Mobile, UserType=loggedIn": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=SectionFront": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Article": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Dashboard": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Article": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Article": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=SectionFront": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub": 1,
+     "AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
+     "AccountMenu/loggedIn/Closed/MD-TabletV/loggedIn": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=PremSub": 1,
      "AccountMenu / Status=loggedIn, View=Closed, Device=XL-Desktop, UserType=loggedIn": 1,
      "AccountMenu / Status=loggedOut, View=Closed, Device=SM-Mobile, UserType=loggedOut": 1,
-     "ObitMastHead / Device=Desktop, View=Default, Subscriber=Standard, Page=SectionFront": 1,
-     "AccountMenu/loggedIn/Closed/MD-TabletV/loggedIn": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obituaries": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=GroupAnon": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home": 1,
-     "AccountMenu / Status=loggedOut, View=Closed, Device=XL-Desktop, UserType=loggedOut": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=SectionFront": 1,
-     "AccountMenu / Status=loggedIn, View=Closed, Device=MD-TabletV, UserType=loggedIn": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Home": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=groupSub": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Home": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Dashboard": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree-Scrolled, Page=Obituaries": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Obituaries": 1,
-     "AccountMenu / Status=loggedOut, View=Closed, Device=LG-TabletH, UserType=loggedOut": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Home": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Dashboard": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Article": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Home": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Home": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Article": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=SectionFront": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=SectionFront": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Article": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries": 1,
-     "AccountMenu / Status=alert, View=Open, Device=MD-TabletV, UserType=PremSub": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Article": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Dashboard": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=Obituaries": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=SectionFront": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Home": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=Scrolled, Page=Article": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Home": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree-Scrolled, Page=Obituaries": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Default, Page=Dashboard": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Home": 1,
-     "AccountMenu / Status=loggedOut, View=Open, Device=MD-TabletV, UserType=loggedOut": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Article": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Obituaries": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=Article": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Article": 1,
-     "Masthead / Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Dashboard": 1,
-     "AccountMenu / Status=loggedOut, View=Closed, Device=MD-TabletV, UserType=loggedOut": 1,
-     "Masthead / Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=SectionFront": 1,
-     "AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
-     "Masthead / Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Obituaries": 1,
      "AccountMenu / Status=alert, View=Open, Device=XS-Fold, UserType=PremSub": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=Dashboard": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Default, Page=SectionFront": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=AdFree, Page=SectionFront": 1,
-     "Masthead / Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituaries": 1
+     "AccountMenu / Status=loggedIn, View=Closed, Device=MD-TabletV, UserType=loggedIn": 1,
+     "AccountMenu / Status=alert, View=Open, Device=MD-TabletV, UserType=PremSub": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=BasicSub": 1
     },
-    "otherPages": {
+    "other": {
      "null ▸ null": 88,
-     "Menus and Parts ▸ Frame 12800": 104,
-     "Article Page ▸ Frame 11672": 4,
-     "Section Front ▸ Frame 11639": 2
+     "Menus and Parts ▸ Frame 12800": 12
     },
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "breakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ]
+    "breakpoints": []
    },
    {
     "label": "Status=Open",
     "id": "456:5913",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    }
   ]
@@ -243,7 +96,7 @@
   "builtFrom": [
    {
     "name": "Icons",
-    "count": 2,
+    "count": 1,
     "inExport": false,
     "section": null,
     "path": null
@@ -288,14 +141,7 @@
    "strokes": null,
    "radius": null,
    "preview": "previews/searchbar--default.png",
-   "breakpoints": [
-    "340",
-    "360",
-    "768",
-    "1024",
-    "1100",
-    "1280"
-   ],
+   "breakpoints": [],
    "layerTree": {
     "name": "Status=Default",
     "type": "COMPONENT",
@@ -359,7 +205,7 @@
        "Name": "search"
       },
       "componentKey": "bbb331bcf1abef401b4a7594b64130b8f37bdcd9",
-      "mainId": "3493:81110",
+      "mainId": "3527:18647",
       "props": {}
      }
     ],
@@ -490,7 +336,7 @@
        "Name": "search"
       },
       "componentKey": "bbb331bcf1abef401b4a7594b64130b8f37bdcd9",
-      "mainId": "3493:81110",
+      "mainId": "3527:18647",
       "props": {}
      },
      {
@@ -583,7 +429,8 @@
           "color": [
            {
             "type": "SOLID",
-            "hex": "#FFFFFF"
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
            }
           ],
           "textStyle": null
@@ -613,6 +460,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Type your search",
@@ -630,7 +478,8 @@
    "case": null,
    "decoration": null,
    "color": "#FFFFFF",
-   "token": null,
+   "token": "Colors/color/gray/max",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Search",
@@ -689,14 +538,13 @@
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
-  "Status=Default: 30×45, horizontal gap 8 pad 20/0/5/0 main CENTER cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280",
-  "Status=Open: 480×64, horizontal gap 16 pad 16/24/16/24 main MIN cross CENTER — renders at (no breakpoint evidence)"
+  "Status=Default: 30×45, horizontal gap 8 pad 20/0/5/0 main CENTER cross CENTER — no breakpoint (not placed in a template)",
+  "Status=Open: 480×64, horizontal gap 16 pad 16/24/16/24 main MIN cross CENTER — no breakpoint (not placed in a template)"
  ],
  "productionRefs": [],
  "knownIssues": [
-  "1 of 2 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Status=Open`.",
-  "1 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×1."
+  "1 of 2 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Status=Open`."
  ],
  "skeleton": "searchbar.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

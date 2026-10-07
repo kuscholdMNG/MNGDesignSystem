@@ -12,7 +12,7 @@ built_from: ["Code Box"]
 built_into: []
 spec_json: form-field-assembly-verification-code.json
 skeleton: form-field-assembly-verification-code.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Form Field Assembly / Verification Code
@@ -63,11 +63,11 @@ exported: 2026-09-24
 
 **Built from:**
 
-- [Code Box](../../components/38-code-box/code-box.md) ×12
+- [Code Box](../../components/38-code-box/code-box.md) ×6
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -76,7 +76,7 @@ exported: 2026-09-24
 ```
 - Size=Desktop — component 236×119 [vertical gap 8] (hug/hug)
   - Label — text 128×22 (hug/hug) "Verification Code"
-  - Frame — frame 236×56 [horizontal gap 4] (hug/hug)
+  - Code Box Row — frame 236×56 [horizontal gap 4] (hug/hug)
     - Code Box — instance 36×56 [horizontal gap 8] (fixed/fixed) → Code Box [Size=Desktop, State=Blank] ×6
   - Error Message Container (Shared) — frame 236×25 [horizontal gap 0] (fill/fixed)
     - Error message text. — text 165×25 (fixed/fixed) "Error message text." (hidden)
@@ -87,7 +87,7 @@ exported: 2026-09-24
 ```
 - Size=Mobile — component 171×93 [vertical gap 6] (hug/hug)
   - Label — text 112×19 (hug/hug) "Verification Code"
-  - Frame — frame 171×40 [horizontal gap 3] (hug/hug)
+  - Code Box Row — frame 171×40 [horizontal gap 3] (hug/hug)
     - Code Box — instance 26×40 [horizontal gap 8] (fixed/fixed) → Code Box [Size=Mobile, State=Blank] ×6
   - Error Message Container (Shared) — frame 171×22 [horizontal gap 0] (fill/fixed)
     - Error message text. — text 129×19 (fixed/fixed) "Error message text." (hidden)
@@ -102,16 +102,19 @@ exported: 2026-09-24
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Label | Noto Sans | Regular | 16 | auto |  |  | #000000 |  |  | Verification Code |
-| Error message text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Error message text. |
-| Label | Noto Sans | Regular | 14 | auto |  |  | #000000 |  |  | Verification Code |
-| Error message text. | Noto Sans | Regular | 14 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Error message text. |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Label | Noto Sans | Regular | 16 | auto |  |  | #000000 | Colors/color/gray/black |  |  | Verification Code | Size=Desktop |
+| Error message text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Desktop |
+| Label | Noto Sans | Regular | 14 | auto |  |  | #000000 | Colors/color/gray/black |  |  | Verification Code | Size=Mobile |
+| Error message text. | Noto Sans | Regular | 14 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Mobile |
 
 ## Color & effects
 
-_None._
+| Layer | Role | Type | Hex | Token | Opacity | Note |
+|---|---|---|---|---|---|---|
+| Code Box | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Code Box | stroke | SOLID | #A7A6A3 | Colors/color/gray/400 |  |  |
 
 ## Image ratios
 
@@ -127,7 +130,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- 2 solid paints are hard-coded (not bound to a color variable): #000000 ×2.
+_None detected._
 
 ## Rendering steps
 

@@ -46,26 +46,20 @@
     "id": "3362:3022",
     "templatesDirect": {},
     "templatesVia": {
+     "1100 HomePage": [
+      "Feature + List Content Block"
+     ],
      "Desktop HomePage": [
       "Feature + List Content Block"
      ],
      "768 HomePage": [
       "Feature + List Content Block"
-     ],
-     "1100 HomePage": [
-      "Feature + List Content Block"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "Feature + List Content Block / Size=Default": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "768",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "768",
      "1100",
@@ -226,7 +220,7 @@
         "type": "FRAME",
         "id": "3362:3016",
         "w": 344,
-        "h": 153,
+        "h": 155,
         "x": 288,
         "y": 0,
         "sizing": {
@@ -312,7 +306,7 @@
           "type": "FRAME",
           "id": "3362:3019",
           "w": 344,
-          "h": 40,
+          "h": 42,
           "x": 0,
           "y": 113,
           "sizing": {
@@ -338,12 +332,19 @@
             "type": "TEXT",
             "id": "3362:3020",
             "w": 344,
-            "h": 40,
+            "h": 42,
             "x": 0,
             "y": 0,
             "sizing": {
              "h": "FILL",
              "v": "HUG"
+            },
+            "vars": {
+             "letterSpacing": "Typeography Tokens/Editorial/Body/Excerpt/LetterSpacing",
+             "fontSize": "Typeography Tokens/Editorial/Body/Excerpt/Size",
+             "fontStyle": "Typeography Tokens/Editorial/Body/Excerpt/Style",
+             "fontFamily": "Typeography Tokens/Editorial/Body/Excerpt/Family",
+             "lineHeight": "Typeography Tokens/Editorial/Body/Excerpt/LineHeight"
             },
             "text": "Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail.",
             "autoResize": "HEIGHT",
@@ -353,7 +354,7 @@
               "font": "Noto Sans",
               "weight": "Regular",
               "size": 15,
-              "lineHeight": "auto",
+              "lineHeight": "21px",
               "color": [
                {
                 "type": "SOLID",
@@ -393,7 +394,10 @@
       "strokeWeight": 1,
       "strokeAlign": "CENTER"
      }
-    ]
+    ],
+    "key": "e663ba16223c281b866a5d6edf44c09c6a01e34b",
+    "variantProperties": null,
+    "componentDescription": null
    }
   }
  ],
@@ -409,6 +413,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Article Headline on News paper homepage in Wide ra",
@@ -421,12 +426,13 @@
    "font": "Noto Sans",
    "weight": "Regular",
    "size": 15,
-   "lineHeight": "auto",
+   "lineHeight": "21px",
    "letterSpacing": null,
    "case": null,
    "decoration": null,
    "color": "#393938",
    "token": "Colors/color/gray/100",
+   "typeToken": "Editorial/Body/Excerpt",
    "textStyle": null,
    "truncate": null,
    "sample": "Vanroy Evan Smith, 39, of Long Beach is being held",
@@ -436,6 +442,26 @@
   }
  ],
  "colors": [
+  {
+   "layer": "Article Graphic",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#E1A1FF",
+   "token": null,
+   "opacity": null,
+   "note": "image placeholder fill",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Article Graphic",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
   {
    "layer": "Bottom Border Line",
    "role": "stroke",
@@ -469,5 +495,5 @@
  ],
  "knownIssues": [],
  "skeleton": "horizontal-feature-card.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

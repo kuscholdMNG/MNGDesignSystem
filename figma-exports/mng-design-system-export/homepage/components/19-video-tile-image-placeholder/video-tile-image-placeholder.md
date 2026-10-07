@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Videos from OCRegister Carousel"]
 spec_json: video-tile-image-placeholder.json
 skeleton: video-tile-image-placeholder.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Video Tile Image Placeholder
@@ -20,8 +20,6 @@ exported: 2026-09-24
 **Component · Standalone** · Homepage components · source: WordPress Elements ▸ Homepage
 
 > Standalone component · vertical 160×287 video tile (background, play/masthead badge, caption) used in the Videos from OCRegister Carousel tile row.
-
-> Placeholder tile for the 'Videos from @OCRegister' carousel (160×287, portrait). Solid-color background (no boolean-op graphic — a plain rect, unlike the landscape Article Image Placeholder it was cloned from, since the diagonal-X vector distorted badly at this aspect ratio and was removed). Overlay children (Masthead Badge, Caption Background, Caption Text) use ABSOLUTE layout positioning so they don't get swept into the parent's VERTICAL auto-layout stack — this is required, not optional: AUTO positioning here silently overrides any explicit x/y.
 
 ## Figma references
 
@@ -38,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Video Tile Image Placeholder** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1024 HomePage ×9, 1100 HomePage ×9, Mobile HomePage ×9, 340 HomePage ×9, 768 HomePage ×9, Desktop HomePage ×9; nested inside: Videos from OCRegister Carousel ×9
+- **Video Tile Image Placeholder** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Videos from OCRegister Carousel), 1100 HomePage (via Videos from OCRegister Carousel), 340 HomePage (via Videos from OCRegister Carousel), 768 HomePage (via Videos from OCRegister Carousel), Mobile HomePage (via Videos from OCRegister Carousel), Desktop HomePage (via Videos from OCRegister Carousel); nested inside: Videos from OCRegister Carousel ×9
 
 ## Breakpoints
 
@@ -59,7 +57,7 @@ _None._
 
 **Built from:**
 
-- _nothing (leaf component)_
+_Nothing — leaf component._
 
 **Built into:**
 
@@ -72,8 +70,8 @@ _None._
 ```
 - Video Tile Image Placeholder — component 160×287 [vertical gap 8] (fixed/fixed)
   - Tile Background — rectangle 160×287 (fixed/fixed)
-  - Frame 11643 — frame 65×19 [horizontal gap 8] (hug/hug)
-    - ARTICLE IMAGE — text 65×19 (hug/hug) "VIDEO"
+  - Label — frame 60×22 [horizontal gap 8] (hug/hug)
+    - ARTICLE IMAGE — text 60×22 (hug/hug) "VIDEO"
   - Masthead Badge — text 43×12 (fixed/fixed) "REGISTER"
   - Caption Background — rectangle 148×48 (fixed/fixed)
   - Caption Text — text 136×32 (fixed/fixed) "Watch our journalists cover local news i"
@@ -87,21 +85,20 @@ _None._
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| ARTICLE IMAGE | New York | Black | 16 | auto | 10% |  | #141414 | Colors/color/gray/min |  | VIDEO |
-| Masthead Badge | Noto Sans | Bold | 9 | auto |  |  | #FFFFFF |  |  | REGISTER |
-| Caption Text | Noto Sans | Regular | 9 | auto |  |  | #FFFFFF |  |  | Watch our journalists cover local news in these cl |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ARTICLE IMAGE | Noto Serif | Bold | 16 | auto | 10% |  | #141414 | Colors/color/gray/min |  |  | VIDEO | all |
+| Masthead Badge | Noto Sans | Bold | 9 | auto |  |  | #FFFFFF | Colors/color/gray/max |  |  | REGISTER | all |
+| Caption Text | Noto Sans | Regular | 9 | auto |  |  | #FFFFFF | Colors/color/gray/max |  |  | Watch our journalists cover local news in these cl | all |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| Video Tile Image Placeholder | fill | SOLID | #E1A1FF | ⚠ unbound |  |  |
+| Video Tile Image Placeholder | fill | SOLID | #E1A1FF |  |  | image placeholder fill |
 | Video Tile Image Placeholder | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
-| Tile Background | fill | SOLID | #FFC76B | ⚠ unbound |  |  |
-| ARTICLE IMAGE | stroke | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
-| Caption Background | fill | SOLID | #000000 | ⚠ unbound | 0.55 |  |
+| Tile Background | fill | SOLID | #FFC76B |  |  | video placeholder accent |
+| Caption Background | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
 
 ## Image ratios
 
@@ -117,8 +114,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- `Video Tile Image Placeholder`: fonts outside the production pair (Noto Sans / Noto Serif): New York Black ×1.
-- 5 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×2, #E1A1FF ×1, #FFC76B ×1, #000000 ×1.
+- 2 solid paints are hard-coded (not bound to a color variable): #E1A1FF ×1, #FFC76B ×1.
 
 ## Rendering steps
 

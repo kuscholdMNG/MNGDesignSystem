@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Zone 1 Lead Article Card"]
 spec_json: related-article-list-item.json
 skeleton: related-article-list-item.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Related Article List Item
@@ -20,8 +20,6 @@ exported: 2026-09-24
 **Component · Standalone** · Homepage components · source: WordPress Elements ▸ Homepage
 
 > Standalone component · no variants (includes bullet icon)
-
-> Atomic related-article row (bullet + title + relative timestamp) used inside the Zone 1 lead article card's Related Articles list.
 
 ## Figma references
 
@@ -38,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Related Article List Item** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 768 HomePage ×3, Desktop HomePage ×3, 340 HomePage ×3, 1024 HomePage ×3, Mobile HomePage ×3, 1100 HomePage ×3; templates (via assembly): 768 HomePage (via TOP ZONE Block, Zone 1 Lead Article Card), Desktop HomePage (via TOP ZONE Block, Zone 1 Lead Article Card), Mobile HomePage (via TOP ZONE Block, Zone 1 Lead Article Card), 340 HomePage (via TOP ZONE Block, Zone 1 Lead Article Card), 1100 HomePage (via Zone 1 Lead Article Card), 1024 HomePage (via Zone 1 Lead Article Card); nested inside: TOP ZONE Block / Device=Tablet ×3, TOP ZONE Block / Device=Desktop ×3, Zone 1 Lead Article Card / Device=Desktop ×3, Zone 1 Lead Article Card / Device=Tablet ×3, TOP ZONE Block / Device=Mobile ×3, Zone 1 Lead Article Card / Device=Mobile ×3
+- **Related Article List Item** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 768 HomePage (via Zone 1 Lead Article Card), 1100 HomePage (via Zone 1 Lead Article Card), 1024 HomePage (via Zone 1 Lead Article Card), Mobile HomePage (via Zone 1 Lead Article Card), 340 HomePage (via Zone 1 Lead Article Card), Desktop HomePage (via Zone 1 Lead Article Card); nested inside: Zone 1 Lead Article Card / Device=Tablet ×3, Zone 1 Lead Article Card / Device=Mobile ×3, Zone 1 Lead Article Card / Device=Desktop ×3
 
 ## Breakpoints
 
@@ -59,7 +57,7 @@ _None._
 
 **Built from:**
 
-- _nothing (leaf component)_
+_Nothing — leaf component._
 
 **Built into:**
 
@@ -72,7 +70,7 @@ _None._
 ```
 - Related Article List Item — component 1194×45 [horizontal gap 0] (fixed/fixed)
   - Bullet — frame 22×45 [vertical gap 12] (hug/fill)
-    - Vector — vector 6×6 (fixed/fixed)
+    - Bullet Dot — vector 6×6 (fixed/fixed)
   - Content — frame 1172×30 [vertical gap 0] (fill/hug)
     - Title — frame 1172×15 [horizontal gap 8] (fill/hug)
       - Game Day: Turning LeBron James’ record numbers into words — text 1172×15 (fill/hug) "Game Day: Turning LeBron James’ record n"
@@ -88,17 +86,17 @@ _None._
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Game Day: Turning LeBron James’ record numbers into words | Droid Serif | Bold | 12 | 15px |  |  | #141414 | Colors/color/gray/min |  | Game Day: Turning LeBron James’ record numbers int |
-| 56 mins ago | Noto Sans | Regular | 11 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  | 56 mins ago |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Game Day: Turning LeBron James’ record numbers into words | Noto Serif | Bold | 12 | 15px |  |  | #141414 | Colors/color/gray/min |  |  | Game Day: Turning LeBron James’ record numbers int | all |
+| 56 mins ago | Noto Sans | Regular | 11 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | 56 mins ago | all |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| Vector | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
-| Vector | stroke | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
+| Bullet Dot | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
+| Bullet Dot | stroke | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
 
 ## Image ratios
 
@@ -114,7 +112,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- `Related Article List Item`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Serif Bold ×1.
+_None detected._
 
 ## Rendering steps
 

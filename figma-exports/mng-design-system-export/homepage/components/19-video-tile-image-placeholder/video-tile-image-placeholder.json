@@ -50,28 +50,31 @@
    {
     "label": "Video Tile Image Placeholder",
     "id": "3419:55114",
-    "templatesDirect": {
-     "1024 HomePage": 9,
-     "1100 HomePage": 9,
-     "Mobile HomePage": 9,
-     "340 HomePage": 9,
-     "768 HomePage": 9,
-     "Desktop HomePage": 9
+    "templatesDirect": {},
+    "templatesVia": {
+     "1024 HomePage": [
+      "Videos from OCRegister Carousel"
+     ],
+     "1100 HomePage": [
+      "Videos from OCRegister Carousel"
+     ],
+     "340 HomePage": [
+      "Videos from OCRegister Carousel"
+     ],
+     "768 HomePage": [
+      "Videos from OCRegister Carousel"
+     ],
+     "Mobile HomePage": [
+      "Videos from OCRegister Carousel"
+     ],
+     "Desktop HomePage": [
+      "Videos from OCRegister Carousel"
+     ]
     },
-    "templatesVia": {},
-    "nestedIn": {
+    "inComponents": {
      "Videos from OCRegister Carousel": 9
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -202,13 +205,13 @@
       ]
      },
      {
-      "name": "Frame 11643",
+      "name": "Label",
       "type": "FRAME",
       "id": "3419:55118",
-      "w": 65,
-      "h": 19,
-      "x": 47.5,
-      "y": 70,
+      "w": 60,
+      "h": 22,
+      "x": 50,
+      "y": 68.5,
       "sizing": {
        "h": "HUG",
        "v": "HUG"
@@ -231,8 +234,8 @@
         "name": "ARTICLE IMAGE",
         "type": "TEXT",
         "id": "3419:55119",
-        "w": 65,
-        "h": 19,
+        "w": 60,
+        "h": 22,
         "x": 0,
         "y": 0,
         "sizing": {
@@ -253,8 +256,8 @@
         "align": "LEFT",
         "styles": [
          {
-          "font": "New York",
-          "weight": "Black",
+          "font": "Noto Serif",
+          "weight": "Bold",
           "size": 16,
           "lineHeight": "auto",
           "letterSpacing": "10%",
@@ -296,7 +299,8 @@
         "color": [
          {
           "type": "SOLID",
-          "hex": "#FFFFFF"
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
          }
         ],
         "textStyle": null
@@ -321,7 +325,7 @@
        {
         "type": "SOLID",
         "hex": "#000000",
-        "opacity": 0.55
+        "variable": "Colors/color/gray/black"
        }
       ]
      },
@@ -350,22 +354,26 @@
         "color": [
          {
           "type": "SOLID",
-          "hex": "#FFFFFF"
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
          }
         ],
         "textStyle": null
        }
       ]
      }
-    ]
+    ],
+    "key": "a7a988a13b00a06452e5bc8345274ca7b07af36a",
+    "variantProperties": null,
+    "componentDescription": "Placeholder tile for the 'Videos from @OCRegister' carousel (160×287, portrait). Solid-color background (no boolean-op graphic — a plain rect, unlike the landscape Article Image Placeholder it was cloned from, since the diagonal-X vector distorted badly at this aspect ratio and was removed). Overlay children (Masthead Badge, Caption Background, Caption Text) use ABSOLUTE layout positioning so they don't get swept into the parent's VERTICAL auto-layout stack — this is required, not optional: AUTO positioning here silently overrides any explicit x/y."
    }
   }
  ],
  "typography": [
   {
    "layer": "ARTICLE IMAGE",
-   "font": "New York",
-   "weight": "Black",
+   "font": "Noto Serif",
+   "weight": "Bold",
    "size": 16,
    "lineHeight": "auto",
    "letterSpacing": "10%",
@@ -373,6 +381,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "VIDEO",
@@ -390,7 +399,8 @@
    "case": null,
    "decoration": null,
    "color": "#FFFFFF",
-   "token": null,
+   "token": "Colors/color/gray/max",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "REGISTER",
@@ -408,7 +418,8 @@
    "case": null,
    "decoration": null,
    "color": "#FFFFFF",
-   "token": null,
+   "token": "Colors/color/gray/max",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Watch our journalists cover local news in these cl",
@@ -425,7 +436,7 @@
    "hex": "#E1A1FF",
    "token": null,
    "opacity": null,
-   "note": "",
+   "note": "image placeholder fill",
    "strokeWeight": null
   },
   {
@@ -445,26 +456,16 @@
    "hex": "#FFC76B",
    "token": null,
    "opacity": null,
-   "note": "",
+   "note": "video placeholder accent",
    "strokeWeight": null
-  },
-  {
-   "layer": "ARTICLE IMAGE",
-   "role": "stroke",
-   "type": "SOLID",
-   "hex": "#F1EFEB",
-   "token": "Colors/color/gray/600",
-   "opacity": null,
-   "note": "",
-   "strokeWeight": 3
   },
   {
    "layer": "Caption Background",
    "role": "fill",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
-   "opacity": 0.55,
+   "token": "Colors/color/gray/black",
+   "opacity": null,
    "note": "",
    "strokeWeight": null
   }
@@ -476,9 +477,8 @@
  ],
  "productionRefs": [],
  "knownIssues": [
-  "`Video Tile Image Placeholder`: fonts outside the production pair (Noto Sans / Noto Serif): New York Black ×1.",
-  "5 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×2, #E1A1FF ×1, #FFC76B ×1, #000000 ×1."
+  "2 solid paints are hard-coded (not bound to a color variable): #E1A1FF ×1, #FFC76B ×1."
  ],
  "skeleton": "video-tile-image-placeholder.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

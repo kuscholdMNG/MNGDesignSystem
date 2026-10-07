@@ -73,20 +73,13 @@
     "label": "Style=Underline",
     "id": "3326:41622",
     "templatesDirect": {
-     "1024 HomePage": 12,
-     "Mobile HomePage": 12,
-     "Desktop HomePage": 11,
-     "768 HomePage": 12,
-     "1100 HomePage": 12,
-     "340 HomePage": 12
+     "1100 HomePage": 3,
+     "1024 HomePage": 3,
+     "Mobile HomePage": 1,
+     "Desktop HomePage": 2,
+     "340 HomePage": 1
     },
     "templatesVia": {
-     "768 HomePage": [
-      "Blueconic Block (Most Popular)",
-      "Latest Headlines",
-      "Photos Block",
-      "Section Rail Card"
-     ],
      "1100 HomePage": [
       "Section Rail Card"
      ],
@@ -95,51 +88,46 @@
      ],
      "Mobile HomePage": [
       "Blueconic Block (Most Popular)",
-      "Section Rail Card",
-      "TOP ZONE Block"
-     ],
-     "340 HomePage": [
-      "Blueconic Block (Most Popular)",
-      "Section Rail Card",
-      "TOP ZONE Block"
+      "Latest Headlines",
+      "Section Rail Card"
      ],
      "Desktop HomePage": [
       "Latest Headlines",
       "Section Rail Card"
+     ],
+     "340 HomePage": [
+      "Blueconic Block (Most Popular)",
+      "Latest Headlines",
+      "Section Rail Card"
+     ],
+     "768 HomePage": [
+      "Blueconic Block (Most Popular)",
+      "Latest Headlines",
+      "Photos Block",
+      "Section Rail Card"
      ]
     },
-    "nestedIn": {
-     "Photos Block / Device=Desktop": 1,
+    "inComponents": {
+     "Photos Block / Device=Mobile": 1,
      "Section Rail Card / Device=Tablet, Layout=Wide": 1,
      "Section Rail Card / Device=1100, Layout=Wide": 1,
      "Section Rail Card / Device=1024, Layout=Wide": 1,
-     "Blueconic Block (Most Popular) / Device=Tablet": 1,
-     "Section Rail Card / Device=Mobile, Layout=Narrow": 1,
-     "Latest Headlines / Device=Desktop": 1,
-     "Photos Block / Device=Tablet": 1,
+     "Blueconic Block (Most Popular) / Device=Desktop": 1,
      "Section Rail Card / Device=Tablet, Layout=Narrow": 1,
+     "Section Rail Card / Device=1100, Layout=Narrow": 1,
+     "Section Rail Card / Device=1024, Layout=Narrow": 1,
+     "Blueconic Block (Most Popular) / Device=Tablet": 1,
+     "Latest Headlines / Device=Mobile": 1,
+     "Section Rail Card / Device=1280, Layout=Wide": 1,
      "Section Rail Card / Device=Desktop, Layout=Narrow": 1,
      "Blueconic Block (Most Popular) / Device=Mobile": 1,
+     "Photos Block / Device=Desktop": 1,
+     "Section Rail Card / Device=Mobile, Layout=Narrow": 1,
      "Latest Headlines / Device=Tablet": 1,
-     "TOP ZONE Block / Device=Mobile": 1,
-     "TOP ZONE Block / Device=Tablet": 1,
-     "Section Rail Card / Device=1280, Layout=Wide": 1,
-     "Latest Headlines / Device=Mobile": 1,
-     "Photos Block / Device=Mobile": 1,
-     "Blueconic Block (Most Popular) / Device=Desktop": 1,
-     "Section Rail Card / Device=1024, Layout=Narrow": 1,
-     "Section Rail Card / Device=1100, Layout=Narrow": 1
+     "Photos Block / Device=Tablet": 1,
+     "Latest Headlines / Device=Desktop": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -154,10 +142,8 @@
     "id": "3333:42270",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    }
   ]
@@ -166,7 +152,7 @@
   "builtFrom": [
    {
     "name": "Icons",
-    "count": 2,
+    "count": 1,
     "inExport": false,
     "section": null,
     "path": null
@@ -293,6 +279,11 @@
          "h": "HUG",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Typography Theme/font/theme/eyebrow-size",
+         "fontStyle": "Typography Theme/font/theme/eyebrow-style",
+         "fontFamily": "Typography Theme/font/theme/eyebrow-family"
+        },
         "text": "Latest Headlines",
         "autoResize": "WIDTH_AND_HEIGHT",
         "align": "LEFT",
@@ -302,7 +293,7 @@
           "weight": "Regular",
           "size": 20,
           "lineHeight": "22px",
-          "letterSpacing": "0.699999988079071px",
+          "letterSpacing": "0.7px",
           "case": "UPPER",
           "color": [
            {
@@ -345,13 +336,13 @@
          "Name": "arrow-right2"
         },
         "componentKey": "5f9ce51d28e573815467abbfbd10b4228483ee32",
-        "mainId": "3493:81055",
+        "mainId": "3527:18592",
         "props": {}
        }
       ]
      },
      {
-      "name": "Rectangle",
+      "name": "Underline",
       "type": "RECTANGLE",
       "id": "3326:41624",
       "w": 212,
@@ -386,8 +377,8 @@
    "id": "3333:42270",
    "key": "62d8b4021212e9b55d09fc65291f260b942afe8a",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3333-42270",
-   "width": 190,
-   "height": 23,
+   "width": 211,
+   "height": 27,
    "layout": {
     "dir": "VERTICAL",
     "gap": 0,
@@ -413,8 +404,8 @@
     "name": "Style=Bold",
     "type": "COMPONENT",
     "id": "3333:42270",
-    "w": 190,
-    "h": 23,
+    "w": 211,
+    "h": 27,
     "x": 16,
     "y": 62,
     "sizing": {
@@ -438,8 +429,8 @@
       "name": "Title Row",
       "type": "FRAME",
       "id": "3349:66607",
-      "w": 190,
-      "h": 23,
+      "w": 211,
+      "h": 27,
       "x": 0,
       "y": 0,
       "sizing": {
@@ -464,13 +455,18 @@
         "name": "Latest Headlines",
         "type": "TEXT",
         "id": "3333:42271",
-        "w": 168,
-        "h": 23,
+        "w": 189,
+        "h": 27,
         "x": 0,
         "y": 0,
         "sizing": {
          "h": "HUG",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Typography Theme/font/theme/eyebrow-size",
+         "fontStyle": "Typography Theme/font/theme/eyebrow-style",
+         "fontFamily": "Typography Theme/font/theme/eyebrow-family"
         },
         "text": "Latest Headlines",
         "autoResize": "WIDTH_AND_HEIGHT",
@@ -478,10 +474,10 @@
         "styles": [
          {
           "font": "Noto Sans",
-          "weight": "Bold",
-          "size": 17,
+          "weight": "Regular",
+          "size": 20,
           "lineHeight": "auto",
-          "letterSpacing": "0.5950000286102295px",
+          "letterSpacing": "0.595px",
           "case": "UPPER",
           "color": [
            {
@@ -500,8 +496,8 @@
         "id": "3349:66608",
         "w": 16,
         "h": 16,
-        "x": 174,
-        "y": 3.5,
+        "x": 195,
+        "y": 5.5,
         "sizing": {
          "h": "FIXED",
          "v": "FIXED"
@@ -524,7 +520,7 @@
          "Name": "arrow-right2"
         },
         "componentKey": "5f9ce51d28e573815467abbfbd10b4228483ee32",
-        "mainId": "3493:81055",
+        "mainId": "3527:18592",
         "props": {}
        }
       ]
@@ -545,11 +541,12 @@
    "weight": "Regular",
    "size": 20,
    "lineHeight": "22px",
-   "letterSpacing": "0.699999988079071px",
+   "letterSpacing": "0.7px",
    "case": "UPPER",
    "decoration": null,
    "color": "#393938",
    "token": "Colors/color/gray/100",
+   "typeToken": "font/theme",
    "textStyle": null,
    "truncate": null,
    "sample": "Latest Headlines",
@@ -560,14 +557,15 @@
   {
    "layer": "Latest Headlines",
    "font": "Noto Sans",
-   "weight": "Bold",
-   "size": 17,
+   "weight": "Regular",
+   "size": 20,
    "lineHeight": "auto",
-   "letterSpacing": "0.5950000286102295px",
+   "letterSpacing": "0.595px",
    "case": "UPPER",
    "decoration": null,
    "color": "#007580",
    "token": "Colors/color/theme/primary",
+   "typeToken": "font/theme",
    "textStyle": null,
    "truncate": null,
    "sample": "Latest Headlines",
@@ -578,7 +576,7 @@
  ],
  "colors": [
   {
-   "layer": "Rectangle",
+   "layer": "Underline",
    "role": "fill",
    "type": "SOLID",
    "hex": "#007580",
@@ -592,7 +590,7 @@
  "adSlots": [],
  "responsiveRules": [
   "Style=Underline: 212×30, vertical gap 6 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280",
-  "Style=Bold: 190×23, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at (no breakpoint evidence)"
+  "Style=Bold: 211×27, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — no breakpoint (not placed in a template)"
  ],
  "productionRefs": [
   "chicagotribune.com"
@@ -601,5 +599,5 @@
   "1 of 2 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Style=Bold`."
  ],
  "skeleton": "section-title-eyebrow.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

@@ -7,23 +7,17 @@ figma_file: "WordPress Elements (b1iZxkFwtAYq9rElmnCAzd)"
 figma_node: "456:5708"
 component_key: 72a3f7d5c88a366288aae1b0835999779027f8ea
 variants: 12
-breakpoints: [340, 360, 768, 1024]
+breakpoints: []
 built_from: ["Icons"]
 built_into: ["UserPic"]
 spec_json: userimage.json
 skeleton: userimage.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # UserImage
 
 **Component · 12 variants** · Menus and Parts · source: WordPress Elements ▸ Menus and Parts
-
-**Designer notes on the canvas:**
-
-- User Type
-- UserPic
-- UserPic | Sample Model; do not use
 
 ## Figma references
 
@@ -55,49 +49,44 @@ exported: 2026-09-24
 ## Where it is used
 
 - **Size=large, Graphic=social** — breakpoints: —; nested inside: UserPic / Size=Large, Status=Active ×1, UserPic / Size=Large, Status=Default ×1
-- **Size=large, Graphic=socialPhillip** — breakpoints: —; no instances found
-- **Size=large, Graphic=unknown** — breakpoints: —; no instances found
-- **Size=large, Graphic=monogram** — breakpoints: —; no instances found
-- **Size=large, Graphic=monogramPP** — breakpoints: —; no instances found
+- **Size=large, Graphic=socialPhillip** — breakpoints: —; no instances in this file
+- **Size=large, Graphic=unknown** — breakpoints: —; no instances in this file
+- **Size=large, Graphic=monogram** — breakpoints: —; no instances in this file
+- **Size=large, Graphic=monogramPP** — breakpoints: —; no instances in this file
 - **Size=medium, Graphic=social** — breakpoints: —; nested inside: UserPic / Size=Medium, Status=Active ×1, UserPic / Size=Medium, Status=Default ×1
-- **Size=medium, Graphic=socialPhillip** — breakpoints: —; no instances found
-- **Size=medium, Graphic=unknown** — breakpoints: —; no instances found
-- **Size=medium, Graphic=monogram** — breakpoints: —; no instances found
-- **Size=small, Graphic=social** — breakpoints: 340, 360, 768, 1024; templates (via assembly): 340 HomePage (via UserPic), 768 HomePage (via UserPic), 1024 HomePage (via UserPic), Mobile HomePage (via UserPic); nested inside: UserPic / Size=Small, Status=Active ×1, UserPic / Size=Small, Status=Default ×1
-- **Size=small, Graphic=unknown** — breakpoints: —; no instances found
-- **Size=small, Graphic=monogram** — breakpoints: —; no instances found
+- **Size=medium, Graphic=socialPhillip** — breakpoints: —; no instances in this file
+- **Size=medium, Graphic=unknown** — breakpoints: —; no instances in this file
+- **Size=medium, Graphic=monogram** — breakpoints: —; no instances in this file
+- **Size=small, Graphic=social** — breakpoints: —; nested inside: UserPic / Size=Small, Status=Active ×1, UserPic / Size=Small, Status=Default ×1
+- **Size=small, Graphic=unknown** — breakpoints: —; no instances in this file
+- **Size=small, Graphic=monogram** — breakpoints: —; no instances in this file
 
 ## Breakpoints
 
 | Key | Viewport | Variant(s) |
 |---|---|---|
-| 340 | ≤639px (XS-Fold, built 340) | Size=small, Graphic=social |
-| 360 | ≤639px (SM-Mobile, built 360) | Size=small, Graphic=social |
-| 768 | 640–799px (MD-TabletV) | Size=small, Graphic=social |
-| 1024 | 800–1039px (LG-TabletH, built 1009) | Size=small, Graphic=social |
-| 1100 | ≥1040px (XL-Desktop, built 1085) | — |
-| 1280 | ≥1040px (XL-Desktop, built 1280) | — |
+| — | not placed in any homepage template | — |
 
 ## Responsive rules
 
-- Size=large, Graphic=social: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)
-- Size=large, Graphic=socialPhillip: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)
-- Size=large, Graphic=unknown: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)
-- Size=large, Graphic=monogram: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)
-- Size=large, Graphic=monogramPP: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)
-- Size=medium, Graphic=social: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)
-- Size=medium, Graphic=socialPhillip: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)
-- Size=medium, Graphic=unknown: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)
-- Size=medium, Graphic=monogram: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)
-- Size=small, Graphic=social: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at 340, 360, 768, 1024
-- Size=small, Graphic=unknown: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)
-- Size=small, Graphic=monogram: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — renders at (no breakpoint evidence)
+- Size=large, Graphic=social: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)
+- Size=large, Graphic=socialPhillip: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)
+- Size=large, Graphic=unknown: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)
+- Size=large, Graphic=monogram: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)
+- Size=large, Graphic=monogramPP: 64×64, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)
+- Size=medium, Graphic=social: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)
+- Size=medium, Graphic=socialPhillip: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)
+- Size=medium, Graphic=unknown: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)
+- Size=medium, Graphic=monogram: 40×40, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)
+- Size=small, Graphic=social: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)
+- Size=small, Graphic=unknown: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)
+- Size=small, Graphic=monogram: 30×30, horizontal gap 0 pad 0/0/0/0 main CENTER cross CENTER — no breakpoint (not placed in a template)
 
 ## Dependencies
 
 **Built from:**
 
-- Icons ×3 _(not in this export)_
+- Icons ×1 _(not in this export)_
 
 **Built into:**
 
@@ -126,7 +115,68 @@ exported: 2026-09-24
   - Icons — instance 24×24 [horizontal gap 8] (fixed/fixed) → Icons [Name=user]
 ```
 
-_9 more variants — full layer trees are in `userimage.json` → `variants[].layerTree`._
+**Size=large, Graphic=monogram**
+
+```
+- Size=large, Graphic=monogram — component 64×64 [horizontal gap 0] (fixed/fixed)
+  - Initials — text 64×19 (fill/fixed) "GM"
+```
+
+**Size=large, Graphic=monogramPP**
+
+```
+- Size=large, Graphic=monogramPP — component 64×64 [horizontal gap 0] (fixed/fixed)
+  - Initials — text 64×19 (fill/fixed) "PP"
+```
+
+**Size=medium, Graphic=social**
+
+```
+- Size=medium, Graphic=social — component 40×40 [horizontal gap 0] (fixed/fixed)
+  - gritty 1 — rectangle 40×40 (fill/fixed)
+```
+
+**Size=medium, Graphic=socialPhillip**
+
+```
+- Size=medium, Graphic=socialPhillip — component 40×40 [horizontal gap 0] (fixed/fixed)
+  - phillie-phanatic-philadelphia-phillies — rectangle 40×40 (fill/fill)
+```
+
+**Size=medium, Graphic=unknown**
+
+```
+- Size=medium, Graphic=unknown — component 40×40 [horizontal gap 0] (fixed/fixed)
+  - Icons — instance 24×24 [horizontal gap 8] (fixed/fixed) → Icons [Name=user]
+```
+
+**Size=medium, Graphic=monogram**
+
+```
+- Size=medium, Graphic=monogram — component 40×40 [horizontal gap 0] (fixed/fixed)
+  - Initials — text 40×19 (fill/fixed) "GM"
+```
+
+**Size=small, Graphic=social**
+
+```
+- Size=small, Graphic=social — component 30×30 [horizontal gap 0] (fixed/fixed)
+  - gritty 1 — rectangle 30×30 (fill/fixed)
+```
+
+**Size=small, Graphic=unknown**
+
+```
+- Size=small, Graphic=unknown — component 30×30 [horizontal gap 0] (fixed/fixed)
+  - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=user]
+```
+
+**Size=small, Graphic=monogram**
+
+```
+- Size=small, Graphic=monogram — component 30×30 [horizontal gap 0] (fixed/fixed)
+  - Initials — text 30×19 (fill/fixed) "GM"
+```
 
 ## Size & layout
 
@@ -147,25 +197,23 @@ _9 more variants — full layer trees are in `userimage.json` → `variants[].la
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Initials | Noto Sans | Regular | 27 | auto |  |  | #141414 | Colors/color/gray/min |  | GM |
-| Initials | Noto Sans | Regular | 22 | auto |  |  | #141414 | Colors/color/gray/min |  | GM |
-| Initials | Noto Sans | Regular | 12 | auto |  |  | #141414 | Colors/color/gray/min |  | GM |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Initials | Noto Sans | Regular | 27 | auto |  |  | #141414 | Colors/color/gray/min |  |  | GM | Size=large, Graphic=monogram, Size=large, Graphic=monogramPP |
+| Initials | Noto Sans | Regular | 22 | auto |  |  | #141414 | Colors/color/gray/min |  |  | GM | Size=medium, Graphic=monogram |
+| Initials | Noto Sans | Regular | 12 | auto |  |  | #141414 | Colors/color/gray/min |  |  | GM | Size=small, Graphic=monogram |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| gritty 1 | fill | IMAGE |  |  |  | IMAGE CROP |
-| phillie-phanatic-philadelphia-phillies | fill | IMAGE |  |  |  | IMAGE CROP |
 | Size=large, Graphic=unknown | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Size=large, Graphic=monogram | fill | SOLID | #FF702C | ⚠ unbound |  |  |
+| Size=large, Graphic=monogram | fill | SOLID | #FF702C |  |  |  |
 | Size=large, Graphic=monogramPP | fill | SOLID | #2E8000 | Colors/color/feedback/low-success |  |  |
 | Size=medium, Graphic=unknown | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Size=medium, Graphic=monogram | fill | SOLID | #FF702C | ⚠ unbound |  |  |
+| Size=medium, Graphic=monogram | fill | SOLID | #FF702C |  |  |  |
 | Size=small, Graphic=unknown | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Size=small, Graphic=monogram | fill | SOLID | #FF702C | ⚠ unbound |  |  |
+| Size=small, Graphic=monogram | fill | SOLID | #FF702C |  |  |  |
 
 ## Image ratios
 

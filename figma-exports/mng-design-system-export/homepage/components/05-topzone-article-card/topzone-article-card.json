@@ -44,7 +44,6 @@
  "breakpoints": [
   "340",
   "360",
-  "768",
   "1024",
   "1100",
   "1280"
@@ -61,10 +60,7 @@
    {
     "label": "Device=Mobile",
     "id": "3336:46078",
-    "templatesDirect": {
-     "Mobile HomePage": 3,
-     "340 HomePage": 3
-    },
+    "templatesDirect": {},
     "templatesVia": {
      "Mobile HomePage": [
       "TOP ZONE Block"
@@ -73,23 +69,13 @@
       "TOP ZONE Block"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "TOP ZONE Block / Device=Mobile": 3
     },
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360",
-     "768"
-    ],
-    "observedBreakpoints": [
-     "340",
-     "360"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
-     "360",
-     "768"
+     "360"
     ]
    },
    {
@@ -97,17 +83,9 @@
     "id": "3336:46077",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
-     "768",
      "1024",
      "1100",
      "1280"
@@ -119,14 +97,14 @@
   "builtFrom": [
    {
     "name": "Article Image Placeholder",
-    "count": 2,
+    "count": 1,
     "inExport": true,
     "section": "Article Image Placeholder",
     "path": "../03-article-image-placeholder/article-image-placeholder.md"
    },
    {
     "name": "Article Status Badge",
-    "count": 2,
+    "count": 1,
     "inExport": true,
     "section": "Article Status Badge",
     "path": "../01-article-status-badge/article-status-badge.md"
@@ -178,8 +156,7 @@
    "preview": "previews/topzone-article-card--mobile.png",
    "breakpoints": [
     "340",
-    "360",
-    "768"
+    "360"
    ],
    "layerTree": {
     "name": "Device=Mobile",
@@ -377,7 +354,7 @@
       ]
      },
      {
-      "name": "Line 1",
+      "name": "Bottom Border Line",
       "type": "LINE",
       "id": "3336:46076",
       "w": 340,
@@ -391,7 +368,8 @@
       "strokes": [
        {
         "type": "SOLID",
-        "hex": "#D7D6D2"
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
        }
       ],
       "strokeWeight": 1,
@@ -442,7 +420,6 @@
    "radius": null,
    "preview": "previews/topzone-article-card--desktop.png",
    "breakpoints": [
-    "768",
     "1024",
     "1100",
     "1280"
@@ -527,7 +504,7 @@
       "name": "Article Status Badge",
       "type": "INSTANCE",
       "id": "3344:63996",
-      "w": 138,
+      "w": 153,
       "h": 27,
       "x": 0,
       "y": 231,
@@ -641,6 +618,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Article Headline on News paper homepage in second ",
@@ -659,6 +637,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Article Headline on News paper homepage in second ",
@@ -679,11 +658,31 @@
    "strokeWeight": null
   },
   {
-   "layer": "Line 1",
+   "layer": "Article Image Placeholder",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#E1A1FF",
+   "token": null,
+   "opacity": null,
+   "note": "image placeholder fill",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Article Image Placeholder",
    "role": "stroke",
    "type": "SOLID",
-   "hex": "#D7D6D2",
-   "token": null,
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
+   "layer": "Bottom Border Line",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#CCCAC7",
+   "token": "Colors/color/gray/500",
    "opacity": null,
    "note": "",
    "strokeWeight": 1
@@ -694,6 +693,16 @@
    "type": "SOLID",
    "hex": "#FFFFFF",
    "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Article Status Badge",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#7D161E",
+   "token": null,
    "opacity": null,
    "note": "",
    "strokeWeight": null
@@ -719,14 +728,13 @@
  ],
  "adSlots": [],
  "responsiveRules": [
-  "Device=Mobile: 340×107, vertical gap 16 pad 0/0/16/0 main MIN cross MIN — renders at 340, 360, 768",
-  "Device=Desktop: 336×363, vertical gap 8 pad 0/0/16/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280"
+  "Device=Mobile: 340×107, vertical gap 16 pad 0/0/16/0 main MIN cross MIN — renders at 340, 360",
+  "Device=Desktop: 336×363, vertical gap 8 pad 0/0/16/0 main MIN cross MIN — renders at 1024, 1100, 1280"
  ],
  "productionRefs": [],
  "knownIssues": [
-  "1 of 2 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=Desktop`.",
-  "1 solid paints are hard-coded (not bound to a color variable): #D7D6D2 ×1."
+  "1 of 2 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=Desktop`."
  ],
  "skeleton": "topzone-article-card.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

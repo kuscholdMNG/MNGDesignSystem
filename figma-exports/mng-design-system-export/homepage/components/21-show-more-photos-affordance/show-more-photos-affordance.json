@@ -55,29 +55,19 @@
      "1100 HomePage": 1,
      "1024 HomePage": 1,
      "Mobile HomePage": 1,
-     "340 HomePage": 1,
-     "768 HomePage": 1
+     "340 HomePage": 1
     },
     "templatesVia": {
      "768 HomePage": [
       "Photos Block"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "Photos Block / Device=Mobile": 1,
      "Photos Block / Device=Desktop": 1,
      "Photos Block / Device=Tablet": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -106,7 +96,7 @@
    "key": "df4464b15997ef2b7b310ca9cd6a8b427de277a7",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-24180",
    "width": 793,
-   "height": 136.7,
+   "height": 140.7,
    "layout": {
     "dir": "VERTICAL",
     "gap": 4,
@@ -140,7 +130,7 @@
     "type": "COMPONENT",
     "id": "3352:24180",
     "w": 793,
-    "h": 136.7,
+    "h": 140.7,
     "x": 0,
     "y": 0,
     "sizing": {
@@ -161,7 +151,7 @@
     },
     "children": [
      {
-      "name": "Frame 342",
+      "name": "Divider Row",
       "type": "FRAME",
       "id": "3352:24175",
       "w": 793,
@@ -186,7 +176,7 @@
       },
       "children": [
        {
-        "name": "Line 1",
+        "name": "Divider Left",
         "type": "LINE",
         "id": "3352:24176",
         "w": 361.1,
@@ -208,7 +198,7 @@
         "strokeAlign": "CENTER"
        },
        {
-        "name": "Rectangle 11",
+        "name": "Diamond",
         "type": "RECTANGLE",
         "id": "3352:24177",
         "w": 50,
@@ -242,7 +232,7 @@
         "strokeAlign": "INSIDE"
        },
        {
-        "name": "Line 2",
+        "name": "Divider Right",
         "type": "LINE",
         "id": "3352:24178",
         "w": 361.1,
@@ -269,9 +259,9 @@
       "name": "Show More Photos",
       "type": "TEXT",
       "id": "3352:24179",
-      "w": 193,
-      "h": 22,
-      "x": 300,
+      "w": 202,
+      "h": 26,
+      "x": 295.5,
       "y": 74.7,
       "sizing": {
        "h": "HUG",
@@ -282,7 +272,7 @@
       "align": "CENTER",
       "styles": [
        {
-        "font": "Droid Sans",
+        "font": "Noto Sans",
         "weight": "Bold",
         "size": 19,
         "lineHeight": "auto",
@@ -298,14 +288,17 @@
        }
       ]
      }
-    ]
+    ],
+    "key": "df4464b15997ef2b7b310ca9cd6a8b427de277a7",
+    "variantProperties": null,
+    "componentDescription": null
    }
   }
  ],
  "typography": [
   {
    "layer": "Show More Photos",
-   "font": "Droid Sans",
+   "font": "Noto Sans",
    "weight": "Bold",
    "size": 19,
    "lineHeight": "auto",
@@ -314,6 +307,7 @@
    "decoration": null,
    "color": "#007580",
    "token": "Colors/color/theme/primary",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Show More Photos",
@@ -324,7 +318,7 @@
  ],
  "colors": [
   {
-   "layer": "Line 1",
+   "layer": "Divider Left",
    "role": "stroke",
    "type": "SOLID",
    "hex": "#CCCAC7",
@@ -334,7 +328,7 @@
    "strokeWeight": 2
   },
   {
-   "layer": "Rectangle 11",
+   "layer": "Diamond",
    "role": "fill",
    "type": "SOLID",
    "hex": "#F1EFEB",
@@ -344,7 +338,7 @@
    "strokeWeight": null
   },
   {
-   "layer": "Rectangle 11",
+   "layer": "Diamond",
    "role": "stroke",
    "type": "SOLID",
    "hex": "#CCCAC7",
@@ -359,7 +353,7 @@
    ]
   },
   {
-   "layer": "Line 2",
+   "layer": "Divider Right",
    "role": "stroke",
    "type": "SOLID",
    "hex": "#CCCAC7",
@@ -372,12 +366,10 @@
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
-  "Show More Photos Affordance: 793×136.7, vertical gap 4 pad 0/0/40/0 main MIN cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280"
+  "Show More Photos Affordance: 793×140.7, vertical gap 4 pad 0/0/40/0 main MIN cross CENTER — renders at 340, 360, 768, 1024, 1100, 1280"
  ],
  "productionRefs": [],
- "knownIssues": [
-  "`Show More Photos Affordance`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Sans Bold ×1."
- ],
+ "knownIssues": [],
  "skeleton": "show-more-photos-affordance.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

@@ -9,10 +9,10 @@ component_key: 65f91c028cc42238d00387a53f812f839bf58969
 variants: 10
 breakpoints: [340, 360, 768, 1024, 1100, 1280]
 built_from: ["Icons"]
-built_into: []
+built_into: ["Form Field Assembly / Name pair", "Form Field Assembly / Zip + Street #", "Form Field Assembly / Zip + Phone", "Form Field Assembly / Address block", "Form Field Assembly / CC details", "Form Field Assembly / Password"]
 spec_json: form-field.json
 skeleton: form-field.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Form Field
@@ -26,9 +26,9 @@ exported: 2026-09-24
 
 | Variant | Node | Key | Size | Preview |
 |---|---|---|---|---|
-| Size=Desktop, State=Filled | [6962:6663](https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6663) | 4b5990303a23ea2dbcf9ce03ec9860ef909af825 | 480×103 | ![Size=Desktop, State=Filled](previews/form-field--desktop-filled.png) |
+| Size=Desktop, State=Blank | [6962:6663](https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6663) | 4b5990303a23ea2dbcf9ce03ec9860ef909af825 | 480×103 | ![Size=Desktop, State=Blank](previews/form-field--desktop-blank.png) |
 | Size=Mobile, State=Blank | [6962:6683](https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6683) | 3f929794d492ac59e2698f1f6f03f08d5f300068 | 328×81 | ![Size=Mobile, State=Blank](previews/form-field--mobile-blank.png) |
-| Size=Desktop, State=Filled | [6962:6703](https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6703) | 8a8927f4d4463a69d882546400ca307c27705ecb | 480×103 | ![Size=Desktop, State=Filled](previews/form-field--desktop-filled-2.png) |
+| Size=Desktop, State=Filled | [6962:6703](https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6703) | 8a8927f4d4463a69d882546400ca307c27705ecb | 480×103 | ![Size=Desktop, State=Filled](previews/form-field--desktop-filled.png) |
 | Size=Desktop, State=Focus | [6962:6723](https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6723) | b45bfea1f5bf9d99f15502fd51b14ceb8cf8c627 | 480×103 | ![Size=Desktop, State=Focus](previews/form-field--desktop-focus.png) |
 | Size=Desktop, State=Error | [6962:6743](https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6743) | e46f91b3b316cc72c63967053806eeaa2f5144e4 | 480×103 | ![Size=Desktop, State=Error](previews/form-field--desktop-error.png) |
 | Size=Desktop, State=Disabled | [6962:6763](https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6763) | 4c0fc4c01733aad7f72b7ca91acce3bacd3a0734 | 480×103 | ![Size=Desktop, State=Disabled](previews/form-field--desktop-disabled.png) |
@@ -41,21 +41,31 @@ exported: 2026-09-24
 
 | Property | Type | Default | Options |
 |---|---|---|---|
-| Size | VARIANT |  | Desktop, Mobile |
-| State | VARIANT |  | Filled, Blank, Focus, Error, Disabled |
+| Label | TEXT | Field Label |  |
+| Value | TEXT | Placeholder text |  |
+| Error message | TEXT | Error message text. |  |
+| Show icon | BOOLEAN | True |  |
+| Show label icon | BOOLEAN | False |  |
+| Icon | INSTANCE_SWAP | 2880:1506 |  |
+| Show right icon | BOOLEAN | False |  |
+| Right icon | INSTANCE_SWAP | 2880:1506 |  |
+| Show card badge | BOOLEAN | False |  |
+| Card badge | INSTANCE_SWAP | 4693:131 |  |
+| Size | VARIANT | Desktop | Desktop, Mobile |
+| State | VARIANT | Blank | Blank, Filled, Focus, Error, Disabled |
 
 ## Where it is used
 
+- **Size=Desktop, State=Blank** — breakpoints: 768, 1024, 1100, 1280; nested inside: ModalsCenter / Device=Desktop ×1, InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel ×1, Form Field Assembly / Zip + Street # / Size=Desktop ×2, InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel ×4, ModalsCenter / Device=TabletH ×1, Form Field Assembly / Zip + Phone / Size=Desktop ×2, Form Field Assembly / CC details / Size=Desktop ×4, Form Field Assembly / Address block / Size=Desktop ×4, Modals/Desktop ×1, Form Field Assembly / Password / Size=Desktop ×2, InLineMessage / Device=Desktop, Priority=none, Location=DashSMSEdit, PanelType=Panel ×1, InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel ×1, Form Field Assembly / Name pair / Size=Desktop ×2, InLineMessage / Device=Desktop, Priority=none, Location=DashProfileDisplayName, PanelType=Panel ×1; other pages: Modal Panels | 2025.12.29 ▸ Frame 12672 ×3, Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×3
+- **Size=Mobile, State=Blank** — breakpoints: 340, 360; nested inside: ModalsCenter / Device=TabletV ×1, Form Field Assembly / Zip + Phone / Size=Mobile ×2, InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel ×4, InLineMessage / Device=FOLD, Priority=none, Location=DashProfileDisplayName, PanelType=Panel ×1, Form Field Assembly / Address block / Size=Mobile ×4, InLineMessage / Device=FOLD, Priority=none, Location=DashSMSEdit, PanelType=Panel ×1, ModalsCenter / Device=FOLD ×1, InLineMessage / Device=Mobile, Priority=none, Location=DashProfileDisplayName, PanelType=Panel ×1, Form Field Assembly / CC details / Size=Mobile ×4, Form Field Assembly / Zip + Street # / Size=Mobile ×2, InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel ×4, InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel ×1, Form Field Assembly / Name pair / Size=Mobile ×2, InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel ×1, ModalsCenter / Device=MobileScroll ×1, InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel ×1, InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel ×1, Form Field Assembly / Password / Size=Mobile ×2, InLineMessage / Device=Mobile, Priority=none, Location=DashSMSEdit, PanelType=Panel ×1, ModalsCenter / Device=Mobile ×1
 - **Size=Desktop, State=Filled** — breakpoints: 768, 1024, 1100, 1280; other pages: Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×2
-- **Size=Mobile, State=Blank** — breakpoints: 340, 360; nested inside: Form Field Assembly / Zip + Phone / Size=Mobile ×2, Form Field Assembly / Address block / Size=Mobile ×4, Form Field Assembly / Name pair / Size=Mobile ×2, Form Field Assembly / Password / Size=Mobile ×2, InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel ×1, InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel ×7, ModalsCenter / Device=FOLD ×1, InLineMessage / Device=Mobile, Priority=none, Location=DashProfileDisplayName, PanelType=Panel ×1, Form Field Assembly / CC details / Size=Mobile ×4, InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel ×7, ModalsCenter / Device=TabletV ×1, InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel ×1 …; other pages: In-Line Content Containers | 2026.01.02 ▸ Frame 8 ×18, Modal Panels | 2025.12.29 ▸ Frame 12995 ×3, ***Buttons | 2026.02.27 ▸ Frame 11591 ×1, Modal Panels | 2025.12.29 ▸ Frame 12672 ×1
-- **Size=Desktop, State=Filled** — breakpoints: 768, 1024, 1100, 1280; other pages: Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation ×2
-- **Size=Desktop, State=Focus** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Size=Desktop, State=Error** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Size=Desktop, State=Disabled** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Size=Mobile, State=Filled** — breakpoints: 340, 360; no instances found
-- **Size=Mobile, State=Focus** — breakpoints: 340, 360; no instances found
-- **Size=Mobile, State=Error** — breakpoints: 340, 360; no instances found
-- **Size=Mobile, State=Disabled** — breakpoints: 340, 360; no instances found
+- **Size=Desktop, State=Focus** — breakpoints: 768, 1024, 1100, 1280; no instances in this file
+- **Size=Desktop, State=Error** — breakpoints: 768, 1024, 1100, 1280; no instances in this file
+- **Size=Desktop, State=Disabled** — breakpoints: 768, 1024, 1100, 1280; no instances in this file
+- **Size=Mobile, State=Filled** — breakpoints: 340, 360; no instances in this file
+- **Size=Mobile, State=Focus** — breakpoints: 340, 360; no instances in this file
+- **Size=Mobile, State=Error** — breakpoints: 340, 360; no instances in this file
+- **Size=Mobile, State=Disabled** — breakpoints: 340, 360; no instances in this file
 
 ## Breakpoints
 
@@ -63,15 +73,15 @@ exported: 2026-09-24
 |---|---|---|
 | 340 | ≤639px (XS-Fold, built 340) | Size=Mobile, State=Blank, Size=Mobile, State=Filled, Size=Mobile, State=Focus, Size=Mobile, State=Error, Size=Mobile, State=Disabled |
 | 360 | ≤639px (SM-Mobile, built 360) | Size=Mobile, State=Blank, Size=Mobile, State=Filled, Size=Mobile, State=Focus, Size=Mobile, State=Error, Size=Mobile, State=Disabled |
-| 768 | 640–799px (MD-TabletV) | Size=Desktop, State=Filled, Size=Desktop, State=Filled, Size=Desktop, State=Focus, Size=Desktop, State=Error, Size=Desktop, State=Disabled |
-| 1024 | 800–1039px (LG-TabletH, built 1009) | Size=Desktop, State=Filled, Size=Desktop, State=Filled, Size=Desktop, State=Focus, Size=Desktop, State=Error, Size=Desktop, State=Disabled |
-| 1100 | ≥1040px (XL-Desktop, built 1085) | Size=Desktop, State=Filled, Size=Desktop, State=Filled, Size=Desktop, State=Focus, Size=Desktop, State=Error, Size=Desktop, State=Disabled |
-| 1280 | ≥1040px (XL-Desktop, built 1280) | Size=Desktop, State=Filled, Size=Desktop, State=Filled, Size=Desktop, State=Focus, Size=Desktop, State=Error, Size=Desktop, State=Disabled |
+| 768 | 640–799px (MD-TabletV) | Size=Desktop, State=Blank, Size=Desktop, State=Filled, Size=Desktop, State=Focus, Size=Desktop, State=Error, Size=Desktop, State=Disabled |
+| 1024 | 800–1039px (LG-TabletH, built 1009) | Size=Desktop, State=Blank, Size=Desktop, State=Filled, Size=Desktop, State=Focus, Size=Desktop, State=Error, Size=Desktop, State=Disabled |
+| 1100 | ≥1040px (XL-Desktop, built 1085) | Size=Desktop, State=Blank, Size=Desktop, State=Filled, Size=Desktop, State=Focus, Size=Desktop, State=Error, Size=Desktop, State=Disabled |
+| 1280 | ≥1040px (XL-Desktop, built 1280) | Size=Desktop, State=Blank, Size=Desktop, State=Filled, Size=Desktop, State=Focus, Size=Desktop, State=Error, Size=Desktop, State=Disabled |
 
 ## Responsive rules
 
 - Error state adds a red message line below the field, so the component gets taller. Leave vertical room for it in forms.
-- Size=Desktop, State=Filled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
+- Size=Desktop, State=Blank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
 - Size=Mobile, State=Blank: 328×81, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360
 - Size=Desktop, State=Filled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
 - Size=Desktop, State=Focus: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280
@@ -86,21 +96,26 @@ exported: 2026-09-24
 
 **Built from:**
 
-- Icons ×30 _(not in this export)_
+- Icons ×3 _(not in this export)_
 
 **Built into:**
 
-- _no parent in this export_
+- [Form Field Assembly / Name pair](../../assemblies/42-form-field-assembly-name-pair/form-field-assembly-name-pair.md)
+- [Form Field Assembly / Zip + Street #](../../assemblies/43-form-field-assembly-zip-street/form-field-assembly-zip-street.md)
+- [Form Field Assembly / Zip + Phone](../../assemblies/44-form-field-assembly-zip-phone/form-field-assembly-zip-phone.md)
+- [Form Field Assembly / Address block](../../assemblies/45-form-field-assembly-address-block/form-field-assembly-address-block.md)
+- [Form Field Assembly / CC details](../../assemblies/46-form-field-assembly-cc-details/form-field-assembly-cc-details.md)
+- [Form Field Assembly / Password](../../assemblies/47-form-field-assembly-password/form-field-assembly-password.md)
 
 ## Anatomy
 
-**Size=Desktop, State=Filled**
+**Size=Desktop, State=Blank**
 
 ```
-- Size=Desktop, State=Filled — component 480×103 [vertical gap 0] (fixed/hug)
+- Size=Desktop, State=Blank — component 480×103 [vertical gap 0] (fixed/hug)
   - Label Container — frame 480×22 [horizontal gap 8] (fill/hug)
     - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
-      - Vector — vector 16×11 (fixed/fixed)
+      - Label Icon — vector 16×11 (fixed/fixed)
     - Label Text Container — frame 480×22 [horizontal gap 8] (fill/hug)
       - Label — text 480×22 (fill/hug) "Field Label"
   - Input Field Container — frame 480×56 [horizontal gap 0] (fill/fixed)
@@ -110,7 +125,7 @@ exported: 2026-09-24
       - Text Container — frame 392×25 [horizontal gap 8] (fill/hug)
         - Value — text 137×25 (hug/hug) "Placeholder text"
       - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
-        - Union — boolean_operation 3×20 (fixed/fixed)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
           - Line 71 (Stroke) — vector 3×1
           - Line 72 (Stroke) — vector 3×1
           - Line 73 (Stroke) — vector 20×1
@@ -127,7 +142,7 @@ exported: 2026-09-24
 - Size=Mobile, State=Blank — component 328×81 [vertical gap 0] (fixed/hug)
   - Label Container — frame 328×19 [horizontal gap 8] (fill/hug)
     - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
-      - Vector — vector 16×11 (fixed/fixed)
+      - Label Icon — vector 16×11 (fixed/fixed)
     - Label Text Container — frame 328×19 [horizontal gap 8] (fill/hug)
       - Label — text 328×19 (fill/hug) "Field Label"
   - Input Field Container — frame 328×40 [horizontal gap 0] (fill/fixed)
@@ -137,7 +152,7 @@ exported: 2026-09-24
       - Text Container — frame 256×22 [horizontal gap 8] (fill/hug)
         - Value — text 122×22 (hug/hug) "Placeholder text"
       - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
-        - Union — boolean_operation 3×20 (fixed/fixed)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
           - Line 71 (Stroke) — vector 3×1
           - Line 72 (Stroke) — vector 3×1
           - Line 73 (Stroke) — vector 20×1
@@ -154,7 +169,7 @@ exported: 2026-09-24
 - Size=Desktop, State=Filled — component 480×103 [vertical gap 0] (fixed/hug)
   - Label Container — frame 480×22 [horizontal gap 8] (fill/hug)
     - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
-      - Vector — vector 16×11 (fixed/fixed)
+      - Label Icon — vector 16×11 (fixed/fixed)
     - Label Text Container — frame 480×22 [horizontal gap 8] (fill/hug)
       - Label — text 480×22 (fill/hug) "Field Label"
   - Input Field Container — frame 480×56 [horizontal gap 0] (fill/fixed)
@@ -164,7 +179,7 @@ exported: 2026-09-24
       - Text Container — frame 392×25 [horizontal gap 8] (fill/hug)
         - Value — text 161×25 (hug/hug) "you@example.com"
       - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
-        - Union — boolean_operation 3×20 (fixed/fixed)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
           - Line 71 (Stroke) — vector 3×1
           - Line 72 (Stroke) — vector 3×1
           - Line 73 (Stroke) — vector 20×1
@@ -175,13 +190,200 @@ exported: 2026-09-24
     - Error Message Text. — text 480×25 (fill/hug) "Error message text."
 ```
 
-_7 more variants — full layer trees are in `form-field.json` → `variants[].layerTree`._
+**Size=Desktop, State=Focus**
+
+```
+- Size=Desktop, State=Focus — component 480×103 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 480×22 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 480×22 [horizontal gap 8] (fill/hug)
+      - Label — text 480×22 (fill/hug) "Field Label"
+  - Input Field Container — frame 480×56 [horizontal gap 0] (fill/fixed)
+    - icon frame — frame 56×56 [vertical gap 8] (hug/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+    - Input Field — frame 424×56 [horizontal gap 8] (fill/fixed)
+      - Text Container — frame 392×25 [horizontal gap 8] (fill/hug)
+        - Value — text 137×25 (hug/hug) "Placeholder text"
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+      - card badge — instance 66.5×44 [horizontal gap 8] (hug/hug) → Icons [Name=Visa] (hidden)
+    - icon frame right — frame 56×56 [vertical gap 8] (hug/fixed) (hidden)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+  - Error Message Container — frame 480×25 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 480×25 (fill/hug) "Error message text."
+```
+
+**Size=Desktop, State=Error**
+
+```
+- Size=Desktop, State=Error — component 480×103 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 480×22 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 480×22 [horizontal gap 8] (fill/hug)
+      - Label — text 480×22 (fill/hug) "Field Label"
+  - Input Field Container — frame 480×56 [horizontal gap 0] (fill/fixed)
+    - icon frame — frame 56×56 [vertical gap 8] (hug/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+    - Input Field — frame 424×56 [horizontal gap 8] (fill/fixed)
+      - Text Container — frame 392×25 [horizontal gap 8] (fill/hug)
+        - Value — text 137×25 (hug/hug) "Placeholder text"
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+      - card badge — instance 66.5×44 [horizontal gap 8] (hug/hug) → Icons [Name=Visa] (hidden)
+    - icon frame right — frame 56×56 [vertical gap 8] (hug/fixed) (hidden)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+  - Error Message Container — frame 480×25 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 480×25 (fill/hug) "Error message text."
+```
+
+**Size=Desktop, State=Disabled**
+
+```
+- Size=Desktop, State=Disabled — component 480×103 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 480×22 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 480×22 [horizontal gap 8] (fill/hug)
+      - Label — text 480×22 (fill/hug) "Field Label"
+  - Input Field Container — frame 480×56 [horizontal gap 0] (fill/fixed)
+    - icon frame — frame 56×56 [vertical gap 8] (hug/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+    - Input Field — frame 424×56 [horizontal gap 8] (fill/fixed)
+      - Text Container — frame 392×25 [horizontal gap 8] (fill/hug)
+        - Value — text 137×25 (hug/hug) "Placeholder text"
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+      - card badge — instance 66.5×44 [horizontal gap 8] (hug/hug) → Icons [Name=Visa] (hidden)
+    - icon frame right — frame 56×56 [vertical gap 8] (hug/fixed) (hidden)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+  - Error Message Container — frame 480×25 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 480×25 (fill/hug) "Error message text."
+```
+
+**Size=Mobile, State=Filled**
+
+```
+- Size=Mobile, State=Filled — component 328×81 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 328×19 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 328×19 [horizontal gap 8] (fill/hug)
+      - Label — text 328×19 (fill/hug) "Field Label"
+  - Input Field Container — frame 328×40 [horizontal gap 0] (fill/fixed)
+    - icon frame — frame 40×40 [vertical gap 8] (fixed/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+    - Input Field — frame 288×40 [horizontal gap 8] (fill/fixed)
+      - Text Container — frame 256×22 [horizontal gap 8] (fill/hug)
+        - Value — text 143×22 (hug/hug) "you@example.com"
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+      - card badge — instance 66.5×44 [horizontal gap 8] (hug/hug) → Icons [Name=Visa] (hidden)
+    - icon frame right — frame 40×40 [vertical gap 8] (fixed/fixed) (hidden)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+  - Error Message Container — frame 328×22 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 328×22 (fill/hug) "Error message text."
+```
+
+**Size=Mobile, State=Focus**
+
+```
+- Size=Mobile, State=Focus — component 328×81 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 328×19 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 328×19 [horizontal gap 8] (fill/hug)
+      - Label — text 328×19 (fill/hug) "Field Label"
+  - Input Field Container — frame 328×40 [horizontal gap 0] (fill/fixed)
+    - icon frame — frame 40×40 [vertical gap 8] (fixed/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+    - Input Field — frame 288×40 [horizontal gap 8] (fill/fixed)
+      - Text Container — frame 256×22 [horizontal gap 8] (fill/hug)
+        - Value — text 122×22 (hug/hug) "Placeholder text"
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+      - card badge — instance 66.5×44 [horizontal gap 8] (hug/hug) → Icons [Name=Visa] (hidden)
+    - icon frame right — frame 40×40 [vertical gap 8] (fixed/fixed) (hidden)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+  - Error Message Container — frame 328×22 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 328×22 (fill/hug) "Error message text."
+```
+
+**Size=Mobile, State=Error**
+
+```
+- Size=Mobile, State=Error — component 328×81 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 328×19 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 328×19 [horizontal gap 8] (fill/hug)
+      - Label — text 328×19 (fill/hug) "Field Label"
+  - Input Field Container — frame 328×40 [horizontal gap 0] (fill/fixed)
+    - icon frame — frame 40×40 [vertical gap 8] (fixed/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+    - Input Field — frame 288×40 [horizontal gap 8] (fill/fixed)
+      - Text Container — frame 256×22 [horizontal gap 8] (fill/hug)
+        - Value — text 122×22 (hug/hug) "Placeholder text"
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+      - card badge — instance 66.5×44 [horizontal gap 8] (hug/hug) → Icons [Name=Visa] (hidden)
+    - icon frame right — frame 40×40 [vertical gap 8] (fixed/fixed) (hidden)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+  - Error Message Container — frame 328×22 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 328×22 (fill/hug) "Error message text."
+```
+
+**Size=Mobile, State=Disabled**
+
+```
+- Size=Mobile, State=Disabled — component 328×81 [vertical gap 0] (fixed/hug)
+  - Label Container — frame 328×19 [horizontal gap 8] (fill/hug)
+    - Label Icon Container — frame 16×15 [vertical gap 8] (hug/hug) (hidden)
+      - Label Icon — vector 16×11 (fixed/fixed)
+    - Label Text Container — frame 328×19 [horizontal gap 8] (fill/hug)
+      - Label — text 328×19 (fill/hug) "Field Label"
+  - Input Field Container — frame 328×40 [horizontal gap 0] (fill/fixed)
+    - icon frame — frame 40×40 [vertical gap 8] (fixed/fixed)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+    - Input Field — frame 288×40 [horizontal gap 8] (fill/fixed)
+      - Text Container — frame 256×22 [horizontal gap 8] (fill/hug)
+        - Value — text 122×22 (hug/hug) "Placeholder text"
+      - Cursor Container — frame 3×20 [horizontal gap 8] (hug/hug) (hidden)
+        - Cursor — boolean operation 3×20 (fixed/fixed)
+          - Line 71 (Stroke) — vector 3×1
+          - Line 72 (Stroke) — vector 3×1
+          - Line 73 (Stroke) — vector 20×1
+      - card badge — instance 66.5×44 [horizontal gap 8] (hug/hug) → Icons [Name=Visa] (hidden)
+    - icon frame right — frame 40×40 [vertical gap 8] (fixed/fixed) (hidden)
+      - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=email]
+  - Error Message Container — frame 328×22 [horizontal gap 8] (fill/hug)
+    - Error Message Text. — text 328×22 (fill/hug) "Error message text."
+```
 
 ## Size & layout
 
 | Variant | Size | Width | Height | Auto-layout | Radius | Clip |
 |---|---|---|---|---|---|---|
-| Size=Desktop, State=Filled | 480×103 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
+| Size=Desktop, State=Blank | 480×103 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
 | Size=Mobile, State=Blank | 328×81 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
 | Size=Desktop, State=Filled | 480×103 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
 | Size=Desktop, State=Focus | 480×103 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
@@ -194,34 +396,34 @@ _7 more variants — full layer trees are in `form-field.json` → `variants[].l
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Field Label |
-| Value | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | Placeholder text |
-| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Error message text. |
-| Label | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  | Field Label |
-| Value | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  | Placeholder text |
-| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Error message text. |
-| Value | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  | you@example.com |
-| Label | Noto Sans | Regular | 16 | auto |  |  | #838280 | Colors/color/gray/300 |  | Field Label |
-| Value | Noto Sans | Regular | 18 | auto |  |  | #838280 | Colors/color/gray/300 |  | Placeholder text |
-| Value | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | you@example.com |
-| Label | Noto Sans | Regular | 14 | auto |  |  | #838280 | Colors/color/gray/300 |  | Field Label |
-| Value | Noto Sans | Regular | 16 | auto |  |  | #838280 | Colors/color/gray/300 |  | Placeholder text |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Label | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Field Label | Size=Desktop, State=Blank, Size=Desktop, State=Filled, Size=Desktop, State=Focus, Size=Desktop, State=Error |
+| Value | Noto Sans | Regular | 18 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | Placeholder text | Size=Desktop, State=Blank, Size=Desktop, State=Focus, Size=Desktop, State=Error |
+| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Desktop, State=Blank, Size=Desktop, State=Filled, Size=Desktop, State=Focus, Size=Desktop, State=Error, Size=Desktop, State=Disabled |
+| Label | Noto Sans | Regular | 14 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Field Label | Size=Mobile, State=Blank, Size=Mobile, State=Filled, Size=Mobile, State=Focus, Size=Mobile, State=Error |
+| Value | Noto Sans | Regular | 16 | auto |  |  | #A7A6A3 | Colors/color/gray/400 |  |  | Placeholder text | Size=Mobile, State=Blank, Size=Mobile, State=Focus, Size=Mobile, State=Error |
+| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Mobile, State=Blank, Size=Mobile, State=Filled, Size=Mobile, State=Focus, Size=Mobile, State=Error, Size=Mobile, State=Disabled |
+| Value | Noto Sans | Regular | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | you@example.com | Size=Desktop, State=Filled |
+| Label | Noto Sans | Regular | 16 | auto |  |  | #838280 | Colors/color/gray/300 |  |  | Field Label | Size=Desktop, State=Disabled |
+| Value | Noto Sans | Regular | 18 | auto |  |  | #838280 | Colors/color/gray/300 |  |  | Placeholder text | Size=Desktop, State=Disabled |
+| Value | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | you@example.com | Size=Mobile, State=Filled |
+| Label | Noto Sans | Regular | 14 | auto |  |  | #838280 | Colors/color/gray/300 |  |  | Field Label | Size=Mobile, State=Disabled |
+| Value | Noto Sans | Regular | 16 | auto |  |  | #838280 | Colors/color/gray/300 |  |  | Placeholder text | Size=Mobile, State=Disabled |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| Vector | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
+| Label Icon | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
 | Input Field Container | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Input Field Container | stroke | SOLID | #A7A6A3 | Colors/color/gray/400 |  |  |
 | icon frame | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
-| Union | fill | SOLID | #000000 | ⚠ unbound |  |  |
-| Line 71 (Stroke) | fill | SOLID | #000000 | ⚠ unbound |  |  |
-| Line 72 (Stroke) | fill | SOLID | #000000 | ⚠ unbound |  |  |
-| Line 73 (Stroke) | fill | SOLID | #000000 | ⚠ unbound |  |  |
-| Input Field Container | stroke | SOLID | #000000 | ⚠ unbound |  |  |
+| Cursor | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
+| Line 71 (Stroke) | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
+| Line 72 (Stroke) | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
+| Line 73 (Stroke) | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
+| Input Field Container | stroke | SOLID | #000000 | Colors/color/gray/black |  |  |
 | Input Field Container | stroke | SOLID | #CC2B27 | Colors/color/feedback/high-error |  |  |
 | Input Field Container | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
 | Input Field Container | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
@@ -241,10 +443,6 @@ _None found in descriptions or layer names._
 ## Known issues
 
 - 7 of 10 variants have no instances anywhere in MNG Design System (unused, or used only from another file): `Size=Desktop, State=Focus`, `Size=Desktop, State=Error`, `Size=Desktop, State=Disabled`, `Size=Mobile, State=Filled`, `Size=Mobile, State=Focus`, `Size=Mobile, State=Error`, `Size=Mobile, State=Disabled`.
-- 42 solid paints are hard-coded (not bound to a color variable): #000000 ×42.
-- Figma reports the component set is in an error state: "in get_componentPropertyDefinitions: Component set has existing errors". Properties were derived from variant names.
-- Duplicate variant names in the set: Size=Desktop, State=Filled ×2 (this is what puts the set in an error state).
-- Checked against the preview: the first `Size=Desktop, State=Filled` variant shows placeholder text, so it is really the missing `Size=Desktop, State=Blank` state under the wrong name. Rename it to fix the duplicate and clear the set's error state.
 
 ## Rendering steps
 

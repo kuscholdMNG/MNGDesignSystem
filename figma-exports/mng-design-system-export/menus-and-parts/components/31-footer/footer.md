@@ -12,7 +12,7 @@ built_from: ["Icons", "Button Primary"]
 built_into: []
 spec_json: footer.json
 skeleton: footer.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Footer
@@ -47,10 +47,10 @@ exported: 2026-09-24
 ## Where it is used
 
 - **Device=XS-Fold** — breakpoints: 340; templates (direct): 340 HomePage ×1
-- **Device=SM-Mobile** — breakpoints: 360, 768; templates (direct): Mobile HomePage ×1, 768 HomePage ×1; other pages: Menus and Parts ▸ Frame 12800 ×12, Section Front ▸ Frame 11639 ×1, Article Page ▸ Frame 11672 ×2
-- **Device=MD-TabletV** — breakpoints: 768; other pages: Menus and Parts ▸ Frame 12800 ×4
-- **Device=LG-TabletH** — breakpoints: 1024; other pages: Menus and Parts ▸ Frame 12800 ×6
-- **Device=XL-Desktop** — breakpoints: 1024, 1100, 1280; templates (direct): 1024 HomePage ×1, 1100 HomePage ×1, Desktop HomePage ×1; other pages: Menus and Parts ▸ Frame 12800 ×7, Section Front ▸ Frame 11639 ×1, Article Page ▸ Frame 11672 ×2
+- **Device=SM-Mobile** — breakpoints: 360; templates (direct): Mobile HomePage ×1; other pages: Menus and Parts ▸ Frame 12800 ×12, Article Page ▸ Frame 11672 ×2, Section Front ▸ Frame 11639 ×1
+- **Device=MD-TabletV** — breakpoints: 768; templates (direct): 768 HomePage ×1; other pages: Menus and Parts ▸ Frame 12800 ×4
+- **Device=LG-TabletH** — breakpoints: 1024; templates (direct): 1024 HomePage ×1; other pages: Menus and Parts ▸ Frame 12800 ×6
+- **Device=XL-Desktop** — breakpoints: 1100, 1280; templates (direct): Desktop HomePage ×1, 1100 HomePage ×1; other pages: Menus and Parts ▸ Frame 12800 ×7, Article Page ▸ Frame 11672 ×2, Section Front ▸ Frame 11639 ×1
 
 ## Breakpoints
 
@@ -58,29 +58,29 @@ exported: 2026-09-24
 |---|---|---|
 | 340 | ≤639px (XS-Fold, built 340) | Device=XS-Fold |
 | 360 | ≤639px (SM-Mobile, built 360) | Device=SM-Mobile |
-| 768 | 640–799px (MD-TabletV) | Device=SM-Mobile, Device=MD-TabletV |
-| 1024 | 800–1039px (LG-TabletH, built 1009) | Device=LG-TabletH, Device=XL-Desktop |
+| 768 | 640–799px (MD-TabletV) | Device=MD-TabletV |
+| 1024 | 800–1039px (LG-TabletH, built 1009) | Device=LG-TabletH |
 | 1100 | ≥1040px (XL-Desktop, built 1085) | Device=XL-Desktop |
 | 1280 | ≥1040px (XL-Desktop, built 1280) | Device=XL-Desktop |
 
 ## Responsive rules
 
 - Device=XS-Fold: 340×871, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340
-- Device=SM-Mobile: 360×871, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 360, 768
+- Device=SM-Mobile: 360×871, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 360
 - Device=MD-TabletV: 768×878.4, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768
 - Device=LG-TabletH: 1024×681.3, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024
-- Device=XL-Desktop: 1280×597, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280
+- Device=XL-Desktop: 1280×597, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
 
 ## Dependencies
 
 **Built from:**
 
-- Icons ×12 _(not in this export)_
-- Button Primary ×5 _(not in this export)_
+- Icons ×6 _(not in this export)_
+- Button Primary ×1 _(not in this export)_
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -88,8 +88,8 @@ exported: 2026-09-24
 
 ```
 - Device=XS-Fold — component 340×871 [vertical gap 16] (fixed/hug)
-  - Frame 50 — frame 340×542 [vertical gap 8] (fill/hug)
-    - Group 11389 — group 235.2×48 (fixed/fixed)
+  - Footer Content — frame 340×542 [vertical gap 8] (fill/hug)
+    - Logo Artwork — group 235.2×48 (fixed/fixed)
       - Vector — vector 12.4×15.8
       - Vector — vector 11.5×11.2
       - Vector — vector 12.6×11.1
@@ -108,36 +108,30 @@ exported: 2026-09-24
       - Vector — vector 20×22.1
       - Vector — vector 31.9×22.5
       - Vector — vector 15.8×22.9
-    - Frame 354 — frame 320×454 [vertical gap 32] (fill/hug)
-      - Frame 353 — frame 320×454 [vertical gap 32] (fill/hug)
-        - Frame 271 — frame 320×37 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 320×0 (fill/fixed)
-          - Frame 11798 — frame 320×22 [horizontal gap 15] (fill/hug)
-            - … 2 children
-        - Frame 268 — frame 320×37 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 320×0 (fill/fixed)
-          - Frame 11798 — frame 320×22 [horizontal gap 15] (fill/hug)
-            - … 2 children
-        - Frame 266 — frame 320×37 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 320×0 (fill/fixed)
-          - Frame 11798 — frame 320×22 [horizontal gap 15] (fill/hug)
-            - … 2 children
-        - Frame 270 — frame 320×37 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 320×0 (fill/fixed)
-          - Frame 11798 — frame 320×22 [horizontal gap 15] (fill/hug)
-            - … 2 children
-        - Frame 269 — frame 320×37 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 320×0 (fill/fixed)
-          - Frame 11798 — frame 320×22 [horizontal gap 15] (fill/hug)
-            - … 2 children
-        - Frame 273 — frame 320×37 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 320×0 (fill/fixed)
-          - Frame 11798 — frame 320×22 [horizontal gap 15] (fill/hug)
-            - … 2 children
-        - Button Primary — instance 320×40 [vertical gap 8] (fill/fixed) → Button Primary [Icon=None, state=Default]
-  - Frame 47 — frame 340×313 [vertical gap 8] (fill/hug)
-    - Frame 300 — frame 276×281 [vertical gap 24] (hug/hug)
-      - Frame 266 — frame 276×281 [vertical gap 15] (hug/hug)
+    - Link List Wrapper — frame 320×454 [vertical gap 32] (fill/hug)
+      - Link List — frame 320×454 [vertical gap 32] (fill/hug)
+        - Link Row — frame 320×37 [vertical gap 15] (fill/hug)
+          - Divider — vector 320×0 (fill/fixed)
+          - SubScribe Link — frame 320×22 [horizontal gap 15] (fill/hug)
+        - Link Row — frame 320×37 [vertical gap 15] (fill/hug)
+          - Divider — vector 320×0 (fill/fixed)
+          - Marketplace Link — frame 320×22 [horizontal gap 15] (fill/hug)
+        - Link Row — frame 320×37 [vertical gap 15] (fill/hug)
+          - Divider — vector 320×0 (fill/fixed)
+          - About OC Register Link — frame 320×22 [horizontal gap 15] (fill/hug)
+        - Link Row — frame 320×37 [vertical gap 15] (fill/hug)
+          - Divider — vector 320×0 (fill/fixed)
+          - Advertising Solutions Link — frame 320×22 [horizontal gap 15] (fill/hug)
+        - Link Row — frame 320×37 [vertical gap 15] (fill/hug)
+          - Divider — vector 320×0 (fill/fixed)
+          - Contact us Link — frame 320×22 [horizontal gap 15] (fill/hug)
+        - Link Row — frame 320×37 [vertical gap 15] (fill/hug)
+          - Divider — vector 320×0 (fill/fixed)
+          - Partners Link — frame 320×22 [horizontal gap 15] (fill/hug)
+        - Button Primary — instance 320×40 [vertical gap 8] (fill/hug) → Button Primary [Icon=None, State=Default, Breakpoint=Desktop]
+  - Footer Bottom — frame 340×313 [vertical gap 8] (fill/hug)
+    - Legal Bar — frame 276×281 [vertical gap 24] (hug/hug)
+      - Legal Links — frame 276×281 [vertical gap 15] (hug/hug)
         - Privacy policy — text 101×22 (hug/hug) "Privacy policy"
         - terms of use — text 101×22 (hug/hug) "terms of use"
         - accessibility — text 91×22 (hug/hug) "accessibility"
@@ -152,8 +146,8 @@ exported: 2026-09-24
 
 ```
 - Device=SM-Mobile — component 360×871 [vertical gap 16] (fixed/hug)
-  - Frame 50 — frame 360×542 [vertical gap 8] (fill/hug)
-    - Group 11389 — group 235.2×48 (fixed/fixed)
+  - Footer Content — frame 360×542 [vertical gap 8] (fill/hug)
+    - Logo Artwork — group 235.2×48 (fixed/fixed)
       - Vector — vector 12.4×15.8
       - Vector — vector 11.5×11.2
       - Vector — vector 12.6×11.1
@@ -172,36 +166,30 @@ exported: 2026-09-24
       - Vector — vector 20×22.1
       - Vector — vector 31.9×22.5
       - Vector — vector 15.8×22.9
-    - Frame 354 — frame 340×454 [vertical gap 32] (fill/hug)
-      - Frame 353 — frame 340×454 [vertical gap 32] (fill/hug)
-        - Frame 271 — frame 340×37 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 340×0 (fill/fixed)
-          - Frame 11798 — frame 340×22 [horizontal gap 15] (fill/hug)
-            - … 2 children
-        - Frame 268 — frame 340×37 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 340×0 (fill/fixed)
-          - Frame 11798 — frame 340×22 [horizontal gap 15] (fill/hug)
-            - … 2 children
-        - Frame 266 — frame 340×37 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 340×0 (fill/fixed)
-          - Frame 11798 — frame 340×22 [horizontal gap 15] (fill/hug)
-            - … 2 children
-        - Frame 270 — frame 340×37 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 340×0 (fill/fixed)
-          - Frame 11798 — frame 340×22 [horizontal gap 15] (fill/hug)
-            - … 2 children
-        - Frame 269 — frame 340×37 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 340×0 (fill/fixed)
-          - Frame 11798 — frame 340×22 [horizontal gap 15] (fill/hug)
-            - … 2 children
-        - Frame 273 — frame 340×37 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 340×0 (fill/fixed)
-          - Frame 11798 — frame 340×22 [horizontal gap 15] (fill/hug)
-            - … 2 children
-        - Button Primary — instance 340×40 [vertical gap 8] (fill/fixed) → Button Primary [Icon=None, state=Default]
-  - Frame 47 — frame 360×313 [vertical gap 8] (fill/hug)
-    - Frame 300 — frame 276×281 [vertical gap 24] (hug/hug)
-      - Frame 266 — frame 276×281 [vertical gap 15] (hug/hug)
+    - Link List Wrapper — frame 340×454 [vertical gap 32] (fill/hug)
+      - Link List — frame 340×454 [vertical gap 32] (fill/hug)
+        - Link Row — frame 340×37 [vertical gap 15] (fill/hug)
+          - Divider — vector 340×0 (fill/fixed)
+          - SubScribe Link — frame 340×22 [horizontal gap 15] (fill/hug)
+        - Link Row — frame 340×37 [vertical gap 15] (fill/hug)
+          - Divider — vector 340×0 (fill/fixed)
+          - Marketplace Link — frame 340×22 [horizontal gap 15] (fill/hug)
+        - Link Row — frame 340×37 [vertical gap 15] (fill/hug)
+          - Divider — vector 340×0 (fill/fixed)
+          - About OC Register Link — frame 340×22 [horizontal gap 15] (fill/hug)
+        - Link Row — frame 340×37 [vertical gap 15] (fill/hug)
+          - Divider — vector 340×0 (fill/fixed)
+          - Advertising Solutions Link — frame 340×22 [horizontal gap 15] (fill/hug)
+        - Link Row — frame 340×37 [vertical gap 15] (fill/hug)
+          - Divider — vector 340×0 (fill/fixed)
+          - Contact us Link — frame 340×22 [horizontal gap 15] (fill/hug)
+        - Link Row — frame 340×37 [vertical gap 15] (fill/hug)
+          - Divider — vector 340×0 (fill/fixed)
+          - Partners Link — frame 340×22 [horizontal gap 15] (fill/hug)
+        - Button Primary — instance 340×40 [vertical gap 8] (fill/hug) → Button Primary [Icon=None, State=Default, Breakpoint=Desktop]
+  - Footer Bottom — frame 360×313 [vertical gap 8] (fill/hug)
+    - Legal Bar — frame 276×281 [vertical gap 24] (hug/hug)
+      - Legal Links — frame 276×281 [vertical gap 15] (hug/hug)
         - Privacy policy — text 101×22 (hug/hug) "Privacy policy"
         - terms of use — text 101×22 (hug/hug) "terms of use"
         - accessibility — text 91×22 (hug/hug) "accessibility"
@@ -216,8 +204,8 @@ exported: 2026-09-24
 
 ```
 - Device=MD-TabletV — component 768×878.4 [vertical gap 16] (fixed/hug)
-  - Frame 50 — frame 768×771.4 [vertical gap 8] (fill/hug)
-    - Group 11389 — group 208×42.4 (fixed/fixed)
+  - Footer Content — frame 768×771.4 [vertical gap 8] (fill/hug)
+    - Logo Artwork — group 208×42.4 (fixed/fixed)
       - Vector — vector 11×14
       - Vector — vector 10.1×9.9
       - Vector — vector 11.2×9.8
@@ -236,10 +224,10 @@ exported: 2026-09-24
       - Vector — vector 17.7×19.5
       - Vector — vector 28.2×19.9
       - Vector — vector 14×20.2
-    - Frame 354 — frame 688×689 [horizontal gap 32] (fill/hug)
+    - Link Columns — frame 688×689 [horizontal gap 32] (fill/hug)
       - Col 1 — frame 328×689 [vertical gap 32] (fill/hug)
         - Group - SubScribe — frame 328×222 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 328×0 (fill/fixed)
+          - Divider — vector 328×0 (fill/fixed)
           - SubScribe — text 88×22 (hug/hug) "SubScribe"
           - Member Services — text 130×22 (hug/hug) "Member Services"
           - Manage Subscriptions — text 167×22 (hug/hug) "Manage Subscriptions"
@@ -247,13 +235,13 @@ exported: 2026-09-24
           - Archive search — text 111×22 (hug/hug) "Archive search"
           - Reprints — text 63×22 (hug/hug) "Reprints"
         - Group - Marketplace — frame 328×148 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 328×0 (fill/fixed)
+          - Divider — vector 328×0 (fill/fixed)
           - Marketplace — text 115×22 (hug/hug) "Marketplace"
           - Place an Obituary — text 134×22 (hug/hug) "Place an Obituary"
           - Place a Real Estate Ad — text 164×22 (hug/hug) "Place a Real Estate Ad"
           - Lottery — text 54×22 (hug/hug) "Lottery"
         - Group - About OC Register — frame 328×255 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 328×0 (fill/fixed)
+          - Divider — vector 328×0 (fill/fixed)
           - About OC Register — text 163×22 (hug/hug) "About OC Register"
           - About Southern California News Group — text 328×18 (fill/hug) "About Southern California News Group"
           - MediaNews Group — text 140×22 (hug/hug) "MediaNews Group"
@@ -262,18 +250,15 @@ exported: 2026-09-24
           - Accessibility — text 91×22 (hug/hug) "Accessibility"
           - News Archive — text 101×22 (hug/hug) "News Archive"
       - Col 2 — frame 328×646 [vertical gap 32] (fill/hug)
-        - Frame 294 — frame 328×646 [vertical gap 8] (fill/hug)
+        - Link List — frame 328×646 [vertical gap 8] (fill/hug)
           - Group - Advertising Solutions — frame 328×186 [vertical gap 16] (fill/hug)
-            - … 6 children
           - Group - Contact us — frame 328×228 [vertical gap 16] (fill/hug)
-            - … 7 children
           - Group - Partners — frame 328×152 [vertical gap 16] (fill/hug)
-            - … 5 children
-          - Line 1 — vector 328×0 (fill/fixed)
-          - Button Primary — instance 328×40 [vertical gap 8] (fill/fixed) → Button Primary [Icon=None, state=Default]
-  - Frame 47 — frame 768×91 [vertical gap 8] (fill/hug)
-    - Frame 300 — frame 688×59 [vertical gap 24] (fill/hug)
-      - Frame 266 — frame 688×59 [horizontal gap 15] (fill/hug)
+          - Divider — vector 328×0 (fill/fixed)
+          - Button Primary — instance 328×40 [vertical gap 8] (fill/hug) → Button Primary [Icon=None, State=Default, Breakpoint=Desktop]
+  - Footer Bottom — frame 768×91 [vertical gap 8] (fill/hug)
+    - Legal Bar — frame 688×59 [vertical gap 24] (fill/hug)
+      - Legal Links — frame 688×59 [horizontal gap 15] (fill/hug)
         - Copyright © 2022 MediaNews Group — text 276×22 (hug/hug) "Copyright © 2022 MediaNews Group"
         - Privacy policy — text 101×22 (hug/hug) "Privacy policy"
         - terms of use — text 101×22 (hug/hug) "terms of use"
@@ -288,8 +273,8 @@ exported: 2026-09-24
 
 ```
 - Device=LG-TabletH — component 1024×681.3 [vertical gap 16] (fixed/hug)
-  - Frame 50 — frame 1024×574.3 [vertical gap 8] (fill/hug)
-    - Group 11389 — group 212×43.3 (fixed/fixed)
+  - Footer Content — frame 1024×574.3 [vertical gap 8] (fill/hug)
+    - Logo Artwork — group 212×43.3 (fixed/fixed)
       - Vector — vector 11.2×14.2
       - Vector — vector 10.3×10.1
       - Vector — vector 11.4×10
@@ -308,10 +293,10 @@ exported: 2026-09-24
       - Vector — vector 18×19.9
       - Vector — vector 28.8×20.3
       - Vector — vector 14.2×20.6
-    - Frame 354 — frame 944×491 [horizontal gap 32] (fill/hug)
+    - Link Columns — frame 944×491 [horizontal gap 32] (fill/hug)
       - Col 1 — frame 293.3×402 [vertical gap 32] (fill/hug)
         - Group - SubScribe — frame 293.3×222 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 293.3×0 (fill/fixed)
+          - Divider — vector 293.3×0 (fill/fixed)
           - SubScribe — text 88×22 (hug/hug) "SubScribe"
           - Member Services — text 130×22 (hug/hug) "Member Services"
           - Manage Subscriptions — text 167×22 (hug/hug) "Manage Subscriptions"
@@ -319,14 +304,14 @@ exported: 2026-09-24
           - Archive search — text 111×22 (hug/hug) "Archive search"
           - Reprints — text 63×22 (hug/hug) "Reprints"
         - Group - Marketplace — frame 293.3×148 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 293.3×0 (fill/fixed)
+          - Divider — vector 293.3×0 (fill/fixed)
           - Marketplace — text 115×22 (hug/hug) "Marketplace"
           - Place an Obituary — text 134×22 (hug/hug) "Place an Obituary"
           - Place a Real Estate Ad — text 164×22 (hug/hug) "Place a Real Estate Ad"
           - Lottery — text 54×22 (hug/hug) "Lottery"
       - Col 2 — frame 293.3×491 [vertical gap 32] (fill/hug)
         - Group - About OC Register — frame 293.3×255 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 293.3×0 (fill/fixed)
+          - Divider — vector 293.3×0 (fill/fixed)
           - About OC Register — text 163×22 (hug/hug) "About OC Register"
           - About Southern California News Group — text 293.3×18 (fill/hug) "About Southern California News Group"
           - MediaNews Group — text 140×22 (hug/hug) "MediaNews Group"
@@ -335,23 +320,21 @@ exported: 2026-09-24
           - Accessibility — text 91×22 (hug/hug) "Accessibility"
           - News Archive — text 101×22 (hug/hug) "News Archive"
         - Group - Advertising Solutions — frame 293.3×204 [vertical gap 16] (fill/hug)
-          - Line 1 — vector 293.3×0 (fill/fixed)
+          - Divider — vector 293.3×0 (fill/fixed)
           - Advertising Solutions — text 205×22 (hug/hug) "Advertising Solutions"
           - Get in Touch with a Marketing Strategist — text 293.3×36 (fill/hug) "Get in Touch with a Marketing Strategist"
           - Request Media Kit — text 136×22 (hug/hug) "Request Media Kit"
           - Creative Services — text 127×22 (hug/hug) "Creative Services"
           - Content Marketing — text 142×22 (hug/hug) "Content Marketing"
       - Col 3 — frame 293.3×452 [vertical gap 32] (fill/hug)
-        - Frame 294 — frame 293.3×452 [vertical gap 8] (fill/hug)
+        - Link List — frame 293.3×452 [vertical gap 8] (fill/hug)
           - Group - Contact us — frame 293.3×228 [vertical gap 16] (fill/hug)
-            - … 7 children
           - Group - Partners — frame 293.3×152 [vertical gap 16] (fill/hug)
-            - … 5 children
-          - Line 1 — vector 293.3×0 (fill/fixed)
-          - Button Primary — instance 293.3×40 [vertical gap 8] (fill/fixed) → Button Primary [Icon=None, state=Default]
-  - Frame 47 — frame 1024×91 [vertical gap 8] (fill/hug)
-    - Frame 300 — frame 944×59 [vertical gap 24] (fill/hug)
-      - Frame 266 — frame 944×59 [horizontal gap 15] (fill/hug)
+          - Divider — vector 293.3×0 (fill/fixed)
+          - Button Primary — instance 293.3×40 [vertical gap 8] (fill/hug) → Button Primary [Icon=None, State=Default, Breakpoint=Desktop]
+  - Footer Bottom — frame 1024×91 [vertical gap 8] (fill/hug)
+    - Legal Bar — frame 944×59 [vertical gap 24] (fill/hug)
+      - Legal Links — frame 944×59 [horizontal gap 15] (fill/hug)
         - Copyright © 2022 MediaNews Group — text 276×22 (hug/hug) "Copyright © 2022 MediaNews Group"
         - Privacy policy — text 101×22 (hug/hug) "Privacy policy"
         - terms of use — text 101×22 (hug/hug) "terms of use"
@@ -366,8 +349,8 @@ exported: 2026-09-24
 
 ```
 - Device=XL-Desktop — component 1280×597 [vertical gap 16] (fixed/hug)
-  - Frame 50 — frame 1280×490 [vertical gap 8] (fill/hug)
-    - Group 11389 — group 235.2×48 (fixed/fixed)
+  - Footer Content — frame 1280×490 [vertical gap 8] (fill/hug)
+    - Logo Artwork — group 235.2×48 (fixed/fixed)
       - Vector — vector 12.4×15.8
       - Vector — vector 11.5×11.2
       - Vector — vector 12.6×11.1
@@ -386,10 +369,10 @@ exported: 2026-09-24
       - Vector — vector 20×22.1
       - Vector — vector 31.9×22.5
       - Vector — vector 15.8×22.9
-    - Frame 354 — frame 1200×402 [horizontal gap 32] (fill/hug)
+    - Link Columns — frame 1200×402 [horizontal gap 32] (fill/hug)
       - Col 1 — frame 214.4×402 [vertical gap 32] (fill/hug)
         - Group - SubScribe — frame 214.4×222 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 214.4×0 (fill/fixed)
+          - Divider — vector 214.4×0 (fill/fixed)
           - SubScribe — text 88×22 (hug/hug) "SubScribe"
           - Member Services — text 130×22 (hug/hug) "Member Services"
           - Manage Subscriptions — text 167×22 (hug/hug) "Manage Subscriptions"
@@ -397,14 +380,14 @@ exported: 2026-09-24
           - Archive search — text 111×22 (hug/hug) "Archive search"
           - Reprints — text 63×22 (hug/hug) "Reprints"
         - Group - Marketplace — frame 214.4×148 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 214.4×0 (fill/fixed)
+          - Divider — vector 214.4×0 (fill/fixed)
           - Marketplace — text 115×22 (hug/hug) "Marketplace"
           - Place an Obituary — text 134×22 (hug/hug) "Place an Obituary"
           - Place a Real Estate Ad — text 164×22 (hug/hug) "Place a Real Estate Ad"
           - Lottery — text 54×22 (hug/hug) "Lottery"
       - Col 2 — frame 214.4×273 [vertical gap 32] (fill/hug)
         - Group - About OC Register — frame 214.4×273 [vertical gap 15] (fill/hug)
-          - Line 1 — vector 214.4×0 (fill/fixed)
+          - Divider — vector 214.4×0 (fill/fixed)
           - About OC Register — text 163×22 (hug/hug) "About OC Register"
           - About Southern California News Group — text 214.4×36 (fill/hug) "About Southern California News Group"
           - MediaNews Group — text 140×22 (hug/hug) "MediaNews Group"
@@ -413,23 +396,21 @@ exported: 2026-09-24
           - Accessibility — text 91×22 (hug/hug) "Accessibility"
           - News Archive — text 101×22 (hug/hug) "News Archive"
       - Group - Advertising Solutions — frame 214.4×204 [vertical gap 16] (fill/hug)
-        - Line 1 — vector 214.4×0 (fill/fixed)
+        - Divider — vector 214.4×0 (fill/fixed)
         - Advertising Solutions — text 205×22 (hug/hug) "Advertising Solutions"
         - Get in Touch with a Marketing Strategist — text 214.4×36 (fill/hug) "Get in Touch with a Marketing Strategist"
         - Request Media Kit — text 136×22 (hug/hug) "Request Media Kit"
         - Creative Services — text 127×22 (hug/hug) "Creative Services"
         - Content Marketing — text 142×22 (hug/hug) "Content Marketing"
       - Col 4 — frame 214.4×396 [vertical gap 32] (fill/hug)
-        - Frame 294 — frame 214.4×396 [vertical gap 8] (fill/hug)
+        - Link Group — frame 214.4×396 [vertical gap 8] (fill/hug)
           - Group - Contact us — frame 214.4×228 [vertical gap 16] (fill/hug)
-            - … 7 children
           - Group - Partners — frame 214.4×152 [vertical gap 16] (fill/hug)
-            - … 5 children
       - Col 5 — frame 214.4×40 [vertical gap 32] (fill/fixed)
-        - Button Primary — instance 214.4×40 [vertical gap 8] (fill/fixed) → Button Primary [Icon=None, state=Default]
-  - Frame 47 — frame 1280×91 [vertical gap 8] (fill/hug)
-    - Frame 300 — frame 1200×59 [vertical gap 24] (fill/hug)
-      - Frame 266 — frame 1200×59 [horizontal gap 15] (fill/hug)
+        - Button Primary — instance 214.4×40 [vertical gap 8] (fill/hug) → Button Primary [Icon=None, State=Default, Breakpoint=Desktop]
+  - Footer Bottom — frame 1280×91 [vertical gap 8] (fill/hug)
+    - Legal Bar — frame 1200×59 [vertical gap 24] (fill/hug)
+      - Legal Links — frame 1200×59 [horizontal gap 15] (fill/hug)
         - Copyright © 2022 MediaNews Group — text 276×22 (hug/hug) "Copyright © 2022 MediaNews Group"
         - Privacy policy — text 101×22 (hug/hug) "Privacy policy"
         - terms of use — text 101×22 (hug/hug) "terms of use"
@@ -452,66 +433,66 @@ exported: 2026-09-24
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| SubScribe | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  | SubScribe |
-| Marketplace | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  | Marketplace |
-| About OC Register | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  | About OC Register |
-| Advertising Solutions | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  | Advertising Solutions |
-| Contact us | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  | Contact us |
-| Partners | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  | Partners |
-| Privacy policy | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  | Privacy policy |
-| terms of use | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  | terms of use |
-| accessibility | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  | accessibility |
-| cookie policy | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  | cookie policy |
-| Do not sell my info | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  | Do not sell my info |
-| arbitration | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  | arbitration |
-| powered by wordPress.com VIP | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  | powered by wordPress.com VIP |
-| Copyright © 2022 MediaNews Group | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  | Copyright © 2022 MediaNews Group |
-| Member Services | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Member Services |
-| Manage Subscriptions | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Manage Subscriptions |
-| Store | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Store |
-| Archive search | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Archive search |
-| Reprints | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Reprints |
-| Place an Obituary | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Place an Obituary |
-| Place a Real Estate Ad | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Place a Real Estate Ad |
-| Lottery | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Lottery |
-| About Southern California News Group | Noto Sans | Regular | 16 | 18px |  |  | #141414 | Colors/color/gray/min |  | About Southern California News Group |
-| MediaNews Group | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | MediaNews Group |
-| Work With Us | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Work With Us |
-| Privacy Policy | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Privacy Policy |
-| Accessibility | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Accessibility |
-| News Archive | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | News Archive |
-| Get in Touch with a Marketing Strategist | Noto Sans | Regular | 16 | 18px |  | TITLE | #141414 | Colors/color/gray/min |  | Get in Touch with a Marketing Strategist |
-| Request Media Kit | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Request Media Kit |
-| Creative Services | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Creative Services |
-| Content Marketing | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Content Marketing |
-| Corrections | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Corrections |
-| OC Register Store | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | OC Register Store |
-| Reader Rewards | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Reader Rewards |
-| Photo Reprints | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Photo Reprints |
-| Sponsored Access | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Sponsored Access |
-| Live Traffic Map | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Live Traffic Map |
-| Newspapers in Education | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Newspapers in Education |
-| Sponsor a Student | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Sponsor a Student |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| SubScribe | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  |  | SubScribe | all |
+| Marketplace | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  |  | Marketplace | all |
+| About OC Register | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  |  | About OC Register | all |
+| Advertising Solutions | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  |  | Advertising Solutions | all |
+| Contact us | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  |  | Contact us | all |
+| Partners | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  |  | Partners | all |
+| Privacy policy | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | Privacy policy | all |
+| terms of use | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | terms of use | all |
+| accessibility | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | accessibility | all |
+| cookie policy | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | cookie policy | all |
+| Do not sell my info | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | Do not sell my info | all |
+| arbitration | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | arbitration | all |
+| powered by wordPress.com VIP | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | powered by wordPress.com VIP | all |
+| Copyright © 2022 MediaNews Group | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | Copyright © 2022 MediaNews Group | all |
+| Member Services | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Member Services | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Manage Subscriptions | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Manage Subscriptions | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Store | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Store | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Archive search | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Archive search | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Reprints | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Reprints | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Place an Obituary | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Place an Obituary | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Place a Real Estate Ad | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Place a Real Estate Ad | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Lottery | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Lottery | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| About Southern California News Group | Noto Sans | Regular | 16 | 18px |  |  | #141414 | Colors/color/gray/min |  |  | About Southern California News Group | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| MediaNews Group | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | MediaNews Group | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Work With Us | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Work With Us | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Privacy Policy | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Privacy Policy | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Accessibility | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Accessibility | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| News Archive | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | News Archive | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Get in Touch with a Marketing Strategist | Noto Sans | Regular | 16 | 18px |  | TITLE | #141414 | Colors/color/gray/min |  |  | Get in Touch with a Marketing Strategist | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Request Media Kit | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Request Media Kit | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Creative Services | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Creative Services | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Content Marketing | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Content Marketing | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Corrections | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Corrections | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| OC Register Store | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | OC Register Store | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Reader Rewards | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Reader Rewards | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Photo Reprints | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Photo Reprints | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Sponsored Access | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Sponsored Access | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Live Traffic Map | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Live Traffic Map | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Newspapers in Education | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Newspapers in Education | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Sponsor a Student | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Sponsor a Student | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
 | Device=XS-Fold | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
-| Device=XS-Fold | stroke | SOLID | #000000 | ⚠ unbound | 0.3 |  |
+| Device=XS-Fold | stroke | SOLID | #000000 | Colors/color/gray/black |  |  |
 | Vector | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
-| Line 1 | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
-| Frame 47 | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
+| Divider | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
+| Footer Bottom | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
 | Device=SM-Mobile | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
-| Device=SM-Mobile | stroke | SOLID | #000000 | ⚠ unbound | 0.3 |  |
+| Device=SM-Mobile | stroke | SOLID | #000000 | Colors/color/gray/black |  |  |
 | Device=MD-TabletV | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
-| Device=MD-TabletV | stroke | SOLID | #000000 | ⚠ unbound | 0.3 |  |
+| Device=MD-TabletV | stroke | SOLID | #000000 | Colors/color/gray/black |  |  |
 | Device=LG-TabletH | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
-| Device=LG-TabletH | stroke | SOLID | #000000 | ⚠ unbound | 0.3 |  |
+| Device=LG-TabletH | stroke | SOLID | #000000 | Colors/color/gray/black |  |  |
 | Device=XL-Desktop | fill | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
-| Device=XL-Desktop | stroke | SOLID | #000000 | ⚠ unbound | 0.3 |  |
+| Device=XL-Desktop | stroke | SOLID | #000000 | Colors/color/gray/black |  |  |
 
 ## Image ratios
 
@@ -528,9 +509,7 @@ _None._
 
 ## Known issues
 
-- `Device=SM-Mobile` is declared for 360 but is placed in template(s) at 768 — check the variant choice.
-- `Device=XL-Desktop` is declared for 1100, 1280 but is placed in template(s) at 1024 — check the variant choice.
-- 5 solid paints are hard-coded (not bound to a color variable): #000000 ×5.
+_None detected._
 
 ## Rendering steps
 

@@ -12,7 +12,7 @@ built_from: ["Icons"]
 built_into: ["SectionMenu"]
 spec_json: sectionmenuheader.json
 skeleton: sectionmenuheader.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # SectionMenuHeader
@@ -23,7 +23,6 @@ exported: 2026-09-24
 
 - Section Menu Header
 - Section Menu Items
-- Push Nav Menu (Left side)
 
 ## Figma references
 
@@ -48,11 +47,11 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **View=Closed, Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via SectionMenu), 1100 HomePage (via SectionMenu), Desktop HomePage (via SectionMenu); nested inside: SectionMenu / View=Closed, Device=XL-Desktop, UserType=all ×1, SectionMenu / View=Closed, Device=LG-TabletH, UserType=all ×1
+- **View=Closed, Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via SectionMenu), Desktop HomePage (via SectionMenu), 1100 HomePage (via SectionMenu); nested inside: SectionMenu / View=Closed, Device=LG-TabletH, UserType=all ×1, SectionMenu / View=Closed, Device=XL-Desktop, UserType=all ×1
 - **View=Open, Device=Desktop** — breakpoints: 1024, 1100, 1280; nested inside: SectionMenu / View=Open, Device=LG-TabletH, UserType=subscriber ×1, SectionMenu / View=Open, Device=XL-Desktop, UserType=nonSub ×1, SectionMenu / View=Open, Device=LG-TabletH, UserType=nonSub ×1, SectionMenu / View=Open, Device=XL-Desktop, UserType=subscriber ×1
-- **View=Closed, Device=TabletV** — breakpoints: 340, 360, 768; templates (via assembly): 340 HomePage (via SectionMenu), Mobile HomePage (via SectionMenu), 768 HomePage (via SectionMenu); nested inside: SectionMenu / View=Closed, Device=SM-Mobile, UserType=all ×1, SectionMenu / View=Closed, Device=MD-TabletV, UserType=all ×1, SectionMenu / View=Closed, Device=XS-Fold, UserType=all ×1
-- **View=Open, Device=TabletV** — breakpoints: 768; no instances found
-- **View=Closed, Device=Mobile** — breakpoints: 340, 360; no instances found
+- **View=Closed, Device=TabletV** — breakpoints: 340, 360, 768; templates (via assembly): Mobile HomePage (via SectionMenu), 340 HomePage (via SectionMenu), 768 HomePage (via SectionMenu); nested inside: SectionMenu / View=Closed, Device=SM-Mobile, UserType=all ×1, SectionMenu / View=Closed, Device=MD-TabletV, UserType=all ×1, SectionMenu / View=Closed, Device=XS-Fold, UserType=all ×1
+- **View=Open, Device=TabletV** — breakpoints: 768; no instances in this file
+- **View=Closed, Device=Mobile** — breakpoints: 340, 360; no instances in this file
 - **View=Open, Device=Mobile** — breakpoints: 340, 360; nested inside: SectionMenu/Open/MD-TabletV/subscriber ×1, SectionMenu / View=Open, Device=MD-TabletV, UserType=subscriber ×1, SectionMenu/Open/MD-TabletV/nonSub ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=subscriber ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=nonSub ×1, SectionMenu / View=Open, Device=MD-TabletV, UserType=nonSub ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=nonSub ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=subscriber ×1
 
 ## Breakpoints
@@ -79,7 +78,7 @@ exported: 2026-09-24
 
 **Built from:**
 
-- Icons ×6 _(not in this export)_
+- Icons ×1 _(not in this export)_
 
 **Built into:**
 
@@ -95,7 +94,7 @@ exported: 2026-09-24
     - Container — frame 40×40 [horizontal gap 8] (fixed/fixed)
       - Icons — instance 16×16 [vertical gap 8] (fixed/fixed) → Icons [Name=menu7]
     - Title — text 92×22 (hug/hug) "All Sections"
-  - Line 10 — line 300×0 (fill/fixed)
+  - Divider — line 300×0 (fill/fixed)
 ```
 
 **View=Open, Device=Desktop**
@@ -107,7 +106,7 @@ exported: 2026-09-24
       - Container — frame 40×40 [horizontal gap 8] (fixed/fixed)
         - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=close]
     - Title — text 92×22 (hug/hug) "All Sections"
-  - Line 10 — line 300×0 (fill/fixed)
+  - Divider — line 300×0 (fill/fixed)
 ```
 
 **View=Closed, Device=TabletV**
@@ -117,7 +116,7 @@ exported: 2026-09-24
   - Container — frame 64×64 [horizontal gap 8] (fixed/fill)
     - Container — frame 40×40 [horizontal gap 8] (fixed/fixed)
       - Icons — instance 16×16 [vertical gap 8] (fixed/fixed) → Icons [Name=menu7]
-  - Line 10 — line 88×0 (fill/fixed)
+  - Divider — line 88×0 (fill/fixed)
 ```
 
 **View=Open, Device=TabletV**
@@ -127,7 +126,7 @@ exported: 2026-09-24
   - Container — frame 64×64 [horizontal gap 8] (fixed/fill)
     - Container — frame 40×40 [horizontal gap 8] (fixed/fixed)
       - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=close]
-  - Line 10 — line 88×0 (fill/fixed)
+  - Divider — line 88×0 (fill/fixed)
 ```
 
 **View=Closed, Device=Mobile**
@@ -137,7 +136,7 @@ exported: 2026-09-24
   - Container — frame 64×64 [horizontal gap 8] (fill/fill)
     - Container — frame 40×40 [horizontal gap 8] (fixed/fixed)
       - Icons — instance 16×16 [vertical gap 8] (fixed/fixed) → Icons [Name=menu7]
-  - Line 10 — line 64×0 (fill/fixed)
+  - Divider — line 64×0 (fill/fixed)
 ```
 
 **View=Open, Device=Mobile**
@@ -147,7 +146,7 @@ exported: 2026-09-24
   - Container — frame 64×64 [horizontal gap 8] (fill/fill)
     - Container — frame 40×40 [horizontal gap 8] (fixed/fixed)
       - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=close]
-  - Line 10 — line 64×0 (fill/fixed)
+  - Divider — line 64×0 (fill/fixed)
 ```
 
 ## Size & layout
@@ -163,16 +162,16 @@ exported: 2026-09-24
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Title | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | All Sections |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Title | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | All Sections | View=Closed, Device=Desktop, View=Open, Device=Desktop |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
 | View=Closed, Device=Desktop | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Line 10 | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
+| Divider | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
 | View=Open, Device=Desktop | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | View=Closed, Device=TabletV | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | View=Open, Device=TabletV | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |

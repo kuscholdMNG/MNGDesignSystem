@@ -7,21 +7,12 @@
  "order": 46,
  "typeLabel": "Assembly · 2 variants",
  "description": null,
- "designerNotes": [
-  "Card Number, Exp. Date, CVV and Zip Code are each auto-sized to fit their own label/value content rather than stretched to fill the row - Figma measures the actual rendered text, so each field always stays exactly as wide as it needs to be and re-measures itself if the label, placeholder, or font size ever changes. Currently: Desktop Card Number 211px, Exp. Date 80px, CVV 74px, Zip Code 84px. Mobile: Card Number 191px, Exp. Date 75px, CVV 69px, Zip Code 78px. Desktop: 16px gaps/spacing. Mobile: 8px gaps, 4px vertical spacing - see the smaller sample at left. Card Number's own error message spa"
- ],
+ "designerNotes": [],
  "figma": {
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
   "page": "Form Fields | 2026.09.24",
-  "path": [
-   "Form Field & Code Box — Documentation",
-   "Frame 12911",
-   "Frame 12918",
-   "Assembly: CC details — Documentation",
-   "Frame 11535",
-   "Frame 11522"
-  ],
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12911 ▸ Frame 12918 ▸ Assembly: CC details — Documentation ▸ Frame 11535 ▸ Frame 11522",
   "mainId": "7003:28816",
   "mainKey": "b8f9b47fc2388d4c04fe6194aa2180c6fabdca84",
   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28816",
@@ -79,19 +70,10 @@
     "id": "7003:28778",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
+    "inComponents": {
      "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel": 1
     },
-    "otherPages": {
-     "In-Line Content Containers | 2026.01.02 ▸ Frame 8": 1
-    },
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "other": {},
     "breakpoints": [
      "768",
      "1024",
@@ -104,18 +86,11 @@
     "id": "7003:28815",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1
+    "inComponents": {
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1
     },
-    "otherPages": {
-     "In-Line Content Containers | 2026.01.02 ▸ Frame 8": 2
-    },
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -127,10 +102,10 @@
   "builtFrom": [
    {
     "name": "Form Field",
-    "count": 8,
+    "count": 4,
     "inExport": true,
-    "section": "Form Field (Dashboard Mockup Set)",
-    "path": "../../components/41-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.md"
+    "section": "Form Field",
+    "path": "../../components/37-form-field/form-field.md"
    }
   ],
   "builtInto": []
@@ -225,11 +200,22 @@
       "component": "Form Field",
       "variant": {
        "Size": "Desktop",
-       "State": "Filled"
+       "State": "Blank"
       },
       "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
       "mainId": "6962:6663",
-      "propsError": true
+      "props": {
+       "Card badge": "4693:131",
+       "Right icon": "2880:1506",
+       "Show right icon": false,
+       "Show label icon": false,
+       "Value": "1234 5678 9012 3456",
+       "Show icon": false,
+       "Icon": "2880:1506",
+       "Error message": "Error message text.",
+       "Show card badge": true,
+       "Label": "Card Number"
+      }
      },
      {
       "name": "Fields",
@@ -284,11 +270,22 @@
         "component": "Form Field",
         "variant": {
          "Size": "Desktop",
-         "State": "Filled"
+         "State": "Blank"
         },
         "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
         "mainId": "6962:6663",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "12/34",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Exp. Date"
+        }
        },
        {
         "name": "Form Field",
@@ -317,11 +314,22 @@
         "component": "Form Field",
         "variant": {
          "Size": "Desktop",
-         "State": "Filled"
+         "State": "Blank"
         },
         "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
         "mainId": "6962:6663",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "1234",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "CVV"
+        }
        },
        {
         "name": "Form Field",
@@ -350,11 +358,22 @@
         "component": "Form Field",
         "variant": {
          "Size": "Desktop",
-         "State": "Filled"
+         "State": "Blank"
         },
         "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
         "mainId": "6962:6663",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "90210",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Zip Code"
+        }
        }
       ]
      },
@@ -517,7 +536,18 @@
       },
       "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
       "mainId": "6962:6683",
-      "propsError": true
+      "props": {
+       "Right icon": "2880:1506",
+       "Card badge": "3289:2650",
+       "Show label icon": false,
+       "Show right icon": false,
+       "Value": "1234 5678 9012 3456",
+       "Show icon": false,
+       "Icon": "2880:1506",
+       "Error message": "Error message text.",
+       "Show card badge": true,
+       "Label": "Card Number"
+      }
      },
      {
       "name": "Fields",
@@ -576,7 +606,18 @@
         },
         "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
         "mainId": "6962:6683",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "12/34",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Exp. Date"
+        }
        },
        {
         "name": "Form Field",
@@ -609,7 +650,18 @@
         },
         "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
         "mainId": "6962:6683",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "1234",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "CVV"
+        }
        },
        {
         "name": "Form Field",
@@ -642,7 +694,18 @@
         },
         "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
         "mainId": "6962:6683",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "90210",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Zip Code"
+        }
        }
       ]
      },
@@ -727,6 +790,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Error message text.",
@@ -745,6 +809,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Error message text.",
@@ -763,5 +828,5 @@
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "form-field-assembly-cc-details.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

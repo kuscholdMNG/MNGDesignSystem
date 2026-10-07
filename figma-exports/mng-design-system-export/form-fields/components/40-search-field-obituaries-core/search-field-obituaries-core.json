@@ -8,20 +8,13 @@
  "typeLabel": "Component · Standalone",
  "description": null,
  "designerNotes": [
-  "Core visual (used internally by both Size variants above — not for direct use)",
-  "Search Field / Obituaries",
-  "Production padding (ocregister.com/obituaries) baked in per breakpoint: Mobile <640px uses a 360px reference (10px top/bottom, 7.2px left/right); Desktop ≥640px uses the 640px breakpoint itself (15px top/bottom, 12.8px left/right)."
+  "Core visual (used internally by both Size variants above — not for direct use)"
  ],
  "figma": {
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
   "page": "Form Fields | 2026.09.24",
-  "path": [
-   "Form Field & Code Box — Documentation",
-   "Frame 12860",
-   "Frame 12925",
-   "Frame 12931"
-  ],
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12860 ▸ Frame 12925 ▸ Frame 12931",
   "mainId": "6995:27285",
   "mainKey": "1c628d329332b07f539d85317b98689e64fbfc81",
   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6995-27285",
@@ -47,13 +40,11 @@
     "id": "6995:27285",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
-     "Search Field / Obituaries / Size=Mobile": 1,
-     "Search Field / Obituaries / Size=Desktop": 1
+    "inComponents": {
+     "Search Field / Obituaries / Size=Desktop": 1,
+     "Search Field / Obituaries / Size=Mobile": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "other": {},
     "breakpoints": []
    }
   ]
@@ -184,7 +175,7 @@
       ]
      },
      {
-      "name": "Frame 11972",
+      "name": "Search Icons",
       "type": "FRAME",
       "id": "6973:25081",
       "w": 66,
@@ -223,7 +214,7 @@
         "clip": true,
         "children": [
          {
-          "name": "Vector",
+          "name": "Search Glyph",
           "type": "VECTOR",
           "id": "6973:25083",
           "w": 26,
@@ -255,7 +246,7 @@
         "clip": true,
         "children": [
          {
-          "name": "Vector",
+          "name": "Filter Glyph",
           "type": "VECTOR",
           "id": "6973:25085",
           "w": 21,
@@ -274,7 +265,10 @@
        }
       ]
      }
-    ]
+    ],
+    "key": "1c628d329332b07f539d85317b98689e64fbfc81",
+    "variantProperties": null,
+    "componentDescription": null
    }
   }
  ],
@@ -290,6 +284,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Search Obituaries by Name",
@@ -320,7 +315,17 @@
    "strokeWeight": 1
   },
   {
-   "layer": "Vector",
+   "layer": "Search Glyph",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Filter Glyph",
    "role": "fill",
    "type": "SOLID",
    "hex": "#141414",
@@ -333,12 +338,10 @@
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
-  "Search Field / Obituaries — Core: 472×44, horizontal gap 8 pad 8/16/8/16 main SPACE_BETWEEN cross CENTER — renders at (no breakpoint evidence)"
+  "Search Field / Obituaries — Core: 472×44, horizontal gap 8 pad 8/16/8/16 main SPACE_BETWEEN cross CENTER — no breakpoint (not placed in a template)"
  ],
- "productionRefs": [
-  "ocregister.com/obituaries"
- ],
+ "productionRefs": [],
  "knownIssues": [],
  "skeleton": "search-field-obituaries-core.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

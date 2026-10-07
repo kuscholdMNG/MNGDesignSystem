@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Blueconic Block (Most Popular)"]
 spec_json: most-popular-list-item.json
 skeleton: most-popular-list-item.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Most Popular List Item
@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Most Popular List Item** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 768 HomePage ×10, 1100 HomePage ×10, Desktop HomePage ×10, 1024 HomePage ×10, 340 HomePage ×10, Mobile HomePage ×10; templates (via assembly): 768 HomePage (via Blueconic Block (Most Popular)), Mobile HomePage (via Blueconic Block (Most Popular)), 340 HomePage (via Blueconic Block (Most Popular)); nested inside: Blueconic Block (Most Popular) / Device=Tablet ×10, Blueconic Block (Most Popular) / Device=Desktop ×10, Blueconic Block (Most Popular) / Device=Mobile ×10
+- **Most Popular List Item** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): Desktop HomePage ×10, 1100 HomePage ×10, 1024 HomePage ×10; templates (via assembly): 768 HomePage (via Blueconic Block (Most Popular)), Mobile HomePage (via Blueconic Block (Most Popular)), 340 HomePage (via Blueconic Block (Most Popular)); nested inside: Blueconic Block (Most Popular) / Device=Tablet ×10, Blueconic Block (Most Popular) / Device=Desktop ×10, Blueconic Block (Most Popular) / Device=Mobile ×10
 
 ## Breakpoints
 
@@ -57,7 +57,7 @@ _None._
 
 **Built from:**
 
-- _nothing (leaf component)_
+_Nothing — leaf component._
 
 **Built into:**
 
@@ -83,10 +83,10 @@ _None._
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Noto Sans | Bold | 21 | auto |  |  | #FFFFFF | Colors/color/gray/max |  | 1 |
-| Dear Abby: My clothes make her cry, and I feel like I can’t win | Noto Serif | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Dear Abby: My clothes make her cry, and I feel lik |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Noto Sans | Bold | 21 | auto |  |  | #FFFFFF | Colors/color/gray/max |  |  | 1 | all |
+| Dear Abby: My clothes make her cry, and I feel like I can’t  | Noto Serif | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Dear Abby: My clothes make her cry, and I feel lik | all |
 
 ## Color & effects
 

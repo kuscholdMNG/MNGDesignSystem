@@ -12,16 +12,12 @@ built_from: ["Form Field"]
 built_into: []
 spec_json: form-field-assembly-name-pair.json
 skeleton: form-field-assembly-name-pair.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Form Field Assembly / Name pair
 
 **Assembly · 2 variants** · Form Fields · source: MNG Design System ▸ Form Fields | 2026.09.24
-
-**Designer notes on the canvas:**
-
-- First Name and Last Name as two Form Field instances placed side by side in a horizontal auto-layout row. Desktop uses the Desktop size, 16px gap, each resized to half width (~232px).   Mobile uses the Mobile size, an 8px gap, each resized to half width (~160px) - see the smaller sample at right.   On a very narrow viewport, stack the two fields instead of placing them side by side. Each field's own error message space is hidden, so one shared error area spans the full row width below both fields instead of reserving blank error space twice.
 
 ## Figma references
 
@@ -43,8 +39,8 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; no instances found
-- **Size=Mobile** — breakpoints: 340, 360; no instances found
+- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; no instances in this file
+- **Size=Mobile** — breakpoints: 340, 360; no instances in this file
 
 ## Breakpoints
 
@@ -66,11 +62,11 @@ exported: 2026-09-24
 
 **Built from:**
 
-- [Form Field](../../components/41-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.md) ×4
+- [Form Field](../../components/37-form-field/form-field.md) ×2
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -79,7 +75,7 @@ exported: 2026-09-24
 ```
 - Size=Desktop — component 480×111 [vertical gap 8] (fixed/hug)
   - Fields — frame 480×78 [horizontal gap 16] (fill/hug)
-    - Form Field — instance 232×78 [vertical gap 0] (fill/hug) → Form Field [Size=Desktop, State=Filled] ×2
+    - Form Field — instance 232×78 [vertical gap 0] (fill/hug) → Form Field [Size=Desktop, State=Blank] ×2
   - Error Message Container (Shared) — frame 480×25 [horizontal gap 8] (fill/fixed)
     - Error Message Text. — text 480×25 (fixed/fixed) "Error message text." (hidden)
 ```
@@ -103,10 +99,10 @@ exported: 2026-09-24
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Error message text. |
-| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Error message text. |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Desktop |
+| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Mobile |
 
 ## Color & effects
 

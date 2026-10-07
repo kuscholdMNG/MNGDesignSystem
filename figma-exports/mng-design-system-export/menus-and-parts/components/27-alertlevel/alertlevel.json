@@ -7,25 +7,12 @@
  "order": 27,
  "typeLabel": "Component · 8 variants",
  "description": "Size=Large is for ReaderDashboard>Profile \nSize=Small is for Account Dropdown Menu",
- "designerNotes": [
-  "User Type",
-  "UserPic",
-  "UserPic | Sample Model; do not use"
- ],
+ "designerNotes": [],
  "figma": {
   "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
   "fileName": "WordPress Elements",
   "page": "Menus and Parts",
-  "path": [
-   "Frame 12800",
-   "Frame 416",
-   "Frame 11820",
-   "Frame 12776",
-   "Frame 12636",
-   "User Status",
-   "Frame 12757",
-   "Frame 12691"
-  ],
+  "path": "Frame 12800 ▸ Frame 416 ▸ Frame 11820 ▸ Frame 12776 ▸ Frame 12636 ▸ User Status ▸ Frame 12757 ▸ Frame 12691",
   "mainId": "456:5683",
   "mainKey": "9196a8bca6b630f7ea65099a7307f7429a80d2c2",
   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-5683",
@@ -100,19 +87,9 @@
    ]
   }
  },
- "breakpoints": [
-  "340",
-  "360",
-  "768",
-  "1024"
- ],
+ "breakpoints": [],
  "usage": {
-  "templates": [
-   "1024 HomePage",
-   "340 HomePage",
-   "768 HomePage",
-   "Mobile HomePage"
-  ],
+  "templates": [],
   "builtInto": [
    "UserPic"
   ],
@@ -121,87 +98,35 @@
     "label": "Level=none, Size=Small",
     "id": "456:5684",
     "templatesDirect": {},
-    "templatesVia": {
-     "340 HomePage": [
-      "UserPic"
-     ],
-     "768 HomePage": [
-      "UserPic"
-     ],
-     "1024 HomePage": [
-      "UserPic"
-     ],
-     "Mobile HomePage": [
-      "UserPic"
-     ]
+    "templatesVia": {},
+    "inComponents": {
+     "UserPic / Size=Small, Status=Default": 1,
+     "UserPic / Size=Medium, Status=Default": 1
     },
-    "nestedIn": {
-     "UserPic / Size=Medium, Status=Default": 1,
-     "UserPic / Size=Small, Status=Default": 1
-    },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024"
-    ],
-    "breakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024"
-    ]
+    "other": {},
+    "breakpoints": []
    },
    {
     "label": "Level=low, Size=Small",
     "id": "456:5687",
     "templatesDirect": {},
-    "templatesVia": {
-     "340 HomePage": [
-      "UserPic"
-     ],
-     "768 HomePage": [
-      "UserPic"
-     ],
-     "1024 HomePage": [
-      "UserPic"
-     ],
-     "Mobile HomePage": [
-      "UserPic"
-     ]
-    },
-    "nestedIn": {
+    "templatesVia": {},
+    "inComponents": {
      "UserPic / Size=Medium, Status=Active": 2,
      "UserPic / Size=Small, Status=Default": 1,
      "UserPic / Size=Medium, Status=Default": 1,
      "UserPic / Size=Small, Status=Active": 2
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024"
-    ],
-    "breakpoints": [
-     "340",
-     "360",
-     "768",
-     "1024"
-    ]
+    "other": {},
+    "breakpoints": []
    },
    {
     "label": "Level=medium, Size=Small",
     "id": "456:5690",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -209,10 +134,8 @@
     "id": "456:5693",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -220,12 +143,10 @@
     "id": "456:5696",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
+    "inComponents": {
      "UserPic / Size=Large, Status=Default": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "other": {},
     "breakpoints": []
    },
    {
@@ -233,13 +154,11 @@
     "id": "456:5699",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
+    "inComponents": {
      "UserPic / Size=Large, Status=Active": 2,
      "UserPic / Size=Large, Status=Default": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "other": {},
     "breakpoints": []
    },
    {
@@ -247,10 +166,8 @@
     "id": "456:5702",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    },
    {
@@ -258,10 +175,8 @@
     "id": "456:5705",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": []
    }
   ]
@@ -296,12 +211,7 @@
    "strokes": null,
    "radius": null,
    "preview": "previews/alertlevel--none-small.png",
-   "breakpoints": [
-    "340",
-    "360",
-    "768",
-    "1024"
-   ],
+   "breakpoints": [],
    "layerTree": {
     "name": "Level=none, Size=Small",
     "type": "COMPONENT",
@@ -341,7 +251,7 @@
       },
       "children": [
        {
-        "name": "Ellipse 5",
+        "name": "Dot",
         "type": "ELLIPSE",
         "id": "456:5686",
         "w": 8,
@@ -392,12 +302,7 @@
    "strokes": null,
    "radius": null,
    "preview": "previews/alertlevel--low-small.png",
-   "breakpoints": [
-    "340",
-    "360",
-    "768",
-    "1024"
-   ],
+   "breakpoints": [],
    "layerTree": {
     "name": "Level=low, Size=Small",
     "type": "COMPONENT",
@@ -437,7 +342,7 @@
       },
       "children": [
        {
-        "name": "Ellipse 6",
+        "name": "Dot",
         "type": "ELLIPSE",
         "id": "456:5689",
         "w": 8,
@@ -527,7 +432,7 @@
       },
       "children": [
        {
-        "name": "Ellipse 4",
+        "name": "Dot",
         "type": "ELLIPSE",
         "id": "456:5692",
         "w": 8,
@@ -617,7 +522,7 @@
       },
       "children": [
        {
-        "name": "Ellipse 3",
+        "name": "Dot",
         "type": "ELLIPSE",
         "id": "456:5695",
         "w": 8,
@@ -707,7 +612,7 @@
       },
       "children": [
        {
-        "name": "Ellipse 5",
+        "name": "Dot",
         "type": "ELLIPSE",
         "id": "456:5698",
         "w": 16,
@@ -798,7 +703,7 @@
       },
       "children": [
        {
-        "name": "Ellipse 6",
+        "name": "Dot",
         "type": "ELLIPSE",
         "id": "456:5701",
         "w": 16,
@@ -888,7 +793,7 @@
       },
       "children": [
        {
-        "name": "Ellipse 4",
+        "name": "Dot",
         "type": "ELLIPSE",
         "id": "456:5704",
         "w": 16,
@@ -978,7 +883,7 @@
       },
       "children": [
        {
-        "name": "Ellipse 3",
+        "name": "Dot",
         "type": "ELLIPSE",
         "id": "456:5707",
         "w": 16,
@@ -1012,7 +917,7 @@
  "typography": [],
  "colors": [
   {
-   "layer": "Ellipse 5",
+   "layer": "Dot",
    "role": "fill",
    "type": "SOLID",
    "hex": "#2E8000",
@@ -1022,17 +927,7 @@
    "strokeWeight": null
   },
   {
-   "layer": "Ellipse 6",
-   "role": "fill",
-   "type": "SOLID",
-   "hex": "#2E8000",
-   "token": "Colors/color/feedback/low-success",
-   "opacity": null,
-   "note": "",
-   "strokeWeight": null
-  },
-  {
-   "layer": "Ellipse 4",
+   "layer": "Dot",
    "role": "fill",
    "type": "SOLID",
    "hex": "#856A00",
@@ -1042,7 +937,7 @@
    "strokeWeight": null
   },
   {
-   "layer": "Ellipse 3",
+   "layer": "Dot",
    "role": "fill",
    "type": "SOLID",
    "hex": "#CC2B27",
@@ -1055,19 +950,19 @@
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
-  "Level=none, Size=Small: 8×8, absolute / none — renders at 340, 360, 768, 1024",
-  "Level=low, Size=Small: 8×8, absolute / none — renders at 340, 360, 768, 1024",
-  "Level=medium, Size=Small: 8×8, absolute / none — renders at (no breakpoint evidence)",
-  "Level=high, Size=Small: 8×8, absolute / none — renders at (no breakpoint evidence)",
-  "Level=none, Size=Large: 16×16, absolute / none — renders at (no breakpoint evidence)",
-  "Level=low, Size=Large: 16×16, absolute / none — renders at (no breakpoint evidence)",
-  "Level=medium, Size=Large: 16×16, absolute / none — renders at (no breakpoint evidence)",
-  "Level=high, Size=Large: 16×16, absolute / none — renders at (no breakpoint evidence)"
+  "Level=none, Size=Small: 8×8 — no breakpoint (not placed in a template)",
+  "Level=low, Size=Small: 8×8 — no breakpoint (not placed in a template)",
+  "Level=medium, Size=Small: 8×8 — no breakpoint (not placed in a template)",
+  "Level=high, Size=Small: 8×8 — no breakpoint (not placed in a template)",
+  "Level=none, Size=Large: 16×16 — no breakpoint (not placed in a template)",
+  "Level=low, Size=Large: 16×16 — no breakpoint (not placed in a template)",
+  "Level=medium, Size=Large: 16×16 — no breakpoint (not placed in a template)",
+  "Level=high, Size=Large: 16×16 — no breakpoint (not placed in a template)"
  ],
  "productionRefs": [],
  "knownIssues": [
   "4 of 8 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Level=medium, Size=Small`, `Level=high, Size=Small`, `Level=medium, Size=Large`, `Level=high, Size=Large`."
  ],
  "skeleton": "alertlevel.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

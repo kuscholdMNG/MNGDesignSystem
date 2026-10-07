@@ -9,10 +9,10 @@ component_key: 0a14bf42a7c1ff5db7aea4dedb38ebea41c76862
 variants: 1
 breakpoints: [340, 360, 768, 1024, 1100, 1280]
 built_from: ["Icons"]
-built_into: ["Horizontal Thumbnail Card", "Photos Block"]
+built_into: ["Horizontal Thumbnail Card"]
 spec_json: gallery-icon-badge.json
 skeleton: gallery-icon-badge.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Gallery Icon Badge
@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Gallery Icon Badge** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 768 HomePage ×10, 1100 HomePage ×6, Desktop HomePage ×6, 1024 HomePage ×6, Mobile HomePage ×5, 340 HomePage ×5; templates (via assembly): 768 HomePage (via Horizontal Thumbnail Card, Photos Block, TOP ZONE Block), 340 HomePage (via Horizontal Thumbnail Card), Mobile HomePage (via Horizontal Thumbnail Card); nested inside: Photos Block / Device=Tablet ×6, TOP ZONE Block / Device=Tablet ×4, Photos Block / Device=Desktop ×6, Photos Block / Device=Mobile ×5, Horizontal Thumbnail Card / Device=Desktop ×1, Horizontal Thumbnail Card / Device=Mobile ×1, Horizontal Thumbnail Card / Device=Tablet ×1
+- **Gallery Icon Badge** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): Desktop HomePage ×6, 1024 HomePage ×6, 1100 HomePage ×6; templates (via assembly): 768 HomePage (via Horizontal Thumbnail Card), Mobile HomePage (via Horizontal Thumbnail Card), 340 HomePage (via Horizontal Thumbnail Card); nested inside: Horizontal Thumbnail Card / Device=Tablet ×1, Horizontal Thumbnail Card / Device=Mobile ×1, Horizontal Thumbnail Card / Device=Desktop ×1
 
 ## Breakpoints
 
@@ -62,7 +62,6 @@ _None._
 **Built into:**
 
 - [Horizontal Thumbnail Card](../11-horizontal-thumbnail-card/horizontal-thumbnail-card.md)
-- [Photos Block](../../assemblies/22-photos-block/photos-block.md)
 
 ## Anatomy
 
@@ -81,13 +80,13 @@ _None._
 
 ## Typography
 
-_None._
+_No text._
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| Gallery Icon Badge | fill | SOLID | #000000 | ⚠ unbound | 0.55 |  |
+| Gallery Icon Badge | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
 
 ## Image ratios
 
@@ -103,7 +102,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- 1 solid paints are hard-coded (not bound to a color variable): #000000 ×1.
+_None detected._
 
 ## Rendering steps
 

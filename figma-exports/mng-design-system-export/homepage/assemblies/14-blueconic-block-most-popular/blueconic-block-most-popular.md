@@ -12,7 +12,7 @@ built_from: ["Section Title / Eyebrow", "Most Popular List Item"]
 built_into: []
 spec_json: blueconic-block-most-popular.json
 skeleton: blueconic-block-most-popular.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Blueconic Block (Most Popular)
@@ -42,7 +42,7 @@ exported: 2026-09-24
 
 - **Device=Mobile** — breakpoints: 340, 360; templates (direct): Mobile HomePage ×1, 340 HomePage ×1
 - **Device=Tablet** — breakpoints: 768; templates (direct): 768 HomePage ×1
-- **Device=Desktop** — breakpoints: 1024, 1100, 1280; no instances found
+- **Device=Desktop** — breakpoints: 1024, 1100, 1280; no instances in this file
 
 ## Breakpoints
 
@@ -65,12 +65,12 @@ exported: 2026-09-24
 
 **Built from:**
 
-- [Section Title / Eyebrow](../../components/06-section-title-eyebrow/section-title-eyebrow.md) ×3
-- [Most Popular List Item](../../components/13-most-popular-list-item/most-popular-list-item.md) ×30
+- [Section Title / Eyebrow](../../components/06-section-title-eyebrow/section-title-eyebrow.md) ×1
+- [Most Popular List Item](../../components/13-most-popular-list-item/most-popular-list-item.md) ×10
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -82,8 +82,7 @@ exported: 2026-09-24
     - Blueconic Header MOBILE — frame 438×30 [vertical gap 4] (fill/hug)
       - Section Title / Eyebrow — instance 438×30 [vertical gap 6] (fill/hug) → Section Title / Eyebrow [Style=Underline]
     - List Container — frame 438×548 [horizontal gap 16] (fill/hug)
-      - 1st Column — frame 438×516 [vertical gap 6] (fill/hug)
-        - … 10 children
+      - 1st Column — frame 438×516 [vertical gap 6] (fill/hug) ×7 ×2
 ```
 
 **Device=Tablet**
@@ -94,10 +93,8 @@ exported: 2026-09-24
     - Blueconic Header MOBILE — frame 748×30 [vertical gap 4] (fill/hug)
       - Section Title / Eyebrow — instance 748×30 [vertical gap 6] (fill/hug) → Section Title / Eyebrow [Style=Underline]
     - List Container — frame 748×320 [horizontal gap 16] (fill/hug)
-      - 1st Column — frame 366×266 [vertical gap 6] (fill/hug)
-        - … 5 children
-      - 2nd Column — frame 366×288 [vertical gap 6] (fill/hug)
-        - … 5 children
+      - 1st Column — frame 366×266 [vertical gap 6] (fill/hug) ×2 ×2
+      - 2nd Column — frame 366×288 [vertical gap 6] (fill/hug) ×2 ×2
 ```
 
 **Device=Desktop**
@@ -108,10 +105,8 @@ exported: 2026-09-24
     - Blueconic 3Col Header — frame 1280×30 [vertical gap 4] (fill/hug)
       - Section Title / Eyebrow — instance 1280×30 [vertical gap 6] (fill/hug) → Section Title / Eyebrow [Style=Underline]
     - Items Container — frame 1280×240 [horizontal gap 16] (fill/hug)
-      - 1st Column — frame 632×196 [vertical gap 6] (fill/hug)
-        - … 5 children
-      - 2nd Column — frame 632×208 [vertical gap 6] (fill/hug)
-        - … 5 children
+      - 1st Column — frame 632×196 [vertical gap 6] (fill/hug) ×2 ×2
+      - 2nd Column — frame 632×208 [vertical gap 6] (fill/hug) ×2 ×2
 ```
 
 ## Size & layout
@@ -124,19 +119,19 @@ exported: 2026-09-24
 
 ## Typography
 
-_None._
+_No text._
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| Device=Mobile | fill | SOLID | #FFFFFF | ⚠ unbound |  |  |
-| Content Container | fill | SOLID | #FFFFFF | ⚠ unbound |  |  |
-| Blueconic Header MOBILE | fill | SOLID | #FFFFFF | ⚠ unbound |  |  |
-| List Container | fill | SOLID | #FFFFFF | ⚠ unbound |  |  |
-| Device=Tablet | fill | SOLID | #FFFFFF | ⚠ unbound |  |  |
-| Device=Desktop | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Device=Mobile | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Content Container | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Blueconic Header MOBILE | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| List Container | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Most Popular List Item | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Device=Tablet | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Device=Desktop | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Blueconic 3Col Header | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Items Container | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 
@@ -155,7 +150,7 @@ _None found in descriptions or layer names._
 ## Known issues
 
 - 1 of 3 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=Desktop`.
-- 8 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×8.
+- The 1024, 1100 and 1280 HomePage templates use detached, resized copies ('Blueconic Block Content (Tablet, detached, resized to 585…)') instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list.
 
 ## Rendering steps
 

@@ -22,7 +22,9 @@ MNGDesignSystem/
 │   └── mng-buttons-export/                 ← all 8 Buttons-page families (primary, secondary, tertiary,
 │                                             action, linkstyle, modal close, in-line close, hyperlink)
 ├── scripts/                                ← generators that rebuild exports, one folder per export
-│   └── buttons-export/                     ← extract.js (Figma plugin code) + build-buttons-export.py
+│   ├── buttons-export/                     ← extract.js (Figma plugin code) + build-buttons-export.py
+│   └── design-system-export/               ← extract.js + build-design-system-export.py + curated.json
+│                                             (hand-checked notes) + save-previews.py
 └── _archive/                               ← retired files, kept for history only (empty right now;
                                               git shows the folder again when a file is moved in)
 ```

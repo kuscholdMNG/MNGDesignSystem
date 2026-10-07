@@ -7,12 +7,12 @@ figma_file: "WordPress Elements (b1iZxkFwtAYq9rElmnCAzd)"
 figma_node: "456:5683"
 component_key: 9196a8bca6b630f7ea65099a7307f7429a80d2c2
 variants: 8
-breakpoints: [340, 360, 768, 1024]
+breakpoints: []
 built_from: []
 built_into: ["UserPic"]
 spec_json: alertlevel.json
 skeleton: alertlevel.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # AlertLevel
@@ -21,12 +21,6 @@ exported: 2026-09-24
 
 > Size=Large is for ReaderDashboard>Profile 
 > Size=Small is for Account Dropdown Menu
-
-**Designer notes on the canvas:**
-
-- User Type
-- UserPic
-- UserPic | Sample Model; do not use
 
 ## Figma references
 
@@ -53,42 +47,37 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Level=none, Size=Small** — breakpoints: 340, 360, 768, 1024; templates (via assembly): 340 HomePage (via UserPic), 768 HomePage (via UserPic), 1024 HomePage (via UserPic), Mobile HomePage (via UserPic); nested inside: UserPic / Size=Medium, Status=Default ×1, UserPic / Size=Small, Status=Default ×1
-- **Level=low, Size=Small** — breakpoints: 340, 360, 768, 1024; templates (via assembly): 340 HomePage (via UserPic), 768 HomePage (via UserPic), 1024 HomePage (via UserPic), Mobile HomePage (via UserPic); nested inside: UserPic / Size=Medium, Status=Active ×2, UserPic / Size=Small, Status=Default ×1, UserPic / Size=Medium, Status=Default ×1, UserPic / Size=Small, Status=Active ×2
-- **Level=medium, Size=Small** — breakpoints: —; no instances found
-- **Level=high, Size=Small** — breakpoints: —; no instances found
+- **Level=none, Size=Small** — breakpoints: —; nested inside: UserPic / Size=Small, Status=Default ×1, UserPic / Size=Medium, Status=Default ×1
+- **Level=low, Size=Small** — breakpoints: —; nested inside: UserPic / Size=Medium, Status=Active ×2, UserPic / Size=Small, Status=Default ×1, UserPic / Size=Medium, Status=Default ×1, UserPic / Size=Small, Status=Active ×2
+- **Level=medium, Size=Small** — breakpoints: —; no instances in this file
+- **Level=high, Size=Small** — breakpoints: —; no instances in this file
 - **Level=none, Size=Large** — breakpoints: —; nested inside: UserPic / Size=Large, Status=Default ×1
 - **Level=low, Size=Large** — breakpoints: —; nested inside: UserPic / Size=Large, Status=Active ×2, UserPic / Size=Large, Status=Default ×1
-- **Level=medium, Size=Large** — breakpoints: —; no instances found
-- **Level=high, Size=Large** — breakpoints: —; no instances found
+- **Level=medium, Size=Large** — breakpoints: —; no instances in this file
+- **Level=high, Size=Large** — breakpoints: —; no instances in this file
 
 ## Breakpoints
 
 | Key | Viewport | Variant(s) |
 |---|---|---|
-| 340 | ≤639px (XS-Fold, built 340) | Level=none, Size=Small, Level=low, Size=Small |
-| 360 | ≤639px (SM-Mobile, built 360) | Level=none, Size=Small, Level=low, Size=Small |
-| 768 | 640–799px (MD-TabletV) | Level=none, Size=Small, Level=low, Size=Small |
-| 1024 | 800–1039px (LG-TabletH, built 1009) | Level=none, Size=Small, Level=low, Size=Small |
-| 1100 | ≥1040px (XL-Desktop, built 1085) | — |
-| 1280 | ≥1040px (XL-Desktop, built 1280) | — |
+| — | not placed in any homepage template | — |
 
 ## Responsive rules
 
-- Level=none, Size=Small: 8×8, absolute / none — renders at 340, 360, 768, 1024
-- Level=low, Size=Small: 8×8, absolute / none — renders at 340, 360, 768, 1024
-- Level=medium, Size=Small: 8×8, absolute / none — renders at (no breakpoint evidence)
-- Level=high, Size=Small: 8×8, absolute / none — renders at (no breakpoint evidence)
-- Level=none, Size=Large: 16×16, absolute / none — renders at (no breakpoint evidence)
-- Level=low, Size=Large: 16×16, absolute / none — renders at (no breakpoint evidence)
-- Level=medium, Size=Large: 16×16, absolute / none — renders at (no breakpoint evidence)
-- Level=high, Size=Large: 16×16, absolute / none — renders at (no breakpoint evidence)
+- Level=none, Size=Small: 8×8 — no breakpoint (not placed in a template)
+- Level=low, Size=Small: 8×8 — no breakpoint (not placed in a template)
+- Level=medium, Size=Small: 8×8 — no breakpoint (not placed in a template)
+- Level=high, Size=Small: 8×8 — no breakpoint (not placed in a template)
+- Level=none, Size=Large: 16×16 — no breakpoint (not placed in a template)
+- Level=low, Size=Large: 16×16 — no breakpoint (not placed in a template)
+- Level=medium, Size=Large: 16×16 — no breakpoint (not placed in a template)
+- Level=high, Size=Large: 16×16 — no breakpoint (not placed in a template)
 
 ## Dependencies
 
 **Built from:**
 
-- _nothing (leaf component)_
+_Nothing — leaf component._
 
 **Built into:**
 
@@ -101,7 +90,7 @@ exported: 2026-09-24
 ```
 - Level=none, Size=Small — component 8×8 (fixed/fixed)
   - Indicator — frame 8×8 [horizontal gap 0] (hug/hug)
-    - Ellipse 5 — ellipse 8×8 (fixed/fixed)
+    - Dot — ellipse 8×8 (fixed/fixed)
 ```
 
 **Level=low, Size=Small**
@@ -109,7 +98,7 @@ exported: 2026-09-24
 ```
 - Level=low, Size=Small — component 8×8 (fixed/fixed)
   - Indicator — frame 8×8 [horizontal gap 0] (hug/hug)
-    - Ellipse 6 — ellipse 8×8 (fixed/fixed)
+    - Dot — ellipse 8×8 (fixed/fixed)
 ```
 
 **Level=medium, Size=Small**
@@ -117,36 +106,73 @@ exported: 2026-09-24
 ```
 - Level=medium, Size=Small — component 8×8 (fixed/fixed)
   - Indicator — frame 8×8 [horizontal gap 0] (hug/hug)
-    - Ellipse 4 — ellipse 8×8 (fixed/fixed)
+    - Dot — ellipse 8×8 (fixed/fixed)
 ```
 
-_5 more variants — full layer trees are in `alertlevel.json` → `variants[].layerTree`._
+**Level=high, Size=Small**
+
+```
+- Level=high, Size=Small — component 8×8 (fixed/fixed)
+  - Indicator — frame 8×8 [horizontal gap 0] (hug/hug)
+    - Dot — ellipse 8×8 (fixed/fixed)
+```
+
+**Level=none, Size=Large**
+
+```
+- Level=none, Size=Large — component 16×16 (fixed/fixed)
+  - Indicator — frame 16×16 [horizontal gap 0] (hug/hug)
+    - Dot — ellipse 16×16 (fixed/fixed)
+```
+
+**Level=low, Size=Large**
+
+```
+- Level=low, Size=Large — component 16×16 (fixed/fixed)
+  - Indicator — frame 16×16 [horizontal gap 0] (hug/hug)
+    - Dot — ellipse 16×16 (fixed/fixed)
+```
+
+**Level=medium, Size=Large**
+
+```
+- Level=medium, Size=Large — component 16×16 (fixed/fixed)
+  - Indicator — frame 16×16 [horizontal gap 0] (hug/hug)
+    - Dot — ellipse 16×16 (fixed/fixed)
+```
+
+**Level=high, Size=Large**
+
+```
+- Level=high, Size=Large — component 16×16 (fixed/fixed)
+  - Indicator — frame 16×16 [horizontal gap 0] (hug/hug)
+    - Dot — ellipse 16×16 (fixed/fixed)
+```
 
 ## Size & layout
 
 | Variant | Size | Width | Height | Auto-layout | Radius | Clip |
 |---|---|---|---|---|---|---|
-| Level=none, Size=Small | 8×8 | FIXED | FIXED | absolute / none |  |  |
-| Level=low, Size=Small | 8×8 | FIXED | FIXED | absolute / none |  |  |
-| Level=medium, Size=Small | 8×8 | FIXED | FIXED | absolute / none |  |  |
-| Level=high, Size=Small | 8×8 | FIXED | FIXED | absolute / none |  |  |
-| Level=none, Size=Large | 16×16 | FIXED | FIXED | absolute / none |  |  |
-| Level=low, Size=Large | 16×16 | FIXED | FIXED | absolute / none |  |  |
-| Level=medium, Size=Large | 16×16 | FIXED | FIXED | absolute / none |  |  |
-| Level=high, Size=Large | 16×16 | FIXED | FIXED | absolute / none |  |  |
+| Level=none, Size=Small | 8×8 | FIXED | FIXED |  |  |  |
+| Level=low, Size=Small | 8×8 | FIXED | FIXED |  |  |  |
+| Level=medium, Size=Small | 8×8 | FIXED | FIXED |  |  |  |
+| Level=high, Size=Small | 8×8 | FIXED | FIXED |  |  |  |
+| Level=none, Size=Large | 16×16 | FIXED | FIXED |  |  |  |
+| Level=low, Size=Large | 16×16 | FIXED | FIXED |  |  |  |
+| Level=medium, Size=Large | 16×16 | FIXED | FIXED |  |  |  |
+| Level=high, Size=Large | 16×16 | FIXED | FIXED |  |  |  |
 
 ## Typography
 
-_None._
+_No text._
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| Ellipse 5 | fill | SOLID | #2E8000 | Colors/color/feedback/low-success |  |  |
-| Ellipse 6 | fill | SOLID | #2E8000 | Colors/color/feedback/low-success |  |  |
-| Ellipse 4 | fill | SOLID | #856A00 | Colors/color/feedback/medium |  |  |
-| Ellipse 3 | fill | SOLID | #CC2B27 | Colors/color/feedback/high-error |  |  |
+| Dot | fill | SOLID | #2E8000 | Colors/color/feedback/low-success |  |  |
+| Dot | fill | SOLID | #856A00 | Colors/color/feedback/medium |  |  |
+| Dot | fill | SOLID | #CC2B27 | Colors/color/feedback/high-error |  |  |
 
 ## Image ratios
 

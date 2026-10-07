@@ -7,21 +7,12 @@
  "order": 45,
  "typeLabel": "Assembly · 2 variants",
  "description": null,
- "designerNotes": [
-  "Street Address as a full-width Form Field instance, followed by City / State / Zip Code in a row. State (2 chars) and Zip Code (5 digits) are auto-sized to fit their own label/value content - Figma measures the actual rendered text (not a guessed number), so the box is always exactly as wide as it needs to be and re-measures itself whenever the label, placeholder, or font size changes. Currently: Desktop State 55px, Zip 84px; Mobile State 53px, Zip 78px. City takes the rest of the row (Fill sizing) since city names vary in length. Desktop: 16px gaps, 8px vertical spacing between rows. Mobile: "
- ],
+ "designerNotes": [],
  "figma": {
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
   "page": "Form Fields | 2026.09.24",
-  "path": [
-   "Form Field & Code Box — Documentation",
-   "Frame 12911",
-   "Frame 12918",
-   "Assembly: Address block — Documentation",
-   "Frame 11535",
-   "Frame 11522"
-  ],
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12911 ▸ Frame 12918 ▸ Assembly: Address block — Documentation ▸ Frame 11535 ▸ Frame 11522",
   "mainId": "7003:28741",
   "mainKey": "14866950667431f609aecef5e9619766db2e4043",
   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-28741",
@@ -75,15 +66,8 @@
     "id": "7003:28703",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768",
      "1024",
@@ -96,13 +80,8 @@
     "id": "7003:28740",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -114,10 +93,10 @@
   "builtFrom": [
    {
     "name": "Form Field",
-    "count": 8,
+    "count": 4,
     "inExport": true,
-    "section": "Form Field (Dashboard Mockup Set)",
-    "path": "../../components/41-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.md"
+    "section": "Form Field",
+    "path": "../../components/37-form-field/form-field.md"
    }
   ],
   "builtInto": []
@@ -212,11 +191,22 @@
       "component": "Form Field",
       "variant": {
        "Size": "Desktop",
-       "State": "Filled"
+       "State": "Blank"
       },
       "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
       "mainId": "6962:6663",
-      "propsError": true
+      "props": {
+       "Card badge": "4693:131",
+       "Right icon": "2880:1506",
+       "Show right icon": false,
+       "Show label icon": false,
+       "Value": "Street Address",
+       "Show icon": false,
+       "Icon": "2880:1506",
+       "Error message": "Error message text.",
+       "Show card badge": false,
+       "Label": "Street Address"
+      }
      },
      {
       "name": "Fields",
@@ -271,11 +261,22 @@
         "component": "Form Field",
         "variant": {
          "Size": "Desktop",
-         "State": "Filled"
+         "State": "Blank"
         },
         "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
         "mainId": "6962:6663",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "City",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "City"
+        }
        },
        {
         "name": "Form Field",
@@ -304,11 +305,22 @@
         "component": "Form Field",
         "variant": {
          "Size": "Desktop",
-         "State": "Filled"
+         "State": "Blank"
         },
         "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
         "mainId": "6962:6663",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "CA",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "State"
+        }
        },
        {
         "name": "Form Field",
@@ -337,11 +349,22 @@
         "component": "Form Field",
         "variant": {
          "Size": "Desktop",
-         "State": "Filled"
+         "State": "Blank"
         },
         "componentKey": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
         "mainId": "6962:6663",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show right icon": false,
+         "Show label icon": false,
+         "Value": "90210",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Zip Code"
+        }
        }
       ]
      },
@@ -504,7 +527,18 @@
       },
       "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
       "mainId": "6962:6683",
-      "propsError": true
+      "props": {
+       "Card badge": "4693:131",
+       "Right icon": "2880:1506",
+       "Show label icon": false,
+       "Show right icon": false,
+       "Value": "Street Address",
+       "Show icon": false,
+       "Icon": "2880:1506",
+       "Error message": "Error message text.",
+       "Show card badge": false,
+       "Label": "Street Address"
+      }
      },
      {
       "name": "Fields",
@@ -563,7 +597,18 @@
         },
         "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
         "mainId": "6962:6683",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "City",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "City"
+        }
        },
        {
         "name": "Form Field",
@@ -596,7 +641,18 @@
         },
         "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
         "mainId": "6962:6683",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "CA",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "State"
+        }
        },
        {
         "name": "Form Field",
@@ -629,7 +685,18 @@
         },
         "componentKey": "3f929794d492ac59e2698f1f6f03f08d5f300068",
         "mainId": "6962:6683",
-        "propsError": true
+        "props": {
+         "Card badge": "4693:131",
+         "Right icon": "2880:1506",
+         "Show label icon": false,
+         "Show right icon": false,
+         "Value": "90210",
+         "Show icon": false,
+         "Icon": "2880:1506",
+         "Error message": "Error message text.",
+         "Show card badge": false,
+         "Label": "Zip Code"
+        }
        }
       ]
      },
@@ -714,6 +781,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Error message text.",
@@ -732,6 +800,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Error message text.",
@@ -752,5 +821,5 @@
   "No variant has instances in MNG Design System (unused here, or used only from another file): `Size=Desktop`, `Size=Mobile`."
  ],
  "skeleton": "form-field-assembly-address-block.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

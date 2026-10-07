@@ -8,21 +8,13 @@
  "typeLabel": "Assembly · 2 variants",
  "description": null,
  "designerNotes": [
-  "Checkbox + Terms",
-  "A CheckBox instance (status=unselected, inFocus=False, interaction=Default - from the Check Boxes page component, not a Form Field variant) placed in a horizontal row with body text, vertically centered on the checkbox. Desktop: 40px checkbox, 8px gap, 16px text. Mobile: checkbox scaled to 28px, 6px gap, 13px text - see the smaller sample at left. \"Terms of Service\" and \"Privacy Policy\" would be Button/Hyperlink instances layered into the text in product use. Use the CheckBox component's own selected/focus/hover/pressed/disabled variants for the corresponding interaction states - they are not "
+  "Checkbox + Terms"
  ],
  "figma": {
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
   "page": "Form Fields | 2026.09.24",
-  "path": [
-   "Form Field & Code Box — Documentation",
-   "Frame 12919",
-   "Code Box — Documentation",
-   "Frame 11535",
-   "Frame 11522",
-   "Assembly: Checkbox + Terms"
-  ],
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12919 ▸ Code Box — Documentation ▸ Frame 11535 ▸ Frame 11522 ▸ Assembly: Checkbox + Terms",
   "mainId": "7003:29236",
   "mainKey": "815cbc290cc86fc6abaf1b0fc9f441c19a79100d",
   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=7003-29236",
@@ -80,20 +72,12 @@
     "id": "7003:29229",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
+    "inComponents": {
      "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel": 1
     },
-    "otherPages": {
-     "Check Boxes | 2026.02.27 ▸ Frame 12791": 5,
-     "In-Line Content Containers | 2026.01.02 ▸ Frame 8": 1
+    "other": {
+     "Check Boxes | 2026.02.27 ▸ Frame 12791": 5
     },
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "768",
      "1024",
@@ -106,19 +90,13 @@
     "id": "7003:29235",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1
+    "inComponents": {
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 1
     },
-    "otherPages": {
-     "Check Boxes | 2026.02.27 ▸ Frame 12791": 4,
-     "In-Line Content Containers | 2026.01.02 ▸ Frame 8": 2
+    "other": {
+     "Check Boxes | 2026.02.27 ▸ Frame 12791": 4
     },
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "340",
      "360"
@@ -130,7 +108,7 @@
   "builtFrom": [
    {
     "name": "CheckBox",
-    "count": 2,
+    "count": 1,
     "inExport": false,
     "section": null,
     "path": null
@@ -285,7 +263,8 @@
           "color": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ],
           "textStyle": null
@@ -506,7 +485,8 @@
           "color": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ],
           "textStyle": null
@@ -595,7 +575,8 @@
    "case": null,
    "decoration": null,
    "color": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "I agree to the Terms of Service and Privacy Policy",
@@ -614,6 +595,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Please accept terms and conditions.",
@@ -631,7 +613,8 @@
    "case": null,
    "decoration": null,
    "color": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "I agree to the Terms of Service and Privacy Policy",
@@ -650,6 +633,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Please accept terms and conditions.",
@@ -666,9 +650,7 @@
   "Size=Mobile: 294×62, vertical gap 4 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360"
  ],
  "productionRefs": [],
- "knownIssues": [
-  "2 solid paints are hard-coded (not bound to a color variable): #000000 ×2."
- ],
+ "knownIssues": [],
  "skeleton": "form-field-assembly-checkbox-terms.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

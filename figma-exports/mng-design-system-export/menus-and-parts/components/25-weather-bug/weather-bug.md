@@ -12,7 +12,7 @@ built_from: ["tornado"]
 built_into: ["SectionMenuItem", "Masthead"]
 spec_json: weather-bug.json
 skeleton: weather-bug.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Weather Bug
@@ -31,7 +31,7 @@ exported: 2026-09-24
 | Variant | Node | Key | Size | Preview |
 |---|---|---|---|---|
 | Location=SectionMenu | [654:10019](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=654-10019) | e370385ba0c9a90d739a7f5bffa9cf83bceed0b0 | 300×80 | ![Location=SectionMenu](previews/weather-bug--sectionmenu.png) |
-| Location=Masthead | [653:5076](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=653-5076) | 66512bfbd9aae46b5ef77a75ab72cfd0e23305fd | 336×37 | ![Location=Masthead](previews/weather-bug--masthead.png) |
+| Location=Masthead | [653:5076](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=653-5076) | 66512bfbd9aae46b5ef77a75ab72cfd0e23305fd | 345×42 | ![Location=Masthead](previews/weather-bug--masthead.png) |
 
 ## Properties
 
@@ -42,29 +42,25 @@ exported: 2026-09-24
 ## Where it is used
 
 - **Location=SectionMenu** — breakpoints: —; nested inside: SectionMenuItem / leftIcon=no, withSubItems=no, View=default, kind=Weather ×1
-- **Location=Masthead** — breakpoints: 1100, 1280; templates (direct): Desktop HomePage ×1, 1100 HomePage ×1; templates (via assembly): Desktop HomePage (via Masthead), 1100 HomePage (via Masthead); nested inside: Masthead/desktop/DefaultAdFree/SectionFront ×4, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront ×2, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard ×1, Masthead/desktop/default/article ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article ×1, Masthead/tabletH/DefaultAdFree/home ×2, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront ×1, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article ×2, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home ×2, Masthead/tabletH/default/home ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home ×1; other pages: Menus and Parts ▸ Frame 12800 ×13
+- **Location=Masthead** — breakpoints: 1100, 1280; templates (via assembly): Desktop HomePage (via Masthead), 1100 HomePage (via Masthead); nested inside: Masthead/tabletH/default/home ×1, Masthead/tabletH/DefaultAdFree/home ×2, Masthead/desktop/DefaultAdFree/SectionFront ×4, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article ×2, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront ×2, Masthead/desktop/default/article ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home ×1, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home ×2, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article ×1
 
 ## Breakpoints
 
 | Key | Viewport | Variant(s) |
 |---|---|---|
-| 340 | ≤639px (XS-Fold, built 340) | — |
-| 360 | ≤639px (SM-Mobile, built 360) | — |
-| 768 | 640–799px (MD-TabletV) | — |
-| 1024 | 800–1039px (LG-TabletH, built 1009) | — |
 | 1100 | ≥1040px (XL-Desktop, built 1085) | Location=Masthead |
 | 1280 | ≥1040px (XL-Desktop, built 1280) | Location=Masthead |
 
 ## Responsive rules
 
-- Location=SectionMenu: 300×80, horizontal gap 12 pad 8/16/8/16 main MIN cross CENTER — renders at (no breakpoint evidence)
-- Location=Masthead: 336×37, horizontal gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
+- Location=SectionMenu: 300×80, horizontal gap 12 pad 8/16/8/16 main MIN cross CENTER — no breakpoint (not placed in a template)
+- Location=Masthead: 345×42, horizontal gap 12 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
 
 ## Dependencies
 
 **Built from:**
 
-- tornado ×2 _(not in this export)_
+- tornado ×1 _(not in this export)_
 
 **Built into:**
 
@@ -77,10 +73,10 @@ exported: 2026-09-24
 
 ```
 - Location=SectionMenu — component 300×80 [horizontal gap 12] (fixed/fixed)
-  - Frame 75 — frame 60×26 [horizontal gap 0] (hug/hug)
+  - Weather — frame 60×26 [horizontal gap 0] (hug/hug)
     - 87°F — text 34×18 (hug/hug) "87°F"
     - tornado — instance 26×26 (fixed/fixed) → tornado
-  - Frame 37 — frame 196×64 [vertical gap 8] (fill/hug)
+  - Date and E-Edition — frame 196×64 [vertical gap 8] (fill/hug)
     - Wednesday, September 25th, 2025 — text 196×40 (fill/hug) "Wednesday, September 25th, 2025"
     - Today’s E Edition — text 94×16 (hug/hug) "Today’s E Edition"
 ```
@@ -88,13 +84,13 @@ exported: 2026-09-24
 **Location=Masthead**
 
 ```
-- Location=Masthead — component 336×37 [horizontal gap 12] (hug/hug)
-  - Frame 75 — frame 60×26 [horizontal gap 0] (hug/hug)
+- Location=Masthead — component 345×42 [horizontal gap 12] (hug/hug)
+  - Weather — frame 60×26 [horizontal gap 0] (hug/hug)
     - 87°F — text 34×18 (hug/hug) "87°F"
     - tornado — instance 26×26 (fixed/fixed) → tornado
-  - Frame 37 — frame 264×37 [vertical gap 4] (hug/hug)
-    - Wednesday, September 25th, 2022 — text 264×19 (hug/hug) "Wednesday, September 25th, 2022"
-    - Today’s E Edition — text 90×14 (hug/hug) "Today’s E Edition"
+  - Date and E-Edition — frame 273×42 [vertical gap 4] (hug/hug)
+    - Wednesday, September 25th, 2022 — text 273×22 (hug/hug) "Wednesday, September 25th, 2022"
+    - Today’s E Edition — text 94×16 (hug/hug) "Today’s E Edition"
 ```
 
 ## Size & layout
@@ -102,17 +98,16 @@ exported: 2026-09-24
 | Variant | Size | Width | Height | Auto-layout | Radius | Clip |
 |---|---|---|---|---|---|---|
 | Location=SectionMenu | 300×80 | FIXED | FIXED | horizontal gap 12 pad 8/16/8/16 main MIN cross CENTER |  |  |
-| Location=Masthead | 336×37 | HUG | HUG | horizontal gap 12 pad 0/0/0/0 main MIN cross MIN |  |  |
+| Location=Masthead | 345×42 | HUG | HUG | horizontal gap 12 pad 0/0/0/0 main MIN cross MIN |  |  |
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 87°F | Helvetica | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | 87°F |
-| Wednesday, September 25th, 2025 | Noto Sans | Bold | 15 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Wednesday, September 25th, 2025 |
-| Today’s E Edition | Noto Sans | Regular | 12 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Today’s E Edition |
-| Wednesday, September 25th, 2022 | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Wednesday, September 25th, 2022 |
-| Today’s E Edition | Droid Sans | Regular | 12 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Today’s E Edition |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 87°F | Helvetica | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | 87°F | all |
+| Wednesday, September 25th, 2025 | Noto Sans | Bold | 15 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Wednesday, September 25th, 2025 | Location=SectionMenu |
+| Today’s E Edition | Noto Sans | Regular | 12 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Today’s E Edition | all |
+| Wednesday, September 25th, 2022 | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Wednesday, September 25th, 2022 | Location=Masthead |
 
 ## Color & effects
 
@@ -135,8 +130,8 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- `Location=SectionMenu`: fonts outside the production pair (Noto Sans / Noto Serif): Helvetica Bold ×1.
-- `Location=Masthead`: fonts outside the production pair (Noto Sans / Noto Serif): Helvetica Bold ×1, Droid Sans Bold ×1, Droid Sans Regular ×1.
+- `Location=SectionMenu`: fonts outside the production set (Noto Sans / Noto Serif, no Display styles): Helvetica Bold ×1.
+- `Location=Masthead`: fonts outside the production set (Noto Sans / Noto Serif, no Display styles): Helvetica Bold ×1.
 
 ## Rendering steps
 

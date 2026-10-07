@@ -12,7 +12,7 @@ built_from: ["Article Status Badge"]
 built_into: ["Latest Headlines"]
 spec_json: latest-headlines-list-item.json
 skeleton: latest-headlines-list-item.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Latest Headlines List Item
@@ -30,7 +30,7 @@ exported: 2026-09-24
 |---|---|---|---|---|
 | Type=First | [3336:46115](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46115) | 25a91f43951ba19fc2b1308139dc36b75d9440fc | 226×62 | ![Type=First](previews/latest-headlines-list-item--first.png) |
 | Type=Standard | [3336:46116](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46116) | b2edcd919d342f5066f444ab35b2fca0a68b7705 | 226×78 | ![Type=Standard](previews/latest-headlines-list-item--standard.png) |
-| Type=Sponsored | [3336:46117](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46117) | 4a28da74cdd8fc131f87a55c16f435ca71b9533e | 226×146 | ![Type=Sponsored](previews/latest-headlines-list-item--sponsored.png) |
+| Type=Sponsored | [3336:46117](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46117) | 4a28da74cdd8fc131f87a55c16f435ca71b9533e | 226×149 | ![Type=Sponsored](previews/latest-headlines-list-item--sponsored.png) |
 
 ## Properties
 
@@ -40,9 +40,9 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Type=First** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1024 HomePage ×1, 1100 HomePage ×1; templates (via assembly): Desktop HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Desktop ×1, Latest Headlines / Device=Mobile ×1, Latest Headlines / Device=Tablet ×1
-- **Type=Standard** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1100 HomePage ×6, 1024 HomePage ×6; templates (via assembly): Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines), Desktop HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Mobile ×6, Latest Headlines / Device=Tablet ×6, Latest Headlines / Device=Desktop ×6
-- **Type=Sponsored** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1100 HomePage ×1, 1024 HomePage ×1; templates (via assembly): 768 HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines), Desktop HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Mobile ×1, Latest Headlines / Device=Desktop ×1
+- **Type=First** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1024 HomePage ×1, 1100 HomePage ×1; templates (via assembly): Desktop HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Desktop ×1, Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Mobile ×1
+- **Type=Standard** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1024 HomePage ×6, 1100 HomePage ×6; templates (via assembly): Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines), Desktop HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Mobile ×6, Latest Headlines / Device=Desktop ×6, Latest Headlines / Device=Tablet ×6
+- **Type=Sponsored** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1100 HomePage ×1, 1024 HomePage ×1; templates (via assembly): Desktop HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Desktop ×1, Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Mobile ×1
 
 ## Breakpoints
 
@@ -59,13 +59,13 @@ exported: 2026-09-24
 
 - Type=First: 226×62, vertical gap 4 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280
 - Type=Standard: 226×78, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280
-- Type=Sponsored: 226×146, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280
+- Type=Sponsored: 226×149, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280
 
 ## Dependencies
 
 **Built from:**
 
-- [Article Status Badge](../01-article-status-badge/article-status-badge.md) ×3
+- [Article Status Badge](../01-article-status-badge/article-status-badge.md) ×1
 
 **Built into:**
 
@@ -88,7 +88,7 @@ exported: 2026-09-24
 
 ```
 - Type=Standard — component 226×78 [vertical gap 16] (fixed/hug)
-  - Line 1 — line 226×0 (fill/fixed)
+  - Bottom Border Line — line 226×0 (fill/fixed)
   - Content Card — frame 226×62 [vertical gap 4] (fill/hug)
     - Article Status Badge — instance 0×0 [horizontal gap 0] (hug/hug) → Article Status Badge [Type=None] (hidden)
     - Headline Container — frame 226×40 [horizontal gap 8] (fill/hug)
@@ -100,15 +100,15 @@ exported: 2026-09-24
 **Type=Sponsored**
 
 ```
-- Type=Sponsored — component 226×146 [vertical gap 16] (fixed/hug)
-  - Line 1 — line 226×0 (fill/fixed)
-  - Content Card — frame 226×130 [vertical gap 4] (fill/hug)
-    - Frame 323 — frame 138×27 [horizontal gap 8] (hug/hug)
-      - Article Status Badge — instance 138×27 [horizontal gap 8] (hug/hug) → Article Status Badge [Type=Sponsored]
+- Type=Sponsored — component 226×149 [vertical gap 16] (fixed/hug)
+  - Bottom Border Line — line 226×0 (fill/fixed)
+  - Content Card — frame 226×133 [vertical gap 4] (fill/hug)
+    - Badge Container — frame 153×27 [horizontal gap 8] (hug/hug)
+      - Article Status Badge — instance 153×27 [horizontal gap 8] (hug/hug) → Article Status Badge [Type=Sponsored]
     - Headline Container — frame 226×60 [horizontal gap 8] (fill/hug)
       - Latest headlines Number Twelve: This one wraps to three lines. — text 226×60 (fill/hug) "Latest headlines Number Twelve: This one"
-    - Meta Container — frame 226×35 [vertical gap 8] (fill/hug)
-      - By Xcel Energy — text 226×15 (fixed/hug) "By Xcel Energy"
+    - Meta Container — frame 226×38 [vertical gap 8] (fill/hug)
+      - By Xcel Energy — text 226×18 (fixed/hug) "By Xcel Energy"
       - 90D7B78FD37C47F7A7A09F85AE8E804B 1 — rectangle 60×12 (fixed/fixed)
 ```
 
@@ -118,18 +118,18 @@ exported: 2026-09-24
 |---|---|---|---|---|---|---|
 | Type=First | 226×62 | FIXED | HUG | vertical gap 4 pad 0/0/0/0 main MIN cross MIN |  |  |
 | Type=Standard | 226×78 | FIXED | HUG | vertical gap 16 pad 0/0/0/0 main MIN cross MIN |  |  |
-| Type=Sponsored | 226×146 | FIXED | HUG | vertical gap 16 pad 0/0/0/0 main MIN cross MIN |  |  |
+| Type=Sponsored | 226×149 | FIXED | HUG | vertical gap 16 pad 0/0/0/0 main MIN cross MIN |  |  |
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Latest headlines Number ONE: This wraps to two lines. | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  | Latest headlines Number ONE: This wraps to two lin |
-| 56 mins ago | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  | 56 mins ago |
-| Latest headlines Number Seven: Wraps to two lines. | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  | Latest headlines Number Seven: Wraps to two lines. |
-| 57 mins ago | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  | 57 mins ago |
-| Latest headlines Number Twelve: This one wraps to three lines. | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  | Latest headlines Number Twelve: This one wraps to  |
-| By Xcel Energy | Droid Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  | By Xcel Energy |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Latest headlines Number ONE: This wraps to two lines. | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Latest headlines Number ONE: This wraps to two lin | Type=First |
+| 56 mins ago | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | 56 mins ago | Type=First |
+| Latest headlines Number Seven: Wraps to two lines. | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Latest headlines Number Seven: Wraps to two lines. | Type=Standard |
+| 57 mins ago | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | 57 mins ago | Type=Standard |
+| Latest headlines Number Twelve: This one wraps to three line | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Latest headlines Number Twelve: This one wraps to  | Type=Sponsored |
+| By Xcel Energy | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | By Xcel Energy | Type=Sponsored |
 
 ## Color & effects
 
@@ -137,9 +137,9 @@ exported: 2026-09-24
 |---|---|---|---|---|---|---|
 | Type=First | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Type=Standard | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Line 1 | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
+| Bottom Border Line | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
 | Type=Sponsored | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| 90D7B78FD37C47F7A7A09F85AE8E804B 1 | fill | IMAGE |  |  |  | IMAGE FILL |
+| Article Status Badge | fill | SOLID | #7D161E |  |  |  |
 
 ## Image ratios
 
@@ -155,7 +155,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- `Type=Sponsored`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Sans Regular ×1.
+_None detected._
 
 ## Rendering steps
 

@@ -1,0 +1,53 @@
+{
+ "TOP ZONE Block": {
+  "rules": [
+   "Desktop (checked against the preview): three columns. Left: Zone 1 lead card (headline + image side by side) over a 2×2 grid of TopZone cards. Middle: Latest Headlines rail with a sponsored item and newsletter signup. Right: a tall 300×1050 rail ad.",
+   "Tablet: lead card and image across the top, then a 2×2 group of horizontal thumbnail cards, then Latest Headlines full width, with a 300×250 cube ad at the bottom.",
+   "Mobile: one column. The lead card stacks headline → image → dek → related list, followed by four horizontal thumbnail cards, Latest Headlines, and a 300×250 cube ad."
+  ],
+  "issues": [
+   "The 1024 and 1100 HomePage templates use detached, resized copies ('TOP ZONE Block (Desktop, detached+resized for 1024…)' and 'TOP ZONE Block (detached, resized for 1100…)') instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
+  ]
+ },
+ "Section Rail Card": {
+  "rules": [
+   "Wide variants (checked against the previews): Section Title on top, then a lead story with image left and headline/dek right, plus a 3-item headline list in a right column.",
+   "Narrow variants: single column. Section Title, then a full-width image lead, then stacked 1Col Article Card headlines.",
+   "The 1024 and 1100 variants exist because production uses fixed landing-item widths at those breakpoints. Use them instead of scaling the Desktop variant."
+  ]
+ },
+ "Form Field": {
+  "rules": [
+   "Error state adds a red message line below the field, so the component gets taller. Leave vertical room for it in forms."
+  ]
+ },
+ "1Col Article Card": {
+  "rules": [
+   "Style=Standard: 4:3 image, CardQuaternary headline (Noto Sans 600 19/24 −0.665 via small-headline-family) and ExcerptCompact excerpt (15/19, small-headline-family) — production section-highlight lead cards (feature-medium.feature-large, 300×225 image at 1280).",
+   "Style=Media Lead: 16:9 image at every width (production crops the image to a 16:9 frame: 340×191 at 360, 580×326 at 1280), TitleMedia headline (Noto Serif 700 29/33 −1.16) and Excerpt excerpt (15/21) — the Photos lead (feature-media feature-large)."
+  ]
+ },
+ "Photos Block": {
+  "rules": [
+   "The lead story is a `1Col Article Card` Style=Media Lead instance (16:9 image, 29/33 headline) at every breakpoint; the list is `Horizontal Thumbnail Card` (90×51 thumbnails, Noto Sans 600 15/19 HeadlineList titles)."
+  ],
+  "issues": [
+   "The 1024, 1100 and 1280 HomePage templates use detached, resized copies ('Photos Block Content (Tablet, detached, resized to 585 — internal ad removed…)'; their lead cards are 1Col Article Card Style=Media Lead instances) instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
+  ]
+ },
+ "Blueconic Block (Most Popular)": {
+  "issues": [
+   "The 1024, 1100 and 1280 HomePage templates use detached, resized copies ('Blueconic Block Content (Tablet, detached, resized to 585…)') instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
+  ]
+ },
+ "Horizontal Thumbnail Card": {
+  "issues": [
+   "The 1024, 1100 and 1280 HomePage templates use detached, resized copies (18 'Horizontal Thumbnail Card (…, Photos secondary list, detached — resized…)' layers inside the detached Photos content) instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
+  ]
+ },
+ "Latest Headlines": {
+  "issues": [
+   "At 1024 and 1100 Latest Headlines sits inside the detached TOP ZONE copies, so those breakpoints are not counted above."
+  ]
+ }
+}

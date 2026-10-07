@@ -12,7 +12,7 @@ built_from: ["SectionMenu", "AccountMenu", "Weather Bug", "Ad Blocks", "tornado"
 built_into: []
 spec_json: masthead.json
 skeleton: masthead.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Masthead
@@ -26,12 +26,12 @@ exported: 2026-09-24
 
 | Variant | Node | Key | Size | Preview |
 |---|---|---|---|---|
-| Device=XL-Desktop (≥1040px), State=Default, Page=Home | [456:2573](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-2573) | ed800047f100d0f1903d69ab85541bf3f0a15aec | 1040×497 | ![Device=XL-Desktop (≥1040px), State=Default, Page=Home](previews/masthead--xl-desktop-1040px-default-home.png) |
-| Device=XL-Desktop (≥1040px), State=AdFree, Page=Home | [819:1845](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=819-1845) | 3041d5a4a7262637b97b2a9a37abedd915d54516 | 1040×215 | ![Device=XL-Desktop (≥1040px), State=AdFree, Page=Home](previews/masthead--xl-desktop-1040px-adfree-home.png) |
-| Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront | [456:2653](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-2653) | 5da3a1e6f7ba080a072e1a209369b5b8a988b336 | 1040×497 | ![Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront](previews/masthead--xl-desktop-1040px-default-sectionfront.png) |
-| Device=XL-Desktop (≥1040px), State=Default, Page=Article | [824:4526](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=824-4526) | 8748e995923253cf562eb3fa7056452b8adaacfc | 1040×497 | ![Device=XL-Desktop (≥1040px), State=Default, Page=Article](previews/masthead--xl-desktop-1040px-default-article.png) |
-| Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront | [822:3434](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=822-3434) | 9d6f0d988b3c1ec18609cf84a78b6fb6a46ed1fa | 1040×215 | ![Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront](previews/masthead--xl-desktop-1040px-adfree-sectionfront.png) |
-| Device=XL-Desktop (≥1040px), State=AdFree, Page=Article | [824:4625](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=824-4625) | 4e82559397c81ae40d15d905fa4800bc77495ab0 | 1040×215 | ![Device=XL-Desktop (≥1040px), State=AdFree, Page=Article](previews/masthead--xl-desktop-1040px-adfree-article.png) |
+| Device=XL-Desktop (≥1040px), State=Default, Page=Home | [456:2573](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-2573) | ed800047f100d0f1903d69ab85541bf3f0a15aec | 1040×500 | ![Device=XL-Desktop (≥1040px), State=Default, Page=Home](previews/masthead--xl-desktop-1040px-default-home.png) |
+| Device=XL-Desktop (≥1040px), State=AdFree, Page=Home | [819:1845](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=819-1845) | 3041d5a4a7262637b97b2a9a37abedd915d54516 | 1040×218 | ![Device=XL-Desktop (≥1040px), State=AdFree, Page=Home](previews/masthead--xl-desktop-1040px-adfree-home.png) |
+| Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront | [456:2653](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-2653) | 5da3a1e6f7ba080a072e1a209369b5b8a988b336 | 1040×500 | ![Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront](previews/masthead--xl-desktop-1040px-default-sectionfront.png) |
+| Device=XL-Desktop (≥1040px), State=Default, Page=Article | [824:4526](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=824-4526) | 8748e995923253cf562eb3fa7056452b8adaacfc | 1040×500 | ![Device=XL-Desktop (≥1040px), State=Default, Page=Article](previews/masthead--xl-desktop-1040px-default-article.png) |
+| Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront | [822:3434](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=822-3434) | 9d6f0d988b3c1ec18609cf84a78b6fb6a46ed1fa | 1040×218 | ![Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront](previews/masthead--xl-desktop-1040px-adfree-sectionfront.png) |
+| Device=XL-Desktop (≥1040px), State=AdFree, Page=Article | [824:4625](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=824-4625) | 4e82559397c81ae40d15d905fa4800bc77495ab0 | 1040×218 | ![Device=XL-Desktop (≥1040px), State=AdFree, Page=Article](previews/masthead--xl-desktop-1040px-adfree-article.png) |
 | Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard | [456:2715](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-2715) | 79dc19ad9a2a8bcbac61d6408bb57560097a2541 | 1280×144 | ![Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard](previews/masthead--xl-desktop-1040px-default-dashboard.png) |
 | Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home | [456:2776](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=456-2776) | d7fda157cb00e9f0f8ff3e42125c2e1a94b25319 | 1040×64 | ![Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home](previews/masthead--xl-desktop-1040px-scrolled-home.png) |
 | Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront | [822:3585](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=822-3585) | 74cac7419baf9566c232c40e1473e1d7f81cf25f | 1040×64 | ![Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront](previews/masthead--xl-desktop-1040px-scrolled-sectionfront.png) |
@@ -113,80 +113,80 @@ exported: 2026-09-24
 ## Where it is used
 
 - **Device=XL-Desktop (≥1040px), State=Default, Page=Home** — breakpoints: 1100, 1280; templates (direct): Desktop HomePage ×1, 1100 HomePage ×1; other pages: Menus and Parts ▸ Frame 12800 ×6
-- **Device=XL-Desktop (≥1040px), State=AdFree, Page=Home** — breakpoints: 1100, 1280; no instances found
+- **Device=XL-Desktop (≥1040px), State=AdFree, Page=Home** — breakpoints: 1100, 1280; no instances in this file
 - **Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront** — breakpoints: 1100, 1280; other pages: Article Page ▸ Frame 11672 ×2, Section Front ▸ Frame 11639 ×1
-- **Device=XL-Desktop (≥1040px), State=Default, Page=Article** — breakpoints: 1100, 1280; no instances found
-- **Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront** — breakpoints: 1100, 1280; no instances found
-- **Device=XL-Desktop (≥1040px), State=AdFree, Page=Article** — breakpoints: 1100, 1280; no instances found
+- **Device=XL-Desktop (≥1040px), State=Default, Page=Article** — breakpoints: 1100, 1280; no instances in this file
+- **Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront** — breakpoints: 1100, 1280; no instances in this file
+- **Device=XL-Desktop (≥1040px), State=AdFree, Page=Article** — breakpoints: 1100, 1280; no instances in this file
 - **Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard** — breakpoints: 1100, 1280; other pages: Menus and Parts ▸ Frame 12800 ×7
-- **Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home** — breakpoints: 1100, 1280; no instances found
-- **Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront** — breakpoints: 1100, 1280; no instances found
-- **Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article** — breakpoints: 1100, 1280; no instances found
-- **Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard** — breakpoints: 1100, 1280; no instances found
-- **Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries** — breakpoints: 1100, 1280; no instances found
-- **Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries** — breakpoints: 1100, 1280; no instances found
-- **Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries** — breakpoints: 1100, 1280; no instances found
+- **Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home** — breakpoints: 1100, 1280; no instances in this file
+- **Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront** — breakpoints: 1100, 1280; no instances in this file
+- **Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article** — breakpoints: 1100, 1280; no instances in this file
+- **Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard** — breakpoints: 1100, 1280; no instances in this file
+- **Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries** — breakpoints: 1100, 1280; no instances in this file
+- **Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries** — breakpoints: 1100, 1280; no instances in this file
+- **Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries** — breakpoints: 1100, 1280; no instances in this file
 - **Device=LG-TabletH (800–1039px), State=Default, Page=Home** — breakpoints: 1024; templates (direct): 1024 HomePage ×1
-- **Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront** — breakpoints: 1024; no instances found
-- **Device=LG-TabletH (800–1039px), State=Default, Page=Article** — breakpoints: 1024; no instances found
-- **Device=MD-TabletV (640–799px), State=Scrolled, Page=Article** — breakpoints: 768; no instances found
+- **Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront** — breakpoints: 1024; no instances in this file
+- **Device=LG-TabletH (800–1039px), State=Default, Page=Article** — breakpoints: 1024; no instances in this file
+- **Device=MD-TabletV (640–799px), State=Scrolled, Page=Article** — breakpoints: 768; no instances in this file
 - **Device=LG-TabletH (800–1039px), State=Default, Page=Dashboard** — breakpoints: 1024; other pages: Menus and Parts ▸ Frame 12800 ×6
-- **Device=LG-TabletH (800–1039px), State=Scrolled, Page=Home** — breakpoints: 1024; no instances found
-- **Device=LG-TabletH (800–1039px), State=AdFree, Page=Home** — breakpoints: 1024; no instances found
-- **Device=LG-TabletH (800–1039px), State=AdFree, Page=SectionFront** — breakpoints: 1024; no instances found
-- **Device=LG-TabletH (800–1039px), State=AdFree, Page=Article** — breakpoints: 1024; no instances found
-- **Device=LG-TabletH (800–1039px), State=Scrolled, Page=Dashboard** — breakpoints: 1024; no instances found
-- **Device=LG-TabletH (800–1039px), State=Scrolled, Page=SectionFront** — breakpoints: 1024; no instances found
-- **Device=LG-TabletH (800–1039px), State=Scrolled, Page=Article** — breakpoints: 1024; no instances found
+- **Device=LG-TabletH (800–1039px), State=Scrolled, Page=Home** — breakpoints: 1024; no instances in this file
+- **Device=LG-TabletH (800–1039px), State=AdFree, Page=Home** — breakpoints: 1024; no instances in this file
+- **Device=LG-TabletH (800–1039px), State=AdFree, Page=SectionFront** — breakpoints: 1024; no instances in this file
+- **Device=LG-TabletH (800–1039px), State=AdFree, Page=Article** — breakpoints: 1024; no instances in this file
+- **Device=LG-TabletH (800–1039px), State=Scrolled, Page=Dashboard** — breakpoints: 1024; no instances in this file
+- **Device=LG-TabletH (800–1039px), State=Scrolled, Page=SectionFront** — breakpoints: 1024; no instances in this file
+- **Device=LG-TabletH (800–1039px), State=Scrolled, Page=Article** — breakpoints: 1024; no instances in this file
 - **Device=MD-TabletV (640–799px), State=Default, Page=Home** — breakpoints: 768; templates (direct): 768 HomePage ×1; other pages: Menus and Parts ▸ Frame 12800 ×8
-- **Device=MD-TabletV (640–799px), State=AdFree, Page=Home** — breakpoints: 768; no instances found
-- **Device=MD-TabletV (640–799px), State=AdFree, Page=SectionFront** — breakpoints: 768; no instances found
-- **Device=MD-TabletV (640–799px), State=AdFree, Page=Article** — breakpoints: 768; no instances found
-- **Device=MD-TabletV (640–799px), State=Default, Page=SectionFront** — breakpoints: 768; no instances found
-- **Device=MD-TabletV (640–799px), State=Default, Page=Article** — breakpoints: 768; no instances found
-- **Device=MD-TabletV (640–799px), State=Scrolled, Page=Home** — breakpoints: 768; no instances found
-- **Device=MD-TabletV (640–799px), State=Scrolled, Page=SectionFront** — breakpoints: 768; no instances found
+- **Device=MD-TabletV (640–799px), State=AdFree, Page=Home** — breakpoints: 768; no instances in this file
+- **Device=MD-TabletV (640–799px), State=AdFree, Page=SectionFront** — breakpoints: 768; no instances in this file
+- **Device=MD-TabletV (640–799px), State=AdFree, Page=Article** — breakpoints: 768; no instances in this file
+- **Device=MD-TabletV (640–799px), State=Default, Page=SectionFront** — breakpoints: 768; no instances in this file
+- **Device=MD-TabletV (640–799px), State=Default, Page=Article** — breakpoints: 768; no instances in this file
+- **Device=MD-TabletV (640–799px), State=Scrolled, Page=Home** — breakpoints: 768; no instances in this file
+- **Device=MD-TabletV (640–799px), State=Scrolled, Page=SectionFront** — breakpoints: 768; no instances in this file
 - **Device=MD-TabletV (640–799px), State=Default, Page=Dashboard** — breakpoints: 768; other pages: Menus and Parts ▸ Frame 12800 ×8
-- **Device=MD-TabletV (640–799px), State=Scrolled, Page=Dashboard** — breakpoints: 768; no instances found
+- **Device=MD-TabletV (640–799px), State=Scrolled, Page=Dashboard** — breakpoints: 768; no instances in this file
 - **Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Home** — breakpoints: 360; templates (direct): Mobile HomePage ×1; other pages: Menus and Parts ▸ Frame 12800 ×8, Article Page ▸ Frame 11672 ×2
-- **Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Home** — breakpoints: 360; no instances found
+- **Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Home** — breakpoints: 360; no instances in this file
 - **Device=XS-Fold (≤639px · built 340px), State=Default, Page=Home** — breakpoints: 340; templates (direct): 340 HomePage ×1
-- **Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Home** — breakpoints: 340; no instances found
-- **Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=SectionFront** — breakpoints: 340; no instances found
-- **Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Article** — breakpoints: 340; no instances found
+- **Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Home** — breakpoints: 340; no instances in this file
+- **Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=SectionFront** — breakpoints: 340; no instances in this file
+- **Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Article** — breakpoints: 340; no instances in this file
 - **Device=SM-Mobile (≤639px · built 360px), State=Default, Page=SectionFront** — breakpoints: 360; other pages: Section Front ▸ Frame 11639 ×1
-- **Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Article** — breakpoints: 360; no instances found
-- **Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=SectionFront** — breakpoints: 360; no instances found
-- **Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Article** — breakpoints: 360; no instances found
-- **Device=XS-Fold (≤639px · built 340px), State=Default, Page=SectionFront** — breakpoints: 340; no instances found
-- **Device=XS-Fold (≤639px · built 340px), State=Default, Page=Article** — breakpoints: 340; no instances found
-- **Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Home** — breakpoints: 360; no instances found
-- **Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=SectionFront** — breakpoints: 360; no instances found
-- **Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Home** — breakpoints: 340; no instances found
-- **Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=SectionFront** — breakpoints: 340; no instances found
-- **Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Article** — breakpoints: 360; no instances found
-- **Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Article** — breakpoints: 340; no instances found
+- **Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Article** — breakpoints: 360; no instances in this file
+- **Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=SectionFront** — breakpoints: 360; no instances in this file
+- **Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Article** — breakpoints: 360; no instances in this file
+- **Device=XS-Fold (≤639px · built 340px), State=Default, Page=SectionFront** — breakpoints: 340; no instances in this file
+- **Device=XS-Fold (≤639px · built 340px), State=Default, Page=Article** — breakpoints: 340; no instances in this file
+- **Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Home** — breakpoints: 360; no instances in this file
+- **Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=SectionFront** — breakpoints: 360; no instances in this file
+- **Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Home** — breakpoints: 340; no instances in this file
+- **Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=SectionFront** — breakpoints: 340; no instances in this file
+- **Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Article** — breakpoints: 360; no instances in this file
+- **Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Article** — breakpoints: 340; no instances in this file
 - **Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Dashboard** — breakpoints: 360; other pages: Menus and Parts ▸ Frame 12800 ×12
-- **Device=XS-Fold (≤639px · built 340px), State=Default, Page=Dashboard** — breakpoints: 340; no instances found
-- **Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Dashboard** — breakpoints: 360; no instances found
-- **Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Dashboard** — breakpoints: 340; no instances found
-- **Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries** — breakpoints: 360; no instances found
-- **Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries** — breakpoints: 360; no instances found
-- **Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries** — breakpoints: 340; no instances found
-- **Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries** — breakpoints: 340; no instances found
-- **Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries** — breakpoints: 1024; no instances found
-- **Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries** — breakpoints: 1024; no instances found
-- **Device=MD-TabletV (640–799px), State=Default, Page=Obituaries** — breakpoints: 768; no instances found
-- **Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries** — breakpoints: 768; no instances found
-- **Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Obituaries** — breakpoints: 360; no instances found
-- **Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Obituaries** — breakpoints: 340; no instances found
-- **Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituaries** — breakpoints: 768; no instances found
-- **Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries** — breakpoints: 1024; no instances found
-- **Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obituaries** — breakpoints: 1100, 1280; no instances found
-- **Device=SM-Mobile (≤639px · built 360px), State=AdFree-Scrolled, Page=Obituaries** — breakpoints: 360; no instances found
-- **Device=XS-Fold (≤639px · built 340px), State=AdFree-Scrolled, Page=Obituaries** — breakpoints: 340; no instances found
-- **Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=Obituaries** — breakpoints: 768; no instances found
-- **Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries** — breakpoints: 1024; no instances found
+- **Device=XS-Fold (≤639px · built 340px), State=Default, Page=Dashboard** — breakpoints: 340; no instances in this file
+- **Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Dashboard** — breakpoints: 360; no instances in this file
+- **Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Dashboard** — breakpoints: 340; no instances in this file
+- **Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries** — breakpoints: 360; no instances in this file
+- **Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries** — breakpoints: 360; no instances in this file
+- **Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries** — breakpoints: 340; no instances in this file
+- **Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries** — breakpoints: 340; no instances in this file
+- **Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries** — breakpoints: 1024; no instances in this file
+- **Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries** — breakpoints: 1024; no instances in this file
+- **Device=MD-TabletV (640–799px), State=Default, Page=Obituaries** — breakpoints: 768; no instances in this file
+- **Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries** — breakpoints: 768; no instances in this file
+- **Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Obituaries** — breakpoints: 360; no instances in this file
+- **Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Obituaries** — breakpoints: 340; no instances in this file
+- **Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituaries** — breakpoints: 768; no instances in this file
+- **Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries** — breakpoints: 1024; no instances in this file
+- **Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obituaries** — breakpoints: 1100, 1280; no instances in this file
+- **Device=SM-Mobile (≤639px · built 360px), State=AdFree-Scrolled, Page=Obituaries** — breakpoints: 360; no instances in this file
+- **Device=XS-Fold (≤639px · built 340px), State=AdFree-Scrolled, Page=Obituaries** — breakpoints: 340; no instances in this file
+- **Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=Obituaries** — breakpoints: 768; no instances in this file
+- **Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries** — breakpoints: 1024; no instances in this file
 
 ## Breakpoints
 
@@ -201,12 +201,12 @@ exported: 2026-09-24
 
 ## Responsive rules
 
-- Device=XL-Desktop (≥1040px), State=Default, Page=Home: 1040×497, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
-- Device=XL-Desktop (≥1040px), State=AdFree, Page=Home: 1040×215, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
-- Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront: 1040×497, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
-- Device=XL-Desktop (≥1040px), State=Default, Page=Article: 1040×497, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
-- Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront: 1040×215, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
-- Device=XL-Desktop (≥1040px), State=AdFree, Page=Article: 1040×215, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
+- Device=XL-Desktop (≥1040px), State=Default, Page=Home: 1040×500, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
+- Device=XL-Desktop (≥1040px), State=AdFree, Page=Home: 1040×218, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
+- Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront: 1040×500, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
+- Device=XL-Desktop (≥1040px), State=Default, Page=Article: 1040×500, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
+- Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront: 1040×218, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
+- Device=XL-Desktop (≥1040px), State=AdFree, Page=Article: 1040×218, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
 - Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard: 1280×144, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
 - Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home: 1040×64, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
 - Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront: 1040×64, vertical gap 8 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280
@@ -281,43 +281,38 @@ exported: 2026-09-24
 
 **Built from:**
 
-- [SectionMenu](../34-sectionmenu/sectionmenu.md) ×75
-- AccountMenu ×75 _(not in this export)_
-- [Weather Bug](../../components/25-weather-bug/weather-bug.md) ×10
-- Ad Blocks ×38 _(not in this export)_
+- [SectionMenu](../34-sectionmenu/sectionmenu.md) ×1
+- AccountMenu ×1 _(not in this export)_
+- [Weather Bug](../../components/25-weather-bug/weather-bug.md) ×2
+- Ad Blocks ×2 _(not in this export)_
 - tornado ×1 _(not in this export)_
 - SocialButtons ×1 _(not in this export)_
-- Icons ×48 _(not in this export)_
-- NavMenu ×6 _(not in this export)_
+- Icons ×4 _(not in this export)_
+- NavMenu ×1 _(not in this export)_
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
 **Device=XL-Desktop (≥1040px), State=Default, Page=Home**
 
 ```
-- Device=XL-Desktop (≥1040px), State=Default, Page=Home — component 1040×497 [vertical gap 0] (fixed/hug)
-  - Masthead Container — frame 1040×497 [vertical gap 0] (fill/hug)
+- Device=XL-Desktop (≥1040px), State=Default, Page=Home — component 1040×500 [vertical gap 0] (fixed/hug)
+  - Masthead Container — frame 1040×500 [vertical gap 0] (fill/hug)
     - Menus Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
       - SectionMenu — instance 300×64 [vertical gap 0] (hug/hug) → SectionMenu [View=Closed, Device=XL-Desktop, UserType=all]
       - Logo — frame 440×64 [vertical gap 8] (fill/fill)
-        - … 1 children
       - AccountMenu Container — frame 300×64 [horizontal gap 16] (fixed/fixed)
-        - … 1 children
     - Weather Ad Row — frame 1040×64 [horizontal gap 14] (fill/fixed)
-      - Weather Bug — instance 336×37 [horizontal gap 12] (hug/hug) → Weather Bug [Location=Masthead]
-      - Logo — frame 304×48 [vertical gap 8] (fill/hug)
-        - … 1 children
+      - Weather Bug — instance 345×42 [horizontal gap 12] (hug/hug) → Weather Bug [Location=Masthead]
+      - Logo — frame 295×48 [vertical gap 8] (fill/hug)
       - Ad Blocks — instance 320×50 [vertical gap 8] (fixed/fixed) → Ad Blocks [Device=All, Name=Sponsorship 1 320x50]
-    - Top Nav Container — frame 1040×87 [vertical gap 0] (fill/hug)
-      - Top Nav — frame 1322×51 [horizontal gap 32] (hug/hug)
-        - … 11 children
-      - Line 1 — line 1040×0 (fill/fixed)
+    - Top Nav Container — frame 1040×90 [vertical gap 0] (fill/hug)
+      - Top Nav — frame 1357×54 [horizontal gap 32] (hug/hug)
+      - Divider — line 1040×0 (fill/fixed)
       - Trending — frame 1040×36 [horizontal gap 32] (fill/hug)
-        - … 5 children
     - Ad Container — frame 1040×282 [vertical gap 8] (fill/hug)
       - Ad Blocks — instance 970×250 [vertical gap 8] (fixed/fixed) → Ad Blocks [Device=Desktop, Name=Top Leaderboard 970x250]
 ```
@@ -325,45 +320,38 @@ exported: 2026-09-24
 **Device=XL-Desktop (≥1040px), State=AdFree, Page=Home**
 
 ```
-- Device=XL-Desktop (≥1040px), State=AdFree, Page=Home — component 1040×215 [vertical gap 0] (fixed/hug)
-  - Masthead Container — frame 1040×215 [vertical gap 0] (fill/hug)
+- Device=XL-Desktop (≥1040px), State=AdFree, Page=Home — component 1040×218 [vertical gap 0] (fixed/hug)
+  - Masthead Container — frame 1040×218 [vertical gap 0] (fill/hug)
     - Menus Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
       - SectionMenu — instance 300×64 [vertical gap 0] (hug/hug) → SectionMenu [View=Closed, Device=XL-Desktop, UserType=all]
       - Logo — frame 440×64 [vertical gap 8] (fill/fill)
-        - … 1 children
       - AccountMenu Container — frame 300×64 [horizontal gap 16] (fixed/fixed)
-        - … 1 children
     - Weather Ad Row — frame 1040×64 [horizontal gap 14] (fill/fixed)
-      - Weather Bug — instance 336×37 [horizontal gap 12] (hug/hug) → Weather Bug [Location=Masthead]
-      - Logo — frame 288×48 [vertical gap 8] (fill/hug)
-        - … 1 children
-      - Weather Bug — instance 336×37 [horizontal gap 12] (hug/hug) → Weather Bug [Location=Masthead]
-    - Top Nav Container — frame 1040×87 [vertical gap 0] (fill/hug)
-      - Top Nav — frame 1202×51 [horizontal gap 32] (fixed/hug)
-        - … 7 children
-      - Line 1 — line 1040×0 (fill/fixed)
+      - Weather Bug — instance 345×42 [horizontal gap 12] (hug/hug) → Weather Bug [Location=Masthead]
+      - Logo — frame 270×48 [vertical gap 8] (fill/hug)
+      - Weather Bug — instance 345×42 [horizontal gap 12] (hug/hug) → Weather Bug [Location=Masthead]
+    - Top Nav Container — frame 1040×90 [vertical gap 0] (fill/hug)
+      - Top Nav — frame 1202×54 [horizontal gap 32] (fixed/hug)
+      - Divider — line 1040×0 (fill/fixed)
       - Trending — frame 1040×36 [horizontal gap 32] (fill/hug)
-        - … 5 children
 ```
 
 **Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront**
 
 ```
-- Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront — component 1040×497 [vertical gap 0] (fixed/hug)
-  - Masthead Container — frame 1040×497 [vertical gap 0] (fill/hug)
+- Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront — component 1040×500 [vertical gap 0] (fixed/hug)
+  - Masthead Container — frame 1040×500 [vertical gap 0] (fill/hug)
     - MastheadTop — frame 1040×64 [vertical gap 8] (fill/hug)
       - Menus Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
-        - … 3 children
     - Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
-      - Weather Bug — instance 336×37 [horizontal gap 12] (hug/hug) → Weather Bug [Location=Masthead]
+      - Weather Bug — instance 345×42 [horizontal gap 12] (hug/hug) → Weather Bug [Location=Masthead]
       - Section Name — text 278×54 (hug/hug) "Section Name"
       - Ad Blocks — instance 320×50 [vertical gap 8] (fixed/fixed) → Ad Blocks [Device=All, Name=Sponsorship 1 320x50]
-    - Container — frame 1040×51 [vertical gap 0] (fill/hug)
-      - Menu — frame 1117×51 [horizontal gap 32] (hug/hug)
-        - … 11 children
-      - Line 1 — line 1040×0 (fill/fixed)
+    - Container — frame 1040×54 [vertical gap 0] (fill/hug)
+      - Menu — frame 1145×54 [horizontal gap 32] (hug/hug)
+      - Divider — line 1040×0 (fill/fixed)
     - Trending — frame 1040×36 [horizontal gap 32] (fill/hug)
-      - Trending Label — text 76×16 (hug/hug) "Trending:"
+      - Trending Label — text 78×19 (hug/hug) "Trending:"
       - Trending Item — text 261×20 (hug/hug) "Dragon sightings near Fakeville shire"
       - Trending Item — text 139×20 (hug/hug) "Pseudonyms up 3-1"
       - Trending Item — text 185×20 (hug/hug) "Fire Storms in the forecast"
@@ -372,18 +360,188 @@ exported: 2026-09-24
       - Ad Blocks — instance 970×250 [vertical gap 8] (fixed/fixed) → Ad Blocks [Device=Desktop, Name=Top Leaderboard 970x250]
 ```
 
-_72 more variants — full layer trees are in `masthead.json` → `variants[].layerTree`._
+**Device=XL-Desktop (≥1040px), State=Default, Page=Article**
+
+```
+- Device=XL-Desktop (≥1040px), State=Default, Page=Article — component 1040×500 [vertical gap 0] (fixed/hug)
+  - Masthead Container — frame 1040×500 [vertical gap 0] (fill/hug)
+    - MastheadTop — frame 1040×64 [vertical gap 8] (fill/hug)
+      - Menus Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
+    - Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
+      - Weather Bug — instance 345×42 [horizontal gap 12] (hug/hug) → Weather Bug [Location=Masthead]
+      - Section Name — text 278×54 (hug/hug) "Section Name"
+      - Ad Blocks — instance 320×50 [vertical gap 8] (fixed/fixed) → Ad Blocks [Device=All, Name=Sponsorship 1 320x50]
+    - Container — frame 1040×54 [vertical gap 0] (fill/hug)
+      - Container — frame 1357×54 [horizontal gap 32] (hug/hug)
+      - Divider — line 1040×0 (fill/fixed)
+    - Trending — frame 1040×36 [horizontal gap 32] (fill/hug)
+      - Trending — text 78×19 (hug/hug) "Trending:"
+      - Dragon sightings near Fakeville shire — text 261×20 (hug/hug) "Dragon sightings near Fakeville shire"
+      - Pseudonyms up 3-1 — text 139×20 (hug/hug) "Pseudonyms up 3-1"
+      - Fire Storms in the forecast — text 185×20 (hug/hug) "Fire Storms in the forecast"
+      - New Castle Complex Building Stalled — text 258×20 (hug/hug) "New Castle Complex Building Stalled"
+    - Container — frame 1040×282 [vertical gap 8] (fill/hug)
+      - Ad Blocks — instance 970×250 [vertical gap 8] (fixed/fixed) → Ad Blocks [Device=Desktop, Name=Top Leaderboard 970x250]
+```
+
+**Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront**
+
+```
+- Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront — component 1040×218 [vertical gap 0] (fixed/hug)
+  - Masthead Container — frame 1040×218 [vertical gap 0] (fill/hug)
+    - MastheadTop — frame 1040×64 [vertical gap 8] (fill/hug)
+      - Menus Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
+    - Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
+      - Weather Bug — instance 345×42 [horizontal gap 12] (hug/hug) → Weather Bug [Location=Masthead]
+      - Section Title — text 278×54 (hug/hug) "Section Name"
+      - Weather Bug — instance 333×42 [horizontal gap 12] (fixed/hug) → Weather Bug [Location=Masthead]
+    - Container — frame 1040×54 [vertical gap 0] (fill/hug)
+      - Menu — frame 1202×54 [horizontal gap 32] (fixed/hug)
+      - Divider — line 1040×0 (fill/fixed)
+    - Trending — frame 1040×36 [horizontal gap 32] (fill/hug)
+      - Trending Label — text 78×19 (hug/hug) "Trending:"
+      - Trending Item — text 261×20 (hug/hug) "Dragon sightings near Fakeville shire"
+      - Trending Item — text 139×20 (hug/hug) "Pseudonyms up 3-1"
+      - Trending Item — text 185×20 (hug/hug) "Fire Storms in the forecast"
+      - Trending Item — text 258×20 (hug/hug) "New Castle Complex Building Stalled"
+```
+
+**Device=XL-Desktop (≥1040px), State=AdFree, Page=Article**
+
+```
+- Device=XL-Desktop (≥1040px), State=AdFree, Page=Article — component 1040×218 [vertical gap 0] (fixed/hug)
+  - Masthead Container — frame 1040×218 [vertical gap 0] (fill/hug)
+    - MastheadTop — frame 1040×64 [vertical gap 8] (fill/hug)
+      - Menus Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
+    - Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
+      - Weather Bug — instance 345×42 [horizontal gap 12] (hug/hug) → Weather Bug [Location=Masthead]
+      - Section Name — text 278×54 (hug/hug) "Section Name"
+      - Weather Bug — instance 333×42 [horizontal gap 12] (fixed/hug) → Weather Bug [Location=Masthead]
+    - Container — frame 1040×54 [vertical gap 0] (fill/hug)
+      - Container — frame 1202×54 [horizontal gap 32] (fixed/hug)
+      - Divider — line 1040×0 (fill/fixed)
+    - Trending — frame 1040×36 [horizontal gap 32] (fill/hug)
+      - Trending Label — text 78×19 (hug/hug) "Trending:"
+      - Trending Item — text 261×20 (hug/hug) "Dragon sightings near Fakeville shire"
+      - Trending Item — text 139×20 (hug/hug) "Pseudonyms up 3-1"
+      - Trending Item — text 185×20 (hug/hug) "Fire Storms in the forecast"
+      - Trending Item — text 258×20 (hug/hug) "New Castle Complex Building Stalled"
+```
+
+**Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard**
+
+```
+- Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard — component 1280×144 [vertical gap 0] (fixed/hug)
+  - Masthead Container — frame 1280×144 [vertical gap 0] (fill/hug)
+    - MastheadTop — frame 1280×64 [vertical gap 8] (fill/hug)
+      - Menus Container — frame 1280×64 [horizontal gap 14] (fill/fixed)
+    - Container — frame 1280×80 [horizontal gap 14] (fill/fixed)
+      - Weather Bug — instance 345×42 [horizontal gap 12] (hug/hug) → Weather Bug [Location=Masthead]
+      - Container — group 235.2×48 (fixed/fixed)
+      - Weather and Date — frame 340×42 [horizontal gap 12] (hug/hug)
+    - Divider — line 1280×0 (fill/fixed)
+```
+
+**Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home**
+
+```
+- Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home — component 1040×64 [vertical gap 8] (fixed/hug)
+  - MastheadTop — frame 1040×64 [vertical gap 8] (fill/hug)
+    - Menus Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
+      - SectionMenu — instance 300×64 [vertical gap 0] (hug/hug) → SectionMenu [View=Closed, Device=XL-Desktop, UserType=all]
+      - Logo — frame 440×64 [vertical gap 8] (fill/fill)
+      - AccountMenu Container — frame 300×64 [horizontal gap 16] (fixed/fixed)
+```
+
+**Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront**
+
+```
+- Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront — component 1040×64 [vertical gap 8] (fixed/hug)
+  - MastheadTop — frame 1040×64 [vertical gap 8] (fill/hug)
+    - Menus Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
+      - SectionMenu — instance 300×64 [vertical gap 0] (hug/hug) → SectionMenu [View=Closed, Device=XL-Desktop, UserType=all]
+      - Logo — frame 440×64 [vertical gap 8] (fill/fill)
+      - AccountMenu Container — frame 300×64 [horizontal gap 16] (fixed/fixed)
+```
+
+**Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article**
+
+```
+- Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article — component 1040×64 [vertical gap 8] (fixed/hug)
+  - Masthead Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
+    - SectionMenu — instance 64×64 [vertical gap 0] (hug/hug) → SectionMenu [View=Closed, Device=SM-Mobile, UserType=all]
+    - Logo — group 176.4×36 (fixed/fixed)
+      - Vector — vector 9.3×11.8
+      - Vector — vector 8.6×8.4
+      - Vector — vector 9.5×8.3
+      - Vector — vector 7.1×8.3
+      - Vector — vector 9.1×8.5
+      - Vector — vector 3.8×8.3
+      - Vector — vector 7.1×8.3
+      - Vector — vector 7.1×8.3
+      - Vector — vector 7.1×8.3
+      - Vector — vector 25.1×24
+      - Vector — vector 16.8×16.9
+      - Vector — vector 8.4×16.6
+      - Vector — vector 14.9×16.6
+      - Vector — vector 16.9×16.6
+      - Vector — vector 26×23.9
+      - Vector — vector 15×16.6
+      - Vector — vector 23.9×16.9
+      - Vector — vector 11.8×17.2
+    - Section Title — text 463×22 (hug/hug) "Section Name | Roughly forty characters "
+    - Section Menu desktop — frame 300×64 [horizontal gap 16] (fixed/fixed) (hidden)
+      - AccountMenu — instance 261×64 [horizontal gap 8] (hug/fixed) → AccountMenu [Status=loggedOut, View=Closed, Device=XL-Desktop, UserType=loggedOut]
+    - SocialButtons — instance 328×40 [horizontal gap 8] (hug/hug) → SocialButtons [Theme=Bold Coastal]
+```
+
+**Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard**
+
+```
+- Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard — component 1280×64 [vertical gap 8] (fixed/hug)
+  - Masthead Container — frame 1280×64 [horizontal gap 14] (fill/fixed)
+    - SectionMenu — instance 300×64 [vertical gap 0] (hug/hug) → SectionMenu [View=Closed, Device=XL-Desktop, UserType=all]
+    - Logo — frame 680×64 [vertical gap 8] (fill/fill)
+      - Logo Vectors — group 235.2×48 (fixed/fixed)
+    - AccountMenu Container — frame 300×64 [horizontal gap 16] (fixed/fixed)
+      - AccountMenu — instance 104×64 [horizontal gap 8] (hug/fixed) → AccountMenu [Status=loggedIn, View=Closed, Device=XL-Desktop, UserType=loggedIn]
+```
+
+**Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries**
+
+```
+- Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries — component 1040×261 [vertical gap 8] (fixed/hug)
+  - Masthead Container — frame 1040×180 [vertical gap 14] (fill/hug)
+    - Menus Container — frame 1040×64 [horizontal gap 14] (fill/fixed)
+      - SectionMenu — instance 300×64 [vertical gap 0] (hug/hug) → SectionMenu [View=Closed, Device=XL-Desktop, UserType=all]
+      - Logo — frame 440×64 [vertical gap 8] (fill/fill)
+      - AccountMenu Container — frame 300×64 [horizontal gap 16] (fixed/fixed)
+    - Navigation — frame 1040×54 [horizontal gap 14] (fill/hug)
+      - Ad Blocks — instance 300×50 [vertical gap 8] (fixed/fixed) → Ad Blocks [Device=All, Name=Sponsorship 1 300x50]
+      - Title — text 216×54 (hug/hug) "Obituaries"
+      - Ad Blocks — instance 320×50 [vertical gap 8] (fixed/fixed) → Ad Blocks [Device=All, Name=Sponsorship 1 320x50]
+  - Obits Nav — frame 1040×73 [horizontal gap 16] (fill/fixed)
+    - Search Container — frame 368×57 [horizontal gap 16] (fill/fill)
+      - Search Field — frame 336×42 [horizontal gap 8] (fill/hug)
+    - ET Logo — frame 208×44 [horizontal gap 0] (hug/hug)
+      - Powered by — text 86×16 (hug/hug) "Powered by"
+      - Endless Tributes Logo — frame 122×44 [vertical gap 8] (hug/hug)
+    - button frame — frame 368×57 [vertical gap 8] (fill/fill)
+      - BUTTON — frame 304×38 [horizontal gap 8] (fill/hug)
+```
+
+_63 more variants — see `variants[].layerTree` in masthead.json._
 
 ## Size & layout
 
 | Variant | Size | Width | Height | Auto-layout | Radius | Clip |
 |---|---|---|---|---|---|---|
-| Device=XL-Desktop (≥1040px), State=Default, Page=Home | 1040×497 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
-| Device=XL-Desktop (≥1040px), State=AdFree, Page=Home | 1040×215 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
-| Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront | 1040×497 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
-| Device=XL-Desktop (≥1040px), State=Default, Page=Article | 1040×497 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
-| Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront | 1040×215 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
-| Device=XL-Desktop (≥1040px), State=AdFree, Page=Article | 1040×215 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
+| Device=XL-Desktop (≥1040px), State=Default, Page=Home | 1040×500 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
+| Device=XL-Desktop (≥1040px), State=AdFree, Page=Home | 1040×218 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
+| Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront | 1040×500 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
+| Device=XL-Desktop (≥1040px), State=Default, Page=Article | 1040×500 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
+| Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront | 1040×218 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
+| Device=XL-Desktop (≥1040px), State=AdFree, Page=Article | 1040×218 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
 | Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard | 1280×144 | FIXED | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
 | Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home | 1040×64 | FIXED | HUG | vertical gap 8 pad 0/0/0/0 main MIN cross MIN |  |  |
 | Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront | 1040×64 | FIXED | HUG | vertical gap 8 pad 0/0/0/0 main MIN cross MIN |  |  |
@@ -456,46 +614,46 @@ _72 more variants — full layer trees are in `masthead.json` → `variants[].la
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| News | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | News |
-| Fakeville Local | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Fakeville Local |
-| Sportsball | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Sportsball |
-| Stuff Happening | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Stuff Happening |
-| Obituaries | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Obituaries |
-| Sponsored Content | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Sponsored Content |
-| Public Notices | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Public Notices |
-| Business | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Business |
-| Politics | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Politics |
-| Entertainment | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Entertainment |
-| Suburbs | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Suburbs |
-| Trending Label | Droid Sans | Bold | 14 | auto |  | UPPER | #007580 | Colors/color/theme/primary |  | Trending: |
-| Trending Item | Noto Sans | Regular | 15 | auto |  |  | #141414 | Colors/color/gray/min |  | Dragon sightings near Fakeville shire |
-| Section Name | Noto Serif | Bold | 40 | auto |  | TITLE | #007580 | Colors/color/theme/primary |  | Section Name |
-| Menu Item | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Food & Drink |
-| Trending | Droid Sans | Bold | 14 | auto |  | UPPER | #007580 | Colors/color/theme/primary |  | Trending: |
-| Dragon sightings near Fakeville shire | Noto Sans | Regular | 15 | auto |  |  | #141414 | Colors/color/gray/min |  | Dragon sightings near Fakeville shire |
-| Pseudonyms up 3-1 | Noto Sans | Regular | 15 | auto |  |  | #141414 | Colors/color/gray/min |  | Pseudonyms up 3-1 |
-| Fire Storms in the forecast | Noto Sans | Regular | 15 | auto |  |  | #141414 | Colors/color/gray/min |  | Fire Storms in the forecast |
-| New Castle Complex Building Stalled | Noto Sans | Regular | 15 | auto |  |  | #141414 | Colors/color/gray/min |  | New Castle Complex Building Stalled |
-| Section Title | Noto Serif | Bold | 40 | auto |  | TITLE | #007580 | Colors/color/theme/primary |  | Section Name |
-| 87°F | Helvetica | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | 87°F |
-| Wednesday, September 25th 2022 | Droid Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Wednesday, September 25th 2022 |
-| Today’s E Edition | Droid Sans | Regular | 12 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Today’s E Edition |
-| Section Title | Noto Serif | Bold | 16 | auto |  |  | #0A5962 | Colors/color/theme/primary-dark |  | Section Name \| Roughly forty characters of the art |
-| Section Title | Noto Serif | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Section Name \| Roughly forty characters of the art |
-| Title | Noto Serif | Bold | 40 | auto |  | TITLE | #007580 | Colors/color/theme/primary |  | Obituaries |
-| Placeholder Text | Noto Sans | Regular | 16 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  | Search Obituaries by Name |
-| Powered by | Noto Sans | Regular | 12 | auto | 10% | UPPER | #141414 | Colors/color/gray/min |  | Powered by |
-| About | Noto Sans | Bold | 16 | auto |  |  | #FFFFFF | Colors/color/gray/max |  | Submit an Obituary |
-| Powered By Text | Noto Sans | Regular | 12 | auto | 10% | UPPER | #141414 | Colors/color/gray/min |  | Powered by |
-| Section Title | Noto Serif | Bold | 26 | auto |  | TITLE | #007580 | Colors/color/theme/primary |  | Obituaries |
-| About | Noto Sans | Regular | 14 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  | Search Obituaries by Name |
-| Powered By Text | Noto Sans | Regular | 12 | auto |  |  | #141414 | Colors/color/gray/min |  | Powered by |
-| Title | Noto Serif | Bold | 26 | auto |  | TITLE | #007580 | Colors/color/theme/primary |  | Obituaries |
-| About | Noto Sans | Regular | 16 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  | Search Obituaries by Name |
-| Subtitle | Noto Sans | Regular | 12 | auto | 10% | UPPER | #141414 | Colors/color/gray/min |  | Powered by |
-| Powered by Text | Noto Sans | Regular | 12 | auto | 10% | UPPER | #141414 | Colors/color/gray/min |  | Powered by |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| News | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | News | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=AdFree, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=Article, Device=XL-Desktop (≥1040px), State=AdFree, Page=Article |
+| Fakeville Local | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Fakeville Local | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=AdFree, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=Article, Device=XL-Desktop (≥1040px), State=AdFree, Page=Article |
+| Sportsball | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Sportsball | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=AdFree, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=Article, Device=XL-Desktop (≥1040px), State=AdFree, Page=Article |
+| Stuff Happening | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Stuff Happening | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=AdFree, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=Article, Device=XL-Desktop (≥1040px), State=AdFree, Page=Article |
+| Obituaries | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Obituaries | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=AdFree, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=Article, Device=XL-Desktop (≥1040px), State=AdFree, Page=Article |
+| Sponsored Content | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Sponsored Content | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=AdFree, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=Article, Device=XL-Desktop (≥1040px), State=AdFree, Page=Article |
+| Public Notices | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Public Notices | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=AdFree, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=Article, Device=XL-Desktop (≥1040px), State=AdFree, Page=Article |
+| Business | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Business | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=Article |
+| Politics | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Politics | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=Article |
+| Entertainment | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Entertainment | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=Article |
+| Suburbs | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Suburbs | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=Article |
+| Trending Label | Noto Sans | Bold | 14 | auto |  | UPPER | #007580 | Colors/color/theme/primary |  |  | Trending: | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=AdFree, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront, Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront, Device=XL-Desktop (≥1040px), State=AdFree, Page=Article |
+| Trending Item | Noto Sans | Regular | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Dragon sightings near Fakeville shire | Device=XL-Desktop (≥1040px), State=Default, Page=Home, Device=XL-Desktop (≥1040px), State=AdFree, Page=Home, Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront, Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront, Device=XL-Desktop (≥1040px), State=AdFree, Page=Article |
+| Section Name | Noto Serif | Bold | 40 | auto |  | TITLE | #007580 | Colors/color/theme/primary |  |  | Section Name | Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront, Device=XL-Desktop (≥1040px), State=Default, Page=Article, Device=XL-Desktop (≥1040px), State=AdFree, Page=Article |
+| Menu Item | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Food & Drink | Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront, Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront |
+| Trending | Noto Sans | Bold | 14 | auto |  | UPPER | #007580 | Colors/color/theme/primary |  |  | Trending: | Device=XL-Desktop (≥1040px), State=Default, Page=Article |
+| Dragon sightings near Fakeville shire | Noto Sans | Regular | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Dragon sightings near Fakeville shire | Device=XL-Desktop (≥1040px), State=Default, Page=Article |
+| Pseudonyms up 3-1 | Noto Sans | Regular | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Pseudonyms up 3-1 | Device=XL-Desktop (≥1040px), State=Default, Page=Article |
+| Fire Storms in the forecast | Noto Sans | Regular | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Fire Storms in the forecast | Device=XL-Desktop (≥1040px), State=Default, Page=Article |
+| New Castle Complex Building Stalled | Noto Sans | Regular | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | New Castle Complex Building Stalled | Device=XL-Desktop (≥1040px), State=Default, Page=Article |
+| Section Title | Noto Serif | Bold | 40 | auto |  | TITLE | #007580 | Colors/color/theme/primary |  |  | Section Name | Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront |
+| 87°F | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | 87°F | Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard |
+| Wednesday, September 25th 2022 | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Wednesday, September 25th 2022 | Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard |
+| Today’s E Edition | Noto Sans | Regular | 12 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Today’s E Edition | Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard |
+| Section Title | Noto Serif | Bold | 16 | auto |  |  | #0A5962 | Colors/color/theme/primary-dark |  |  | Section Name | Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article |
+| Section Title | Noto Serif | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  |  \| Roughly forty characters of the artic | Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article |
+| Title | Noto Serif | Bold | 40 | auto |  | TITLE | #007580 | Colors/color/theme/primary |  |  | Obituaries | Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries, Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries |
+| Placeholder Text | Noto Sans | Regular | 16 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | Search Obituaries by Name | Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries, Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries, Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries, Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obituaries |
+| Powered by | Noto Sans | Regular | 12 | auto | 10% | UPPER | #141414 | Colors/color/gray/min |  |  | Powered by | Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries, Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries, Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries, Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries, Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries, Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries |
+| About | Noto Sans | Bold | 16 | auto |  |  | #FFFFFF | Colors/color/gray/max |  |  | Submit an Obituary | Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries, Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries, Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries, Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries, Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries, Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries, Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries, Device=MD-TabletV (640–799px), State=Default, Page=Obituaries, Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries, Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Obituaries, Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituaries, Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries, Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obituaries, Device=SM-Mobile (≤639px · built 360px), State=AdFree-Scrolled, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=AdFree-Scrolled, Page=Obituaries, Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=Obituaries, Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries |
+| Powered By Text | Noto Sans | Regular | 12 | auto | 10% | UPPER | #141414 | Colors/color/gray/min |  |  | Powered by | Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries, Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries, Device=MD-TabletV (640–799px), State=Default, Page=Obituaries, Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries, Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obituaries |
+| Section Title | Noto Serif | Bold | 26 | auto |  | TITLE | #007580 | Colors/color/theme/primary |  |  | Obituaries | Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries, Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries |
+| About | Noto Sans | Regular | 14 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | Search Obituaries by Name | Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries, Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries, Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Obituaries, Device=SM-Mobile (≤639px · built 360px), State=AdFree-Scrolled, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=AdFree-Scrolled, Page=Obituaries |
+| Powered By Text | Noto Sans | Regular | 12 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Powered by | Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries, Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries, Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Obituaries, Device=SM-Mobile (≤639px · built 360px), State=AdFree-Scrolled, Page=Obituaries, Device=XS-Fold (≤639px · built 340px), State=AdFree-Scrolled, Page=Obituaries |
+| Title | Noto Serif | Bold | 26 | auto |  | TITLE | #007580 | Colors/color/theme/primary |  |  | Obituaries | Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries, Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries, Device=MD-TabletV (640–799px), State=Default, Page=Obituaries, Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries |
+| About | Noto Sans | Regular | 16 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | Search Obituaries by Name | Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries, Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries, Device=MD-TabletV (640–799px), State=Default, Page=Obituaries, Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries, Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituaries, Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries, Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=Obituaries, Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries |
+| Subtitle | Noto Sans | Regular | 12 | auto | 10% | UPPER | #141414 | Colors/color/gray/min |  |  | Powered by | Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries |
+| Powered by Text | Noto Sans | Regular | 12 | auto | 10% | UPPER | #141414 | Colors/color/gray/min |  |  | Powered by | Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituaries, Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries, Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=Obituaries, Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries |
 
 ## Color & effects
 
@@ -505,28 +663,27 @@ _72 more variants — full layer trees are in `masthead.json` → `variants[].la
 | Logo | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Vector | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
 | AccountMenu Container | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| AccountMenu | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Weather Ad Row | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Weather Bug | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Ad Blocks | fill | SOLID | #85FF9B |  |  |  |
+| Ad Blocks | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
 | Top Nav Container | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Top Nav | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Line 1 | stroke | SOLID | #838280 | Colors/color/gray/300 |  |  |
+| Divider | stroke | SOLID | #838280 | Colors/color/gray/300 |  |  |
 | Trending | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Ad Container | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Line 1 | stroke | SOLID | #A7A6A3 | Colors/color/gray/400 |  |  |
+| Divider | stroke | SOLID | #A7A6A3 | Colors/color/gray/400 |  |  |
 | Masthead Container | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | MastheadTop | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Frame 40 | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Weather and Date | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
+| Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFro | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Section Menu desktop | fill | SOLID | #FFFFFF | ⚠ unbound |  |  |
-| Section Menu desktop | stroke | SOLID | #000000 | ⚠ unbound |  |  |
+| Section Menu desktop | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Section Menu desktop | stroke | SOLID | #000000 | Colors/color/gray/black |  |  |
 | Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
 | Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
 | Search Container | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Search Field | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Search Field | stroke | SOLID | #838280 | Colors/color/gray/300 |  |  |
@@ -535,34 +692,29 @@ _72 more variants — full layer trees are in `masthead.json` → `variants[].la
 | button frame | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | BUTTON | fill | SOLID | #8D092D | Colors/color/theme/primary |  |  |
 | Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
 | Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Section Menu desktop | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Device=MD-TabletV (640–799px), State=Scrolled, Page=Article | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Masthead Container | effect | DROP_SHADOW | #000000 |  | 0.25 | x0 y3 blur3 spread0 |
-| Device=LG-TabletH (800–1039px), State=Scrolled, Page=Home | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=LG-TabletH (800–1039px), State=Scrolled, Page=Dashboard | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=LG-TabletH (800–1039px), State=Scrolled, Page=SectionFront | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=LG-TabletH (800–1039px), State=Scrolled, Page=Article | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=MD-TabletV (640–799px), State=Scrolled, Page=Home | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=MD-TabletV (640–799px), State=Scrolled, Page=SectionFront | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
 | Masthead Container | stroke | SOLID | #838280 | Colors/color/gray/300 |  |  |
 | Section Menu | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Device=MD-TabletV (640–799px), State=Scrolled, Page=Dashboard | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Home | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=SectionFront | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Home | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=SectionFront | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Article | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Article | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
+| NavMenu | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| NavMenu | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
 | Page Title | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Dashboard | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-| Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Dashboard | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
 | Subtitle | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries | effect | DROP_SHADOW | #000000 |  | 0.25 | x6 y8 blur16 spread0 |
-
-_32 more rows in JSON._
+| Section Title Row | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| button frame | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
+| Search Field | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
+| BUTTON | fill | SOLID | #8D092D | Colors/color/tributes/primary |  |  |
+| Device=LG-TabletH (800–1039px), State=Default, Page=Obituari | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Search Field Wrapper | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituarie | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Container | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Device=MD-TabletV (640–799px), State=Default, Page=Obituarie | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Search Row | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituari | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituar | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obi | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=O | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page= | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 
 ## Image ratios
 
@@ -570,46 +722,62 @@ _None._
 
 ## Ad slots
 
-| Variant | Layer | Unit | Device | Size |
-|---|---|---|---|---|
-| Device=XL-Desktop (≥1040px), State=Default, Page=Home | Ad Blocks | Sponsorship 1 320x50 | All | 320×50 |
-| Device=XL-Desktop (≥1040px), State=Default, Page=Home | Ad Blocks | Top Leaderboard 970x250 | Desktop | 970×250 |
-| Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront | Ad Blocks | Sponsorship 1 320x50 | All | 320×50 |
-| Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront | Ad Blocks | Top Leaderboard 970x250 | Desktop | 970×250 |
-| Device=XL-Desktop (≥1040px), State=Default, Page=Article | Ad Blocks | Sponsorship 1 320x50 | All | 320×50 |
-| Device=XL-Desktop (≥1040px), State=Default, Page=Article | Ad Blocks | Top Leaderboard 970x250 | Desktop | 970×250 |
-| Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 320x50 | All | 320×50 |
-| Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=LG-TabletH (800–1039px), State=Default, Page=Home | Ad Blocks | Top Leaderboard 970x250 | Desktop | 970×250 |
-| Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront | Ad Blocks | Top Leaderboard 970x250 | Desktop | 970×250 |
-| Device=LG-TabletH (800–1039px), State=Default, Page=Article | Ad Blocks | Top Leaderboard 970x250 | Desktop | 970×250 |
-| Device=MD-TabletV (640–799px), State=Default, Page=Home | Ad Blocks | Top Leaderboard 728x90 | All | 728×90 |
-| Device=MD-TabletV (640–799px), State=Default, Page=SectionFront | Ad Blocks | Top Leaderboard 728x90 | All | 728×90 |
-| Device=MD-TabletV (640–799px), State=Default, Page=Article | Ad Blocks | Top Leaderboard 728x90 | All | 728×90 |
-| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Home | Ad Blocks | Top Leaderboard 320x50 | Mobile | 320×50 |
-| Device=XS-Fold (≤639px · built 340px), State=Default, Page=Home | Ad Blocks | Top Leaderboard 320x100 | Mobile | 320×100 |
-| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=SectionFront | Ad Blocks | Top Leaderboard 320x50 | Mobile | 320×50 |
-| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Article | Ad Blocks | Top Leaderboard 320x50 | Mobile | 320×50 |
-| Device=XS-Fold (≤639px · built 340px), State=Default, Page=SectionFront | Ad Blocks | Top Leaderboard 320x100 | Mobile | 320×100 |
-| Device=XS-Fold (≤639px · built 340px), State=Default, Page=Article | Ad Blocks | Top Leaderboard 320x100 | Mobile | 320×100 |
-| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=MD-TabletV (640–799px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=MD-TabletV (640–799px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
-| Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | All | 300×50 |
+| Variant | Layer | Unit | Size |
+|---|---|---|---|
+| Device=XL-Desktop (≥1040px), State=Default, Page=Home | Weather Ad Row |  | 1040×64 |
+| Device=XL-Desktop (≥1040px), State=Default, Page=Home | Ad Blocks | Sponsorship 1 320x50 | 320×50 |
+| Device=XL-Desktop (≥1040px), State=Default, Page=Home | Ad Container |  | 1040×282 |
+| Device=XL-Desktop (≥1040px), State=Default, Page=Home | Ad Blocks | Top Leaderboard 970x250 | 970×250 |
+| Device=XL-Desktop (≥1040px), State=AdFree, Page=Home | Weather Ad Row |  | 1040×64 |
+| Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront | Ad Blocks | Sponsorship 1 320x50 | 320×50 |
+| Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront | Ad Container |  | 1040×282 |
+| Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront | Ad Blocks | Top Leaderboard 970x250 | 970×250 |
+| Device=XL-Desktop (≥1040px), State=Default, Page=Article | Ad Blocks | Sponsorship 1 320x50 | 320×50 |
+| Device=XL-Desktop (≥1040px), State=Default, Page=Article | Ad Blocks | Top Leaderboard 970x250 | 970×250 |
+| Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 320x50 | 320×50 |
+| Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=LG-TabletH (800–1039px), State=Default, Page=Home | Ad Container |  | 1024×282 |
+| Device=LG-TabletH (800–1039px), State=Default, Page=Home | Ad Blocks | Top Leaderboard 970x250 | 970×250 |
+| Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront | Ad Container |  | 1024×282 |
+| Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront | Ad Blocks | Top Leaderboard 970x250 | 970×250 |
+| Device=LG-TabletH (800–1039px), State=Default, Page=Article | Ad Container |  | 1024×282 |
+| Device=LG-TabletH (800–1039px), State=Default, Page=Article | Ad Blocks | Top Leaderboard 970x250 | 970×250 |
+| Device=MD-TabletV (640–799px), State=Default, Page=Home | Ad Container |  | 768×122 |
+| Device=MD-TabletV (640–799px), State=Default, Page=Home | Ad Blocks | Top Leaderboard 728x90 | 728×90 |
+| Device=MD-TabletV (640–799px), State=Default, Page=SectionFront | Ad Container |  | 768×122 |
+| Device=MD-TabletV (640–799px), State=Default, Page=SectionFront | Ad Blocks | Top Leaderboard 728x90 | 728×90 |
+| Device=MD-TabletV (640–799px), State=Default, Page=Article | Ad Container |  | 768×122 |
+| Device=MD-TabletV (640–799px), State=Default, Page=Article | Ad Blocks | Top Leaderboard 728x90 | 728×90 |
+| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Home | Ad Container |  | 360×66 |
+| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Home | Ad Blocks | Top Leaderboard 320x50 | 320×50 |
+| Device=XS-Fold (≤639px · built 340px), State=Default, Page=Home | Ad Container |  | 340×116 |
+| Device=XS-Fold (≤639px · built 340px), State=Default, Page=Home | Ad Blocks | Top Leaderboard 320x100 | 320×100 |
+| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=SectionFront | Ad Container |  | 360×66 |
+| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=SectionFront | Ad Blocks | Top Leaderboard 320x50 | 320×50 |
+| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Article | Ad Container |  | 360×66 |
+| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Article | Ad Blocks | Top Leaderboard 320x50 | 320×50 |
+| Device=XS-Fold (≤639px · built 340px), State=Default, Page=SectionFront | Ad Container |  | 340×116 |
+| Device=XS-Fold (≤639px · built 340px), State=Default, Page=SectionFront | Ad Blocks | Top Leaderboard 320x100 | 320×100 |
+| Device=XS-Fold (≤639px · built 340px), State=Default, Page=Article | Ad Container |  | 340×116 |
+| Device=XS-Fold (≤639px · built 340px), State=Default, Page=Article | Ad Blocks | Top Leaderboard 320x100 | 320×100 |
+| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=MD-TabletV (640–799px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=MD-TabletV (640–799px), State=Default, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
+| Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries | Ad Blocks | Sponsorship 1 300x50 | 300×50 |
 
 ## Production references
 
@@ -617,15 +785,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- 64 of 75 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=XL-Desktop (≥1040px), State=AdFree, Page=Home`, `Device=XL-Desktop (≥1040px), State=Default, Page=Article`, `Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront`, `Device=XL-Desktop (≥1040px), State=AdFree, Page=Article`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard`, `Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries`, `Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries`, `Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront`, `Device=LG-TabletH (800–1039px), State=Default, Page=Article`, `Device=MD-TabletV (640–799px), State=Scrolled, Page=Article`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=Home`, `Device=LG-TabletH (800–1039px), State=AdFree, Page=Home`, `Device=LG-TabletH (800–1039px), State=AdFree, Page=SectionFront`, `Device=LG-TabletH (800–1039px), State=AdFree, Page=Article`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=Dashboard`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=SectionFront` ….
-- `Device=XL-Desktop (≥1040px), State=Default, Page=Home`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Sans Bold ×12.
-- `Device=XL-Desktop (≥1040px), State=AdFree, Page=Home`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Sans Bold ×8.
-- `Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Sans Bold ×12.
-- `Device=XL-Desktop (≥1040px), State=Default, Page=Article`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Sans Bold ×12.
-- `Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Sans Bold ×11.
-- `Device=XL-Desktop (≥1040px), State=AdFree, Page=Article`: fonts outside the production pair (Noto Sans / Noto Serif): Droid Sans Bold ×8.
-- `Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard`: fonts outside the production pair (Noto Sans / Noto Serif): Helvetica Bold ×1, Droid Sans Bold ×1, Droid Sans Regular ×1.
-- 6 solid paints are hard-coded (not bound to a color variable): #8D092D ×4, #FFFFFF ×1, #000000 ×1.
+- 64 of 75 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=XL-Desktop (≥1040px), State=AdFree, Page=Home`, `Device=XL-Desktop (≥1040px), State=Default, Page=Article`, `Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront`, `Device=XL-Desktop (≥1040px), State=AdFree, Page=Article`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard`, `Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries`, `Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries`, `Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront`, `Device=LG-TabletH (800–1039px), State=Default, Page=Article`, `Device=MD-TabletV (640–799px), State=Scrolled, Page=Article`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=Home`, `Device=LG-TabletH (800–1039px), State=AdFree, Page=Home`, `Device=LG-TabletH (800–1039px), State=AdFree, Page=SectionFront`, `Device=LG-TabletH (800–1039px), State=AdFree, Page=Article`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=Dashboard`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=SectionFront`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=Article`, `Device=MD-TabletV (640–799px), State=AdFree, Page=Home`, `Device=MD-TabletV (640–799px), State=AdFree, Page=SectionFront`, `Device=MD-TabletV (640–799px), State=AdFree, Page=Article`, `Device=MD-TabletV (640–799px), State=Default, Page=SectionFront`, `Device=MD-TabletV (640–799px), State=Default, Page=Article`, `Device=MD-TabletV (640–799px), State=Scrolled, Page=Home`, `Device=MD-TabletV (640–799px), State=Scrolled, Page=SectionFront`, `Device=MD-TabletV (640–799px), State=Scrolled, Page=Dashboard`, `Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Home`, `Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Home`, `Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=SectionFront`, `Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Article`, `Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Article`, `Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=SectionFront`, `Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Article`, `Device=XS-Fold (≤639px · built 340px), State=Default, Page=SectionFront`, `Device=XS-Fold (≤639px · built 340px), State=Default, Page=Article`, `Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Home`, `Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=SectionFront`, `Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Home`, `Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=SectionFront`, `Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Article`, `Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Article`, `Device=XS-Fold (≤639px · built 340px), State=Default, Page=Dashboard`, `Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Dashboard`, `Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Dashboard`, `Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries`, `Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries`, `Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries`, `Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries`, `Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries`, `Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries`, `Device=MD-TabletV (640–799px), State=Default, Page=Obituaries`, `Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries`, `Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Obituaries`, `Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Obituaries`, `Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituaries`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries`, `Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obituaries`, `Device=SM-Mobile (≤639px · built 360px), State=AdFree-Scrolled, Page=Obituaries`, `Device=XS-Fold (≤639px · built 340px), State=AdFree-Scrolled, Page=Obituaries`, `Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=Obituaries`, `Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries`.
 
 ## Rendering steps
 

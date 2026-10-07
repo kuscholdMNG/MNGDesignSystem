@@ -12,7 +12,7 @@ built_from: ["Icons"]
 built_into: ["Latest Headlines", "Blueconic Block (Most Popular)", "Section Rail Card", "Photos Block"]
 spec_json: section-title-eyebrow.json
 skeleton: section-title-eyebrow.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Section Title / Eyebrow
@@ -29,7 +29,7 @@ exported: 2026-09-24
 | Variant | Node | Key | Size | Preview |
 |---|---|---|---|---|
 | Style=Underline | [3326:41622](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3326-41622) | 8cbeba34f69a91292d5ce8b48f38eefb62195044 | 212×30 | ![Style=Underline](previews/section-title-eyebrow--underline.png) |
-| Style=Bold | [3333:42270](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3333-42270) | 62d8b4021212e9b55d09fc65291f260b942afe8a | 190×23 | ![Style=Bold](previews/section-title-eyebrow--bold.png) |
+| Style=Bold | [3333:42270](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3333-42270) | 62d8b4021212e9b55d09fc65291f260b942afe8a | 211×27 | ![Style=Bold](previews/section-title-eyebrow--bold.png) |
 
 ## Properties
 
@@ -40,8 +40,8 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Style=Underline** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1024 HomePage ×12, Mobile HomePage ×12, Desktop HomePage ×11, 768 HomePage ×12, 1100 HomePage ×12, 340 HomePage ×12; templates (via assembly): 768 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), 1100 HomePage (via Section Rail Card), 1024 HomePage (via Section Rail Card), Mobile HomePage (via Blueconic Block (Most Popular), Section Rail Card, TOP ZONE Block), 340 HomePage (via Blueconic Block (Most Popular), Section Rail Card, TOP ZONE Block), Desktop HomePage (via Latest Headlines, Section Rail Card); nested inside: Photos Block / Device=Desktop ×1, Section Rail Card / Device=Tablet, Layout=Wide ×1, Section Rail Card / Device=1100, Layout=Wide ×1, Section Rail Card / Device=1024, Layout=Wide ×1, Blueconic Block (Most Popular) / Device=Tablet ×1, Section Rail Card / Device=Mobile, Layout=Narrow ×1, Latest Headlines / Device=Desktop ×1, Photos Block / Device=Tablet ×1, Section Rail Card / Device=Tablet, Layout=Narrow ×1, Section Rail Card / Device=Desktop, Layout=Narrow ×1, Blueconic Block (Most Popular) / Device=Mobile ×1, Latest Headlines / Device=Tablet ×1 …
-- **Style=Bold** — breakpoints: —; no instances found
+- **Style=Underline** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1100 HomePage ×3, 1024 HomePage ×3, Mobile HomePage ×1, Desktop HomePage ×2, 340 HomePage ×1; templates (via assembly): 1100 HomePage (via Section Rail Card), 1024 HomePage (via Section Rail Card), Mobile HomePage (via Blueconic Block (Most Popular), Latest Headlines, Section Rail Card), Desktop HomePage (via Latest Headlines, Section Rail Card), 340 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Section Rail Card), 768 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card); nested inside: Photos Block / Device=Mobile ×1, Section Rail Card / Device=Tablet, Layout=Wide ×1, Section Rail Card / Device=1100, Layout=Wide ×1, Section Rail Card / Device=1024, Layout=Wide ×1, Blueconic Block (Most Popular) / Device=Desktop ×1, Section Rail Card / Device=Tablet, Layout=Narrow ×1, Section Rail Card / Device=1100, Layout=Narrow ×1, Section Rail Card / Device=1024, Layout=Narrow ×1, Blueconic Block (Most Popular) / Device=Tablet ×1, Latest Headlines / Device=Mobile ×1, Section Rail Card / Device=1280, Layout=Wide ×1, Section Rail Card / Device=Desktop, Layout=Narrow ×1, Blueconic Block (Most Popular) / Device=Mobile ×1, Photos Block / Device=Desktop ×1, Section Rail Card / Device=Mobile, Layout=Narrow ×1, Latest Headlines / Device=Tablet ×1, Photos Block / Device=Tablet ×1, Latest Headlines / Device=Desktop ×1
+- **Style=Bold** — breakpoints: —; no instances in this file
 
 ## Breakpoints
 
@@ -57,13 +57,13 @@ exported: 2026-09-24
 ## Responsive rules
 
 - Style=Underline: 212×30, vertical gap 6 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280
-- Style=Bold: 190×23, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at (no breakpoint evidence)
+- Style=Bold: 211×27, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — no breakpoint (not placed in a template)
 
 ## Dependencies
 
 **Built from:**
 
-- Icons ×2 _(not in this export)_
+- Icons ×1 _(not in this export)_
 
 **Built into:**
 
@@ -81,15 +81,15 @@ exported: 2026-09-24
   - Title Row — frame 212×22 [horizontal gap 6] (hug/hug)
     - Latest Headlines — text 190×22 (hug/hug) "Latest Headlines"
     - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=arrow-right2]
-  - Rectangle — rectangle 212×2 (fill/fixed)
+  - Underline — rectangle 212×2 (fill/fixed)
 ```
 
 **Style=Bold**
 
 ```
-- Style=Bold — component 190×23 [vertical gap 0] (hug/hug)
-  - Title Row — frame 190×23 [horizontal gap 6] (hug/hug)
-    - Latest Headlines — text 168×23 (hug/hug) "Latest Headlines"
+- Style=Bold — component 211×27 [vertical gap 0] (hug/hug)
+  - Title Row — frame 211×27 [horizontal gap 6] (hug/hug)
+    - Latest Headlines — text 189×27 (hug/hug) "Latest Headlines"
     - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=arrow-right2]
 ```
 
@@ -98,20 +98,20 @@ exported: 2026-09-24
 | Variant | Size | Width | Height | Auto-layout | Radius | Clip |
 |---|---|---|---|---|---|---|
 | Style=Underline | 212×30 | FIXED | HUG | vertical gap 6 pad 0/0/0/0 main MIN cross MIN |  |  |
-| Style=Bold | 190×23 | HUG | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
+| Style=Bold | 211×27 | HUG | HUG | vertical gap 0 pad 0/0/0/0 main MIN cross MIN |  |  |
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Latest Headlines | Noto Sans | Regular | 20 | 22px | 0.699999988079071px | UPPER | #393938 | Colors/color/gray/100 |  | Latest Headlines |
-| Latest Headlines | Noto Sans | Bold | 17 | auto | 0.5950000286102295px | UPPER | #007580 | Colors/color/theme/primary |  | Latest Headlines |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Latest Headlines | Noto Sans | Regular | 20 | 22px | 0.7px | UPPER | #393938 | Colors/color/gray/100 | font/theme |  | Latest Headlines | Style=Underline |
+| Latest Headlines | Noto Sans | Regular | 20 | auto | 0.595px | UPPER | #007580 | Colors/color/theme/primary | font/theme |  | Latest Headlines | Style=Bold |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| Rectangle | fill | SOLID | #007580 | Colors/color/theme/primary |  |  |
+| Underline | fill | SOLID | #007580 | Colors/color/theme/primary |  |  |
 
 ## Image ratios
 

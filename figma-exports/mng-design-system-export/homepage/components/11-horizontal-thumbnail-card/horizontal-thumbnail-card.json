@@ -76,16 +76,10 @@
     "id": "3362:2990",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
+    "inComponents": {
      "Photos Block / Device=Desktop": 6
     },
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "other": {},
     "breakpoints": [
      "1024",
      "1100",
@@ -96,48 +90,38 @@
     "label": "Device=Mobile",
     "id": "3362:2991",
     "templatesDirect": {
-     "340 HomePage": 5,
-     "Mobile HomePage": 5
+     "Mobile HomePage": 5,
+     "340 HomePage": 5
     },
-    "templatesVia": {},
-    "nestedIn": {
+    "templatesVia": {
+     "768 HomePage": [
+      "Photos Block"
+     ]
+    },
+    "inComponents": {
+     "Photos Block / Device=Tablet": 6,
      "Photos Block / Device=Mobile": 5
     },
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [
-     "340",
-     "360"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
-     "360"
+     "360",
+     "768"
     ]
    },
    {
     "label": "Device=Tablet",
     "id": "3383:46153",
-    "templatesDirect": {
-     "768 HomePage": 4
-    },
+    "templatesDirect": {},
     "templatesVia": {
      "768 HomePage": [
       "TOP ZONE Block"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "TOP ZONE Block / Device=Tablet": 4
     },
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768"
-    ],
-    "observedBreakpoints": [
-     "768"
-    ],
+    "other": {},
     "breakpoints": [
      "768"
     ]
@@ -148,14 +132,14 @@
   "builtFrom": [
    {
     "name": "Article Image Placeholder",
-    "count": 3,
+    "count": 1,
     "inExport": true,
     "section": "Article Image Placeholder",
     "path": "../03-article-image-placeholder/article-image-placeholder.md"
    },
    {
     "name": "Gallery Icon Badge",
-    "count": 3,
+    "count": 1,
     "inExport": true,
     "section": "Gallery Icon Badge",
     "path": "../10-gallery-icon-badge/gallery-icon-badge.md"
@@ -359,7 +343,7 @@
            {
             "type": "SOLID",
             "hex": "#000000",
-            "opacity": 0.55
+            "variable": "Colors/color/gray/black"
            }
           ],
           "component": "Gallery Icon Badge",
@@ -373,7 +357,7 @@
         "type": "FRAME",
         "id": "3362:2972",
         "w": 214,
-        "h": 66,
+        "h": 57,
         "x": 122,
         "y": 0,
         "sizing": {
@@ -399,22 +383,30 @@
           "type": "TEXT",
           "id": "3362:2973",
           "w": 214,
-          "h": 66,
+          "h": 57,
           "x": 0,
           "y": 0,
           "sizing": {
            "h": "FILL",
            "v": "HUG"
           },
+          "vars": {
+           "letterSpacing": "Typeography Tokens/Editorial/Titles/HeadlineList/LetterSpacing",
+           "fontSize": "Typeography Tokens/Editorial/Titles/HeadlineList/Size",
+           "fontStyle": "Typeography Tokens/Editorial/Titles/HeadlineList/Style",
+           "fontFamily": "Typeography Tokens/Editorial/Titles/HeadlineList/Family",
+           "lineHeight": "Typeography Tokens/Editorial/Titles/HeadlineList/LineHeight"
+          },
           "text": "Article Headline on News paper homepage in thumbnail list position",
           "autoResize": "HEIGHT",
           "align": "LEFT",
           "styles": [
            {
-            "font": "Noto Serif",
-            "weight": "Bold",
-            "size": 16,
-            "lineHeight": "auto",
+            "font": "Noto Sans",
+            "weight": "SemiBold",
+            "size": 15,
+            "lineHeight": "19px",
+            "letterSpacing": "-0.15px",
             "color": [
              {
               "type": "SOLID",
@@ -431,7 +423,7 @@
       ]
      },
      {
-      "name": "Line 1",
+      "name": "Bottom Border Line",
       "type": "LINE",
       "id": "3362:2974",
       "w": 336,
@@ -445,7 +437,8 @@
       "strokes": [
        {
         "type": "SOLID",
-        "hex": "#D7D6D2"
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
        }
       ],
       "strokeWeight": 1,
@@ -491,7 +484,8 @@
    "preview": "previews/horizontal-thumbnail-card--mobile.png",
    "breakpoints": [
     "340",
-    "360"
+    "360",
+    "768"
    ],
    "layerTree": {
     "name": "Device=Mobile",
@@ -644,7 +638,7 @@
            {
             "type": "SOLID",
             "hex": "#000000",
-            "opacity": 0.55
+            "variable": "Colors/color/gray/black"
            }
           ],
           "component": "Gallery Icon Badge",
@@ -691,6 +685,13 @@
            "h": "FILL",
            "v": "FIXED"
           },
+          "vars": {
+           "letterSpacing": "Typeography Tokens/Editorial/Titles/HeadlineList/LetterSpacing",
+           "fontSize": "Typeography Tokens/Editorial/Titles/HeadlineList/Size",
+           "fontStyle": "Typeography Tokens/Editorial/Titles/HeadlineList/Style",
+           "fontFamily": "Typeography Tokens/Editorial/Titles/HeadlineList/Family",
+           "lineHeight": "Typeography Tokens/Editorial/Titles/HeadlineList/LineHeight"
+          },
           "text": "Article Headline on News paper homepage in thumbnail list position",
           "autoResize": "TRUNCATE",
           "align": "LEFT",
@@ -698,10 +699,11 @@
           "maxLines": null,
           "styles": [
            {
-            "font": "Noto Serif",
-            "weight": "Bold",
+            "font": "Noto Sans",
+            "weight": "SemiBold",
             "size": 15,
-            "lineHeight": "auto",
+            "lineHeight": "19px",
+            "letterSpacing": "-0.15px",
             "color": [
              {
               "type": "SOLID",
@@ -718,7 +720,7 @@
       ]
      },
      {
-      "name": "Line 1",
+      "name": "Bottom Border Line",
       "type": "LINE",
       "id": "3362:2989",
       "w": 336,
@@ -732,7 +734,8 @@
       "strokes": [
        {
         "type": "SOLID",
-        "hex": "#D7D6D2"
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
        }
       ],
       "strokeWeight": 1,
@@ -930,7 +933,7 @@
            {
             "type": "SOLID",
             "hex": "#000000",
-            "opacity": 0.55
+            "variable": "Colors/color/gray/black"
            }
           ],
           "component": "Gallery Icon Badge",
@@ -944,7 +947,7 @@
         "type": "FRAME",
         "id": "3383:46158",
         "w": 256,
-        "h": 60,
+        "h": 57,
         "x": 102,
         "y": 0,
         "sizing": {
@@ -970,22 +973,30 @@
           "type": "TEXT",
           "id": "3383:46159",
           "w": 256,
-          "h": 60,
+          "h": 57,
           "x": 0,
           "y": 0,
           "sizing": {
            "h": "FILL",
            "v": "HUG"
           },
+          "vars": {
+           "letterSpacing": "Typeography Tokens/Editorial/Titles/HeadlineList/LetterSpacing",
+           "fontSize": "Typeography Tokens/Editorial/Titles/HeadlineList/Size",
+           "fontStyle": "Typeography Tokens/Editorial/Titles/HeadlineList/Style",
+           "fontFamily": "Typeography Tokens/Editorial/Titles/HeadlineList/Family",
+           "lineHeight": "Typeography Tokens/Editorial/Titles/HeadlineList/LineHeight"
+          },
           "text": "Article Headline on News paper homepage in thumbnail list position",
           "autoResize": "HEIGHT",
           "align": "LEFT",
           "styles": [
            {
-            "font": "Noto Serif",
-            "weight": "Bold",
+            "font": "Noto Sans",
+            "weight": "SemiBold",
             "size": 15,
-            "lineHeight": "auto",
+            "lineHeight": "19px",
+            "letterSpacing": "-0.15px",
             "color": [
              {
               "type": "SOLID",
@@ -1002,7 +1013,7 @@
       ]
      },
      {
-      "name": "Line 1",
+      "name": "Bottom Border Line",
       "type": "LINE",
       "id": "3383:46160",
       "w": 358,
@@ -1016,7 +1027,8 @@
       "strokes": [
        {
         "type": "SOLID",
-        "hex": "#D7D6D2"
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
        }
       ],
       "strokeWeight": 1,
@@ -1034,37 +1046,21 @@
  "typography": [
   {
    "layer": "Article Headline on News paper homepage in thumbnail list position",
-   "font": "Noto Serif",
-   "weight": "Bold",
-   "size": 16,
-   "lineHeight": "auto",
-   "letterSpacing": null,
-   "case": null,
-   "decoration": null,
-   "color": "#141414",
-   "token": "Colors/color/gray/min",
-   "textStyle": null,
-   "truncate": null,
-   "sample": "Article Headline on News paper homepage in thumbna",
-   "variants": [
-    "Device=Desktop"
-   ]
-  },
-  {
-   "layer": "Article Headline on News paper homepage in thumbnail list position",
-   "font": "Noto Serif",
-   "weight": "Bold",
+   "font": "Noto Sans",
+   "weight": "SemiBold",
    "size": 15,
-   "lineHeight": "auto",
-   "letterSpacing": null,
+   "lineHeight": "19px",
+   "letterSpacing": "-0.15px",
    "case": null,
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": "Editorial/Titles/HeadlineList",
    "textStyle": null,
    "truncate": null,
    "sample": "Article Headline on News paper homepage in thumbna",
    "variants": [
+    "Device=Desktop",
     "Device=Mobile",
     "Device=Tablet"
    ]
@@ -1072,11 +1068,41 @@
  ],
  "colors": [
   {
-   "layer": "Line 1",
+   "layer": "Article Image Placeholder",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#E1A1FF",
+   "token": null,
+   "opacity": null,
+   "note": "image placeholder fill",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Article Image Placeholder",
    "role": "stroke",
    "type": "SOLID",
-   "hex": "#D7D6D2",
-   "token": null,
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
+   "layer": "Gallery Icon Badge",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#000000",
+   "token": "Colors/color/gray/black",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Bottom Border Line",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#CCCAC7",
+   "token": "Colors/color/gray/500",
    "opacity": null,
    "note": "",
    "strokeWeight": 1
@@ -1111,13 +1137,14 @@
  "adSlots": [],
  "responsiveRules": [
   "Device=Desktop: 336×98, vertical gap 8 pad 8/0/8/0 main MIN cross MIN — renders at 1024, 1100, 1280",
-  "Device=Mobile: 336×67, vertical gap 4 pad 6/0/6/0 main MIN cross MIN — renders at 340, 360",
+  "Device=Mobile: 336×67, vertical gap 4 pad 6/0/6/0 main MIN cross MIN — renders at 340, 360, 768",
   "Device=Tablet: 358×84, vertical gap 8 pad 8/0/8/0 main MIN cross MIN — renders at 768"
  ],
  "productionRefs": [],
  "knownIssues": [
-  "3 solid paints are hard-coded (not bound to a color variable): #D7D6D2 ×3."
+  "`Device=Mobile` is declared for 340, 360 but is placed in template(s) at 768 — check the variant choice.",
+  "The 1024, 1100 and 1280 HomePage templates use detached, resized copies (18 'Horizontal Thumbnail Card (…, Photos secondary list, detached — resized…)' layers inside the detached Photos content) instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
  ],
  "skeleton": "horizontal-thumbnail-card.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

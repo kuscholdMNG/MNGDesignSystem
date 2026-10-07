@@ -12,7 +12,7 @@ built_from: ["Article Image Placeholder"]
 built_into: ["Feature + List Content Block"]
 spec_json: horizontal-feature-card.json
 skeleton: horizontal-feature-card.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Horizontal Feature Card
@@ -36,16 +36,13 @@ _None._
 
 ## Where it is used
 
-- **Horizontal Feature Card** — breakpoints: 768, 1100, 1280; templates (via assembly): Desktop HomePage (via Feature + List Content Block), 768 HomePage (via Feature + List Content Block), 1100 HomePage (via Feature + List Content Block); nested inside: Feature + List Content Block / Size=Default ×1
+- **Horizontal Feature Card** — breakpoints: 768, 1100, 1280; templates (via assembly): 1100 HomePage (via Feature + List Content Block), Desktop HomePage (via Feature + List Content Block), 768 HomePage (via Feature + List Content Block); nested inside: Feature + List Content Block / Size=Default ×1
 
 ## Breakpoints
 
 | Key | Viewport | Variant(s) |
 |---|---|---|
-| 340 | ≤639px (XS-Fold, built 340) | — |
-| 360 | ≤639px (SM-Mobile, built 360) | — |
 | 768 | 640–799px (MD-TabletV) | Horizontal Feature Card |
-| 1024 | 800–1039px (LG-TabletH, built 1009) | — |
 | 1100 | ≥1040px (XL-Desktop, built 1085) | Horizontal Feature Card |
 | 1280 | ≥1040px (XL-Desktop, built 1280) | Horizontal Feature Card |
 
@@ -71,11 +68,11 @@ _None._
 - Horizontal Feature Card — component 632×203 [vertical gap 8] (fixed/hug)
   - Content — frame 632×195 [horizontal gap 28] (fill/hug)
     - Article Graphic — instance 260×195 [vertical gap 8] (fixed/fixed) → Article Image Placeholder
-    - Text Column — frame 344×153 [vertical gap 8] (fill/hug)
+    - Text Column — frame 344×155 [vertical gap 8] (fill/hug)
       - Headline Container — frame 344×105 [vertical gap 0] (fill/hug)
         - Article Headline on News paper homepage in Wide rail lead position — text 344×105 (fill/hug) "Article Headline on News paper homepage "
-      - Excerpt Container — frame 344×40 [vertical gap 0] (fill/hug)
-        - Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail. — text 344×40 (fill/hug) "Vanroy Evan Smith, 39, of Long Beach is "
+      - Excerpt Container — frame 344×42 [vertical gap 0] (fill/hug)
+        - Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail. — text 344×42 (fill/hug) "Vanroy Evan Smith, 39, of Long Beach is "
   - Bottom Border Line — line 632×0 (fill/fixed)
 ```
 
@@ -87,15 +84,17 @@ _None._
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Article Headline on News paper homepage in Wide rail lead position | Noto Serif | Bold | 26 | auto |  |  | #141414 | Colors/color/gray/min |  | Article Headline on News paper homepage in Wide ra |
-| Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail. | Noto Sans | Regular | 15 | auto |  |  | #393938 | Colors/color/gray/100 |  | Vanroy Evan Smith, 39, of Long Beach is being held |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Article Headline on News paper homepage in Wide rail lead po | Noto Serif | Bold | 26 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Article Headline on News paper homepage in Wide ra | all |
+| Vanroy Evan Smith, 39, of Long Beach is being held on $1 mil | Noto Sans | Regular | 15 | 21px |  |  | #393938 | Colors/color/gray/100 | Editorial/Body/Excerpt |  | Vanroy Evan Smith, 39, of Long Beach is being held | all |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
+| Article Graphic | fill | SOLID | #E1A1FF |  |  | image placeholder fill |
+| Article Graphic | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
 | Bottom Border Line | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
 
 ## Image ratios

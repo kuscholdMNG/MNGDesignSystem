@@ -12,7 +12,7 @@ built_from: ["Button Primary"]
 built_into: ["Latest Headlines"]
 spec_json: newsletter-signup.json
 skeleton: newsletter-signup.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Newsletter Signup
@@ -40,7 +40,7 @@ exported: 2026-09-24
 ## Where it is used
 
 - **Device=Mobile** — breakpoints: 340, 360, 768; templates (via assembly): 768 HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Mobile ×1
-- **Device=Desktop** — breakpoints: 768, 1024, 1100, 1280; templates (direct): 1100 HomePage ×1, 1024 HomePage ×1; templates (via assembly): Desktop HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Desktop ×1
+- **Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (direct): 1100 HomePage ×1, 1024 HomePage ×1; templates (via assembly): Desktop HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Desktop ×1
 
 ## Breakpoints
 
@@ -48,7 +48,7 @@ exported: 2026-09-24
 |---|---|---|
 | 340 | ≤639px (XS-Fold, built 340) | Device=Mobile |
 | 360 | ≤639px (SM-Mobile, built 360) | Device=Mobile |
-| 768 | 640–799px (MD-TabletV) | Device=Mobile, Device=Desktop |
+| 768 | 640–799px (MD-TabletV) | Device=Mobile |
 | 1024 | 800–1039px (LG-TabletH, built 1009) | Device=Desktop |
 | 1100 | ≥1040px (XL-Desktop, built 1085) | Device=Desktop |
 | 1280 | ≥1040px (XL-Desktop, built 1280) | Device=Desktop |
@@ -56,13 +56,13 @@ exported: 2026-09-24
 ## Responsive rules
 
 - Device=Mobile: 340×135, vertical gap 8 pad 16/16/16/16 main CENTER cross CENTER — renders at 340, 360, 768
-- Device=Desktop: 226×135, vertical gap 8 pad 16/16/16/16 main SPACE_BETWEEN cross CENTER — renders at 768, 1024, 1100, 1280
+- Device=Desktop: 226×135, vertical gap 8 pad 16/16/16/16 main SPACE_BETWEEN cross CENTER — renders at 1024, 1100, 1280
 
 ## Dependencies
 
 **Built from:**
 
-- Button Primary ×2 _(not in this export)_
+- Button Primary ×1 _(not in this export)_
 
 **Built into:**
 
@@ -78,17 +78,17 @@ exported: 2026-09-24
     - Text Container — frame 308×40 [horizontal gap 24] (fill/hug)
       - Sign up for Newsletters and Alerts — text 308×20 (fill/hug) "Sign up for Newsletters and Alerts"
     - Button Container — frame 125×40 [vertical gap 8] (hug/fixed)
-      - Button Primary — instance 109×40 [vertical gap 8] (hug/fixed) → Button Primary [Icon=None, state=Default]
+      - Button Primary — instance 109×40 [vertical gap 8] (fixed/hug) → Button Primary [Icon=None, State=Default, Breakpoint=Desktop]
 ```
 
 **Device=Desktop**
 
 ```
 - Device=Desktop — component 226×135 [vertical gap 8] (fixed/fixed)
-  - Frame 295 — frame 194×60 [horizontal gap 24] (fill/hug)
+  - Heading Container — frame 194×60 [horizontal gap 24] (fill/hug)
     - Sign up for Newsletters and Alerts — text 194×40 (fill/hug) "Sign up for Newsletters and Alerts"
-  - Frame 11711 — frame 125×40 [vertical gap 8] (hug/fixed)
-    - Button Primary — instance 109×40 [vertical gap 8] (hug/fixed) → Button Primary [Icon=None, state=Default]
+  - Button Container — frame 125×40 [vertical gap 8] (hug/fixed)
+    - Button Primary — instance 109×40 [vertical gap 8] (fixed/hug) → Button Primary [Icon=None, State=Default, Breakpoint=Desktop]
 ```
 
 ## Size & layout
@@ -100,9 +100,9 @@ exported: 2026-09-24
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Sign up for Newsletters and Alerts | Noto Sans | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  | Sign up for Newsletters and Alerts |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Sign up for Newsletters and Alerts | Noto Sans | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Sign up for Newsletters and Alerts | all |
 
 ## Color & effects
 

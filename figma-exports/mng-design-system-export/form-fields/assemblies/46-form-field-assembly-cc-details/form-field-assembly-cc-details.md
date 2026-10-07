@@ -12,16 +12,12 @@ built_from: ["Form Field"]
 built_into: []
 spec_json: form-field-assembly-cc-details.json
 skeleton: form-field-assembly-cc-details.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Form Field Assembly / CC details
 
 **Assembly · 2 variants** · Form Fields · source: MNG Design System ▸ Form Fields | 2026.09.24
-
-**Designer notes on the canvas:**
-
-- Card Number, Exp. Date, CVV and Zip Code are each auto-sized to fit their own label/value content rather than stretched to fill the row - Figma measures the actual rendered text, so each field always stays exactly as wide as it needs to be and re-measures itself if the label, placeholder, or font size ever changes. Currently: Desktop Card Number 211px, Exp. Date 80px, CVV 74px, Zip Code 84px. Mobile: Card Number 191px, Exp. Date 75px, CVV 69px, Zip Code 78px. Desktop: 16px gaps/spacing. Mobile: 8px gaps, 4px vertical spacing - see the smaller sample at left. Card Number's own error message spa
 
 ## Figma references
 
@@ -44,8 +40,8 @@ exported: 2026-09-24
 
 ## Where it is used
 
-- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; nested inside: InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel ×1; other pages: In-Line Content Containers | 2026.01.02 ▸ Frame 8 ×1
-- **Size=Mobile** — breakpoints: 340, 360; nested inside: InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel ×1, InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel ×1; other pages: In-Line Content Containers | 2026.01.02 ▸ Frame 8 ×2
+- **Size=Desktop** — breakpoints: 768, 1024, 1100, 1280; nested inside: InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel ×1
+- **Size=Mobile** — breakpoints: 340, 360; nested inside: InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel ×1, InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel ×1
 
 ## Breakpoints
 
@@ -67,11 +63,11 @@ exported: 2026-09-24
 
 **Built from:**
 
-- [Form Field](../../components/41-form-field-dashboard-mockup-set/form-field-dashboard-mockup-set.md) ×8
+- [Form Field](../../components/37-form-field/form-field.md) ×4
 
 **Built into:**
 
-- _no parent in this export_
+_Not used inside another exported item._
 
 ## Anatomy
 
@@ -79,11 +75,11 @@ exported: 2026-09-24
 
 ```
 - Size=Desktop — component 312×197 [vertical gap 8] (hug/hug)
-  - Form Field — instance 312×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Filled]
+  - Form Field — instance 312×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Blank]
   - Fields — frame 286×78 [horizontal gap 16] (hug/hug)
-    - Form Field — instance 96×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Filled]
-    - Form Field — instance 74×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Filled]
-    - Form Field — instance 84×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Filled]
+    - Form Field — instance 96×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Blank]
+    - Form Field — instance 74×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Blank]
+    - Form Field — instance 84×78 [vertical gap 0] (fixed/hug) → Form Field [Size=Desktop, State=Blank]
   - Error Message Container (Shared) — frame 270×25 [horizontal gap 8] (fixed/fixed)
     - Error Message Text. — text 270×25 (fixed/fixed) "Error message text." (hidden)
 ```
@@ -110,10 +106,10 @@ exported: 2026-09-24
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Error message text. |
-| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  | Error message text. |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Desktop |
+| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Mobile |
 
 ## Color & effects
 

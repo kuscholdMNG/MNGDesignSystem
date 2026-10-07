@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Upcoming Events Block"]
 spec_json: upcoming-events-widget-768-3-cards-7-days.json
 skeleton: upcoming-events-widget-768-3-cards-7-days.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Upcoming Events Widget (768, 3 cards, 7 days)
@@ -42,12 +42,7 @@ _None._
 
 | Key | Viewport | Variant(s) |
 |---|---|---|
-| 340 | ≤639px (XS-Fold, built 340) | — |
-| 360 | ≤639px (SM-Mobile, built 360) | — |
 | 768 | 640–799px (MD-TabletV) | Upcoming Events Widget (768, 3 cards, 7 days) |
-| 1024 | 800–1039px (LG-TabletH, built 1009) | — |
-| 1100 | ≥1040px (XL-Desktop, built 1085) | — |
-| 1280 | ≥1040px (XL-Desktop, built 1280) | — |
 
 ## Responsive rules
 
@@ -57,7 +52,7 @@ _None._
 
 **Built from:**
 
-- _nothing (leaf component)_
+_Nothing — leaf component._
 
 **Built into:**
 
@@ -76,63 +71,57 @@ _None._
     - Event Card (768, 129w) — frame 129×173 [vertical gap 0] (fixed/fixed)
       - Image Area — frame 129×122 [vertical gap 0] (fill/fixed)
         - Article Image Placeholder — frame 129×122 [vertical gap 8] (fixed/fixed)
-          - Union — boolean_operation 129×122 (fill/fill)
-            - … 2 children
-          - Frame 11643 — frame 179×19 [horizontal gap 8] (hug/hug)
-            - … 1 children
+          - Placeholder X — boolean operation 129×122 (fill/fill)
+          - Label — frame 168×22 [horizontal gap 8] (hug/hug)
         - Date Bar — frame 129×13 (fixed/fixed)
-          - Tue, Sep 15 — text 44×11 "Tue, Sep 15"
+          - Tue, Sep 15 — text 49×12 "Tue, Sep 15"
       - Details — frame 129×51 [vertical gap 2] (fill/fixed)
         - Event Title Placeholder Text Here — text 125×32 (fill/fixed) "Event Title Placeholder Text Here"
-        - Venue Name Placeholder — text 125×13 (fill/hug) "Venue Name Placeholder"
+        - Venue Name Placeholder — text 125×14 (fill/hug) "Venue Name Placeholder"
     - Event Card (768, 129w) — frame 129×173 [vertical gap 0] (fixed/fixed)
       - Image Area — frame 129×122 [vertical gap 0] (fill/fixed)
         - Article Image Placeholder — frame 129×122 [vertical gap 8] (fixed/fixed)
-          - Union — boolean_operation 129×122 (fill/fill)
-            - … 2 children
-          - Frame 11643 — frame 179×19 [horizontal gap 8] (hug/hug)
-            - … 1 children
+          - Placeholder X — boolean operation 129×122 (fill/fill)
+          - Label — frame 168×22 [horizontal gap 8] (hug/hug)
         - Date Bar — frame 129×13 (fixed/fixed)
-          - Tue, Sep 15 — text 44×11 "Tue, Sep 15"
+          - Tue, Sep 15 — text 49×12 "Tue, Sep 15"
       - Details — frame 129×51 [vertical gap 2] (fill/fixed)
         - Event Title Placeholder Text Here — text 125×32 (fill/fixed) "Event Title Placeholder Text Here"
-        - Venue Name Placeholder — text 125×13 (fill/hug) "Venue Name Placeholder"
+        - Venue Name Placeholder — text 125×14 (fill/hug) "Venue Name Placeholder"
     - Event Card (768, 129w) — frame 129×173 [vertical gap 0] (fixed/fixed)
       - Image Area — frame 129×122 [vertical gap 0] (fill/fixed)
         - Article Image Placeholder — frame 129×122 [vertical gap 8] (fixed/fixed)
-          - Union — boolean_operation 129×122 (fill/fill)
-            - … 2 children
-          - Frame 11643 — frame 179×19 [horizontal gap 8] (hug/hug)
-            - … 1 children
+          - Placeholder X — boolean operation 129×122 (fill/fill)
+          - Label — frame 168×22 [horizontal gap 8] (hug/hug)
         - Date Bar — frame 129×13 (fixed/fixed)
-          - Tue, Sep 15 — text 44×11 "Tue, Sep 15"
+          - Tue, Sep 15 — text 49×12 "Tue, Sep 15"
       - Details — frame 129×51 [vertical gap 2] (fill/fixed)
         - Event Title Placeholder Text Here — text 125×32 (fill/fixed) "Event Title Placeholder Text Here"
-        - Venue Name Placeholder — text 125×13 (fill/hug) "Venue Name Placeholder"
+        - Venue Name Placeholder — text 125×14 (fill/hug) "Venue Name Placeholder"
   - Date Picker Strip — frame 400×45 [horizontal gap 0] (hug/fixed)
     - Date Picker Calendar Icon — frame 50×45 [vertical gap 0] (fixed/fixed)
-      - CAL — text 15×11 (hug/hug) "CAL"
+      - CAL — text 17×12 (hug/hug) "CAL"
     - Date Picker Day — frame 50×45 [vertical gap 2] (fixed/fixed)
-      - MON — text 21×13 (hug/hug) "MON"
+      - MON — text 26×14 (hug/hug) "MON"
       - 14 — text 19×22 (hug/hug) "14"
     - Date Picker Day — frame 50×45 [vertical gap 2] (fixed/fixed)
-      - MON — text 18×13 (hug/hug) "TUE"
-      - 14 — text 19×22 (hug/hug) "15"
+      - TUE — text 19×14 (hug/hug) "TUE"
+      - 15 — text 19×22 (hug/hug) "15"
     - Date Picker Day — frame 50×45 [vertical gap 2] (fixed/fixed)
-      - MON — text 20×13 (hug/hug) "WED"
-      - 14 — text 19×22 (hug/hug) "16"
+      - WED — text 23×14 (hug/hug) "WED"
+      - 16 — text 19×22 (hug/hug) "16"
     - Date Picker Day — frame 50×45 [vertical gap 2] (fixed/fixed)
-      - MON — text 19×13 (hug/hug) "THU"
-      - 14 — text 19×22 (hug/hug) "17"
+      - THU — text 21×14 (hug/hug) "THU"
+      - 17 — text 19×22 (hug/hug) "17"
     - Date Picker Day — frame 50×45 [vertical gap 2] (fixed/fixed)
-      - MON — text 14×13 (hug/hug) "FRI"
-      - 14 — text 19×22 (hug/hug) "18"
+      - FRI — text 16×14 (hug/hug) "FRI"
+      - 18 — text 19×22 (hug/hug) "18"
     - Date Picker Day — frame 50×45 [vertical gap 2] (fixed/fixed)
-      - MON — text 16×13 (hug/hug) "SAT"
-      - 14 — text 19×22 (hug/hug) "19"
+      - SAT — text 18×14 (hug/hug) "SAT"
+      - 19 — text 19×22 (hug/hug) "19"
     - Date Picker Day — frame 50×45 [vertical gap 2] (fixed/fixed)
-      - MON — text 19×13 (hug/hug) "SUN"
-      - 14 — text 19×22 (hug/hug) "20"
+      - SUN — text 21×14 (hug/hug) "SUN"
+      - 20 — text 19×22 (hug/hug) "20"
 ```
 
 ## Size & layout
@@ -143,37 +132,52 @@ _None._
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Upcoming Events | Noto Sans | Bold | 16 | auto |  |  | #141414 |  |  | Upcoming Events |
-| < > | Noto Sans | Bold | 14 | auto |  |  | #808080 |  |  | <  > |
-| ARTICLE IMAGE | New York | Black | 16 | auto | 10% |  | #141414 | Colors/color/gray/min |  | GRAPHIC / IMAGE |
-| Tue, Sep 15 | Source Sans Pro | SemiBold | 9 | auto |  |  | #FFFFFF |  |  | Tue, Sep 15 |
-| Event Title Placeholder Text Here | Noto Serif | Bold | 12 | auto |  |  | #141414 |  |  | Event Title Placeholder Text Here |
-| Venue Name Placeholder | Source Sans Pro | Regular | 10 | auto |  |  | #666666 |  |  | Venue Name Placeholder |
-| CAL | Source Sans Pro | SemiBold | 9 | auto |  |  | #FFFFFF |  |  | CAL |
-| MON | Source Sans Pro | SemiBold | 10 | auto |  |  | #595959 |  |  | MON |
-| 14 | Noto Sans | Bold | 16 | auto |  |  | #141414 |  |  | 14 |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Upcoming Events | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Upcoming Events | all |
+| < > | Noto Sans | Bold | 14 | auto |  |  | #808080 |  |  |  | <  > | all |
+| ARTICLE IMAGE | Noto Serif | Bold | 16 | auto | 10% |  | #141414 | Colors/color/gray/min |  |  | GRAPHIC / IMAGE | all |
+| Tue, Sep 15 | Noto Sans | SemiBold | 9 | auto |  |  | #FFFFFF | Colors/color/gray/max |  |  | Tue, Sep 15 | all |
+| Event Title Placeholder Text Here | Noto Serif | Bold | 12 | auto |  |  | #141414 | Colors/color/gray/min |  | None lines | Event Title Placeholder Text Here | all |
+| Venue Name Placeholder | Noto Sans | Regular | 10 | auto |  |  | #666666 |  |  |  | Venue Name Placeholder | all |
+| CAL | Noto Sans | SemiBold | 9 | auto |  |  | #FFFFFF | Colors/color/gray/max |  |  | CAL | all |
+| MON | Noto Sans | SemiBold | 10 | auto |  |  | #595959 |  |  |  | MON | all |
+| 14 | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 14 | all |
+| TUE | Noto Sans | SemiBold | 10 | auto |  |  | #595959 |  |  |  | TUE | all |
+| 15 | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 15 | all |
+| WED | Noto Sans | SemiBold | 10 | auto |  |  | #595959 |  |  |  | WED | all |
+| 16 | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 16 | all |
+| THU | Noto Sans | SemiBold | 10 | auto |  |  | #595959 |  |  |  | THU | all |
+| 17 | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 17 | all |
+| FRI | Noto Sans | SemiBold | 10 | auto |  |  | #595959 |  |  |  | FRI | all |
+| 18 | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 18 | all |
+| SAT | Noto Sans | SemiBold | 10 | auto |  |  | #595959 |  |  |  | SAT | all |
+| 19 | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 19 | all |
+| SUN | Noto Sans | SemiBold | 10 | auto |  |  | #595959 |  |  |  | SUN | all |
+| 20 | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 20 | all |
 
 ## Color & effects
 
 | Layer | Role | Type | Hex | Token | Opacity | Note |
 |---|---|---|---|---|---|---|
-| Image Area | fill | SOLID | #FFFFFF | ⚠ unbound |  |  |
-| Article Image Placeholder | fill | SOLID | #E1A1FF | ⚠ unbound |  |  |
+| Image Area | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Article Image Placeholder | fill | SOLID | #E1A1FF |  |  | image placeholder fill |
 | Article Image Placeholder | stroke | SOLID | #141414 | Colors/color/gray/min |  |  |
-| Union | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
-| Vector 1 | stroke | SOLID | #111111 | ⚠ unbound |  |  |
-| Vector 2 | stroke | SOLID | #111111 | ⚠ unbound |  |  |
-| ARTICLE IMAGE | stroke | SOLID | #F1EFEB | Colors/color/gray/600 |  |  |
-| Date Bar | fill | SOLID | #000000 | ⚠ unbound | 0.65 |  |
-| Date Picker Calendar Icon | fill | SOLID | #262626 | ⚠ unbound |  |  |
-| Date Picker Day | fill | SOLID | #F2F2F2 | ⚠ unbound |  |  |
-| Date Picker Day | stroke | SOLID | #D9D9D9 | ⚠ unbound |  | Figma default placeholder grey (image slot) |
+| Placeholder X | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
+| Diagonal 1 | stroke | SOLID | #111111 |  |  |  |
+| Diagonal 2 | stroke | SOLID | #111111 |  |  |  |
+| Date Bar | fill | SOLID | #000000 | Colors/color/gray/black |  |  |
+| Date Picker Calendar Icon | fill | SOLID | #262626 |  |  |  |
+| Date Picker Day | fill | SOLID | #F2F2F2 |  |  |  |
+| Date Picker Day | stroke | SOLID | #D9D9D9 |  |  | image placeholder fill |
 
 ## Image ratios
 
-_None._
+| Variant | Layer | Size | Ratio | Source |
+|---|---|---|---|---|
+| Upcoming Events Widget (768, 3 cards, 7 days) | Article Image Placeholder | 129×122 | 1.06:1 | frame |
+| Upcoming Events Widget (768, 3 cards, 7 days) | Article Image Placeholder | 129×122 | 1.06:1 | frame |
+| Upcoming Events Widget (768, 3 cards, 7 days) | Article Image Placeholder | 129×122 | 1.06:1 | frame |
 
 ## Ad slots
 
@@ -185,8 +189,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- `Upcoming Events Widget (768, 3 cards, 7 days)`: fonts outside the production pair (Noto Sans / Noto Serif): New York Black ×3, Source Sans Pro SemiBold ×11, Source Sans Pro Regular ×3.
-- 49 solid paints are hard-coded (not bound to a color variable): #141414 ×11, #FFFFFF ×7, #F2F2F2 ×7, #595959 ×7, #111111 ×6, #E1A1FF ×3.
+- 35 solid paints are hard-coded (not bound to a color variable): #F2F2F2 ×7, #D9D9D9 ×7, #595959 ×7, #111111 ×6, #E1A1FF ×3, #666666 ×3, #808080 ×1, #262626 ×1.
 
 ## Rendering steps
 

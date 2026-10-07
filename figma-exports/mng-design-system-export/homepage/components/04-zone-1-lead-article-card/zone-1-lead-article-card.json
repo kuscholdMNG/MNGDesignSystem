@@ -74,9 +74,7 @@
     "id": "3336:46156",
     "templatesDirect": {
      "1100 HomePage": 1,
-     "1024 HomePage": 1,
-     "Mobile HomePage": 1,
-     "340 HomePage": 1
+     "1024 HomePage": 1
     },
     "templatesVia": {
      "Mobile HomePage": [
@@ -86,20 +84,10 @@
       "TOP ZONE Block"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "TOP ZONE Block / Device=Mobile": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [
-     "340",
-     "360",
-     "1024",
-     "1100"
-    ],
+    "other": {},
     "breakpoints": [
      "340",
      "360",
@@ -110,53 +98,33 @@
    {
     "label": "Device=Desktop",
     "id": "3336:46155",
-    "templatesDirect": {
-     "Desktop HomePage": 1
-    },
+    "templatesDirect": {},
     "templatesVia": {
      "Desktop HomePage": [
       "TOP ZONE Block"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "TOP ZONE Block / Device=Desktop": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [
-     "1280"
-    ],
+    "other": {},
     "breakpoints": [
-     "1024",
-     "1100",
      "1280"
     ]
    },
    {
     "label": "Device=Tablet",
     "id": "3383:46111",
-    "templatesDirect": {
-     "768 HomePage": 1
-    },
+    "templatesDirect": {},
     "templatesVia": {
      "768 HomePage": [
       "TOP ZONE Block"
      ]
     },
-    "nestedIn": {
+    "inComponents": {
      "TOP ZONE Block / Device=Tablet": 1
     },
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768"
-    ],
-    "observedBreakpoints": [
-     "768"
-    ],
+    "other": {},
     "breakpoints": [
      "768"
     ]
@@ -167,21 +135,21 @@
   "builtFrom": [
    {
     "name": "Article Status Badge",
-    "count": 3,
+    "count": 1,
     "inExport": true,
     "section": "Article Status Badge",
     "path": "../01-article-status-badge/article-status-badge.md"
    },
    {
     "name": "Article Image Placeholder",
-    "count": 3,
+    "count": 1,
     "inExport": true,
     "section": "Article Image Placeholder",
     "path": "../03-article-image-placeholder/article-image-placeholder.md"
    },
    {
     "name": "Related Article List Item",
-    "count": 9,
+    "count": 3,
     "inExport": true,
     "section": "Related Article List Item",
     "path": "../02-related-article-list-item/related-article-list-item.md"
@@ -379,7 +347,8 @@
           "color": [
            {
             "type": "SOLID",
-            "hex": "#141414"
+            "hex": "#141414",
+            "variable": "Colors/color/gray/min"
            }
           ],
           "textStyle": null
@@ -496,6 +465,13 @@
          "h": "FILL",
          "v": "HUG"
         },
+        "vars": {
+         "letterSpacing": "Typeography Tokens/Editorial/Body/ExcerptCompact/LetterSpacing",
+         "fontSize": "Typeography Tokens/Editorial/Body/ExcerptCompact/Size",
+         "fontStyle": "Typeography Tokens/Editorial/Body/ExcerptCompact/Style",
+         "fontFamily": "Typeography Tokens/Editorial/Body/ExcerptCompact/Family",
+         "lineHeight": "Typeography Tokens/Editorial/Body/ExcerptCompact/LineHeight"
+        },
         "text": "Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -512,7 +488,7 @@
             "variable": "Colors/color/gray/100"
            }
           ],
-          "textStyle": "Zone 1 Excerpt"
+          "textStyle": null
          }
         ]
        }
@@ -730,7 +706,7 @@
       ]
      },
      {
-      "name": "Line 1",
+      "name": "Bottom Border Line",
       "type": "LINE",
       "id": "3336:46154",
       "w": 340,
@@ -744,7 +720,8 @@
       "strokes": [
        {
         "type": "SOLID",
-        "hex": "#D7D6D2"
+        "hex": "#CCCAC7",
+        "variable": "Colors/color/gray/500"
        }
       ],
       "strokeWeight": 1,
@@ -795,8 +772,6 @@
    "radius": null,
    "preview": "previews/zone-1-lead-article-card--desktop.png",
    "breakpoints": [
-    "1024",
-    "1100",
     "1280"
    ],
    "layerTree": {
@@ -986,6 +961,13 @@
            "h": "FILL",
            "v": "HUG"
           },
+          "vars": {
+           "letterSpacing": "Typeography Tokens/Editorial/Body/ExcerptCompact/LetterSpacing",
+           "fontSize": "Typeography Tokens/Editorial/Body/ExcerptCompact/Size",
+           "fontStyle": "Typeography Tokens/Editorial/Body/ExcerptCompact/Style",
+           "fontFamily": "Typeography Tokens/Editorial/Body/ExcerptCompact/Family",
+           "lineHeight": "Typeography Tokens/Editorial/Body/ExcerptCompact/LineHeight"
+          },
           "text": "Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail.",
           "autoResize": "HEIGHT",
           "align": "LEFT",
@@ -1002,7 +984,7 @@
               "variable": "Colors/color/gray/100"
              }
             ],
-            "textStyle": "Zone 1 Excerpt"
+            "textStyle": null
            }
           ]
          }
@@ -1526,6 +1508,13 @@
            "h": "FILL",
            "v": "HUG"
           },
+          "vars": {
+           "letterSpacing": "Typeography Tokens/Editorial/Body/ExcerptCompact/LetterSpacing",
+           "fontSize": "Typeography Tokens/Editorial/Body/ExcerptCompact/Size",
+           "fontStyle": "Typeography Tokens/Editorial/Body/ExcerptCompact/Style",
+           "fontFamily": "Typeography Tokens/Editorial/Body/ExcerptCompact/Family",
+           "lineHeight": "Typeography Tokens/Editorial/Body/ExcerptCompact/LineHeight"
+          },
           "text": "Vanroy Evan Smith, 39, of Long Beach is being held on $1 million bail.",
           "autoResize": "HEIGHT",
           "align": "LEFT",
@@ -1542,7 +1531,7 @@
               "variable": "Colors/color/gray/100"
              }
             ],
-            "textStyle": "Zone 1 Excerpt"
+            "textStyle": null
            }
           ]
          }
@@ -1852,7 +1841,8 @@
    "case": null,
    "decoration": null,
    "color": "#141414",
-   "token": null,
+   "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Man charged with murder after fatal attack on bicy",
@@ -1871,7 +1861,8 @@
    "decoration": null,
    "color": "#393938",
    "token": "Colors/color/gray/100",
-   "textStyle": "Zone 1 Excerpt",
+   "typeToken": "Editorial/Body/ExcerptCompact",
+   "textStyle": null,
    "truncate": null,
    "sample": "Vanroy Evan Smith, 39, of Long Beach is being held",
    "variants": [
@@ -1891,6 +1882,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Related",
@@ -1911,6 +1903,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": "Zone 1 Headline H3 Entry-Title",
    "truncate": null,
    "sample": "Man charged with murder after fatal attack on bicy",
@@ -1932,6 +1925,26 @@
    "strokeWeight": null
   },
   {
+   "layer": "Article Image Placeholder",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#E1A1FF",
+   "token": null,
+   "opacity": null,
+   "note": "image placeholder fill",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Article Image Placeholder",
+   "role": "stroke",
+   "type": "SOLID",
+   "hex": "#141414",
+   "token": "Colors/color/gray/min",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": 2
+  },
+  {
    "layer": "Related Articles Header",
    "role": "stroke",
    "type": "SOLID",
@@ -1947,11 +1960,11 @@
    ]
   },
   {
-   "layer": "Line 1",
+   "layer": "Bottom Border Line",
    "role": "stroke",
    "type": "SOLID",
-   "hex": "#D7D6D2",
-   "token": null,
+   "hex": "#CCCAC7",
+   "token": "Colors/color/gray/500",
    "opacity": null,
    "note": "",
    "strokeWeight": 1
@@ -1982,7 +1995,7 @@
    "layer": "Article Image Placeholder",
    "w": 340,
    "h": 235.7,
-   "ratio": "340:236 (≈1.44)",
+   "ratio": "1.44:1",
    "source": "Article Image Placeholder",
    "variant": "Device=Mobile"
   },
@@ -1990,7 +2003,7 @@
    "layer": "Article Image Placeholder",
    "w": 391,
    "h": 271,
-   "ratio": "391:271 (≈1.44)",
+   "ratio": "1.44:1",
    "source": "Article Image Placeholder",
    "variant": "Device=Desktop"
   },
@@ -1998,7 +2011,7 @@
    "layer": "Article Image Placeholder",
    "w": 391,
    "h": 271,
-   "ratio": "391:271 (≈1.44)",
+   "ratio": "1.44:1",
    "source": "Article Image Placeholder",
    "variant": "Device=Tablet"
   }
@@ -2006,14 +2019,13 @@
  "adSlots": [],
  "responsiveRules": [
   "Device=Mobile: 340×648.7, vertical gap 8 pad 0/0/16/0 main MIN cross CENTER — renders at 340, 360, 1024, 1100",
-  "Device=Desktop: 706×349, horizontal gap 20 pad 0/0/16/0 main MIN cross MIN — renders at 1024, 1100, 1280",
+  "Device=Desktop: 706×349, horizontal gap 20 pad 0/0/16/0 main MIN cross MIN — renders at 1280",
   "Device=Tablet: 748×349, horizontal gap 32 pad 0/0/16/0 main MIN cross MIN — renders at 768"
  ],
  "productionRefs": [],
  "knownIssues": [
-  "`Device=Mobile` is declared for 340, 360 but is placed in template(s) at 1024, 1100 — check the variant choice.",
-  "2 solid paints are hard-coded (not bound to a color variable): #141414 ×1, #D7D6D2 ×1."
+  "`Device=Mobile` is declared for 340, 360 but is placed in template(s) at 1024, 1100 — check the variant choice."
  ],
  "skeleton": "zone-1-lead-article-card.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

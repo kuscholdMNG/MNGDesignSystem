@@ -12,17 +12,12 @@ built_from: ["Button Primary", "Weather Bug", "Icons"]
 built_into: ["SectionMenu"]
 spec_json: sectionmenuitem.json
 skeleton: sectionmenuitem.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # SectionMenuItem
 
 **Assembly · 9 variants** · Menus and Parts · source: WordPress Elements ▸ Menus and Parts
-
-**Designer notes on the canvas:**
-
-- Section Menu Header
-- Section Menu Items
 
 ## Figma references
 
@@ -55,43 +50,38 @@ exported: 2026-09-24
 - **leftIcon=no, withSubItems=no, View=default, kind=CTAButton** — breakpoints: —; nested inside: SectionMenu / View=Open, Device=LG-TabletH, UserType=nonSub ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=nonSub ×1, SectionMenu/Open/MD-TabletV/nonSub ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=nonSub ×1, SectionMenu / View=Open, Device=MD-TabletV, UserType=nonSub ×1, SectionMenu / View=Open, Device=XL-Desktop, UserType=nonSub ×1
 - **leftIcon=no, withSubItems=no, View=default, kind=Weather** — breakpoints: —; nested inside: SectionMenu/Open/MD-TabletV/subscriber ×1, SectionMenu / View=Open, Device=MD-TabletV, UserType=subscriber ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=subscriber ×1, SectionMenu/Open/MD-TabletV/nonSub ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=nonSub ×1, SectionMenu / View=Open, Device=MD-TabletV, UserType=nonSub ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=subscriber ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=nonSub ×1
 - **leftIcon=yes, withSubItems=no, View=default, kind=main** — breakpoints: —; nested inside: SectionMenu/Open/MD-TabletV/nonSub ×1, SectionMenu / View=Open, Device=LG-TabletH, UserType=subscriber ×1, SectionMenu / View=Open, Device=MD-TabletV, UserType=nonSub ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=nonSub ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=subscriber ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=subscriber ×1, SectionMenu/Open/MD-TabletV/subscriber ×1, SectionMenu / View=Open, Device=XL-Desktop, UserType=subscriber ×1, SectionMenu / View=Open, Device=XL-Desktop, UserType=nonSub ×1, SectionMenu / View=Open, Device=MD-TabletV, UserType=subscriber ×1, SectionMenu / View=Open, Device=LG-TabletH, UserType=nonSub ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=nonSub ×1
-- **leftIcon=yes, withSubItems=yes, View=closed, kind=main** — breakpoints: —; no instances found
+- **leftIcon=yes, withSubItems=yes, View=closed, kind=main** — breakpoints: —; no instances in this file
 - **leftIcon=no, withSubItems=no, View=default, kind=main** — breakpoints: —; nested inside: SectionMenu / View=Open, Device=MD-TabletV, UserType=nonSub ×1, SectionMenu / View=Open, Device=XL-Desktop, UserType=nonSub ×1, SectionMenu / View=Open, Device=LG-TabletH, UserType=nonSub ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=subscriber ×1, SectionMenu / View=Open, Device=LG-TabletH, UserType=subscriber ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=nonSub ×1, SectionMenu/Open/MD-TabletV/nonSub ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=nonSub ×1, SectionMenu/Open/MD-TabletV/subscriber ×1, SectionMenu / View=Open, Device=MD-TabletV, UserType=subscriber ×1, SectionMenu / View=Open, Device=XL-Desktop, UserType=subscriber ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=subscriber ×1
 - **leftIcon=no, withSubItems=yes, View=closed, kind=main** — breakpoints: —; nested inside: SectionMenu / View=Open, Device=XS-Fold, UserType=nonSub ×9, SectionMenu/Open/MD-TabletV/nonSub ×9, SectionMenu / View=Open, Device=XL-Desktop, UserType=nonSub ×9, SectionMenu/Open/MD-TabletV/subscriber ×9, SectionMenu / View=Open, Device=LG-TabletH, UserType=subscriber ×9, SectionMenu / View=Open, Device=LG-TabletH, UserType=nonSub ×9, SectionMenu / View=Open, Device=MD-TabletV, UserType=subscriber ×9, SectionMenu / View=Open, Device=SM-Mobile, UserType=subscriber ×9, SectionMenu / View=Open, Device=MD-TabletV, UserType=nonSub ×9, SectionMenu / View=Open, Device=SM-Mobile, UserType=nonSub ×9, SectionMenu / View=Open, Device=XS-Fold, UserType=subscriber ×9, SectionMenu / View=Open, Device=XL-Desktop, UserType=subscriber ×9
 - **leftIcon=no, withSubItems=no, View=default, kind=subItem** — breakpoints: —; nested inside: SectionMenuItem / leftIcon=no, withSubItems=yes, View=open, kind=main ×1
-- **leftIcon=no, withSubItems=yes, View=open, kind=main** — breakpoints: —; no instances found
+- **leftIcon=no, withSubItems=yes, View=open, kind=main** — breakpoints: —; no instances in this file
 - **leftIcon=no, withSubItems=no, View=default, kind=CTAMessage** — breakpoints: —; nested inside: SectionMenu/Open/MD-TabletV/nonSub ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=subscriber ×1, SectionMenu / View=Open, Device=MD-TabletV, UserType=nonSub ×1, SectionMenu / View=Open, Device=MD-TabletV, UserType=subscriber ×1, SectionMenu / View=Open, Device=LG-TabletH, UserType=nonSub ×1, SectionMenu / View=Open, Device=LG-TabletH, UserType=subscriber ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=subscriber ×1, SectionMenu/Open/MD-TabletV/subscriber ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=nonSub ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=nonSub ×1, SectionMenu / View=Open, Device=XL-Desktop, UserType=nonSub ×1, SectionMenu / View=Open, Device=XL-Desktop, UserType=subscriber ×1
 
 ## Breakpoints
 
 | Key | Viewport | Variant(s) |
 |---|---|---|
-| 340 | ≤639px (XS-Fold, built 340) | — |
-| 360 | ≤639px (SM-Mobile, built 360) | — |
-| 768 | 640–799px (MD-TabletV) | — |
-| 1024 | 800–1039px (LG-TabletH, built 1009) | — |
-| 1100 | ≥1040px (XL-Desktop, built 1085) | — |
-| 1280 | ≥1040px (XL-Desktop, built 1280) | — |
+| — | not placed in any homepage template | — |
 
 ## Responsive rules
 
-- leftIcon=no, withSubItems=no, View=default, kind=CTAButton: 300×72, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — renders at (no breakpoint evidence)
-- leftIcon=no, withSubItems=no, View=default, kind=Weather: 300×80, horizontal gap 12 pad 0/0/0/0 main MIN cross CENTER — renders at (no breakpoint evidence)
-- leftIcon=yes, withSubItems=no, View=default, kind=main: 300×40, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — renders at (no breakpoint evidence)
-- leftIcon=yes, withSubItems=yes, View=closed, kind=main: 300×40, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — renders at (no breakpoint evidence)
-- leftIcon=no, withSubItems=no, View=default, kind=main: 300×40, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — renders at (no breakpoint evidence)
-- leftIcon=no, withSubItems=yes, View=closed, kind=main: 300×40, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — renders at (no breakpoint evidence)
-- leftIcon=no, withSubItems=no, View=default, kind=subItem: 300×40, horizontal gap 8 pad 0/0/0/16 main MIN cross CENTER — renders at (no breakpoint evidence)
-- leftIcon=no, withSubItems=yes, View=open, kind=main: 300×88, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — renders at (no breakpoint evidence)
-- leftIcon=no, withSubItems=no, View=default, kind=CTAMessage: 300×156, vertical gap 0 pad 16/0/0/0 main MIN cross MIN — renders at (no breakpoint evidence)
+- leftIcon=no, withSubItems=no, View=default, kind=CTAButton: 300×72, vertical gap 0 pad 0/0/0/0 main CENTER cross MIN — no breakpoint (not placed in a template)
+- leftIcon=no, withSubItems=no, View=default, kind=Weather: 300×80, horizontal gap 12 pad 0/0/0/0 main MIN cross CENTER — no breakpoint (not placed in a template)
+- leftIcon=yes, withSubItems=no, View=default, kind=main: 300×40, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — no breakpoint (not placed in a template)
+- leftIcon=yes, withSubItems=yes, View=closed, kind=main: 300×40, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — no breakpoint (not placed in a template)
+- leftIcon=no, withSubItems=no, View=default, kind=main: 300×40, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — no breakpoint (not placed in a template)
+- leftIcon=no, withSubItems=yes, View=closed, kind=main: 300×40, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — no breakpoint (not placed in a template)
+- leftIcon=no, withSubItems=no, View=default, kind=subItem: 300×40, horizontal gap 8 pad 0/0/0/16 main MIN cross CENTER — no breakpoint (not placed in a template)
+- leftIcon=no, withSubItems=yes, View=open, kind=main: 300×88, vertical gap 8 pad 0/0/0/0 main CENTER cross MIN — no breakpoint (not placed in a template)
+- leftIcon=no, withSubItems=no, View=default, kind=CTAMessage: 300×156, vertical gap 0 pad 16/0/0/0 main MIN cross MIN — no breakpoint (not placed in a template)
 
 ## Dependencies
 
 **Built from:**
 
-- Button Primary ×2 _(not in this export)_
+- Button Primary ×1 _(not in this export)_
 - [Weather Bug](../../components/25-weather-bug/weather-bug.md) ×1
-- Icons ×11 _(not in this export)_
+- Icons ×2 _(not in this export)_
 
 **Built into:**
 
@@ -104,7 +94,7 @@ exported: 2026-09-24
 ```
 - leftIcon=no, withSubItems=no, View=default, kind=CTAButton — component 300×72 [vertical gap 0] (fixed/hug)
   - Container — frame 300×72 [vertical gap 8] (fill/hug)
-    - Button Primary — instance 268×40 [vertical gap 8] (fill/fixed) → Button Primary [Icon=None, state=Default]
+    - Button Primary — instance 268×40 [vertical gap 8] (fill/hug) → Button Primary [Icon=None, State=Default, Breakpoint=Desktop]
 ```
 
 **leftIcon=no, withSubItems=no, View=default, kind=Weather**
@@ -123,7 +113,70 @@ exported: 2026-09-24
     - Item Name — text 260×22 (fill/hug) "Section Item Name"
 ```
 
-_6 more variants — full layer trees are in `sectionmenuitem.json` → `variants[].layerTree`._
+**leftIcon=yes, withSubItems=yes, View=closed, kind=main**
+
+```
+- leftIcon=yes, withSubItems=yes, View=closed, kind=main — component 300×40 [vertical gap 8] (fixed/fixed)
+  - Container — frame 300×40 [horizontal gap 8] (fill/hug)
+    - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=home]
+    - Item Name — text 212×22 (fill/hug) "Section Item Name"
+    - Submenu — frame 40×40 [vertical gap 8] (fixed/fixed)
+      - Icons — instance 16×16 [vertical gap 8] (fixed/fixed) → Icons [Name=arrow-downSMALL]
+```
+
+**leftIcon=no, withSubItems=no, View=default, kind=main**
+
+```
+- leftIcon=no, withSubItems=no, View=default, kind=main — component 300×40 [vertical gap 8] (fixed/fixed)
+  - Container — frame 300×40 [horizontal gap 8] (fill/fixed)
+    - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=home] (hidden)
+    - Item Name — text 284×22 (fill/hug) "Section Item Name"
+    - Submenu — frame 40×40 [vertical gap 8] (fixed/fixed) (hidden)
+      - Icons — instance 16×16 [vertical gap 8] (fixed/fixed) → Icons [Name=arrow-downSMALL]
+```
+
+**leftIcon=no, withSubItems=yes, View=closed, kind=main**
+
+```
+- leftIcon=no, withSubItems=yes, View=closed, kind=main — component 300×40 [vertical gap 8] (fixed/fixed)
+  - Container — frame 300×40 [horizontal gap 8] (fill/hug)
+    - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=home] (hidden)
+    - Item Name — text 236×22 (fill/hug) "Section Item Name"
+    - Submenu — frame 40×40 [vertical gap 8] (fixed/fixed)
+      - Icons — instance 16×16 [vertical gap 8] (fixed/fixed) → Icons [Name=arrow-downSMALL]
+```
+
+**leftIcon=no, withSubItems=no, View=default, kind=subItem**
+
+```
+- leftIcon=no, withSubItems=no, View=default, kind=subItem — component 300×40 [horizontal gap 8] (fixed/fixed)
+  - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=home]
+  - SubItem Name — text 212×22 (fill/hug) "SubSection Item Name"
+  - Submenu — frame 40×40 [vertical gap 8] (fixed/fixed)
+    - Icons — instance 16×16 [vertical gap 8] (fixed/fixed) → Icons [Name=arrow-upSmall] (hidden)
+```
+
+**leftIcon=no, withSubItems=yes, View=open, kind=main**
+
+```
+- leftIcon=no, withSubItems=yes, View=open, kind=main — component 300×88 [vertical gap 8] (fixed/hug)
+  - Container — frame 300×40 [horizontal gap 8] (fill/fixed)
+    - Icons — instance 16×16 [horizontal gap 8] (fixed/fixed) → Icons [Name=home] (hidden)
+    - Item Name — text 236×22 (fill/hug) "Section Item Name"
+    - Submenu — frame 40×40 [vertical gap 8] (fixed/fixed)
+      - Icons — instance 16×16 [vertical gap 8] (fixed/fixed) → Icons [Name=arrow-upSmall]
+  - SectionMenuItem — instance 300×40 [horizontal gap 8] (fixed/fixed) → SectionMenuItem [leftIcon=no, withSubItems=no, View=default, kind=subItem]
+```
+
+**leftIcon=no, withSubItems=no, View=default, kind=CTAMessage**
+
+```
+- leftIcon=no, withSubItems=no, View=default, kind=CTAMessage — component 300×156 [vertical gap 0] (fixed/hug)
+  - Divider — line 300×0 (fill/fixed)
+  - Container — frame 300×140 [vertical gap 8] (fill/hug)
+    - CTA Text — text 268×44 (fill/hug) "Sign up for newsletters and alerts"
+    - Button Primary — instance 268×40 [vertical gap 8] (fill/hug) → Button Primary [Icon=None, State=Default, Breakpoint=Desktop]
+```
 
 ## Size & layout
 
@@ -141,11 +194,11 @@ _6 more variants — full layer trees are in `sectionmenuitem.json` → `variant
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Item Name | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | Section Item Name |
-| SubItem Name | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  | SubSection Item Name |
-| CTA Text | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Sign up for newsletters and alerts |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Item Name | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Section Item Name | leftIcon=yes, withSubItems=no, View=default, kind=main, leftIcon=yes, withSubItems=yes, View=closed, kind=main, leftIcon=no, withSubItems=no, View=default, kind=main, leftIcon=no, withSubItems=yes, View=closed, kind=main, leftIcon=no, withSubItems=yes, View=open, kind=main |
+| SubItem Name | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | SubSection Item Name | leftIcon=no, withSubItems=no, View=default, kind=subItem |
+| CTA Text | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Sign up for newsletters and alerts | leftIcon=no, withSubItems=no, View=default, kind=CTAMessage |
 
 ## Color & effects
 
@@ -153,14 +206,16 @@ _6 more variants — full layer trees are in `sectionmenuitem.json` → `variant
 |---|---|---|---|---|---|---|
 | leftIcon=no, withSubItems=no, View=default, kind=CTAButton | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | leftIcon=no, withSubItems=no, View=default, kind=Weather | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| Weather Bug | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | leftIcon=yes, withSubItems=no, View=default, kind=main | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | leftIcon=yes, withSubItems=yes, View=closed, kind=main | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | leftIcon=no, withSubItems=no, View=default, kind=main | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | leftIcon=no, withSubItems=yes, View=closed, kind=main | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | leftIcon=no, withSubItems=no, View=default, kind=subItem | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | leftIcon=no, withSubItems=yes, View=open, kind=main | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
+| SectionMenuItem | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | leftIcon=no, withSubItems=no, View=default, kind=CTAMessage | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
-| Line 10 | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
+| Divider | stroke | SOLID | #CCCAC7 | Colors/color/gray/500 |  |  |
 
 ## Image ratios
 

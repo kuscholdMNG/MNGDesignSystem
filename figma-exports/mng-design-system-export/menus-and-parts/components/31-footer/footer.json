@@ -14,12 +14,7 @@
   "fileKey": "b1iZxkFwtAYq9rElmnCAzd",
   "fileName": "WordPress Elements",
   "page": "Menus and Parts",
-  "path": [
-   "Frame 12800",
-   "Frame 416",
-   "Frame 415",
-   "Frame 12774"
-  ],
+  "path": "Frame 12800 ▸ Frame 416 ▸ Frame 415 ▸ Frame 12774",
   "mainId": "354:1282",
   "mainKey": "9d3371e98d00532989e69d29025b4d6193a60848",
   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=354-1282",
@@ -95,14 +90,8 @@
      "340 HomePage": 1
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340"
-    ],
-    "observedBreakpoints": [
-     "340"
-    ],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340"
     ]
@@ -111,41 +100,30 @@
     "label": "Device=SM-Mobile",
     "id": "354:1199",
     "templatesDirect": {
-     "Mobile HomePage": 1,
-     "768 HomePage": 1
+     "Mobile HomePage": 1
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
+    "inComponents": {},
+    "other": {
      "Menus and Parts ▸ Frame 12800": 12,
-     "Section Front ▸ Frame 11639": 1,
-     "Article Page ▸ Frame 11672": 2
+     "Article Page ▸ Frame 11672": 2,
+     "Section Front ▸ Frame 11639": 1
     },
-    "declaredBreakpoints": [
-     "360"
-    ],
-    "observedBreakpoints": [
-     "360",
-     "768"
-    ],
     "breakpoints": [
-     "360",
-     "768"
+     "360"
     ]
    },
    {
     "label": "Device=MD-TabletV",
     "id": "354:1106",
-    "templatesDirect": {},
+    "templatesDirect": {
+     "768 HomePage": 1
+    },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
+    "inComponents": {},
+    "other": {
      "Menus and Parts ▸ Frame 12800": 4
     },
-    "declaredBreakpoints": [
-     "768"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "768"
     ]
@@ -153,16 +131,14 @@
    {
     "label": "Device=LG-TabletH",
     "id": "354:1013",
-    "templatesDirect": {},
+    "templatesDirect": {
+     "1024 HomePage": 1
+    },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
+    "inComponents": {},
+    "other": {
      "Menus and Parts ▸ Frame 12800": 6
     },
-    "declaredBreakpoints": [
-     "1024"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "1024"
     ]
@@ -171,28 +147,17 @@
     "label": "Device=XL-Desktop",
     "id": "354:920",
     "templatesDirect": {
-     "1024 HomePage": 1,
-     "1100 HomePage": 1,
-     "Desktop HomePage": 1
+     "Desktop HomePage": 1,
+     "1100 HomePage": 1
     },
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
+    "inComponents": {},
+    "other": {
      "Menus and Parts ▸ Frame 12800": 7,
-     "Section Front ▸ Frame 11639": 1,
-     "Article Page ▸ Frame 11672": 2
+     "Article Page ▸ Frame 11672": 2,
+     "Section Front ▸ Frame 11639": 1
     },
-    "declaredBreakpoints": [
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [
-     "1024",
-     "1100",
-     "1280"
-    ],
     "breakpoints": [
-     "1024",
      "1100",
      "1280"
     ]
@@ -203,14 +168,14 @@
   "builtFrom": [
    {
     "name": "Icons",
-    "count": 12,
+    "count": 6,
     "inExport": false,
     "section": null,
     "path": null
    },
    {
     "name": "Button Primary",
-    "count": 5,
+    "count": 1,
     "inExport": false,
     "section": null,
     "path": null
@@ -256,7 +221,7 @@
     {
      "type": "SOLID",
      "hex": "#000000",
-     "opacity": 0.3
+     "variable": "Colors/color/gray/black"
     }
    ],
    "radius": null,
@@ -299,7 +264,7 @@
      {
       "type": "SOLID",
       "hex": "#000000",
-      "opacity": 0.3
+      "variable": "Colors/color/gray/black"
      }
     ],
     "strokeWeight": [
@@ -311,7 +276,7 @@
     "strokeAlign": "INSIDE",
     "children": [
      {
-      "name": "Frame 50",
+      "name": "Footer Content",
       "type": "FRAME",
       "id": "422:523",
       "w": 340,
@@ -336,7 +301,7 @@
       },
       "children": [
        {
-        "name": "Group 11389",
+        "name": "Logo Artwork",
         "type": "GROUP",
         "id": "456:601",
         "w": 235.2,
@@ -639,7 +604,7 @@
         ]
        },
        {
-        "name": "Frame 354",
+        "name": "Link List Wrapper",
         "type": "FRAME",
         "id": "422:550",
         "w": 320,
@@ -664,7 +629,7 @@
         },
         "children": [
          {
-          "name": "Frame 353",
+          "name": "Link List",
           "type": "FRAME",
           "id": "422:551",
           "w": 320,
@@ -689,7 +654,7 @@
           },
           "children": [
            {
-            "name": "Frame 271",
+            "name": "Link Row",
             "type": "FRAME",
             "id": "422:552",
             "w": 320,
@@ -714,7 +679,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "422:553",
               "w": 320,
@@ -736,7 +701,7 @@
               "strokeAlign": "CENTER"
              },
              {
-              "name": "Frame 11798",
+              "name": "SubScribe Link",
               "type": "FRAME",
               "id": "422:554",
               "w": 320,
@@ -823,7 +788,7 @@
                  "Name": "arrow-down2"
                 },
                 "componentKey": "32cf1aa13ad5f6026be3eec06cb6d3c0b990b19d",
-                "mainId": "3493:81059",
+                "mainId": "3527:18596",
                 "props": {}
                }
               ]
@@ -831,7 +796,7 @@
             ]
            },
            {
-            "name": "Frame 268",
+            "name": "Link Row",
             "type": "FRAME",
             "id": "422:558",
             "w": 320,
@@ -856,7 +821,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "422:559",
               "w": 320,
@@ -878,7 +843,7 @@
               "strokeAlign": "CENTER"
              },
              {
-              "name": "Frame 11798",
+              "name": "Marketplace Link",
               "type": "FRAME",
               "id": "422:560",
               "w": 320,
@@ -965,7 +930,7 @@
                  "Name": "arrow-down2"
                 },
                 "componentKey": "32cf1aa13ad5f6026be3eec06cb6d3c0b990b19d",
-                "mainId": "3493:81059",
+                "mainId": "3527:18596",
                 "props": {}
                }
               ]
@@ -973,7 +938,7 @@
             ]
            },
            {
-            "name": "Frame 266",
+            "name": "Link Row",
             "type": "FRAME",
             "id": "422:564",
             "w": 320,
@@ -998,7 +963,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "422:565",
               "w": 320,
@@ -1020,7 +985,7 @@
               "strokeAlign": "CENTER"
              },
              {
-              "name": "Frame 11798",
+              "name": "About OC Register Link",
               "type": "FRAME",
               "id": "422:566",
               "w": 320,
@@ -1107,7 +1072,7 @@
                  "Name": "arrow-down2"
                 },
                 "componentKey": "32cf1aa13ad5f6026be3eec06cb6d3c0b990b19d",
-                "mainId": "3493:81059",
+                "mainId": "3527:18596",
                 "props": {}
                }
               ]
@@ -1115,7 +1080,7 @@
             ]
            },
            {
-            "name": "Frame 270",
+            "name": "Link Row",
             "type": "FRAME",
             "id": "422:570",
             "w": 320,
@@ -1140,7 +1105,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "422:571",
               "w": 320,
@@ -1162,7 +1127,7 @@
               "strokeAlign": "CENTER"
              },
              {
-              "name": "Frame 11798",
+              "name": "Advertising Solutions Link",
               "type": "FRAME",
               "id": "422:572",
               "w": 320,
@@ -1249,7 +1214,7 @@
                  "Name": "arrow-down2"
                 },
                 "componentKey": "32cf1aa13ad5f6026be3eec06cb6d3c0b990b19d",
-                "mainId": "3493:81059",
+                "mainId": "3527:18596",
                 "props": {}
                }
               ]
@@ -1257,7 +1222,7 @@
             ]
            },
            {
-            "name": "Frame 269",
+            "name": "Link Row",
             "type": "FRAME",
             "id": "422:576",
             "w": 320,
@@ -1282,7 +1247,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "422:577",
               "w": 320,
@@ -1304,7 +1269,7 @@
               "strokeAlign": "CENTER"
              },
              {
-              "name": "Frame 11798",
+              "name": "Contact us Link",
               "type": "FRAME",
               "id": "422:578",
               "w": 320,
@@ -1391,7 +1356,7 @@
                  "Name": "arrow-down2"
                 },
                 "componentKey": "32cf1aa13ad5f6026be3eec06cb6d3c0b990b19d",
-                "mainId": "3493:81059",
+                "mainId": "3527:18596",
                 "props": {}
                }
               ]
@@ -1399,7 +1364,7 @@
             ]
            },
            {
-            "name": "Frame 273",
+            "name": "Link Row",
             "type": "FRAME",
             "id": "422:582",
             "w": 320,
@@ -1424,7 +1389,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "422:583",
               "w": 320,
@@ -1446,7 +1411,7 @@
               "strokeAlign": "CENTER"
              },
              {
-              "name": "Frame 11798",
+              "name": "Partners Link",
               "type": "FRAME",
               "id": "422:584",
               "w": 320,
@@ -1533,7 +1498,7 @@
                  "Name": "arrow-down2"
                 },
                 "componentKey": "32cf1aa13ad5f6026be3eec06cb6d3c0b990b19d",
-                "mainId": "3493:81059",
+                "mainId": "3527:18596",
                 "props": {}
                }
               ]
@@ -1550,7 +1515,7 @@
             "y": 414,
             "sizing": {
              "h": "FILL",
-             "v": "FIXED"
+             "v": "HUG"
             },
             "layout": {
              "dir": "VERTICAL",
@@ -1561,16 +1526,17 @@
               0,
               8
              ],
-             "main": "CENTER",
-             "cross": "CENTER"
+             "main": "MIN",
+             "cross": "MIN"
             },
             "component": "Button Primary",
             "variant": {
              "Icon": "None",
-             "state": "Default"
+             "State": "Default",
+             "Breakpoint": "Desktop"
             },
             "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-            "mainId": "3493:81371"
+            "mainId": "3532:28385"
            }
           ]
          }
@@ -1579,7 +1545,7 @@
       ]
      },
      {
-      "name": "Frame 47",
+      "name": "Footer Bottom",
       "type": "FRAME",
       "id": "422:592",
       "w": 340,
@@ -1618,7 +1584,7 @@
       "strokeAlign": "INSIDE",
       "children": [
        {
-        "name": "Frame 300",
+        "name": "Legal Bar",
         "type": "FRAME",
         "id": "422:593",
         "w": 276,
@@ -1643,7 +1609,7 @@
         },
         "children": [
          {
-          "name": "Frame 266",
+          "name": "Legal Links",
           "type": "FRAME",
           "id": "422:594",
           "w": 276,
@@ -1982,14 +1948,13 @@
     {
      "type": "SOLID",
      "hex": "#000000",
-     "opacity": 0.3
+     "variable": "Colors/color/gray/black"
     }
    ],
    "radius": null,
    "preview": "previews/footer--sm-mobile.png",
    "breakpoints": [
-    "360",
-    "768"
+    "360"
    ],
    "layerTree": {
     "name": "Device=SM-Mobile",
@@ -2026,7 +1991,7 @@
      {
       "type": "SOLID",
       "hex": "#000000",
-      "opacity": 0.3
+      "variable": "Colors/color/gray/black"
      }
     ],
     "strokeWeight": [
@@ -2038,7 +2003,7 @@
     "strokeAlign": "INSIDE",
     "children": [
      {
-      "name": "Frame 50",
+      "name": "Footer Content",
       "type": "FRAME",
       "id": "354:1200",
       "w": 360,
@@ -2063,7 +2028,7 @@
       },
       "children": [
        {
-        "name": "Group 11389",
+        "name": "Logo Artwork",
         "type": "GROUP",
         "id": "456:582",
         "w": 235.2,
@@ -2366,7 +2331,7 @@
         ]
        },
        {
-        "name": "Frame 354",
+        "name": "Link List Wrapper",
         "type": "FRAME",
         "id": "354:1227",
         "w": 340,
@@ -2391,7 +2356,7 @@
         },
         "children": [
          {
-          "name": "Frame 353",
+          "name": "Link List",
           "type": "FRAME",
           "id": "354:1228",
           "w": 340,
@@ -2416,7 +2381,7 @@
           },
           "children": [
            {
-            "name": "Frame 271",
+            "name": "Link Row",
             "type": "FRAME",
             "id": "354:1229",
             "w": 340,
@@ -2441,7 +2406,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1230",
               "w": 340,
@@ -2463,7 +2428,7 @@
               "strokeAlign": "CENTER"
              },
              {
-              "name": "Frame 11798",
+              "name": "SubScribe Link",
               "type": "FRAME",
               "id": "354:1231",
               "w": 340,
@@ -2550,7 +2515,7 @@
                  "Name": "arrow-down2"
                 },
                 "componentKey": "32cf1aa13ad5f6026be3eec06cb6d3c0b990b19d",
-                "mainId": "3493:81059",
+                "mainId": "3527:18596",
                 "props": {}
                }
               ]
@@ -2558,7 +2523,7 @@
             ]
            },
            {
-            "name": "Frame 268",
+            "name": "Link Row",
             "type": "FRAME",
             "id": "354:1235",
             "w": 340,
@@ -2583,7 +2548,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1236",
               "w": 340,
@@ -2605,7 +2570,7 @@
               "strokeAlign": "CENTER"
              },
              {
-              "name": "Frame 11798",
+              "name": "Marketplace Link",
               "type": "FRAME",
               "id": "354:1237",
               "w": 340,
@@ -2692,7 +2657,7 @@
                  "Name": "arrow-down2"
                 },
                 "componentKey": "32cf1aa13ad5f6026be3eec06cb6d3c0b990b19d",
-                "mainId": "3493:81059",
+                "mainId": "3527:18596",
                 "props": {}
                }
               ]
@@ -2700,7 +2665,7 @@
             ]
            },
            {
-            "name": "Frame 266",
+            "name": "Link Row",
             "type": "FRAME",
             "id": "354:1241",
             "w": 340,
@@ -2725,7 +2690,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1242",
               "w": 340,
@@ -2747,7 +2712,7 @@
               "strokeAlign": "CENTER"
              },
              {
-              "name": "Frame 11798",
+              "name": "About OC Register Link",
               "type": "FRAME",
               "id": "354:1243",
               "w": 340,
@@ -2834,7 +2799,7 @@
                  "Name": "arrow-down2"
                 },
                 "componentKey": "32cf1aa13ad5f6026be3eec06cb6d3c0b990b19d",
-                "mainId": "3493:81059",
+                "mainId": "3527:18596",
                 "props": {}
                }
               ]
@@ -2842,7 +2807,7 @@
             ]
            },
            {
-            "name": "Frame 270",
+            "name": "Link Row",
             "type": "FRAME",
             "id": "354:1247",
             "w": 340,
@@ -2867,7 +2832,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1248",
               "w": 340,
@@ -2889,7 +2854,7 @@
               "strokeAlign": "CENTER"
              },
              {
-              "name": "Frame 11798",
+              "name": "Advertising Solutions Link",
               "type": "FRAME",
               "id": "354:1249",
               "w": 340,
@@ -2976,7 +2941,7 @@
                  "Name": "arrow-down2"
                 },
                 "componentKey": "32cf1aa13ad5f6026be3eec06cb6d3c0b990b19d",
-                "mainId": "3493:81059",
+                "mainId": "3527:18596",
                 "props": {}
                }
               ]
@@ -2984,7 +2949,7 @@
             ]
            },
            {
-            "name": "Frame 269",
+            "name": "Link Row",
             "type": "FRAME",
             "id": "354:1253",
             "w": 340,
@@ -3009,7 +2974,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1254",
               "w": 340,
@@ -3031,7 +2996,7 @@
               "strokeAlign": "CENTER"
              },
              {
-              "name": "Frame 11798",
+              "name": "Contact us Link",
               "type": "FRAME",
               "id": "354:1255",
               "w": 340,
@@ -3118,7 +3083,7 @@
                  "Name": "arrow-down2"
                 },
                 "componentKey": "32cf1aa13ad5f6026be3eec06cb6d3c0b990b19d",
-                "mainId": "3493:81059",
+                "mainId": "3527:18596",
                 "props": {}
                }
               ]
@@ -3126,7 +3091,7 @@
             ]
            },
            {
-            "name": "Frame 273",
+            "name": "Link Row",
             "type": "FRAME",
             "id": "354:1259",
             "w": 340,
@@ -3151,7 +3116,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1260",
               "w": 340,
@@ -3173,7 +3138,7 @@
               "strokeAlign": "CENTER"
              },
              {
-              "name": "Frame 11798",
+              "name": "Partners Link",
               "type": "FRAME",
               "id": "354:1261",
               "w": 340,
@@ -3260,7 +3225,7 @@
                  "Name": "arrow-down2"
                 },
                 "componentKey": "32cf1aa13ad5f6026be3eec06cb6d3c0b990b19d",
-                "mainId": "3493:81059",
+                "mainId": "3527:18596",
                 "props": {}
                }
               ]
@@ -3277,7 +3242,7 @@
             "y": 414,
             "sizing": {
              "h": "FILL",
-             "v": "FIXED"
+             "v": "HUG"
             },
             "layout": {
              "dir": "VERTICAL",
@@ -3288,16 +3253,17 @@
               0,
               8
              ],
-             "main": "CENTER",
-             "cross": "CENTER"
+             "main": "MIN",
+             "cross": "MIN"
             },
             "component": "Button Primary",
             "variant": {
              "Icon": "None",
-             "state": "Default"
+             "State": "Default",
+             "Breakpoint": "Desktop"
             },
             "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-            "mainId": "3493:81371"
+            "mainId": "3532:28385"
            }
           ]
          }
@@ -3306,7 +3272,7 @@
       ]
      },
      {
-      "name": "Frame 47",
+      "name": "Footer Bottom",
       "type": "FRAME",
       "id": "354:1269",
       "w": 360,
@@ -3345,7 +3311,7 @@
       "strokeAlign": "INSIDE",
       "children": [
        {
-        "name": "Frame 300",
+        "name": "Legal Bar",
         "type": "FRAME",
         "id": "354:1270",
         "w": 276,
@@ -3370,7 +3336,7 @@
         },
         "children": [
          {
-          "name": "Frame 266",
+          "name": "Legal Links",
           "type": "FRAME",
           "id": "354:1271",
           "w": 276,
@@ -3709,7 +3675,7 @@
     {
      "type": "SOLID",
      "hex": "#000000",
-     "opacity": 0.3
+     "variable": "Colors/color/gray/black"
     }
    ],
    "radius": null,
@@ -3752,7 +3718,7 @@
      {
       "type": "SOLID",
       "hex": "#000000",
-      "opacity": 0.3
+      "variable": "Colors/color/gray/black"
      }
     ],
     "strokeWeight": [
@@ -3764,7 +3730,7 @@
     "strokeAlign": "INSIDE",
     "children": [
      {
-      "name": "Frame 50",
+      "name": "Footer Content",
       "type": "FRAME",
       "id": "354:1107",
       "w": 768,
@@ -3789,7 +3755,7 @@
       },
       "children": [
        {
-        "name": "Group 11389",
+        "name": "Logo Artwork",
         "type": "GROUP",
         "id": "456:563",
         "w": 208,
@@ -4092,7 +4058,7 @@
         ]
        },
        {
-        "name": "Frame 354",
+        "name": "Link Columns",
         "type": "FRAME",
         "id": "354:1134",
         "w": 688,
@@ -4167,7 +4133,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1137",
               "w": 328,
@@ -4414,7 +4380,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1145",
               "w": 328,
@@ -4593,7 +4559,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1152",
               "w": 328,
@@ -4869,7 +4835,7 @@
           },
           "children": [
            {
-            "name": "Frame 294",
+            "name": "Link List",
             "type": "FRAME",
             "id": "354:1168",
             "w": 328,
@@ -4919,7 +4885,7 @@
               },
               "children": [
                {
-                "name": "Line 1",
+                "name": "Divider",
                 "type": "VECTOR",
                 "id": "354:1161",
                 "w": 328,
@@ -5133,7 +5099,7 @@
               },
               "children": [
                {
-                "name": "Line 1",
+                "name": "Divider",
                 "type": "VECTOR",
                 "id": "354:1170",
                 "w": 328,
@@ -5380,7 +5346,7 @@
               },
               "children": [
                {
-                "name": "Line 1",
+                "name": "Divider",
                 "type": "VECTOR",
                 "id": "354:1178",
                 "w": 328,
@@ -5536,7 +5502,7 @@
               ]
              },
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1183",
               "w": 328,
@@ -5567,7 +5533,7 @@
               "y": 598,
               "sizing": {
                "h": "FILL",
-               "v": "FIXED"
+               "v": "HUG"
               },
               "layout": {
                "dir": "VERTICAL",
@@ -5578,16 +5544,17 @@
                 0,
                 8
                ],
-               "main": "CENTER",
-               "cross": "CENTER"
+               "main": "MIN",
+               "cross": "MIN"
               },
               "component": "Button Primary",
               "variant": {
                "Icon": "None",
-               "state": "Default"
+               "State": "Default",
+               "Breakpoint": "Desktop"
               },
               "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-              "mainId": "3493:81371"
+              "mainId": "3532:28385"
              }
             ]
            }
@@ -5598,7 +5565,7 @@
       ]
      },
      {
-      "name": "Frame 47",
+      "name": "Footer Bottom",
       "type": "FRAME",
       "id": "354:1188",
       "w": 768,
@@ -5637,7 +5604,7 @@
       "strokeAlign": "INSIDE",
       "children": [
        {
-        "name": "Frame 300",
+        "name": "Legal Bar",
         "type": "FRAME",
         "id": "354:1189",
         "w": 688,
@@ -5662,7 +5629,7 @@
         },
         "children": [
          {
-          "name": "Frame 266",
+          "name": "Legal Links",
           "type": "FRAME",
           "id": "354:1190",
           "w": 688,
@@ -6003,7 +5970,7 @@
     {
      "type": "SOLID",
      "hex": "#000000",
-     "opacity": 0.3
+     "variable": "Colors/color/gray/black"
     }
    ],
    "radius": null,
@@ -6046,7 +6013,7 @@
      {
       "type": "SOLID",
       "hex": "#000000",
-      "opacity": 0.3
+      "variable": "Colors/color/gray/black"
      }
     ],
     "strokeWeight": [
@@ -6058,7 +6025,7 @@
     "strokeAlign": "INSIDE",
     "children": [
      {
-      "name": "Frame 50",
+      "name": "Footer Content",
       "type": "FRAME",
       "id": "354:1014",
       "w": 1024,
@@ -6083,7 +6050,7 @@
       },
       "children": [
        {
-        "name": "Group 11389",
+        "name": "Logo Artwork",
         "type": "GROUP",
         "id": "456:544",
         "w": 212,
@@ -6386,7 +6353,7 @@
         ]
        },
        {
-        "name": "Frame 354",
+        "name": "Link Columns",
         "type": "FRAME",
         "id": "354:1041",
         "w": 944,
@@ -6461,7 +6428,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1044",
               "w": 293.3,
@@ -6708,7 +6675,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1052",
               "w": 293.3,
@@ -6914,7 +6881,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1059",
               "w": 293.3,
@@ -7188,7 +7155,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1068",
               "w": 293.3,
@@ -7404,7 +7371,7 @@
           },
           "children": [
            {
-            "name": "Frame 294",
+            "name": "Link List",
             "type": "FRAME",
             "id": "354:1075",
             "w": 293.3,
@@ -7454,7 +7421,7 @@
               },
               "children": [
                {
-                "name": "Line 1",
+                "name": "Divider",
                 "type": "VECTOR",
                 "id": "354:1077",
                 "w": 293.3,
@@ -7701,7 +7668,7 @@
               },
               "children": [
                {
-                "name": "Line 1",
+                "name": "Divider",
                 "type": "VECTOR",
                 "id": "354:1085",
                 "w": 293.3,
@@ -7857,7 +7824,7 @@
               ]
              },
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:1090",
               "w": 293.3,
@@ -7888,7 +7855,7 @@
               "y": 404,
               "sizing": {
                "h": "FILL",
-               "v": "FIXED"
+               "v": "HUG"
               },
               "layout": {
                "dir": "VERTICAL",
@@ -7899,16 +7866,17 @@
                 0,
                 8
                ],
-               "main": "CENTER",
-               "cross": "CENTER"
+               "main": "MIN",
+               "cross": "MIN"
               },
               "component": "Button Primary",
               "variant": {
                "Icon": "None",
-               "state": "Default"
+               "State": "Default",
+               "Breakpoint": "Desktop"
               },
               "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-              "mainId": "3493:81371"
+              "mainId": "3532:28385"
              }
             ]
            }
@@ -7919,7 +7887,7 @@
       ]
      },
      {
-      "name": "Frame 47",
+      "name": "Footer Bottom",
       "type": "FRAME",
       "id": "354:1095",
       "w": 1024,
@@ -7958,7 +7926,7 @@
       "strokeAlign": "INSIDE",
       "children": [
        {
-        "name": "Frame 300",
+        "name": "Legal Bar",
         "type": "FRAME",
         "id": "354:1096",
         "w": 944,
@@ -7983,7 +7951,7 @@
         },
         "children": [
          {
-          "name": "Frame 266",
+          "name": "Legal Links",
           "type": "FRAME",
           "id": "354:1097",
           "w": 944,
@@ -8324,13 +8292,12 @@
     {
      "type": "SOLID",
      "hex": "#000000",
-     "opacity": 0.3
+     "variable": "Colors/color/gray/black"
     }
    ],
    "radius": null,
    "preview": "previews/footer--xl-desktop.png",
    "breakpoints": [
-    "1024",
     "1100",
     "1280"
    ],
@@ -8369,7 +8336,7 @@
      {
       "type": "SOLID",
       "hex": "#000000",
-      "opacity": 0.3
+      "variable": "Colors/color/gray/black"
      }
     ],
     "strokeWeight": [
@@ -8381,7 +8348,7 @@
     "strokeAlign": "INSIDE",
     "children": [
      {
-      "name": "Frame 50",
+      "name": "Footer Content",
       "type": "FRAME",
       "id": "354:921",
       "w": 1280,
@@ -8406,7 +8373,7 @@
       },
       "children": [
        {
-        "name": "Group 11389",
+        "name": "Logo Artwork",
         "type": "GROUP",
         "id": "456:524",
         "w": 235.2,
@@ -8709,7 +8676,7 @@
         ]
        },
        {
-        "name": "Frame 354",
+        "name": "Link Columns",
         "type": "FRAME",
         "id": "354:948",
         "w": 1200,
@@ -8784,7 +8751,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:951",
               "w": 214.4,
@@ -9031,7 +8998,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:959",
               "w": 214.4,
@@ -9237,7 +9204,7 @@
             },
             "children": [
              {
-              "name": "Line 1",
+              "name": "Divider",
               "type": "VECTOR",
               "id": "354:966",
               "w": 214.4,
@@ -9513,7 +9480,7 @@
           },
           "children": [
            {
-            "name": "Line 1",
+            "name": "Divider",
             "type": "VECTOR",
             "id": "354:975",
             "w": 214.4,
@@ -9727,7 +9694,7 @@
           },
           "children": [
            {
-            "name": "Frame 294",
+            "name": "Link Group",
             "type": "FRAME",
             "id": "354:982",
             "w": 214.4,
@@ -9777,7 +9744,7 @@
               },
               "children": [
                {
-                "name": "Line 1",
+                "name": "Divider",
                 "type": "VECTOR",
                 "id": "354:984",
                 "w": 214.4,
@@ -10024,7 +9991,7 @@
               },
               "children": [
                {
-                "name": "Line 1",
+                "name": "Divider",
                 "type": "VECTOR",
                 "id": "354:992",
                 "w": 214.4,
@@ -10219,7 +10186,7 @@
             "y": 0,
             "sizing": {
              "h": "FILL",
-             "v": "FIXED"
+             "v": "HUG"
             },
             "layout": {
              "dir": "VERTICAL",
@@ -10230,16 +10197,17 @@
               0,
               8
              ],
-             "main": "CENTER",
-             "cross": "CENTER"
+             "main": "MIN",
+             "cross": "MIN"
             },
             "component": "Button Primary",
             "variant": {
              "Icon": "None",
-             "state": "Default"
+             "State": "Default",
+             "Breakpoint": "Desktop"
             },
             "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-            "mainId": "3493:81371"
+            "mainId": "3532:28385"
            }
           ]
          }
@@ -10248,7 +10216,7 @@
       ]
      },
      {
-      "name": "Frame 47",
+      "name": "Footer Bottom",
       "type": "FRAME",
       "id": "354:1002",
       "w": 1280,
@@ -10287,7 +10255,7 @@
       "strokeAlign": "INSIDE",
       "children": [
        {
-        "name": "Frame 300",
+        "name": "Legal Bar",
         "type": "FRAME",
         "id": "354:1003",
         "w": 1200,
@@ -10312,7 +10280,7 @@
         },
         "children": [
          {
-          "name": "Frame 266",
+          "name": "Legal Links",
           "type": "FRAME",
           "id": "354:1004",
           "w": 1200,
@@ -10629,6 +10597,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "SubScribe",
@@ -10651,6 +10620,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Marketplace",
@@ -10673,6 +10643,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "About OC Register",
@@ -10695,6 +10666,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Advertising Solutions",
@@ -10717,6 +10689,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Contact us",
@@ -10739,6 +10712,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Partners",
@@ -10761,6 +10735,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Privacy policy",
@@ -10783,6 +10758,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "terms of use",
@@ -10805,6 +10781,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "accessibility",
@@ -10827,6 +10804,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "cookie policy",
@@ -10849,6 +10827,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Do not sell my info",
@@ -10871,6 +10850,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "arbitration",
@@ -10893,6 +10873,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "powered by wordPress.com VIP",
@@ -10915,6 +10896,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Copyright © 2022 MediaNews Group",
@@ -10937,6 +10919,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Member Services",
@@ -10957,6 +10940,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Manage Subscriptions",
@@ -10977,6 +10961,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Store",
@@ -10997,6 +10982,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Archive search",
@@ -11017,6 +11003,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Reprints",
@@ -11037,6 +11024,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Place an Obituary",
@@ -11057,6 +11045,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Place a Real Estate Ad",
@@ -11077,6 +11066,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Lottery",
@@ -11097,6 +11087,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "About Southern California News Group",
@@ -11117,6 +11108,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "MediaNews Group",
@@ -11137,6 +11129,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Work With Us",
@@ -11157,6 +11150,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Privacy Policy",
@@ -11177,6 +11171,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Accessibility",
@@ -11197,6 +11192,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "News Archive",
@@ -11217,6 +11213,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Get in Touch with a Marketing Strategist",
@@ -11237,6 +11234,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Request Media Kit",
@@ -11257,6 +11255,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Creative Services",
@@ -11277,6 +11276,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Content Marketing",
@@ -11297,6 +11297,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Corrections",
@@ -11317,6 +11318,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "OC Register Store",
@@ -11337,6 +11339,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Reader Rewards",
@@ -11357,6 +11360,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Photo Reprints",
@@ -11377,6 +11381,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Sponsored Access",
@@ -11397,6 +11402,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Live Traffic Map",
@@ -11417,6 +11423,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Newspapers in Education",
@@ -11437,6 +11444,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Sponsor a Student",
@@ -11463,8 +11471,8 @@
    "role": "stroke",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
-   "opacity": 0.3,
+   "token": "Colors/color/gray/black",
+   "opacity": null,
    "note": "",
    "strokeWeight": [
     1,
@@ -11484,7 +11492,7 @@
    "strokeWeight": null
   },
   {
-   "layer": "Line 1",
+   "layer": "Divider",
    "role": "stroke",
    "type": "SOLID",
    "hex": "#141414",
@@ -11494,7 +11502,7 @@
    "strokeWeight": 2
   },
   {
-   "layer": "Frame 47",
+   "layer": "Footer Bottom",
    "role": "stroke",
    "type": "SOLID",
    "hex": "#141414",
@@ -11523,8 +11531,8 @@
    "role": "stroke",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
-   "opacity": 0.3,
+   "token": "Colors/color/gray/black",
+   "opacity": null,
    "note": "",
    "strokeWeight": [
     1,
@@ -11548,8 +11556,8 @@
    "role": "stroke",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
-   "opacity": 0.3,
+   "token": "Colors/color/gray/black",
+   "opacity": null,
    "note": "",
    "strokeWeight": [
     1,
@@ -11573,8 +11581,8 @@
    "role": "stroke",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
-   "opacity": 0.3,
+   "token": "Colors/color/gray/black",
+   "opacity": null,
    "note": "",
    "strokeWeight": [
     1,
@@ -11598,8 +11606,8 @@
    "role": "stroke",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
-   "opacity": 0.3,
+   "token": "Colors/color/gray/black",
+   "opacity": null,
    "note": "",
    "strokeWeight": [
     1,
@@ -11613,20 +11621,16 @@
  "adSlots": [],
  "responsiveRules": [
   "Device=XS-Fold: 340×871, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340",
-  "Device=SM-Mobile: 360×871, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 360, 768",
+  "Device=SM-Mobile: 360×871, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 360",
   "Device=MD-TabletV: 768×878.4, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768",
   "Device=LG-TabletH: 1024×681.3, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024",
-  "Device=XL-Desktop: 1280×597, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1024, 1100, 1280"
+  "Device=XL-Desktop: 1280×597, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 1100, 1280"
  ],
  "productionRefs": [
   "ocregister.com",
   "wordPress.com"
  ],
- "knownIssues": [
-  "`Device=SM-Mobile` is declared for 360 but is placed in template(s) at 768 — check the variant choice.",
-  "`Device=XL-Desktop` is declared for 1100, 1280 but is placed in template(s) at 1024 — check the variant choice.",
-  "5 solid paints are hard-coded (not bound to a color variable): #000000 ×5."
- ],
+ "knownIssues": [],
  "skeleton": "footer.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

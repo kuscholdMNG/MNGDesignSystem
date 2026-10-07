@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Search Field / Obituaries"]
 spec_json: search-field-obituaries-core.json
 skeleton: search-field-obituaries-core.html
-exported: 2026-09-24
+exported: 2026-10-07
 ---
 
 # Search Field / Obituaries — Core
@@ -22,8 +22,6 @@ exported: 2026-09-24
 **Designer notes on the canvas:**
 
 - Core visual (used internally by both Size variants above — not for direct use)
-- Search Field / Obituaries
-- Production padding (ocregister.com/obituaries) baked in per breakpoint: Mobile <640px uses a 360px reference (10px top/bottom, 7.2px left/right); Desktop ≥640px uses the 640px breakpoint itself (15px top/bottom, 12.8px left/right).
 
 ## Figma references
 
@@ -40,28 +38,23 @@ _None._
 
 ## Where it is used
 
-- **Search Field / Obituaries — Core** — breakpoints: —; nested inside: Search Field / Obituaries / Size=Mobile ×1, Search Field / Obituaries / Size=Desktop ×1
+- **Search Field / Obituaries — Core** — breakpoints: —; nested inside: Search Field / Obituaries / Size=Desktop ×1, Search Field / Obituaries / Size=Mobile ×1
 
 ## Breakpoints
 
 | Key | Viewport | Variant(s) |
 |---|---|---|
-| 340 | ≤639px (XS-Fold, built 340) | — |
-| 360 | ≤639px (SM-Mobile, built 360) | — |
-| 768 | 640–799px (MD-TabletV) | — |
-| 1024 | 800–1039px (LG-TabletH, built 1009) | — |
-| 1100 | ≥1040px (XL-Desktop, built 1085) | — |
-| 1280 | ≥1040px (XL-Desktop, built 1280) | — |
+| — | not placed in any homepage template | — |
 
 ## Responsive rules
 
-- Search Field / Obituaries — Core: 472×44, horizontal gap 8 pad 8/16/8/16 main SPACE_BETWEEN cross CENTER — renders at (no breakpoint evidence)
+- Search Field / Obituaries — Core: 472×44, horizontal gap 8 pad 8/16/8/16 main SPACE_BETWEEN cross CENTER — no breakpoint (not placed in a template)
 
 ## Dependencies
 
 **Built from:**
 
-- _nothing (leaf component)_
+_Nothing — leaf component._
 
 **Built into:**
 
@@ -74,11 +67,11 @@ _None._
 ```
 - Search Field / Obituaries — Core — component 472×44 [horizontal gap 8] (fixed/hug)
   - Placeholder Text — text 205×22 (hug/hug) "Search Obituaries by Name"
-  - Frame 11972 — frame 66×26 [horizontal gap 16] (hug/hug)
+  - Search Icons — frame 66×26 [horizontal gap 16] (hug/hug)
     - 135-search 1 — frame 26×26 (fixed/fixed)
-      - Vector — vector 26×26
+      - Search Glyph — vector 26×26
     - equalizer2 1 — frame 24×24 (fixed/fixed)
-      - Vector — vector 21×24
+      - Filter Glyph — vector 21×24
 ```
 
 ## Size & layout
@@ -89,9 +82,9 @@ _None._
 
 ## Typography
 
-| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Token | Truncate | Sample |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Placeholder Text | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  | Search Obituaries by Name |
+| Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Placeholder Text | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Search Obituaries by Name | all |
 
 ## Color & effects
 
@@ -99,7 +92,8 @@ _None._
 |---|---|---|---|---|---|---|
 | Search Field / Obituaries — Core | fill | SOLID | #FFFFFF | Colors/color/gray/max |  |  |
 | Search Field / Obituaries — Core | stroke | SOLID | #A7A6A3 | Colors/color/gray/400 |  |  |
-| Vector | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
+| Search Glyph | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
+| Filter Glyph | fill | SOLID | #141414 | Colors/color/gray/min |  |  |
 
 ## Image ratios
 
@@ -111,7 +105,7 @@ _None._
 
 ## Production references
 
-- `ocregister.com/obituaries`
+_None found in descriptions or layer names._
 
 ## Known issues
 

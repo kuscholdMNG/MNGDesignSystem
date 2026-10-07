@@ -12,14 +12,7 @@
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
   "page": "Form Fields | 2026.09.24",
-  "path": [
-   "Form Field & Code Box — Documentation",
-   "Frame 12915",
-   "Frame 12939",
-   "Frame 12922",
-   "Frame 12923",
-   "Grid Content"
-  ],
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12915 ▸ Frame 12939 ▸ Frame 12922 ▸ Frame 12923 ▸ Grid Content",
   "mainId": "6964:7032",
   "mainKey": "4d7a04191cf151ff9cd05b60e78c1b05c49f20b0",
   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6964-7032",
@@ -130,19 +123,12 @@
     "id": "6964:6999",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
+    "inComponents": {
      "Form Field Assembly / Verification Code / Size=Desktop": 6
     },
-    "otherPages": {
-     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 10
+    "other": {
+     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 5
     },
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "768",
      "1024",
@@ -155,17 +141,10 @@
     "id": "6964:7000",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
+    "inComponents": {},
+    "other": {
      "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 6
     },
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "768",
      "1024",
@@ -178,17 +157,10 @@
     "id": "6964:7008",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
-     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 2
+    "inComponents": {},
+    "other": {
+     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 1
     },
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "768",
      "1024",
@@ -201,15 +173,8 @@
     "id": "6964:7016",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768",
      "1024",
@@ -222,15 +187,8 @@
     "id": "6964:7024",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768",
      "1024",
@@ -243,17 +201,12 @@
     "id": "6972:7524",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
+    "inComponents": {
      "Form Field Assembly / Verification Code / Size=Mobile": 6
     },
-    "otherPages": {
-     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 10
+    "other": {
+     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 5
     },
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "340",
      "360"
@@ -264,15 +217,10 @@
     "id": "6972:7532",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
+    "inComponents": {},
+    "other": {
      "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 6
     },
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "340",
      "360"
@@ -283,15 +231,10 @@
     "id": "6972:7540",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
-     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 2
+    "inComponents": {},
+    "other": {
+     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 1
     },
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "340",
      "360"
@@ -302,13 +245,8 @@
     "id": "6972:7548",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -319,13 +257,8 @@
     "id": "6972:7556",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -507,7 +440,7 @@
       },
       "children": [
        {
-        "name": "Union",
+        "name": "Cursor",
         "type": "BOOLEAN_OPERATION",
         "id": "6964:6995",
         "w": 3,
@@ -521,7 +454,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#000000"
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
          }
         ],
         "children": [
@@ -536,7 +470,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -551,7 +486,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -566,7 +502,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          }
@@ -762,7 +699,7 @@
       },
       "children": [
        {
-        "name": "Union",
+        "name": "Cursor",
         "type": "BOOLEAN_OPERATION",
         "id": "6964:7004",
         "w": 3,
@@ -776,7 +713,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#000000"
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
          }
         ],
         "children": [
@@ -791,7 +729,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -806,7 +745,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -821,7 +761,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          }
@@ -875,7 +816,8 @@
    "strokes": [
     {
      "type": "SOLID",
-     "hex": "#000000"
+     "hex": "#000000",
+     "variable": "Colors/color/gray/black"
     }
    ],
    "radius": 3,
@@ -922,7 +864,8 @@
     "strokes": [
      {
       "type": "SOLID",
-      "hex": "#000000"
+      "hex": "#000000",
+      "variable": "Colors/color/gray/black"
      }
     ],
     "strokeWeight": 2,
@@ -999,7 +942,7 @@
       },
       "children": [
        {
-        "name": "Union",
+        "name": "Cursor",
         "type": "BOOLEAN_OPERATION",
         "id": "6964:7012",
         "w": 3,
@@ -1013,7 +956,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#000000"
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
          }
         ],
         "children": [
@@ -1028,7 +972,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -1043,7 +988,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -1058,7 +1004,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          }
@@ -1239,7 +1186,7 @@
       },
       "children": [
        {
-        "name": "Union",
+        "name": "Cursor",
         "type": "BOOLEAN_OPERATION",
         "id": "6964:7020",
         "w": 3,
@@ -1253,7 +1200,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#000000"
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
          }
         ],
         "children": [
@@ -1268,7 +1216,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -1283,7 +1232,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -1298,7 +1248,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          }
@@ -1479,7 +1430,7 @@
       },
       "children": [
        {
-        "name": "Union",
+        "name": "Cursor",
         "type": "BOOLEAN_OPERATION",
         "id": "6964:7028",
         "w": 3,
@@ -1493,7 +1444,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#000000"
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
          }
         ],
         "children": [
@@ -1508,7 +1460,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -1523,7 +1476,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -1538,7 +1492,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          }
@@ -1717,7 +1672,7 @@
       },
       "children": [
        {
-        "name": "Union",
+        "name": "Cursor",
         "type": "BOOLEAN_OPERATION",
         "id": "6972:7528",
         "w": 2.1,
@@ -1731,7 +1686,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#000000"
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
          }
         ],
         "children": [
@@ -1746,7 +1702,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -1761,7 +1718,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -1776,7 +1734,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          }
@@ -1970,7 +1929,7 @@
       },
       "children": [
        {
-        "name": "Union",
+        "name": "Cursor",
         "type": "BOOLEAN_OPERATION",
         "id": "6972:7536",
         "w": 2.1,
@@ -1984,7 +1943,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#000000"
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
          }
         ],
         "children": [
@@ -1999,7 +1959,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -2014,7 +1975,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -2029,7 +1991,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          }
@@ -2083,7 +2046,8 @@
    "strokes": [
     {
      "type": "SOLID",
-     "hex": "#000000"
+     "hex": "#000000",
+     "variable": "Colors/color/gray/black"
     }
    ],
    "radius": 3,
@@ -2128,7 +2092,8 @@
     "strokes": [
      {
       "type": "SOLID",
-      "hex": "#000000"
+      "hex": "#000000",
+      "variable": "Colors/color/gray/black"
      }
     ],
     "strokeWeight": 2,
@@ -2205,7 +2170,7 @@
       },
       "children": [
        {
-        "name": "Union",
+        "name": "Cursor",
         "type": "BOOLEAN_OPERATION",
         "id": "6972:7544",
         "w": 2.1,
@@ -2219,7 +2184,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#000000"
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
          }
         ],
         "children": [
@@ -2234,7 +2200,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -2249,7 +2216,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -2264,7 +2232,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          }
@@ -2443,7 +2412,7 @@
       },
       "children": [
        {
-        "name": "Union",
+        "name": "Cursor",
         "type": "BOOLEAN_OPERATION",
         "id": "6972:7552",
         "w": 2.1,
@@ -2457,7 +2426,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#000000"
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
          }
         ],
         "children": [
@@ -2472,7 +2442,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -2487,7 +2458,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -2502,7 +2474,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          }
@@ -2681,7 +2654,7 @@
       },
       "children": [
        {
-        "name": "Union",
+        "name": "Cursor",
         "type": "BOOLEAN_OPERATION",
         "id": "6972:7560",
         "w": 2.1,
@@ -2695,7 +2668,8 @@
         "fills": [
          {
           "type": "SOLID",
-          "hex": "#000000"
+          "hex": "#000000",
+          "variable": "Colors/color/gray/black"
          }
         ],
         "children": [
@@ -2710,7 +2684,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -2725,7 +2700,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          },
@@ -2740,7 +2716,8 @@
           "fills": [
            {
             "type": "SOLID",
-            "hex": "#000000"
+            "hex": "#000000",
+            "variable": "Colors/color/gray/black"
            }
           ]
          }
@@ -2770,6 +2747,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "5",
@@ -2788,6 +2766,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "5",
@@ -2818,11 +2797,11 @@
    "strokeWeight": 1
   },
   {
-   "layer": "Union",
+   "layer": "Cursor",
    "role": "fill",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
    "opacity": null,
    "note": "",
    "strokeWeight": null
@@ -2832,7 +2811,7 @@
    "role": "fill",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
    "opacity": null,
    "note": "",
    "strokeWeight": null
@@ -2842,7 +2821,7 @@
    "role": "fill",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
    "opacity": null,
    "note": "",
    "strokeWeight": null
@@ -2852,7 +2831,7 @@
    "role": "fill",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
    "opacity": null,
    "note": "",
    "strokeWeight": null
@@ -2892,7 +2871,7 @@
    "role": "stroke",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
    "opacity": null,
    "note": "",
    "strokeWeight": 2
@@ -2992,7 +2971,7 @@
    "role": "stroke",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
    "opacity": null,
    "note": "",
    "strokeWeight": 2
@@ -3054,9 +3033,8 @@
  ],
  "productionRefs": [],
  "knownIssues": [
-  "4 of 10 variants have no instances anywhere in MNG Design System (unused, or used only from another file): `Size=Desktop, State=Error`, `Size=Desktop, State=Disabled`, `Size=Mobile, State=Error`, `Size=Mobile, State=Disabled`.",
-  "42 solid paints are hard-coded (not bound to a color variable): #000000 ×42."
+  "4 of 10 variants have no instances anywhere in MNG Design System (unused, or used only from another file): `Size=Desktop, State=Error`, `Size=Desktop, State=Disabled`, `Size=Mobile, State=Error`, `Size=Mobile, State=Disabled`."
  ],
  "skeleton": "code-box.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }

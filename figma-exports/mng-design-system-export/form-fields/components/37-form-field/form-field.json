@@ -12,19 +12,13 @@
   "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
   "fileName": "MNG Design System",
   "page": "Form Fields | 2026.09.24",
-  "path": [
-   "Form Field & Code Box — Documentation",
-   "Frame 12911",
-   "Frame 12921",
-   "Frame 12912",
-   "Grid Content"
-  ],
+  "path": "Form Field & Code Box — Documentation ▸ Frame 12911 ▸ Frame 12921 ▸ Frame 12912 ▸ Grid Content",
   "mainId": "6963:6863",
   "mainKey": "65f91c028cc42238d00387a53f812f839bf58969",
   "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6963-6863",
   "variants": [
    {
-    "label": "Size=Desktop, State=Filled",
+    "label": "Size=Desktop, State=Blank",
     "id": "6962:6663",
     "key": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
     "url": "https://www.figma.com/design/jFHYqhZbJjvWQmDI4myCsd/?node-id=6962-6663"
@@ -86,8 +80,49 @@
   ]
  },
  "properties": {
+  "Label#6963:6": {
+   "type": "TEXT",
+   "default": "Field Label"
+  },
+  "Value#6963:7": {
+   "type": "TEXT",
+   "default": "Placeholder text"
+  },
+  "Error message#6963:8": {
+   "type": "TEXT",
+   "default": "Error message text."
+  },
+  "Show icon#6963:9": {
+   "type": "BOOLEAN",
+   "default": true
+  },
+  "Show label icon#6963:10": {
+   "type": "BOOLEAN",
+   "default": false
+  },
+  "Icon#6963:11": {
+   "type": "INSTANCE_SWAP",
+   "default": "2880:1506"
+  },
+  "Show right icon#6997:19": {
+   "type": "BOOLEAN",
+   "default": false
+  },
+  "Right icon#6997:30": {
+   "type": "INSTANCE_SWAP",
+   "default": "2880:1506"
+  },
+  "Show card badge#6997:41": {
+   "type": "BOOLEAN",
+   "default": false
+  },
+  "Card badge#6997:52": {
+   "type": "INSTANCE_SWAP",
+   "default": "4693:131"
+  },
   "Size": {
    "type": "VARIANT",
+   "default": "Desktop",
    "options": [
     "Desktop",
     "Mobile"
@@ -95,9 +130,10 @@
   },
   "State": {
    "type": "VARIANT",
+   "default": "Blank",
    "options": [
-    "Filled",
     "Blank",
+    "Filled",
     "Focus",
     "Error",
     "Disabled"
@@ -114,24 +150,40 @@
  ],
  "usage": {
   "templates": [],
-  "builtInto": [],
+  "builtInto": [
+   "Form Field Assembly / Name pair",
+   "Form Field Assembly / Zip + Street #",
+   "Form Field Assembly / Zip + Phone",
+   "Form Field Assembly / Address block",
+   "Form Field Assembly / CC details",
+   "Form Field Assembly / Password"
+  ],
   "perVariant": [
    {
-    "label": "Size=Desktop, State=Filled",
+    "label": "Size=Desktop, State=Blank",
     "id": "6962:6663",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
-     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 2
+    "inComponents": {
+     "ModalsCenter / Device=Desktop": 1,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
+     "Form Field Assembly / Zip + Street # / Size=Desktop": 2,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel": 4,
+     "ModalsCenter / Device=TabletH": 1,
+     "Form Field Assembly / Zip + Phone / Size=Desktop": 2,
+     "Form Field Assembly / CC details / Size=Desktop": 4,
+     "Form Field Assembly / Address block / Size=Desktop": 4,
+     "Modals/Desktop": 1,
+     "Form Field Assembly / Password / Size=Desktop": 2,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
+     "Form Field Assembly / Name pair / Size=Desktop": 2,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1
     },
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "other": {
+     "Modal Panels | 2025.12.29 ▸ Frame 12672": 3,
+     "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 3
+    },
     "breakpoints": [
      "768",
      "1024",
@@ -144,39 +196,29 @@
     "id": "6962:6683",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {
+    "inComponents": {
+     "ModalsCenter / Device=TabletV": 1,
      "Form Field Assembly / Zip + Phone / Size=Mobile": 2,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 4,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
      "Form Field Assembly / Address block / Size=Mobile": 4,
-     "Form Field Assembly / Name pair / Size=Mobile": 2,
-     "Form Field Assembly / Password / Size=Mobile": 2,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 7,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
      "ModalsCenter / Device=FOLD": 1,
      "InLineMessage / Device=Mobile, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
      "Form Field Assembly / CC details / Size=Mobile": 4,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 7,
-     "ModalsCenter / Device=TabletV": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
      "Form Field Assembly / Zip + Street # / Size=Mobile": 2,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
-     "ModalsCenter / Device=Mobile": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
-     "ModalsCenter / Device=MobileScroll": 1,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 4,
      "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1
+     "Form Field Assembly / Name pair / Size=Mobile": 2,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
+     "ModalsCenter / Device=MobileScroll": 1,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
+     "Form Field Assembly / Password / Size=Mobile": 2,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
+     "ModalsCenter / Device=Mobile": 1
     },
-    "otherPages": {
-     "In-Line Content Containers | 2026.01.02 ▸ Frame 8": 18,
-     "Modal Panels | 2025.12.29 ▸ Frame 12995": 3,
-     "***Buttons | 2026.02.27 ▸ Frame 11591": 1,
-     "Modal Panels | 2025.12.29 ▸ Frame 12672": 1
-    },
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -187,17 +229,10 @@
     "id": "6962:6703",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {
+    "inComponents": {},
+    "other": {
      "Form Fields | 2026.09.24 ▸ Form Field & Code Box — Documentation": 2
     },
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
     "breakpoints": [
      "768",
      "1024",
@@ -210,15 +245,8 @@
     "id": "6962:6723",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768",
      "1024",
@@ -231,15 +259,8 @@
     "id": "6962:6743",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768",
      "1024",
@@ -252,15 +273,8 @@
     "id": "6962:6763",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "768",
-     "1024",
-     "1100",
-     "1280"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "768",
      "1024",
@@ -273,13 +287,8 @@
     "id": "6962:6783",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -290,13 +299,8 @@
     "id": "6962:6803",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -307,13 +311,8 @@
     "id": "6962:6823",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -324,13 +323,8 @@
     "id": "6962:6843",
     "templatesDirect": {},
     "templatesVia": {},
-    "nestedIn": {},
-    "otherPages": {},
-    "declaredBreakpoints": [
-     "340",
-     "360"
-    ],
-    "observedBreakpoints": [],
+    "inComponents": {},
+    "other": {},
     "breakpoints": [
      "340",
      "360"
@@ -342,20 +336,45 @@
   "builtFrom": [
    {
     "name": "Icons",
-    "count": 30,
+    "count": 3,
     "inExport": false,
     "section": null,
     "path": null
    }
   ],
-  "builtInto": []
+  "builtInto": [
+   {
+    "name": "Form Field Assembly / Name pair",
+    "path": "../../assemblies/42-form-field-assembly-name-pair/form-field-assembly-name-pair.md"
+   },
+   {
+    "name": "Form Field Assembly / Zip + Street #",
+    "path": "../../assemblies/43-form-field-assembly-zip-street/form-field-assembly-zip-street.md"
+   },
+   {
+    "name": "Form Field Assembly / Zip + Phone",
+    "path": "../../assemblies/44-form-field-assembly-zip-phone/form-field-assembly-zip-phone.md"
+   },
+   {
+    "name": "Form Field Assembly / Address block",
+    "path": "../../assemblies/45-form-field-assembly-address-block/form-field-assembly-address-block.md"
+   },
+   {
+    "name": "Form Field Assembly / CC details",
+    "path": "../../assemblies/46-form-field-assembly-cc-details/form-field-assembly-cc-details.md"
+   },
+   {
+    "name": "Form Field Assembly / Password",
+    "path": "../../assemblies/47-form-field-assembly-password/form-field-assembly-password.md"
+   }
+  ]
  },
  "variants": [
   {
-   "label": "Size=Desktop, State=Filled",
+   "label": "Size=Desktop, State=Blank",
    "variantProperties": {
     "Size": "Desktop",
-    "State": "Filled"
+    "State": "Blank"
    },
    "id": "6962:6663",
    "key": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
@@ -381,7 +400,7 @@
    "fills": null,
    "strokes": null,
    "radius": null,
-   "preview": "previews/form-field--desktop-filled.png",
+   "preview": "previews/form-field--desktop-blank.png",
    "breakpoints": [
     "768",
     "1024",
@@ -389,7 +408,7 @@
     "1280"
    ],
    "layerTree": {
-    "name": "Size=Desktop, State=Filled",
+    "name": "Size=Desktop, State=Blank",
     "type": "COMPONENT",
     "id": "6962:6663",
     "w": 480,
@@ -466,7 +485,7 @@
         "clip": true,
         "children": [
          {
-          "name": "Vector",
+          "name": "Label Icon",
           "type": "VECTOR",
           "id": "6962:6666",
           "w": 16,
@@ -784,7 +803,7 @@
           },
           "children": [
            {
-            "name": "Union",
+            "name": "Cursor",
             "type": "BOOLEAN_OPERATION",
             "id": "6962:6676",
             "w": 3,
@@ -798,7 +817,8 @@
             "fills": [
              {
               "type": "SOLID",
-              "hex": "#000000"
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -813,7 +833,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -828,7 +849,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -843,7 +865,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              }
@@ -1022,7 +1045,7 @@
     "key": "4b5990303a23ea2dbcf9ce03ec9860ef909af825",
     "variantProperties": {
      "Size": "Desktop",
-     "State": "Filled"
+     "State": "Blank"
     },
     "componentDescription": null
    }
@@ -1140,7 +1163,7 @@
         "clip": true,
         "children": [
          {
-          "name": "Vector",
+          "name": "Label Icon",
           "type": "VECTOR",
           "id": "6962:6686",
           "w": 16,
@@ -1458,7 +1481,7 @@
           },
           "children": [
            {
-            "name": "Union",
+            "name": "Cursor",
             "type": "BOOLEAN_OPERATION",
             "id": "6962:6696",
             "w": 3,
@@ -1472,7 +1495,8 @@
             "fills": [
              {
               "type": "SOLID",
-              "hex": "#000000"
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -1487,7 +1511,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -1502,7 +1527,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -1517,7 +1543,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              }
@@ -1731,7 +1758,7 @@
    "fills": null,
    "strokes": null,
    "radius": null,
-   "preview": "previews/form-field--desktop-filled-2.png",
+   "preview": "previews/form-field--desktop-filled.png",
    "breakpoints": [
     "768",
     "1024",
@@ -1816,7 +1843,7 @@
         "clip": true,
         "children": [
          {
-          "name": "Vector",
+          "name": "Label Icon",
           "type": "VECTOR",
           "id": "6962:6706",
           "w": 16,
@@ -2134,7 +2161,7 @@
           },
           "children": [
            {
-            "name": "Union",
+            "name": "Cursor",
             "type": "BOOLEAN_OPERATION",
             "id": "6962:6716",
             "w": 3,
@@ -2148,7 +2175,8 @@
             "fills": [
              {
               "type": "SOLID",
-              "hex": "#000000"
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -2163,7 +2191,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -2178,7 +2207,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -2193,7 +2223,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              }
@@ -2492,7 +2523,7 @@
         "clip": true,
         "children": [
          {
-          "name": "Vector",
+          "name": "Label Icon",
           "type": "VECTOR",
           "id": "6962:6726",
           "w": 16,
@@ -2610,7 +2641,8 @@
       "strokes": [
        {
         "type": "SOLID",
-        "hex": "#000000"
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
        }
       ],
       "strokeWeight": 2,
@@ -2809,7 +2841,7 @@
           },
           "children": [
            {
-            "name": "Union",
+            "name": "Cursor",
             "type": "BOOLEAN_OPERATION",
             "id": "6962:6736",
             "w": 3,
@@ -2823,7 +2855,8 @@
             "fills": [
              {
               "type": "SOLID",
-              "hex": "#000000"
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -2838,7 +2871,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -2853,7 +2887,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -2868,7 +2903,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              }
@@ -3167,7 +3203,7 @@
         "clip": true,
         "children": [
          {
-          "name": "Vector",
+          "name": "Label Icon",
           "type": "VECTOR",
           "id": "6962:6746",
           "w": 16,
@@ -3485,7 +3521,7 @@
           },
           "children": [
            {
-            "name": "Union",
+            "name": "Cursor",
             "type": "BOOLEAN_OPERATION",
             "id": "6962:6756",
             "w": 3,
@@ -3499,7 +3535,8 @@
             "fills": [
              {
               "type": "SOLID",
-              "hex": "#000000"
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -3514,7 +3551,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -3529,7 +3567,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -3544,7 +3583,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              }
@@ -3842,7 +3882,7 @@
         "clip": true,
         "children": [
          {
-          "name": "Vector",
+          "name": "Label Icon",
           "type": "VECTOR",
           "id": "6962:6766",
           "w": 16,
@@ -4160,7 +4200,7 @@
           },
           "children": [
            {
-            "name": "Union",
+            "name": "Cursor",
             "type": "BOOLEAN_OPERATION",
             "id": "6962:6776",
             "w": 3,
@@ -4174,7 +4214,8 @@
             "fills": [
              {
               "type": "SOLID",
-              "hex": "#000000"
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -4189,7 +4230,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -4204,7 +4246,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -4219,7 +4262,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              }
@@ -4516,7 +4560,7 @@
         "clip": true,
         "children": [
          {
-          "name": "Vector",
+          "name": "Label Icon",
           "type": "VECTOR",
           "id": "6962:6786",
           "w": 16,
@@ -4834,7 +4878,7 @@
           },
           "children": [
            {
-            "name": "Union",
+            "name": "Cursor",
             "type": "BOOLEAN_OPERATION",
             "id": "6962:6796",
             "w": 3,
@@ -4848,7 +4892,8 @@
             "fills": [
              {
               "type": "SOLID",
-              "hex": "#000000"
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -4863,7 +4908,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -4878,7 +4924,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -4893,7 +4940,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              }
@@ -5190,7 +5238,7 @@
         "clip": true,
         "children": [
          {
-          "name": "Vector",
+          "name": "Label Icon",
           "type": "VECTOR",
           "id": "6962:6806",
           "w": 16,
@@ -5308,7 +5356,8 @@
       "strokes": [
        {
         "type": "SOLID",
-        "hex": "#000000"
+        "hex": "#000000",
+        "variable": "Colors/color/gray/black"
        }
       ],
       "strokeWeight": 2,
@@ -5506,7 +5555,7 @@
           },
           "children": [
            {
-            "name": "Union",
+            "name": "Cursor",
             "type": "BOOLEAN_OPERATION",
             "id": "6962:6816",
             "w": 3,
@@ -5520,7 +5569,8 @@
             "fills": [
              {
               "type": "SOLID",
-              "hex": "#000000"
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -5535,7 +5585,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -5550,7 +5601,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -5565,7 +5617,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              }
@@ -5862,7 +5915,7 @@
         "clip": true,
         "children": [
          {
-          "name": "Vector",
+          "name": "Label Icon",
           "type": "VECTOR",
           "id": "6962:6826",
           "w": 16,
@@ -6180,7 +6233,7 @@
           },
           "children": [
            {
-            "name": "Union",
+            "name": "Cursor",
             "type": "BOOLEAN_OPERATION",
             "id": "6962:6836",
             "w": 3,
@@ -6194,7 +6247,8 @@
             "fills": [
              {
               "type": "SOLID",
-              "hex": "#000000"
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -6209,7 +6263,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -6224,7 +6279,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -6239,7 +6295,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              }
@@ -6535,7 +6592,7 @@
         "clip": true,
         "children": [
          {
-          "name": "Vector",
+          "name": "Label Icon",
           "type": "VECTOR",
           "id": "6962:6846",
           "w": 16,
@@ -6853,7 +6910,7 @@
           },
           "children": [
            {
-            "name": "Union",
+            "name": "Cursor",
             "type": "BOOLEAN_OPERATION",
             "id": "6962:6856",
             "w": 3,
@@ -6867,7 +6924,8 @@
             "fills": [
              {
               "type": "SOLID",
-              "hex": "#000000"
+              "hex": "#000000",
+              "variable": "Colors/color/gray/black"
              }
             ],
             "children": [
@@ -6882,7 +6940,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -6897,7 +6956,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              },
@@ -6912,7 +6972,8 @@
               "fills": [
                {
                 "type": "SOLID",
-                "hex": "#000000"
+                "hex": "#000000",
+                "variable": "Colors/color/gray/black"
                }
               ]
              }
@@ -7109,10 +7170,12 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Field Label",
    "variants": [
+    "Size=Desktop, State=Blank",
     "Size=Desktop, State=Filled",
     "Size=Desktop, State=Focus",
     "Size=Desktop, State=Error"
@@ -7129,11 +7192,12 @@
    "decoration": null,
    "color": "#A7A6A3",
    "token": "Colors/color/gray/400",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Placeholder text",
    "variants": [
-    "Size=Desktop, State=Filled",
+    "Size=Desktop, State=Blank",
     "Size=Desktop, State=Focus",
     "Size=Desktop, State=Error"
    ]
@@ -7149,10 +7213,12 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Error message text.",
    "variants": [
+    "Size=Desktop, State=Blank",
     "Size=Desktop, State=Filled",
     "Size=Desktop, State=Focus",
     "Size=Desktop, State=Error",
@@ -7170,6 +7236,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Field Label",
@@ -7191,6 +7258,7 @@
    "decoration": null,
    "color": "#A7A6A3",
    "token": "Colors/color/gray/400",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Placeholder text",
@@ -7211,6 +7279,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Error message text.",
@@ -7233,6 +7302,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "you@example.com",
@@ -7251,6 +7321,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Field Label",
@@ -7269,6 +7340,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Placeholder text",
@@ -7287,6 +7359,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "you@example.com",
@@ -7305,6 +7378,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Field Label",
@@ -7323,6 +7397,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
+   "typeToken": null,
    "textStyle": null,
    "truncate": null,
    "sample": "Placeholder text",
@@ -7333,7 +7408,7 @@
  ],
  "colors": [
   {
-   "layer": "Vector",
+   "layer": "Label Icon",
    "role": "fill",
    "type": "SOLID",
    "hex": "#141414",
@@ -7373,11 +7448,11 @@
    "strokeWeight": null
   },
   {
-   "layer": "Union",
+   "layer": "Cursor",
    "role": "fill",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
    "opacity": null,
    "note": "",
    "strokeWeight": null
@@ -7387,7 +7462,7 @@
    "role": "fill",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
    "opacity": null,
    "note": "",
    "strokeWeight": null
@@ -7397,7 +7472,7 @@
    "role": "fill",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
    "opacity": null,
    "note": "",
    "strokeWeight": null
@@ -7407,7 +7482,7 @@
    "role": "fill",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
    "opacity": null,
    "note": "",
    "strokeWeight": null
@@ -7417,7 +7492,7 @@
    "role": "stroke",
    "type": "SOLID",
    "hex": "#000000",
-   "token": null,
+   "token": "Colors/color/gray/black",
    "opacity": null,
    "note": "",
    "strokeWeight": 2
@@ -7457,7 +7532,7 @@
  "adSlots": [],
  "responsiveRules": [
   "Error state adds a red message line below the field, so the component gets taller. Leave vertical room for it in forms.",
-  "Size=Desktop, State=Filled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280",
+  "Size=Desktop, State=Blank: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280",
   "Size=Mobile, State=Blank: 328×81, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360",
   "Size=Desktop, State=Filled: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280",
   "Size=Desktop, State=Focus: 480×103, vertical gap 0 pad 0/0/0/0 main MIN cross MIN — renders at 768, 1024, 1100, 1280",
@@ -7470,12 +7545,8 @@
  ],
  "productionRefs": [],
  "knownIssues": [
-  "7 of 10 variants have no instances anywhere in MNG Design System (unused, or used only from another file): `Size=Desktop, State=Focus`, `Size=Desktop, State=Error`, `Size=Desktop, State=Disabled`, `Size=Mobile, State=Filled`, `Size=Mobile, State=Focus`, `Size=Mobile, State=Error`, `Size=Mobile, State=Disabled`.",
-  "42 solid paints are hard-coded (not bound to a color variable): #000000 ×42.",
-  "Figma reports the component set is in an error state: \"in get_componentPropertyDefinitions: Component set has existing errors\". Properties were derived from variant names.",
-  "Duplicate variant names in the set: Size=Desktop, State=Filled ×2 (this is what puts the set in an error state).",
-  "Checked against the preview: the first `Size=Desktop, State=Filled` variant shows placeholder text, so it is really the missing `Size=Desktop, State=Blank` state under the wrong name. Rename it to fix the duplicate and clear the set's error state."
+  "7 of 10 variants have no instances anywhere in MNG Design System (unused, or used only from another file): `Size=Desktop, State=Focus`, `Size=Desktop, State=Error`, `Size=Desktop, State=Disabled`, `Size=Mobile, State=Filled`, `Size=Mobile, State=Focus`, `Size=Mobile, State=Error`, `Size=Mobile, State=Disabled`."
  ],
  "skeleton": "form-field.html",
- "exported": "2026-09-24"
+ "exported": "2026-10-07"
 }
