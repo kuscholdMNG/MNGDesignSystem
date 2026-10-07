@@ -1107,21 +1107,6 @@ The gaps of **11, 19, 21 and 22** px come from production's fluid layout and are
 
 One-line items are unaffected (the 44px height holds), but every extra line adds about 5px more in design than in production. Two-line rows are 66px plus the gap in design versus 77px in production, and three-line rows grow further apart. **Decision (Karl, 2026-10-07): keep the Figma item as is** — 44px tall, Noto Serif Bold 16 / auto. This is a known difference, not a Figma bug; production should move to the design's type if it's ever aligned.
 
-## 28. Upcoming Events (CitySpark widget) — header buttons, arrows and date-strip length
-
-**Found:** 2026-10-07, ocregister.com at 1100 and 1280px (homepage `.csLayHolder`: a `cswidholder` iframe plus a `csadholder` 300×250 ad iframe, no gap between them).
-
-**Figma spec (source of truth):** WordPress Elements `Upcoming Events Widget` set (`3557:24236`, `Cards=4` / `Cards=5`) inside `Upcoming Events Block`. The widget has a title, a "‹ ›" text control, event cards and a date strip (calendar icon + 12 days).
-
-| | Production | Design |
-|---|---|---|
-| Cards | 4 at 1100 (780px widget), 5 at 1280 (960px widget) | 4 at 1100, 5 at Desktop — matches |
-| Header | "Upcoming Events" + "See All Events" and "+ Add your event" buttons (filled, theme primary) | Title + "‹ ›" text only; no buttons |
-| Carousel arrows | Large ‹ › arrows at the left and right edges of the card row | None (the "‹ ›" sits in the header) |
-| Date strip | Calendar icon + 14 days at 1100, 18 days at 1280 (fills the widget width) | Calendar icon + 12 days at every width |
-
-The widget is a third-party embed, so production is controlled by CitySpark's template. Decide whether the design should add the two header buttons and edge arrows, or whether CitySpark's template should be asked to match the design.
-
 ## How to use this doc
 
 Add a new dated, numbered entry whenever a Figma-vs-production gap or an explicit engineering/legal flag is found during an audit, rather than quietly "fixing" the design tokens to match whatever production happens to do. Mark each item's status (Open / Fixed / Confirmed-intentional) as it gets resolved, and keep the original finding text rather than deleting it once resolved — see how `tokens/colors/color-tokens-decision-log.md` and the component audit docs annotate resolved items in place, for the pattern to follow here too.
