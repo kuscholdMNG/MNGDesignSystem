@@ -1077,6 +1077,36 @@ Check after the change: the subscribe CTA keeps its 44px min height and its fill
 
 **Fix:** hide the `#mobile-adhesion` container (and its Close button) at the same breakpoint where the slot's size mapping goes empty (≥1024px), or remove the container from the DOM at desktop widths. Check the other five review sites.
 
+## 27. Blueconic Block (Most Popular) — list spacing and item headline
+
+**Found:** 2026-10-07, ocregister.com at 360, 768, 1024, 1100 and 1280px (homepage "Most Popular", `.dfm-most-popular-flex-container` inside `landing-three-one` → `.three-one-left`).
+
+**Figma spec (source of truth):** WordPress Elements `Blueconic Block (Most Popular)` (`3352:20526`) with `Most Popular List Item` (`3352:24171`) kept at **44px** tall per item. The space between items is added in the block (column auto-layout gap), not in the item.
+
+### 27.1 Item spacing and column gaps
+
+Production stacks the items with no gap. Each row is 60px tall for a one-line headline and 77px for two lines. Design keeps the item at 44px and adds the difference as the gap between items, so a one-line row lands on production's 60px.
+
+| Width | Columns (production) | Design column gap | Design item gap |
+|---|---|---|---|
+| 360 (Mobile) | 1 × 340 | — | 16 (`spacing/200`) |
+| 768 (Tablet) | 2 × 365 | 19 | 16 (`spacing/200`) |
+| 1024 | 2 × 288 (every headline wraps to 2 lines) | 19 | 11 (fits the 77px two-line row) |
+| 1100 | 2 × 360 | 21 | 16 (`spacing/200`) |
+| 1280 | 2 × 459 | 22 | 16 (`spacing/200`) |
+
+### 27.2 Spacing values with no token — remove in a future pass
+
+The gaps of **11, 19, 21 and 22** px come from production's fluid layout and are kept in Figma as plain numbers on purpose. There are no tokens for them, and none should be created. When engineering moves these blocks onto the spacing scale (4 / 8 / 12 / 16 / 20 / 24), replace them: 11 → 12 (`spacing/150`), 19 / 21 → 20 (`spacing/250`), 22 → 24 (`spacing/300`) or 20, and update the Figma gaps to match. 16 and 20 are already bound to `spacing/200` / `spacing/250`.
+
+### 27.3 Item headline type
+
+| | Production (all widths) | Design (`Most Popular List Item`) |
+|---|---|---|
+| Headline | Noto Serif **600**, 16px / **17.07px** | Noto Serif **Bold (700)**, 16px / **auto (~22px)** |
+
+One-line items are unaffected (the 44px height holds), but every extra line adds about 5px more in design than in production. Two-line rows are 66px plus the gap in design versus 77px in production, and three-line rows grow further apart. Left as is for now; decide whether to match the item headline to production's 16/17 SemiBold (Karl, 2026-10-07: keep the item at 44px).
+
 ## How to use this doc
 
 Add a new dated, numbered entry whenever a Figma-vs-production gap or an explicit engineering/legal flag is found during an audit, rather than quietly "fixing" the design tokens to match whatever production happens to do. Mark each item's status (Open / Fixed / Confirmed-intentional) as it gets resolved, and keep the original finding text rather than deleting it once resolved — see how `tokens/colors/color-tokens-decision-log.md` and the component audit docs annotate resolved items in place, for the pattern to follow here too.
