@@ -38,7 +38,7 @@ exported: 2026-10-07
 
 | Property | Type | Default | Options |
 |---|---|---|---|
-| Device | VARIANT | Mobile | Mobile, Tablet, 1100, 1024, Desktop |
+| Device | VARIANT | Mobile | Mobile, Tablet, 1024, 1100, Desktop |
 
 ## Where it is used
 
