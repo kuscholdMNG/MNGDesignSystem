@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Horizontal Feature Card** — breakpoints: 768, 1100, 1280; templates (via assembly): 1100 HomePage (via Feature + List Content Block), Desktop HomePage (via Feature + List Content Block), 768 HomePage (via Feature + List Content Block); nested inside: Feature + List Content Block / Size=Default ×1
+- **Horizontal Feature Card** — breakpoints: 768, 1100, 1280; templates (via assembly): 1100 HomePage (via Feature + List Content Block), 768 HomePage (via Feature + List Content Block), Desktop HomePage (via Feature + List Content Block); nested inside: Feature + List Content Block / Size=Default ×1
 
 ## Breakpoints
 

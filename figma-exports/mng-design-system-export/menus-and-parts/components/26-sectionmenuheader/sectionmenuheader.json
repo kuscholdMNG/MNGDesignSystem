@@ -103,13 +103,13 @@
     "id": "456:5746",
     "templatesDirect": {},
     "templatesVia": {
-     "1024 HomePage": [
-      "SectionMenu"
-     ],
      "Desktop HomePage": [
       "SectionMenu"
      ],
      "1100 HomePage": [
+      "SectionMenu"
+     ],
+     "1024 HomePage": [
       "SectionMenu"
      ]
     },
@@ -147,20 +147,20 @@
     "id": "456:5759",
     "templatesDirect": {},
     "templatesVia": {
+     "768 HomePage": [
+      "SectionMenu"
+     ],
      "Mobile HomePage": [
       "SectionMenu"
      ],
      "340 HomePage": [
       "SectionMenu"
-     ],
-     "768 HomePage": [
-      "SectionMenu"
      ]
     },
     "inComponents": {
-     "SectionMenu / View=Closed, Device=SM-Mobile, UserType=all": 1,
+     "SectionMenu / View=Closed, Device=XS-Fold, UserType=all": 1,
      "SectionMenu / View=Closed, Device=MD-TabletV, UserType=all": 1,
-     "SectionMenu / View=Closed, Device=XS-Fold, UserType=all": 1
+     "SectionMenu / View=Closed, Device=SM-Mobile, UserType=all": 1
     },
     "other": {},
     "breakpoints": [

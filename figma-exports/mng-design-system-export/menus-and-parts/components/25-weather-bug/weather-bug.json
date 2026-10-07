@@ -85,13 +85,13 @@
      "Masthead/tabletH/DefaultAdFree/home": 2,
      "Masthead/desktop/DefaultAdFree/SectionFront": 4,
      "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article": 2,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront": 2,
-     "Masthead/desktop/default/article": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article": 1,
      "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home": 1,
      "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home": 2,
      "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article": 1
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront": 2,
+     "Masthead/desktop/default/article": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront": 1
     },
     "other": {},
     "breakpoints": [

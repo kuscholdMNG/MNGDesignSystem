@@ -47,7 +47,7 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Level=none, Size=Small** — breakpoints: —; nested inside: UserPic / Size=Small, Status=Default ×1, UserPic / Size=Medium, Status=Default ×1
+- **Level=none, Size=Small** — breakpoints: —; nested inside: UserPic / Size=Medium, Status=Default ×1, UserPic / Size=Small, Status=Default ×1
 - **Level=low, Size=Small** — breakpoints: —; nested inside: UserPic / Size=Medium, Status=Active ×2, UserPic / Size=Small, Status=Default ×1, UserPic / Size=Medium, Status=Default ×1, UserPic / Size=Small, Status=Active ×2
 - **Level=medium, Size=Small** — breakpoints: —; no instances in this file
 - **Level=high, Size=Small** — breakpoints: —; no instances in this file

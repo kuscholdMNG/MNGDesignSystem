@@ -42,7 +42,7 @@ exported: 2026-10-07
 ## Where it is used
 
 - **Device=Desktop** — breakpoints: 1024, 1100, 1280; nested inside: Photos Block / Device=Desktop ×6
-- **Device=Mobile** — breakpoints: 340, 360, 768; templates (direct): Mobile HomePage ×5, 340 HomePage ×5; templates (via assembly): 768 HomePage (via Photos Block); nested inside: Photos Block / Device=Tablet ×6, Photos Block / Device=Mobile ×5
+- **Device=Mobile** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): Mobile HomePage ×5, 340 HomePage ×5; templates (via assembly): 1024 HomePage (via Photos Block), Desktop HomePage (via Photos Block), 1100 HomePage (via Photos Block), 768 HomePage (via Photos Block); nested inside: Photos Block / Device=1024 ×6, Photos Block / Device=Mobile ×5, Photos Block / Device=1280 ×6, Photos Block / Device=1100 ×6, Photos Block / Device=Tablet ×6
 - **Device=Tablet** — breakpoints: 768; templates (via assembly): 768 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Tablet ×4
 
 ## Breakpoints
@@ -52,14 +52,14 @@ exported: 2026-10-07
 | 340 | ≤639px (XS-Fold, built 340) | Device=Mobile |
 | 360 | ≤639px (SM-Mobile, built 360) | Device=Mobile |
 | 768 | 640–799px (MD-TabletV) | Device=Mobile, Device=Tablet |
-| 1024 | 800–1039px (LG-TabletH, built 1009) | Device=Desktop |
-| 1100 | ≥1040px (XL-Desktop, built 1085) | Device=Desktop |
-| 1280 | ≥1040px (XL-Desktop, built 1280) | Device=Desktop |
+| 1024 | 800–1039px (LG-TabletH, built 1009) | Device=Desktop, Device=Mobile |
+| 1100 | ≥1040px (XL-Desktop, built 1085) | Device=Desktop, Device=Mobile |
+| 1280 | ≥1040px (XL-Desktop, built 1280) | Device=Desktop, Device=Mobile |
 
 ## Responsive rules
 
 - Device=Desktop: 336×98, vertical gap 8 pad 8/0/8/0 main MIN cross MIN — renders at 1024, 1100, 1280
-- Device=Mobile: 336×67, vertical gap 4 pad 6/0/6/0 main MIN cross MIN — renders at 340, 360, 768
+- Device=Mobile: 336×67, vertical gap 4 pad 6/0/6/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280
 - Device=Tablet: 358×84, vertical gap 8 pad 8/0/8/0 main MIN cross MIN — renders at 768
 
 ## Dependencies
@@ -156,8 +156,8 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- `Device=Mobile` is declared for 340, 360 but is placed in template(s) at 768 — check the variant choice.
-- The 1024, 1100 and 1280 HomePage templates use detached, resized copies (18 'Horizontal Thumbnail Card (…, Photos secondary list, detached — resized…)' layers inside the detached Photos content) instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list.
+- `Device=Mobile` is declared for 340, 360 but is placed in template(s) at 768, 1024, 1100, 1280 — check the variant choice.
+- Expected: production uses the Device=Mobile thumbnail (90×51 image, 15/19 title) at every width, so the templates place Mobile at 768–1280 too. Device=Desktop (98px) and Device=Tablet (84px) don't match any production width checked on 2026-10-07; review whether to keep them.
 
 ## Rendering steps
 

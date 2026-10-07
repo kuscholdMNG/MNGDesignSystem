@@ -47,7 +47,6 @@
    "Zone 1 Lead Article Card",
    "TopZone Article Card",
    "Horizontal Thumbnail Card",
-   "TOP ZONE Block",
    "Horizontal Feature Card",
    "1Col Article Card",
    "Feature + List Content Block"
@@ -56,25 +55,20 @@
    {
     "label": "Article Image Placeholder",
     "id": "3334:42380",
-    "templatesDirect": {
-     "1100 HomePage": 6,
-     "1024 HomePage": 6,
-     "Desktop HomePage": 6
-    },
+    "templatesDirect": {},
     "templatesVia": {
-     "1100 HomePage": [
-      "1Col Article Card",
-      "Horizontal Feature Card",
-      "Zone 1 Lead Article Card"
-     ],
-     "1024 HomePage": [
-      "1Col Article Card",
-      "Feature + List Content Block",
-      "Zone 1 Lead Article Card"
-     ],
      "Desktop HomePage": [
       "1Col Article Card",
       "Horizontal Feature Card",
+      "Horizontal Thumbnail Card",
+      "TopZone Article Card",
+      "Zone 1 Lead Article Card"
+     ],
+     "1100 HomePage": [
+      "1Col Article Card",
+      "Horizontal Feature Card",
+      "Horizontal Thumbnail Card",
+      "TopZone Article Card",
       "Zone 1 Lead Article Card"
      ],
      "768 HomePage": [
@@ -83,37 +77,43 @@
       "Horizontal Thumbnail Card",
       "Zone 1 Lead Article Card"
      ],
+     "1024 HomePage": [
+      "1Col Article Card",
+      "Feature + List Content Block",
+      "Horizontal Thumbnail Card",
+      "TopZone Article Card",
+      "Zone 1 Lead Article Card"
+     ],
      "Mobile HomePage": [
       "1Col Article Card",
       "Horizontal Thumbnail Card",
-      "TOP ZONE Block",
       "TopZone Article Card",
       "Zone 1 Lead Article Card"
      ],
      "340 HomePage": [
       "1Col Article Card",
       "Horizontal Thumbnail Card",
-      "TOP ZONE Block",
       "TopZone Article Card",
       "Zone 1 Lead Article Card"
      ]
     },
     "inComponents": {
      "Horizontal Thumbnail Card / Device=Desktop": 1,
-     "Event Card": 2,
-     "Feature + List Content Block / Size=Narrow": 1,
      "TopZone Article Card / Device=Desktop": 1,
-     "1Col Article Card / Style=Standard": 1,
-     "1Col Article Card / Style=Media Lead": 1,
-     "Zone 1 Lead Article Card / Device=Tablet": 1,
-     "Horizontal Thumbnail Card / Device=Mobile": 1,
-     "Zone 1 Lead Article Card / Device=Mobile": 1,
-     "TOP ZONE Block / Device=Mobile": 1,
      "Horizontal Feature Card": 1,
      "Event Card (768, 129w)": 1,
-     "TopZone Article Card / Device=Mobile": 1,
+     "Zone 1 Lead Article Card / Device=Tablet": 1,
+     "Feature + List Content Block / Size=Narrow": 1,
      "Horizontal Thumbnail Card / Device=Tablet": 1,
-     "Zone 1 Lead Article Card / Device=Desktop": 1
+     "TopZone Article Card / Device=1024": 1,
+     "Zone 1 Lead Article Card / Device=Desktop": 1,
+     "Event Card": 2,
+     "Horizontal Thumbnail Card / Device=Mobile": 1,
+     "TopZone Article Card / Device=1100": 1,
+     "1Col Article Card / Style=Media Lead": 1,
+     "TopZone Article Card / Device=Mobile": 1,
+     "1Col Article Card / Style=Standard": 1,
+     "Zone 1 Lead Article Card / Device=Mobile": 1
     },
     "other": {},
     "breakpoints": [
@@ -141,10 +141,6 @@
    {
     "name": "Horizontal Thumbnail Card",
     "path": "../11-horizontal-thumbnail-card/horizontal-thumbnail-card.md"
-   },
-   {
-    "name": "TOP ZONE Block",
-    "path": "../../assemblies/12-top-zone-block/top-zone-block.md"
    },
    {
     "name": "Horizontal Feature Card",

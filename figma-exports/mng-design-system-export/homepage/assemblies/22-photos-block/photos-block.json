@@ -5,7 +5,7 @@
  "name": "Photos Block",
  "slug": "photos-block",
  "order": 22,
- "typeLabel": "Assembly · 3 variants",
+ "typeLabel": "Assembly · 6 variants",
  "description": "Component set · Variant: Device = Desktop, Mobile · reused as instances in the assembled Desktop and Mobile pages and in both raw section libraries.",
  "designerNotes": [],
  "figma": {
@@ -34,6 +34,24 @@
     "id": "3352:20863",
     "key": "d31d44fe7433df413291723e261947681a004f86",
     "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-20863"
+   },
+   {
+    "label": "Device=1280",
+    "id": "3552:31512",
+    "key": "18ef702f60a31bc4c05087453bf3e5d66d4b6343",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3552-31512"
+   },
+   {
+    "label": "Device=1100",
+    "id": "3552:31974",
+    "key": "bc3f3a950ce01f0bf50c5ee7e05d576d5e44b01b",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3552-31974"
+   },
+   {
+    "label": "Device=1024",
+    "id": "3553:32439",
+    "key": "c1da4d8153180d69a9c392c102e3442c9d648779",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3553-32439"
    }
   ]
  },
@@ -44,7 +62,10 @@
    "options": [
     "Mobile",
     "Desktop",
-    "Tablet"
+    "Tablet",
+    "1280",
+    "1100",
+    "1024"
    ]
   }
  },
@@ -58,7 +79,10 @@
  ],
  "usage": {
   "templates": [
-   "768 HomePage"
+   "1024 HomePage",
+   "1100 HomePage",
+   "768 HomePage",
+   "Desktop HomePage"
   ],
   "builtInto": [],
   "perVariant": [
@@ -95,9 +119,47 @@
     "inComponents": {},
     "other": {},
     "breakpoints": [
-     "1024",
      "1100",
      "1280"
+    ]
+   },
+   {
+    "label": "Device=1280",
+    "id": "3552:31512",
+    "templatesDirect": {
+     "Desktop HomePage": 1
+    },
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "1280"
+    ]
+   },
+   {
+    "label": "Device=1100",
+    "id": "3552:31974",
+    "templatesDirect": {
+     "1100 HomePage": 1
+    },
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "1100"
+    ]
+   },
+   {
+    "label": "Device=1024",
+    "id": "3553:32439",
+    "templatesDirect": {
+     "1024 HomePage": 1
+    },
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "1024"
     ]
    }
   ]
@@ -1258,7 +1320,6 @@
    "radius": null,
    "preview": "previews/photos-block--desktop.png",
    "breakpoints": [
-    "1024",
     "1100",
     "1280"
    ],
@@ -1739,6 +1800,1644 @@
     },
     "componentDescription": null
    }
+  },
+  {
+   "label": "Device=1280",
+   "variantProperties": {
+    "Device": "1280"
+   },
+   "id": "3552:31512",
+   "key": "18ef702f60a31bc4c05087453bf3e5d66d4b6343",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3552-31512",
+   "width": 940,
+   "height": 749.7,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 24,
+    "pad": [
+     0,
+     0,
+     32,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/photos-block--1280.png",
+   "breakpoints": [
+    "1280"
+   ],
+   "layerTree": {
+    "name": "Device=1280",
+    "type": "COMPONENT",
+    "id": "3552:31512",
+    "w": 940,
+    "h": 749.7,
+    "x": 2554,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 24,
+     "pad": [
+      0,
+      0,
+      32,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "News Content",
+      "type": "FRAME",
+      "id": "3552:31499",
+      "w": 940,
+      "h": 717.7,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "children": [
+       {
+        "name": "3Col Header",
+        "type": "FRAME",
+        "id": "3552:31500",
+        "w": 940,
+        "h": 50,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          20,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "children": [
+         {
+          "name": "Section Title / Eyebrow",
+          "type": "INSTANCE",
+          "id": "3552:31501",
+          "w": 940,
+          "h": 30,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "component": "Section Title / Eyebrow",
+          "variant": {
+           "Style": "Underline"
+          },
+          "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+          "mainId": "3326:41622",
+          "props": {
+           "Chevron": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Section Block",
+        "type": "FRAME",
+        "id": "3552:31502",
+        "w": 940,
+        "h": 527,
+        "x": 0,
+        "y": 50,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 20,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "children": [
+         {
+          "name": "1Col Article Card",
+          "type": "INSTANCE",
+          "id": "3552:31503",
+          "w": 580,
+          "h": 474.3,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FIXED",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "1Col Article Card",
+          "variant": {
+           "Style": "Media Lead"
+          },
+          "componentKey": "7e0ce7008b41fed7d8afb5279eca363f9e338674",
+          "mainId": "3536:39050",
+          "props": {
+           "Show Excerpt": true,
+           "Show Meta": false,
+           "Show Subscriber Badge": false,
+           "Show Image": true
+          }
+         },
+         {
+          "name": "Additional Articles List (1280, single column, 6 cards)",
+          "type": "FRAME",
+          "id": "3552:31504",
+          "w": 340,
+          "h": 527,
+          "x": 600,
+          "y": 0,
+          "sizing": {
+           "h": "FIXED",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 25,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "children": [
+           {
+            "name": "Horizontal Thumbnail Card",
+            "type": "INSTANCE",
+            "id": "3552:31505",
+            "w": 340,
+            "h": 67,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 4,
+             "pad": [
+              6,
+              0,
+              6,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "component": "Horizontal Thumbnail Card",
+            "variant": {
+             "Device": "Mobile"
+            },
+            "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+            "mainId": "3362:2991",
+            "props": {
+             "Show Gallery Icon": true
+            }
+           },
+           {
+            "name": "Horizontal Thumbnail Card",
+            "type": "INSTANCE",
+            "id": "3552:31506",
+            "w": 340,
+            "h": 67,
+            "x": 0,
+            "y": 92,
+            "sizing": {
+             "h": "FIXED",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 4,
+             "pad": [
+              6,
+              0,
+              6,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "component": "Horizontal Thumbnail Card",
+            "variant": {
+             "Device": "Mobile"
+            },
+            "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+            "mainId": "3362:2991",
+            "props": {
+             "Show Gallery Icon": true
+            }
+           },
+           {
+            "name": "Horizontal Thumbnail Card",
+            "type": "INSTANCE",
+            "id": "3552:31507",
+            "w": 340,
+            "h": 67,
+            "x": 0,
+            "y": 184,
+            "sizing": {
+             "h": "FIXED",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 4,
+             "pad": [
+              6,
+              0,
+              6,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "component": "Horizontal Thumbnail Card",
+            "variant": {
+             "Device": "Mobile"
+            },
+            "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+            "mainId": "3362:2991",
+            "props": {
+             "Show Gallery Icon": true
+            }
+           },
+           {
+            "name": "Horizontal Thumbnail Card",
+            "type": "INSTANCE",
+            "id": "3552:31508",
+            "w": 340,
+            "h": 67,
+            "x": 0,
+            "y": 276,
+            "sizing": {
+             "h": "FIXED",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 4,
+             "pad": [
+              6,
+              0,
+              6,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "component": "Horizontal Thumbnail Card",
+            "variant": {
+             "Device": "Mobile"
+            },
+            "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+            "mainId": "3362:2991",
+            "props": {
+             "Show Gallery Icon": true
+            }
+           },
+           {
+            "name": "Horizontal Thumbnail Card",
+            "type": "INSTANCE",
+            "id": "3552:31509",
+            "w": 340,
+            "h": 67,
+            "x": 0,
+            "y": 368,
+            "sizing": {
+             "h": "FIXED",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 4,
+             "pad": [
+              6,
+              0,
+              6,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "component": "Horizontal Thumbnail Card",
+            "variant": {
+             "Device": "Mobile"
+            },
+            "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+            "mainId": "3362:2991",
+            "props": {
+             "Show Gallery Icon": true
+            }
+           },
+           {
+            "name": "Horizontal Thumbnail Card",
+            "type": "INSTANCE",
+            "id": "3552:31510",
+            "w": 340,
+            "h": 67,
+            "x": 0,
+            "y": 460,
+            "sizing": {
+             "h": "FIXED",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 4,
+             "pad": [
+              6,
+              0,
+              6,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "component": "Horizontal Thumbnail Card",
+            "variant": {
+             "Device": "Mobile"
+            },
+            "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+            "mainId": "3362:2991",
+            "props": {
+             "Show Gallery Icon": true
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Show More Photos Affordance",
+        "type": "INSTANCE",
+        "id": "3552:31511",
+        "w": 940,
+        "h": 140.7,
+        "x": 0,
+        "y": 577,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          40,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Show More Photos Affordance",
+        "componentKey": "df4464b15997ef2b7b310ca9cd6a8b427de277a7",
+        "mainId": "3352:24180"
+       }
+      ]
+     }
+    ],
+    "key": "18ef702f60a31bc4c05087453bf3e5d66d4b6343",
+    "variantProperties": {
+     "Device": "1280"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=1100",
+   "variantProperties": {
+    "Device": "1100"
+   },
+   "id": "3552:31974",
+   "key": "bc3f3a950ce01f0bf50c5ee7e05d576d5e44b01b",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3552-31974",
+   "width": 731,
+   "height": 749.7,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 24,
+    "pad": [
+     0,
+     0,
+     32,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/photos-block--1100.png",
+   "breakpoints": [
+    "1100"
+   ],
+   "layerTree": {
+    "name": "Device=1100",
+    "type": "COMPONENT",
+    "id": "3552:31974",
+    "w": 731,
+    "h": 749.7,
+    "x": 3534,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 24,
+     "pad": [
+      0,
+      0,
+      32,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "News Content",
+      "type": "FRAME",
+      "id": "3552:31961",
+      "w": 731,
+      "h": 717.7,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "children": [
+       {
+        "name": "3Col Header",
+        "type": "FRAME",
+        "id": "3552:31962",
+        "w": 731,
+        "h": 50,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          20,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "children": [
+         {
+          "name": "Section Title / Eyebrow",
+          "type": "INSTANCE",
+          "id": "3552:31963",
+          "w": 731,
+          "h": 30,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "component": "Section Title / Eyebrow",
+          "variant": {
+           "Style": "Underline"
+          },
+          "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+          "mainId": "3326:41622",
+          "props": {
+           "Chevron": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Section Block",
+        "type": "FRAME",
+        "id": "3552:31964",
+        "w": 731,
+        "h": 527,
+        "x": 0,
+        "y": 50,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 21,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "children": [
+         {
+          "name": "1Col Article Card",
+          "type": "INSTANCE",
+          "id": "3552:31965",
+          "w": 441,
+          "h": 450.1,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FIXED",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "1Col Article Card",
+          "variant": {
+           "Style": "Media Lead"
+          },
+          "componentKey": "7e0ce7008b41fed7d8afb5279eca363f9e338674",
+          "mainId": "3536:39050",
+          "props": {
+           "Show Excerpt": true,
+           "Show Meta": false,
+           "Show Subscriber Badge": false,
+           "Show Image": true
+          }
+         },
+         {
+          "name": "Additional Articles List (1100, single column, 6 cards)",
+          "type": "FRAME",
+          "id": "3552:31966",
+          "w": 269,
+          "h": 527,
+          "x": 462,
+          "y": 0,
+          "sizing": {
+           "h": "FIXED",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 25,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "children": [
+           {
+            "name": "Horizontal Thumbnail Card",
+            "type": "INSTANCE",
+            "id": "3552:31967",
+            "w": 269,
+            "h": 67,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FIXED",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 4,
+             "pad": [
+              6,
+              0,
+              6,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "component": "Horizontal Thumbnail Card",
+            "variant": {
+             "Device": "Mobile"
+            },
+            "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+            "mainId": "3362:2991",
+            "props": {
+             "Show Gallery Icon": true
+            }
+           },
+           {
+            "name": "Horizontal Thumbnail Card",
+            "type": "INSTANCE",
+            "id": "3552:31968",
+            "w": 269,
+            "h": 67,
+            "x": 0,
+            "y": 92,
+            "sizing": {
+             "h": "FIXED",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 4,
+             "pad": [
+              6,
+              0,
+              6,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "component": "Horizontal Thumbnail Card",
+            "variant": {
+             "Device": "Mobile"
+            },
+            "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+            "mainId": "3362:2991",
+            "props": {
+             "Show Gallery Icon": true
+            }
+           },
+           {
+            "name": "Horizontal Thumbnail Card",
+            "type": "INSTANCE",
+            "id": "3552:31969",
+            "w": 269,
+            "h": 67,
+            "x": 0,
+            "y": 184,
+            "sizing": {
+             "h": "FIXED",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 4,
+             "pad": [
+              6,
+              0,
+              6,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "component": "Horizontal Thumbnail Card",
+            "variant": {
+             "Device": "Mobile"
+            },
+            "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+            "mainId": "3362:2991",
+            "props": {
+             "Show Gallery Icon": true
+            }
+           },
+           {
+            "name": "Horizontal Thumbnail Card",
+            "type": "INSTANCE",
+            "id": "3552:31970",
+            "w": 269,
+            "h": 67,
+            "x": 0,
+            "y": 276,
+            "sizing": {
+             "h": "FIXED",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 4,
+             "pad": [
+              6,
+              0,
+              6,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "component": "Horizontal Thumbnail Card",
+            "variant": {
+             "Device": "Mobile"
+            },
+            "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+            "mainId": "3362:2991",
+            "props": {
+             "Show Gallery Icon": true
+            }
+           },
+           {
+            "name": "Horizontal Thumbnail Card",
+            "type": "INSTANCE",
+            "id": "3552:31971",
+            "w": 269,
+            "h": 67,
+            "x": 0,
+            "y": 368,
+            "sizing": {
+             "h": "FIXED",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 4,
+             "pad": [
+              6,
+              0,
+              6,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "component": "Horizontal Thumbnail Card",
+            "variant": {
+             "Device": "Mobile"
+            },
+            "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+            "mainId": "3362:2991",
+            "props": {
+             "Show Gallery Icon": true
+            }
+           },
+           {
+            "name": "Horizontal Thumbnail Card",
+            "type": "INSTANCE",
+            "id": "3552:31972",
+            "w": 269,
+            "h": 67,
+            "x": 0,
+            "y": 460,
+            "sizing": {
+             "h": "FIXED",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "VERTICAL",
+             "gap": 4,
+             "pad": [
+              6,
+              0,
+              6,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "component": "Horizontal Thumbnail Card",
+            "variant": {
+             "Device": "Mobile"
+            },
+            "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+            "mainId": "3362:2991",
+            "props": {
+             "Show Gallery Icon": true
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Show More Photos Affordance",
+        "type": "INSTANCE",
+        "id": "3552:31973",
+        "w": 731,
+        "h": 140.7,
+        "x": 0,
+        "y": 577,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          40,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Show More Photos Affordance",
+        "componentKey": "df4464b15997ef2b7b310ca9cd6a8b427de277a7",
+        "mainId": "3352:24180"
+       }
+      ]
+     }
+    ],
+    "key": "bc3f3a950ce01f0bf50c5ee7e05d576d5e44b01b",
+    "variantProperties": {
+     "Device": "1100"
+    },
+    "componentDescription": null
+   }
+  },
+  {
+   "label": "Device=1024",
+   "variantProperties": {
+    "Device": "1024"
+   },
+   "id": "3553:32439",
+   "key": "c1da4d8153180d69a9c392c102e3442c9d648779",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3553-32439",
+   "width": 585,
+   "height": 996.8,
+   "layout": {
+    "dir": "VERTICAL",
+    "gap": 24,
+    "pad": [
+     0,
+     0,
+     32,
+     0
+    ],
+    "main": "MIN",
+    "cross": "CENTER"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/photos-block--1024.png",
+   "breakpoints": [
+    "1024"
+   ],
+   "layerTree": {
+    "name": "Device=1024",
+    "type": "COMPONENT",
+    "id": "3553:32439",
+    "w": 585,
+    "h": 996.8,
+    "x": 4305,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "VERTICAL",
+     "gap": 24,
+     "pad": [
+      0,
+      0,
+      32,
+      0
+     ],
+     "main": "MIN",
+     "cross": "CENTER"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "News Content",
+      "type": "FRAME",
+      "id": "3553:32423",
+      "w": 585,
+      "h": 964.8,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "children": [
+       {
+        "name": "3Col Header",
+        "type": "FRAME",
+        "id": "3553:32424",
+        "w": 585,
+        "h": 50,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          20,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "children": [
+         {
+          "name": "Section Title / Eyebrow",
+          "type": "INSTANCE",
+          "id": "3553:32425",
+          "w": 585,
+          "h": 30,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 6,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "component": "Section Title / Eyebrow",
+          "variant": {
+           "Style": "Underline"
+          },
+          "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+          "mainId": "3326:41622",
+          "props": {
+           "Chevron": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Section Block",
+        "type": "FRAME",
+        "id": "3553:32426",
+        "w": 585,
+        "h": 774.1,
+        "x": 0,
+        "y": 50,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "children": [
+         {
+          "name": "1Col Article Card",
+          "type": "INSTANCE",
+          "id": "3553:32427",
+          "w": 585,
+          "h": 477.1,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "1Col Article Card",
+          "variant": {
+           "Style": "Media Lead"
+          },
+          "componentKey": "7e0ce7008b41fed7d8afb5279eca363f9e338674",
+          "mainId": "3536:39050",
+          "props": {
+           "Show Excerpt": true,
+           "Show Meta": false,
+           "Show Subscriber Badge": false,
+           "Show Image": true
+          }
+         },
+         {
+          "name": "Additional Articles Grid TABLET",
+          "type": "FRAME",
+          "id": "3553:32428",
+          "w": 585,
+          "h": 281,
+          "x": 0,
+          "y": 493.1,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 40,
+           "pad": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "clip": true,
+          "children": [
+           {
+            "name": "Row 1",
+            "type": "FRAME",
+            "id": "3553:32429",
+            "w": 585,
+            "h": 67,
+            "x": 0,
+            "y": 0,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 20,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "children": [
+             {
+              "name": "Horizontal Thumbnail Card",
+              "type": "INSTANCE",
+              "id": "3553:32430",
+              "w": 282.5,
+              "h": 67,
+              "x": 0,
+              "y": 0,
+              "sizing": {
+               "h": "FILL",
+               "v": "HUG"
+              },
+              "layout": {
+               "dir": "VERTICAL",
+               "gap": 4,
+               "pad": [
+                6,
+                0,
+                6,
+                0
+               ],
+               "main": "MIN",
+               "cross": "MIN"
+              },
+              "clip": true,
+              "component": "Horizontal Thumbnail Card",
+              "variant": {
+               "Device": "Mobile"
+              },
+              "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+              "mainId": "3362:2991",
+              "props": {
+               "Show Gallery Icon": true
+              }
+             },
+             {
+              "name": "Horizontal Thumbnail Card",
+              "type": "INSTANCE",
+              "id": "3553:32431",
+              "w": 282.5,
+              "h": 67,
+              "x": 302.5,
+              "y": 0,
+              "sizing": {
+               "h": "FILL",
+               "v": "HUG"
+              },
+              "layout": {
+               "dir": "VERTICAL",
+               "gap": 4,
+               "pad": [
+                6,
+                0,
+                6,
+                0
+               ],
+               "main": "MIN",
+               "cross": "MIN"
+              },
+              "clip": true,
+              "component": "Horizontal Thumbnail Card",
+              "variant": {
+               "Device": "Mobile"
+              },
+              "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+              "mainId": "3362:2991",
+              "props": {
+               "Show Gallery Icon": true
+              }
+             }
+            ]
+           },
+           {
+            "name": "Row 2",
+            "type": "FRAME",
+            "id": "3553:32432",
+            "w": 585,
+            "h": 67,
+            "x": 0,
+            "y": 107,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 20,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "children": [
+             {
+              "name": "Horizontal Thumbnail Card",
+              "type": "INSTANCE",
+              "id": "3553:32433",
+              "w": 282.5,
+              "h": 67,
+              "x": 0,
+              "y": 0,
+              "sizing": {
+               "h": "FILL",
+               "v": "HUG"
+              },
+              "layout": {
+               "dir": "VERTICAL",
+               "gap": 4,
+               "pad": [
+                6,
+                0,
+                6,
+                0
+               ],
+               "main": "MIN",
+               "cross": "MIN"
+              },
+              "clip": true,
+              "component": "Horizontal Thumbnail Card",
+              "variant": {
+               "Device": "Mobile"
+              },
+              "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+              "mainId": "3362:2991",
+              "props": {
+               "Show Gallery Icon": true
+              }
+             },
+             {
+              "name": "Horizontal Thumbnail Card",
+              "type": "INSTANCE",
+              "id": "3553:32434",
+              "w": 282.5,
+              "h": 67,
+              "x": 302.5,
+              "y": 0,
+              "sizing": {
+               "h": "FILL",
+               "v": "HUG"
+              },
+              "layout": {
+               "dir": "VERTICAL",
+               "gap": 4,
+               "pad": [
+                6,
+                0,
+                6,
+                0
+               ],
+               "main": "MIN",
+               "cross": "MIN"
+              },
+              "clip": true,
+              "component": "Horizontal Thumbnail Card",
+              "variant": {
+               "Device": "Mobile"
+              },
+              "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+              "mainId": "3362:2991",
+              "props": {
+               "Show Gallery Icon": true
+              }
+             }
+            ]
+           },
+           {
+            "name": "Row 3",
+            "type": "FRAME",
+            "id": "3553:32435",
+            "w": 585,
+            "h": 67,
+            "x": 0,
+            "y": 214,
+            "sizing": {
+             "h": "FILL",
+             "v": "HUG"
+            },
+            "layout": {
+             "dir": "HORIZONTAL",
+             "gap": 20,
+             "pad": [
+              0,
+              0,
+              0,
+              0
+             ],
+             "main": "MIN",
+             "cross": "MIN"
+            },
+            "clip": true,
+            "children": [
+             {
+              "name": "Horizontal Thumbnail Card",
+              "type": "INSTANCE",
+              "id": "3553:32436",
+              "w": 282.5,
+              "h": 67,
+              "x": 0,
+              "y": 0,
+              "sizing": {
+               "h": "FILL",
+               "v": "HUG"
+              },
+              "layout": {
+               "dir": "VERTICAL",
+               "gap": 4,
+               "pad": [
+                6,
+                0,
+                6,
+                0
+               ],
+               "main": "MIN",
+               "cross": "MIN"
+              },
+              "clip": true,
+              "component": "Horizontal Thumbnail Card",
+              "variant": {
+               "Device": "Mobile"
+              },
+              "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+              "mainId": "3362:2991",
+              "props": {
+               "Show Gallery Icon": true
+              }
+             },
+             {
+              "name": "Horizontal Thumbnail Card",
+              "type": "INSTANCE",
+              "id": "3553:32437",
+              "w": 282.5,
+              "h": 67,
+              "x": 302.5,
+              "y": 0,
+              "sizing": {
+               "h": "FILL",
+               "v": "HUG"
+              },
+              "layout": {
+               "dir": "VERTICAL",
+               "gap": 4,
+               "pad": [
+                6,
+                0,
+                6,
+                0
+               ],
+               "main": "MIN",
+               "cross": "MIN"
+              },
+              "clip": true,
+              "component": "Horizontal Thumbnail Card",
+              "variant": {
+               "Device": "Mobile"
+              },
+              "componentKey": "d3542c97683a405950bd47e9f227af5459e4ee2e",
+              "mainId": "3362:2991",
+              "props": {
+               "Show Gallery Icon": true
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Show More Photos Affordance",
+        "type": "INSTANCE",
+        "id": "3553:32438",
+        "w": 585,
+        "h": 140.7,
+        "x": 0,
+        "y": 824.1,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          40,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "component": "Show More Photos Affordance",
+        "componentKey": "df4464b15997ef2b7b310ca9cd6a8b427de277a7",
+        "mainId": "3352:24180"
+       }
+      ]
+     }
+    ],
+    "key": "c1da4d8153180d69a9c392c102e3442c9d648779",
+    "variantProperties": {
+     "Device": "1024"
+    },
+    "componentDescription": null
+   }
   }
  ],
  "typography": [],
@@ -1802,20 +3501,54 @@
    "opacity": null,
    "note": "",
    "strokeWeight": null
+  },
+  {
+   "layer": "Device=1280",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=1100",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=1024",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
   }
  ],
  "imageRatios": [],
  "adSlots": [],
  "responsiveRules": [
-  "The lead story is a `1Col Article Card` Style=Media Lead instance (16:9 image, 29/33 headline) at every breakpoint; the list is `Horizontal Thumbnail Card` (90×51 thumbnails, Noto Sans 600 15/19 HeadlineList titles).",
+  "The lead story is a `1Col Article Card` Style=Media Lead instance (16:9 image, 29/33 headline) at every breakpoint; the list is `Horizontal Thumbnail Card` Mobile instances (90×51 thumbnails, Noto Sans 600 15/19 HeadlineList titles) at every width.",
+  "Device=1024 / 1100 / 1280 are the content column only (585 / 731 / 940 wide); the ad sits in the template's rail next to them, as in production's landing-three-one row. Device=Desktop (full width, no rail) is not used by any template.",
   "Device=Mobile: 438×1182.1, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 340, 360",
   "Device=Tablet: 748×1088.5, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 768",
-  "Device=Desktop: 1280×886.7, horizontal gap 24 pad 0/0/32/0 main CENTER cross MIN — renders at 1024, 1100, 1280"
+  "Device=Desktop: 1280×886.7, horizontal gap 24 pad 0/0/32/0 main CENTER cross MIN — renders at 1100, 1280",
+  "Device=1280: 940×749.7, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 1280",
+  "Device=1100: 731×749.7, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 1100",
+  "Device=1024: 585×996.8, vertical gap 24 pad 0/0/32/0 main MIN cross CENTER — renders at 1024"
  ],
  "productionRefs": [],
  "knownIssues": [
-  "2 of 3 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=Mobile`, `Device=Desktop`.",
-  "The 1024, 1100 and 1280 HomePage templates use detached, resized copies ('Photos Block Content (Tablet, detached, resized to 585 — internal ad removed…)'; their lead cards are 1Col Article Card Style=Media Lead instances) instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
+  "2 of 6 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=Mobile`, `Device=Desktop`.",
+  "The 340 and 360 templates use a 'Photos Block' frame (not an instance) that copies Device=Mobile, so Device=Mobile shows as unused."
  ],
  "skeleton": "photos-block.html",
  "exported": "2026-10-07"

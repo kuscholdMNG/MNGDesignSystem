@@ -100,8 +100,8 @@
     "templatesDirect": {},
     "templatesVia": {},
     "inComponents": {
-     "UserPic / Size=Small, Status=Default": 1,
-     "UserPic / Size=Medium, Status=Default": 1
+     "UserPic / Size=Medium, Status=Default": 1,
+     "UserPic / Size=Small, Status=Default": 1
     },
     "other": {},
     "breakpoints": []

@@ -62,8 +62,11 @@
  ],
  "usage": {
   "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
    "340 HomePage",
    "768 HomePage",
+   "Desktop HomePage",
    "Mobile HomePage"
   ],
   "builtInto": [
@@ -94,19 +97,34 @@
      "340 HomePage": 5
     },
     "templatesVia": {
+     "1024 HomePage": [
+      "Photos Block"
+     ],
+     "Desktop HomePage": [
+      "Photos Block"
+     ],
+     "1100 HomePage": [
+      "Photos Block"
+     ],
      "768 HomePage": [
       "Photos Block"
      ]
     },
     "inComponents": {
-     "Photos Block / Device=Tablet": 6,
-     "Photos Block / Device=Mobile": 5
+     "Photos Block / Device=1024": 6,
+     "Photos Block / Device=Mobile": 5,
+     "Photos Block / Device=1280": 6,
+     "Photos Block / Device=1100": 6,
+     "Photos Block / Device=Tablet": 6
     },
     "other": {},
     "breakpoints": [
      "340",
      "360",
-     "768"
+     "768",
+     "1024",
+     "1100",
+     "1280"
     ]
    },
    {
@@ -485,7 +503,10 @@
    "breakpoints": [
     "340",
     "360",
-    "768"
+    "768",
+    "1024",
+    "1100",
+    "1280"
    ],
    "layerTree": {
     "name": "Device=Mobile",
@@ -1137,13 +1158,13 @@
  "adSlots": [],
  "responsiveRules": [
   "Device=Desktop: 336×98, vertical gap 8 pad 8/0/8/0 main MIN cross MIN — renders at 1024, 1100, 1280",
-  "Device=Mobile: 336×67, vertical gap 4 pad 6/0/6/0 main MIN cross MIN — renders at 340, 360, 768",
+  "Device=Mobile: 336×67, vertical gap 4 pad 6/0/6/0 main MIN cross MIN — renders at 340, 360, 768, 1024, 1100, 1280",
   "Device=Tablet: 358×84, vertical gap 8 pad 8/0/8/0 main MIN cross MIN — renders at 768"
  ],
  "productionRefs": [],
  "knownIssues": [
-  "`Device=Mobile` is declared for 340, 360 but is placed in template(s) at 768 — check the variant choice.",
-  "The 1024, 1100 and 1280 HomePage templates use detached, resized copies (18 'Horizontal Thumbnail Card (…, Photos secondary list, detached — resized…)' layers inside the detached Photos content) instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
+  "`Device=Mobile` is declared for 340, 360 but is placed in template(s) at 768, 1024, 1100, 1280 — check the variant choice.",
+  "Expected: production uses the Device=Mobile thumbnail (90×51 image, 15/19 title) at every width, so the templates place Mobile at 768–1280 too. Device=Desktop (98px) and Device=Tablet (84px) don't match any production width checked on 2026-10-07; review whether to keep them."
  ],
  "skeleton": "horizontal-thumbnail-card.html",
  "exported": "2026-10-07"

@@ -41,7 +41,7 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Size=Default** — breakpoints: 768, 1100, 1280; templates (via assembly): 1100 HomePage (via Section Rail Card), Desktop HomePage (via Section Rail Card), 768 HomePage (via Section Rail Card); nested inside: Section Rail Card / Device=1100, Layout=Wide ×1, Section Rail Card / Device=1280, Layout=Wide ×1, Section Rail Card / Device=Tablet, Layout=Wide ×1
+- **Size=Default** — breakpoints: 768, 1100, 1280; templates (via assembly): 1100 HomePage (via Section Rail Card), 768 HomePage (via Section Rail Card), Desktop HomePage (via Section Rail Card); nested inside: Section Rail Card / Device=1100, Layout=Wide ×1, Section Rail Card / Device=Tablet, Layout=Wide ×1, Section Rail Card / Device=1280, Layout=Wide ×1
 - **Size=Narrow** — breakpoints: 1024; templates (via assembly): 1024 HomePage (via Section Rail Card); nested inside: Section Rail Card / Device=1024, Layout=Wide ×1
 
 ## Breakpoints

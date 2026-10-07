@@ -9,7 +9,7 @@ component_key: 264c00580f01ace3ec1483efbb4da877a0238766
 variants: 3
 breakpoints: [340, 360, 768, 1024, 1100, 1280]
 built_from: ["Article Status Badge"]
-built_into: ["Latest Headlines"]
+built_into: ["Latest Headlines", "TOP ZONE Block"]
 spec_json: latest-headlines-list-item.json
 skeleton: latest-headlines-list-item.html
 exported: 2026-10-07
@@ -40,9 +40,9 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Type=First** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1024 HomePage ×1, 1100 HomePage ×1; templates (via assembly): Desktop HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Desktop ×1, Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Mobile ×1
-- **Type=Standard** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1024 HomePage ×6, 1100 HomePage ×6; templates (via assembly): Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines), Desktop HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Mobile ×6, Latest Headlines / Device=Desktop ×6, Latest Headlines / Device=Tablet ×6
-- **Type=Sponsored** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1100 HomePage ×1, 1024 HomePage ×1; templates (via assembly): Desktop HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Desktop ×1, Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Mobile ×1
+- **Type=First** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via TOP ZONE Block), 768 HomePage (via Latest Headlines), Desktop HomePage (via Latest Headlines), 1024 HomePage (via TOP ZONE Block), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines); nested inside: TOP ZONE Block / Device=1100 ×1, Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Desktop ×1, TOP ZONE Block / Device=1024 ×1, Latest Headlines / Device=Mobile ×1
+- **Type=Standard** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via TOP ZONE Block), 1100 HomePage (via TOP ZONE Block), 768 HomePage (via Latest Headlines), Desktop HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines); nested inside: TOP ZONE Block / Device=1024 ×6, TOP ZONE Block / Device=1100 ×6, Latest Headlines / Device=Tablet ×6, Latest Headlines / Device=Desktop ×6, Latest Headlines / Device=Mobile ×6
+- **Type=Sponsored** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via TOP ZONE Block), 768 HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines), 1100 HomePage (via TOP ZONE Block), Desktop HomePage (via Latest Headlines); nested inside: TOP ZONE Block / Device=1024 ×1, Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Mobile ×1, TOP ZONE Block / Device=1100 ×1, Latest Headlines / Device=Desktop ×1
 
 ## Breakpoints
 
@@ -70,6 +70,7 @@ exported: 2026-10-07
 **Built into:**
 
 - [Latest Headlines](../../assemblies/09-latest-headlines/latest-headlines.md)
+- [TOP ZONE Block](../../assemblies/12-top-zone-block/top-zone-block.md)
 
 ## Anatomy
 

@@ -50,12 +50,11 @@
    {
     "label": "Most Popular List Item",
     "id": "3352:24171",
-    "templatesDirect": {
-     "Desktop HomePage": 10,
-     "1100 HomePage": 10,
-     "1024 HomePage": 10
-    },
+    "templatesDirect": {},
     "templatesVia": {
+     "1024 HomePage": [
+      "Blueconic Block (Most Popular)"
+     ],
      "768 HomePage": [
       "Blueconic Block (Most Popular)"
      ],
@@ -64,12 +63,21 @@
      ],
      "340 HomePage": [
       "Blueconic Block (Most Popular)"
+     ],
+     "1100 HomePage": [
+      "Blueconic Block (Most Popular)"
+     ],
+     "Desktop HomePage": [
+      "Blueconic Block (Most Popular)"
      ]
     },
     "inComponents": {
-     "Blueconic Block (Most Popular) / Device=Tablet": 10,
+     "Blueconic Block (Most Popular) / Device=1024": 10,
      "Blueconic Block (Most Popular) / Device=Desktop": 10,
-     "Blueconic Block (Most Popular) / Device=Mobile": 10
+     "Blueconic Block (Most Popular) / Device=Tablet": 10,
+     "Blueconic Block (Most Popular) / Device=Mobile": 10,
+     "Blueconic Block (Most Popular) / Device=1100": 10,
+     "Blueconic Block (Most Popular) / Device=1280": 10
     },
     "other": {},
     "breakpoints": [

@@ -46,7 +46,6 @@
     "Zone 1 Lead Article Card",
     "TopZone Article Card",
     "Latest Headlines List Item",
-    "TOP ZONE Block",
     "1Col Article Card"
    ],
    "md": "homepage/components/01-article-status-badge/article-status-badge.md",
@@ -102,7 +101,6 @@
     "Zone 1 Lead Article Card",
     "TopZone Article Card",
     "Horizontal Thumbnail Card",
-    "TOP ZONE Block",
     "Horizontal Feature Card",
     "1Col Article Card",
     "Feature + List Content Block"
@@ -149,8 +147,8 @@
    "name": "TopZone Article Card",
    "group": "homepage",
    "kind": "component",
-   "typeLabel": "Component · 2 variants",
-   "variants": 2,
+   "typeLabel": "Component · 4 variants",
+   "variants": 4,
    "breakpoints": [
     "340",
     "360",
@@ -170,7 +168,7 @@
    "html": "homepage/components/05-topzone-article-card/topzone-article-card.html",
    "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
    "figmaNode": "3336:46079",
-   "issues": 1
+   "issues": 0
   },
   {
    "order": 6,
@@ -192,6 +190,7 @@
    ],
    "builtInto": [
     "Latest Headlines",
+    "TOP ZONE Block",
     "Blueconic Block (Most Popular)",
     "Section Rail Card",
     "Photos Block"
@@ -222,7 +221,8 @@
     "Article Status Badge"
    ],
    "builtInto": [
-    "Latest Headlines"
+    "Latest Headlines",
+    "TOP ZONE Block"
    ],
    "md": "homepage/components/07-latest-headlines-list-item/latest-headlines-list-item.md",
    "json": "homepage/components/07-latest-headlines-list-item/latest-headlines-list-item.json",
@@ -250,7 +250,8 @@
     "Button Primary"
    ],
    "builtInto": [
-    "Latest Headlines"
+    "Latest Headlines",
+    "TOP ZONE Block"
    ],
    "md": "homepage/components/08-newsletter-signup/newsletter-signup.md",
    "json": "homepage/components/08-newsletter-signup/newsletter-signup.json",
@@ -350,22 +351,25 @@
    "name": "TOP ZONE Block",
    "group": "homepage",
    "kind": "assembly",
-   "typeLabel": "Assembly · 3 variants",
-   "variants": 3,
+   "typeLabel": "Assembly · 5 variants",
+   "variants": 5,
    "breakpoints": [
     "340",
     "360",
     "768",
+    "1024",
+    "1100",
     "1280"
    ],
    "builtFrom": [
     "Zone 1 Lead Article Card",
-    "Article Image Placeholder",
     "TopZone Article Card",
     "Latest Headlines",
     "Ad Blocks",
-    "Article Status Badge",
-    "Horizontal Thumbnail Card"
+    "Horizontal Thumbnail Card",
+    "Section Title / Eyebrow",
+    "Latest Headlines List Item",
+    "Newsletter Signup"
    ],
    "builtInto": [],
    "md": "homepage/assemblies/12-top-zone-block/top-zone-block.md",
@@ -373,7 +377,7 @@
    "html": "homepage/assemblies/12-top-zone-block/top-zone-block.html",
    "figmaFile": "b1iZxkFwtAYq9rElmnCAzd",
    "figmaNode": "3352:19482",
-   "issues": 2
+   "issues": 0
   },
   {
    "order": 13,
@@ -406,8 +410,8 @@
    "name": "Blueconic Block (Most Popular)",
    "group": "homepage",
    "kind": "assembly",
-   "typeLabel": "Assembly · 3 variants",
-   "variants": 3,
+   "typeLabel": "Assembly · 6 variants",
+   "variants": 6,
    "breakpoints": [
     "340",
     "360",
@@ -623,8 +627,8 @@
    "name": "Photos Block",
    "group": "homepage",
    "kind": "assembly",
-   "typeLabel": "Assembly · 3 variants",
-   "variants": 3,
+   "typeLabel": "Assembly · 6 variants",
+   "variants": 6,
    "breakpoints": [
     "340",
     "360",

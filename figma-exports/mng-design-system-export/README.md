@@ -1,6 +1,6 @@
 # MNG Design System — component spec export
 
-Exported 2026-10-07 from Figma. 49 items (27 components, 22 assemblies, 346 variants). Page templates are not included; the homepage templates are used only as "where it is used" and breakpoint evidence.
+Exported 2026-10-07 from Figma. 49 items (27 components, 22 assemblies, 356 variants). Page templates are not included; the homepage templates are used only as "where it is used" and breakpoint evidence.
 
 Rebuild: run the calls in `scripts/design-system-export/extract.js` in Figma, then `python3 scripts/design-system-export/build-design-system-export.py <raw> <previews> figma-exports/mng-design-system-export`.
 
@@ -40,16 +40,16 @@ Variant values map onto these keys as follows: `XS-Fold`/`FOLD` → 340, `SM-Mob
 | 2 | [Related Article List Item](homepage/components/02-related-article-list-item/related-article-list-item.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
 | 3 | [Article Image Placeholder](homepage/components/03-article-image-placeholder/article-image-placeholder.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 |  | 1 |
 | 4 | [Zone 1 Lead Article Card](homepage/components/04-zone-1-lead-article-card/zone-1-lead-article-card.md) | component | 3 | 340, 360, 768, 1024, 1100, 1280 | Article Status Badge, Article Image Placeholder, Related Article List Item | 1 |
-| 5 | [TopZone Article Card](homepage/components/05-topzone-article-card/topzone-article-card.md) | component | 2 | 340, 360, 1024, 1100, 1280 | Article Image Placeholder, Article Status Badge | 1 |
+| 5 | [TopZone Article Card](homepage/components/05-topzone-article-card/topzone-article-card.md) | component | 4 | 340, 360, 1024, 1100, 1280 | Article Image Placeholder, Article Status Badge | 0 |
 | 6 | [Section Title / Eyebrow](homepage/components/06-section-title-eyebrow/section-title-eyebrow.md) | component | 2 | 340, 360, 768, 1024, 1100, 1280 |  | 1 |
 | 7 | [Latest Headlines List Item](homepage/components/07-latest-headlines-list-item/latest-headlines-list-item.md) | component | 3 | 340, 360, 768, 1024, 1100, 1280 | Article Status Badge | 0 |
 | 8 | [Newsletter Signup](homepage/components/08-newsletter-signup/newsletter-signup.md) | component | 2 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
 | 9 | [Latest Headlines](homepage/assemblies/09-latest-headlines/latest-headlines.md) | assembly | 3 | 340, 360, 768, 1280 | Section Title / Eyebrow, Latest Headlines List Item, Newsletter Signup | 1 |
 | 10 | [Gallery Icon Badge](homepage/components/10-gallery-icon-badge/gallery-icon-badge.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
 | 11 | [Horizontal Thumbnail Card](homepage/components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.md) | component | 3 | 340, 360, 768, 1024, 1100, 1280 | Article Image Placeholder, Gallery Icon Badge | 2 |
-| 12 | [TOP ZONE Block](homepage/assemblies/12-top-zone-block/top-zone-block.md) | assembly | 3 | 340, 360, 768, 1280 | Zone 1 Lead Article Card, Article Image Placeholder, TopZone Article Card, Latest Headlines, Article Status Badge, Horizontal Thumbnail Card | 2 |
+| 12 | [TOP ZONE Block](homepage/assemblies/12-top-zone-block/top-zone-block.md) | assembly | 5 | 340, 360, 768, 1024, 1100, 1280 | Zone 1 Lead Article Card, TopZone Article Card, Latest Headlines, Horizontal Thumbnail Card, Section Title / Eyebrow, Latest Headlines List Item, Newsletter Signup | 0 |
 | 13 | [Most Popular List Item](homepage/components/13-most-popular-list-item/most-popular-list-item.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
-| 14 | [Blueconic Block (Most Popular)](homepage/assemblies/14-blueconic-block-most-popular/blueconic-block-most-popular.md) | assembly | 3 | 340, 360, 768, 1024, 1100, 1280 | Section Title / Eyebrow, Most Popular List Item | 2 |
+| 14 | [Blueconic Block (Most Popular)](homepage/assemblies/14-blueconic-block-most-popular/blueconic-block-most-popular.md) | assembly | 6 | 340, 360, 768, 1024, 1100, 1280 | Section Title / Eyebrow, Most Popular List Item | 2 |
 | 15 | [Horizontal Feature Card](homepage/components/15-horizontal-feature-card/horizontal-feature-card.md) | component | 1 | 768, 1100, 1280 | Article Image Placeholder | 0 |
 | 16 | [1Col Article Card](homepage/components/16-1col-article-card/1col-article-card.md) | component | 2 | 340, 360, 768, 1024, 1100, 1280 | Article Image Placeholder, Article Status Badge | 0 |
 | 17 | [Feature + List Content Block](homepage/assemblies/17-feature-list-content-block/feature-list-content-block.md) | assembly | 2 | 768, 1024, 1100, 1280 | Horizontal Feature Card, 1Col Article Card, Article Image Placeholder | 0 |
@@ -57,7 +57,7 @@ Variant values map onto these keys as follows: `XS-Fold`/`FOLD` → 340, `SM-Mob
 | 19 | [Video Tile Image Placeholder](homepage/components/19-video-tile-image-placeholder/video-tile-image-placeholder.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 |  | 1 |
 | 20 | [Videos from OCRegister Carousel](homepage/assemblies/20-videos-from-ocregister-carousel/videos-from-ocregister-carousel.md) | assembly | 2 | 340, 360, 768, 1024, 1100, 1280 | Video Tile Image Placeholder | 2 |
 | 21 | [Show More Photos Affordance](homepage/components/21-show-more-photos-affordance/show-more-photos-affordance.md) | component | 1 | 340, 360, 768, 1024, 1100, 1280 |  | 0 |
-| 22 | [Photos Block](homepage/assemblies/22-photos-block/photos-block.md) | assembly | 3 | 340, 360, 768, 1024, 1100, 1280 | Section Title / Eyebrow, 1Col Article Card, Horizontal Thumbnail Card, Show More Photos Affordance | 2 |
+| 22 | [Photos Block](homepage/assemblies/22-photos-block/photos-block.md) | assembly | 6 | 340, 360, 768, 1024, 1100, 1280 | Section Title / Eyebrow, 1Col Article Card, Horizontal Thumbnail Card, Show More Photos Affordance | 2 |
 | 23 | [Upcoming Events Widget (768, 3 cards, 7 days)](homepage/components/23-upcoming-events-widget-768-3-cards-7-days/upcoming-events-widget-768-3-cards-7-days.md) | component | 1 | 768 |  | 1 |
 | 24 | [Upcoming Events Block](homepage/assemblies/24-upcoming-events-block/upcoming-events-block.md) | assembly | 5 | 340, 360, 768, 1024, 1100, 1280 | Upcoming Events Widget (768, 3 cards, 7 days) | 1 |
 
@@ -167,11 +167,12 @@ flowchart LR
   n2 --> n10
   n9 --> n10
   n3 --> n11
-  n2 --> n11
   n4 --> n11
   n8 --> n11
-  n0 --> n11
   n10 --> n11
+  n5 --> n11
+  n6 --> n11
+  n7 --> n11
   n5 --> n13
   n12 --> n13
   n2 --> n14

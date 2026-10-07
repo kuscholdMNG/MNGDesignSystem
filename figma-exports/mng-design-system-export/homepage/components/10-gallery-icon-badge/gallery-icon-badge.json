@@ -50,11 +50,7 @@
    {
     "label": "Gallery Icon Badge",
     "id": "3362:2959",
-    "templatesDirect": {
-     "Desktop HomePage": 6,
-     "1024 HomePage": 6,
-     "1100 HomePage": 6
-    },
+    "templatesDirect": {},
     "templatesVia": {
      "768 HomePage": [
       "Horizontal Thumbnail Card"
@@ -64,12 +60,21 @@
      ],
      "340 HomePage": [
       "Horizontal Thumbnail Card"
+     ],
+     "1024 HomePage": [
+      "Horizontal Thumbnail Card"
+     ],
+     "Desktop HomePage": [
+      "Horizontal Thumbnail Card"
+     ],
+     "1100 HomePage": [
+      "Horizontal Thumbnail Card"
      ]
     },
     "inComponents": {
      "Horizontal Thumbnail Card / Device=Tablet": 1,
-     "Horizontal Thumbnail Card / Device=Mobile": 1,
-     "Horizontal Thumbnail Card / Device=Desktop": 1
+     "Horizontal Thumbnail Card / Device=Desktop": 1,
+     "Horizontal Thumbnail Card / Device=Mobile": 1
     },
     "other": {},
     "breakpoints": [

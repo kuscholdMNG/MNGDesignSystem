@@ -152,7 +152,7 @@ _None found in descriptions or layer names._
 
 ## Known issues
 
-- At 1024 and 1100 Latest Headlines sits inside the detached TOP ZONE copies, so those breakpoints are not counted above.
+- TOP ZONE Block Device=1024 and Device=1100 hold a 'Latest Headlines MinCol' frame (252 / 219 wide) built from Latest Headlines List Item instances instead of a Latest Headlines instance, so 1024 and 1100 are not counted above.
 
 ## Rendering steps
 

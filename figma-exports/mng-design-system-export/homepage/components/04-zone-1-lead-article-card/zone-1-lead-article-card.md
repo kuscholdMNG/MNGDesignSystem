@@ -40,7 +40,7 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Device=Mobile** — breakpoints: 340, 360, 1024, 1100; templates (direct): 1100 HomePage ×1, 1024 HomePage ×1; templates (via assembly): Mobile HomePage (via TOP ZONE Block), 340 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Mobile ×1
+- **Device=Mobile** — breakpoints: 340, 360, 1024, 1100; templates (via assembly): 1100 HomePage (via TOP ZONE Block), 1024 HomePage (via TOP ZONE Block), Mobile HomePage (via TOP ZONE Block), 340 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=1100 ×1, TOP ZONE Block / Device=1024 ×1, TOP ZONE Block / Device=Mobile ×1
 - **Device=Desktop** — breakpoints: 1280; templates (via assembly): Desktop HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Desktop ×1
 - **Device=Tablet** — breakpoints: 768; templates (via assembly): 768 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Tablet ×1
 

@@ -3,10 +3,9 @@
   "rules": [
    "Desktop (checked against the preview): three columns. Left: Zone 1 lead card (headline + image side by side) over a 2×2 grid of TopZone cards. Middle: Latest Headlines rail with a sponsored item and newsletter signup. Right: a tall 300×1050 rail ad.",
    "Tablet: lead card and image across the top, then a 2×2 group of horizontal thumbnail cards, then Latest Headlines full width, with a 300×250 cube ad at the bottom.",
-   "Mobile: one column. The lead card stacks headline → image → dek → related list, followed by four horizontal thumbnail cards, Latest Headlines, and a 300×250 cube ad."
-  ],
-  "issues": [
-   "The 1024 and 1100 HomePage templates use detached, resized copies ('TOP ZONE Block (Desktop, detached+resized for 1024…)' and 'TOP ZONE Block (detached, resized for 1100…)') instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
+   "Mobile: one column. The lead card stacks headline → image → dek → related list, followed by four horizontal thumbnail cards, Latest Headlines, and a 300×250 cube ad.",
+   "1100 (checked against production on 6 sites): lead card over four stacked horizontal TopZone Article Card Device=1100 cards (280×157 image, 18/21.6 CardTertiaryRow headline), then the Latest Headlines column and a 300×1050 rail ad.",
+   "1024 (checked against production on 6 sites): lead card over a 2×2 grid of vertical TopZone Article Card Device=1024 cards (16:9 image, 16/18.88 CardTertiaryCompact headline), 20px gaps, then Latest Headlines and the rail ad."
   ]
  },
  "Section Rail Card": {
@@ -29,25 +28,32 @@
  },
  "Photos Block": {
   "rules": [
-   "The lead story is a `1Col Article Card` Style=Media Lead instance (16:9 image, 29/33 headline) at every breakpoint; the list is `Horizontal Thumbnail Card` (90×51 thumbnails, Noto Sans 600 15/19 HeadlineList titles)."
+   "The lead story is a `1Col Article Card` Style=Media Lead instance (16:9 image, 29/33 headline) at every breakpoint; the list is `Horizontal Thumbnail Card` Mobile instances (90×51 thumbnails, Noto Sans 600 15/19 HeadlineList titles) at every width.",
+   "Device=1024 / 1100 / 1280 are the content column only (585 / 731 / 940 wide); the ad sits in the template's rail next to them, as in production's landing-three-one row. Device=Desktop (full width, no rail) is not used by any template."
   ],
   "issues": [
-   "The 1024, 1100 and 1280 HomePage templates use detached, resized copies ('Photos Block Content (Tablet, detached, resized to 585 — internal ad removed…)'; their lead cards are 1Col Article Card Style=Media Lead instances) instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
+   "The 340 and 360 templates use a 'Photos Block' frame (not an instance) that copies Device=Mobile, so Device=Mobile shows as unused."
   ]
  },
  "Blueconic Block (Most Popular)": {
-  "issues": [
-   "The 1024, 1100 and 1280 HomePage templates use detached, resized copies ('Blueconic Block Content (Tablet, detached, resized to 585…)') instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
+  "rules": [
+   "Device=1024 / 1100 / 1280 are the content column only; the ad sits in the template's rail. Device=Desktop (full width, no rail) is not used by any template.",
+   "Most Popular List Item stays 44px; the column gap adds the spacing production shows (60px rows for one-line items): 16 (`spacing/200`) at 360, 768, 1100 and 1280, 11 at 1024. Column gaps: 19 at 768 and 1024, 21 at 1100, 22 at 1280. See production-vs-design entry 27."
   ]
  },
  "Horizontal Thumbnail Card": {
   "issues": [
-   "The 1024, 1100 and 1280 HomePage templates use detached, resized copies (18 'Horizontal Thumbnail Card (…, Photos secondary list, detached — resized…)' layers inside the detached Photos content) instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
+   "Expected: production uses the Device=Mobile thumbnail (90×51 image, 15/19 title) at every width, so the templates place Mobile at 768–1280 too. Device=Desktop (98px) and Device=Tablet (84px) don't match any production width checked on 2026-10-07; review whether to keep them."
   ]
  },
  "Latest Headlines": {
   "issues": [
-   "At 1024 and 1100 Latest Headlines sits inside the detached TOP ZONE copies, so those breakpoints are not counted above."
+   "TOP ZONE Block Device=1024 and Device=1100 hold a 'Latest Headlines MinCol' frame (252 / 219 wide) built from Latest Headlines List Item instances instead of a Latest Headlines instance, so 1024 and 1100 are not counted above."
+  ]
+ },
+ "TopZone Article Card": {
+  "rules": [
+   "Device=Mobile: horizontal, 100×67 image. Device=1024: vertical, 16:9 image filling the width, CardTertiaryCompact 16/18.88. Device=1100: horizontal, 280×157 image, 20px gap, CardTertiaryRow 18/21.6. Device=Desktop: vertical, 16:9 image (340×191 in production at 1280), CardTertiary 20/23.6 −0.4. Checked on 6 sites at 1024, 1100 and 1280 (2026-10-07)."
   ]
  }
 }

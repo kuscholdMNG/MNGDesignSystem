@@ -5,7 +5,7 @@
  "name": "TOP ZONE Block",
  "slug": "top-zone-block",
  "order": 12,
- "typeLabel": "Assembly · 3 variants",
+ "typeLabel": "Assembly · 5 variants",
  "description": "Component set · Variant: Device = Desktop, Mobile · reused as instances in the assembled Desktop and Mobile pages and in both raw section libraries (Home Page Sections, Frame 12027).",
  "designerNotes": [],
  "figma": {
@@ -34,6 +34,18 @@
     "id": "3383:46168",
     "key": "b4a1a32615aabad34160c7c1eb0c826d46033f51",
     "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46168"
+   },
+   {
+    "label": "Device=1024",
+    "id": "3553:32881",
+    "key": "b48f78878f58785c9a3bfa7f2babad967900c32d",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3553-32881"
+   },
+   {
+    "label": "Device=1100",
+    "id": "3553:33340",
+    "key": "a2e3848a12d934ff77250990ec1fff1c9418267c",
+    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3553-33340"
    }
   ]
  },
@@ -44,7 +56,9 @@
    "options": [
     "Desktop",
     "Mobile",
-    "Tablet"
+    "Tablet",
+    "1024",
+    "1100"
    ]
   }
  },
@@ -52,10 +66,14 @@
   "340",
   "360",
   "768",
+  "1024",
+  "1100",
   "1280"
  ],
  "usage": {
   "templates": [
+   "1024 HomePage",
+   "1100 HomePage",
    "340 HomePage",
    "768 HomePage",
    "Desktop HomePage",
@@ -103,6 +121,32 @@
     "breakpoints": [
      "768"
     ]
+   },
+   {
+    "label": "Device=1024",
+    "id": "3553:32881",
+    "templatesDirect": {
+     "1024 HomePage": 1
+    },
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "1024"
+    ]
+   },
+   {
+    "label": "Device=1100",
+    "id": "3553:33340",
+    "templatesDirect": {
+     "1100 HomePage": 1
+    },
+    "templatesVia": {},
+    "inComponents": {},
+    "other": {},
+    "breakpoints": [
+     "1100"
+    ]
    }
   ]
  },
@@ -116,15 +160,8 @@
     "path": "../../components/04-zone-1-lead-article-card/zone-1-lead-article-card.md"
    },
    {
-    "name": "Article Image Placeholder",
-    "count": 1,
-    "inExport": true,
-    "section": "Article Image Placeholder",
-    "path": "../../components/03-article-image-placeholder/article-image-placeholder.md"
-   },
-   {
     "name": "TopZone Article Card",
-    "count": 3,
+    "count": 4,
     "inExport": true,
     "section": "TopZone Article Card",
     "path": "../../components/05-topzone-article-card/topzone-article-card.md"
@@ -144,18 +181,32 @@
     "path": null
    },
    {
-    "name": "Article Status Badge",
-    "count": 4,
-    "inExport": true,
-    "section": "Article Status Badge",
-    "path": "../../components/01-article-status-badge/article-status-badge.md"
-   },
-   {
     "name": "Horizontal Thumbnail Card",
     "count": 4,
     "inExport": true,
     "section": "Horizontal Thumbnail Card",
     "path": "../../components/11-horizontal-thumbnail-card/horizontal-thumbnail-card.md"
+   },
+   {
+    "name": "Section Title / Eyebrow",
+    "count": 1,
+    "inExport": true,
+    "section": "Section Title / Eyebrow",
+    "path": "../../components/06-section-title-eyebrow/section-title-eyebrow.md"
+   },
+   {
+    "name": "Latest Headlines List Item",
+    "count": 8,
+    "inExport": true,
+    "section": "Latest Headlines List Item",
+    "path": "../../components/07-latest-headlines-list-item/latest-headlines-list-item.md"
+   },
+   {
+    "name": "Newsletter Signup",
+    "count": 1,
+    "inExport": true,
+    "section": "Newsletter Signup",
+    "path": "../../components/08-newsletter-signup/newsletter-signup.md"
    }
   ],
   "builtInto": []
@@ -284,9 +335,9 @@
         "mainId": "3336:46156"
        },
        {
-        "name": "TopZone Article Card MOBILE",
-        "type": "FRAME",
-        "id": "3352:19150",
+        "name": "TopZone Article Card",
+        "type": "INSTANCE",
+        "id": "3553:33839",
         "w": 340,
         "h": 107,
         "x": 0,
@@ -314,160 +365,12 @@
           "variable": "Colors/color/gray/max"
          }
         ],
-        "children": [
-         {
-          "name": "Content",
-          "type": "FRAME",
-          "id": "3352:19151",
-          "w": 340,
-          "h": 75,
-          "x": 0,
-          "y": 0,
-          "sizing": {
-           "h": "FILL",
-           "v": "HUG"
-          },
-          "layout": {
-           "dir": "HORIZONTAL",
-           "gap": 8,
-           "pad": [
-            0,
-            0,
-            0,
-            0
-           ],
-           "main": "MIN",
-           "cross": "MIN"
-          },
-          "children": [
-           {
-            "name": "Article Image Placeholder",
-            "type": "INSTANCE",
-            "id": "3352:19152",
-            "w": 100,
-            "h": 67,
-            "x": 0,
-            "y": 0,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "VERTICAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "fills": [
-             {
-              "type": "SOLID",
-              "hex": "#E1A1FF"
-             }
-            ],
-            "strokes": [
-             {
-              "type": "SOLID",
-              "hex": "#141414",
-              "variable": "Colors/color/gray/min"
-             }
-            ],
-            "strokeWeight": 2,
-            "strokeAlign": "INSIDE",
-            "component": "Article Image Placeholder",
-            "componentKey": "682588ec19d35ed6a03e5a8e45b70e5fbc16d7cf",
-            "mainId": "3334:42380"
-           },
-           {
-            "name": "Headline",
-            "type": "FRAME",
-            "id": "3352:19153",
-            "w": 232,
-            "h": 75,
-            "x": 108,
-            "y": 0,
-            "sizing": {
-             "h": "FIXED",
-             "v": "HUG"
-            },
-            "layout": {
-             "dir": "VERTICAL",
-             "gap": 15,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "MIN",
-             "cross": "MIN"
-            },
-            "children": [
-             {
-              "name": "Article Headline on News paper homepage in second zone position",
-              "type": "TEXT",
-              "id": "3352:19154",
-              "w": 232,
-              "h": 75,
-              "x": 0,
-              "y": 0,
-              "sizing": {
-               "h": "FILL",
-               "v": "HUG"
-              },
-              "text": "Article Headline on News paper homepage in second zone position ",
-              "autoResize": "HEIGHT",
-              "align": "LEFT",
-              "styles": [
-               {
-                "font": "Noto Serif",
-                "weight": "Bold",
-                "size": 18,
-                "lineHeight": "auto",
-                "color": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "textStyle": null
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         },
-         {
-          "name": "Bottom Border Line",
-          "type": "LINE",
-          "id": "3352:19155",
-          "w": 340,
-          "h": 0,
-          "x": 0,
-          "y": 91,
-          "sizing": {
-           "h": "FILL",
-           "v": "FIXED"
-          },
-          "strokes": [
-           {
-            "type": "SOLID",
-            "hex": "#CCCAC7",
-            "variable": "Colors/color/gray/500"
-           }
-          ],
-          "strokeWeight": 1,
-          "strokeAlign": "CENTER"
-         }
-        ]
+        "component": "TopZone Article Card",
+        "variant": {
+         "Device": "Mobile"
+        },
+        "componentKey": "997b110ba5e030bfc5ba916de350fbd24160af6f",
+        "mainId": "3336:46078"
        },
        {
         "name": "TopZone Article Card",
@@ -715,7 +618,7 @@
    "key": "36fdd688499b8f976a904d80a176e92d829057d4",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-19480",
    "width": 1264,
-   "height": 1123,
+   "height": 1088,
    "layout": {
     "dir": "HORIZONTAL",
     "gap": 16,
@@ -750,7 +653,7 @@
     "type": "COMPONENT",
     "id": "3352:19480",
     "w": 1264,
-    "h": 1123,
+    "h": 1088,
     "x": 1169.1,
     "y": 16,
     "sizing": {
@@ -782,7 +685,7 @@
       "type": "FRAME",
       "id": "3352:19126",
       "w": 706,
-      "h": 1107,
+      "h": 910.9,
       "x": 0,
       "y": 0,
       "sizing": {
@@ -845,7 +748,7 @@
         "type": "FRAME",
         "id": "3352:19128",
         "w": 706,
-        "h": 379,
+        "h": 280.9,
         "x": 0,
         "y": 349,
         "sizing": {
@@ -854,28 +757,31 @@
         },
         "layout": {
          "dir": "HORIZONTAL",
-         "gap": 16,
+         "gap": 20,
          "pad": [
           0,
           0,
           16,
           0
          ],
-         "main": "SPACE_BETWEEN",
+         "main": "MIN",
          "cross": "MIN"
+        },
+        "vars": {
+         "itemSpacing": "Spacing & Radius/spacing/250"
         },
         "children": [
          {
           "name": "TopZone Article Card",
-          "type": "FRAME",
-          "id": "3478:66030",
-          "w": 336,
-          "h": 363,
+          "type": "INSTANCE",
+          "id": "3553:33751",
+          "w": 343,
+          "h": 264.9,
           "x": 0,
           "y": 0,
           "sizing": {
-           "h": "HUG",
-           "v": "FIXED"
+           "h": "FILL",
+           "v": "HUG"
           },
           "layout": {
            "dir": "VERTICAL",
@@ -896,288 +802,24 @@
             "variable": "Colors/color/gray/max"
            }
           ],
-          "children": [
-           {
-            "name": "Article Image Placeholder",
-            "type": "FRAME",
-            "id": "3478:66040",
-            "w": 336,
-            "h": 189,
-            "x": 0,
-            "y": 0,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "VERTICAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "fills": [
-             {
-              "type": "SOLID",
-              "hex": "#E1A1FF"
-             }
-            ],
-            "strokes": [
-             {
-              "type": "SOLID",
-              "hex": "#141414",
-              "variable": "Colors/color/gray/min"
-             }
-            ],
-            "strokeWeight": 2,
-            "strokeAlign": "INSIDE",
-            "children": [
-             {
-              "name": "Placeholder X",
-              "type": "BOOLEAN_OPERATION",
-              "id": "3478:66041",
-              "w": 336,
-              "h": 189,
-              "x": 0,
-              "y": 0,
-              "sizing": {
-               "h": "FILL",
-               "v": "FILL"
-              },
-              "fills": [
-               {
-                "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
-               }
-              ],
-              "children": [
-               {
-                "name": "Diagonal 1",
-                "type": "VECTOR",
-                "id": "3478:66042",
-                "w": 335,
-                "h": 187.3,
-                "x": 0.5,
-                "y": 0.9,
-                "strokes": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "strokeWeight": 2,
-                "strokeAlign": "CENTER"
-               },
-               {
-                "name": "Diagonal 2",
-                "type": "VECTOR",
-                "id": "3478:66043",
-                "w": 335,
-                "h": 187.3,
-                "x": 335.5,
-                "y": 0.9,
-                "strokes": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "strokeWeight": 2,
-                "strokeAlign": "CENTER"
-               }
-              ]
-             },
-             {
-              "name": "Label",
-              "type": "FRAME",
-              "id": "3478:66044",
-              "w": 168,
-              "h": 22,
-              "x": 83.5,
-              "y": 83.5,
-              "sizing": {
-               "h": "HUG",
-               "v": "HUG"
-              },
-              "absolute": true,
-              "layout": {
-               "dir": "HORIZONTAL",
-               "gap": 8,
-               "pad": [
-                0,
-                0,
-                0,
-                0
-               ],
-               "main": "CENTER",
-               "cross": "CENTER"
-              },
-              "children": [
-               {
-                "name": "ARTICLE IMAGE",
-                "type": "TEXT",
-                "id": "3478:66045",
-                "w": 168,
-                "h": 22,
-                "x": 0,
-                "y": 0,
-                "sizing": {
-                 "h": "HUG",
-                 "v": "HUG"
-                },
-                "strokes": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#F1EFEB",
-                  "variable": "Colors/color/gray/600"
-                 }
-                ],
-                "strokeWeight": 3,
-                "strokeAlign": "OUTSIDE",
-                "text": "GRAPHIC / IMAGE",
-                "autoResize": "WIDTH_AND_HEIGHT",
-                "align": "LEFT",
-                "styles": [
-                 {
-                  "font": "Noto Serif",
-                  "weight": "Bold",
-                  "size": 16,
-                  "lineHeight": "auto",
-                  "letterSpacing": "10%",
-                  "color": [
-                   {
-                    "type": "SOLID",
-                    "hex": "#141414",
-                    "variable": "Colors/color/gray/min"
-                   }
-                  ],
-                  "textStyle": null
-                 }
-                ]
-               }
-              ]
-             }
-            ]
-           },
-           {
-            "name": "Article Status Badge",
-            "type": "INSTANCE",
-            "id": "3478:66032",
-            "w": 138,
-            "h": 27,
-            "x": 0,
-            "y": 231,
-            "hidden": true,
-            "sizing": {
-             "h": "HUG",
-             "v": "HUG"
-            },
-            "layout": {
-             "dir": "HORIZONTAL",
-             "gap": 8,
-             "pad": [
-              2,
-              5,
-              2,
-              5
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "fills": [
-             {
-              "type": "SOLID",
-              "hex": "#7D161E"
-             }
-            ],
-            "component": "Article Status Badge",
-            "variant": {
-             "Type": "Sponsored"
-            },
-            "componentKey": "2cba7cf7dd45bbf3b7d1d71d53de2acd577e3217",
-            "mainId": "3344:63991"
-           },
-           {
-            "name": "Headline",
-            "type": "FRAME",
-            "id": "3478:66033",
-            "w": 336,
-            "h": 81,
-            "x": 0,
-            "y": 197,
-            "sizing": {
-             "h": "FILL",
-             "v": "HUG"
-            },
-            "layout": {
-             "dir": "VERTICAL",
-             "gap": 15,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "MIN",
-             "cross": "MIN"
-            },
-            "children": [
-             {
-              "name": "Article Headline on News paper homepage in second zone position",
-              "type": "TEXT",
-              "id": "3478:66034",
-              "w": 336,
-              "h": 81,
-              "x": 0,
-              "y": 0,
-              "sizing": {
-               "h": "FILL",
-               "v": "HUG"
-              },
-              "text": "Article Headline on News paper homepage in second zone position",
-              "autoResize": "HEIGHT",
-              "align": "LEFT",
-              "styles": [
-               {
-                "font": "Noto Serif",
-                "weight": "Bold",
-                "size": 20,
-                "lineHeight": "auto",
-                "color": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "textStyle": null
-               }
-              ]
-             }
-            ]
-           }
-          ]
+          "component": "TopZone Article Card",
+          "variant": {
+           "Device": "Desktop"
+          },
+          "componentKey": "8dcd8a244e91736a663d21060039986716abae71",
+          "mainId": "3336:46077"
          },
          {
           "name": "TopZone Article Card",
-          "type": "FRAME",
-          "id": "3478:66046",
-          "w": 336,
-          "h": 363,
-          "x": 370,
+          "type": "INSTANCE",
+          "id": "3553:33773",
+          "w": 343,
+          "h": 264.9,
+          "x": 363,
           "y": 0,
           "sizing": {
-           "h": "HUG",
-           "v": "FIXED"
+           "h": "FILL",
+           "v": "HUG"
           },
           "layout": {
            "dir": "VERTICAL",
@@ -1198,276 +840,12 @@
             "variable": "Colors/color/gray/max"
            }
           ],
-          "children": [
-           {
-            "name": "Article Image Placeholder",
-            "type": "FRAME",
-            "id": "3478:66056",
-            "w": 336,
-            "h": 189,
-            "x": 0,
-            "y": 0,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "VERTICAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "fills": [
-             {
-              "type": "SOLID",
-              "hex": "#E1A1FF"
-             }
-            ],
-            "strokes": [
-             {
-              "type": "SOLID",
-              "hex": "#141414",
-              "variable": "Colors/color/gray/min"
-             }
-            ],
-            "strokeWeight": 2,
-            "strokeAlign": "INSIDE",
-            "children": [
-             {
-              "name": "Placeholder X",
-              "type": "BOOLEAN_OPERATION",
-              "id": "3478:66057",
-              "w": 336,
-              "h": 189,
-              "x": 0,
-              "y": 0,
-              "sizing": {
-               "h": "FILL",
-               "v": "FILL"
-              },
-              "fills": [
-               {
-                "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
-               }
-              ],
-              "children": [
-               {
-                "name": "Diagonal 1",
-                "type": "VECTOR",
-                "id": "3478:66058",
-                "w": 335,
-                "h": 187.3,
-                "x": 0.5,
-                "y": 0.9,
-                "strokes": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "strokeWeight": 2,
-                "strokeAlign": "CENTER"
-               },
-               {
-                "name": "Diagonal 2",
-                "type": "VECTOR",
-                "id": "3478:66059",
-                "w": 335,
-                "h": 187.3,
-                "x": 335.5,
-                "y": 0.9,
-                "strokes": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "strokeWeight": 2,
-                "strokeAlign": "CENTER"
-               }
-              ]
-             },
-             {
-              "name": "Label",
-              "type": "FRAME",
-              "id": "3478:66060",
-              "w": 168,
-              "h": 22,
-              "x": 83.5,
-              "y": 83.5,
-              "sizing": {
-               "h": "HUG",
-               "v": "HUG"
-              },
-              "absolute": true,
-              "layout": {
-               "dir": "HORIZONTAL",
-               "gap": 8,
-               "pad": [
-                0,
-                0,
-                0,
-                0
-               ],
-               "main": "CENTER",
-               "cross": "CENTER"
-              },
-              "children": [
-               {
-                "name": "ARTICLE IMAGE",
-                "type": "TEXT",
-                "id": "3478:66061",
-                "w": 168,
-                "h": 22,
-                "x": 0,
-                "y": 0,
-                "sizing": {
-                 "h": "HUG",
-                 "v": "HUG"
-                },
-                "strokes": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#F1EFEB",
-                  "variable": "Colors/color/gray/600"
-                 }
-                ],
-                "strokeWeight": 3,
-                "strokeAlign": "OUTSIDE",
-                "text": "GRAPHIC / IMAGE",
-                "autoResize": "WIDTH_AND_HEIGHT",
-                "align": "LEFT",
-                "styles": [
-                 {
-                  "font": "Noto Serif",
-                  "weight": "Bold",
-                  "size": 16,
-                  "lineHeight": "auto",
-                  "letterSpacing": "10%",
-                  "color": [
-                   {
-                    "type": "SOLID",
-                    "hex": "#141414",
-                    "variable": "Colors/color/gray/min"
-                   }
-                  ],
-                  "textStyle": null
-                 }
-                ]
-               }
-              ]
-             }
-            ]
-           },
-           {
-            "name": "Article Status Badge",
-            "type": "INSTANCE",
-            "id": "3478:66048",
-            "w": 138,
-            "h": 27,
-            "x": 0,
-            "y": 231,
-            "hidden": true,
-            "sizing": {
-             "h": "HUG",
-             "v": "HUG"
-            },
-            "layout": {
-             "dir": "HORIZONTAL",
-             "gap": 8,
-             "pad": [
-              2,
-              5,
-              2,
-              5
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "fills": [
-             {
-              "type": "SOLID",
-              "hex": "#7D161E"
-             }
-            ],
-            "component": "Article Status Badge",
-            "variant": {
-             "Type": "Sponsored"
-            },
-            "componentKey": "2cba7cf7dd45bbf3b7d1d71d53de2acd577e3217",
-            "mainId": "3344:63991"
-           },
-           {
-            "name": "Headline",
-            "type": "FRAME",
-            "id": "3478:66049",
-            "w": 336,
-            "h": 54,
-            "x": 0,
-            "y": 197,
-            "sizing": {
-             "h": "FILL",
-             "v": "HUG"
-            },
-            "layout": {
-             "dir": "VERTICAL",
-             "gap": 15,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "MIN",
-             "cross": "MIN"
-            },
-            "children": [
-             {
-              "name": "Article Headline on News paper homepage in second zone position",
-              "type": "TEXT",
-              "id": "3478:66050",
-              "w": 336,
-              "h": 54,
-              "x": 0,
-              "y": 0,
-              "sizing": {
-               "h": "FILL",
-               "v": "HUG"
-              },
-              "text": "Article Headline on News paper homepage in third zone position",
-              "autoResize": "HEIGHT",
-              "align": "LEFT",
-              "styles": [
-               {
-                "font": "Noto Serif",
-                "weight": "Bold",
-                "size": 20,
-                "lineHeight": "auto",
-                "color": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "textStyle": null
-               }
-              ]
-             }
-            ]
-           }
-          ]
+          "component": "TopZone Article Card",
+          "variant": {
+           "Device": "Desktop"
+          },
+          "componentKey": "8dcd8a244e91736a663d21060039986716abae71",
+          "mainId": "3336:46077"
          }
         ]
        },
@@ -1476,37 +854,40 @@
         "type": "FRAME",
         "id": "3352:19131",
         "w": 706,
-        "h": 379,
+        "h": 280.9,
         "x": 0,
-        "y": 728,
+        "y": 629.9,
         "sizing": {
          "h": "FILL",
          "v": "HUG"
         },
         "layout": {
          "dir": "HORIZONTAL",
-         "gap": 16,
+         "gap": 20,
          "pad": [
           0,
           0,
           16,
           0
          ],
-         "main": "SPACE_BETWEEN",
+         "main": "MIN",
          "cross": "MIN"
+        },
+        "vars": {
+         "itemSpacing": "Spacing & Radius/spacing/250"
         },
         "children": [
          {
           "name": "TopZone Article Card",
-          "type": "FRAME",
-          "id": "3478:66062",
-          "w": 336,
-          "h": 363,
+          "type": "INSTANCE",
+          "id": "3553:33795",
+          "w": 343,
+          "h": 264.9,
           "x": 0,
           "y": 0,
           "sizing": {
-           "h": "HUG",
-           "v": "FIXED"
+           "h": "FILL",
+           "v": "HUG"
           },
           "layout": {
            "dir": "VERTICAL",
@@ -1527,288 +908,24 @@
             "variable": "Colors/color/gray/max"
            }
           ],
-          "children": [
-           {
-            "name": "Article Image Placeholder",
-            "type": "FRAME",
-            "id": "3478:66072",
-            "w": 336,
-            "h": 189,
-            "x": 0,
-            "y": 0,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "VERTICAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "fills": [
-             {
-              "type": "SOLID",
-              "hex": "#E1A1FF"
-             }
-            ],
-            "strokes": [
-             {
-              "type": "SOLID",
-              "hex": "#141414",
-              "variable": "Colors/color/gray/min"
-             }
-            ],
-            "strokeWeight": 2,
-            "strokeAlign": "INSIDE",
-            "children": [
-             {
-              "name": "Placeholder X",
-              "type": "BOOLEAN_OPERATION",
-              "id": "3478:66073",
-              "w": 336,
-              "h": 189,
-              "x": 0,
-              "y": 0,
-              "sizing": {
-               "h": "FILL",
-               "v": "FILL"
-              },
-              "fills": [
-               {
-                "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
-               }
-              ],
-              "children": [
-               {
-                "name": "Diagonal 1",
-                "type": "VECTOR",
-                "id": "3478:66074",
-                "w": 335,
-                "h": 187.3,
-                "x": 0.5,
-                "y": 0.9,
-                "strokes": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "strokeWeight": 2,
-                "strokeAlign": "CENTER"
-               },
-               {
-                "name": "Diagonal 2",
-                "type": "VECTOR",
-                "id": "3478:66075",
-                "w": 335,
-                "h": 187.3,
-                "x": 335.5,
-                "y": 0.9,
-                "strokes": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "strokeWeight": 2,
-                "strokeAlign": "CENTER"
-               }
-              ]
-             },
-             {
-              "name": "Label",
-              "type": "FRAME",
-              "id": "3478:66076",
-              "w": 168,
-              "h": 22,
-              "x": 83.5,
-              "y": 83.5,
-              "sizing": {
-               "h": "HUG",
-               "v": "HUG"
-              },
-              "absolute": true,
-              "layout": {
-               "dir": "HORIZONTAL",
-               "gap": 8,
-               "pad": [
-                0,
-                0,
-                0,
-                0
-               ],
-               "main": "CENTER",
-               "cross": "CENTER"
-              },
-              "children": [
-               {
-                "name": "ARTICLE IMAGE",
-                "type": "TEXT",
-                "id": "3478:66077",
-                "w": 168,
-                "h": 22,
-                "x": 0,
-                "y": 0,
-                "sizing": {
-                 "h": "HUG",
-                 "v": "HUG"
-                },
-                "strokes": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#F1EFEB",
-                  "variable": "Colors/color/gray/600"
-                 }
-                ],
-                "strokeWeight": 3,
-                "strokeAlign": "OUTSIDE",
-                "text": "GRAPHIC / IMAGE",
-                "autoResize": "WIDTH_AND_HEIGHT",
-                "align": "LEFT",
-                "styles": [
-                 {
-                  "font": "Noto Serif",
-                  "weight": "Bold",
-                  "size": 16,
-                  "lineHeight": "auto",
-                  "letterSpacing": "10%",
-                  "color": [
-                   {
-                    "type": "SOLID",
-                    "hex": "#141414",
-                    "variable": "Colors/color/gray/min"
-                   }
-                  ],
-                  "textStyle": null
-                 }
-                ]
-               }
-              ]
-             }
-            ]
-           },
-           {
-            "name": "Article Status Badge",
-            "type": "INSTANCE",
-            "id": "3478:66064",
-            "w": 138,
-            "h": 27,
-            "x": 0,
-            "y": 231,
-            "hidden": true,
-            "sizing": {
-             "h": "HUG",
-             "v": "HUG"
-            },
-            "layout": {
-             "dir": "HORIZONTAL",
-             "gap": 8,
-             "pad": [
-              2,
-              5,
-              2,
-              5
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "fills": [
-             {
-              "type": "SOLID",
-              "hex": "#7D161E"
-             }
-            ],
-            "component": "Article Status Badge",
-            "variant": {
-             "Type": "Sponsored"
-            },
-            "componentKey": "2cba7cf7dd45bbf3b7d1d71d53de2acd577e3217",
-            "mainId": "3344:63991"
-           },
-           {
-            "name": "Headline",
-            "type": "FRAME",
-            "id": "3478:66065",
-            "w": 336,
-            "h": 81,
-            "x": 0,
-            "y": 197,
-            "sizing": {
-             "h": "FILL",
-             "v": "HUG"
-            },
-            "layout": {
-             "dir": "VERTICAL",
-             "gap": 15,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "MIN",
-             "cross": "MIN"
-            },
-            "children": [
-             {
-              "name": "Article Headline on News paper homepage in second zone position",
-              "type": "TEXT",
-              "id": "3478:66066",
-              "w": 336,
-              "h": 81,
-              "x": 0,
-              "y": 0,
-              "sizing": {
-               "h": "FILL",
-               "v": "HUG"
-              },
-              "text": "Article Headline on News paper homepage in second zone position",
-              "autoResize": "HEIGHT",
-              "align": "LEFT",
-              "styles": [
-               {
-                "font": "Noto Serif",
-                "weight": "Bold",
-                "size": 20,
-                "lineHeight": "auto",
-                "color": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "textStyle": null
-               }
-              ]
-             }
-            ]
-           }
-          ]
+          "component": "TopZone Article Card",
+          "variant": {
+           "Device": "Desktop"
+          },
+          "componentKey": "8dcd8a244e91736a663d21060039986716abae71",
+          "mainId": "3336:46077"
          },
          {
           "name": "TopZone Article Card",
-          "type": "FRAME",
-          "id": "3478:66078",
-          "w": 336,
-          "h": 363,
-          "x": 370,
+          "type": "INSTANCE",
+          "id": "3553:33817",
+          "w": 343,
+          "h": 264.9,
+          "x": 363,
           "y": 0,
           "sizing": {
-           "h": "HUG",
-           "v": "FIXED"
+           "h": "FILL",
+           "v": "HUG"
           },
           "layout": {
            "dir": "VERTICAL",
@@ -1829,276 +946,12 @@
             "variable": "Colors/color/gray/max"
            }
           ],
-          "children": [
-           {
-            "name": "Article Image Placeholder",
-            "type": "FRAME",
-            "id": "3478:66088",
-            "w": 336,
-            "h": 189,
-            "x": 0,
-            "y": 0,
-            "sizing": {
-             "h": "FIXED",
-             "v": "FIXED"
-            },
-            "layout": {
-             "dir": "VERTICAL",
-             "gap": 8,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "clip": true,
-            "fills": [
-             {
-              "type": "SOLID",
-              "hex": "#E1A1FF"
-             }
-            ],
-            "strokes": [
-             {
-              "type": "SOLID",
-              "hex": "#141414",
-              "variable": "Colors/color/gray/min"
-             }
-            ],
-            "strokeWeight": 2,
-            "strokeAlign": "INSIDE",
-            "children": [
-             {
-              "name": "Placeholder X",
-              "type": "BOOLEAN_OPERATION",
-              "id": "3478:66089",
-              "w": 336,
-              "h": 189,
-              "x": 0,
-              "y": 0,
-              "sizing": {
-               "h": "FILL",
-               "v": "FILL"
-              },
-              "fills": [
-               {
-                "type": "SOLID",
-                "hex": "#141414",
-                "variable": "Colors/color/gray/min"
-               }
-              ],
-              "children": [
-               {
-                "name": "Diagonal 1",
-                "type": "VECTOR",
-                "id": "3478:66090",
-                "w": 335,
-                "h": 187.3,
-                "x": 0.5,
-                "y": 0.9,
-                "strokes": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "strokeWeight": 2,
-                "strokeAlign": "CENTER"
-               },
-               {
-                "name": "Diagonal 2",
-                "type": "VECTOR",
-                "id": "3478:66091",
-                "w": 335,
-                "h": 187.3,
-                "x": 335.5,
-                "y": 0.9,
-                "strokes": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "strokeWeight": 2,
-                "strokeAlign": "CENTER"
-               }
-              ]
-             },
-             {
-              "name": "Label",
-              "type": "FRAME",
-              "id": "3478:66092",
-              "w": 168,
-              "h": 22,
-              "x": 83.5,
-              "y": 83.5,
-              "sizing": {
-               "h": "HUG",
-               "v": "HUG"
-              },
-              "absolute": true,
-              "layout": {
-               "dir": "HORIZONTAL",
-               "gap": 8,
-               "pad": [
-                0,
-                0,
-                0,
-                0
-               ],
-               "main": "CENTER",
-               "cross": "CENTER"
-              },
-              "children": [
-               {
-                "name": "ARTICLE IMAGE",
-                "type": "TEXT",
-                "id": "3478:66093",
-                "w": 168,
-                "h": 22,
-                "x": 0,
-                "y": 0,
-                "sizing": {
-                 "h": "HUG",
-                 "v": "HUG"
-                },
-                "strokes": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#F1EFEB",
-                  "variable": "Colors/color/gray/600"
-                 }
-                ],
-                "strokeWeight": 3,
-                "strokeAlign": "OUTSIDE",
-                "text": "GRAPHIC / IMAGE",
-                "autoResize": "WIDTH_AND_HEIGHT",
-                "align": "LEFT",
-                "styles": [
-                 {
-                  "font": "Noto Serif",
-                  "weight": "Bold",
-                  "size": 16,
-                  "lineHeight": "auto",
-                  "letterSpacing": "10%",
-                  "color": [
-                   {
-                    "type": "SOLID",
-                    "hex": "#141414",
-                    "variable": "Colors/color/gray/min"
-                   }
-                  ],
-                  "textStyle": null
-                 }
-                ]
-               }
-              ]
-             }
-            ]
-           },
-           {
-            "name": "Article Status Badge",
-            "type": "INSTANCE",
-            "id": "3478:66080",
-            "w": 138,
-            "h": 27,
-            "x": 0,
-            "y": 231,
-            "hidden": true,
-            "sizing": {
-             "h": "HUG",
-             "v": "HUG"
-            },
-            "layout": {
-             "dir": "HORIZONTAL",
-             "gap": 8,
-             "pad": [
-              2,
-              5,
-              2,
-              5
-             ],
-             "main": "CENTER",
-             "cross": "CENTER"
-            },
-            "fills": [
-             {
-              "type": "SOLID",
-              "hex": "#7D161E"
-             }
-            ],
-            "component": "Article Status Badge",
-            "variant": {
-             "Type": "Sponsored"
-            },
-            "componentKey": "2cba7cf7dd45bbf3b7d1d71d53de2acd577e3217",
-            "mainId": "3344:63991"
-           },
-           {
-            "name": "Headline",
-            "type": "FRAME",
-            "id": "3478:66081",
-            "w": 336,
-            "h": 54,
-            "x": 0,
-            "y": 197,
-            "sizing": {
-             "h": "FILL",
-             "v": "HUG"
-            },
-            "layout": {
-             "dir": "VERTICAL",
-             "gap": 15,
-             "pad": [
-              0,
-              0,
-              0,
-              0
-             ],
-             "main": "MIN",
-             "cross": "MIN"
-            },
-            "children": [
-             {
-              "name": "Article Headline on News paper homepage in second zone position",
-              "type": "TEXT",
-              "id": "3478:66082",
-              "w": 336,
-              "h": 54,
-              "x": 0,
-              "y": 0,
-              "sizing": {
-               "h": "FILL",
-               "v": "HUG"
-              },
-              "text": "Article Headline on News paper homepage in third zone position",
-              "autoResize": "HEIGHT",
-              "align": "LEFT",
-              "styles": [
-               {
-                "font": "Noto Serif",
-                "weight": "Bold",
-                "size": 20,
-                "lineHeight": "auto",
-                "color": [
-                 {
-                  "type": "SOLID",
-                  "hex": "#141414",
-                  "variable": "Colors/color/gray/min"
-                 }
-                ],
-                "textStyle": null
-               }
-              ]
-             }
-            ]
-           }
-          ]
+          "component": "TopZone Article Card",
+          "variant": {
+           "Device": "Desktop"
+          },
+          "componentKey": "8dcd8a244e91736a663d21060039986716abae71",
+          "mainId": "3336:46077"
          }
         ]
        }
@@ -2692,73 +1545,1662 @@
     },
     "componentDescription": null
    }
-  }
- ],
- "typography": [
-  {
-   "layer": "Article Headline on News paper homepage in second zone position",
-   "font": "Noto Serif",
-   "weight": "Bold",
-   "size": 18,
-   "lineHeight": "auto",
-   "letterSpacing": null,
-   "case": null,
-   "decoration": null,
-   "color": "#141414",
-   "token": "Colors/color/gray/min",
-   "typeToken": null,
-   "textStyle": null,
-   "truncate": null,
-   "sample": "Article Headline on News paper homepage in second ",
-   "variants": [
-    "Device=Mobile"
-   ]
   },
   {
-   "layer": "ARTICLE IMAGE",
-   "font": "Noto Serif",
-   "weight": "Bold",
-   "size": 16,
-   "lineHeight": "auto",
-   "letterSpacing": "10%",
-   "case": null,
-   "decoration": null,
-   "color": "#141414",
-   "token": "Colors/color/gray/min",
-   "typeToken": null,
-   "textStyle": null,
-   "truncate": null,
-   "sample": "GRAPHIC / IMAGE",
-   "variants": [
-    "Device=Desktop",
-    "Device=Desktop",
-    "Device=Desktop",
-    "Device=Desktop"
-   ]
+   "label": "Device=1024",
+   "variantProperties": {
+    "Device": "1024"
+   },
+   "id": "3553:32881",
+   "key": "b48f78878f58785c9a3bfa7f2babad967900c32d",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3553-32881",
+   "width": 989,
+   "height": 1088,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 16,
+    "pad": [
+     0,
+     0,
+     16,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/top-zone-block--1024.png",
+   "breakpoints": [
+    "1024"
+   ],
+   "layerTree": {
+    "name": "Device=1024",
+    "type": "COMPONENT",
+    "id": "3553:32881",
+    "w": 989,
+    "h": 1088,
+    "x": 2473.1,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 16,
+     "pad": [
+      0,
+      0,
+      16,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Frame 11645",
+      "type": "FRAME",
+      "id": "3553:32824",
+      "w": 405,
+      "h": 1019.2,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "children": [
+       {
+        "name": "Zone 1 Lead Article Card (1024, Tier 3 — Device=Mobile variant swapped in, matches real production vertical-stack layout at 800-1279px)",
+        "type": "INSTANCE",
+        "id": "3553:32825",
+        "w": 405,
+        "h": 608.7,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Zone 1 Lead Article Card",
+        "variant": {
+         "Device": "Mobile"
+        },
+        "componentKey": "d801cdf7da6c90d8b5e1b45f57a94859d62b55e0",
+        "mainId": "3336:46156"
+       },
+       {
+        "name": "Top Zones 2-5",
+        "type": "FRAME",
+        "id": "3553:32826",
+        "w": 405,
+        "h": 205.3,
+        "x": 0,
+        "y": 608.7,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 20,
+         "pad": [
+          0,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "vars": {
+         "itemSpacing": "Spacing & Radius/spacing/250"
+        },
+        "children": [
+         {
+          "name": "TopZone Article Card",
+          "type": "INSTANCE",
+          "id": "3553:33194",
+          "w": 192.5,
+          "h": 189.3,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "TopZone Article Card",
+          "variant": {
+           "Device": "1024"
+          },
+          "componentKey": "48a16f06d7d00fc7b7e02a48e479b8380bc919cb",
+          "mainId": "3553:32800"
+         },
+         {
+          "name": "TopZone Article Card",
+          "type": "INSTANCE",
+          "id": "3553:33216",
+          "w": 192.5,
+          "h": 189.3,
+          "x": 212.5,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "TopZone Article Card",
+          "variant": {
+           "Device": "1024"
+          },
+          "componentKey": "48a16f06d7d00fc7b7e02a48e479b8380bc919cb",
+          "mainId": "3553:32800"
+         }
+        ]
+       },
+       {
+        "name": "Top Zones 2-5",
+        "type": "FRAME",
+        "id": "3553:32847",
+        "w": 405,
+        "h": 205.3,
+        "x": 0,
+        "y": 813.9,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "HORIZONTAL",
+         "gap": 20,
+         "pad": [
+          0,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "vars": {
+         "itemSpacing": "Spacing & Radius/spacing/250"
+        },
+        "children": [
+         {
+          "name": "TopZone Article Card",
+          "type": "INSTANCE",
+          "id": "3553:33238",
+          "w": 192.5,
+          "h": 189.3,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "TopZone Article Card",
+          "variant": {
+           "Device": "1024"
+          },
+          "componentKey": "48a16f06d7d00fc7b7e02a48e479b8380bc919cb",
+          "mainId": "3553:32800"
+         },
+         {
+          "name": "TopZone Article Card",
+          "type": "INSTANCE",
+          "id": "3553:33260",
+          "w": 192.5,
+          "h": 189.3,
+          "x": 212.5,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 8,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "TopZone Article Card",
+          "variant": {
+           "Device": "1024"
+          },
+          "componentKey": "48a16f06d7d00fc7b7e02a48e479b8380bc919cb",
+          "mainId": "3553:32800"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Latest Headlines MinCol",
+      "type": "FRAME",
+      "id": "3553:32868",
+      "w": 252,
+      "h": 1072,
+      "x": 421,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 12,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "children": [
+       {
+        "name": "Section Title / Eyebrow",
+        "type": "INSTANCE",
+        "id": "3553:32869",
+        "w": 252,
+        "h": 30,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 6,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Section Title / Eyebrow",
+        "variant": {
+         "Style": "Underline"
+        },
+        "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+        "mainId": "3326:41622",
+        "props": {
+         "Chevron": false
+        }
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:32870",
+        "w": 226,
+        "h": 62,
+        "x": 0,
+        "y": 42,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "First"
+        },
+        "componentKey": "25a91f43951ba19fc2b1308139dc36b75d9440fc",
+        "mainId": "3336:46115"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:32871",
+        "w": 226,
+        "h": 78,
+        "x": 0,
+        "y": 116,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Standard"
+        },
+        "componentKey": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+        "mainId": "3336:46116"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:32872",
+        "w": 226,
+        "h": 98,
+        "x": 0,
+        "y": 206,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Standard"
+        },
+        "componentKey": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+        "mainId": "3336:46116"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:32873",
+        "w": 226,
+        "h": 118,
+        "x": 0,
+        "y": 316,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Standard"
+        },
+        "componentKey": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+        "mainId": "3336:46116"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:32874",
+        "w": 226,
+        "h": 98,
+        "x": 0,
+        "y": 446,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Standard"
+        },
+        "componentKey": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+        "mainId": "3336:46116"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:32875",
+        "w": 226,
+        "h": 98,
+        "x": 0,
+        "y": 556,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Standard"
+        },
+        "componentKey": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+        "mainId": "3336:46116"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:32876",
+        "w": 226,
+        "h": 98,
+        "x": 0,
+        "y": 666,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Standard"
+        },
+        "componentKey": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+        "mainId": "3336:46116"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:32877",
+        "w": 226,
+        "h": 149,
+        "x": 0,
+        "y": 776,
+        "sizing": {
+         "h": "FIXED",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Sponsored"
+        },
+        "componentKey": "4a28da74cdd8fc131f87a55c16f435ca71b9533e",
+        "mainId": "3336:46117"
+       },
+       {
+        "name": "Newsletter Signup",
+        "type": "INSTANCE",
+        "id": "3553:32878",
+        "w": 226,
+        "h": 135,
+        "x": 0,
+        "y": 937,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          16,
+          16,
+          16,
+          16
+         ],
+         "main": "SPACE_BETWEEN",
+         "cross": "CENTER"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "component": "Newsletter Signup",
+        "variant": {
+         "Device": "Desktop"
+        },
+        "componentKey": "2e1da2bf24ead30b83e35e315ff4baa7ba5cc0ca",
+        "mainId": "3336:44763"
+       }
+      ]
+     },
+     {
+      "name": "Right Rail",
+      "type": "FRAME",
+      "id": "3553:32879",
+      "w": 300,
+      "h": 1050,
+      "x": 689,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 16,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Ad Blocks",
+        "type": "INSTANCE",
+        "id": "3553:32880",
+        "w": 300,
+        "h": 1050,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#85FF9B"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "component": "Ad Blocks",
+        "variant": {
+         "Device": "Desktop",
+         "Name": "Cube 1 RRail ATF 300x1050"
+        },
+        "componentKey": "c690f9dc8fd6323d260db97b56a54fb8ca4d7e1d",
+        "mainId": "530:2611"
+       }
+      ]
+     }
+    ],
+    "key": "b48f78878f58785c9a3bfa7f2babad967900c32d",
+    "variantProperties": {
+     "Device": "1024"
+    },
+    "componentDescription": null
+   }
   },
   {
-   "layer": "Article Headline on News paper homepage in second zone position",
-   "font": "Noto Serif",
-   "weight": "Bold",
-   "size": 20,
-   "lineHeight": "auto",
-   "letterSpacing": null,
-   "case": null,
-   "decoration": null,
-   "color": "#141414",
-   "token": "Colors/color/gray/min",
-   "typeToken": null,
-   "textStyle": null,
-   "truncate": null,
-   "sample": "Article Headline on News paper homepage in second ",
-   "variants": [
-    "Device=Desktop",
-    "Device=Desktop",
-    "Device=Desktop",
-    "Device=Desktop"
-   ]
+   "label": "Device=1100",
+   "variantProperties": {
+    "Device": "1100"
+   },
+   "id": "3553:33340",
+   "key": "a2e3848a12d934ff77250990ec1fff1c9418267c",
+   "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3553-33340",
+   "width": 1065,
+   "height": 1313.7,
+   "layout": {
+    "dir": "HORIZONTAL",
+    "gap": 16,
+    "pad": [
+     0,
+     0,
+     16,
+     0
+    ],
+    "main": "CENTER",
+    "cross": "MIN"
+   },
+   "sizing": {
+    "h": "FIXED",
+    "v": "HUG"
+   },
+   "fills": [
+    {
+     "type": "SOLID",
+     "hex": "#FFFFFF",
+     "variable": "Colors/color/gray/max"
+    }
+   ],
+   "strokes": null,
+   "radius": null,
+   "preview": "previews/top-zone-block--1100.png",
+   "breakpoints": [
+    "1100"
+   ],
+   "layerTree": {
+    "name": "Device=1100",
+    "type": "COMPONENT",
+    "id": "3553:33340",
+    "w": 1065,
+    "h": 1313.7,
+    "x": 3502.1,
+    "y": 16,
+    "sizing": {
+     "h": "FIXED",
+     "v": "HUG"
+    },
+    "layout": {
+     "dir": "HORIZONTAL",
+     "gap": 16,
+     "pad": [
+      0,
+      0,
+      16,
+      0
+     ],
+     "main": "CENTER",
+     "cross": "MIN"
+    },
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#FFFFFF",
+      "variable": "Colors/color/gray/max"
+     }
+    ],
+    "children": [
+     {
+      "name": "Frame 11645",
+      "type": "FRAME",
+      "id": "3553:33283",
+      "w": 500,
+      "h": 1297.7,
+      "x": 0,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "children": [
+       {
+        "name": "Zone 1 Lead Article Card (1100, Tier 4 — Device=Mobile variant swapped in, matches real production vertical-stack layout at 800-1279px)",
+        "type": "INSTANCE",
+        "id": "3553:33284",
+        "w": 500,
+        "h": 541.7,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "CENTER"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Zone 1 Lead Article Card",
+        "variant": {
+         "Device": "Mobile"
+        },
+        "componentKey": "d801cdf7da6c90d8b5e1b45f57a94859d62b55e0",
+        "mainId": "3336:46156"
+       },
+       {
+        "name": "Top Zones 2-5",
+        "type": "FRAME",
+        "id": "3553:33653",
+        "w": 500,
+        "h": 756,
+        "x": 0,
+        "y": 541.7,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          16,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "clip": true,
+        "vars": {
+         "itemSpacing": "Spacing & Radius/spacing/200"
+        },
+        "children": [
+         {
+          "name": "TopZone Article Card",
+          "type": "INSTANCE",
+          "id": "3553:33654",
+          "w": 500,
+          "h": 173,
+          "x": 0,
+          "y": 0,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 16,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "TopZone Article Card",
+          "variant": {
+           "Device": "1100"
+          },
+          "componentKey": "67dbd9fd7a6a57850fcbcc30e741a596ed8c723f",
+          "mainId": "3553:32811"
+         },
+         {
+          "name": "TopZone Article Card",
+          "type": "INSTANCE",
+          "id": "3553:33679",
+          "w": 500,
+          "h": 173,
+          "x": 0,
+          "y": 189,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 16,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "TopZone Article Card",
+          "variant": {
+           "Device": "1100"
+          },
+          "componentKey": "67dbd9fd7a6a57850fcbcc30e741a596ed8c723f",
+          "mainId": "3553:32811"
+         },
+         {
+          "name": "TopZone Article Card",
+          "type": "INSTANCE",
+          "id": "3553:33703",
+          "w": 500,
+          "h": 173,
+          "x": 0,
+          "y": 378,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 16,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "TopZone Article Card",
+          "variant": {
+           "Device": "1100"
+          },
+          "componentKey": "67dbd9fd7a6a57850fcbcc30e741a596ed8c723f",
+          "mainId": "3553:32811"
+         },
+         {
+          "name": "TopZone Article Card",
+          "type": "INSTANCE",
+          "id": "3553:33727",
+          "w": 500,
+          "h": 173,
+          "x": 0,
+          "y": 567,
+          "sizing": {
+           "h": "FILL",
+           "v": "HUG"
+          },
+          "layout": {
+           "dir": "VERTICAL",
+           "gap": 16,
+           "pad": [
+            0,
+            0,
+            16,
+            0
+           ],
+           "main": "MIN",
+           "cross": "MIN"
+          },
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#FFFFFF",
+            "variable": "Colors/color/gray/max"
+           }
+          ],
+          "component": "TopZone Article Card",
+          "variant": {
+           "Device": "1100"
+          },
+          "componentKey": "67dbd9fd7a6a57850fcbcc30e741a596ed8c723f",
+          "mainId": "3553:32811"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Latest Headlines MinCol",
+      "type": "FRAME",
+      "id": "3553:33327",
+      "w": 219,
+      "h": 1092,
+      "x": 516,
+      "y": 0,
+      "sizing": {
+       "h": "FILL",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 12,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#FFFFFF",
+        "variable": "Colors/color/gray/max"
+       }
+      ],
+      "children": [
+       {
+        "name": "Section Title / Eyebrow",
+        "type": "INSTANCE",
+        "id": "3553:33328",
+        "w": 219,
+        "h": 30,
+        "x": 0,
+        "y": 0,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 6,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "component": "Section Title / Eyebrow",
+        "variant": {
+         "Style": "Underline"
+        },
+        "componentKey": "8cbeba34f69a91292d5ce8b48f38eefb62195044",
+        "mainId": "3326:41622",
+        "props": {
+         "Chevron": false
+        }
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:33329",
+        "w": 219,
+        "h": 82,
+        "x": 0,
+        "y": 42,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 4,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "First"
+        },
+        "componentKey": "25a91f43951ba19fc2b1308139dc36b75d9440fc",
+        "mainId": "3336:46115"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:33330",
+        "w": 219,
+        "h": 78,
+        "x": 0,
+        "y": 136,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Standard"
+        },
+        "componentKey": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+        "mainId": "3336:46116"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:33331",
+        "w": 219,
+        "h": 98,
+        "x": 0,
+        "y": 226,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Standard"
+        },
+        "componentKey": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+        "mainId": "3336:46116"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:33332",
+        "w": 219,
+        "h": 118,
+        "x": 0,
+        "y": 336,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Standard"
+        },
+        "componentKey": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+        "mainId": "3336:46116"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:33333",
+        "w": 219,
+        "h": 98,
+        "x": 0,
+        "y": 466,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Standard"
+        },
+        "componentKey": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+        "mainId": "3336:46116"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:33334",
+        "w": 219,
+        "h": 98,
+        "x": 0,
+        "y": 576,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Standard"
+        },
+        "componentKey": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+        "mainId": "3336:46116"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:33335",
+        "w": 219,
+        "h": 98,
+        "x": 0,
+        "y": 686,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Standard"
+        },
+        "componentKey": "b2edcd919d342f5066f444ab35b2fca0a68b7705",
+        "mainId": "3336:46116"
+       },
+       {
+        "name": "Latest Headlines List Item",
+        "type": "INSTANCE",
+        "id": "3553:33336",
+        "w": 219,
+        "h": 149,
+        "x": 0,
+        "y": 796,
+        "sizing": {
+         "h": "FILL",
+         "v": "HUG"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 16,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "MIN",
+         "cross": "MIN"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#FFFFFF",
+          "variable": "Colors/color/gray/max"
+         }
+        ],
+        "component": "Latest Headlines List Item",
+        "variant": {
+         "Type": "Sponsored"
+        },
+        "componentKey": "4a28da74cdd8fc131f87a55c16f435ca71b9533e",
+        "mainId": "3336:46117"
+       },
+       {
+        "name": "Newsletter Signup",
+        "type": "INSTANCE",
+        "id": "3553:33337",
+        "w": 219,
+        "h": 135,
+        "x": 0,
+        "y": 957,
+        "sizing": {
+         "h": "FILL",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          16,
+          16,
+          16,
+          16
+         ],
+         "main": "SPACE_BETWEEN",
+         "cross": "CENTER"
+        },
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#F1EFEB",
+          "variable": "Colors/color/gray/600"
+         }
+        ],
+        "component": "Newsletter Signup",
+        "variant": {
+         "Device": "Desktop"
+        },
+        "componentKey": "2e1da2bf24ead30b83e35e315ff4baa7ba5cc0ca",
+        "mainId": "3336:44763"
+       }
+      ]
+     },
+     {
+      "name": "Right Rail",
+      "type": "FRAME",
+      "id": "3553:33338",
+      "w": 314,
+      "h": 1050,
+      "x": 751,
+      "y": 0,
+      "sizing": {
+       "h": "FIXED",
+       "v": "HUG"
+      },
+      "layout": {
+       "dir": "VERTICAL",
+       "gap": 16,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "CENTER"
+      },
+      "children": [
+       {
+        "name": "Ad Blocks",
+        "type": "INSTANCE",
+        "id": "3553:33339",
+        "w": 300,
+        "h": 1050,
+        "x": 7,
+        "y": 0,
+        "sizing": {
+         "h": "FIXED",
+         "v": "FIXED"
+        },
+        "layout": {
+         "dir": "VERTICAL",
+         "gap": 8,
+         "pad": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "main": "CENTER",
+         "cross": "CENTER"
+        },
+        "clip": true,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#85FF9B"
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#141414",
+          "variable": "Colors/color/gray/min"
+         }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "component": "Ad Blocks",
+        "variant": {
+         "Device": "Desktop",
+         "Name": "Cube 1 RRail ATF 300x1050"
+        },
+        "componentKey": "c690f9dc8fd6323d260db97b56a54fb8ca4d7e1d",
+        "mainId": "530:2611"
+       }
+      ]
+     }
+    ],
+    "key": "a2e3848a12d934ff77250990ec1fff1c9418267c",
+    "variantProperties": {
+     "Device": "1100"
+    },
+    "componentDescription": null
+   }
   }
  ],
+ "typography": [],
  "colors": [
   {
    "layer": "Zone 1 Lead Article Card",
@@ -2769,46 +3211,6 @@
    "opacity": null,
    "note": "",
    "strokeWeight": null
-  },
-  {
-   "layer": "TopZone Article Card MOBILE",
-   "role": "fill",
-   "type": "SOLID",
-   "hex": "#FFFFFF",
-   "token": "Colors/color/gray/max",
-   "opacity": null,
-   "note": "",
-   "strokeWeight": null
-  },
-  {
-   "layer": "Article Image Placeholder",
-   "role": "fill",
-   "type": "SOLID",
-   "hex": "#E1A1FF",
-   "token": null,
-   "opacity": null,
-   "note": "image placeholder fill",
-   "strokeWeight": null
-  },
-  {
-   "layer": "Article Image Placeholder",
-   "role": "stroke",
-   "type": "SOLID",
-   "hex": "#141414",
-   "token": "Colors/color/gray/min",
-   "opacity": null,
-   "note": "",
-   "strokeWeight": 2
-  },
-  {
-   "layer": "Bottom Border Line",
-   "role": "stroke",
-   "type": "SOLID",
-   "hex": "#CCCAC7",
-   "token": "Colors/color/gray/500",
-   "opacity": null,
-   "note": "",
-   "strokeWeight": 1
   },
   {
    "layer": "TopZone Article Card",
@@ -2861,88 +3263,77 @@
    "strokeWeight": null
   },
   {
-   "layer": "Placeholder X",
+   "layer": "Device=1024",
    "role": "fill",
    "type": "SOLID",
-   "hex": "#141414",
-   "token": "Colors/color/gray/min",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
    "opacity": null,
    "note": "",
    "strokeWeight": null
   },
   {
-   "layer": "Diagonal 1",
-   "role": "stroke",
-   "type": "SOLID",
-   "hex": "#141414",
-   "token": "Colors/color/gray/min",
-   "opacity": null,
-   "note": "",
-   "strokeWeight": 2
-  },
-  {
-   "layer": "Diagonal 2",
-   "role": "stroke",
-   "type": "SOLID",
-   "hex": "#141414",
-   "token": "Colors/color/gray/min",
-   "opacity": null,
-   "note": "",
-   "strokeWeight": 2
-  },
-  {
-   "layer": "Article Status Badge",
+   "layer": "Zone 1 Lead Article Card (1024, Tier 3 — Device=Mobile variant swapped in, matches real production vertical-stack layout at 800-1279px)",
    "role": "fill",
    "type": "SOLID",
-   "hex": "#7D161E",
-   "token": null,
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Latest Headlines MinCol",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Latest Headlines List Item",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Newsletter Signup",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#F1EFEB",
+   "token": "Colors/color/gray/600",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Device=1100",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
+   "opacity": null,
+   "note": "",
+   "strokeWeight": null
+  },
+  {
+   "layer": "Zone 1 Lead Article Card (1100, Tier 4 — Device=Mobile variant swapped in, matches real production vertical-stack layout at 800-1279px)",
+   "role": "fill",
+   "type": "SOLID",
+   "hex": "#FFFFFF",
+   "token": "Colors/color/gray/max",
    "opacity": null,
    "note": "",
    "strokeWeight": null
   }
  ],
- "imageRatios": [
-  {
-   "layer": "Article Image Placeholder",
-   "w": 100,
-   "h": 67,
-   "ratio": "3:2",
-   "source": "Article Image Placeholder",
-   "variant": "Device=Mobile"
-  },
-  {
-   "layer": "Article Image Placeholder",
-   "w": 336,
-   "h": 189,
-   "ratio": "16:9",
-   "source": "frame",
-   "variant": "Device=Desktop"
-  },
-  {
-   "layer": "Article Image Placeholder",
-   "w": 336,
-   "h": 189,
-   "ratio": "16:9",
-   "source": "frame",
-   "variant": "Device=Desktop"
-  },
-  {
-   "layer": "Article Image Placeholder",
-   "w": 336,
-   "h": 189,
-   "ratio": "16:9",
-   "source": "frame",
-   "variant": "Device=Desktop"
-  },
-  {
-   "layer": "Article Image Placeholder",
-   "w": 336,
-   "h": 189,
-   "ratio": "16:9",
-   "source": "frame",
-   "variant": "Device=Desktop"
-  }
- ],
+ "imageRatios": [],
  "adSlots": [
   {
    "layer": "Ad Block Container",
@@ -2978,21 +3369,36 @@
    "device": "All",
    "size": "300×250",
    "variant": "Device=Tablet"
+  },
+  {
+   "layer": "Ad Blocks",
+   "unit": "Cube 1 RRail ATF 300x1050",
+   "device": "Desktop",
+   "size": "300×1050",
+   "variant": "Device=1024"
+  },
+  {
+   "layer": "Ad Blocks",
+   "unit": "Cube 1 RRail ATF 300x1050",
+   "device": "Desktop",
+   "size": "300×1050",
+   "variant": "Device=1100"
   }
  ],
  "responsiveRules": [
   "Desktop (checked against the preview): three columns. Left: Zone 1 lead card (headline + image side by side) over a 2×2 grid of TopZone cards. Middle: Latest Headlines rail with a sponsored item and newsletter signup. Right: a tall 300×1050 rail ad.",
   "Tablet: lead card and image across the top, then a 2×2 group of horizontal thumbnail cards, then Latest Headlines full width, with a 300×250 cube ad at the bottom.",
   "Mobile: one column. The lead card stacks headline → image → dek → related list, followed by four horizontal thumbnail cards, Latest Headlines, and a 300×250 cube ad.",
+  "1100 (checked against production on 6 sites): lead card over four stacked horizontal TopZone Article Card Device=1100 cards (280×157 image, 18/21.6 CardTertiaryRow headline), then the Latest Headlines column and a 300×1050 rail ad.",
+  "1024 (checked against production on 6 sites): lead card over a 2×2 grid of vertical TopZone Article Card Device=1024 cards (16:9 image, 16/18.88 CardTertiaryCompact headline), 20px gaps, then Latest Headlines and the rail ad.",
   "Device=Mobile: 340×2378.7, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360",
-  "Device=Desktop: 1264×1123, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1280",
-  "Device=Tablet: 748×1787, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768"
+  "Device=Desktop: 1264×1088, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1280",
+  "Device=Tablet: 748×1787, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768",
+  "Device=1024: 989×1088, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1024",
+  "Device=1100: 1065×1313.7, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1100"
  ],
  "productionRefs": [],
- "knownIssues": [
-  "4 solid paints are hard-coded (not bound to a color variable): #E1A1FF ×4.",
-  "The 1024 and 1100 HomePage templates use detached, resized copies ('TOP ZONE Block (Desktop, detached+resized for 1024…)' and 'TOP ZONE Block (detached, resized for 1100…)') instead of instances, so those breakpoints are not counted above. Reattaching them is on the status list."
- ],
+ "knownIssues": [],
  "skeleton": "top-zone-block.html",
  "exported": "2026-10-07"
 }

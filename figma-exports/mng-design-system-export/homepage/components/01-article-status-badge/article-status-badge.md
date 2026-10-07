@@ -9,7 +9,7 @@ component_key: a3c41dc84d271d8fadbefb86d033afe3706c21b6
 variants: 3
 breakpoints: [340, 360, 768, 1024, 1100, 1280]
 built_from: []
-built_into: ["Zone 1 Lead Article Card", "TopZone Article Card", "Latest Headlines List Item", "TOP ZONE Block", "1Col Article Card"]
+built_into: ["Zone 1 Lead Article Card", "TopZone Article Card", "Latest Headlines List Item", "1Col Article Card"]
 spec_json: article-status-badge.json
 skeleton: article-status-badge.html
 exported: 2026-10-07
@@ -40,9 +40,9 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Type=None** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via Latest Headlines List Item, Zone 1 Lead Article Card), 1100 HomePage (via Latest Headlines List Item, Zone 1 Lead Article Card), 1024 HomePage (via Latest Headlines List Item, Zone 1 Lead Article Card), Mobile HomePage (via Latest Headlines List Item, TopZone Article Card, Zone 1 Lead Article Card), 340 HomePage (via Latest Headlines List Item, TopZone Article Card, Zone 1 Lead Article Card), 768 HomePage (via Latest Headlines List Item, Zone 1 Lead Article Card); nested inside: Zone 1 Lead Article Card / Device=Desktop ×1, Zone 1 Lead Article Card / Device=Mobile ×1, Latest Headlines List Item / Type=First ×1, Latest Headlines List Item / Type=Standard ×1, Zone 1 Lead Article Card / Device=Tablet ×1, TopZone Article Card / Device=Mobile ×1
-- **Type=Subscriber** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via 1Col Article Card), Desktop HomePage (via 1Col Article Card), 768 HomePage (via 1Col Article Card), 1024 HomePage (via 1Col Article Card), Mobile HomePage (via 1Col Article Card), 340 HomePage (via 1Col Article Card); nested inside: 1Col Article Card / Style=Standard ×1, 1Col Article Card / Style=Media Lead ×1
-- **Type=Sponsored** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1100 HomePage ×4, 1024 HomePage ×4; templates (via assembly): 1100 HomePage (via Latest Headlines List Item), 1024 HomePage (via Latest Headlines List Item), Desktop HomePage (via Latest Headlines List Item, TOP ZONE Block), 768 HomePage (via Latest Headlines List Item), Mobile HomePage (via Latest Headlines List Item), 340 HomePage (via Latest Headlines List Item); nested inside: TOP ZONE Block / Device=Desktop ×4, TopZone Article Card / Device=Desktop ×1, Latest Headlines List Item / Type=Sponsored ×1
+- **Type=None** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 768 HomePage (via Latest Headlines List Item, Zone 1 Lead Article Card), 1100 HomePage (via Latest Headlines List Item, TopZone Article Card, Zone 1 Lead Article Card), 1024 HomePage (via Latest Headlines List Item, Zone 1 Lead Article Card), Mobile HomePage (via Latest Headlines List Item, TopZone Article Card, Zone 1 Lead Article Card), 340 HomePage (via Latest Headlines List Item, TopZone Article Card, Zone 1 Lead Article Card), Desktop HomePage (via Latest Headlines List Item, Zone 1 Lead Article Card); nested inside: Zone 1 Lead Article Card / Device=Tablet ×1, Zone 1 Lead Article Card / Device=Mobile ×1, TopZone Article Card / Device=1100 ×1, Zone 1 Lead Article Card / Device=Desktop ×1, Latest Headlines List Item / Type=First ×1, TopZone Article Card / Device=Mobile ×1, Latest Headlines List Item / Type=Standard ×1
+- **Type=Subscriber** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 340 HomePage (via 1Col Article Card), Mobile HomePage (via 1Col Article Card), 1100 HomePage (via 1Col Article Card), 1024 HomePage (via 1Col Article Card), Desktop HomePage (via 1Col Article Card), 768 HomePage (via 1Col Article Card); nested inside: 1Col Article Card / Style=Media Lead ×1, 1Col Article Card / Style=Standard ×1
+- **Type=Sponsored** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via Latest Headlines List Item, TopZone Article Card), 1024 HomePage (via Latest Headlines List Item, TopZone Article Card), 768 HomePage (via Latest Headlines List Item), Mobile HomePage (via Latest Headlines List Item), 340 HomePage (via Latest Headlines List Item), 1100 HomePage (via Latest Headlines List Item); nested inside: TopZone Article Card / Device=Desktop ×1, TopZone Article Card / Device=1024 ×1, Latest Headlines List Item / Type=Sponsored ×1
 
 ## Breakpoints
 
@@ -72,7 +72,6 @@ _Nothing — leaf component._
 - [Zone 1 Lead Article Card](../04-zone-1-lead-article-card/zone-1-lead-article-card.md)
 - [TopZone Article Card](../05-topzone-article-card/topzone-article-card.md)
 - [Latest Headlines List Item](../07-latest-headlines-list-item/latest-headlines-list-item.md)
-- [TOP ZONE Block](../../assemblies/12-top-zone-block/top-zone-block.md)
 - [1Col Article Card](../16-1col-article-card/1col-article-card.md)
 
 ## Anatomy

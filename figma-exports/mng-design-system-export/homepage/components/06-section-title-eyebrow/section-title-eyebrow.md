@@ -9,7 +9,7 @@ component_key: 5328709ebbc037e3ef524cab212533ccb6fb6465
 variants: 2
 breakpoints: [340, 360, 768, 1024, 1100, 1280]
 built_from: ["Icons"]
-built_into: ["Latest Headlines", "Blueconic Block (Most Popular)", "Section Rail Card", "Photos Block"]
+built_into: ["Latest Headlines", "TOP ZONE Block", "Blueconic Block (Most Popular)", "Section Rail Card", "Photos Block"]
 spec_json: section-title-eyebrow.json
 skeleton: section-title-eyebrow.html
 exported: 2026-10-07
@@ -40,7 +40,7 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Style=Underline** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 1100 HomePage ×3, 1024 HomePage ×3, Mobile HomePage ×1, Desktop HomePage ×2, 340 HomePage ×1; templates (via assembly): 1100 HomePage (via Section Rail Card), 1024 HomePage (via Section Rail Card), Mobile HomePage (via Blueconic Block (Most Popular), Latest Headlines, Section Rail Card), Desktop HomePage (via Latest Headlines, Section Rail Card), 340 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Section Rail Card), 768 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card); nested inside: Photos Block / Device=Mobile ×1, Section Rail Card / Device=Tablet, Layout=Wide ×1, Section Rail Card / Device=1100, Layout=Wide ×1, Section Rail Card / Device=1024, Layout=Wide ×1, Blueconic Block (Most Popular) / Device=Desktop ×1, Section Rail Card / Device=Tablet, Layout=Narrow ×1, Section Rail Card / Device=1100, Layout=Narrow ×1, Section Rail Card / Device=1024, Layout=Narrow ×1, Blueconic Block (Most Popular) / Device=Tablet ×1, Latest Headlines / Device=Mobile ×1, Section Rail Card / Device=1280, Layout=Wide ×1, Section Rail Card / Device=Desktop, Layout=Narrow ×1, Blueconic Block (Most Popular) / Device=Mobile ×1, Photos Block / Device=Desktop ×1, Section Rail Card / Device=Mobile, Layout=Narrow ×1, Latest Headlines / Device=Tablet ×1, Photos Block / Device=Tablet ×1, Latest Headlines / Device=Desktop ×1
+- **Style=Underline** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (direct): 340 HomePage ×1, Mobile HomePage ×1; templates (via assembly): 340 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Section Rail Card), Mobile HomePage (via Blueconic Block (Most Popular), Latest Headlines, Section Rail Card), Desktop HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), 1100 HomePage (via Blueconic Block (Most Popular), Photos Block, Section Rail Card, TOP ZONE Block), 768 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), 1024 HomePage (via Blueconic Block (Most Popular), Photos Block, Section Rail Card, TOP ZONE Block); nested inside: Photos Block / Device=1280 ×1, Photos Block / Device=Mobile ×1, Section Rail Card / Device=1100, Layout=Wide ×1, Latest Headlines / Device=Tablet ×1, Photos Block / Device=1024 ×1, Photos Block / Device=1100 ×1, Blueconic Block (Most Popular) / Device=1100 ×1, Latest Headlines / Device=Desktop ×1, Blueconic Block (Most Popular) / Device=Tablet ×1, Section Rail Card / Device=Tablet, Layout=Narrow ×1, Blueconic Block (Most Popular) / Device=1024 ×1, Blueconic Block (Most Popular) / Device=Mobile ×1, Section Rail Card / Device=1100, Layout=Narrow ×1, Blueconic Block (Most Popular) / Device=Desktop ×1, Section Rail Card / Device=Tablet, Layout=Wide ×1, TOP ZONE Block / Device=1024 ×1, Section Rail Card / Device=1024, Layout=Narrow ×1, Section Rail Card / Device=Desktop, Layout=Narrow ×1, TOP ZONE Block / Device=1100 ×1, Photos Block / Device=Tablet ×1, Photos Block / Device=Desktop ×1, Section Rail Card / Device=1024, Layout=Wide ×1, Blueconic Block (Most Popular) / Device=1280 ×1, Section Rail Card / Device=1280, Layout=Wide ×1, Latest Headlines / Device=Mobile ×1, Section Rail Card / Device=Mobile, Layout=Narrow ×1
 - **Style=Bold** — breakpoints: —; no instances in this file
 
 ## Breakpoints
@@ -68,6 +68,7 @@ exported: 2026-10-07
 **Built into:**
 
 - [Latest Headlines](../../assemblies/09-latest-headlines/latest-headlines.md)
+- [TOP ZONE Block](../../assemblies/12-top-zone-block/top-zone-block.md)
 - [Blueconic Block (Most Popular)](../../assemblies/14-blueconic-block-most-popular/blueconic-block-most-popular.md)
 - [Section Rail Card](../../assemblies/18-section-rail-card/section-rail-card.md)
 - [Photos Block](../../assemblies/22-photos-block/photos-block.md)

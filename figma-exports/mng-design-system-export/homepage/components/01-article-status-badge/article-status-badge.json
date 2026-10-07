@@ -69,7 +69,6 @@
    "Zone 1 Lead Article Card",
    "TopZone Article Card",
    "Latest Headlines List Item",
-   "TOP ZONE Block",
    "1Col Article Card"
   ],
   "perVariant": [
@@ -78,12 +77,13 @@
     "id": "3344:63994",
     "templatesDirect": {},
     "templatesVia": {
-     "Desktop HomePage": [
+     "768 HomePage": [
       "Latest Headlines List Item",
       "Zone 1 Lead Article Card"
      ],
      "1100 HomePage": [
       "Latest Headlines List Item",
+      "TopZone Article Card",
       "Zone 1 Lead Article Card"
      ],
      "1024 HomePage": [
@@ -100,18 +100,19 @@
       "TopZone Article Card",
       "Zone 1 Lead Article Card"
      ],
-     "768 HomePage": [
+     "Desktop HomePage": [
       "Latest Headlines List Item",
       "Zone 1 Lead Article Card"
      ]
     },
     "inComponents": {
-     "Zone 1 Lead Article Card / Device=Desktop": 1,
-     "Zone 1 Lead Article Card / Device=Mobile": 1,
-     "Latest Headlines List Item / Type=First": 1,
-     "Latest Headlines List Item / Type=Standard": 1,
      "Zone 1 Lead Article Card / Device=Tablet": 1,
-     "TopZone Article Card / Device=Mobile": 1
+     "Zone 1 Lead Article Card / Device=Mobile": 1,
+     "TopZone Article Card / Device=1100": 1,
+     "Zone 1 Lead Article Card / Device=Desktop": 1,
+     "Latest Headlines List Item / Type=First": 1,
+     "TopZone Article Card / Device=Mobile": 1,
+     "Latest Headlines List Item / Type=Standard": 1
     },
     "other": {},
     "breakpoints": [
@@ -128,7 +129,16 @@
     "id": "3344:63989",
     "templatesDirect": {},
     "templatesVia": {
+     "340 HomePage": [
+      "1Col Article Card"
+     ],
+     "Mobile HomePage": [
+      "1Col Article Card"
+     ],
      "1100 HomePage": [
+      "1Col Article Card"
+     ],
+     "1024 HomePage": [
       "1Col Article Card"
      ],
      "Desktop HomePage": [
@@ -136,20 +146,11 @@
      ],
      "768 HomePage": [
       "1Col Article Card"
-     ],
-     "1024 HomePage": [
-      "1Col Article Card"
-     ],
-     "Mobile HomePage": [
-      "1Col Article Card"
-     ],
-     "340 HomePage": [
-      "1Col Article Card"
      ]
     },
     "inComponents": {
-     "1Col Article Card / Style=Standard": 1,
-     "1Col Article Card / Style=Media Lead": 1
+     "1Col Article Card / Style=Media Lead": 1,
+     "1Col Article Card / Style=Standard": 1
     },
     "other": {},
     "breakpoints": [
@@ -164,20 +165,15 @@
    {
     "label": "Type=Sponsored",
     "id": "3344:63991",
-    "templatesDirect": {
-     "1100 HomePage": 4,
-     "1024 HomePage": 4
-    },
+    "templatesDirect": {},
     "templatesVia": {
-     "1100 HomePage": [
-      "Latest Headlines List Item"
-     ],
-     "1024 HomePage": [
-      "Latest Headlines List Item"
-     ],
      "Desktop HomePage": [
       "Latest Headlines List Item",
-      "TOP ZONE Block"
+      "TopZone Article Card"
+     ],
+     "1024 HomePage": [
+      "Latest Headlines List Item",
+      "TopZone Article Card"
      ],
      "768 HomePage": [
       "Latest Headlines List Item"
@@ -187,11 +183,14 @@
      ],
      "340 HomePage": [
       "Latest Headlines List Item"
+     ],
+     "1100 HomePage": [
+      "Latest Headlines List Item"
      ]
     },
     "inComponents": {
-     "TOP ZONE Block / Device=Desktop": 4,
      "TopZone Article Card / Device=Desktop": 1,
+     "TopZone Article Card / Device=1024": 1,
      "Latest Headlines List Item / Type=Sponsored": 1
     },
     "other": {},
@@ -220,10 +219,6 @@
    {
     "name": "Latest Headlines List Item",
     "path": "../07-latest-headlines-list-item/latest-headlines-list-item.md"
-   },
-   {
-    "name": "TOP ZONE Block",
-    "path": "../../assemblies/12-top-zone-block/top-zone-block.md"
    },
    {
     "name": "1Col Article Card",

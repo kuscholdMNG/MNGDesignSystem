@@ -72,11 +72,14 @@
    {
     "label": "Device=Mobile",
     "id": "3336:46156",
-    "templatesDirect": {
-     "1100 HomePage": 1,
-     "1024 HomePage": 1
-    },
+    "templatesDirect": {},
     "templatesVia": {
+     "1100 HomePage": [
+      "TOP ZONE Block"
+     ],
+     "1024 HomePage": [
+      "TOP ZONE Block"
+     ],
      "Mobile HomePage": [
       "TOP ZONE Block"
      ],
@@ -85,6 +88,8 @@
      ]
     },
     "inComponents": {
+     "TOP ZONE Block / Device=1100": 1,
+     "TOP ZONE Block / Device=1024": 1,
      "TOP ZONE Block / Device=Mobile": 1
     },
     "other": {},
