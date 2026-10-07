@@ -1107,6 +1107,16 @@ The gaps of **11, 19, 21 and 22** px come from production's fluid layout and are
 
 One-line items are unaffected (the 44px height holds), but every extra line adds about 5px more in design than in production. Two-line rows are 66px plus the gap in design versus 77px in production, and three-line rows grow further apart. **Decision (Karl, 2026-10-07): keep the Figma item as is** — 44px tall, Noto Serif Bold 16 / auto. This is a known difference, not a Figma bug; production should move to the design's type if it's ever aligned.
 
+## 28. Upcoming Events (CitySpark widget) — font family
+
+**Found:** 2026-10-07, ocregister.com (homepage `.csLayHolder` → `.cswidholder` iframe, CitySpark template).
+
+**Figma spec (source of truth):** WordPress Elements `Upcoming Events Widget` matches production's layout, sizes, spacing and colors exactly (Karl, 2026-10-07), but sets all text in **Noto Sans**, like the rest of the design system.
+
+**Production:** every text element in the widget is **Roboto Condensed**: the title "Upcoming Events" 400 20/22, the "See All Events" and "Add your event" buttons 400 12/15, the card dates 400 11, event names 700 13/14, venues 400 12/14.
+
+**Fix:** change the CitySpark widget template's font to Noto Sans (same sizes and weights) on every site, with whoever manages the CitySpark account.
+
 ## How to use this doc
 
 Add a new dated, numbered entry whenever a Figma-vs-production gap or an explicit engineering/legal flag is found during an audit, rather than quietly "fixing" the design tokens to match whatever production happens to do. Mark each item's status (Open / Fixed / Confirmed-intentional) as it gets resolved, and keep the original finding text rather than deleting it once resolved — see how `tokens/colors/color-tokens-decision-log.md` and the component audit docs annotate resolved items in place, for the pattern to follow here too.
