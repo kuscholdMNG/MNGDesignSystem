@@ -1105,7 +1105,7 @@ The gaps of **11, 19, 21 and 22** px come from production's fluid layout and are
 |---|---|---|
 | Headline | Noto Serif **600**, 16px / **17.07px** | Noto Serif **Bold (700)**, 16px / **auto (~22px)** |
 
-One-line items are unaffected (the 44px height holds), but every extra line adds about 5px more in design than in production. Two-line rows are 66px plus the gap in design versus 77px in production, and three-line rows grow further apart. Left as is for now; decide whether to match the item headline to production's 16/17 SemiBold (Karl, 2026-10-07: keep the item at 44px).
+One-line items are unaffected (the 44px height holds), but every extra line adds about 5px more in design than in production. Two-line rows are 66px plus the gap in design versus 77px in production, and three-line rows grow further apart. **Decision (Karl, 2026-10-07): keep the Figma item as is** — 44px tall, Noto Serif Bold 16 / auto. This is a known difference, not a Figma bug; production should move to the design's type if it's ever aligned.
 
 ## How to use this doc
 
