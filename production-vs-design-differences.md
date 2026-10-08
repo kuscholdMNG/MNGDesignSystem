@@ -1117,6 +1117,18 @@ One-line items are unaffected (the 44px height holds), but every extra line adds
 
 **Fix:** change the CitySpark widget template's font to Noto Sans (same sizes and weights) on every site, with whoever manages the CitySpark account.
 
+## 29. Article breadcrumb type-of-work label — font family
+
+**Found:** 2026-10-08, ocregister.com article page (`.breadcrumbs` › `.breadcrumb-type-wrapper > a`, e.g. "NEWS › ENVIRONMENT • News").
+
+**Figma spec (source of truth):** WordPress Elements › Article Page › `Breadcrumbs` (`1110:19469`) matches production's sizes, spacing and colors (rebuilt 2026-10-08, Karl): crumbs Noto Sans 700 16/22 uppercase `color/gray/black`, the `arrow-right2` icon at 14px in `color/gray/500` with 5px on each side, and the label " • News" in Noto Sans 400 15.2/15.2 `color/gray/black` (`font/size/15-2`).
+
+**Production:** the label and its CSS-added " • " bullet have no font family set, so they render in **Helvetica** (inherited from the page default). The crumbs are Noto Sans.
+
+**Fix:** set the label to Noto Sans (same 0.95em size, 400 weight) on every site.
+
+**Status:** Open.
+
 ## How to use this doc
 
 Add a new dated, numbered entry whenever a Figma-vs-production gap or an explicit engineering/legal flag is found during an audit, rather than quietly "fixing" the design tokens to match whatever production happens to do. Mark each item's status (Open / Fixed / Confirmed-intentional) as it gets resolved, and keep the original finding text rather than deleting it once resolved — see how `tokens/colors/color-tokens-decision-log.md` and the component audit docs annotate resolved items in place, for the pattern to follow here too.
