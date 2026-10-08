@@ -12,7 +12,7 @@ built_from: ["Video Tile Image Placeholder"]
 built_into: []
 spec_json: videos-from-ocregister-carousel.json
 skeleton: videos-from-ocregister-carousel.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Videos from OCRegister Carousel
@@ -98,9 +98,9 @@ _Not used inside another exported item._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Videos from @OCRegister | Noto Serif | Bold | 26 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Videos from @ | Videos from OCRegister Carousel |
-| Videos from @OCRegister | Noto Serif | Bold | 26 | auto |  |  | #1651BA |  |  |  | OCRegister | Videos from OCRegister Carousel |
-| Watch as our journalists report on our local news coverage i | Noto Sans | Regular | 15 | auto |  |  | #393938 | Colors/color/gray/100 |  |  | Watch as our journalists report on our local news  | Videos from OCRegister Carousel |
+| Videos from @OCRegister | Noto Serif | Bold | 26 | auto |  |  | #141414 | Colors/color/gray/min | font/size/26 |  | Videos from @ | Videos from OCRegister Carousel |
+| Videos from @OCRegister | Noto Serif | Bold | 26 | auto |  |  | #1651BA |  | font/size/26 |  | OCRegister | Videos from OCRegister Carousel |
+| Watch as our journalists report on our local news coverage i | Noto Sans | Regular | 15 | auto |  |  | #393938 | Colors/color/gray/100 | font/size/15 |  | Watch as our journalists report on our local news  | Videos from OCRegister Carousel |
 
 ## Color & effects
 

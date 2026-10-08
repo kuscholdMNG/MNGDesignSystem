@@ -12,7 +12,7 @@ built_from: ["Upcoming Events Calendar Glyph", "Icons"]
 built_into: ["Upcoming Events Widget"]
 spec_json: upcoming-events-header-button.json
 skeleton: upcoming-events-header-button.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Upcoming Events Header Button
@@ -44,7 +44,7 @@ exported: 2026-10-07
 
 - **Type=See All Events, Label=On** — breakpoints: 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Upcoming Events Widget), Desktop HomePage (via Upcoming Events Widget), 1100 HomePage (via Upcoming Events Widget), 768 HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=1024 ×1, Upcoming Events Widget / Device=Desktop ×1, Upcoming Events Widget / Device=1100 ×1, Upcoming Events Widget / Device=Tablet ×1
 - **Type=See All Events, Label=Off** — breakpoints: 340, 360; templates (via assembly): Mobile HomePage (via Upcoming Events Widget), 340 HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=Mobile ×1
-- **Type=Add your event, Label=On** — breakpoints: 768, 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via Upcoming Events Widget), 1024 HomePage (via Upcoming Events Widget), 768 HomePage (via Upcoming Events Widget), 1100 HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=Desktop ×1, Upcoming Events Widget / Device=1024 ×1, Upcoming Events Widget / Device=Tablet ×1, Upcoming Events Widget / Device=1100 ×1
+- **Type=Add your event, Label=On** — breakpoints: 768, 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via Upcoming Events Widget), 1100 HomePage (via Upcoming Events Widget), 1024 HomePage (via Upcoming Events Widget), 768 HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=Desktop ×1, Upcoming Events Widget / Device=1100 ×1, Upcoming Events Widget / Device=1024 ×1, Upcoming Events Widget / Device=Tablet ×1
 - **Type=Add your event, Label=Off** — breakpoints: 340, 360; templates (via assembly): Mobile HomePage (via Upcoming Events Widget), 340 HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=Mobile ×1
 
 ## Breakpoints
@@ -127,7 +127,7 @@ exported: 2026-10-07
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Label | Noto Sans | Regular | 12 | 15px |  |  | #FFFFFF |  |  |  | See All Events | all |
+| Label | Noto Sans | Regular | 12 | 15px |  |  | #FFFFFF |  | font/size/12 |  | See All Events | all |
 
 ## Color & effects
 

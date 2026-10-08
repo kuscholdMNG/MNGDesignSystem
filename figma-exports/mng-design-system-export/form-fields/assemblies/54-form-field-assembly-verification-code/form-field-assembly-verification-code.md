@@ -12,7 +12,7 @@ built_from: ["Code Box"]
 built_into: []
 spec_json: form-field-assembly-verification-code.json
 skeleton: form-field-assembly-verification-code.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Form Field Assembly / Verification Code
@@ -104,10 +104,10 @@ _Not used inside another exported item._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Label | Noto Sans | Regular | 16 | auto |  |  | #000000 | Colors/color/gray/black |  |  | Verification Code | Size=Desktop |
-| Error message text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Desktop |
-| Label | Noto Sans | Regular | 14 | auto |  |  | #000000 | Colors/color/gray/black |  |  | Verification Code | Size=Mobile |
-| Error message text. | Noto Sans | Regular | 14 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Mobile |
+| Label | Noto Sans | Regular | 16 | auto |  |  | #000000 | Colors/color/gray/black | font/size/16 |  | Verification Code | Size=Desktop |
+| Error message text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error | font/size/18 |  | Error message text. | Size=Desktop |
+| Label | Noto Sans | Regular | 14 | auto |  |  | #000000 | Colors/color/gray/black | font/size/14 |  | Verification Code | Size=Mobile |
+| Error message text. | Noto Sans | Regular | 14 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error | font/size/14 |  | Error message text. | Size=Mobile |
 
 ## Color & effects
 

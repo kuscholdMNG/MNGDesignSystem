@@ -251,6 +251,11 @@
          "h": "FILL",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "I agree to the Terms of Service and Privacy Policy.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -310,6 +315,11 @@
         "sizing": {
          "h": "FIXED",
          "v": "FIXED"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/18",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "Please accept terms and conditions.",
         "autoResize": "HEIGHT",
@@ -473,6 +483,11 @@
          "h": "FILL",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/13",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "I agree to the Terms of Service and Privacy Policy.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -533,6 +548,11 @@
          "h": "FIXED",
          "v": "FIXED"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Please accept terms and conditions.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -576,7 +596,7 @@
    "decoration": null,
    "color": "#000000",
    "token": "Colors/color/gray/black",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "I agree to the Terms of Service and Privacy Policy",
@@ -595,7 +615,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
-   "typeToken": null,
+   "typeToken": "font/size/18",
    "textStyle": null,
    "truncate": null,
    "sample": "Please accept terms and conditions.",
@@ -614,7 +634,7 @@
    "decoration": null,
    "color": "#000000",
    "token": "Colors/color/gray/black",
-   "typeToken": null,
+   "typeToken": "font/size/13",
    "textStyle": null,
    "truncate": null,
    "sample": "I agree to the Terms of Service and Privacy Policy",
@@ -633,7 +653,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Please accept terms and conditions.",
@@ -652,5 +672,5 @@
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "form-field-assembly-checkbox-terms.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

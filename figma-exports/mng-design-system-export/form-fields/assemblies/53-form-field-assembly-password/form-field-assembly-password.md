@@ -12,7 +12,7 @@ built_from: ["Form Field"]
 built_into: []
 spec_json: form-field-assembly-password.json
 skeleton: form-field-assembly-password.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Form Field Assembly / Password
@@ -101,8 +101,8 @@ Include at least 1 l"
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Minimum length is 6 Include at least 1 letter Include at lea | Noto Sans | Regular | 13 | auto |  |  | #2E8000 | Colors/color/feedback/low-success |  |  | Minimum length is 6 Include at least 1 letter Incl | Size=Desktop |
-| Minimum length is 6 Include at least 1 letter Include at lea | Noto Sans | Regular | 12 | auto |  |  | #2E8000 | Colors/color/feedback/low-success |  |  | Minimum length is 6 Include at least 1 letter Incl | Size=Mobile |
+| Minimum length is 6 Include at least 1 letter Include at lea | Noto Sans | Regular | 13 | auto |  |  | #2E8000 | Colors/color/feedback/low-success | font/size/13 |  | Minimum length is 6 Include at least 1 letter Incl | Size=Desktop |
+| Minimum length is 6 Include at least 1 letter Include at lea | Noto Sans | Regular | 12 | auto |  |  | #2E8000 | Colors/color/feedback/low-success | font/size/12 |  | Minimum length is 6 Include at least 1 letter Incl | Size=Mobile |
 
 ## Color & effects
 

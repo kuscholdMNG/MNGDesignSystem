@@ -12,7 +12,7 @@ built_from: ["Icons"]
 built_into: ["UserPic"]
 spec_json: userimage.json
 skeleton: userimage.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # UserImage
@@ -57,7 +57,7 @@ exported: 2026-10-07
 - **Size=medium, Graphic=socialPhillip** — breakpoints: —; no instances in this file
 - **Size=medium, Graphic=unknown** — breakpoints: —; no instances in this file
 - **Size=medium, Graphic=monogram** — breakpoints: —; no instances in this file
-- **Size=small, Graphic=social** — breakpoints: —; nested inside: UserPic / Size=Small, Status=Active ×1, UserPic / Size=Small, Status=Default ×1
+- **Size=small, Graphic=social** — breakpoints: —; nested inside: UserPic / Size=Small, Status=Default ×1, UserPic / Size=Small, Status=Active ×1
 - **Size=small, Graphic=unknown** — breakpoints: —; no instances in this file
 - **Size=small, Graphic=monogram** — breakpoints: —; no instances in this file
 
@@ -199,9 +199,9 @@ exported: 2026-10-07
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Initials | Noto Sans | Regular | 27 | auto |  |  | #141414 | Colors/color/gray/min |  |  | GM | Size=large, Graphic=monogram, Size=large, Graphic=monogramPP |
-| Initials | Noto Sans | Regular | 22 | auto |  |  | #141414 | Colors/color/gray/min |  |  | GM | Size=medium, Graphic=monogram |
-| Initials | Noto Sans | Regular | 12 | auto |  |  | #141414 | Colors/color/gray/min |  |  | GM | Size=small, Graphic=monogram |
+| Initials | Noto Sans | Regular | 27 | auto |  |  | #141414 | Colors/color/gray/min | font/family/noto-sans |  | GM | Size=large, Graphic=monogram, Size=large, Graphic=monogramPP |
+| Initials | Noto Sans | Regular | 22 | auto |  |  | #141414 | Colors/color/gray/min | font/family/noto-sans |  | GM | Size=medium, Graphic=monogram |
+| Initials | Noto Sans | Regular | 12 | auto |  |  | #141414 | Colors/color/gray/min | font/size/12 |  | GM | Size=small, Graphic=monogram |
 
 ## Color & effects
 

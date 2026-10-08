@@ -12,7 +12,7 @@ built_from: ["Section Title / Eyebrow", "Most Popular List Item"]
 built_into: []
 spec_json: blueconic-block-most-popular.json
 skeleton: blueconic-block-most-popular.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Blueconic Block (Most Popular)

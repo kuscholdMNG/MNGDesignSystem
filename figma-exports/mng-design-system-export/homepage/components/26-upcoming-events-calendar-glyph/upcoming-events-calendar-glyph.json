@@ -53,19 +53,19 @@
     "id": "3557:40167",
     "templatesDirect": {},
     "templatesVia": {
-     "1100 HomePage": [
-      "Date Picker Calendar Icon",
-      "Upcoming Events Header Button"
-     ],
-     "768 HomePage": [
-      "Date Picker Calendar Icon",
-      "Upcoming Events Header Button"
-     ],
      "1024 HomePage": [
       "Date Picker Calendar Icon",
       "Upcoming Events Header Button"
      ],
      "Desktop HomePage": [
+      "Date Picker Calendar Icon",
+      "Upcoming Events Header Button"
+     ],
+     "1100 HomePage": [
+      "Date Picker Calendar Icon",
+      "Upcoming Events Header Button"
+     ],
+     "768 HomePage": [
       "Date Picker Calendar Icon",
       "Upcoming Events Header Button"
      ],
@@ -79,9 +79,9 @@
      ]
     },
     "inComponents": {
+     "Upcoming Events Header Button / Type=See All Events, Label=On": 1,
      "Date Picker Calendar Icon": 1,
-     "Upcoming Events Header Button / Type=See All Events, Label=Off": 1,
-     "Upcoming Events Header Button / Type=See All Events, Label=On": 1
+     "Upcoming Events Header Button / Type=See All Events, Label=Off": 1
     },
     "other": {},
     "breakpoints": [
@@ -188,5 +188,5 @@
   "1 solid paints are hard-coded (not bound to a color variable): #3B3B3B ×1."
  ],
  "skeleton": "upcoming-events-calendar-glyph.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

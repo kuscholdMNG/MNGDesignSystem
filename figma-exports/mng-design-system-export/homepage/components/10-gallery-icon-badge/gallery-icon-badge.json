@@ -58,6 +58,9 @@
      "1100 HomePage": [
       "Horizontal Thumbnail Card"
      ],
+     "Desktop HomePage": [
+      "Horizontal Thumbnail Card"
+     ],
      "1024 HomePage": [
       "Horizontal Thumbnail Card"
      ],
@@ -65,9 +68,6 @@
       "Horizontal Thumbnail Card"
      ],
      "340 HomePage": [
-      "Horizontal Thumbnail Card"
-     ],
-     "Desktop HomePage": [
       "Horizontal Thumbnail Card"
      ]
     },
@@ -242,5 +242,5 @@
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "gallery-icon-badge.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

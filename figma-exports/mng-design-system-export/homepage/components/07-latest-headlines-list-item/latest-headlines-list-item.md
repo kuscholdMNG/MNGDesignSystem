@@ -12,7 +12,7 @@ built_from: ["Article Status Badge"]
 built_into: ["Latest Headlines"]
 spec_json: latest-headlines-list-item.json
 skeleton: latest-headlines-list-item.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Latest Headlines List Item
@@ -40,9 +40,9 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Type=First** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines), Desktop HomePage (via Latest Headlines), 1100 HomePage (via Latest Headlines), 1024 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Mobile ×1, Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Desktop ×1
-- **Type=Standard** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via Latest Headlines), 1100 HomePage (via Latest Headlines), 1024 HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Desktop ×6, Latest Headlines / Device=Mobile ×6, Latest Headlines / Device=Tablet ×6
-- **Type=Sponsored** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 768 HomePage (via Latest Headlines), Desktop HomePage (via Latest Headlines), 1100 HomePage (via Latest Headlines), 1024 HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Desktop ×1, Latest Headlines / Device=Mobile ×1
+- **Type=First** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines), 1100 HomePage (via Latest Headlines), 1024 HomePage (via Latest Headlines), Desktop HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Mobile ×1, Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Desktop ×1
+- **Type=Standard** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines), 1100 HomePage (via Latest Headlines), 1024 HomePage (via Latest Headlines), Desktop HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Mobile ×6, Latest Headlines / Device=Desktop ×6, Latest Headlines / Device=Tablet ×6
+- **Type=Sponsored** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via Latest Headlines), 1024 HomePage (via Latest Headlines), Desktop HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines), 768 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Desktop ×1, Latest Headlines / Device=Mobile ×1, Latest Headlines / Device=Tablet ×1
 
 ## Breakpoints
 
@@ -124,12 +124,12 @@ exported: 2026-10-07
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Latest headlines Number ONE: This wraps to two lines. | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Latest headlines Number ONE: This wraps to two lin | Type=First |
-| 56 mins ago | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | 56 mins ago | Type=First |
-| Latest headlines Number Seven: Wraps to two lines. | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Latest headlines Number Seven: Wraps to two lines. | Type=Standard |
-| 57 mins ago | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | 57 mins ago | Type=Standard |
-| Latest headlines Number Twelve: This one wraps to three line | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Latest headlines Number Twelve: This one wraps to  | Type=Sponsored |
-| By Xcel Energy | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | By Xcel Energy | Type=Sponsored |
+| Latest headlines Number ONE: This wraps to two lines. | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min | font/size/15 |  | Latest headlines Number ONE: This wraps to two lin | Type=First |
+| 56 mins ago | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 | font/size/13 |  | 56 mins ago | Type=First |
+| Latest headlines Number Seven: Wraps to two lines. | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min | font/size/15 |  | Latest headlines Number Seven: Wraps to two lines. | Type=Standard |
+| 57 mins ago | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 | font/size/13 |  | 57 mins ago | Type=Standard |
+| Latest headlines Number Twelve: This one wraps to three line | Noto Serif | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min | font/size/15 |  | Latest headlines Number Twelve: This one wraps to  | Type=Sponsored |
+| By Xcel Energy | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 | font/size/13 |  | By Xcel Energy | Type=Sponsored |
 
 ## Color & effects
 

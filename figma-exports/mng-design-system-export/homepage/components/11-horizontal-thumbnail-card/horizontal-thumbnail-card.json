@@ -97,6 +97,9 @@
      "1100 HomePage": [
       "Photos Block"
      ],
+     "Desktop HomePage": [
+      "Photos Block"
+     ],
      "1024 HomePage": [
       "Photos Block"
      ],
@@ -108,17 +111,14 @@
      ],
      "340 HomePage": [
       "Photos Block"
-     ],
-     "Desktop HomePage": [
-      "Photos Block"
      ]
     },
     "inComponents": {
      "Photos Block / Device=1100": 6,
+     "Photos Block / Device=1280": 6,
      "Photos Block / Device=1024": 6,
      "Photos Block / Device=Tablet": 6,
-     "Photos Block / Device=Mobile": 5,
-     "Photos Block / Device=1280": 6
+     "Photos Block / Device=Mobile": 5
     },
     "other": {},
     "breakpoints": [
@@ -1170,5 +1170,5 @@
   "Expected: production uses the Device=Mobile thumbnail (90×51 image, 15/19 title) at every width, so the templates place Mobile at 768–1280 too. Device=Desktop (98px) and Device=Tablet (84px) don't match any production width checked on 2026-10-07; review whether to keep them."
  ],
  "skeleton": "horizontal-thumbnail-card.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

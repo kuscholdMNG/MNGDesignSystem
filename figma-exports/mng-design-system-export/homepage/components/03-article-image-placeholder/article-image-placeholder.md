@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Zone 1 Lead Article Card", "TopZone Article Card", "Horizontal Thumbnail Card", "Horizontal Feature Card", "1Col Article Card", "Feature + List Content Block", "Event Card"]
 spec_json: article-image-placeholder.json
 skeleton: article-image-placeholder.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Article Image Placeholder
@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Article Image Placeholder** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Mobile HomePage (via 1Col Article Card, Event Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 340 HomePage (via 1Col Article Card, Event Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 768 HomePage (via 1Col Article Card, Event Card, Horizontal Feature Card, Horizontal Thumbnail Card, Zone 1 Lead Article Card), 1100 HomePage (via 1Col Article Card, Event Card, Horizontal Feature Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), Desktop HomePage (via 1Col Article Card, Event Card, Horizontal Feature Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 1024 HomePage (via 1Col Article Card, Event Card, Feature + List Content Block, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card); nested inside: TopZone Article Card / Device=Mobile ×1, Event Card ×2, Horizontal Thumbnail Card / Device=Mobile ×1, Zone 1 Lead Article Card / Device=Tablet ×1, Horizontal Thumbnail Card / Device=Tablet ×1, Zone 1 Lead Article Card / Device=Desktop ×1, Feature + List Content Block / Size=Narrow ×1, Horizontal Thumbnail Card / Device=Desktop ×1, TopZone Article Card / Device=Desktop ×1, Zone 1 Lead Article Card / Device=Mobile ×1, Horizontal Feature Card ×1, 1Col Article Card / Style=Standard ×1, 1Col Article Card / Style=Media Lead ×1, TopZone Article Card / Device=1100 ×1, TopZone Article Card / Device=1024 ×1
+- **Article Image Placeholder** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Mobile HomePage (via 1Col Article Card, Event Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 340 HomePage (via 1Col Article Card, Event Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 1100 HomePage (via 1Col Article Card, Event Card, Horizontal Feature Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), Desktop HomePage (via 1Col Article Card, Event Card, Horizontal Feature Card, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 1024 HomePage (via 1Col Article Card, Event Card, Feature + List Content Block, Horizontal Thumbnail Card, TopZone Article Card, Zone 1 Lead Article Card), 768 HomePage (via 1Col Article Card, Event Card, Horizontal Feature Card, Horizontal Thumbnail Card, Zone 1 Lead Article Card); nested inside: Horizontal Thumbnail Card / Device=Desktop ×1, TopZone Article Card / Device=Mobile ×1, Horizontal Thumbnail Card / Device=Mobile ×1, Horizontal Thumbnail Card / Device=Tablet ×1, Feature + List Content Block / Size=Narrow ×1, Event Card ×2, TopZone Article Card / Device=1024 ×1, TopZone Article Card / Device=1100 ×1, Zone 1 Lead Article Card / Device=Mobile ×1, 1Col Article Card / Style=Standard ×1, TopZone Article Card / Device=Desktop ×1, Zone 1 Lead Article Card / Device=Desktop ×1, Zone 1 Lead Article Card / Device=Tablet ×1, Horizontal Feature Card ×1, 1Col Article Card / Style=Media Lead ×1
 
 ## Breakpoints
 
@@ -92,7 +92,7 @@ _Nothing — leaf component._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| ARTICLE IMAGE | Noto Serif | Bold | 16 | auto | 10% |  | #141414 | Colors/color/gray/min |  |  | GRAPHIC / IMAGE | all |
+| ARTICLE IMAGE | Noto Serif | Bold | 16 | auto | 10% |  | #141414 | Colors/color/gray/min | font/size/16 |  | GRAPHIC / IMAGE | all |
 
 ## Color & effects
 

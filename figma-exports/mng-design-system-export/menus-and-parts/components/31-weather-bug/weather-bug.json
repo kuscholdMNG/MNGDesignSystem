@@ -81,13 +81,13 @@
      ]
     },
     "inComponents": {
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article": 2,
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home": 2,
      "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard": 1,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront": 1,
+     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article": 2,
      "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article": 1,
      "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront": 2,
-     "Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home": 2,
-     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home": 1
+     "Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront": 1
     },
     "other": {},
     "breakpoints": [
@@ -301,6 +301,11 @@
          "h": "FILL",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/15",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Wednesday, September 25th, 2025",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -333,6 +338,11 @@
         "sizing": {
          "h": "HUG",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/12",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "Today’s E Edition",
         "autoResize": "WIDTH_AND_HEIGHT",
@@ -550,6 +560,11 @@
          "h": "HUG",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Wednesday, September 25th, 2022",
         "autoResize": "WIDTH_AND_HEIGHT",
         "align": "LEFT",
@@ -582,6 +597,11 @@
         "sizing": {
          "h": "HUG",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/12",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "Today’s E Edition",
         "autoResize": "WIDTH_AND_HEIGHT",
@@ -647,7 +667,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/15",
    "textStyle": null,
    "truncate": null,
    "sample": "Wednesday, September 25th, 2025",
@@ -666,7 +686,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/12",
    "textStyle": null,
    "truncate": null,
    "sample": "Today’s E Edition",
@@ -686,7 +706,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Wednesday, September 25th, 2022",
@@ -729,5 +749,5 @@
   "`Location=Masthead`: fonts outside the production set (Noto Sans / Noto Serif, no Display styles): Helvetica Bold ×1."
  ],
  "skeleton": "weather-bug.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

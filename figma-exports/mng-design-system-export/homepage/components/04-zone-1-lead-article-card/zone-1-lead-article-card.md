@@ -12,7 +12,7 @@ built_from: ["Article Status Badge", "Article Image Placeholder", "Related Artic
 built_into: ["TOP ZONE Block"]
 spec_json: zone-1-lead-article-card.json
 skeleton: zone-1-lead-article-card.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Zone 1 Lead Article Card
@@ -28,7 +28,7 @@ exported: 2026-10-07
 
 | Variant | Node | Key | Size | Preview |
 |---|---|---|---|---|
-| Device=Mobile | [3336:46156](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46156) | d801cdf7da6c90d8b5e1b45f57a94859d62b55e0 | 340×648.7 | ![Device=Mobile](previews/zone-1-lead-article-card--mobile.png) |
+| Device=Mobile | [3336:46156](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46156) | d801cdf7da6c90d8b5e1b45f57a94859d62b55e0 | 340×632.7 | ![Device=Mobile](previews/zone-1-lead-article-card--mobile.png) |
 | Device=Desktop | [3336:46155](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46155) | 5aaf6f2e20539bd0a19675266678595a12deb55e | 706×349 | ![Device=Desktop](previews/zone-1-lead-article-card--desktop.png) |
 | Device=Tablet | [3383:46111](https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3383-46111) | 584ab8714d388b3464f920773139fc63e5917590 | 748×349 | ![Device=Tablet](previews/zone-1-lead-article-card--tablet.png) |
 
@@ -57,7 +57,7 @@ exported: 2026-10-07
 
 ## Responsive rules
 
-- Device=Mobile: 340×648.7, vertical gap 8 pad 0/0/16/0 main MIN cross CENTER — renders at 340, 360, 1024, 1100
+- Device=Mobile: 340×632.7, vertical gap 8 pad 0/0/16/0 main MIN cross CENTER — renders at 340, 360, 1024, 1100
 - Device=Desktop: 706×349, horizontal gap 20 pad 0/0/16/0 main MIN cross MIN — renders at 1280
 - Device=Tablet: 748×349, horizontal gap 32 pad 0/0/16/0 main MIN cross MIN — renders at 768
 
@@ -78,11 +78,11 @@ exported: 2026-10-07
 **Device=Mobile**
 
 ```
-- Device=Mobile — component 340×648.7 [vertical gap 8] (fixed/hug)
+- Device=Mobile — component 340×632.7 [vertical gap 8] (fixed/hug)
   - SubsOnly Frame — frame 340×0 [vertical gap 8] (fill/hug)
     - Article Status Badge — instance 0×0 [horizontal gap 0] (hug/hug) → Article Status Badge [Type=None] (hidden)
-  - Headline Container — frame 340×132 [horizontal gap 8] (fill/hug)
-    - Man charged with murder after fatal attack on bicycling doctor in Dana Point — text 340×132 (fill/hug) "Man charged with murder after fatal atta"
+  - Headline Container — frame 340×116 [horizontal gap 8] (fill/hug)
+    - Man charged with murder after fatal attack on bicycling doctor in Dana Point — text 340×116 (fill/hug) "Man charged with murder after fatal atta"
   - Featured Image — frame 340×235.7 [vertical gap 8] (fill/fixed)
     - Article Image Placeholder — instance 340×235.7 [vertical gap 8] (fill/fixed) → Article Image Placeholder
   - Excerpt Container — frame 340×54 [horizontal gap 8] (fill/hug)
@@ -140,7 +140,7 @@ exported: 2026-10-07
 
 | Variant | Size | Width | Height | Auto-layout | Radius | Clip |
 |---|---|---|---|---|---|---|
-| Device=Mobile | 340×648.7 | FIXED | HUG | vertical gap 8 pad 0/0/16/0 main MIN cross CENTER |  |  |
+| Device=Mobile | 340×632.7 | FIXED | HUG | vertical gap 8 pad 0/0/16/0 main MIN cross CENTER |  |  |
 | Device=Desktop | 706×349 | HUG | HUG | horizontal gap 20 pad 0/0/16/0 main MIN cross MIN |  |  |
 | Device=Tablet | 748×349 | HUG | HUG | horizontal gap 32 pad 0/0/16/0 main MIN cross MIN |  |  |
 
@@ -148,10 +148,10 @@ exported: 2026-10-07
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Man charged with murder after fatal attack on bicycling doct | Noto Serif | Bold | 25 | 33px | -3% |  | #141414 | Colors/color/gray/min |  |  | Man charged with murder after fatal attack on bicy | Device=Mobile |
+| Man charged with murder after fatal attack on bicycling doct | Noto Serif | Bold | 25 | 29px | -3% |  | #141414 | Colors/color/gray/min | font/size/25 |  | Man charged with murder after fatal attack on bicy | Device=Mobile |
 | Vanroy Evan Smith, 39, of Long Beach is being held on $1 mil | Noto Sans | Regular | 15 | 19px |  |  | #393938 | Colors/color/gray/100 | Editorial/Body/ExcerptCompact |  | Vanroy Evan Smith, 39, of Long Beach is being held | all |
-| Header | Noto Serif | Bold | 12 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | Related | all |
-| Man charged with murder after fatal attack on bicycling doct | Noto Serif | Bold | 29 | 33px | -3% |  | #141414 | Colors/color/gray/min |  |  | Man charged with murder after fatal attack on bicy | Device=Desktop, Device=Tablet |
+| Header | Noto Serif | Bold | 12 | auto |  |  | #5E5D5C | Colors/color/gray/200 | font/size/12 |  | Related | all |
+| Man charged with murder after fatal attack on bicycling doct | Noto Serif | Bold | 29 | 33px | -3% |  | #141414 | Colors/color/gray/min | font/size/29 |  | Man charged with murder after fatal attack on bicy | Device=Desktop, Device=Tablet |
 
 ## Color & effects
 

@@ -100,8 +100,8 @@
     "templatesDirect": {},
     "templatesVia": {},
     "inComponents": {
-     "UserPic / Size=Small, Status=Default": 1,
-     "UserPic / Size=Medium, Status=Default": 1
+     "UserPic / Size=Medium, Status=Default": 1,
+     "UserPic / Size=Small, Status=Default": 1
     },
     "other": {},
     "breakpoints": []
@@ -964,5 +964,5 @@
   "4 of 8 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Level=medium, Size=Small`, `Level=high, Size=Small`, `Level=medium, Size=Large`, `Level=high, Size=Large`."
  ],
  "skeleton": "alertlevel.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

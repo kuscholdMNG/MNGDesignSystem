@@ -12,7 +12,7 @@ built_from: ["Icons"]
 built_into: []
 spec_json: breaking-news-banner.json
 skeleton: breaking-news-banner.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Breaking News Banner
@@ -130,10 +130,10 @@ _Not used inside another exported item._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Breaking News | Noto Sans | Bold | 18 | 22.65px |  | UPPER | #0A0908 | Colors/color/theme/near-black |  |  | Breaking News | all |
-| Breaking News Headline will wrap until it goes forever as lo | Noto Serif | Regular | 16 | auto |  |  | #0A0908 | Colors/color/theme/near-black |  |  | Breaking News Headline will wrap until it goes for | Property 1=Mobile, Property 1=Tablet |
-| September 23, 2025 at 12:34 pm | Noto Sans | Regular | 16 | auto |  |  | #0A0908 | Colors/color/theme/near-black |  |  | September 23, 2025 at 12:34 pm | all |
-| Breaking News Headline | Noto Serif | Regular | 16 | auto |  |  | #0A0908 | Colors/color/theme/near-black |  |  | Breaking News Headline | Property 1=Desktop |
+| Breaking News | Noto Sans | Bold | 18 | 22.65px |  | UPPER | #0A0908 | Colors/color/theme/near-black | font/size/18 |  | Breaking News | all |
+| Breaking News Headline will wrap until it goes forever as lo | Noto Serif | Regular | 16 | auto |  |  | #0A0908 | Colors/color/theme/near-black | font/size/16 |  | Breaking News Headline will wrap until it goes for | Property 1=Mobile, Property 1=Tablet |
+| September 23, 2025 at 12:34 pm | Noto Sans | Regular | 16 | auto |  |  | #0A0908 | Colors/color/theme/near-black | font/size/16 |  | September 23, 2025 at 12:34 pm | all |
+| Breaking News Headline | Noto Serif | Regular | 16 | auto |  |  | #0A0908 | Colors/color/theme/near-black | font/size/16 |  | Breaking News Headline | Property 1=Desktop |
 
 ## Color & effects
 

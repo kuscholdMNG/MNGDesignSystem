@@ -72,13 +72,6 @@
       "TopZone Article Card",
       "Zone 1 Lead Article Card"
      ],
-     "768 HomePage": [
-      "1Col Article Card",
-      "Event Card",
-      "Horizontal Feature Card",
-      "Horizontal Thumbnail Card",
-      "Zone 1 Lead Article Card"
-     ],
      "1100 HomePage": [
       "1Col Article Card",
       "Event Card",
@@ -102,24 +95,31 @@
       "Horizontal Thumbnail Card",
       "TopZone Article Card",
       "Zone 1 Lead Article Card"
+     ],
+     "768 HomePage": [
+      "1Col Article Card",
+      "Event Card",
+      "Horizontal Feature Card",
+      "Horizontal Thumbnail Card",
+      "Zone 1 Lead Article Card"
      ]
     },
     "inComponents": {
-     "TopZone Article Card / Device=Mobile": 1,
-     "Event Card": 2,
-     "Horizontal Thumbnail Card / Device=Mobile": 1,
-     "Zone 1 Lead Article Card / Device=Tablet": 1,
-     "Horizontal Thumbnail Card / Device=Tablet": 1,
-     "Zone 1 Lead Article Card / Device=Desktop": 1,
-     "Feature + List Content Block / Size=Narrow": 1,
      "Horizontal Thumbnail Card / Device=Desktop": 1,
-     "TopZone Article Card / Device=Desktop": 1,
-     "Zone 1 Lead Article Card / Device=Mobile": 1,
-     "Horizontal Feature Card": 1,
-     "1Col Article Card / Style=Standard": 1,
-     "1Col Article Card / Style=Media Lead": 1,
+     "TopZone Article Card / Device=Mobile": 1,
+     "Horizontal Thumbnail Card / Device=Mobile": 1,
+     "Horizontal Thumbnail Card / Device=Tablet": 1,
+     "Feature + List Content Block / Size=Narrow": 1,
+     "Event Card": 2,
+     "TopZone Article Card / Device=1024": 1,
      "TopZone Article Card / Device=1100": 1,
-     "TopZone Article Card / Device=1024": 1
+     "Zone 1 Lead Article Card / Device=Mobile": 1,
+     "1Col Article Card / Style=Standard": 1,
+     "TopZone Article Card / Device=Desktop": 1,
+     "Zone 1 Lead Article Card / Device=Desktop": 1,
+     "Zone 1 Lead Article Card / Device=Tablet": 1,
+     "Horizontal Feature Card": 1,
+     "1Col Article Card / Style=Media Lead": 1
     },
     "other": {},
     "breakpoints": [
@@ -360,6 +360,11 @@
         ],
         "strokeWeight": 3,
         "strokeAlign": "OUTSIDE",
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-serif"
+        },
         "text": "GRAPHIC / IMAGE",
         "autoResize": "WIDTH_AND_HEIGHT",
         "align": "LEFT",
@@ -402,7 +407,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "GRAPHIC / IMAGE",
@@ -473,5 +478,5 @@
   "1 solid paints are hard-coded (not bound to a color variable): #E1A1FF ×1."
  ],
  "skeleton": "article-image-placeholder.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

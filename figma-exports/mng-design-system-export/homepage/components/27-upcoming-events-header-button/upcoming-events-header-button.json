@@ -143,21 +143,21 @@
      "Desktop HomePage": [
       "Upcoming Events Widget"
      ],
+     "1100 HomePage": [
+      "Upcoming Events Widget"
+     ],
      "1024 HomePage": [
       "Upcoming Events Widget"
      ],
      "768 HomePage": [
       "Upcoming Events Widget"
-     ],
-     "1100 HomePage": [
-      "Upcoming Events Widget"
      ]
     },
     "inComponents": {
      "Upcoming Events Widget / Device=Desktop": 1,
+     "Upcoming Events Widget / Device=1100": 1,
      "Upcoming Events Widget / Device=1024": 1,
-     "Upcoming Events Widget / Device=Tablet": 1,
-     "Upcoming Events Widget / Device=1100": 1
+     "Upcoming Events Widget / Device=Tablet": 1
     },
     "other": {},
     "breakpoints": [
@@ -329,6 +329,11 @@
        "h": "HUG",
        "v": "HUG"
       },
+      "vars": {
+       "fontSize": "Type Primitives/font/size/12",
+       "fontStyle": "Type Primitives/font/style/regular",
+       "fontFamily": "Type Primitives/font/family/noto-sans"
+      },
       "text": "See All Events",
       "autoResize": "WIDTH_AND_HEIGHT",
       "align": "LEFT",
@@ -469,6 +474,11 @@
       "sizing": {
        "h": "FIXED",
        "v": "FIXED"
+      },
+      "vars": {
+       "fontSize": "Type Primitives/font/size/12",
+       "fontStyle": "Type Primitives/font/style/regular",
+       "fontFamily": "Type Primitives/font/family/noto-sans"
       },
       "text": "See All Events",
       "autoResize": "WIDTH_AND_HEIGHT",
@@ -633,6 +643,11 @@
        "h": "HUG",
        "v": "HUG"
       },
+      "vars": {
+       "fontSize": "Type Primitives/font/size/12",
+       "fontStyle": "Type Primitives/font/style/regular",
+       "fontFamily": "Type Primitives/font/family/noto-sans"
+      },
       "text": "Add your event",
       "autoResize": "WIDTH_AND_HEIGHT",
       "align": "LEFT",
@@ -795,6 +810,11 @@
        "h": "FIXED",
        "v": "FIXED"
       },
+      "vars": {
+       "fontSize": "Type Primitives/font/size/12",
+       "fontStyle": "Type Primitives/font/style/regular",
+       "fontFamily": "Type Primitives/font/family/noto-sans"
+      },
       "text": "Add your event",
       "autoResize": "WIDTH_AND_HEIGHT",
       "align": "LEFT",
@@ -836,7 +856,7 @@
    "decoration": null,
    "color": "#FFFFFF",
    "token": null,
-   "typeToken": null,
+   "typeToken": "font/size/12",
    "textStyle": null,
    "truncate": null,
    "sample": "See All Events",
@@ -903,5 +923,5 @@
   "4 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×4."
  ],
  "skeleton": "upcoming-events-header-button.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

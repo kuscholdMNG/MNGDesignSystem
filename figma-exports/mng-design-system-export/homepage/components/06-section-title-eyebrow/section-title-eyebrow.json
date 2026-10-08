@@ -80,19 +80,7 @@
       "Photos Block",
       "Section Rail Card"
      ],
-     "Desktop HomePage": [
-      "Blueconic Block (Most Popular)",
-      "Latest Headlines",
-      "Photos Block",
-      "Section Rail Card"
-     ],
      "1100 HomePage": [
-      "Blueconic Block (Most Popular)",
-      "Latest Headlines",
-      "Photos Block",
-      "Section Rail Card"
-     ],
-     "768 HomePage": [
       "Blueconic Block (Most Popular)",
       "Latest Headlines",
       "Photos Block",
@@ -109,33 +97,45 @@
       "Latest Headlines",
       "Photos Block",
       "Section Rail Card"
+     ],
+     "Desktop HomePage": [
+      "Blueconic Block (Most Popular)",
+      "Latest Headlines",
+      "Photos Block",
+      "Section Rail Card"
+     ],
+     "768 HomePage": [
+      "Blueconic Block (Most Popular)",
+      "Latest Headlines",
+      "Photos Block",
+      "Section Rail Card"
      ]
     },
     "inComponents": {
-     "Section Rail Card / Device=1024, Layout=Wide": 1,
-     "Photos Block / Device=Desktop": 1,
-     "Section Rail Card / Device=1280, Layout=Wide": 1,
-     "Section Rail Card / Device=1100, Layout=Narrow": 1,
-     "Blueconic Block (Most Popular) / Device=1024": 1,
-     "Section Rail Card / Device=Tablet, Layout=Wide": 1,
-     "Section Rail Card / Device=Tablet, Layout=Narrow": 1,
-     "Section Rail Card / Device=1100, Layout=Wide": 1,
-     "Blueconic Block (Most Popular) / Device=Tablet": 1,
-     "Section Rail Card / Device=Desktop, Layout=Narrow": 1,
-     "Blueconic Block (Most Popular) / Device=Mobile": 1,
      "Photos Block / Device=1024": 1,
-     "Latest Headlines / Device=Desktop": 1,
+     "Section Rail Card / Device=1024, Layout=Wide": 1,
+     "Photos Block / Device=1100": 1,
+     "Photos Block / Device=Mobile": 1,
+     "Photos Block / Device=1280": 1,
+     "Section Rail Card / Device=Tablet, Layout=Narrow": 1,
+     "Latest Headlines / Device=Tablet": 1,
+     "Blueconic Block (Most Popular) / Device=Mobile": 1,
+     "Photos Block / Device=Desktop": 1,
+     "Section Rail Card / Device=Desktop, Layout=Narrow": 1,
+     "Section Rail Card / Device=Tablet, Layout=Wide": 1,
+     "Photos Block / Device=Tablet": 1,
      "Blueconic Block (Most Popular) / Device=1100": 1,
      "Section Rail Card / Device=1024, Layout=Narrow": 1,
-     "Photos Block / Device=1100": 1,
-     "Photos Block / Device=Tablet": 1,
-     "Latest Headlines / Device=Tablet": 1,
+     "Section Rail Card / Device=1100, Layout=Narrow": 1,
+     "Blueconic Block (Most Popular) / Device=Tablet": 1,
+     "Blueconic Block (Most Popular) / Device=1024": 1,
      "Blueconic Block (Most Popular) / Device=1280": 1,
+     "Section Rail Card / Device=1280, Layout=Wide": 1,
+     "Latest Headlines / Device=Desktop": 1,
      "Latest Headlines / Device=Mobile": 1,
      "Blueconic Block (Most Popular) / Device=Desktop": 1,
-     "Photos Block / Device=Mobile": 1,
-     "Section Rail Card / Device=Mobile, Layout=Narrow": 1,
-     "Photos Block / Device=1280": 1
+     "Section Rail Card / Device=1100, Layout=Wide": 1,
+     "Section Rail Card / Device=Mobile, Layout=Narrow": 1
     },
     "other": {},
     "breakpoints": [
@@ -556,7 +556,7 @@
    "decoration": null,
    "color": "#393938",
    "token": "Colors/color/gray/100",
-   "typeToken": "font/theme",
+   "typeToken": "font/theme/eyebrow-size",
    "textStyle": null,
    "truncate": null,
    "sample": "Latest Headlines",
@@ -575,7 +575,7 @@
    "decoration": null,
    "color": "#007580",
    "token": "Colors/color/theme/primary",
-   "typeToken": "font/theme",
+   "typeToken": "font/theme/eyebrow-size",
    "textStyle": null,
    "truncate": null,
    "sample": "Latest Headlines",
@@ -609,5 +609,5 @@
   "1 of 2 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Style=Bold`."
  ],
  "skeleton": "section-title-eyebrow.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

@@ -222,7 +222,9 @@ def analyse(s):
                     for k in ('fontSize', 'lineHeight', 'fontFamily'):
                         if tv.get(k):
                             x = tv[k] if isinstance(tv[k], str) else tv[k][0]
-                            ttok = re.sub(r'^[^/]+/', '', x).rsplit('/', 1)[0] if k != 'fontFamily' or '/theme/' not in x else re.sub(r'^[^/]+/', '', x); break
+                            name = re.sub(r'^[^/]+/', '', x)  # drop the collection
+                            # primitives (font/size/16) keep their full name; composite roles drop the property (Editorial/Titles/X/Size -> Editorial/Titles/X)
+                            ttok = name if name.startswith('font/') else name.rsplit('/', 1)[0]; break
                     key = (n['name'], st['font'], st['weight'], st['size'], st['lineHeight'], st.get('letterSpacing'), st.get('case'), col.get('hex'))
                     if key not in typo:
                         typo[key] = {'layer': n['name'], 'font': st['font'], 'weight': st['weight'], 'size': st['size'], 'lineHeight': st['lineHeight'],

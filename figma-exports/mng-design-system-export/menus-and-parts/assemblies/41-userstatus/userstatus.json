@@ -111,19 +111,19 @@
     "templatesVia": {},
     "inComponents": {
      "AccountMenu / Status=alert, View=Open, Device=XS-Fold, UserType=PremSub": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
-     "AccountMenu / Status=alert, View=Open, Device=MD-TabletV, UserType=PremSub": 1,
-     "AccountMenu / Status=alert, View=Open, Device=XL-Desktop, UserType=PremSub": 1,
-     "AccountMenu / Status=loggedIn, View=Closed, Device=SM-Mobile, UserType=loggedIn": 1,
-     "AccountMenu / Status=loggedIn, View=Closed, Device=MD-TabletV, UserType=loggedIn": 1,
      "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=nonSub": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=BasicSub": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=groupSub": 1,
-     "AccountMenu / Status=loggedIn, View=Closed, Device=XL-Desktop, UserType=loggedIn": 1,
+     "AccountMenu / Status=loggedIn, View=Closed, Device=SM-Mobile, UserType=loggedIn": 1,
      "AccountMenu / Status=loggedIn, View=Closed, Device=LG-TabletH, UserType=loggedIn": 1,
+     "AccountMenu / Status=alert, View=Open, Device=XL-Desktop, UserType=PremSub": 1,
+     "AccountMenu / Status=loggedIn, View=Closed, Device=XL-Desktop, UserType=loggedIn": 1,
      "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub": 1,
+     "AccountMenu / Status=loggedIn, View=Closed, Device=MD-TabletV, UserType=loggedIn": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=BasicSub": 1,
      "AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=PremSub": 1
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=PremSub": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=groupSub": 1,
+     "AccountMenu / Status=alert, View=Open, Device=MD-TabletV, UserType=PremSub": 1
     },
     "other": {
      "Menus and Parts ▸ Frame 12800": 12
@@ -265,7 +265,7 @@
        "Breakpoint": "Desktop"
       },
       "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-      "mainId": "3532:28385"
+      "mainId": "3560:10775"
      },
      {
       "name": "Button Primary",
@@ -298,7 +298,7 @@
        "Breakpoint": "Desktop"
       },
       "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-      "mainId": "3532:28385"
+      "mainId": "3560:10775"
      }
     ],
     "key": "75b4401360410294816486ed741541f190d57a15",
@@ -401,7 +401,7 @@
        "Breakpoint": "Desktop"
       },
       "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-      "mainId": "3532:28385"
+      "mainId": "3560:10775"
      },
      {
       "name": "UserPic",
@@ -666,5 +666,5 @@
   "`Device=Desktop, status=none`: content overflows frame — 'Button Primary' (82×40 at 125,-4) exceeds frame 207×32."
  ],
  "skeleton": "userstatus.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

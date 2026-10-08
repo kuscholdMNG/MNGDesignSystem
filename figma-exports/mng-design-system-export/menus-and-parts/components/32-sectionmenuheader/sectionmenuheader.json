@@ -114,8 +114,8 @@
      ]
     },
     "inComponents": {
-     "SectionMenu / View=Closed, Device=XL-Desktop, UserType=all": 1,
-     "SectionMenu / View=Closed, Device=LG-TabletH, UserType=all": 1
+     "SectionMenu / View=Closed, Device=LG-TabletH, UserType=all": 1,
+     "SectionMenu / View=Closed, Device=XL-Desktop, UserType=all": 1
     },
     "other": {},
     "breakpoints": [
@@ -159,8 +159,8 @@
     },
     "inComponents": {
      "SectionMenu / View=Closed, Device=SM-Mobile, UserType=all": 1,
-     "SectionMenu / View=Closed, Device=XS-Fold, UserType=all": 1,
-     "SectionMenu / View=Closed, Device=MD-TabletV, UserType=all": 1
+     "SectionMenu / View=Closed, Device=MD-TabletV, UserType=all": 1,
+     "SectionMenu / View=Closed, Device=XS-Fold, UserType=all": 1
     },
     "other": {},
     "breakpoints": [
@@ -401,6 +401,11 @@
         "sizing": {
          "h": "HUG",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "All Sections",
         "autoResize": "WIDTH_AND_HEIGHT",
@@ -653,6 +658,11 @@
         "sizing": {
          "h": "HUG",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "All Sections",
         "autoResize": "WIDTH_AND_HEIGHT",
@@ -1485,7 +1495,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "All Sections",
@@ -1583,5 +1593,5 @@
   "`View=Closed, Device=TabletV` is declared for 768 but is placed in template(s) at 340, 360 — check the variant choice."
  ],
  "skeleton": "sectionmenuheader.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

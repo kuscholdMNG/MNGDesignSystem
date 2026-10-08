@@ -12,7 +12,7 @@ built_from: ["Article Image Placeholder", "Gallery Icon Badge"]
 built_into: ["TOP ZONE Block", "Photos Block"]
 spec_json: horizontal-thumbnail-card.json
 skeleton: horizontal-thumbnail-card.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Horizontal Thumbnail Card
@@ -42,7 +42,7 @@ exported: 2026-10-07
 ## Where it is used
 
 - **Device=Desktop** — breakpoints: 1024, 1100, 1280; nested inside: Photos Block / Device=Desktop ×6
-- **Device=Mobile** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via Photos Block), 1024 HomePage (via Photos Block), 768 HomePage (via Photos Block), Mobile HomePage (via Photos Block), 340 HomePage (via Photos Block), Desktop HomePage (via Photos Block); nested inside: Photos Block / Device=1100 ×6, Photos Block / Device=1024 ×6, Photos Block / Device=Tablet ×6, Photos Block / Device=Mobile ×5, Photos Block / Device=1280 ×6
+- **Device=Mobile** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via Photos Block), Desktop HomePage (via Photos Block), 1024 HomePage (via Photos Block), 768 HomePage (via Photos Block), Mobile HomePage (via Photos Block), 340 HomePage (via Photos Block); nested inside: Photos Block / Device=1100 ×6, Photos Block / Device=1280 ×6, Photos Block / Device=1024 ×6, Photos Block / Device=Tablet ×6, Photos Block / Device=Mobile ×5
 - **Device=Tablet** — breakpoints: 768; templates (via assembly): 768 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Tablet ×4
 
 ## Breakpoints

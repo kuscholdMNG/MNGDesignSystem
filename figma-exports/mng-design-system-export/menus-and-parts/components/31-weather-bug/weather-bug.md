@@ -12,7 +12,7 @@ built_from: ["tornado"]
 built_into: ["SectionMenuItem", "Masthead"]
 spec_json: weather-bug.json
 skeleton: weather-bug.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Weather Bug
@@ -42,7 +42,7 @@ exported: 2026-10-07
 ## Where it is used
 
 - **Location=SectionMenu** — breakpoints: —; nested inside: SectionMenuItem / leftIcon=no, withSubItems=no, View=default, kind=Weather ×1
-- **Location=Masthead** — breakpoints: 1100, 1280; templates (via assembly): Desktop HomePage (via Masthead), 1100 HomePage (via Masthead); nested inside: Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article ×2, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront ×1, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article ×1, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront ×2, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home ×2, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home ×1
+- **Location=Masthead** — breakpoints: 1100, 1280; templates (via assembly): Desktop HomePage (via Masthead), 1100 HomePage (via Masthead); nested inside: Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Home ×1, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Home ×2, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Dashboard ×1, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=Article ×2, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=Article ×1, Masthead / Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront ×2, Masthead / Device=XL-Desktop (≥1040px), State=Default, Page=SectionFront ×1
 
 ## Breakpoints
 
@@ -105,9 +105,9 @@ exported: 2026-10-07
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 87°F | Helvetica | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | 87°F | all |
-| Wednesday, September 25th, 2025 | Noto Sans | Bold | 15 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Wednesday, September 25th, 2025 | Location=SectionMenu |
-| Today’s E Edition | Noto Sans | Regular | 12 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Today’s E Edition | all |
-| Wednesday, September 25th, 2022 | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Wednesday, September 25th, 2022 | Location=Masthead |
+| Wednesday, September 25th, 2025 | Noto Sans | Bold | 15 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/15 |  | Wednesday, September 25th, 2025 | Location=SectionMenu |
+| Today’s E Edition | Noto Sans | Regular | 12 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/12 |  | Today’s E Edition | all |
+| Wednesday, September 25th, 2022 | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Wednesday, September 25th, 2022 | Location=Masthead |
 
 ## Color & effects
 

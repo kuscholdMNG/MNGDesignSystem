@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Photos Block"]
 spec_json: show-more-photos-affordance.json
 skeleton: show-more-photos-affordance.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Show More Photos Affordance
@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Show More Photos Affordance** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Photos Block), 768 HomePage (via Photos Block), Mobile HomePage (via Photos Block), 340 HomePage (via Photos Block), 1100 HomePage (via Photos Block), Desktop HomePage (via Photos Block); nested inside: Photos Block / Device=1024 ×1, Photos Block / Device=Tablet ×1, Photos Block / Device=Mobile ×1, Photos Block / Device=1100 ×1, Photos Block / Device=Desktop ×1, Photos Block / Device=1280 ×1
+- **Show More Photos Affordance** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Photos Block), 1100 HomePage (via Photos Block), Desktop HomePage (via Photos Block), 768 HomePage (via Photos Block), Mobile HomePage (via Photos Block), 340 HomePage (via Photos Block); nested inside: Photos Block / Device=1024 ×1, Photos Block / Device=1100 ×1, Photos Block / Device=1280 ×1, Photos Block / Device=Desktop ×1, Photos Block / Device=Tablet ×1, Photos Block / Device=Mobile ×1
 
 ## Breakpoints
 
@@ -86,7 +86,7 @@ _Nothing — leaf component._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Show More Photos | Noto Sans | Bold | 19 | auto |  | UPPER | #007580 | Colors/color/theme/primary |  |  | Show More Photos | all |
+| Show More Photos | Noto Sans | Bold | 19 | auto |  | UPPER | #007580 | Colors/color/theme/primary | font/size/19 |  | Show More Photos | all |
 
 ## Color & effects
 

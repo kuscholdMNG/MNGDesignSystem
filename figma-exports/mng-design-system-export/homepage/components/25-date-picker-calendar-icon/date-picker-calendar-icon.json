@@ -52,16 +52,16 @@
     "id": "3395:51892",
     "templatesDirect": {},
     "templatesVia": {
-     "1100 HomePage": [
+     "1024 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "Desktop HomePage": [
       "Upcoming Events Widget"
      ],
      "768 HomePage": [
       "Upcoming Events Widget"
      ],
-     "1024 HomePage": [
-      "Upcoming Events Widget"
-     ],
-     "Desktop HomePage": [
+     "1100 HomePage": [
       "Upcoming Events Widget"
      ],
      "Mobile HomePage": [
@@ -72,10 +72,10 @@
      ]
     },
     "inComponents": {
-     "Upcoming Events Widget / Device=1100": 1,
-     "Upcoming Events Widget / Device=Tablet": 1,
      "Upcoming Events Widget / Device=1024": 1,
      "Upcoming Events Widget / Device=Desktop": 1,
+     "Upcoming Events Widget / Device=Tablet": 1,
+     "Upcoming Events Widget / Device=1100": 1,
      "Upcoming Events Widget / Device=Mobile": 1
     },
     "other": {},
@@ -202,5 +202,5 @@
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "date-picker-calendar-icon.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

@@ -12,7 +12,7 @@ built_from: ["Icons"]
 built_into: []
 spec_json: searchbar.json
 skeleton: searchbar.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # SearchBar
@@ -41,7 +41,7 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Status=Default** — breakpoints: —; nested inside: AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=PremSub ×1, AccountMenu / Status=loggedOut, View=Closed, Device=MD-TabletV, UserType=loggedOut ×1, AccountMenu / Status=loggedIn, View=Closed, Device=MD-TabletV, UserType=loggedIn ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=BasicSub ×1, AccountMenu / Status=loggedIn, View=Closed, Device=SM-Mobile, UserType=loggedIn ×1, AccountMenu / Status=alert, View=Open, Device=XL-Desktop, UserType=PremSub ×1, AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub ×1, AccountMenu / Status=alert, View=Open, Device=XS-Fold, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=groupSub ×1, AccountMenu / Status=loggedOut, View=Closed, Device=LG-TabletH, UserType=loggedOut ×1, AccountMenu / Status=loggedOut, View=Closed, Device=XL-Desktop, UserType=loggedOut ×1, AccountMenu / Status=alert, View=Open, Device=MD-TabletV, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Closed, Device=XL-Desktop, UserType=loggedIn ×1, AccountMenu / Status=loggedOut, View=Closed, Device=SM-Mobile, UserType=loggedOut ×1, AccountMenu / Status=loggedIn, View=Closed, Device=LG-TabletH, UserType=loggedIn ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=GroupAnon ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=nonSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub ×1; other pages: Menus and Parts ▸ Frame 12800 ×12
+- **Status=Default** — breakpoints: —; nested inside: AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=GroupAnon ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Closed, Device=LG-TabletH, UserType=loggedIn ×1, AccountMenu / Status=loggedOut, View=Closed, Device=MD-TabletV, UserType=loggedOut ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=nonSub ×1, AccountMenu / Status=loggedOut, View=Closed, Device=LG-TabletH, UserType=loggedOut ×1, AccountMenu / Status=loggedIn, View=Closed, Device=XL-Desktop, UserType=loggedIn ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=groupSub ×1, AccountMenu / Status=alert, View=Open, Device=XS-Fold, UserType=PremSub ×1, AccountMenu / Status=loggedOut, View=Closed, Device=XL-Desktop, UserType=loggedOut ×1, AccountMenu / Status=loggedOut, View=Closed, Device=SM-Mobile, UserType=loggedOut ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=BasicSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub ×1, AccountMenu / Status=loggedIn, View=Closed, Device=MD-TabletV, UserType=loggedIn ×1, AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub ×1, AccountMenu / Status=alert, View=Open, Device=MD-TabletV, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Closed, Device=SM-Mobile, UserType=loggedIn ×1, AccountMenu / Status=alert, View=Open, Device=XL-Desktop, UserType=PremSub ×1; other pages: Menus and Parts ▸ Frame 12800 ×12
 - **Status=Open** — breakpoints: —; no instances in this file
 
 ## Breakpoints
@@ -95,8 +95,8 @@ _Not used inside another exported item._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Type your search | Noto Sans | Regular | 16 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | Type your search | Status=Open |
-| Search | Noto Sans | SemiBold | 15 | auto |  |  | #FFFFFF | Colors/color/gray/max |  |  | Search | Status=Open |
+| Type your search | Noto Sans | Regular | 16 | auto |  |  | #5E5D5C | Colors/color/gray/200 | font/size/16 |  | Type your search | Status=Open |
+| Search | Noto Sans | SemiBold | 15 | auto |  |  | #FFFFFF | Colors/color/gray/max | font/size/15 |  | Search | Status=Open |
 
 ## Color & effects
 

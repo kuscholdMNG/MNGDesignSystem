@@ -405,6 +405,11 @@
          "h": "HUG",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/18",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "",
         "autoResize": "WIDTH_AND_HEIGHT",
         "align": "CENTER",
@@ -648,6 +653,11 @@
         "sizing": {
          "h": "HUG",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/18",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "5",
         "autoResize": "WIDTH_AND_HEIGHT",
@@ -908,6 +918,11 @@
          "h": "HUG",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/18",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "",
         "autoResize": "WIDTH_AND_HEIGHT",
         "align": "CENTER",
@@ -1150,6 +1165,11 @@
         "sizing": {
          "h": "HUG",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/18",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "",
         "autoResize": "WIDTH_AND_HEIGHT",
@@ -1395,6 +1415,11 @@
          "h": "HUG",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/18",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "",
         "autoResize": "WIDTH_AND_HEIGHT",
         "align": "CENTER",
@@ -1637,6 +1662,11 @@
          "h": "HUG",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "",
         "autoResize": "WIDTH_AND_HEIGHT",
         "align": "CENTER",
@@ -1878,6 +1908,11 @@
         "sizing": {
          "h": "HUG",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "5",
         "autoResize": "WIDTH_AND_HEIGHT",
@@ -2136,6 +2171,11 @@
          "h": "HUG",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "",
         "autoResize": "WIDTH_AND_HEIGHT",
         "align": "CENTER",
@@ -2376,6 +2416,11 @@
         "sizing": {
          "h": "HUG",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "",
         "autoResize": "WIDTH_AND_HEIGHT",
@@ -2619,6 +2664,11 @@
          "h": "HUG",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "",
         "autoResize": "WIDTH_AND_HEIGHT",
         "align": "CENTER",
@@ -2747,7 +2797,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/18",
    "textStyle": null,
    "truncate": null,
    "sample": "5",
@@ -2766,7 +2816,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "5",
@@ -3036,5 +3086,5 @@
   "4 of 10 variants have no instances anywhere in MNG Design System (unused, or used only from another file): `Size=Desktop, State=Error`, `Size=Desktop, State=Disabled`, `Size=Mobile, State=Error`, `Size=Mobile, State=Disabled`."
  ],
  "skeleton": "code-box.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

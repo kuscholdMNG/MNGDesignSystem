@@ -420,7 +420,7 @@
          "Breakpoint": "Desktop"
         },
         "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-        "mainId": "3532:28385"
+        "mainId": "3560:10775"
        }
       ]
      }
@@ -698,6 +698,11 @@
          "h": "FILL",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Section Item Name",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -873,6 +878,11 @@
         "sizing": {
          "h": "FILL",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "Section Item Name",
         "autoResize": "HEIGHT",
@@ -1110,6 +1120,11 @@
         "sizing": {
          "h": "FILL",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "Section Item Name",
         "autoResize": "HEIGHT",
@@ -1349,6 +1364,11 @@
          "h": "FILL",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Section Item Name",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -1560,6 +1580,11 @@
       "sizing": {
        "h": "FILL",
        "v": "HUG"
+      },
+      "vars": {
+       "fontSize": "Type Primitives/font/size/16",
+       "fontStyle": "Type Primitives/font/style/bold",
+       "fontFamily": "Type Primitives/font/family/noto-sans"
       },
       "text": "SubSection Item Name",
       "autoResize": "HEIGHT",
@@ -1796,6 +1821,11 @@
         "sizing": {
          "h": "FILL",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "Section Item Name",
         "autoResize": "HEIGHT",
@@ -2063,6 +2093,11 @@
          "h": "FILL",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Sign up for newsletters and alerts",
         "autoResize": "HEIGHT",
         "align": "CENTER",
@@ -2114,7 +2149,7 @@
          "Breakpoint": "Desktop"
         },
         "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-        "mainId": "3532:28385"
+        "mainId": "3560:10775"
        }
       ]
      }
@@ -2142,7 +2177,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Section Item Name",
@@ -2165,7 +2200,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "SubSection Item Name",
@@ -2184,7 +2219,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Sign up for newsletters and alerts",
@@ -2333,5 +2368,5 @@
   "2 of 9 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `leftIcon=yes, withSubItems=yes, View=closed, kind=main`, `leftIcon=no, withSubItems=yes, View=open, kind=main`."
  ],
  "skeleton": "sectionmenuitem.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

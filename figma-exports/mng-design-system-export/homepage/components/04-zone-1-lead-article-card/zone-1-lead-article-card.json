@@ -177,7 +177,7 @@
    "key": "d801cdf7da6c90d8b5e1b45f57a94859d62b55e0",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3336-46156",
    "width": 340,
-   "height": 648.7,
+   "height": 632.7,
    "layout": {
     "dir": "VERTICAL",
     "gap": 8,
@@ -215,7 +215,7 @@
     "type": "COMPONENT",
     "id": "3336:46156",
     "w": 340,
-    "h": 648.7,
+    "h": 632.7,
     "x": 16,
     "y": 16,
     "sizing": {
@@ -307,7 +307,7 @@
       "type": "FRAME",
       "id": "3336:46141",
       "w": 340,
-      "h": 132,
+      "h": 116,
       "x": 0,
       "y": 8,
       "sizing": {
@@ -332,12 +332,17 @@
         "type": "TEXT",
         "id": "3336:46142",
         "w": 340,
-        "h": 132,
+        "h": 116,
         "x": 0,
         "y": 0,
         "sizing": {
          "h": "FILL",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/25",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-serif"
         },
         "text": "Man charged with murder after fatal attack on bicycling doctor in Dana Point",
         "autoResize": "HEIGHT",
@@ -347,7 +352,7 @@
           "font": "Noto Serif",
           "weight": "Bold",
           "size": 25,
-          "lineHeight": "33px",
+          "lineHeight": "29px",
           "letterSpacing": "-3%",
           "color": [
            {
@@ -369,7 +374,7 @@
       "w": 340,
       "h": 235.7,
       "x": 0,
-      "y": 148,
+      "y": 132,
       "sizing": {
        "h": "FILL",
        "v": "FIXED"
@@ -440,7 +445,7 @@
       "w": 340,
       "h": 54,
       "x": 0,
-      "y": 391.7,
+      "y": 375.7,
       "sizing": {
        "h": "FILL",
        "v": "HUG"
@@ -506,7 +511,7 @@
       "w": 340,
       "h": 171,
       "x": 0,
-      "y": 453.7,
+      "y": 437.7,
       "sizing": {
        "h": "FILL",
        "v": "HUG"
@@ -574,6 +579,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
           },
           "text": "Related",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -717,7 +727,7 @@
       "w": 340,
       "h": 0,
       "x": 0,
-      "y": 632.7,
+      "y": 616.7,
       "sizing": {
        "h": "FILL",
        "v": "FIXED"
@@ -906,6 +916,11 @@
            "h": "FILL",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/29",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
+          },
           "text": "Man charged with murder after fatal attack on bicycling doctor in Dana Point",
           "autoResize": "HEIGHT",
           "align": "LEFT",
@@ -923,7 +938,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Zone 1 Headline H3 Entry-Title"
+            "textStyle": "Editorial/Titles/Zone1Headline"
            }
           ]
          }
@@ -1070,6 +1085,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/12",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-serif"
             },
             "text": "Related",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -1453,6 +1473,11 @@
            "h": "FILL",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/29",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
+          },
           "text": "Man charged with murder after fatal attack on bicycling doctor in Dana Point",
           "autoResize": "HEIGHT",
           "align": "LEFT",
@@ -1470,7 +1495,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Zone 1 Headline H3 Entry-Title"
+            "textStyle": "Editorial/Titles/Zone1Headline"
            }
           ]
          }
@@ -1617,6 +1642,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/12",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-serif"
             },
             "text": "Related",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -1841,13 +1871,13 @@
    "font": "Noto Serif",
    "weight": "Bold",
    "size": 25,
-   "lineHeight": "33px",
+   "lineHeight": "29px",
    "letterSpacing": "-3%",
    "case": null,
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/25",
    "textStyle": null,
    "truncate": null,
    "sample": "Man charged with murder after fatal attack on bicy",
@@ -1887,7 +1917,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
-   "typeToken": null,
+   "typeToken": "font/size/12",
    "textStyle": null,
    "truncate": null,
    "sample": "Related",
@@ -1908,8 +1938,8 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
-   "textStyle": "Zone 1 Headline H3 Entry-Title",
+   "typeToken": "font/size/29",
+   "textStyle": "Editorial/Titles/Zone1Headline",
    "truncate": null,
    "sample": "Man charged with murder after fatal attack on bicy",
    "variants": [
@@ -2023,7 +2053,7 @@
  ],
  "adSlots": [],
  "responsiveRules": [
-  "Device=Mobile: 340×648.7, vertical gap 8 pad 0/0/16/0 main MIN cross CENTER — renders at 340, 360, 1024, 1100",
+  "Device=Mobile: 340×632.7, vertical gap 8 pad 0/0/16/0 main MIN cross CENTER — renders at 340, 360, 1024, 1100",
   "Device=Desktop: 706×349, horizontal gap 20 pad 0/0/16/0 main MIN cross MIN — renders at 1280",
   "Device=Tablet: 748×349, horizontal gap 32 pad 0/0/16/0 main MIN cross MIN — renders at 768"
  ],
@@ -2032,5 +2062,5 @@
   "`Device=Mobile` is declared for 340, 360 but is placed in template(s) at 1024, 1100 — check the variant choice."
  ],
  "skeleton": "zone-1-lead-article-card.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

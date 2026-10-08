@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Upcoming Events Widget"]
 spec_json: date-picker-day.json
 skeleton: date-picker-day.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Date Picker Day
@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Date Picker Day** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via Upcoming Events Widget), 1024 HomePage (via Upcoming Events Widget), 768 HomePage (via Upcoming Events Widget), 1100 HomePage (via Upcoming Events Widget), Mobile HomePage (via Upcoming Events Widget), 340 HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=Desktop ×18, Upcoming Events Widget / Device=1024 ×12, Upcoming Events Widget / Device=Tablet ×7, Upcoming Events Widget / Device=1100 ×14, Upcoming Events Widget / Device=Mobile ×5
+- **Date Picker Day** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Mobile HomePage (via Upcoming Events Widget), 340 HomePage (via Upcoming Events Widget), 1024 HomePage (via Upcoming Events Widget), Desktop HomePage (via Upcoming Events Widget), 1100 HomePage (via Upcoming Events Widget), 768 HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=Mobile ×5, Upcoming Events Widget / Device=1024 ×12, Upcoming Events Widget / Device=Desktop ×18, Upcoming Events Widget / Device=1100 ×14, Upcoming Events Widget / Device=Tablet ×7
 
 ## Breakpoints
 
@@ -83,8 +83,8 @@ _Nothing — leaf component._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Mon | Noto Sans | Regular | 15 | 20px |  | UPPER | #3B3B3B |  |  |  | Mon | all |
-| 14 | Noto Sans | Regular | 20 | 19px |  |  | #3B3B3B |  |  |  | 14 | all |
+| Mon | Noto Sans | Regular | 15 | 20px |  | UPPER | #3B3B3B |  | font/size/15 |  | Mon | all |
+| 14 | Noto Sans | Regular | 20 | 19px |  |  | #3B3B3B |  | font/size/20 |  | 14 | all |
 
 ## Color & effects
 

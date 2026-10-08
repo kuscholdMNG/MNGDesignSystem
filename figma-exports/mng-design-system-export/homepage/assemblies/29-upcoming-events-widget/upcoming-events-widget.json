@@ -299,6 +299,11 @@
          "h": "FILL",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/20",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Upcoming Events",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -821,6 +826,11 @@
         "sizing": {
          "h": "FILL",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/20",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "Upcoming Events",
         "autoResize": "HEIGHT",
@@ -1436,6 +1446,11 @@
         "sizing": {
          "h": "FILL",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/20",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "Upcoming Events",
         "autoResize": "HEIGHT",
@@ -2227,6 +2242,11 @@
         "sizing": {
          "h": "FILL",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/20",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "Upcoming Events",
         "autoResize": "HEIGHT",
@@ -3074,6 +3094,11 @@
         "sizing": {
          "h": "FILL",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/20",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "Upcoming Events",
         "autoResize": "HEIGHT",
@@ -4005,7 +4030,7 @@
    "decoration": null,
    "color": "#3B3B3B",
    "token": null,
-   "typeToken": null,
+   "typeToken": "font/size/20",
    "textStyle": null,
    "truncate": null,
    "sample": "Upcoming Events",
@@ -4114,5 +4139,5 @@
   "10 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×5, #3B3B3B ×5."
  ],
  "skeleton": "upcoming-events-widget.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

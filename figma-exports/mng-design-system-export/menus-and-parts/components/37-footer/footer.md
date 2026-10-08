@@ -12,7 +12,7 @@ built_from: ["Icons", "Button Primary"]
 built_into: []
 spec_json: footer.json
 skeleton: footer.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Footer
@@ -435,46 +435,46 @@ _Not used inside another exported item._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| SubScribe | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  |  | SubScribe | all |
-| Marketplace | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  |  | Marketplace | all |
-| About OC Register | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  |  | About OC Register | all |
-| Advertising Solutions | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  |  | Advertising Solutions | all |
-| Contact us | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  |  | Contact us | all |
-| Partners | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min |  |  | Partners | all |
-| Privacy policy | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | Privacy policy | all |
-| terms of use | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | terms of use | all |
-| accessibility | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | accessibility | all |
-| cookie policy | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | cookie policy | all |
-| Do not sell my info | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | Do not sell my info | all |
-| arbitration | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | arbitration | all |
-| powered by wordPress.com VIP | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | powered by wordPress.com VIP | all |
-| Copyright © 2022 MediaNews Group | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 |  |  | Copyright © 2022 MediaNews Group | all |
-| Member Services | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Member Services | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Manage Subscriptions | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Manage Subscriptions | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Store | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Store | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Archive search | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Archive search | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Reprints | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Reprints | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Place an Obituary | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Place an Obituary | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Place a Real Estate Ad | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Place a Real Estate Ad | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Lottery | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Lottery | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| About Southern California News Group | Noto Sans | Regular | 16 | 18px |  |  | #141414 | Colors/color/gray/min |  |  | About Southern California News Group | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| MediaNews Group | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | MediaNews Group | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Work With Us | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Work With Us | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Privacy Policy | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Privacy Policy | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Accessibility | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Accessibility | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| News Archive | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | News Archive | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Get in Touch with a Marketing Strategist | Noto Sans | Regular | 16 | 18px |  | TITLE | #141414 | Colors/color/gray/min |  |  | Get in Touch with a Marketing Strategist | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Request Media Kit | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Request Media Kit | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Creative Services | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Creative Services | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Content Marketing | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Content Marketing | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Corrections | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Corrections | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| OC Register Store | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | OC Register Store | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Reader Rewards | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Reader Rewards | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Photo Reprints | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Photo Reprints | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Sponsored Access | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Sponsored Access | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Live Traffic Map | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Live Traffic Map | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Newspapers in Education | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Newspapers in Education | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
-| Sponsor a Student | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Sponsor a Student | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| SubScribe | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min | font/size/16 |  | SubScribe | all |
+| Marketplace | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min | font/size/16 |  | Marketplace | all |
+| About OC Register | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min | font/size/16 |  | About OC Register | all |
+| Advertising Solutions | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min | font/size/16 |  | Advertising Solutions | all |
+| Contact us | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min | font/size/16 |  | Contact us | all |
+| Partners | Noto Sans | Bold | 16 | auto |  | UPPER | #141414 | Colors/color/gray/min | font/size/16 |  | Partners | all |
+| Privacy policy | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 | font/size/16 |  | Privacy policy | all |
+| terms of use | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 | font/size/16 |  | terms of use | all |
+| accessibility | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 | font/size/16 |  | accessibility | all |
+| cookie policy | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 | font/size/16 |  | cookie policy | all |
+| Do not sell my info | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 | font/size/16 |  | Do not sell my info | all |
+| arbitration | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 | font/size/16 |  | arbitration | all |
+| powered by wordPress.com VIP | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 | font/size/16 |  | powered by wordPress.com VIP | all |
+| Copyright © 2022 MediaNews Group | Noto Sans | Regular | 16 | auto |  | TITLE | #838280 | Colors/color/gray/300 | font/size/16 |  | Copyright © 2022 MediaNews Group | all |
+| Member Services | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Member Services | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Manage Subscriptions | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Manage Subscriptions | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Store | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Store | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Archive search | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Archive search | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Reprints | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Reprints | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Place an Obituary | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Place an Obituary | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Place a Real Estate Ad | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min | font/size/16 |  | Place a Real Estate Ad | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Lottery | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min | font/size/16 |  | Lottery | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| About Southern California News Group | Noto Sans | Regular | 16 | 18px |  |  | #141414 | Colors/color/gray/min | font/size/16 |  | About Southern California News Group | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| MediaNews Group | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min | font/size/16 |  | MediaNews Group | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Work With Us | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min | font/size/16 |  | Work With Us | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Privacy Policy | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min | font/size/16 |  | Privacy Policy | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Accessibility | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min | font/size/16 |  | Accessibility | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| News Archive | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min | font/size/16 |  | News Archive | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Get in Touch with a Marketing Strategist | Noto Sans | Regular | 16 | 18px |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Get in Touch with a Marketing Strategist | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Request Media Kit | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Request Media Kit | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Creative Services | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Creative Services | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Content Marketing | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Content Marketing | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Corrections | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Corrections | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| OC Register Store | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | OC Register Store | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Reader Rewards | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Reader Rewards | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Photo Reprints | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Photo Reprints | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Sponsored Access | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Sponsored Access | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Live Traffic Map | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Live Traffic Map | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Newspapers in Education | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Newspapers in Education | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
+| Sponsor a Student | Noto Sans | Regular | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Sponsor a Student | Device=MD-TabletV, Device=LG-TabletH, Device=XL-Desktop |
 
 ## Color & effects
 

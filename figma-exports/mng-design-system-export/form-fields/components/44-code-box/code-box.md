@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Form Field Assembly / Verification Code"]
 spec_json: code-box.json
 skeleton: code-box.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Code Box
@@ -243,8 +243,8 @@ _Nothing — leaf component._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Value | Noto Sans | Bold | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 5 | Size=Desktop, State=Filled |
-| Value | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | 5 | Size=Mobile, State=Filled |
+| Value | Noto Sans | Bold | 18 | auto |  |  | #141414 | Colors/color/gray/min | font/size/18 |  | 5 | Size=Desktop, State=Filled |
+| Value | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min | font/size/16 |  | 5 | Size=Mobile, State=Filled |
 
 ## Color & effects
 

@@ -12,7 +12,7 @@ built_from: ["Icons"]
 built_into: ["SectionMenu"]
 spec_json: sectionmenuheader.json
 skeleton: sectionmenuheader.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # SectionMenuHeader
@@ -47,9 +47,9 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **View=Closed, Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via SectionMenu), Desktop HomePage (via SectionMenu), 1100 HomePage (via SectionMenu); nested inside: SectionMenu / View=Closed, Device=XL-Desktop, UserType=all ×1, SectionMenu / View=Closed, Device=LG-TabletH, UserType=all ×1
+- **View=Closed, Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via SectionMenu), Desktop HomePage (via SectionMenu), 1100 HomePage (via SectionMenu); nested inside: SectionMenu / View=Closed, Device=LG-TabletH, UserType=all ×1, SectionMenu / View=Closed, Device=XL-Desktop, UserType=all ×1
 - **View=Open, Device=Desktop** — breakpoints: 1024, 1100, 1280; nested inside: SectionMenu / View=Open, Device=LG-TabletH, UserType=subscriber ×1, SectionMenu / View=Open, Device=XL-Desktop, UserType=nonSub ×1, SectionMenu / View=Open, Device=LG-TabletH, UserType=nonSub ×1, SectionMenu / View=Open, Device=XL-Desktop, UserType=subscriber ×1
-- **View=Closed, Device=TabletV** — breakpoints: 340, 360, 768; templates (via assembly): Mobile HomePage (via SectionMenu), 340 HomePage (via SectionMenu), 768 HomePage (via SectionMenu); nested inside: SectionMenu / View=Closed, Device=SM-Mobile, UserType=all ×1, SectionMenu / View=Closed, Device=XS-Fold, UserType=all ×1, SectionMenu / View=Closed, Device=MD-TabletV, UserType=all ×1
+- **View=Closed, Device=TabletV** — breakpoints: 340, 360, 768; templates (via assembly): Mobile HomePage (via SectionMenu), 340 HomePage (via SectionMenu), 768 HomePage (via SectionMenu); nested inside: SectionMenu / View=Closed, Device=SM-Mobile, UserType=all ×1, SectionMenu / View=Closed, Device=MD-TabletV, UserType=all ×1, SectionMenu / View=Closed, Device=XS-Fold, UserType=all ×1
 - **View=Open, Device=TabletV** — breakpoints: 768; no instances in this file
 - **View=Closed, Device=Mobile** — breakpoints: 340, 360; no instances in this file
 - **View=Open, Device=Mobile** — breakpoints: 340, 360; nested inside: SectionMenu / View=Open, Device=MD-TabletV, UserType=subscriber ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=subscriber ×1, SectionMenu / View=Open, Device=XS-Fold, UserType=nonSub ×1, SectionMenu / View=Open, Device=MD-TabletV, UserType=nonSub ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=nonSub ×1, SectionMenu / View=Open, Device=SM-Mobile, UserType=subscriber ×1
@@ -164,7 +164,7 @@ exported: 2026-10-07
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Title | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | All Sections | View=Closed, Device=Desktop, View=Open, Device=Desktop |
+| Title | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | All Sections | View=Closed, Device=Desktop, View=Open, Device=Desktop |
 
 ## Color & effects
 

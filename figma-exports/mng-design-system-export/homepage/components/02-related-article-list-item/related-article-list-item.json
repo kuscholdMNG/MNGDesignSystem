@@ -220,7 +220,7 @@
       "type": "FRAME",
       "id": "3334:43012",
       "w": 1172,
-      "h": 30,
+      "h": 36,
       "x": 22,
       "y": 0,
       "sizing": {
@@ -277,6 +277,11 @@
            "h": "FILL",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
+          },
           "text": "Game Day: Turning LeBron James’ record numbers into words",
           "autoResize": "HEIGHT",
           "align": "LEFT",
@@ -304,7 +309,7 @@
         "type": "FRAME",
         "id": "3334:43015",
         "w": 64,
-        "h": 15,
+        "h": 21,
         "x": 0,
         "y": 15,
         "sizing": {
@@ -329,12 +334,17 @@
           "type": "TEXT",
           "id": "3334:43016",
           "w": 64,
-          "h": 15,
+          "h": 21,
           "x": 0,
           "y": 0,
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/11",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "56 mins ago",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -344,7 +354,7 @@
             "font": "Noto Sans",
             "weight": "Regular",
             "size": 11,
-            "lineHeight": "auto",
+            "lineHeight": "20.63px",
             "color": [
              {
               "type": "SOLID",
@@ -379,7 +389,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/12",
    "textStyle": null,
    "truncate": null,
    "sample": "Game Day: Turning LeBron James’ record numbers int",
@@ -392,13 +402,13 @@
    "font": "Noto Sans",
    "weight": "Regular",
    "size": 11,
-   "lineHeight": "auto",
+   "lineHeight": "20.63px",
    "letterSpacing": null,
    "case": null,
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
-   "typeToken": null,
+   "typeToken": "font/size/11",
    "textStyle": null,
    "truncate": null,
    "sample": "56 mins ago",
@@ -437,5 +447,5 @@
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "related-article-list-item.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

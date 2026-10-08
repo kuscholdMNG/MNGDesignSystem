@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Zone 1 Lead Article Card"]
 spec_json: related-article-list-item.json
 skeleton: related-article-list-item.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Related Article List Item
@@ -71,11 +71,11 @@ _Nothing — leaf component._
 - Related Article List Item — component 1194×45 [horizontal gap 0] (fixed/fixed)
   - Bullet — frame 22×45 [vertical gap 12] (hug/fill)
     - Bullet Dot — vector 6×6 (fixed/fixed)
-  - Content — frame 1172×30 [vertical gap 0] (fill/hug)
+  - Content — frame 1172×36 [vertical gap 0] (fill/hug)
     - Title — frame 1172×15 [horizontal gap 8] (fill/hug)
       - Game Day: Turning LeBron James’ record numbers into words — text 1172×15 (fill/hug) "Game Day: Turning LeBron James’ record n"
-    - Meta — frame 64×15 [horizontal gap 8] (hug/hug)
-      - 56 mins ago — text 64×15 (hug/hug) "56 mins ago"
+    - Meta — frame 64×21 [horizontal gap 8] (hug/hug)
+      - 56 mins ago — text 64×21 (hug/hug) "56 mins ago"
 ```
 
 ## Size & layout
@@ -88,8 +88,8 @@ _Nothing — leaf component._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Game Day: Turning LeBron James’ record numbers into words | Noto Serif | Bold | 12 | 15px |  |  | #141414 | Colors/color/gray/min |  |  | Game Day: Turning LeBron James’ record numbers int | all |
-| 56 mins ago | Noto Sans | Regular | 11 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | 56 mins ago | all |
+| Game Day: Turning LeBron James’ record numbers into words | Noto Serif | Bold | 12 | 15px |  |  | #141414 | Colors/color/gray/min | font/size/12 |  | Game Day: Turning LeBron James’ record numbers int | all |
+| 56 mins ago | Noto Sans | Regular | 11 | 20.63px |  |  | #5E5D5C | Colors/color/gray/200 | font/size/11 |  | 56 mins ago | all |
 
 ## Color & effects
 

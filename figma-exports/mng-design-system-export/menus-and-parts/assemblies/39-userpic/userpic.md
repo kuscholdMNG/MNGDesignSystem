@@ -12,7 +12,7 @@ built_from: ["UserImage", "AlertLevel"]
 built_into: ["UserStatus"]
 spec_json: userpic.json
 skeleton: userpic.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # UserPic
@@ -48,7 +48,7 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Size=Small, Status=Default** — breakpoints: —; nested inside: UserStatus / Device=mobile, status=none ×1, UserStatus / Device=Desktop, status=nonSub ×1, UserStatus / Device=Desktop, status=subscriber ×1
+- **Size=Small, Status=Default** — breakpoints: —; nested inside: UserStatus / Device=Desktop, status=subscriber ×1, UserStatus / Device=Desktop, status=nonSub ×1, UserStatus / Device=mobile, status=none ×1
 - **Size=Small, Status=Active** — breakpoints: —; no instances in this file
 - **Size=Medium, Status=Default** — breakpoints: —; no instances in this file
 - **Size=Medium, Status=Active** — breakpoints: —; other pages: Menus and Parts ▸ Frame 12800 ×1

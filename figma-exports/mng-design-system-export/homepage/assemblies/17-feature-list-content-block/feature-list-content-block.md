@@ -12,7 +12,7 @@ built_from: ["Horizontal Feature Card", "1Col Article Card", "Article Image Plac
 built_into: ["Section Rail Card"]
 spec_json: feature-list-content-block.json
 skeleton: feature-list-content-block.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Feature + List Content Block
@@ -41,7 +41,7 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Size=Default** — breakpoints: 768, 1100, 1280; templates (via assembly): 1100 HomePage (via Section Rail Card), Desktop HomePage (via Section Rail Card), 768 HomePage (via Section Rail Card); nested inside: Section Rail Card / Device=1100, Layout=Wide ×1, Section Rail Card / Device=1280, Layout=Wide ×1, Section Rail Card / Device=Tablet, Layout=Wide ×1
+- **Size=Default** — breakpoints: 768, 1100, 1280; templates (via assembly): Desktop HomePage (via Section Rail Card), 768 HomePage (via Section Rail Card), 1100 HomePage (via Section Rail Card); nested inside: Section Rail Card / Device=1280, Layout=Wide ×1, Section Rail Card / Device=Tablet, Layout=Wide ×1, Section Rail Card / Device=1100, Layout=Wide ×1
 - **Size=Narrow** — breakpoints: 1024; templates (via assembly): 1024 HomePage (via Section Rail Card); nested inside: Section Rail Card / Device=1024, Layout=Wide ×1
 
 ## Breakpoints
@@ -105,7 +105,7 @@ exported: 2026-10-07
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Article Headline on News paper homepage in Wide rail lead po | Noto Serif | Bold | 26 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Article Headline on News paper homepage in Wide ra | Size=Narrow |
+| Article Headline on News paper homepage in Wide rail lead po | Noto Serif | Bold | 26 | auto |  |  | #141414 | Colors/color/gray/min | font/size/26 |  | Article Headline on News paper homepage in Wide ra | Size=Narrow |
 | Vanroy Evan Smith, 39, of Long Beach is being held on $1 mil | Noto Sans | Regular | 15 | 21px |  |  | #393938 | Colors/color/gray/100 | Editorial/Body/Excerpt |  | Vanroy Evan Smith, 39, of Long Beach is being held | Size=Narrow |
 
 ## Color & effects

@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Blueconic Block (Most Popular)"]
 spec_json: most-popular-list-item.json
 skeleton: most-popular-list-item.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Most Popular List Item
@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Most Popular List Item** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Blueconic Block (Most Popular)), Mobile HomePage (via Blueconic Block (Most Popular)), 340 HomePage (via Blueconic Block (Most Popular)), 1100 HomePage (via Blueconic Block (Most Popular)), Desktop HomePage (via Blueconic Block (Most Popular)), 768 HomePage (via Blueconic Block (Most Popular)); nested inside: Blueconic Block (Most Popular) / Device=1024 ×10, Blueconic Block (Most Popular) / Device=Desktop ×10, Blueconic Block (Most Popular) / Device=Mobile ×10, Blueconic Block (Most Popular) / Device=1100 ×10, Blueconic Block (Most Popular) / Device=1280 ×10, Blueconic Block (Most Popular) / Device=Tablet ×10
+- **Most Popular List Item** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via Blueconic Block (Most Popular)), 768 HomePage (via Blueconic Block (Most Popular)), Desktop HomePage (via Blueconic Block (Most Popular)), 1024 HomePage (via Blueconic Block (Most Popular)), Mobile HomePage (via Blueconic Block (Most Popular)), 340 HomePage (via Blueconic Block (Most Popular)); nested inside: Blueconic Block (Most Popular) / Device=1100 ×10, Blueconic Block (Most Popular) / Device=Tablet ×10, Blueconic Block (Most Popular) / Device=1280 ×10, Blueconic Block (Most Popular) / Device=1024 ×10, Blueconic Block (Most Popular) / Device=Desktop ×10, Blueconic Block (Most Popular) / Device=Mobile ×10
 
 ## Breakpoints
 
@@ -85,8 +85,8 @@ _Nothing — leaf component._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Noto Sans | Bold | 21 | auto |  |  | #FFFFFF | Colors/color/gray/max |  |  | 1 | all |
-| Dear Abby: My clothes make her cry, and I feel like I can’t  | Noto Serif | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Dear Abby: My clothes make her cry, and I feel lik | all |
+| 1 | Noto Sans | SemiBold | 21 | 32px |  |  | #FFFFFF | Colors/color/gray/max | font/size/21 |  | 1 | all |
+| Dear Abby: My clothes make her cry, and I feel like I can’t  | Noto Serif | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min | font/size/16 |  | Dear Abby: My clothes make her cry, and I feel lik | all |
 
 ## Color & effects
 

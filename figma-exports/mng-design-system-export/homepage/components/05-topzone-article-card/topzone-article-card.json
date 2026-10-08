@@ -384,6 +384,11 @@
            "h": "FILL",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/18",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
+          },
           "text": "Article Headline on News paper homepage in second zone position ",
           "autoResize": "HEIGHT",
           "align": "LEFT",
@@ -1178,7 +1183,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/18",
    "textStyle": null,
    "truncate": null,
    "sample": "Article Headline on News paper homepage in second ",
@@ -1371,5 +1376,5 @@
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "topzone-article-card.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

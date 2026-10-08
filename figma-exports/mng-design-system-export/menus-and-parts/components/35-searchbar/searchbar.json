@@ -54,25 +54,25 @@
     "templatesDirect": {},
     "templatesVia": {},
     "inComponents": {
-     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=PremSub": 1,
-     "AccountMenu / Status=loggedOut, View=Closed, Device=MD-TabletV, UserType=loggedOut": 1,
-     "AccountMenu / Status=loggedIn, View=Closed, Device=MD-TabletV, UserType=loggedIn": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=BasicSub": 1,
-     "AccountMenu / Status=loggedIn, View=Closed, Device=SM-Mobile, UserType=loggedIn": 1,
-     "AccountMenu / Status=alert, View=Open, Device=XL-Desktop, UserType=PremSub": 1,
-     "AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
-     "AccountMenu / Status=alert, View=Open, Device=XS-Fold, UserType=PremSub": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=groupSub": 1,
-     "AccountMenu / Status=loggedOut, View=Closed, Device=LG-TabletH, UserType=loggedOut": 1,
-     "AccountMenu / Status=loggedOut, View=Closed, Device=XL-Desktop, UserType=loggedOut": 1,
-     "AccountMenu / Status=alert, View=Open, Device=MD-TabletV, UserType=PremSub": 1,
      "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
-     "AccountMenu / Status=loggedIn, View=Closed, Device=XL-Desktop, UserType=loggedIn": 1,
-     "AccountMenu / Status=loggedOut, View=Closed, Device=SM-Mobile, UserType=loggedOut": 1,
-     "AccountMenu / Status=loggedIn, View=Closed, Device=LG-TabletH, UserType=loggedIn": 1,
      "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=GroupAnon": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=PremSub": 1,
+     "AccountMenu / Status=loggedIn, View=Closed, Device=LG-TabletH, UserType=loggedIn": 1,
+     "AccountMenu / Status=loggedOut, View=Closed, Device=MD-TabletV, UserType=loggedOut": 1,
      "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=nonSub": 1,
-     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub": 1
+     "AccountMenu / Status=loggedOut, View=Closed, Device=LG-TabletH, UserType=loggedOut": 1,
+     "AccountMenu / Status=loggedIn, View=Closed, Device=XL-Desktop, UserType=loggedIn": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=groupSub": 1,
+     "AccountMenu / Status=alert, View=Open, Device=XS-Fold, UserType=PremSub": 1,
+     "AccountMenu / Status=loggedOut, View=Closed, Device=XL-Desktop, UserType=loggedOut": 1,
+     "AccountMenu / Status=loggedOut, View=Closed, Device=SM-Mobile, UserType=loggedOut": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=BasicSub": 1,
+     "AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub": 1,
+     "AccountMenu / Status=loggedIn, View=Closed, Device=MD-TabletV, UserType=loggedIn": 1,
+     "AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub": 1,
+     "AccountMenu / Status=alert, View=Open, Device=MD-TabletV, UserType=PremSub": 1,
+     "AccountMenu / Status=loggedIn, View=Closed, Device=SM-Mobile, UserType=loggedIn": 1,
+     "AccountMenu / Status=alert, View=Open, Device=XL-Desktop, UserType=PremSub": 1
     },
     "other": {
      "Menus and Parts ▸ Frame 12800": 12
@@ -349,6 +349,11 @@
        "h": "FILL",
        "v": "FIXED"
       },
+      "vars": {
+       "fontSize": "Type Primitives/font/size/16",
+       "fontStyle": "Type Primitives/font/style/regular",
+       "fontFamily": "Type Primitives/font/family/noto-sans"
+      },
       "text": "Type your search",
       "autoResize": "NONE",
       "align": "LEFT",
@@ -415,6 +420,11 @@
          "h": "HUG",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/15",
+         "fontStyle": "Type Primitives/font/style/semibold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Search",
         "autoResize": "WIDTH_AND_HEIGHT",
         "align": "LEFT",
@@ -458,7 +468,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Type your search",
@@ -477,7 +487,7 @@
    "decoration": null,
    "color": "#FFFFFF",
    "token": "Colors/color/gray/max",
-   "typeToken": null,
+   "typeToken": "font/size/15",
    "textStyle": null,
    "truncate": null,
    "sample": "Search",
@@ -544,5 +554,5 @@
   "1 of 2 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Status=Open`."
  ],
  "skeleton": "searchbar.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

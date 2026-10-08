@@ -12,7 +12,7 @@ built_from: ["Section Title / Eyebrow", "Latest Headlines List Item", "Newslette
 built_into: ["TOP ZONE Block"]
 spec_json: latest-headlines.json
 skeleton: latest-headlines.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Latest Headlines
@@ -42,7 +42,7 @@ exported: 2026-10-07
 
 - **Device=Mobile** — breakpoints: 340, 360; templates (via assembly): Mobile HomePage (via TOP ZONE Block), 340 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Mobile ×1
 - **Device=Tablet** — breakpoints: 768; templates (via assembly): 768 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Tablet ×1
-- **Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via TOP ZONE Block), 1100 HomePage (via TOP ZONE Block), 1024 HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=Desktop ×1, TOP ZONE Block / Device=1100 ×1, TOP ZONE Block / Device=1024 ×1
+- **Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via TOP ZONE Block), 1024 HomePage (via TOP ZONE Block), Desktop HomePage (via TOP ZONE Block); nested inside: TOP ZONE Block / Device=1100 ×1, TOP ZONE Block / Device=1024 ×1, TOP ZONE Block / Device=Desktop ×1
 
 ## Breakpoints
 

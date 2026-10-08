@@ -91,9 +91,9 @@
     "templatesDirect": {},
     "templatesVia": {},
     "inComponents": {
-     "UserStatus / Device=mobile, status=none": 1,
+     "UserStatus / Device=Desktop, status=subscriber": 1,
      "UserStatus / Device=Desktop, status=nonSub": 1,
-     "UserStatus / Device=Desktop, status=subscriber": 1
+     "UserStatus / Device=mobile, status=none": 1
     },
     "other": {},
     "breakpoints": []
@@ -1042,5 +1042,5 @@
   "4 of 6 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Size=Small, Status=Active`, `Size=Medium, Status=Default`, `Size=Large, Status=Default`, `Size=Large, Status=Active`."
  ],
  "skeleton": "userpic.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

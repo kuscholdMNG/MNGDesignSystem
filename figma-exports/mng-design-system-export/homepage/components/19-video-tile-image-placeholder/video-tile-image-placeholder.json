@@ -251,6 +251,11 @@
         ],
         "strokeWeight": 3,
         "strokeAlign": "OUTSIDE",
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-serif"
+        },
         "text": "VIDEO",
         "autoResize": "WIDTH_AND_HEIGHT",
         "align": "LEFT",
@@ -287,6 +292,10 @@
        "v": "FIXED"
       },
       "absolute": true,
+      "vars": {
+       "fontStyle": "Type Primitives/font/style/bold",
+       "fontFamily": "Type Primitives/font/family/noto-sans"
+      },
       "text": "REGISTER",
       "autoResize": "WIDTH_AND_HEIGHT",
       "align": "LEFT",
@@ -342,6 +351,10 @@
        "v": "FIXED"
       },
       "absolute": true,
+      "vars": {
+       "fontStyle": "Type Primitives/font/style/regular",
+       "fontFamily": "Type Primitives/font/family/noto-sans"
+      },
       "text": "Watch our journalists cover local news in these clips",
       "autoResize": "NONE",
       "align": "LEFT",
@@ -381,7 +394,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "VIDEO",
@@ -400,7 +413,7 @@
    "decoration": null,
    "color": "#FFFFFF",
    "token": "Colors/color/gray/max",
-   "typeToken": null,
+   "typeToken": "font/family/noto-sans",
    "textStyle": null,
    "truncate": null,
    "sample": "REGISTER",
@@ -419,7 +432,7 @@
    "decoration": null,
    "color": "#FFFFFF",
    "token": "Colors/color/gray/max",
-   "typeToken": null,
+   "typeToken": "font/family/noto-sans",
    "textStyle": null,
    "truncate": null,
    "sample": "Watch our journalists cover local news in these cl",
@@ -480,5 +493,5 @@
   "2 solid paints are hard-coded (not bound to a color variable): #E1A1FF ×1, #FFC76B ×1."
  ],
  "skeleton": "video-tile-image-placeholder.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

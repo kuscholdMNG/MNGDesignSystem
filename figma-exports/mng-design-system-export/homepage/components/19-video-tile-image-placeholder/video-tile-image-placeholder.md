@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Videos from OCRegister Carousel"]
 spec_json: video-tile-image-placeholder.json
 skeleton: video-tile-image-placeholder.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Video Tile Image Placeholder
@@ -87,9 +87,9 @@ _Nothing — leaf component._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| ARTICLE IMAGE | Noto Serif | Bold | 16 | auto | 10% |  | #141414 | Colors/color/gray/min |  |  | VIDEO | all |
-| Masthead Badge | Noto Sans | Bold | 9 | auto |  |  | #FFFFFF | Colors/color/gray/max |  |  | REGISTER | all |
-| Caption Text | Noto Sans | Regular | 9 | auto |  |  | #FFFFFF | Colors/color/gray/max |  |  | Watch our journalists cover local news in these cl | all |
+| ARTICLE IMAGE | Noto Serif | Bold | 16 | auto | 10% |  | #141414 | Colors/color/gray/min | font/size/16 |  | VIDEO | all |
+| Masthead Badge | Noto Sans | Bold | 9 | auto |  |  | #FFFFFF | Colors/color/gray/max | font/family/noto-sans |  | REGISTER | all |
+| Caption Text | Noto Sans | Regular | 9 | auto |  |  | #FFFFFF | Colors/color/gray/max | font/family/noto-sans |  | Watch our journalists cover local news in these cl | all |
 
 ## Color & effects
 

@@ -55,6 +55,12 @@
      "1024 HomePage": [
       "Photos Block"
      ],
+     "1100 HomePage": [
+      "Photos Block"
+     ],
+     "Desktop HomePage": [
+      "Photos Block"
+     ],
      "768 HomePage": [
       "Photos Block"
      ],
@@ -63,21 +69,15 @@
      ],
      "340 HomePage": [
       "Photos Block"
-     ],
-     "1100 HomePage": [
-      "Photos Block"
-     ],
-     "Desktop HomePage": [
-      "Photos Block"
      ]
     },
     "inComponents": {
      "Photos Block / Device=1024": 1,
-     "Photos Block / Device=Tablet": 1,
-     "Photos Block / Device=Mobile": 1,
      "Photos Block / Device=1100": 1,
+     "Photos Block / Device=1280": 1,
      "Photos Block / Device=Desktop": 1,
-     "Photos Block / Device=1280": 1
+     "Photos Block / Device=Tablet": 1,
+     "Photos Block / Device=Mobile": 1
     },
     "other": {},
     "breakpoints": [
@@ -279,6 +279,11 @@
        "h": "HUG",
        "v": "HUG"
       },
+      "vars": {
+       "fontSize": "Type Primitives/font/size/19",
+       "fontStyle": "Type Primitives/font/style/bold",
+       "fontFamily": "Type Primitives/font/family/noto-sans"
+      },
       "text": "Show More Photos",
       "autoResize": "WIDTH_AND_HEIGHT",
       "align": "CENTER",
@@ -319,7 +324,7 @@
    "decoration": null,
    "color": "#007580",
    "token": "Colors/color/theme/primary",
-   "typeToken": null,
+   "typeToken": "font/size/19",
    "textStyle": null,
    "truncate": null,
    "sample": "Show More Photos",
@@ -383,5 +388,5 @@
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "show-more-photos-affordance.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

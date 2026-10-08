@@ -12,7 +12,7 @@ built_from: ["Button Primary", "Weather Bug", "Icons"]
 built_into: ["SectionMenu"]
 spec_json: sectionmenuitem.json
 skeleton: sectionmenuitem.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # SectionMenuItem
@@ -196,9 +196,9 @@ exported: 2026-10-07
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Item Name | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | Section Item Name | leftIcon=yes, withSubItems=no, View=default, kind=main, leftIcon=yes, withSubItems=yes, View=closed, kind=main, leftIcon=no, withSubItems=no, View=default, kind=main, leftIcon=no, withSubItems=yes, View=closed, kind=main, leftIcon=no, withSubItems=yes, View=open, kind=main |
-| SubItem Name | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min |  |  | SubSection Item Name | leftIcon=no, withSubItems=no, View=default, kind=subItem |
-| CTA Text | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Sign up for newsletters and alerts | leftIcon=no, withSubItems=no, View=default, kind=CTAMessage |
+| Item Name | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | Section Item Name | leftIcon=yes, withSubItems=no, View=default, kind=main, leftIcon=yes, withSubItems=yes, View=closed, kind=main, leftIcon=no, withSubItems=no, View=default, kind=main, leftIcon=no, withSubItems=yes, View=closed, kind=main, leftIcon=no, withSubItems=yes, View=open, kind=main |
+| SubItem Name | Noto Sans | Bold | 16 | auto |  | TITLE | #141414 | Colors/color/gray/min | font/size/16 |  | SubSection Item Name | leftIcon=no, withSubItems=no, View=default, kind=subItem |
+| CTA Text | Noto Sans | Bold | 16 | auto |  |  | #141414 | Colors/color/gray/min | font/size/16 |  | Sign up for newsletters and alerts | leftIcon=no, withSubItems=no, View=default, kind=CTAMessage |
 
 ## Color & effects
 

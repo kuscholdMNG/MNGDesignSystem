@@ -83,13 +83,13 @@
      "768 HomePage": [
       "Latest Headlines"
      ],
-     "Desktop HomePage": [
-      "Latest Headlines"
-     ],
      "1100 HomePage": [
       "Latest Headlines"
      ],
      "1024 HomePage": [
+      "Latest Headlines"
+     ],
+     "Desktop HomePage": [
       "Latest Headlines"
      ]
     },
@@ -113,7 +113,10 @@
     "id": "3336:46116",
     "templatesDirect": {},
     "templatesVia": {
-     "Desktop HomePage": [
+     "Mobile HomePage": [
+      "Latest Headlines"
+     ],
+     "340 HomePage": [
       "Latest Headlines"
      ],
      "1100 HomePage": [
@@ -122,10 +125,7 @@
      "1024 HomePage": [
       "Latest Headlines"
      ],
-     "Mobile HomePage": [
-      "Latest Headlines"
-     ],
-     "340 HomePage": [
+     "Desktop HomePage": [
       "Latest Headlines"
      ],
      "768 HomePage": [
@@ -133,8 +133,8 @@
      ]
     },
     "inComponents": {
-     "Latest Headlines / Device=Desktop": 6,
      "Latest Headlines / Device=Mobile": 6,
+     "Latest Headlines / Device=Desktop": 6,
      "Latest Headlines / Device=Tablet": 6
     },
     "other": {},
@@ -152,16 +152,13 @@
     "id": "3336:46117",
     "templatesDirect": {},
     "templatesVia": {
-     "768 HomePage": [
-      "Latest Headlines"
-     ],
-     "Desktop HomePage": [
-      "Latest Headlines"
-     ],
      "1100 HomePage": [
       "Latest Headlines"
      ],
      "1024 HomePage": [
+      "Latest Headlines"
+     ],
+     "Desktop HomePage": [
       "Latest Headlines"
      ],
      "Mobile HomePage": [
@@ -169,12 +166,15 @@
      ],
      "340 HomePage": [
       "Latest Headlines"
+     ],
+     "768 HomePage": [
+      "Latest Headlines"
      ]
     },
     "inComponents": {
-     "Latest Headlines / Device=Tablet": 1,
      "Latest Headlines / Device=Desktop": 1,
-     "Latest Headlines / Device=Mobile": 1
+     "Latest Headlines / Device=Mobile": 1,
+     "Latest Headlines / Device=Tablet": 1
     },
     "other": {},
     "breakpoints": [
@@ -352,6 +352,11 @@
          "h": "FILL",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/15",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-serif"
+        },
         "text": "Latest headlines Number ONE: This wraps to two lines.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -368,7 +373,7 @@
             "variable": "Colors/color/gray/min"
            }
           ],
-          "textStyle": "Additional Headlines"
+          "textStyle": "Editorial/Titles/AdditionalHeadline"
          }
         ]
        }
@@ -410,6 +415,11 @@
         "sizing": {
          "h": "FILL",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/13",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "56 mins ago",
         "autoResize": "HEIGHT",
@@ -634,6 +644,11 @@
            "h": "FILL",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
+          },
           "text": "Latest headlines Number Seven: Wraps to two lines.",
           "autoResize": "HEIGHT",
           "align": "LEFT",
@@ -650,7 +665,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Additional Headlines"
+            "textStyle": "Editorial/Titles/AdditionalHeadline"
            }
           ]
          }
@@ -692,6 +707,11 @@
           "sizing": {
            "h": "FILL",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/13",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "57 mins ago",
           "autoResize": "HEIGHT",
@@ -949,6 +969,11 @@
            "h": "FILL",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
+          },
           "text": "Latest headlines Number Twelve: This one wraps to three lines.",
           "autoResize": "HEIGHT",
           "align": "LEFT",
@@ -965,7 +990,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Additional Headlines"
+            "textStyle": "Editorial/Titles/AdditionalHeadline"
            }
           ]
          }
@@ -1007,6 +1032,11 @@
           "sizing": {
            "h": "FIXED",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/13",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "By Xcel Energy",
           "autoResize": "HEIGHT",
@@ -1072,8 +1102,8 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
-   "textStyle": "Additional Headlines",
+   "typeToken": "font/size/15",
+   "textStyle": "Editorial/Titles/AdditionalHeadline",
    "truncate": null,
    "sample": "Latest headlines Number ONE: This wraps to two lin",
    "variants": [
@@ -1091,7 +1121,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
-   "typeToken": null,
+   "typeToken": "font/size/13",
    "textStyle": null,
    "truncate": null,
    "sample": "56 mins ago",
@@ -1110,8 +1140,8 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
-   "textStyle": "Additional Headlines",
+   "typeToken": "font/size/15",
+   "textStyle": "Editorial/Titles/AdditionalHeadline",
    "truncate": null,
    "sample": "Latest headlines Number Seven: Wraps to two lines.",
    "variants": [
@@ -1129,7 +1159,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
-   "typeToken": null,
+   "typeToken": "font/size/13",
    "textStyle": null,
    "truncate": null,
    "sample": "57 mins ago",
@@ -1148,8 +1178,8 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
-   "textStyle": "Additional Headlines",
+   "typeToken": "font/size/15",
+   "textStyle": "Editorial/Titles/AdditionalHeadline",
    "truncate": null,
    "sample": "Latest headlines Number Twelve: This one wraps to ",
    "variants": [
@@ -1167,7 +1197,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
-   "typeToken": null,
+   "typeToken": "font/size/13",
    "textStyle": null,
    "truncate": null,
    "sample": "By Xcel Energy",
@@ -1238,5 +1268,5 @@
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "latest-headlines-list-item.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

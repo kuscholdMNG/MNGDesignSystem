@@ -12,7 +12,7 @@ built_from: ["Icons"]
 built_into: ["Upcoming Events Widget"]
 spec_json: upcoming-events-side-arrow.json
 skeleton: upcoming-events-side-arrow.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Upcoming Events Side Arrow
@@ -39,8 +39,8 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Direction=Left** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via Upcoming Events Widget), 1024 HomePage (via Upcoming Events Widget), Mobile HomePage (via Upcoming Events Widget), 340 HomePage (via Upcoming Events Widget), 768 HomePage (via Upcoming Events Widget), Desktop HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=1100 ×1, Upcoming Events Widget / Device=1024 ×1, Upcoming Events Widget / Device=Mobile ×1, Upcoming Events Widget / Device=Tablet ×1, Upcoming Events Widget / Device=Desktop ×1
-- **Direction=Right** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Upcoming Events Widget), Mobile HomePage (via Upcoming Events Widget), 340 HomePage (via Upcoming Events Widget), 768 HomePage (via Upcoming Events Widget), 1100 HomePage (via Upcoming Events Widget), Desktop HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=1024 ×1, Upcoming Events Widget / Device=Mobile ×1, Upcoming Events Widget / Device=Tablet ×1, Upcoming Events Widget / Device=1100 ×1, Upcoming Events Widget / Device=Desktop ×1
+- **Direction=Left** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via Upcoming Events Widget), Mobile HomePage (via Upcoming Events Widget), 340 HomePage (via Upcoming Events Widget), 1100 HomePage (via Upcoming Events Widget), 1024 HomePage (via Upcoming Events Widget), 768 HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=Desktop ×1, Upcoming Events Widget / Device=Mobile ×1, Upcoming Events Widget / Device=1100 ×1, Upcoming Events Widget / Device=1024 ×1, Upcoming Events Widget / Device=Tablet ×1
+- **Direction=Right** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via Upcoming Events Widget), 768 HomePage (via Upcoming Events Widget), 1024 HomePage (via Upcoming Events Widget), 1100 HomePage (via Upcoming Events Widget), Mobile HomePage (via Upcoming Events Widget), 340 HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=Desktop ×1, Upcoming Events Widget / Device=Tablet ×1, Upcoming Events Widget / Device=1024 ×1, Upcoming Events Widget / Device=1100 ×1, Upcoming Events Widget / Device=Mobile ×1
 
 ## Breakpoints
 

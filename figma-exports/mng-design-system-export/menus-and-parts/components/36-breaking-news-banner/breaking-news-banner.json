@@ -287,6 +287,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/18",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Breaking News",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -304,7 +309,7 @@
                 "variable": "Colors/color/theme/near-black"
                }
               ],
-              "textStyle": "Breaking News/Title"
+              "textStyle": "Editorial/BreakingNews/Title"
              }
             ]
            }
@@ -347,6 +352,11 @@
              "h": "FILL",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-serif"
+            },
             "text": "Breaking News Headline will wrap until it goes forever as long as it is needed to go. ",
             "autoResize": "HEIGHT",
             "align": "LEFT",
@@ -363,7 +373,7 @@
                 "variable": "Colors/color/theme/near-black"
                }
               ],
-              "textStyle": "Breaking News/Item"
+              "textStyle": "Editorial/BreakingNews/Item"
              }
             ]
            }
@@ -381,6 +391,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
+          },
           "text": "September 23, 2025 at 12:34 pm",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -397,7 +412,7 @@
               "variable": "Colors/color/theme/near-black"
              }
             ],
-            "textStyle": "Breaking News/Meta"
+            "textStyle": "Editorial/BreakingNews/Meta"
            }
           ]
          }
@@ -598,6 +613,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/18",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Breaking News",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -615,7 +635,7 @@
                 "variable": "Colors/color/theme/near-black"
                }
               ],
-              "textStyle": "Breaking News/Title"
+              "textStyle": "Editorial/BreakingNews/Title"
              }
             ]
            }
@@ -658,6 +678,11 @@
              "h": "FILL",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-serif"
+            },
             "text": "Breaking News Headline will wrap until it goes forever as long as it is needed to go. ",
             "autoResize": "HEIGHT",
             "align": "LEFT",
@@ -674,7 +699,7 @@
                 "variable": "Colors/color/theme/near-black"
                }
               ],
-              "textStyle": "Breaking News/Item"
+              "textStyle": "Editorial/BreakingNews/Item"
              }
             ]
            }
@@ -692,6 +717,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
+          },
           "text": "September 23, 2025 at 12:34 pm",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -708,7 +738,7 @@
               "variable": "Colors/color/theme/near-black"
              }
             ],
-            "textStyle": "Breaking News/Meta"
+            "textStyle": "Editorial/BreakingNews/Meta"
            }
           ]
          }
@@ -911,6 +941,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/18",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Breaking News",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -928,7 +963,7 @@
                 "variable": "Colors/color/theme/near-black"
                }
               ],
-              "textStyle": "Breaking News/Title"
+              "textStyle": "Editorial/BreakingNews/Title"
              }
             ]
            }
@@ -971,6 +1006,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-serif"
+            },
             "text": "Breaking News Headline",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -987,7 +1027,7 @@
                 "variable": "Colors/color/theme/near-black"
                }
               ],
-              "textStyle": "Breaking News/Item"
+              "textStyle": "Editorial/BreakingNews/Item"
              }
             ]
            }
@@ -1030,6 +1070,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "September 23, 2025 at 12:34 pm",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -1046,7 +1091,7 @@
                 "variable": "Colors/color/theme/near-black"
                }
               ],
-              "textStyle": "Breaking News/Meta"
+              "textStyle": "Editorial/BreakingNews/Meta"
              }
             ]
            }
@@ -1110,8 +1155,8 @@
    "decoration": null,
    "color": "#0A0908",
    "token": "Colors/color/theme/near-black",
-   "typeToken": null,
-   "textStyle": "Breaking News/Title",
+   "typeToken": "font/size/18",
+   "textStyle": "Editorial/BreakingNews/Title",
    "truncate": null,
    "sample": "Breaking News",
    "variants": [
@@ -1131,8 +1176,8 @@
    "decoration": null,
    "color": "#0A0908",
    "token": "Colors/color/theme/near-black",
-   "typeToken": null,
-   "textStyle": "Breaking News/Item",
+   "typeToken": "font/size/16",
+   "textStyle": "Editorial/BreakingNews/Item",
    "truncate": null,
    "sample": "Breaking News Headline will wrap until it goes for",
    "variants": [
@@ -1151,8 +1196,8 @@
    "decoration": null,
    "color": "#0A0908",
    "token": "Colors/color/theme/near-black",
-   "typeToken": null,
-   "textStyle": "Breaking News/Meta",
+   "typeToken": "font/size/16",
+   "textStyle": "Editorial/BreakingNews/Meta",
    "truncate": null,
    "sample": "September 23, 2025 at 12:34 pm",
    "variants": [
@@ -1172,8 +1217,8 @@
    "decoration": null,
    "color": "#0A0908",
    "token": "Colors/color/theme/near-black",
-   "typeToken": null,
-   "textStyle": "Breaking News/Item",
+   "typeToken": "font/size/16",
+   "textStyle": "Editorial/BreakingNews/Item",
    "truncate": null,
    "sample": "Breaking News Headline",
    "variants": [
@@ -1203,5 +1248,5 @@
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "breaking-news-banner.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Date Picker Calendar Icon", "Upcoming Events Header Button"]
 spec_json: upcoming-events-calendar-glyph.json
 skeleton: upcoming-events-calendar-glyph.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Upcoming Events Calendar Glyph
@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Upcoming Events Calendar Glyph** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via Date Picker Calendar Icon, Upcoming Events Header Button), 768 HomePage (via Date Picker Calendar Icon, Upcoming Events Header Button), 1024 HomePage (via Date Picker Calendar Icon, Upcoming Events Header Button), Desktop HomePage (via Date Picker Calendar Icon, Upcoming Events Header Button), Mobile HomePage (via Date Picker Calendar Icon, Upcoming Events Header Button), 340 HomePage (via Date Picker Calendar Icon, Upcoming Events Header Button); nested inside: Date Picker Calendar Icon ×1, Upcoming Events Header Button / Type=See All Events, Label=Off ×1, Upcoming Events Header Button / Type=See All Events, Label=On ×1
+- **Upcoming Events Calendar Glyph** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Date Picker Calendar Icon, Upcoming Events Header Button), Desktop HomePage (via Date Picker Calendar Icon, Upcoming Events Header Button), 1100 HomePage (via Date Picker Calendar Icon, Upcoming Events Header Button), 768 HomePage (via Date Picker Calendar Icon, Upcoming Events Header Button), Mobile HomePage (via Date Picker Calendar Icon, Upcoming Events Header Button), 340 HomePage (via Date Picker Calendar Icon, Upcoming Events Header Button); nested inside: Upcoming Events Header Button / Type=See All Events, Label=On ×1, Date Picker Calendar Icon ×1, Upcoming Events Header Button / Type=See All Events, Label=Off ×1
 
 ## Breakpoints
 

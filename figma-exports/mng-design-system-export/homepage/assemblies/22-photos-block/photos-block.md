@@ -12,7 +12,7 @@ built_from: ["Section Title / Eyebrow", "1Col Article Card", "Horizontal Thumbna
 built_into: []
 spec_json: photos-block.json
 skeleton: photos-block.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Photos Block

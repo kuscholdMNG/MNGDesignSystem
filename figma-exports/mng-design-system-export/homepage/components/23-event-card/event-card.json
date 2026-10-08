@@ -52,16 +52,10 @@
     "id": "3395:51876",
     "templatesDirect": {},
     "templatesVia": {
-     "768 HomePage": [
-      "Upcoming Events Widget"
-     ],
-     "1100 HomePage": [
+     "1024 HomePage": [
       "Upcoming Events Widget"
      ],
      "Desktop HomePage": [
-      "Upcoming Events Widget"
-     ],
-     "1024 HomePage": [
       "Upcoming Events Widget"
      ],
      "Mobile HomePage": [
@@ -69,14 +63,20 @@
      ],
      "340 HomePage": [
       "Upcoming Events Widget"
+     ],
+     "1100 HomePage": [
+      "Upcoming Events Widget"
+     ],
+     "768 HomePage": [
+      "Upcoming Events Widget"
      ]
     },
     "inComponents": {
-     "Upcoming Events Widget / Device=Tablet": 3,
-     "Upcoming Events Widget / Device=1100": 4,
-     "Upcoming Events Widget / Device=Desktop": 5,
      "Upcoming Events Widget / Device=1024": 4,
-     "Upcoming Events Widget / Device=Mobile": 2
+     "Upcoming Events Widget / Device=Desktop": 5,
+     "Upcoming Events Widget / Device=Mobile": 2,
+     "Upcoming Events Widget / Device=1100": 4,
+     "Upcoming Events Widget / Device=Tablet": 3
     },
     "other": {},
     "breakpoints": [
@@ -290,6 +290,10 @@
           "h": 13,
           "x": 2,
           "y": 0,
+          "vars": {
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
+          },
           "text": "Tue, Sep 15",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -351,6 +355,11 @@
          "h": "FILL",
          "v": "FIXED"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/13",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Event Title Placeholder Text Here",
         "autoResize": "TRUNCATE",
         "align": "LEFT",
@@ -383,6 +392,11 @@
         "sizing": {
          "h": "FILL",
          "v": "FIXED"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/12",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "Venue Name Placeholder",
         "autoResize": "TRUNCATE",
@@ -426,7 +440,7 @@
    "decoration": null,
    "color": "#EEEEEE",
    "token": null,
-   "typeToken": null,
+   "typeToken": "font/family/noto-sans",
    "textStyle": null,
    "truncate": null,
    "sample": "Tue, Sep 15",
@@ -445,7 +459,7 @@
    "decoration": null,
    "color": "#FFFFFF",
    "token": null,
-   "typeToken": null,
+   "typeToken": "font/size/13",
    "textStyle": null,
    "truncate": "None lines",
    "sample": "Event Title Placeholder Text Here",
@@ -464,7 +478,7 @@
    "decoration": null,
    "color": "#FFFFFF",
    "token": null,
-   "typeToken": null,
+   "typeToken": "font/size/12",
    "textStyle": null,
    "truncate": "None lines",
    "sample": "Venue Name Placeholder",
@@ -544,5 +558,5 @@
   "5 solid paints are hard-coded (not bound to a color variable): #FFFFFF ×3, #000000 ×1, #EEEEEE ×1."
  ],
  "skeleton": "event-card.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

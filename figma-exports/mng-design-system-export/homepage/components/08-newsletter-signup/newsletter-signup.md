@@ -12,7 +12,7 @@ built_from: ["Button Primary"]
 built_into: ["Latest Headlines"]
 spec_json: newsletter-signup.json
 skeleton: newsletter-signup.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Newsletter Signup
@@ -40,7 +40,7 @@ exported: 2026-10-07
 ## Where it is used
 
 - **Device=Mobile** — breakpoints: 340, 360, 768; templates (via assembly): 768 HomePage (via Latest Headlines), Mobile HomePage (via Latest Headlines), 340 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Tablet ×1, Latest Headlines / Device=Mobile ×1
-- **Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (via assembly): Desktop HomePage (via Latest Headlines), 1100 HomePage (via Latest Headlines), 1024 HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Desktop ×1
+- **Device=Desktop** — breakpoints: 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via Latest Headlines), 1024 HomePage (via Latest Headlines), Desktop HomePage (via Latest Headlines); nested inside: Latest Headlines / Device=Desktop ×1
 
 ## Breakpoints
 
@@ -102,7 +102,7 @@ exported: 2026-10-07
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Sign up for Newsletters and Alerts | Noto Sans | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Sign up for Newsletters and Alerts | all |
+| Sign up for Newsletters and Alerts | Noto Sans | Bold | 15 | auto |  |  | #141414 | Colors/color/gray/min | font/size/15 |  | Sign up for Newsletters and Alerts | all |
 
 ## Color & effects
 

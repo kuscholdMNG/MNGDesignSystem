@@ -12,7 +12,7 @@ built_from: []
 built_into: ["Search Field / Obituaries"]
 spec_json: search-field-obituaries-core.json
 skeleton: search-field-obituaries-core.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Search Field / Obituaries — Core
@@ -84,7 +84,7 @@ _Nothing — leaf component._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Placeholder Text | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Search Obituaries by Name | all |
+| Placeholder Text | Noto Sans | Regular | 16 | auto |  |  | #141414 | Colors/color/gray/min | font/size/16 |  | Search Obituaries by Name | all |
 
 ## Color & effects
 

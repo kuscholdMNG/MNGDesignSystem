@@ -12,7 +12,7 @@ built_from: ["Upcoming Events Header Button", "Event Card", "Upcoming Events Sid
 built_into: ["Upcoming Events Block"]
 spec_json: upcoming-events-widget.json
 skeleton: upcoming-events-widget.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Upcoming Events Widget
@@ -187,7 +187,7 @@ exported: 2026-10-07
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Title | Noto Sans | Regular | 20 | 22px |  |  | #3B3B3B |  |  |  | Upcoming Events | all |
+| Title | Noto Sans | Regular | 20 | 22px |  |  | #3B3B3B |  | font/size/20 |  | Upcoming Events | all |
 
 ## Color & effects
 

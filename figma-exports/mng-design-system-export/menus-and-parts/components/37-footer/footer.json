@@ -737,6 +737,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "SubScribe",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -878,6 +883,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Marketplace",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -1021,6 +1031,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "About OC Register",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -1162,6 +1177,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Advertising Solutions",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -1305,6 +1325,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Contact us",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -1447,6 +1472,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Partners",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -1536,7 +1566,7 @@
              "Breakpoint": "Desktop"
             },
             "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-            "mainId": "3532:28385"
+            "mainId": "3560:10775"
            }
           ]
          }
@@ -1645,6 +1675,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Privacy policy",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -1677,6 +1712,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "terms of use",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -1711,6 +1751,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "accessibility",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -1743,6 +1788,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "cookie policy",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -1777,6 +1827,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Do not sell my info",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -1809,6 +1864,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "arbitration",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -1843,6 +1903,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "powered by wordPress.com VIP",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -1875,6 +1940,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Copyright © 2022 MediaNews Group",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -2464,6 +2534,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "SubScribe",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -2605,6 +2680,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Marketplace",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -2748,6 +2828,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "About OC Register",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -2889,6 +2974,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Advertising Solutions",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -3032,6 +3122,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Contact us",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -3174,6 +3269,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Partners",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -3263,7 +3363,7 @@
              "Breakpoint": "Desktop"
             },
             "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-            "mainId": "3532:28385"
+            "mainId": "3560:10775"
            }
           ]
          }
@@ -3372,6 +3472,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Privacy policy",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -3404,6 +3509,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "terms of use",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -3438,6 +3548,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "accessibility",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -3470,6 +3585,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "cookie policy",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -3504,6 +3624,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Do not sell my info",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -3536,6 +3661,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "arbitration",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -3570,6 +3700,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "powered by wordPress.com VIP",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -3602,6 +3737,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Copyright © 2022 MediaNews Group",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -4166,6 +4306,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "SubScribe",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -4198,6 +4343,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Member Services",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -4232,6 +4382,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Manage Subscriptions",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -4264,6 +4419,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Store",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -4298,6 +4458,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Archive search",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -4330,6 +4495,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Reprints",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -4413,6 +4583,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Marketplace",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -4445,6 +4620,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Place an Obituary",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -4479,6 +4659,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Place a Real Estate Ad",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -4510,6 +4695,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Lottery",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -4592,6 +4782,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "About OC Register",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -4625,6 +4820,11 @@
                "h": "FILL",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "About Southern California News Group",
               "autoResize": "HEIGHT",
               "align": "LEFT",
@@ -4656,6 +4856,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "MediaNews Group",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -4689,6 +4894,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Work With Us",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -4720,6 +4930,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Privacy Policy",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -4753,6 +4968,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Accessibility",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -4784,6 +5004,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "News Archive",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -4918,6 +5143,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Advertising Solutions",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -4950,6 +5180,11 @@
                 "sizing": {
                  "h": "FILL",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Get in Touch with a Marketing Strategist",
                 "autoResize": "HEIGHT",
@@ -4984,6 +5219,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Request Media Kit",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -5017,6 +5257,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Creative Services",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -5049,6 +5294,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Content Marketing",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -5132,6 +5382,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Contact us",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -5164,6 +5419,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Corrections",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -5198,6 +5458,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "OC Register Store",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -5230,6 +5495,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Reader Rewards",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -5264,6 +5534,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Photo Reprints",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -5296,6 +5571,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Sponsored Access",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -5379,6 +5659,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Partners",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -5411,6 +5696,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Live Traffic Map",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -5445,6 +5735,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Newspapers in Education",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -5477,6 +5772,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Sponsor a Student",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -5554,7 +5854,7 @@
                "Breakpoint": "Desktop"
               },
               "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-              "mainId": "3532:28385"
+              "mainId": "3560:10775"
              }
             ]
            }
@@ -5667,6 +5967,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Copyright © 2022 MediaNews Group",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -5699,6 +6004,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Privacy policy",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -5733,6 +6043,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "terms of use",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -5765,6 +6080,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "accessibility",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -5799,6 +6119,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "cookie policy",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -5831,6 +6156,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "arbitration",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -5865,6 +6195,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "powered by wordPress.com VIP",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -5897,6 +6232,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Do not sell my info",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -6461,6 +6801,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "SubScribe",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -6493,6 +6838,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Member Services",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -6527,6 +6877,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Manage Subscriptions",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -6559,6 +6914,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Store",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -6593,6 +6953,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Archive search",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -6625,6 +6990,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Reprints",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -6708,6 +7078,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Marketplace",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -6740,6 +7115,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Place an Obituary",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -6774,6 +7154,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Place a Real Estate Ad",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -6805,6 +7190,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Lottery",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -6914,6 +7304,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "About OC Register",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -6947,6 +7342,11 @@
                "h": "FILL",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "About Southern California News Group",
               "autoResize": "HEIGHT",
               "align": "LEFT",
@@ -6978,6 +7378,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "MediaNews Group",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -7011,6 +7416,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Work With Us",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -7042,6 +7452,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Privacy Policy",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -7075,6 +7490,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Accessibility",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -7106,6 +7526,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "News Archive",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -7188,6 +7613,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Advertising Solutions",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -7220,6 +7650,11 @@
               "sizing": {
                "h": "FILL",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Get in Touch with a Marketing Strategist",
               "autoResize": "HEIGHT",
@@ -7254,6 +7689,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Request Media Kit",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -7287,6 +7727,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Creative Services",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -7319,6 +7764,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Content Marketing",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -7454,6 +7904,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Contact us",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -7486,6 +7941,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Corrections",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -7520,6 +7980,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "OC Register Store",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -7552,6 +8017,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Reader Rewards",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -7586,6 +8056,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Photo Reprints",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -7618,6 +8093,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Sponsored Access",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -7701,6 +8181,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Partners",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -7733,6 +8218,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Live Traffic Map",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -7767,6 +8257,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Newspapers in Education",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -7799,6 +8294,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Sponsor a Student",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -7876,7 +8376,7 @@
                "Breakpoint": "Desktop"
               },
               "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-              "mainId": "3532:28385"
+              "mainId": "3560:10775"
              }
             ]
            }
@@ -7989,6 +8489,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Copyright © 2022 MediaNews Group",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -8021,6 +8526,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Privacy policy",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -8055,6 +8565,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "terms of use",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -8087,6 +8602,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "accessibility",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -8121,6 +8641,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "cookie policy",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -8153,6 +8678,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "arbitration",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -8187,6 +8717,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "powered by wordPress.com VIP",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -8219,6 +8754,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Do not sell my info",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -8784,6 +9324,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "SubScribe",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -8816,6 +9361,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Member Services",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -8850,6 +9400,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Manage Subscriptions",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -8882,6 +9437,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Store",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -8916,6 +9476,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Archive search",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -8948,6 +9513,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Reprints",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -9031,6 +9601,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Marketplace",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -9063,6 +9638,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Place an Obituary",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -9097,6 +9677,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Place a Real Estate Ad",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -9128,6 +9713,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Lottery",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -9237,6 +9827,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "About OC Register",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -9270,6 +9865,11 @@
                "h": "FILL",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "About Southern California News Group",
               "autoResize": "HEIGHT",
               "align": "LEFT",
@@ -9301,6 +9901,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "MediaNews Group",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -9334,6 +9939,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Work With Us",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -9365,6 +9975,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Privacy Policy",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -9398,6 +10013,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Accessibility",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -9429,6 +10049,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "News Archive",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -9513,6 +10138,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Advertising Solutions",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -9545,6 +10175,11 @@
             "sizing": {
              "h": "FILL",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Get in Touch with a Marketing Strategist",
             "autoResize": "HEIGHT",
@@ -9579,6 +10214,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Request Media Kit",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -9612,6 +10252,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Creative Services",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -9644,6 +10289,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Content Marketing",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -9777,6 +10427,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Contact us",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -9809,6 +10464,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Corrections",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -9843,6 +10503,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "OC Register Store",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -9875,6 +10540,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Reader Rewards",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -9909,6 +10579,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Photo Reprints",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -9941,6 +10616,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Sponsored Access",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -10024,6 +10704,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/bold",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Partners",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -10056,6 +10741,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Live Traffic Map",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -10090,6 +10780,11 @@
                  "h": "HUG",
                  "v": "HUG"
                 },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
+                },
                 "text": "Newspapers in Education",
                 "autoResize": "WIDTH_AND_HEIGHT",
                 "align": "LEFT",
@@ -10122,6 +10817,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Sponsor a Student",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -10207,7 +10907,7 @@
              "Breakpoint": "Desktop"
             },
             "componentKey": "2cef8bcbca09d9cf34582f829e87c803a6d333a8",
-            "mainId": "3532:28385"
+            "mainId": "3560:10775"
            }
           ]
          }
@@ -10318,6 +11018,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Copyright © 2022 MediaNews Group",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -10350,6 +11055,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Privacy policy",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -10384,6 +11094,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "terms of use",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -10416,6 +11131,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "accessibility",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -10450,6 +11170,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "cookie policy",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -10482,6 +11207,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "arbitration",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -10516,6 +11246,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "powered by wordPress.com VIP",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -10548,6 +11283,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Do not sell my info",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -10597,7 +11337,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "SubScribe",
@@ -10620,7 +11360,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Marketplace",
@@ -10643,7 +11383,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "About OC Register",
@@ -10666,7 +11406,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Advertising Solutions",
@@ -10689,7 +11429,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Contact us",
@@ -10712,7 +11452,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Partners",
@@ -10735,7 +11475,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Privacy policy",
@@ -10758,7 +11498,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "terms of use",
@@ -10781,7 +11521,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "accessibility",
@@ -10804,7 +11544,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "cookie policy",
@@ -10827,7 +11567,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Do not sell my info",
@@ -10850,7 +11590,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "arbitration",
@@ -10873,7 +11613,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "powered by wordPress.com VIP",
@@ -10896,7 +11636,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Copyright © 2022 MediaNews Group",
@@ -10919,7 +11659,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Member Services",
@@ -10940,7 +11680,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Manage Subscriptions",
@@ -10961,7 +11701,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Store",
@@ -10982,7 +11722,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Archive search",
@@ -11003,7 +11743,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Reprints",
@@ -11024,7 +11764,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Place an Obituary",
@@ -11045,7 +11785,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Place a Real Estate Ad",
@@ -11066,7 +11806,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Lottery",
@@ -11087,7 +11827,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "About Southern California News Group",
@@ -11108,7 +11848,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "MediaNews Group",
@@ -11129,7 +11869,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Work With Us",
@@ -11150,7 +11890,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Privacy Policy",
@@ -11171,7 +11911,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Accessibility",
@@ -11192,7 +11932,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "News Archive",
@@ -11213,7 +11953,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Get in Touch with a Marketing Strategist",
@@ -11234,7 +11974,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Request Media Kit",
@@ -11255,7 +11995,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Creative Services",
@@ -11276,7 +12016,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Content Marketing",
@@ -11297,7 +12037,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Corrections",
@@ -11318,7 +12058,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "OC Register Store",
@@ -11339,7 +12079,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Reader Rewards",
@@ -11360,7 +12100,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Photo Reprints",
@@ -11381,7 +12121,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Sponsored Access",
@@ -11402,7 +12142,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Live Traffic Map",
@@ -11423,7 +12163,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Newspapers in Education",
@@ -11444,7 +12184,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Sponsor a Student",
@@ -11632,5 +12372,5 @@
  ],
  "knownIssues": [],
  "skeleton": "footer.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

@@ -1,6 +1,6 @@
 # MNG Design System — component spec export
 
-Exported 2026-10-07 from Figma. 55 items (32 components, 23 assemblies, 370 variants). Page templates are not included; the homepage templates are used only as "where it is used" and breakpoint evidence.
+Exported 2026-10-08 from Figma. 55 items (32 components, 23 assemblies, 370 variants). Page templates are not included; the homepage templates are used only as "where it is used" and breakpoint evidence.
 
 Rebuild: run the calls in `scripts/design-system-export/extract.js` in Figma, then `python3 scripts/design-system-export/build-design-system-export.py <raw> <previews> figma-exports/mng-design-system-export`.
 

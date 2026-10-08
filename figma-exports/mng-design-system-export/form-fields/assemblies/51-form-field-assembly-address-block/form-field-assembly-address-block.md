@@ -12,7 +12,7 @@ built_from: ["Form Field"]
 built_into: []
 spec_json: form-field-assembly-address-block.json
 skeleton: form-field-assembly-address-block.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Form Field Assembly / Address block
@@ -107,8 +107,8 @@ _Not used inside another exported item._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Desktop |
-| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Error message text. | Size=Mobile |
+| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error | font/size/18 |  | Error message text. | Size=Desktop |
+| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error | font/size/16 |  | Error message text. | Size=Mobile |
 
 ## Color & effects
 

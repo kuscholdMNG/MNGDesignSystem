@@ -12,7 +12,7 @@ built_from: ["Article Image Placeholder"]
 built_into: ["Upcoming Events Widget"]
 spec_json: event-card.json
 skeleton: event-card.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Event Card
@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Event Card** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 768 HomePage (via Upcoming Events Widget), 1100 HomePage (via Upcoming Events Widget), Desktop HomePage (via Upcoming Events Widget), 1024 HomePage (via Upcoming Events Widget), Mobile HomePage (via Upcoming Events Widget), 340 HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=Tablet ×3, Upcoming Events Widget / Device=1100 ×4, Upcoming Events Widget / Device=Desktop ×5, Upcoming Events Widget / Device=1024 ×4, Upcoming Events Widget / Device=Mobile ×2
+- **Event Card** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Upcoming Events Widget), Desktop HomePage (via Upcoming Events Widget), Mobile HomePage (via Upcoming Events Widget), 340 HomePage (via Upcoming Events Widget), 1100 HomePage (via Upcoming Events Widget), 768 HomePage (via Upcoming Events Widget); nested inside: Upcoming Events Widget / Device=1024 ×4, Upcoming Events Widget / Device=Desktop ×5, Upcoming Events Widget / Device=Mobile ×2, Upcoming Events Widget / Device=1100 ×4, Upcoming Events Widget / Device=Tablet ×3
 
 ## Breakpoints
 
@@ -88,9 +88,9 @@ _None._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Tue, Sep 15 | Noto Sans | Regular | 11 | 12.5px |  |  | #EEEEEE |  |  |  | Tue, Sep 15 | all |
-| Event Title Placeholder Text Here | Noto Sans | Bold | 13 | 14px |  |  | #FFFFFF |  |  | None lines | Event Title Placeholder Text Here | all |
-| Venue Name Placeholder | Noto Sans | Regular | 12 | 14px |  |  | #FFFFFF |  |  | None lines | Venue Name Placeholder | all |
+| Tue, Sep 15 | Noto Sans | Regular | 11 | 12.5px |  |  | #EEEEEE |  | font/family/noto-sans |  | Tue, Sep 15 | all |
+| Event Title Placeholder Text Here | Noto Sans | Bold | 13 | 14px |  |  | #FFFFFF |  | font/size/13 | None lines | Event Title Placeholder Text Here | all |
+| Venue Name Placeholder | Noto Sans | Regular | 12 | 14px |  |  | #FFFFFF |  | font/size/12 | None lines | Venue Name Placeholder | all |
 
 ## Color & effects
 

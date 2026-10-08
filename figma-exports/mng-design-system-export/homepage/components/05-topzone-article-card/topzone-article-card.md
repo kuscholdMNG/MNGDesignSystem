@@ -12,7 +12,7 @@ built_from: ["Article Image Placeholder", "Article Status Badge"]
 built_into: ["TOP ZONE Block"]
 spec_json: topzone-article-card.json
 skeleton: topzone-article-card.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # TopZone Article Card
@@ -134,7 +134,7 @@ exported: 2026-10-07
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Article Headline on News paper homepage in second zone posit | Noto Serif | Bold | 18 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Article Headline on News paper homepage in second  | Device=Mobile |
+| Article Headline on News paper homepage in second zone posit | Noto Serif | Bold | 18 | auto |  |  | #141414 | Colors/color/gray/min | font/size/18 |  | Article Headline on News paper homepage in second  | Device=Mobile |
 | Article Headline on News paper homepage in second zone posit | Noto Serif | Bold | 20 | 23.6px | -0.4px |  | #141414 | Colors/color/gray/min | Editorial/Titles/CardTertiary |  | Article Headline on News paper homepage in second  | Device=Desktop |
 | Article Headline on News paper homepage in second zone posit | Noto Serif | Bold | 16 | 18.88px |  |  | #141414 | Colors/color/gray/min | Editorial/Titles/CardTertiaryCompact |  | Article Headline on News paper homepage in second  | Device=1024 |
 | Article Headline on News paper homepage in second zone posit | Noto Serif | Bold | 18 | 21.6px |  |  | #141414 | Colors/color/gray/min | Editorial/Titles/CardTertiaryRow |  | Article Headline on News paper homepage in second  | Device=1100 |

@@ -12,7 +12,7 @@ built_from: ["Article Image Placeholder"]
 built_into: ["Feature + List Content Block"]
 spec_json: horizontal-feature-card.json
 skeleton: horizontal-feature-card.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Horizontal Feature Card
@@ -36,7 +36,7 @@ _None._
 
 ## Where it is used
 
-- **Horizontal Feature Card** — breakpoints: 768, 1100, 1280; templates (via assembly): 1100 HomePage (via Feature + List Content Block), Desktop HomePage (via Feature + List Content Block), 768 HomePage (via Feature + List Content Block); nested inside: Feature + List Content Block / Size=Default ×1
+- **Horizontal Feature Card** — breakpoints: 768, 1100, 1280; templates (via assembly): Desktop HomePage (via Feature + List Content Block), 768 HomePage (via Feature + List Content Block), 1100 HomePage (via Feature + List Content Block); nested inside: Feature + List Content Block / Size=Default ×1
 
 ## Breakpoints
 
@@ -86,7 +86,7 @@ _None._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Article Headline on News paper homepage in Wide rail lead po | Noto Serif | Bold | 26 | auto |  |  | #141414 | Colors/color/gray/min |  |  | Article Headline on News paper homepage in Wide ra | all |
+| Article Headline on News paper homepage in Wide rail lead po | Noto Serif | Bold | 26 | auto |  |  | #141414 | Colors/color/gray/min | font/size/26 |  | Article Headline on News paper homepage in Wide ra | all |
 | Vanroy Evan Smith, 39, of Long Beach is being held on $1 mil | Noto Sans | Regular | 15 | 21px |  |  | #393938 | Colors/color/gray/100 | Editorial/Body/Excerpt |  | Vanroy Evan Smith, 39, of Long Beach is being held | all |
 
 ## Color & effects

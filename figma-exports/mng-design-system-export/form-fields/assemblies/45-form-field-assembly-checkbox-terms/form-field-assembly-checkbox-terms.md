@@ -12,7 +12,7 @@ built_from: ["CheckBox"]
 built_into: []
 spec_json: form-field-assembly-checkbox-terms.json
 skeleton: form-field-assembly-checkbox-terms.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Form Field Assembly / Checkbox + Terms
@@ -108,10 +108,10 @@ _Not used inside another exported item._
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| I agree to the Terms of Service and Privacy Policy. | Noto Sans | Regular | 16 | auto |  |  | #000000 | Colors/color/gray/black |  |  | I agree to the Terms of Service and Privacy Policy | Size=Desktop |
-| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Please accept terms and conditions. | Size=Desktop |
-| I agree to the Terms of Service and Privacy Policy. | Noto Sans | Regular | 13 | auto |  |  | #000000 | Colors/color/gray/black |  |  | I agree to the Terms of Service and Privacy Policy | Size=Mobile |
-| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error |  |  | Please accept terms and conditions. | Size=Mobile |
+| I agree to the Terms of Service and Privacy Policy. | Noto Sans | Regular | 16 | auto |  |  | #000000 | Colors/color/gray/black | font/size/16 |  | I agree to the Terms of Service and Privacy Policy | Size=Desktop |
+| Error Message Text. | Noto Sans | Regular | 18 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error | font/size/18 |  | Please accept terms and conditions. | Size=Desktop |
+| I agree to the Terms of Service and Privacy Policy. | Noto Sans | Regular | 13 | auto |  |  | #000000 | Colors/color/gray/black | font/size/13 |  | I agree to the Terms of Service and Privacy Policy | Size=Mobile |
+| Error Message Text. | Noto Sans | Regular | 16 | auto |  |  | #CC2B27 | Colors/color/feedback/high-error | font/size/16 |  | Please accept terms and conditions. | Size=Mobile |
 
 ## Color & effects
 

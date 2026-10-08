@@ -200,7 +200,7 @@
    "key": "6f47ee23795007df62f06ec3ef7f576a1c87eb75",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3352-19481",
    "width": 340,
-   "height": 2378.7,
+   "height": 2362.7,
    "layout": {
     "dir": "VERTICAL",
     "gap": 16,
@@ -230,7 +230,7 @@
     "type": "COMPONENT",
     "id": "3352:19481",
     "w": 340,
-    "h": 2378.7,
+    "h": 2362.7,
     "x": 16,
     "y": 16,
     "sizing": {
@@ -255,7 +255,7 @@
       "type": "FRAME",
       "id": "3352:19148",
       "w": 340,
-      "h": 1140.7,
+      "h": 1124.7,
       "x": 0,
       "y": 0,
       "sizing": {
@@ -280,7 +280,7 @@
         "type": "INSTANCE",
         "id": "3352:19149",
         "w": 340,
-        "h": 648.7,
+        "h": 632.7,
         "x": 0,
         "y": 0,
         "sizing": {
@@ -320,7 +320,7 @@
         "w": 340,
         "h": 107,
         "x": 0,
-        "y": 664.7,
+        "y": 648.7,
         "sizing": {
          "h": "FILL",
          "v": "HUG"
@@ -358,7 +358,7 @@
         "w": 340,
         "h": 107,
         "x": 0,
-        "y": 787.7,
+        "y": 771.7,
         "sizing": {
          "h": "FIXED",
          "v": "HUG"
@@ -396,7 +396,7 @@
         "w": 340,
         "h": 107,
         "x": 0,
-        "y": 910.7,
+        "y": 894.7,
         "sizing": {
          "h": "FIXED",
          "v": "HUG"
@@ -434,7 +434,7 @@
         "w": 340,
         "h": 107,
         "x": 0,
-        "y": 1033.7,
+        "y": 1017.7,
         "sizing": {
          "h": "FIXED",
          "v": "HUG"
@@ -474,7 +474,7 @@
       "w": 340,
       "h": 956,
       "x": 0,
-      "y": 1156.7,
+      "y": 1140.7,
       "sizing": {
        "h": "FIXED",
        "v": "HUG"
@@ -512,7 +512,7 @@
       "w": 340,
       "h": 250,
       "x": 0,
-      "y": 2128.7,
+      "y": 2112.7,
       "sizing": {
        "h": "FILL",
        "v": "HUG"
@@ -1601,7 +1601,7 @@
       "type": "FRAME",
       "id": "3553:32824",
       "w": 405,
-      "h": 1019.2,
+      "h": 1025.2,
       "x": 0,
       "y": 0,
       "sizing": {
@@ -1626,7 +1626,7 @@
         "type": "INSTANCE",
         "id": "3553:32825",
         "w": 405,
-        "h": 608.7,
+        "h": 614.7,
         "x": 0,
         "y": 0,
         "sizing": {
@@ -1666,7 +1666,7 @@
         "w": 405,
         "h": 205.3,
         "x": 0,
-        "y": 608.7,
+        "y": 614.7,
         "sizing": {
          "h": "FILL",
          "v": "HUG"
@@ -1772,7 +1772,7 @@
         "w": 405,
         "h": 205.3,
         "x": 0,
-        "y": 813.9,
+        "y": 819.9,
         "sizing": {
          "h": "FILL",
          "v": "HUG"
@@ -2003,7 +2003,7 @@
    "key": "a2e3848a12d934ff77250990ec1fff1c9418267c",
    "url": "https://www.figma.com/design/b1iZxkFwtAYq9rElmnCAzd/?node-id=3553-33340",
    "width": 1065,
-   "height": 1313.7,
+   "height": 1323.7,
    "layout": {
     "dir": "HORIZONTAL",
     "gap": 16,
@@ -2038,7 +2038,7 @@
     "type": "COMPONENT",
     "id": "3553:33340",
     "w": 1065,
-    "h": 1313.7,
+    "h": 1323.7,
     "x": 3502.1,
     "y": 16,
     "sizing": {
@@ -2070,7 +2070,7 @@
       "type": "FRAME",
       "id": "3553:33283",
       "w": 500,
-      "h": 1297.7,
+      "h": 1307.7,
       "x": 0,
       "y": 0,
       "sizing": {
@@ -2095,7 +2095,7 @@
         "type": "INSTANCE",
         "id": "3553:33284",
         "w": 500,
-        "h": 541.7,
+        "h": 551.7,
         "x": 0,
         "y": 0,
         "sizing": {
@@ -2135,7 +2135,7 @@
         "w": 500,
         "h": 756,
         "x": 0,
-        "y": 541.7,
+        "y": 551.7,
         "sizing": {
          "h": "FILL",
          "v": "HUG"
@@ -2596,14 +2596,14 @@
   "Mobile: one column. The lead card stacks headline → image → dek → related list, followed by four horizontal thumbnail cards, Latest Headlines, and a 300×250 cube ad.",
   "1100 (checked against production on 6 sites): lead card over four stacked horizontal TopZone Article Card Device=1100 cards (280×157 image, 18/21.6 CardTertiaryRow headline), then the Latest Headlines column and a 300×1050 rail ad.",
   "1024 (checked against production on 6 sites): lead card over a 2×2 grid of vertical TopZone Article Card Device=1024 cards (16:9 image, 16/18.88 CardTertiaryCompact headline), 20px gaps, then Latest Headlines and the rail ad.",
-  "Device=Mobile: 340×2378.7, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360",
+  "Device=Mobile: 340×2362.7, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 340, 360",
   "Device=Desktop: 1264×1088, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1280",
   "Device=Tablet: 748×1787, vertical gap 16 pad 0/0/0/0 main MIN cross MIN — renders at 768",
   "Device=1024: 989×1066, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1024",
-  "Device=1100: 1065×1313.7, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1100"
+  "Device=1100: 1065×1323.7, horizontal gap 16 pad 0/0/16/0 main CENTER cross MIN — renders at 1100"
  ],
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "top-zone-block.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

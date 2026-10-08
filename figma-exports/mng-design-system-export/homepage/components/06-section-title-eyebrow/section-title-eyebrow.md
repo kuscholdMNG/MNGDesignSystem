@@ -12,7 +12,7 @@ built_from: ["Icons"]
 built_into: ["Latest Headlines", "Blueconic Block (Most Popular)", "Section Rail Card", "Photos Block"]
 spec_json: section-title-eyebrow.json
 skeleton: section-title-eyebrow.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Section Title / Eyebrow
@@ -40,7 +40,7 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Style=Underline** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), Desktop HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), 1100 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), 768 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), Mobile HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), 340 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card); nested inside: Section Rail Card / Device=1024, Layout=Wide ×1, Photos Block / Device=Desktop ×1, Section Rail Card / Device=1280, Layout=Wide ×1, Section Rail Card / Device=1100, Layout=Narrow ×1, Blueconic Block (Most Popular) / Device=1024 ×1, Section Rail Card / Device=Tablet, Layout=Wide ×1, Section Rail Card / Device=Tablet, Layout=Narrow ×1, Section Rail Card / Device=1100, Layout=Wide ×1, Blueconic Block (Most Popular) / Device=Tablet ×1, Section Rail Card / Device=Desktop, Layout=Narrow ×1, Blueconic Block (Most Popular) / Device=Mobile ×1, Photos Block / Device=1024 ×1, Latest Headlines / Device=Desktop ×1, Blueconic Block (Most Popular) / Device=1100 ×1, Section Rail Card / Device=1024, Layout=Narrow ×1, Photos Block / Device=1100 ×1, Photos Block / Device=Tablet ×1, Latest Headlines / Device=Tablet ×1, Blueconic Block (Most Popular) / Device=1280 ×1, Latest Headlines / Device=Mobile ×1, Blueconic Block (Most Popular) / Device=Desktop ×1, Photos Block / Device=Mobile ×1, Section Rail Card / Device=Mobile, Layout=Narrow ×1, Photos Block / Device=1280 ×1
+- **Style=Underline** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), 1100 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), Mobile HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), 340 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), Desktop HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card), 768 HomePage (via Blueconic Block (Most Popular), Latest Headlines, Photos Block, Section Rail Card); nested inside: Photos Block / Device=1024 ×1, Section Rail Card / Device=1024, Layout=Wide ×1, Photos Block / Device=1100 ×1, Photos Block / Device=Mobile ×1, Photos Block / Device=1280 ×1, Section Rail Card / Device=Tablet, Layout=Narrow ×1, Latest Headlines / Device=Tablet ×1, Blueconic Block (Most Popular) / Device=Mobile ×1, Photos Block / Device=Desktop ×1, Section Rail Card / Device=Desktop, Layout=Narrow ×1, Section Rail Card / Device=Tablet, Layout=Wide ×1, Photos Block / Device=Tablet ×1, Blueconic Block (Most Popular) / Device=1100 ×1, Section Rail Card / Device=1024, Layout=Narrow ×1, Section Rail Card / Device=1100, Layout=Narrow ×1, Blueconic Block (Most Popular) / Device=Tablet ×1, Blueconic Block (Most Popular) / Device=1024 ×1, Blueconic Block (Most Popular) / Device=1280 ×1, Section Rail Card / Device=1280, Layout=Wide ×1, Latest Headlines / Device=Desktop ×1, Latest Headlines / Device=Mobile ×1, Blueconic Block (Most Popular) / Device=Desktop ×1, Section Rail Card / Device=1100, Layout=Wide ×1, Section Rail Card / Device=Mobile, Layout=Narrow ×1
 - **Style=Bold** — breakpoints: —; no instances in this file
 
 ## Breakpoints
@@ -104,8 +104,8 @@ exported: 2026-10-07
 
 | Layer | Font | Weight | Size | Line height | Letter sp. | Case | Color | Color token | Type token | Truncate | Sample | Variants |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Latest Headlines | Noto Sans | Regular | 20 | 22px | 0.7px | UPPER | #393938 | Colors/color/gray/100 | font/theme |  | Latest Headlines | Style=Underline |
-| Latest Headlines | Noto Sans | Regular | 20 | auto | 0.595px | UPPER | #007580 | Colors/color/theme/primary | font/theme |  | Latest Headlines | Style=Bold |
+| Latest Headlines | Noto Sans | Regular | 20 | 22px | 0.7px | UPPER | #393938 | Colors/color/gray/100 | font/theme/eyebrow-size |  | Latest Headlines | Style=Underline |
+| Latest Headlines | Noto Sans | Regular | 20 | auto | 0.595px | UPPER | #007580 | Colors/color/theme/primary | font/theme/eyebrow-size |  | Latest Headlines | Style=Bold |
 
 ## Color & effects
 

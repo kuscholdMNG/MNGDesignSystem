@@ -2558,6 +2558,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "News",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -2590,6 +2595,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Fakeville Local",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -2624,6 +2634,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Sportsball",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -2656,6 +2671,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Stuff Happening",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -2690,6 +2710,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Obituaries",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -2722,6 +2747,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Sponsored Content",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -2756,6 +2786,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Public Notices",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -2788,6 +2823,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Business",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -2822,6 +2862,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Politics",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -2855,6 +2900,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Entertainment",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -2887,6 +2937,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Suburbs",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -2978,6 +3033,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/14",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Trending:",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -3011,6 +3071,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/15",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Dragon sightings near Fakeville shire",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -3027,7 +3092,7 @@
                 "variable": "Colors/color/gray/min"
                }
               ],
-              "textStyle": "Trending Bar Items"
+              "textStyle": "Editorial/Navigation/TrendingBarItem"
              }
             ]
            },
@@ -3042,6 +3107,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/15",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Pseudonyms up 3-1",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -3059,7 +3129,7 @@
                 "variable": "Colors/color/gray/min"
                }
               ],
-              "textStyle": "Trending Bar Items"
+              "textStyle": "Editorial/Navigation/TrendingBarItem"
              }
             ]
            },
@@ -3074,6 +3144,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/15",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Fire Storms in the forecast",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -3091,7 +3166,7 @@
                 "variable": "Colors/color/gray/min"
                }
               ],
-              "textStyle": "Trending Bar Items"
+              "textStyle": "Editorial/Navigation/TrendingBarItem"
              }
             ]
            },
@@ -3106,6 +3181,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/15",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "New Castle Complex Building Stalled",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -3123,7 +3203,7 @@
                 "variable": "Colors/color/gray/min"
                }
               ],
-              "textStyle": "Trending Bar Items"
+              "textStyle": "Editorial/Navigation/TrendingBarItem"
              }
             ]
            }
@@ -4317,6 +4397,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "News",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -4349,6 +4434,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Fakeville Local",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -4383,6 +4473,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Sportsball",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -4415,6 +4510,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Stuff Happening",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -4449,6 +4549,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Obituaries",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -4482,6 +4587,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Sponsored Content",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -4514,6 +4624,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Public Notices",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -4605,6 +4720,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/14",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Trending:",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -4638,6 +4758,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/15",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Dragon sightings near Fakeville shire",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -4654,7 +4779,7 @@
                 "variable": "Colors/color/gray/min"
                }
               ],
-              "textStyle": "Trending Bar Items"
+              "textStyle": "Editorial/Navigation/TrendingBarItem"
              }
             ]
            },
@@ -4669,6 +4794,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/15",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Pseudonyms up 3-1",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -4686,7 +4816,7 @@
                 "variable": "Colors/color/gray/min"
                }
               ],
-              "textStyle": "Trending Bar Items"
+              "textStyle": "Editorial/Navigation/TrendingBarItem"
              }
             ]
            },
@@ -4701,6 +4831,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/15",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Fire Storms in the forecast",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -4718,7 +4853,7 @@
                 "variable": "Colors/color/gray/min"
                }
               ],
-              "textStyle": "Trending Bar Items"
+              "textStyle": "Editorial/Navigation/TrendingBarItem"
              }
             ]
            },
@@ -4733,6 +4868,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/15",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "New Castle Complex Building Stalled",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -4750,7 +4890,7 @@
                 "variable": "Colors/color/gray/min"
                }
               ],
-              "textStyle": "Trending Bar Items"
+              "textStyle": "Editorial/Navigation/TrendingBarItem"
              }
             ]
            }
@@ -5452,6 +5592,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/40",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
+          },
           "text": "Section Name",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -5586,6 +5731,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Food & Drink",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -5618,6 +5768,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Movies",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -5652,6 +5807,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Music",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -5684,6 +5844,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Theater & Arts",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -5718,6 +5883,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Casinos",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -5750,6 +5920,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Travel",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -5784,6 +5959,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Books",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -5816,6 +5996,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Comics",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -5850,6 +6035,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Events",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -5883,6 +6073,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Amusements Parks",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -5915,6 +6110,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Shopping",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -6008,6 +6208,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/14",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
+          },
           "text": "Trending:",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -6041,6 +6246,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
+          },
           "text": "Dragon sightings near Fakeville shire",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -6057,7 +6267,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          },
@@ -6072,6 +6282,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Pseudonyms up 3-1",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -6089,7 +6304,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          },
@@ -6104,6 +6319,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Fire Storms in the forecast",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -6121,7 +6341,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          },
@@ -6136,6 +6356,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "New Castle Complex Building Stalled",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -6153,7 +6378,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          }
@@ -6928,6 +7153,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/40",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
+          },
           "text": "Section Name",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -7062,6 +7292,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "News",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -7094,6 +7329,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Fakeville Local",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -7128,6 +7368,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Sportsball",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -7160,6 +7405,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Stuff Happening",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -7194,6 +7444,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Obituaries",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -7226,6 +7481,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Sponsored Content",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -7260,6 +7520,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Public Notices",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -7292,6 +7557,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Business",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -7326,6 +7596,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Politics",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -7359,6 +7634,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Entertainment",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -7391,6 +7671,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Suburbs",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -7484,6 +7769,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/14",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
+          },
           "text": "Trending:",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -7517,6 +7807,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
+          },
           "text": "Dragon sightings near Fakeville shire",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -7533,7 +7828,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          },
@@ -7548,6 +7843,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Pseudonyms up 3-1",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -7565,7 +7865,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          },
@@ -7580,6 +7880,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Fire Storms in the forecast",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -7597,7 +7902,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          },
@@ -7612,6 +7917,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "New Castle Complex Building Stalled",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -7629,7 +7939,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          }
@@ -8404,6 +8714,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/40",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
+          },
           "text": "Section Name",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -8529,6 +8844,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Food & Drink",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -8561,6 +8881,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Movies",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -8595,6 +8920,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Music",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -8627,6 +8957,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Theater & Arts",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -8661,6 +8996,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Casinos",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -8693,6 +9033,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Travel",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -8727,6 +9072,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Books",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -8759,6 +9109,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Comics",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -8793,6 +9148,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Events",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -8825,6 +9185,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Amusements Parks",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -8918,6 +9283,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/14",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
+          },
           "text": "Trending:",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -8951,6 +9321,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
+          },
           "text": "Dragon sightings near Fakeville shire",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -8967,7 +9342,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          },
@@ -8982,6 +9357,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Pseudonyms up 3-1",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -8999,7 +9379,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          },
@@ -9014,6 +9394,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Fire Storms in the forecast",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -9031,7 +9416,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          },
@@ -9046,6 +9431,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "New Castle Complex Building Stalled",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -9063,7 +9453,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          }
@@ -9763,6 +10153,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/40",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
+          },
           "text": "Section Name",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -9888,6 +10283,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "News",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -9920,6 +10320,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Fakeville Local",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -9954,6 +10359,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Sportsball",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -9986,6 +10396,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Stuff Happening",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -10020,6 +10435,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Obituaries",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -10053,6 +10473,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Sponsored Content",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -10085,6 +10510,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Public Notices",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -10178,6 +10608,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/14",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
+          },
           "text": "Trending:",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -10211,6 +10646,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
+          },
           "text": "Dragon sightings near Fakeville shire",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -10227,7 +10667,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          },
@@ -10242,6 +10682,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Pseudonyms up 3-1",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -10259,7 +10704,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          },
@@ -10274,6 +10719,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Fire Storms in the forecast",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -10291,7 +10741,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          },
@@ -10306,6 +10756,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/15",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "New Castle Complex Building Stalled",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -10323,7 +10778,7 @@
               "variable": "Colors/color/gray/min"
              }
             ],
-            "textStyle": "Trending Bar Items"
+            "textStyle": "Editorial/Navigation/TrendingBarItem"
            }
           ]
          }
@@ -11385,6 +11840,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "87°F",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -11461,6 +11921,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Wednesday, September 25th 2022",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -11493,6 +11958,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/12",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Today’s E Edition",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -13231,6 +13701,11 @@
          "h": "HUG",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/bold",
+         "fontFamily": "Type Primitives/font/family/noto-serif"
+        },
         "text": "Section Name | Roughly forty characters of the article t...",
         "autoResize": "WIDTH_AND_HEIGHT",
         "align": "LEFT",
@@ -14659,6 +15134,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/40",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
+          },
           "text": "Obituaries",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -14843,6 +15323,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -14996,6 +15481,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -15462,6 +15952,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Submit an Obituary",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -16182,6 +16677,11 @@
            "h": "HUG",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/40",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-serif"
+          },
           "text": "Obituaries",
           "autoResize": "WIDTH_AND_HEIGHT",
           "align": "LEFT",
@@ -16367,6 +16867,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -16520,6 +17025,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -16986,6 +17496,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Submit an Obituary",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -17692,6 +18207,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -17845,6 +18365,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -18311,6 +18836,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Submit an Obituary",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -43599,6 +44129,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/26",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-serif"
+            },
             "text": "Obituaries",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -43806,6 +44341,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/14",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -43959,6 +44499,11 @@
           "sizing": {
            "h": "FIXED",
            "v": "FIXED"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "NONE",
@@ -44364,6 +44909,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Submit an Obituary",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -45037,6 +45587,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/26",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-serif"
+            },
             "text": "Obituaries",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -45245,6 +45800,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/14",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -45398,6 +45958,11 @@
           "sizing": {
            "h": "FIXED",
            "v": "FIXED"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "NONE",
@@ -45803,6 +46368,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Submit an Obituary",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -46476,6 +47046,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/26",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-serif"
+            },
             "text": "Obituaries",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -46683,6 +47258,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/14",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -46836,6 +47416,11 @@
           "sizing": {
            "h": "FIXED",
            "v": "FIXED"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "NONE",
@@ -47241,6 +47826,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Submit an Obituary",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -47914,6 +48504,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/26",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-serif"
+            },
             "text": "Obituaries",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "LEFT",
@@ -48122,6 +48717,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/14",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -48275,6 +48875,11 @@
           "sizing": {
            "h": "FIXED",
            "v": "FIXED"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "NONE",
@@ -48680,6 +49285,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Submit an Obituary",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -49407,6 +50017,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/26",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-serif"
+              },
               "text": "Obituaries",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -49595,6 +50210,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -49746,6 +50366,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/12",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Powered by",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -50215,6 +50840,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Submit an Obituary",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -50363,6 +50993,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Search Obituaries by Name",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -50519,6 +51154,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/12",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Powered by",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -50985,6 +51625,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Submit an Obituary",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -51716,6 +52361,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/26",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-serif"
+              },
               "text": "Obituaries",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -51905,6 +52555,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -52056,6 +52711,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/12",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Powered by",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -52525,6 +53185,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Submit an Obituary",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -52673,6 +53338,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Search Obituaries by Name",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -52829,6 +53499,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/12",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Powered by",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -53295,6 +53970,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Submit an Obituary",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -54026,6 +54706,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/26",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-serif"
+              },
               "text": "Obituaries",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -54227,6 +54912,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Search Obituaries by Name",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "CENTER",
@@ -54382,6 +55072,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -54848,6 +55543,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Submit an Obituary",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -55577,6 +56277,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/26",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-serif"
+              },
               "text": "Obituaries",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "LEFT",
@@ -55779,6 +56484,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Search Obituaries by Name",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "CENTER",
@@ -55934,6 +56644,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -56400,6 +57115,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Submit an Obituary",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -57063,6 +57783,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/14",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -57216,6 +57941,11 @@
           "sizing": {
            "h": "FIXED",
            "v": "FIXED"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "NONE",
@@ -57621,6 +58351,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Submit an Obituary",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -58282,6 +59017,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/14",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -58435,6 +59175,11 @@
           "sizing": {
            "h": "FIXED",
            "v": "FIXED"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "NONE",
@@ -58840,6 +59585,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Submit an Obituary",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -59522,6 +60272,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Search Obituaries by Name",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "CENTER",
@@ -59677,6 +60432,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -60143,6 +60903,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Submit an Obituary",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -60827,6 +61592,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Search Obituaries by Name",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "CENTER",
@@ -60978,6 +61748,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/12",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Powered by",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -61449,6 +62224,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Submit an Obituary",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -61597,6 +62377,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Search Obituaries by Name",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -61753,6 +62538,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/12",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Powered by",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -62219,6 +63009,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Submit an Obituary",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -62927,6 +63722,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -63080,6 +63880,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -63546,6 +64351,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Submit an Obituary",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -64209,6 +65019,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/14",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -64362,6 +65177,11 @@
           "sizing": {
            "h": "FIXED",
            "v": "FIXED"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "NONE",
@@ -64767,6 +65587,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Submit an Obituary",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -65428,6 +66253,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/14",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Search Obituaries by Name",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -65581,6 +66411,11 @@
           "sizing": {
            "h": "FIXED",
            "v": "FIXED"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "NONE",
@@ -65986,6 +66821,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/bold",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Submit an Obituary",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -66668,6 +67508,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Search Obituaries by Name",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "CENTER",
@@ -66823,6 +67668,11 @@
           "sizing": {
            "h": "HUG",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/12",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Powered by",
           "autoResize": "WIDTH_AND_HEIGHT",
@@ -67289,6 +68139,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Submit an Obituary",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -67973,6 +68828,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Search Obituaries by Name",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "CENTER",
@@ -68124,6 +68984,11 @@
               "sizing": {
                "h": "HUG",
                "v": "HUG"
+              },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/12",
+               "fontStyle": "Type Primitives/font/style/regular",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
               },
               "text": "Powered by",
               "autoResize": "WIDTH_AND_HEIGHT",
@@ -68595,6 +69460,11 @@
              "h": "HUG",
              "v": "HUG"
             },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/bold",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
+            },
             "text": "Submit an Obituary",
             "autoResize": "WIDTH_AND_HEIGHT",
             "align": "CENTER",
@@ -68743,6 +69613,11 @@
                 "sizing": {
                  "h": "HUG",
                  "v": "HUG"
+                },
+                "vars": {
+                 "fontSize": "Type Primitives/font/size/16",
+                 "fontStyle": "Type Primitives/font/style/regular",
+                 "fontFamily": "Type Primitives/font/family/noto-sans"
                 },
                 "text": "Search Obituaries by Name",
                 "autoResize": "WIDTH_AND_HEIGHT",
@@ -68899,6 +69774,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/12",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Powered by",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -69366,6 +70246,11 @@
                "h": "HUG",
                "v": "HUG"
               },
+              "vars": {
+               "fontSize": "Type Primitives/font/size/16",
+               "fontStyle": "Type Primitives/font/style/bold",
+               "fontFamily": "Type Primitives/font/family/noto-sans"
+              },
               "text": "Submit an Obituary",
               "autoResize": "WIDTH_AND_HEIGHT",
               "align": "CENTER",
@@ -69417,7 +70302,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "News",
@@ -69439,7 +70324,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Fakeville Local",
@@ -69461,7 +70346,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Sportsball",
@@ -69483,7 +70368,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Stuff Happening",
@@ -69505,7 +70390,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Obituaries",
@@ -69527,7 +70412,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Sponsored Content",
@@ -69549,7 +70434,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Public Notices",
@@ -69571,7 +70456,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Business",
@@ -69591,7 +70476,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Politics",
@@ -69611,7 +70496,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Entertainment",
@@ -69631,7 +70516,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Suburbs",
@@ -69651,7 +70536,7 @@
    "decoration": null,
    "color": "#007580",
    "token": "Colors/color/theme/primary",
-   "typeToken": null,
+   "typeToken": "font/size/14",
    "textStyle": null,
    "truncate": null,
    "sample": "Trending:",
@@ -69674,8 +70559,8 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
-   "textStyle": "Trending Bar Items",
+   "typeToken": "font/size/15",
+   "textStyle": "Editorial/Navigation/TrendingBarItem",
    "truncate": null,
    "sample": "Dragon sightings near Fakeville shire",
    "variants": [
@@ -69712,7 +70597,7 @@
    "decoration": null,
    "color": "#007580",
    "token": "Colors/color/theme/primary",
-   "typeToken": null,
+   "typeToken": "font/size/40",
    "textStyle": null,
    "truncate": null,
    "sample": "Section Name",
@@ -69733,7 +70618,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Food & Drink",
@@ -69772,7 +70657,7 @@
    "decoration": null,
    "color": "#007580",
    "token": "Colors/color/theme/primary",
-   "typeToken": null,
+   "typeToken": "font/size/14",
    "textStyle": null,
    "truncate": null,
    "sample": "Trending:",
@@ -69791,8 +70676,8 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
-   "textStyle": "Trending Bar Items",
+   "typeToken": "font/size/15",
+   "textStyle": "Editorial/Navigation/TrendingBarItem",
    "truncate": null,
    "sample": "Dragon sightings near Fakeville shire",
    "variants": [
@@ -69810,8 +70695,8 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
-   "textStyle": "Trending Bar Items",
+   "typeToken": "font/size/15",
+   "textStyle": "Editorial/Navigation/TrendingBarItem",
    "truncate": null,
    "sample": "Pseudonyms up 3-1",
    "variants": [
@@ -69829,8 +70714,8 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
-   "textStyle": "Trending Bar Items",
+   "typeToken": "font/size/15",
+   "textStyle": "Editorial/Navigation/TrendingBarItem",
    "truncate": null,
    "sample": "Fire Storms in the forecast",
    "variants": [
@@ -69848,8 +70733,8 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
-   "textStyle": "Trending Bar Items",
+   "typeToken": "font/size/15",
+   "textStyle": "Editorial/Navigation/TrendingBarItem",
    "truncate": null,
    "sample": "New Castle Complex Building Stalled",
    "variants": [
@@ -69867,7 +70752,7 @@
    "decoration": null,
    "color": "#007580",
    "token": "Colors/color/theme/primary",
-   "typeToken": null,
+   "typeToken": "font/size/40",
    "textStyle": null,
    "truncate": null,
    "sample": "Section Name",
@@ -69886,7 +70771,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "87°F",
@@ -69905,7 +70790,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Wednesday, September 25th 2022",
@@ -69924,7 +70809,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/12",
    "textStyle": null,
    "truncate": null,
    "sample": "Today’s E Edition",
@@ -69943,7 +70828,7 @@
    "decoration": null,
    "color": "#0A5962",
    "token": "Colors/color/theme/primary-dark",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Section Name",
@@ -69962,7 +70847,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": " | Roughly forty characters of the artic",
@@ -69981,7 +70866,7 @@
    "decoration": null,
    "color": "#007580",
    "token": "Colors/color/theme/primary",
-   "typeToken": null,
+   "typeToken": "font/size/40",
    "textStyle": null,
    "truncate": null,
    "sample": "Obituaries",
@@ -70001,7 +70886,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Search Obituaries by Name",
@@ -70023,7 +70908,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/12",
    "textStyle": null,
    "truncate": null,
    "sample": "Powered by",
@@ -70047,7 +70932,7 @@
    "decoration": null,
    "color": "#FFFFFF",
    "token": "Colors/color/gray/max",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Submit an Obituary",
@@ -70089,7 +70974,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/12",
    "textStyle": null,
    "truncate": null,
    "sample": "Powered by",
@@ -70112,7 +70997,7 @@
    "decoration": null,
    "color": "#007580",
    "token": "Colors/color/theme/primary",
-   "typeToken": null,
+   "typeToken": "font/size/26",
    "textStyle": null,
    "truncate": null,
    "sample": "Obituaries",
@@ -70134,7 +71019,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
-   "typeToken": null,
+   "typeToken": "font/size/14",
    "textStyle": null,
    "truncate": null,
    "sample": "Search Obituaries by Name",
@@ -70160,7 +71045,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/12",
    "textStyle": null,
    "truncate": null,
    "sample": "Powered by",
@@ -70186,7 +71071,7 @@
    "decoration": null,
    "color": "#007580",
    "token": "Colors/color/theme/primary",
-   "typeToken": null,
+   "typeToken": "font/size/26",
    "textStyle": null,
    "truncate": null,
    "sample": "Obituaries",
@@ -70208,7 +71093,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Search Obituaries by Name",
@@ -70238,7 +71123,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/12",
    "textStyle": null,
    "truncate": null,
    "sample": "Powered by",
@@ -70257,7 +71142,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/12",
    "textStyle": null,
    "truncate": null,
    "sample": "Powered by",
@@ -71314,5 +72199,5 @@
   "64 of 75 variants have no instances anywhere in WordPress Elements (unused, or used only from another file): `Device=XL-Desktop (≥1040px), State=AdFree, Page=Home`, `Device=XL-Desktop (≥1040px), State=Default, Page=Article`, `Device=XL-Desktop (≥1040px), State=AdFree, Page=SectionFront`, `Device=XL-Desktop (≥1040px), State=AdFree, Page=Article`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=Home`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=SectionFront`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=Article`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=Dashboard`, `Device=XL-Desktop (≥1040px), State=Default, Page=Obituaries`, `Device=XL-Desktop (≥1040px), State=AdFree, Page=Obituaries`, `Device=XL-Desktop (≥1040px), State=Scrolled, Page=Obituaries`, `Device=LG-TabletH (800–1039px), State=Default, Page=SectionFront`, `Device=LG-TabletH (800–1039px), State=Default, Page=Article`, `Device=MD-TabletV (640–799px), State=Scrolled, Page=Article`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=Home`, `Device=LG-TabletH (800–1039px), State=AdFree, Page=Home`, `Device=LG-TabletH (800–1039px), State=AdFree, Page=SectionFront`, `Device=LG-TabletH (800–1039px), State=AdFree, Page=Article`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=Dashboard`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=SectionFront`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=Article`, `Device=MD-TabletV (640–799px), State=AdFree, Page=Home`, `Device=MD-TabletV (640–799px), State=AdFree, Page=SectionFront`, `Device=MD-TabletV (640–799px), State=AdFree, Page=Article`, `Device=MD-TabletV (640–799px), State=Default, Page=SectionFront`, `Device=MD-TabletV (640–799px), State=Default, Page=Article`, `Device=MD-TabletV (640–799px), State=Scrolled, Page=Home`, `Device=MD-TabletV (640–799px), State=Scrolled, Page=SectionFront`, `Device=MD-TabletV (640–799px), State=Scrolled, Page=Dashboard`, `Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Home`, `Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Home`, `Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=SectionFront`, `Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Article`, `Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Article`, `Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=SectionFront`, `Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Article`, `Device=XS-Fold (≤639px · built 340px), State=Default, Page=SectionFront`, `Device=XS-Fold (≤639px · built 340px), State=Default, Page=Article`, `Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Home`, `Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=SectionFront`, `Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Home`, `Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=SectionFront`, `Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Article`, `Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Article`, `Device=XS-Fold (≤639px · built 340px), State=Default, Page=Dashboard`, `Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Dashboard`, `Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Dashboard`, `Device=SM-Mobile (≤639px · built 360px), State=Default, Page=Obituaries`, `Device=SM-Mobile (≤639px · built 360px), State=AdFree, Page=Obituaries`, `Device=XS-Fold (≤639px · built 340px), State=Default, Page=Obituaries`, `Device=XS-Fold (≤639px · built 340px), State=AdFree, Page=Obituaries`, `Device=LG-TabletH (800–1039px), State=Default, Page=Obituaries`, `Device=LG-TabletH (800–1039px), State=AdFree, Page=Obituaries`, `Device=MD-TabletV (640–799px), State=Default, Page=Obituaries`, `Device=MD-TabletV (640–799px), State=AdFree, Page=Obituaries`, `Device=SM-Mobile (≤639px · built 360px), State=Scrolled, Page=Obituaries`, `Device=XS-Fold (≤639px · built 340px), State=Scrolled, Page=Obituaries`, `Device=MD-TabletV (640–799px), State=Scrolled, Page=Obituaries`, `Device=LG-TabletH (800–1039px), State=Scrolled, Page=Obituaries`, `Device=XL-Desktop (≥1040px), State=AdFree-Scrolled, Page=Obituaries`, `Device=SM-Mobile (≤639px · built 360px), State=AdFree-Scrolled, Page=Obituaries`, `Device=XS-Fold (≤639px · built 340px), State=AdFree-Scrolled, Page=Obituaries`, `Device=MD-TabletV (640–799px), State=AdFree-Scrolled, Page=Obituaries`, `Device=LG-TabletH (800–1039px), State=AdFree-Scrolled, Page=Obituaries`."
  ],
  "skeleton": "masthead.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

@@ -12,7 +12,7 @@ built_from: ["Section Title / Eyebrow", "1Col Article Card", "Feature + List Con
 built_into: []
 spec_json: section-rail-card.json
 skeleton: section-rail-card.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Section Rail Card

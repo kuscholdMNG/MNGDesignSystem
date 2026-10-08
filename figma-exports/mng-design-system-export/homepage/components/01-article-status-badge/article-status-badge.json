@@ -77,6 +77,15 @@
     "id": "3344:63994",
     "templatesDirect": {},
     "templatesVia": {
+     "1100 HomePage": [
+      "Latest Headlines List Item",
+      "TopZone Article Card",
+      "Zone 1 Lead Article Card"
+     ],
+     "1024 HomePage": [
+      "Latest Headlines List Item",
+      "Zone 1 Lead Article Card"
+     ],
      "Mobile HomePage": [
       "Latest Headlines List Item",
       "TopZone Article Card",
@@ -91,28 +100,19 @@
       "Latest Headlines List Item",
       "Zone 1 Lead Article Card"
      ],
-     "1100 HomePage": [
-      "Latest Headlines List Item",
-      "TopZone Article Card",
-      "Zone 1 Lead Article Card"
-     ],
-     "1024 HomePage": [
-      "Latest Headlines List Item",
-      "Zone 1 Lead Article Card"
-     ],
      "768 HomePage": [
       "Latest Headlines List Item",
       "Zone 1 Lead Article Card"
      ]
     },
     "inComponents": {
-     "TopZone Article Card / Device=Mobile": 1,
-     "Zone 1 Lead Article Card / Device=Desktop": 1,
-     "TopZone Article Card / Device=1100": 1,
      "Zone 1 Lead Article Card / Device=Mobile": 1,
+     "TopZone Article Card / Device=1100": 1,
      "Latest Headlines List Item / Type=Standard": 1,
+     "Zone 1 Lead Article Card / Device=Desktop": 1,
+     "Zone 1 Lead Article Card / Device=Tablet": 1,
      "Latest Headlines List Item / Type=First": 1,
-     "Zone 1 Lead Article Card / Device=Tablet": 1
+     "TopZone Article Card / Device=Mobile": 1
     },
     "other": {},
     "breakpoints": [
@@ -129,9 +129,6 @@
     "id": "3344:63989",
     "templatesDirect": {},
     "templatesVia": {
-     "1100 HomePage": [
-      "1Col Article Card"
-     ],
      "1024 HomePage": [
       "1Col Article Card"
      ],
@@ -141,10 +138,13 @@
      "340 HomePage": [
       "1Col Article Card"
      ],
-     "Desktop HomePage": [
+     "1100 HomePage": [
       "1Col Article Card"
      ],
      "768 HomePage": [
+      "1Col Article Card"
+     ],
+     "Desktop HomePage": [
       "1Col Article Card"
      ]
     },
@@ -171,9 +171,6 @@
       "Latest Headlines List Item",
       "TopZone Article Card"
      ],
-     "768 HomePage": [
-      "Latest Headlines List Item"
-     ],
      "Desktop HomePage": [
       "Latest Headlines List Item",
       "TopZone Article Card"
@@ -186,12 +183,15 @@
      ],
      "340 HomePage": [
       "Latest Headlines List Item"
+     ],
+     "768 HomePage": [
+      "Latest Headlines List Item"
      ]
     },
     "inComponents": {
      "TopZone Article Card / Device=1024": 1,
-     "Latest Headlines List Item / Type=Sponsored": 1,
-     "TopZone Article Card / Device=Desktop": 1
+     "TopZone Article Card / Device=Desktop": 1,
+     "Latest Headlines List Item / Type=Sponsored": 1
     },
     "other": {},
     "breakpoints": [
@@ -386,6 +386,11 @@
        "h": "HUG",
        "v": "HUG"
       },
+      "vars": {
+       "fontSize": "Type Primitives/font/size/13",
+       "fontStyle": "Type Primitives/font/style/semibold",
+       "fontFamily": "Type Primitives/font/family/noto-sans"
+      },
       "text": "Subscriber Only",
       "autoResize": "WIDTH_AND_HEIGHT",
       "align": "LEFT",
@@ -501,6 +506,11 @@
        "h": "HUG",
        "v": "HUG"
       },
+      "vars": {
+       "fontSize": "Type Primitives/font/size/13",
+       "fontStyle": "Type Primitives/font/style/semibold",
+       "fontFamily": "Type Primitives/font/family/noto-sans"
+      },
       "text": "Sponsored content",
       "autoResize": "WIDTH_AND_HEIGHT",
       "align": "LEFT",
@@ -543,7 +553,7 @@
    "decoration": null,
    "color": "#FFFFFF",
    "token": "Colors/color/gray/max",
-   "typeToken": null,
+   "typeToken": "font/size/13",
    "textStyle": null,
    "truncate": null,
    "sample": "Subscriber Only",
@@ -562,7 +572,7 @@
    "decoration": null,
    "color": "#FFFFFF",
    "token": "Colors/color/gray/max",
-   "typeToken": null,
+   "typeToken": "font/size/13",
    "textStyle": null,
    "truncate": null,
    "sample": "Sponsored content",
@@ -606,5 +616,5 @@
   "1 solid paints are hard-coded (not bound to a color variable): #7D161E ×1."
  ],
  "skeleton": "article-status-badge.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

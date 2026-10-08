@@ -2,10 +2,13 @@
 // Run each block with figma_execute (Desktop Bridge plugin). Big results are saved by the tool to
 // tool-results/*.txt — copy each one into <raw>/ under the file name given, then run
 //   python3 build-design-system-export.py <raw> <previews> figma-exports/mng-design-system-export [date]
-// Last used 2026-10-07.
+// Last used 2026-10-08. Tips: a result small enough to come back inline isn't saved to a file — add pad:'x'.repeat(90000)
+// to the returned object and strip it before saving. To refresh only some previews, copy the existing export's
+// previews/ back into <previews>/<section-slug>/ (item slug → section slug; the Form Field Dashboard Mockup Set lives in
+// form-field/, the two same-named Videos carousel mains are <slug>--<slug>.png and <slug>--<slug>-2.png) and re-export just the changed mains.
 //
 // Files: WordPress Elements = b1iZxkFwtAYq9rElmnCAzd, MNG Design System = jFHYqhZbJjvWQmDI4myCsd.
-// After a library publish, relaunch the Desktop Bridge plugin before running these.
+// After a library publish, accept the update in WordPress Elements and rebuild/relaunch the Desktop Bridge plugin before running these.
 
 // ============================================================ 0. SETUP (run once per file, both files)
 // Setup: defines globalThis.__ser / __entry used by the batch calls. Run once per file (fileKey).
@@ -52,7 +55,7 @@ globalThis.__ser=ser;globalThis.__mainEntry=mainEntry;globalThis.__notes=notes;
 return 'ok';
 
 // ============================================================ 1. SPECS
-// 1a. Homepage, WordPress Elements. Run with RANGE=[0,12] → specs_hp_a.json, then [12,24] → specs_hp_b.json
+// 1a. Homepage, WordPress Elements (30 sections as of 2026-10-08). Run with RANGE=[0,12] → specs_hp_a.json, [12,21] → specs_hp_b.json, [21,30] → specs_hp_c.json
 /*
 const RANGE=[0,12];const root=await figma.getNodeByIdAsync('3334:42288');const all=root.findAll(n=>n.type==='FRAME'&&n.name.endsWith(' Container')&&n.children.some(c=>c.name==='Variant Grid'));const out=[];
 for(const s of all.slice(RANGE[0],RANGE[1])){const head=s.children.find(c=>c.name==='Header');const desc=s.children.find(c=>c.name==='Description');const grid=s.children.find(c=>c.name==='Variant Grid');
@@ -84,7 +87,17 @@ return {USAGE_MARKER:'wp',out};
 */
 
 // ============================================================ 3. COLOR MODES (main file → colormodes.json)
-// For each color/<name> variable in the "Colors" collection: {modes, def, out:{name:{mode:hex}}}.
+// For each color/<name> variable in the "Colors" collection: {modes, def, out:{name:{mode:hex}}}. Save the *result* object itself (not the tool wrapper).
+/*
+const hex=c=>'#'+[c.r,c.g,c.b].map(v=>Math.round(v*255).toString(16).padStart(2,'0')).join('').toUpperCase();
+const col=(await figma.variables.getLocalVariableCollectionsAsync()).find(c=>c.name==='Colors');
+const modes=col.modes.map(m=>m.name); const def=col.modes.find(m=>m.modeId===col.defaultModeId).name;
+const all=(await figma.variables.getLocalVariablesAsync('COLOR')).filter(v=>v.variableCollectionId===col.id);
+const byId={}; for(const v of all) byId[v.id]=v;
+async function resolve(v,modeId,depth=0){let x=v.valuesByMode[modeId]; if(x&&x.type==='VARIABLE_ALIAS'){ if(depth>8) return null; const t=byId[x.id]||await figma.variables.getVariableByIdAsync(x.id); if(!t) return null; const mid=t.variableCollectionId===col.id?modeId:Object.keys(t.valuesByMode)[0]; return resolve(t,mid,depth+1);} return x&&x.r!==undefined?hex(x):null;}
+const out={}; for(const v of all){ const short=v.name.replace(/^color\//,''); out[short]={}; for(const m of col.modes) out[short][m.name]=await resolve(v,m.modeId); }
+return {modes,def,out};
+*/
 
 // ============================================================ 4. PREVIEWS (batches of ~10 mains; Masthead in 3 slices of 25)
 /*

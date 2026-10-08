@@ -12,7 +12,7 @@ built_from: ["Search Field / Obituaries — Core"]
 built_into: []
 spec_json: search-field-obituaries.json
 skeleton: search-field-obituaries.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Search Field / Obituaries

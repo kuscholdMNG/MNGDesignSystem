@@ -89,18 +89,18 @@
       "Feature + List Content Block",
       "Section Rail Card"
      ],
-     "768 HomePage": [
-      "Feature + List Content Block",
+     "Mobile HomePage": [
+      "Section Rail Card"
+     ],
+     "340 HomePage": [
       "Section Rail Card"
      ],
      "1024 HomePage": [
       "Feature + List Content Block",
       "Section Rail Card"
      ],
-     "Mobile HomePage": [
-      "Section Rail Card"
-     ],
-     "340 HomePage": [
+     "768 HomePage": [
+      "Feature + List Content Block",
       "Section Rail Card"
      ],
      "Desktop HomePage": [
@@ -110,10 +110,10 @@
     },
     "inComponents": {
      "Section Rail Card / Device=1100, Layout=Narrow": 4,
-     "Section Rail Card / Device=Tablet, Layout=Narrow": 4,
-     "Feature + List Content Block / Size=Narrow": 3,
      "Section Rail Card / Device=Mobile, Layout=Narrow": 4,
      "Section Rail Card / Device=1024, Layout=Narrow": 4,
+     "Feature + List Content Block / Size=Narrow": 3,
+     "Section Rail Card / Device=Tablet, Layout=Narrow": 4,
      "Section Rail Card / Device=Desktop, Layout=Narrow": 4,
      "Feature + List Content Block / Size=Default": 3
     },
@@ -132,9 +132,6 @@
     "id": "3536:39050",
     "templatesDirect": {},
     "templatesVia": {
-     "1100 HomePage": [
-      "Photos Block"
-     ],
      "1024 HomePage": [
       "Photos Block"
      ],
@@ -144,20 +141,23 @@
      "340 HomePage": [
       "Photos Block"
      ],
-     "Desktop HomePage": [
+     "1100 HomePage": [
       "Photos Block"
      ],
      "768 HomePage": [
       "Photos Block"
+     ],
+     "Desktop HomePage": [
+      "Photos Block"
      ]
     },
     "inComponents": {
-     "Photos Block / Device=Desktop": 1,
-     "Photos Block / Device=1100": 1,
      "Photos Block / Device=1024": 1,
      "Photos Block / Device=Mobile": 1,
+     "Photos Block / Device=1100": 1,
+     "Photos Block / Device=Tablet": 1,
      "Photos Block / Device=1280": 1,
-     "Photos Block / Device=Tablet": 1
+     "Photos Block / Device=Desktop": 1
     },
     "other": {},
     "breakpoints": [
@@ -533,6 +533,11 @@
         "sizing": {
          "h": "FILL",
          "v": "HUG"
+        },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/13",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
         },
         "text": "56 mins ago",
         "autoResize": "HEIGHT",
@@ -916,6 +921,11 @@
          "h": "FILL",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/13",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "56 mins ago",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -1019,7 +1029,7 @@
    "decoration": null,
    "color": "#5E5D5C",
    "token": "Colors/color/gray/200",
-   "typeToken": null,
+   "typeToken": "font/size/13",
    "textStyle": null,
    "truncate": null,
    "sample": "56 mins ago",
@@ -1157,5 +1167,5 @@
  "productionRefs": [],
  "knownIssues": [],
  "skeleton": "1col-article-card.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

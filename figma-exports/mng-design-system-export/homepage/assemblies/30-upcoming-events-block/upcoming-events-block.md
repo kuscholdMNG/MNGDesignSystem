@@ -12,7 +12,7 @@ built_from: ["Upcoming Events Widget", "Ad Blocks"]
 built_into: []
 spec_json: upcoming-events-block.json
 skeleton: upcoming-events-block.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # Upcoming Events Block

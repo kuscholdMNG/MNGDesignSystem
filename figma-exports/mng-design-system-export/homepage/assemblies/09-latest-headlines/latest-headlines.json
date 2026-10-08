@@ -112,20 +112,20 @@
     "id": "3476:62164",
     "templatesDirect": {},
     "templatesVia": {
-     "Desktop HomePage": [
-      "TOP ZONE Block"
-     ],
      "1100 HomePage": [
       "TOP ZONE Block"
      ],
      "1024 HomePage": [
       "TOP ZONE Block"
+     ],
+     "Desktop HomePage": [
+      "TOP ZONE Block"
      ]
     },
     "inComponents": {
-     "TOP ZONE Block / Device=Desktop": 1,
      "TOP ZONE Block / Device=1100": 1,
-     "TOP ZONE Block / Device=1024": 1
+     "TOP ZONE Block / Device=1024": 1,
+     "TOP ZONE Block / Device=Desktop": 1
     },
     "other": {},
     "breakpoints": [
@@ -1680,5 +1680,5 @@
   "TOP ZONE Block Device=1024 and Device=1100 hold a 'Latest Headlines MinCol' frame (252 / 219 wide) built from Latest Headlines List Item instances instead of a Latest Headlines instance, so 1024 and 1100 are not counted above."
  ],
  "skeleton": "latest-headlines.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

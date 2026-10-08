@@ -165,20 +165,20 @@
     "templatesDirect": {},
     "templatesVia": {},
     "inComponents": {
-     "ModalsCenter / Device=Desktop": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
-     "Form Field Assembly / Zip + Street # / Size=Desktop": 2,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel": 4,
-     "ModalsCenter / Device=TabletH": 1,
-     "Form Field Assembly / Zip + Phone / Size=Desktop": 2,
      "Form Field Assembly / CC details / Size=Desktop": 4,
-     "Form Field Assembly / Address block / Size=Desktop": 4,
-     "Modals/Desktop": 1,
-     "Form Field Assembly / Password / Size=Desktop": 2,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSubsCCupdate, PanelType=Panel": 4,
      "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
+     "ModalsCenter / Device=Desktop": 1,
+     "ModalsCenter / Device=TabletH": 1,
      "Form Field Assembly / Name pair / Size=Desktop": 2,
-     "InLineMessage / Device=Desktop, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
+     "Form Field Assembly / Password / Size=Desktop": 2,
+     "Form Field Assembly / Address block / Size=Desktop": 4,
+     "Form Field Assembly / Zip + Street # / Size=Desktop": 2,
+     "Modals/Desktop": 1,
+     "InLineMessage / Device=Desktop, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
+     "Form Field Assembly / Zip + Phone / Size=Desktop": 2
     },
     "other": {
      "Modal Panels | 2025.12.29 ▸ Frame 12672": 3,
@@ -200,22 +200,22 @@
      "ModalsCenter / Device=TabletV": 1,
      "Form Field Assembly / Zip + Phone / Size=Mobile": 2,
      "InLineMessage / Device=FOLD, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 4,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
+     "Form Field Assembly / Password / Size=Mobile": 2,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 4,
      "Form Field Assembly / Address block / Size=Mobile": 4,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
+     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
+     "Form Field Assembly / Name pair / Size=Mobile": 2,
      "ModalsCenter / Device=FOLD": 1,
      "InLineMessage / Device=Mobile, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
      "Form Field Assembly / CC details / Size=Mobile": 4,
-     "Form Field Assembly / Zip + Street # / Size=Mobile": 2,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSubscriptionCCinfo, PanelType=Panel": 4,
      "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
-     "Form Field Assembly / Name pair / Size=Mobile": 2,
-     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
+     "Form Field Assembly / Zip + Street # / Size=Mobile": 2,
      "ModalsCenter / Device=MobileScroll": 1,
      "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSSetUpv2, PanelType=Panel": 1,
-     "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSSetUpMVP, PanelType=Panel": 1,
-     "Form Field Assembly / Password / Size=Mobile": 2,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashProfileDisplayName, PanelType=Panel": 1,
      "InLineMessage / Device=Mobile, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
+     "InLineMessage / Device=FOLD, Priority=none, Location=DashSMSEdit, PanelType=Panel": 1,
      "ModalsCenter / Device=Mobile": 1
     },
     "other": {},
@@ -543,6 +543,11 @@
            "h": "FILL",
            "v": "HUG"
           },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
+          },
           "text": "Field Label",
           "autoResize": "HEIGHT",
           "align": "LEFT",
@@ -752,6 +757,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/18",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Placeholder text",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -1019,6 +1029,11 @@
          "v": "HUG"
         },
         "opacity": 0,
+        "vars": {
+         "fontSize": "Type Primitives/font/size/18",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Error message text.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -1220,6 +1235,11 @@
           "sizing": {
            "h": "FILL",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/14",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Field Label",
           "autoResize": "HEIGHT",
@@ -1430,6 +1450,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Placeholder text",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -1697,6 +1722,11 @@
          "v": "HUG"
         },
         "opacity": 0,
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Error message text.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -1900,6 +1930,11 @@
           "sizing": {
            "h": "FILL",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Field Label",
           "autoResize": "HEIGHT",
@@ -2110,6 +2145,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/18",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "you@example.com",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -2377,6 +2417,11 @@
          "v": "HUG"
         },
         "opacity": 0,
+        "vars": {
+         "fontSize": "Type Primitives/font/size/18",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Error message text.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -2580,6 +2625,11 @@
           "sizing": {
            "h": "FILL",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Field Label",
           "autoResize": "HEIGHT",
@@ -2790,6 +2840,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/18",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Placeholder text",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -3057,6 +3112,11 @@
          "v": "HUG"
         },
         "opacity": 0,
+        "vars": {
+         "fontSize": "Type Primitives/font/size/18",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Error message text.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -3260,6 +3320,11 @@
           "sizing": {
            "h": "FILL",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Field Label",
           "autoResize": "HEIGHT",
@@ -3470,6 +3535,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/18",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Placeholder text",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -3736,6 +3806,11 @@
          "h": "FILL",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/18",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Error message text.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -3939,6 +4014,11 @@
           "sizing": {
            "h": "FILL",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/16",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Field Label",
           "autoResize": "HEIGHT",
@@ -4149,6 +4229,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/18",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Placeholder text",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -4416,6 +4501,11 @@
          "v": "HUG"
         },
         "opacity": 0,
+        "vars": {
+         "fontSize": "Type Primitives/font/size/18",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Error message text.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -4617,6 +4707,11 @@
           "sizing": {
            "h": "FILL",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/14",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Field Label",
           "autoResize": "HEIGHT",
@@ -4827,6 +4922,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "you@example.com",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -5094,6 +5194,11 @@
          "v": "HUG"
         },
         "opacity": 0,
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Error message text.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -5295,6 +5400,11 @@
           "sizing": {
            "h": "FILL",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/14",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Field Label",
           "autoResize": "HEIGHT",
@@ -5505,6 +5615,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Placeholder text",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -5771,6 +5886,11 @@
          "v": "HUG"
         },
         "opacity": 0,
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Error message text.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -5972,6 +6092,11 @@
           "sizing": {
            "h": "FILL",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/14",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Field Label",
           "autoResize": "HEIGHT",
@@ -6182,6 +6307,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Placeholder text",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -6448,6 +6578,11 @@
          "h": "FILL",
          "v": "HUG"
         },
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Error message text.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -6649,6 +6784,11 @@
           "sizing": {
            "h": "FILL",
            "v": "HUG"
+          },
+          "vars": {
+           "fontSize": "Type Primitives/font/size/14",
+           "fontStyle": "Type Primitives/font/style/regular",
+           "fontFamily": "Type Primitives/font/family/noto-sans"
           },
           "text": "Field Label",
           "autoResize": "HEIGHT",
@@ -6859,6 +6999,11 @@
             "sizing": {
              "h": "HUG",
              "v": "HUG"
+            },
+            "vars": {
+             "fontSize": "Type Primitives/font/size/16",
+             "fontStyle": "Type Primitives/font/style/regular",
+             "fontFamily": "Type Primitives/font/family/noto-sans"
             },
             "text": "Placeholder text",
             "autoResize": "WIDTH_AND_HEIGHT",
@@ -7126,6 +7271,11 @@
          "v": "HUG"
         },
         "opacity": 0,
+        "vars": {
+         "fontSize": "Type Primitives/font/size/16",
+         "fontStyle": "Type Primitives/font/style/regular",
+         "fontFamily": "Type Primitives/font/family/noto-sans"
+        },
         "text": "Error message text.",
         "autoResize": "HEIGHT",
         "align": "LEFT",
@@ -7170,7 +7320,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Field Label",
@@ -7192,7 +7342,7 @@
    "decoration": null,
    "color": "#A7A6A3",
    "token": "Colors/color/gray/400",
-   "typeToken": null,
+   "typeToken": "font/size/18",
    "textStyle": null,
    "truncate": null,
    "sample": "Placeholder text",
@@ -7213,7 +7363,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
-   "typeToken": null,
+   "typeToken": "font/size/18",
    "textStyle": null,
    "truncate": null,
    "sample": "Error message text.",
@@ -7236,7 +7386,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/14",
    "textStyle": null,
    "truncate": null,
    "sample": "Field Label",
@@ -7258,7 +7408,7 @@
    "decoration": null,
    "color": "#A7A6A3",
    "token": "Colors/color/gray/400",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Placeholder text",
@@ -7279,7 +7429,7 @@
    "decoration": null,
    "color": "#CC2B27",
    "token": "Colors/color/feedback/high-error",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Error message text.",
@@ -7302,7 +7452,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/18",
    "textStyle": null,
    "truncate": null,
    "sample": "you@example.com",
@@ -7321,7 +7471,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Field Label",
@@ -7340,7 +7490,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
-   "typeToken": null,
+   "typeToken": "font/size/18",
    "textStyle": null,
    "truncate": null,
    "sample": "Placeholder text",
@@ -7359,7 +7509,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "you@example.com",
@@ -7378,7 +7528,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
-   "typeToken": null,
+   "typeToken": "font/size/14",
    "textStyle": null,
    "truncate": null,
    "sample": "Field Label",
@@ -7397,7 +7547,7 @@
    "decoration": null,
    "color": "#838280",
    "token": "Colors/color/gray/300",
-   "typeToken": null,
+   "typeToken": "font/size/16",
    "textStyle": null,
    "truncate": null,
    "sample": "Placeholder text",
@@ -7548,5 +7698,5 @@
   "7 of 10 variants have no instances anywhere in MNG Design System (unused, or used only from another file): `Size=Desktop, State=Focus`, `Size=Desktop, State=Error`, `Size=Desktop, State=Disabled`, `Size=Mobile, State=Filled`, `Size=Mobile, State=Focus`, `Size=Mobile, State=Error`, `Size=Mobile, State=Disabled`."
  ],
  "skeleton": "form-field.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

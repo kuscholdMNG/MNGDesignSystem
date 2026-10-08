@@ -12,7 +12,7 @@ built_from: ["Button Primary", "UserPic"]
 built_into: []
 spec_json: userstatus.json
 skeleton: userstatus.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # UserStatus
@@ -46,7 +46,7 @@ exported: 2026-10-07
 
 - **Device=Desktop, status=none** — breakpoints: 1024, 1100, 1280; nested inside: AccountMenu / Status=loggedOut, View=Closed, Device=XL-Desktop, UserType=loggedOut ×1
 - **Device=Desktop, status=nonSub** — breakpoints: 1024, 1100, 1280; no instances in this file
-- **Device=Desktop, status=subscriber** — breakpoints: 1024, 1100, 1280; nested inside: AccountMenu / Status=alert, View=Open, Device=XS-Fold, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub ×1, AccountMenu / Status=alert, View=Open, Device=MD-TabletV, UserType=PremSub ×1, AccountMenu / Status=alert, View=Open, Device=XL-Desktop, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Closed, Device=SM-Mobile, UserType=loggedIn ×1, AccountMenu / Status=loggedIn, View=Closed, Device=MD-TabletV, UserType=loggedIn ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=nonSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=BasicSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=groupSub ×1, AccountMenu / Status=loggedIn, View=Closed, Device=XL-Desktop, UserType=loggedIn ×1, AccountMenu / Status=loggedIn, View=Closed, Device=LG-TabletH, UserType=loggedIn ×1, AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub ×1, AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=PremSub ×1; other pages: Menus and Parts ▸ Frame 12800 ×12
+- **Device=Desktop, status=subscriber** — breakpoints: 1024, 1100, 1280; nested inside: AccountMenu / Status=alert, View=Open, Device=XS-Fold, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=nonSub ×1, AccountMenu / Status=loggedIn, View=Closed, Device=SM-Mobile, UserType=loggedIn ×1, AccountMenu / Status=loggedIn, View=Closed, Device=LG-TabletH, UserType=loggedIn ×1, AccountMenu / Status=alert, View=Open, Device=XL-Desktop, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Closed, Device=XL-Desktop, UserType=loggedIn ×1, AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=nonSub ×1, AccountMenu / Status=loggedIn, View=Closed, Device=MD-TabletV, UserType=loggedIn ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=BasicSub ×1, AccountMenu / Status=alert, View=Open, Device=SM-Mobile, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=SM-Mobile, UserType=PremSub ×1, AccountMenu / Status=loggedIn, View=Open, Device=XL-Desktop, UserType=groupSub ×1, AccountMenu / Status=alert, View=Open, Device=MD-TabletV, UserType=PremSub ×1; other pages: Menus and Parts ▸ Frame 12800 ×12
 - **Device=mobile, status=none** — breakpoints: 340, 360, 768; nested inside: AccountMenu / Status=loggedOut, View=Closed, Device=MD-TabletV, UserType=loggedOut ×1, AccountMenu / Status=loggedOut, View=Closed, Device=LG-TabletH, UserType=loggedOut ×1, AccountMenu / Status=loggedOut, View=Closed, Device=SM-Mobile, UserType=loggedOut ×1
 
 ## Breakpoints

@@ -184,6 +184,11 @@
        "h": "FILL",
        "v": "HUG"
       },
+      "vars": {
+       "fontSize": "Type Primitives/font/size/26",
+       "fontStyle": "Type Primitives/font/style/bold",
+       "fontFamily": "Type Primitives/font/family/noto-serif"
+      },
       "text": "Videos from @OCRegister",
       "autoResize": "HEIGHT",
       "align": "LEFT",
@@ -231,6 +236,11 @@
       "sizing": {
        "h": "FILL",
        "v": "HUG"
+      },
+      "vars": {
+       "fontSize": "Type Primitives/font/size/15",
+       "fontStyle": "Type Primitives/font/style/regular",
+       "fontFamily": "Type Primitives/font/family/noto-sans"
       },
       "text": "Watch as our journalists report on our local news coverage in these Instagram videos.",
       "autoResize": "HEIGHT",
@@ -806,7 +816,7 @@
    "decoration": null,
    "color": "#141414",
    "token": "Colors/color/gray/min",
-   "typeToken": null,
+   "typeToken": "font/size/26",
    "textStyle": null,
    "truncate": null,
    "sample": "Videos from @",
@@ -825,7 +835,7 @@
    "decoration": "UNDERLINE",
    "color": "#1651BA",
    "token": null,
-   "typeToken": null,
+   "typeToken": "font/size/26",
    "textStyle": null,
    "truncate": null,
    "sample": "OCRegister",
@@ -844,7 +854,7 @@
    "decoration": null,
    "color": "#393938",
    "token": "Colors/color/gray/100",
-   "typeToken": null,
+   "typeToken": "font/size/15",
    "textStyle": null,
    "truncate": null,
    "sample": "Watch as our journalists report on our local news ",
@@ -993,5 +1003,5 @@
   "3 solid paints are hard-coded (not bound to a color variable): #1651BA ×1, #E5E4E1 ×1, #B2B1AD ×1."
  ],
  "skeleton": "videos-from-ocregister-carousel.html",
- "exported": "2026-10-07"
+ "exported": "2026-10-08"
 }

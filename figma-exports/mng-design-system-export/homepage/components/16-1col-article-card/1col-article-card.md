@@ -12,7 +12,7 @@ built_from: ["Article Image Placeholder", "Article Status Badge"]
 built_into: ["Feature + List Content Block", "Section Rail Card", "Photos Block"]
 spec_json: 1col-article-card.json
 skeleton: 1col-article-card.html
-exported: 2026-10-07
+exported: 2026-10-08
 ---
 
 # 1Col Article Card
@@ -43,8 +43,8 @@ exported: 2026-10-07
 
 ## Where it is used
 
-- **Style=Standard** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via Feature + List Content Block, Section Rail Card), 768 HomePage (via Feature + List Content Block, Section Rail Card), 1024 HomePage (via Feature + List Content Block, Section Rail Card), Mobile HomePage (via Section Rail Card), 340 HomePage (via Section Rail Card), Desktop HomePage (via Feature + List Content Block, Section Rail Card); nested inside: Section Rail Card / Device=1100, Layout=Narrow ×4, Section Rail Card / Device=Tablet, Layout=Narrow ×4, Feature + List Content Block / Size=Narrow ×3, Section Rail Card / Device=Mobile, Layout=Narrow ×4, Section Rail Card / Device=1024, Layout=Narrow ×4, Section Rail Card / Device=Desktop, Layout=Narrow ×4, Feature + List Content Block / Size=Default ×3
-- **Style=Media Lead** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via Photos Block), 1024 HomePage (via Photos Block), Mobile HomePage (via Photos Block), 340 HomePage (via Photos Block), Desktop HomePage (via Photos Block), 768 HomePage (via Photos Block); nested inside: Photos Block / Device=Desktop ×1, Photos Block / Device=1100 ×1, Photos Block / Device=1024 ×1, Photos Block / Device=Mobile ×1, Photos Block / Device=1280 ×1, Photos Block / Device=Tablet ×1
+- **Style=Standard** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1100 HomePage (via Feature + List Content Block, Section Rail Card), Mobile HomePage (via Section Rail Card), 340 HomePage (via Section Rail Card), 1024 HomePage (via Feature + List Content Block, Section Rail Card), 768 HomePage (via Feature + List Content Block, Section Rail Card), Desktop HomePage (via Feature + List Content Block, Section Rail Card); nested inside: Section Rail Card / Device=1100, Layout=Narrow ×4, Section Rail Card / Device=Mobile, Layout=Narrow ×4, Section Rail Card / Device=1024, Layout=Narrow ×4, Feature + List Content Block / Size=Narrow ×3, Section Rail Card / Device=Tablet, Layout=Narrow ×4, Section Rail Card / Device=Desktop, Layout=Narrow ×4, Feature + List Content Block / Size=Default ×3
+- **Style=Media Lead** — breakpoints: 340, 360, 768, 1024, 1100, 1280; templates (via assembly): 1024 HomePage (via Photos Block), Mobile HomePage (via Photos Block), 340 HomePage (via Photos Block), 1100 HomePage (via Photos Block), 768 HomePage (via Photos Block), Desktop HomePage (via Photos Block); nested inside: Photos Block / Device=1024 ×1, Photos Block / Device=Mobile ×1, Photos Block / Device=1100 ×1, Photos Block / Device=Tablet ×1, Photos Block / Device=1280 ×1, Photos Block / Device=Desktop ×1
 
 ## Breakpoints
 
@@ -122,7 +122,7 @@ exported: 2026-10-07
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Article Headline on News paper homepage in first position on | Noto Sans | SemiBold | 19 | 24px | -0.665px |  | #141414 | Colors/color/gray/min | Editorial/Titles/CardQuaternary |  | Article Headline on News paper homepage in first p | Style=Standard |
 | Vanroy Evan Smith, 39, of Long Beach is being held on $1 mil | Noto Sans | Regular | 15 | 19px |  |  | #393938 | Colors/color/gray/100 | Editorial/Body/ExcerptCompact |  | Vanroy Evan Smith, 39, of Long Beach is being held | Style=Standard |
-| 56 mins ago | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 |  |  | 56 mins ago | all |
+| 56 mins ago | Noto Sans | Regular | 13 | auto |  |  | #5E5D5C | Colors/color/gray/200 | font/size/13 |  | 56 mins ago | all |
 | Article Headline on News paper homepage in first position on | Noto Serif | Bold | 29 | 33px | -1.16px |  | #141414 | Colors/color/gray/min | Editorial/Titles/TitleMedia |  | Article Headline on News paper homepage in first p | Style=Media Lead |
 | Vanroy Evan Smith, 39, of Long Beach is being held on $1 mil | Noto Sans | Regular | 15 | 21px |  |  | #393938 | Colors/color/gray/100 | Editorial/Body/Excerpt |  | Vanroy Evan Smith, 39, of Long Beach is being held | Style=Media Lead |
 
