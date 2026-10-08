@@ -1,6 +1,6 @@
 # MNG Design System — Project Status
 
-> **Updated 2026-10-08** for status cleanup and the type-token gap review (open item 9): new `font/size/21` and `font/size/11`, RevContent skipped. 2026-10-07: homepage / menus / form-fields re-export, Upcoming Events rebuild, DTCG renaming pass and type tokens bound to text layers. 2026-10-02: Buttons page work, repository cleanup, fonts, tokens and homepage fixes. Rewritten 2026-09-24; earlier changes are in git history.
+> **Updated 2026-10-08** for status cleanup and the type-token gap review (open item 9): new `font/size/21`, `font/size/11` and `font/size/25`; RevContent skipped. 2026-10-07: homepage / menus / form-fields re-export, Upcoming Events rebuild, DTCG renaming pass and type tokens bound to text layers. 2026-10-02: Buttons page work, repository cleanup, fonts, tokens and homepage fixes. Rewritten 2026-09-24; earlier changes are in git history.
 
 > - Color values: `tokens/colors/` (export \+ decision log). Color fixes for engineering: `production-vs-design-differences.md` entry 21\.  
 > - Typography values: `tokens/typography/` (tokens \+ decision log).  
@@ -108,7 +108,9 @@ The component specs in `components/` (modal, disclosure, empty-state-status-badg
    - **RevContent (WordPress Elements › Ads and Sponsored, set `506:3865`): not built to production, skipped** (Karl, 2026-10-08). Its 17px item headline and 22px "Around the Web" header stay unbound. Not important now; build it out later if needed. On OC Register articles the RevContent script loads, but the widget renders empty and hidden, so it couldn't be measured.
    - **21px → new `font/size/21`** (main file, Type Primitives). Source: `Most Popular List Item` (`3352:24171`) rank number; production (OC Register homepage) is Noto Sans 21 / 600 / 32. Done in WordPress Elements: style is now `font/style/semibold` (was Bold) and the line height is 32. **To do:** bind `font/size/21` after Karl publishes the main library.
    - **11px → new `font/size/11`.** (a) `Related Article List Item` timestamp (`3334:43016`); production `.primary-related li time` is Noto Sans 11 / 400 / 20.625, #5D5B5A. Line height set to 20.625. **To do:** bind `font/size/11` after the publish. (b) `Event Card` date bar (`3395:51885`): left unbound for now (Karl), because the CitySpark widget wasn't rendering live today. (c) `Engage Paywall Modal` top-bar text (`1492:23331`, 11 Mobile / 12 Desktop): left unbound for now (Karl); paywalls get their own review later. (d) `ModalsOffset` (main file, `6497:6263`) Google One Tap account picker: left unbound as third-party UI, like the Apple Pay and share-sheet mock-ups.
-   - Still to review: 6, 9, 15.2, 22 (UserImage), 25, 27, 28, 31, plus the 22 / 28 headers on the main file's "Elements to be detailed still" page.
+   - **22 / 27px, `UserImage` monogram** (`456:5708`, medium / large): left unbound as avatar art (Karl). Production's logged-in avatar is a 120×120 image from an avatar service (Gravatar-style `s` / `r` / `d` parameters), shown at 30×30, with the initials drawn into the picture, so there's no CSS font size to match.
+   - **25px → new `font/size/25`.** Source: `Zone 1 Lead Article Card / Device=Mobile` headline (`3336:46142`); production `.feature-primary .feature-large header .entry-title` below 640px is 1.5625em = 25, line height 1.16 = 29, letter spacing −0.03em (29 / 32.8 at 640px and up). Line height changed from 33 to 29. **To do:** bind `font/size/25` after the publish.
+   - Still to review: 6, 9, 15.2, 28, 31, plus the 22 / 28 headers on the main file's "Elements to be detailed still" page.
 
 ### Recently done
 
