@@ -1138,6 +1138,16 @@ One-line items are unaffected (the 44px height holds), but every extra line adds
 
 **Status:** Open. Fix 1 is ready; fixes 2 and 3 wait on the design + dev decision.
 
+## 30. Icon font (`icomoon`) — broken icon classes
+
+**Found:** 2026-10-08, ocregister.com (`boldcoastal.css`), while extracting the icon font to `tokens/icons/`.
+
+**Production:** five `.icon-*` classes point at the wrong codepoint: `icon-grid2` shows the gift glyph (U+E930) instead of the dot grid (U+E932); `icon-windows8` shows warning2 (U+E986) instead of the Windows logo (U+E987); `icon-book3` points at the letter "e" (U+0065) instead of the book (U+E993); `icon-google-plus` points at U+EEEA, which isn't in the font; `icon-mng-podcast1` shows the Android logo (U+E902). U+E921 (copy), U+E93A (iOS-style share) and U+E941 (padlock) exist in the font with no class.
+
+**Fix:** point those classes at the right glyphs (or remove the unused ones) in each theme's CSS. Full map in `tokens/icons/icons.json`.
+
+**Status:** Open. Only Bold Coastal was checked.
+
 ## How to use this doc
 
 Add a new dated, numbered entry whenever a Figma-vs-production gap or an explicit engineering/legal flag is found during an audit, rather than quietly "fixing" the design tokens to match whatever production happens to do. Mark each item's status (Open / Fixed / Confirmed-intentional) as it gets resolved, and keep the original finding text rather than deleting it once resolved — see how `tokens/colors/color-tokens-decision-log.md` and the component audit docs annotate resolved items in place, for the pattern to follow here too.

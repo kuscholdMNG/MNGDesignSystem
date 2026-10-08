@@ -1,7 +1,7 @@
 # MNG Design System — Project Folder
 
 > Folder map and filing rules. **Every session working on this project reads this first and follows it.**
-> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`.
+> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`. **Updated 2026-10-08:** added `tokens/icons/`.
 
 ## Folder map
 
@@ -16,7 +16,9 @@ MNGDesignSystem/
 ├── tokens/
 │   ├── colors/                             ← mng-colors.tokens.json (source), .css, sites .csv,
 │   │                                         decision log, README (color fixes: production-vs-design entry 21)
-│   └── typography/                         ← typography tokens + decision log
+│   ├── typography/                         ← typography tokens + decision log
+│   └── icons/                              ← production icon font (icomoon .ttf/.woff/.woff2), glyph map,
+│                                             CSS and preview
 ├── figma-exports/                          ← Figma → spec exports (MD + JSON + HTML + PNG previews)
 │   ├── mng-design-system-export/           ← homepage, menus-and-parts, form-fields
 │   └── mng-buttons-export/                 ← all 8 Buttons-page families (primary, secondary, tertiary,
@@ -38,6 +40,7 @@ MNGDesignSystem/
 | Component spec, audit or checklist | `components/<component-name>.md` |
 | Color token export, CSS, CSV, decisions | `tokens/colors/` (replace the files there). Color fixes for Engineering go in `production-vs-design-differences.md` entry 21. |
 | Typography tokens or decisions | `tokens/typography/` |
+| Icon font, glyph map, icon previews | `tokens/icons/` |
 | A Figma component export | `figma-exports/<export-name>/` (unzipped, replacing the old one) |
 | A script that rebuilds an export | `scripts/<export-name>/` (inputs and outputs explained at the top of the script) |
 | Anything no longer current | `_archive/` |

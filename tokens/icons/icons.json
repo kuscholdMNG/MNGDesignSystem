@@ -1,0 +1,1103 @@
+{
+ "schema": "mng/icon-font@1",
+ "font": "icomoon",
+ "extracted": "2026-10-08",
+ "source": "https://www.ocregister.com/wp-content/themes/assets/static/css/boldcoastal.css (@font-face \"icomoon\", embedded as a base64 TrueType + WOFF data URI). Class → codepoint map read from the live page's CSS (each .icon-X::before uses content: var(--icon-X)).",
+ "files": {
+  "icomoon.ttf": "exact production file (32,944 bytes)",
+  "icomoon.woff": "converted from the TTF with fontTools (same glyphs, compressed)",
+  "icomoon.woff2": "converted from the TTF with fontTools (same glyphs)"
+ },
+ "unitsPerEm": 1024,
+ "glyphCount": 174,
+ "classCount": 172,
+ "classes": [
+  {
+   "class": "icon-access-time",
+   "codepoint": "U+E900",
+   "char": "\\e900",
+   "inFont": true
+  },
+  {
+   "class": "icon-amazon",
+   "codepoint": "U+E901",
+   "char": "\\e901",
+   "inFont": true
+  },
+  {
+   "class": "icon-android",
+   "codepoint": "U+E902",
+   "char": "\\e902",
+   "inFont": true
+  },
+  {
+   "class": "icon-appleinc",
+   "codepoint": "U+E903",
+   "char": "\\e903",
+   "inFont": true
+  },
+  {
+   "class": "icon-arrow-down",
+   "codepoint": "U+E905",
+   "char": "\\e905",
+   "inFont": true
+  },
+  {
+   "class": "icon-arrow-down11",
+   "codepoint": "U+EE18",
+   "char": "\\ee18",
+   "inFont": true
+  },
+  {
+   "class": "icon-arrow-left",
+   "codepoint": "U+E906",
+   "char": "\\e906",
+   "inFont": true
+  },
+  {
+   "class": "icon-arrow-left11",
+   "codepoint": "U+EE1A",
+   "char": "\\ee1a",
+   "inFont": true
+  },
+  {
+   "class": "icon-arrow-outline-down",
+   "codepoint": "U+EA2B",
+   "char": "\\ea2b",
+   "inFont": true
+  },
+  {
+   "class": "icon-arrow-outline-left",
+   "codepoint": "U+EA2A",
+   "char": "\\ea2a",
+   "inFont": true
+  },
+  {
+   "class": "icon-arrow-outline-right",
+   "codepoint": "U+EA29",
+   "char": "\\ea29",
+   "inFont": true
+  },
+  {
+   "class": "icon-arrow-outline-up",
+   "codepoint": "U+EA28",
+   "char": "\\ea28",
+   "inFont": true
+  },
+  {
+   "class": "icon-arrow-right",
+   "codepoint": "U+E907",
+   "char": "\\e907",
+   "inFont": true
+  },
+  {
+   "class": "icon-arrow-right11",
+   "codepoint": "U+EE16",
+   "char": "\\ee16",
+   "inFont": true
+  },
+  {
+   "class": "icon-arrow-up",
+   "codepoint": "U+E908",
+   "char": "\\e908",
+   "inFont": true
+  },
+  {
+   "class": "icon-arrow-up11",
+   "codepoint": "U+EE14",
+   "char": "\\ee14",
+   "inFont": true
+  },
+  {
+   "class": "icon-attachment",
+   "codepoint": "U+E909",
+   "char": "\\e909",
+   "inFont": true
+  },
+  {
+   "class": "icon-backward2",
+   "codepoint": "U+E90A",
+   "char": "\\e90a",
+   "inFont": true
+  },
+  {
+   "class": "icon-bell-cross",
+   "codepoint": "U+E90B",
+   "char": "\\e90b",
+   "inFont": true
+  },
+  {
+   "class": "icon-bell2",
+   "codepoint": "U+E90C",
+   "char": "\\e90c",
+   "inFont": true
+  },
+  {
+   "class": "icon-bell3",
+   "codepoint": "U+E90D",
+   "char": "\\e90d",
+   "inFont": true
+  },
+  {
+   "class": "icon-bin",
+   "codepoint": "U+EBFD",
+   "char": "\\ebfd",
+   "inFont": true
+  },
+  {
+   "class": "icon-bluesky",
+   "codepoint": "U+EA27",
+   "char": "\\ea27",
+   "inFont": true
+  },
+  {
+   "class": "icon-book",
+   "codepoint": "U+E992",
+   "char": "\\e992",
+   "inFont": true
+  },
+  {
+   "class": "icon-book3",
+   "codepoint": "U+0065",
+   "char": "\\65",
+   "inFont": false,
+   "note": "Production CSS points at U+0065 (the letter \"e\"), which isn't an icon. The closed-book glyph U+E993 has no class and is the likely target."
+  },
+  {
+   "class": "icon-bookmark2",
+   "codepoint": "U+E90E",
+   "char": "\\e90e",
+   "inFont": true
+  },
+  {
+   "class": "icon-bookmark3",
+   "codepoint": "U+E90F",
+   "char": "\\e90f",
+   "inFont": true
+  },
+  {
+   "class": "icon-bookmarks",
+   "codepoint": "U+E910",
+   "char": "\\e910",
+   "inFont": true
+  },
+  {
+   "class": "icon-bubble2",
+   "codepoint": "U+E911",
+   "char": "\\e911",
+   "inFont": true
+  },
+  {
+   "class": "icon-bubbles3",
+   "codepoint": "U+E912",
+   "char": "\\e912",
+   "inFont": true
+  },
+  {
+   "class": "icon-calendar-empty",
+   "codepoint": "U+E913",
+   "char": "\\e913",
+   "inFont": true
+  },
+  {
+   "class": "icon-camera",
+   "codepoint": "U+E914",
+   "char": "\\e914",
+   "inFont": true
+  },
+  {
+   "class": "icon-cart-add",
+   "codepoint": "U+E915",
+   "char": "\\e915",
+   "inFont": true
+  },
+  {
+   "class": "icon-cart-add2",
+   "codepoint": "U+E916",
+   "char": "\\e916",
+   "inFont": true
+  },
+  {
+   "class": "icon-cart-remove",
+   "codepoint": "U+E917",
+   "char": "\\e917",
+   "inFont": true
+  },
+  {
+   "class": "icon-cart4",
+   "codepoint": "U+E918",
+   "char": "\\e918",
+   "inFont": true
+  },
+  {
+   "class": "icon-cart5",
+   "codepoint": "U+E919",
+   "char": "\\e919",
+   "inFont": true
+  },
+  {
+   "class": "icon-checkmark-circle",
+   "codepoint": "U+E98D",
+   "char": "\\e98d",
+   "inFont": true
+  },
+  {
+   "class": "icon-checkmark3",
+   "codepoint": "U+E91A",
+   "char": "\\e91a",
+   "inFont": true
+  },
+  {
+   "class": "icon-circle-small",
+   "codepoint": "U+E91B",
+   "char": "\\e91b",
+   "inFont": true
+  },
+  {
+   "class": "icon-city",
+   "codepoint": "U+E91C",
+   "char": "\\e91c",
+   "inFont": true
+  },
+  {
+   "class": "icon-close",
+   "codepoint": "U+E91D",
+   "char": "\\e91d",
+   "inFont": true
+  },
+  {
+   "class": "icon-cog",
+   "codepoint": "U+E91E",
+   "char": "\\e91e",
+   "inFont": true
+  },
+  {
+   "class": "icon-coin-dollar",
+   "codepoint": "U+E91F",
+   "char": "\\e91f",
+   "inFont": true
+  },
+  {
+   "class": "icon-comment",
+   "codepoint": "U+E920",
+   "char": "\\e920",
+   "inFont": true
+  },
+  {
+   "class": "icon-credit-card2",
+   "codepoint": "U+E922",
+   "char": "\\e922",
+   "inFont": true
+  },
+  {
+   "class": "icon-dollar",
+   "codepoint": "U+E923",
+   "char": "\\e923",
+   "inFont": true
+  },
+  {
+   "class": "icon-download4",
+   "codepoint": "U+E924",
+   "char": "\\e924",
+   "inFont": true
+  },
+  {
+   "class": "icon-email",
+   "codepoint": "U+E925",
+   "char": "\\e925",
+   "inFont": true
+  },
+  {
+   "class": "icon-enlarge",
+   "codepoint": "U+E926",
+   "char": "\\e926",
+   "inFont": true
+  },
+  {
+   "class": "icon-enlarge2",
+   "codepoint": "U+EB3E",
+   "char": "\\eb3e",
+   "inFont": true
+  },
+  {
+   "class": "icon-equalizer2",
+   "codepoint": "U+E927",
+   "char": "\\e927",
+   "inFont": true
+  },
+  {
+   "class": "icon-eye",
+   "codepoint": "U+ECAE",
+   "char": "\\ecae",
+   "inFont": true
+  },
+  {
+   "class": "icon-eye-blocked",
+   "codepoint": "U+ECB1",
+   "char": "\\ecb1",
+   "inFont": true
+  },
+  {
+   "class": "icon-facebook",
+   "codepoint": "U+E928",
+   "char": "\\e928",
+   "inFont": true
+  },
+  {
+   "class": "icon-feed",
+   "codepoint": "U+E929",
+   "char": "\\e929",
+   "inFont": true
+  },
+  {
+   "class": "icon-film4",
+   "codepoint": "U+E92A",
+   "char": "\\e92a",
+   "inFont": true
+  },
+  {
+   "class": "icon-first",
+   "codepoint": "U+E92B",
+   "char": "\\e92b",
+   "inFont": true
+  },
+  {
+   "class": "icon-floppy-disk",
+   "codepoint": "U+E92C",
+   "char": "\\e92c",
+   "inFont": true
+  },
+  {
+   "class": "icon-flower",
+   "codepoint": "U+E92D",
+   "char": "\\e92d",
+   "inFont": true
+  },
+  {
+   "class": "icon-flower2",
+   "codepoint": "U+E92E",
+   "char": "\\e92e",
+   "inFont": true
+  },
+  {
+   "class": "icon-gift2",
+   "codepoint": "U+E930",
+   "char": "\\e930",
+   "inFont": true
+  },
+  {
+   "class": "icon-gift2-share-01",
+   "codepoint": "U+E92F",
+   "char": "\\e92f",
+   "inFont": true
+  },
+  {
+   "class": "icon-google",
+   "codepoint": "U+EEE7",
+   "char": "\\eee7",
+   "inFont": true
+  },
+  {
+   "class": "icon-google-color",
+   "codepoint": "U+EA25",
+   "char": "\\ea25",
+   "inFont": true,
+   "note": "Multi-color Google \"G\": U+EA25 plus the pieces U+EA2C, U+EA2D, U+EA2E layered with ::before / ::after in different colors."
+  },
+  {
+   "class": "icon-google-plus",
+   "codepoint": "U+EEEA",
+   "char": "\\eeea",
+   "inFont": false,
+   "note": "Production CSS points at U+EEEA, which isn't in the font, so it renders nothing."
+  },
+  {
+   "class": "icon-graduation",
+   "codepoint": "U+E931",
+   "char": "\\e931",
+   "inFont": true
+  },
+  {
+   "class": "icon-grid2",
+   "codepoint": "U+E930",
+   "char": "\\e930",
+   "inFont": true,
+   "note": "Production CSS points at U+E930 (the gift glyph). The dot-grid glyph is U+E932, which has no class."
+  },
+  {
+   "class": "icon-hamburger",
+   "codepoint": "U+E943",
+   "char": "\\e943",
+   "inFont": true
+  },
+  {
+   "class": "icon-headset",
+   "codepoint": "U+E933",
+   "char": "\\e933",
+   "inFont": true
+  },
+  {
+   "class": "icon-heart-broken2",
+   "codepoint": "U+ECEE",
+   "char": "\\ecee",
+   "inFont": true
+  },
+  {
+   "class": "icon-heart3",
+   "codepoint": "U+E934",
+   "char": "\\e934",
+   "inFont": true
+  },
+  {
+   "class": "icon-heart4",
+   "codepoint": "U+E935",
+   "char": "\\e935",
+   "inFont": true
+  },
+  {
+   "class": "icon-home3",
+   "codepoint": "U+E936",
+   "char": "\\e936",
+   "inFont": true
+  },
+  {
+   "class": "icon-info",
+   "codepoint": "U+E937",
+   "char": "\\e937",
+   "inFont": true
+  },
+  {
+   "class": "icon-info2",
+   "codepoint": "U+E938",
+   "char": "\\e938",
+   "inFont": true
+  },
+  {
+   "class": "icon-instagram",
+   "codepoint": "U+E939",
+   "char": "\\e939",
+   "inFont": true
+  },
+  {
+   "class": "icon-key",
+   "codepoint": "U+EB4A",
+   "char": "\\eb4a",
+   "inFont": true
+  },
+  {
+   "class": "icon-last",
+   "codepoint": "U+E93B",
+   "char": "\\e93b",
+   "inFont": true
+  },
+  {
+   "class": "icon-library",
+   "codepoint": "U+E93C",
+   "char": "\\e93c",
+   "inFont": true
+  },
+  {
+   "class": "icon-library2",
+   "codepoint": "U+E93D",
+   "char": "\\e93d",
+   "inFont": true
+  },
+  {
+   "class": "icon-link",
+   "codepoint": "U+E93E",
+   "char": "\\e93e",
+   "inFont": true
+  },
+  {
+   "class": "icon-linkedin",
+   "codepoint": "U+E93F",
+   "char": "\\e93f",
+   "inFont": true
+  },
+  {
+   "class": "icon-location",
+   "codepoint": "U+E940",
+   "char": "\\e940",
+   "inFont": true
+  },
+  {
+   "class": "icon-magazine",
+   "codepoint": "U+E991",
+   "char": "\\e991",
+   "inFont": true
+  },
+  {
+   "class": "icon-map4",
+   "codepoint": "U+E942",
+   "char": "\\e942",
+   "inFont": true
+  },
+  {
+   "class": "icon-meter-medium",
+   "codepoint": "U+EBE1",
+   "char": "\\ebe1",
+   "inFont": true
+  },
+  {
+   "class": "icon-minus",
+   "codepoint": "U+E944",
+   "char": "\\e944",
+   "inFont": true
+  },
+  {
+   "class": "icon-mng-podcast",
+   "codepoint": "U+E945",
+   "char": "\\e945",
+   "inFont": true
+  },
+  {
+   "class": "icon-mng-podcast1",
+   "codepoint": "U+E902",
+   "char": "\\e902",
+   "inFont": true,
+   "note": "Same codepoint as android (U+E902), so it renders the Android logo; looks like a CSS error."
+  },
+  {
+   "class": "icon-mobile",
+   "codepoint": "U+EA78",
+   "char": "\\ea78",
+   "inFont": true
+  },
+  {
+   "class": "icon-more2",
+   "codepoint": "U+E946",
+   "char": "\\e946",
+   "inFont": true
+  },
+  {
+   "class": "icon-music5",
+   "codepoint": "U+E947",
+   "char": "\\e947",
+   "inFont": true
+  },
+  {
+   "class": "icon-mute",
+   "codepoint": "U+E948",
+   "char": "\\e948",
+   "inFont": true
+  },
+  {
+   "class": "icon-new-tab",
+   "codepoint": "U+E949",
+   "char": "\\e949",
+   "inFont": true
+  },
+  {
+   "class": "icon-newspaper",
+   "codepoint": "U+E94A",
+   "char": "\\e94a",
+   "inFont": true
+  },
+  {
+   "class": "icon-next",
+   "codepoint": "U+E94B",
+   "char": "\\e94b",
+   "inFont": true
+  },
+  {
+   "class": "icon-next2",
+   "codepoint": "U+E94C",
+   "char": "\\e94c",
+   "inFont": true
+  },
+  {
+   "class": "icon-notification",
+   "codepoint": "U+E94D",
+   "char": "\\e94d",
+   "inFont": true
+  },
+  {
+   "class": "icon-notification2",
+   "codepoint": "U+E94E",
+   "char": "\\e94e",
+   "inFont": true
+  },
+  {
+   "class": "icon-office",
+   "codepoint": "U+E94F",
+   "char": "\\e94f",
+   "inFont": true
+  },
+  {
+   "class": "icon-padlock",
+   "codepoint": "U+EA26",
+   "char": "\\ea26",
+   "inFont": true
+  },
+  {
+   "class": "icon-paperplane",
+   "codepoint": "U+E950",
+   "char": "\\e950",
+   "inFont": true
+  },
+  {
+   "class": "icon-pause2",
+   "codepoint": "U+E951",
+   "char": "\\e951",
+   "inFont": true
+  },
+  {
+   "class": "icon-paypal",
+   "codepoint": "U+E952",
+   "char": "\\e952",
+   "inFont": true
+  },
+  {
+   "class": "icon-pen6",
+   "codepoint": "U+E953",
+   "char": "\\e953",
+   "inFont": true
+  },
+  {
+   "class": "icon-phone",
+   "codepoint": "U+E954",
+   "char": "\\e954",
+   "inFont": true
+  },
+  {
+   "class": "icon-phone2",
+   "codepoint": "U+E955",
+   "char": "\\e955",
+   "inFont": true
+  },
+  {
+   "class": "icon-piggy-bank",
+   "codepoint": "U+E956",
+   "char": "\\e956",
+   "inFont": true
+  },
+  {
+   "class": "icon-pinterest-p",
+   "codepoint": "U+E957",
+   "char": "\\e957",
+   "inFont": true
+  },
+  {
+   "class": "icon-play-arrow",
+   "codepoint": "U+E958",
+   "char": "\\e958",
+   "inFont": true
+  },
+  {
+   "class": "icon-plus",
+   "codepoint": "U+E959",
+   "char": "\\e959",
+   "inFont": true
+  },
+  {
+   "class": "icon-previous2",
+   "codepoint": "U+E95A",
+   "char": "\\e95a",
+   "inFont": true
+  },
+  {
+   "class": "icon-print",
+   "codepoint": "U+E95B",
+   "char": "\\e95b",
+   "inFont": true
+  },
+  {
+   "class": "icon-question3",
+   "codepoint": "U+E95C",
+   "char": "\\e95c",
+   "inFont": true
+  },
+  {
+   "class": "icon-question4",
+   "codepoint": "U+E95D",
+   "char": "\\e95d",
+   "inFont": true
+  },
+  {
+   "class": "icon-quill3",
+   "codepoint": "U+E994",
+   "char": "\\e994",
+   "inFont": true
+  },
+  {
+   "class": "icon-quill4",
+   "codepoint": "U+E995",
+   "char": "\\e995",
+   "inFont": true
+  },
+  {
+   "class": "icon-radio-unchecked",
+   "codepoint": "U+EE73",
+   "char": "\\ee73",
+   "inFont": true
+  },
+  {
+   "class": "icon-reddit",
+   "codepoint": "U+E95E",
+   "char": "\\e95e",
+   "inFont": true
+  },
+  {
+   "class": "icon-search",
+   "codepoint": "U+E95F",
+   "char": "\\e95f",
+   "inFont": true
+  },
+  {
+   "class": "icon-share-alt",
+   "codepoint": "U+E960",
+   "char": "\\e960",
+   "inFont": true
+  },
+  {
+   "class": "icon-share-more",
+   "codepoint": "U+E961",
+   "char": "\\e961",
+   "inFont": true
+  },
+  {
+   "class": "icon-share2",
+   "codepoint": "U+E962",
+   "char": "\\e962",
+   "inFont": true
+  },
+  {
+   "class": "icon-shrink2",
+   "codepoint": "U+EB3F",
+   "char": "\\eb3f",
+   "inFont": true
+  },
+  {
+   "class": "icon-shrink7",
+   "codepoint": "U+E963",
+   "char": "\\e963",
+   "inFont": true
+  },
+  {
+   "class": "icon-slideshow",
+   "codepoint": "U+E964",
+   "char": "\\e964",
+   "inFont": true
+  },
+  {
+   "class": "icon-sms",
+   "codepoint": "U+E965",
+   "char": "\\e965",
+   "inFont": true
+  },
+  {
+   "class": "icon-soundcloud",
+   "codepoint": "U+E966",
+   "char": "\\e966",
+   "inFont": true
+  },
+  {
+   "class": "icon-spam",
+   "codepoint": "U+E967",
+   "char": "\\e967",
+   "inFont": true
+  },
+  {
+   "class": "icon-sphere",
+   "codepoint": "U+E968",
+   "char": "\\e968",
+   "inFont": true
+  },
+  {
+   "class": "icon-spotify",
+   "codepoint": "U+E969",
+   "char": "\\e969",
+   "inFont": true
+  },
+  {
+   "class": "icon-stackoverflow",
+   "codepoint": "U+E96A",
+   "char": "\\e96a",
+   "inFont": true
+  },
+  {
+   "class": "icon-star-empty",
+   "codepoint": "U+E96B",
+   "char": "\\e96b",
+   "inFont": true
+  },
+  {
+   "class": "icon-star-empty2",
+   "codepoint": "U+E96C",
+   "char": "\\e96c",
+   "inFont": true
+  },
+  {
+   "class": "icon-star-full",
+   "codepoint": "U+E96D",
+   "char": "\\e96d",
+   "inFont": true
+  },
+  {
+   "class": "icon-stitcher",
+   "codepoint": "U+E96E",
+   "char": "\\e96e",
+   "inFont": true
+  },
+  {
+   "class": "icon-stop2",
+   "codepoint": "U+E96F",
+   "char": "\\e96f",
+   "inFont": true
+  },
+  {
+   "class": "icon-store",
+   "codepoint": "U+E970",
+   "char": "\\e970",
+   "inFont": true
+  },
+  {
+   "class": "icon-stumbleupon",
+   "codepoint": "U+E971",
+   "char": "\\e971",
+   "inFont": true
+  },
+  {
+   "class": "icon-swap",
+   "codepoint": "U+E98C",
+   "char": "\\e98c",
+   "inFont": true
+  },
+  {
+   "class": "icon-threads",
+   "codepoint": "U+E904",
+   "char": "\\e904",
+   "inFont": true
+  },
+  {
+   "class": "icon-thumbs-down2",
+   "codepoint": "U+E972",
+   "char": "\\e972",
+   "inFont": true
+  },
+  {
+   "class": "icon-thumbs-up2",
+   "codepoint": "U+E973",
+   "char": "\\e973",
+   "inFont": true
+  },
+  {
+   "class": "icon-tree",
+   "codepoint": "U+E974",
+   "char": "\\e974",
+   "inFont": true
+  },
+  {
+   "class": "icon-tree2",
+   "codepoint": "U+E975",
+   "char": "\\e975",
+   "inFont": true
+  },
+  {
+   "class": "icon-tumblr",
+   "codepoint": "U+E976",
+   "char": "\\e976",
+   "inFont": true
+  },
+  {
+   "class": "icon-twitter",
+   "codepoint": "U+E990",
+   "char": "\\e990",
+   "inFont": true
+  },
+  {
+   "class": "icon-unlink",
+   "codepoint": "U+E977",
+   "char": "\\e977",
+   "inFont": true
+  },
+  {
+   "class": "icon-unlocked",
+   "codepoint": "U+E978",
+   "char": "\\e978",
+   "inFont": true
+  },
+  {
+   "class": "icon-upload4",
+   "codepoint": "U+E979",
+   "char": "\\e979",
+   "inFont": true
+  },
+  {
+   "class": "icon-user",
+   "codepoint": "U+E97C",
+   "char": "\\e97c",
+   "inFont": true
+  },
+  {
+   "class": "icon-user-minus",
+   "codepoint": "U+E97A",
+   "char": "\\e97a",
+   "inFont": true
+  },
+  {
+   "class": "icon-user-plus",
+   "codepoint": "U+E97B",
+   "char": "\\e97b",
+   "inFont": true
+  },
+  {
+   "class": "icon-user4",
+   "codepoint": "U+EB0C",
+   "char": "\\eb0c",
+   "inFont": true
+  },
+  {
+   "class": "icon-users",
+   "codepoint": "U+E97D",
+   "char": "\\e97d",
+   "inFont": true
+  },
+  {
+   "class": "icon-users4",
+   "codepoint": "U+EB0C",
+   "char": "\\eb0c",
+   "inFont": true,
+   "note": "Same glyph as user4 (U+EB0C)."
+  },
+  {
+   "class": "icon-vimeo",
+   "codepoint": "U+E97E",
+   "char": "\\e97e",
+   "inFont": true
+  },
+  {
+   "class": "icon-volume-decrease",
+   "codepoint": "U+E97F",
+   "char": "\\e97f",
+   "inFont": true
+  },
+  {
+   "class": "icon-volume-high",
+   "codepoint": "U+E980",
+   "char": "\\e980",
+   "inFont": true
+  },
+  {
+   "class": "icon-volume-increase",
+   "codepoint": "U+E981",
+   "char": "\\e981",
+   "inFont": true
+  },
+  {
+   "class": "icon-volume-low",
+   "codepoint": "U+E982",
+   "char": "\\e982",
+   "inFont": true
+  },
+  {
+   "class": "icon-volume-medium",
+   "codepoint": "U+E983",
+   "char": "\\e983",
+   "inFont": true
+  },
+  {
+   "class": "icon-volume-mute",
+   "codepoint": "U+E984",
+   "char": "\\e984",
+   "inFont": true
+  },
+  {
+   "class": "icon-warning",
+   "codepoint": "U+E985",
+   "char": "\\e985",
+   "inFont": true
+  },
+  {
+   "class": "icon-warning2",
+   "codepoint": "U+E986",
+   "char": "\\e986",
+   "inFont": true
+  },
+  {
+   "class": "icon-windows8",
+   "codepoint": "U+E986",
+   "char": "\\e986",
+   "inFont": true,
+   "note": "Production CSS points at U+E986 (warning2). The Windows logo glyph is U+E987, which has no class."
+  },
+  {
+   "class": "icon-x",
+   "codepoint": "U+E990",
+   "char": "\\e990",
+   "inFont": true,
+   "note": "Same glyph as twitter (U+E990, the X logo)."
+  },
+  {
+   "class": "icon-yelp",
+   "codepoint": "U+E988",
+   "char": "\\e988",
+   "inFont": true
+  },
+  {
+   "class": "icon-youtube",
+   "codepoint": "U+E989",
+   "char": "\\e989",
+   "inFont": true
+  },
+  {
+   "class": "icon-zoom-in2",
+   "codepoint": "U+E98A",
+   "char": "\\e98a",
+   "inFont": true
+  },
+  {
+   "class": "icon-zoom-out2",
+   "codepoint": "U+E98B",
+   "char": "\\e98b",
+   "inFont": true
+  }
+ ],
+ "glyphsWithoutClass": [
+  {
+   "codepoint": "U+E921",
+   "char": "\\e921",
+   "looksLike": "copy (two overlapping pages)"
+  },
+  {
+   "codepoint": "U+E932",
+   "char": "\\e932",
+   "looksLike": "grid of 9 dots"
+  },
+  {
+   "codepoint": "U+E93A",
+   "char": "\\e93a",
+   "looksLike": "share (box with up arrow, iOS-style)"
+  },
+  {
+   "codepoint": "U+E941",
+   "char": "\\e941",
+   "looksLike": "padlock, closed"
+  },
+  {
+   "codepoint": "U+E987",
+   "char": "\\e987",
+   "looksLike": "Windows logo"
+  },
+  {
+   "codepoint": "U+E993",
+   "char": "\\e993",
+   "looksLike": "book, closed"
+  },
+  {
+   "codepoint": "U+EA2C",
+   "char": "\\ea2c",
+   "looksLike": "Google \"G\" piece (for google-color)"
+  },
+  {
+   "codepoint": "U+EA2D",
+   "char": "\\ea2d",
+   "looksLike": "Google \"G\" piece (for google-color)"
+  },
+  {
+   "codepoint": "U+EA2E",
+   "char": "\\ea2e",
+   "looksLike": "Google \"G\" piece (for google-color)"
+  }
+ ]
+}
