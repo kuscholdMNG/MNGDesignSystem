@@ -30,19 +30,24 @@ Bare family names, no CSS fallback stack. The CRUX Style Library's fallback stac
 | Variable | Value | Note |
 |---|---|---|
 | `font/size/10` | 10px | Ported from Reader Dashboard v2.0. Not yet seen live. Reader Dashboard only. |
+| `font/size/11` | 11px | Related-article timestamp under the Top Zone lead (`.primary-related li time`, 400, line height 20.625). Confirmed live 2026-10-08. |
 | `font/size/12` | 12px | Utility/chip label size, measured live. Also the footer copyright size. |
 | `font/size/13` | 13px | Small button / caption size, measured live. Matches CRUX `xs`. |
 | `font/size/14` | 14px | Medium/primary button label (~14.06px measured live). |
 | `font/size/15` | 15px | Primary nav-bar label (600, Noto Sans, not theme-varying) and the Section Highlight headline list (`HeadlineList`). Confirmed live. |
+| `font/size/15-2` | 15.2px | Article breadcrumb type-of-work label and its " • " bullet (400, line height 15.2). Confirmed live 2026-10-08; production renders it in Helvetica (production-vs-design entry 29). |
 | `font/size/16` | 16px | Reader Dashboard body, nav items, card subtitles/links. **Not** the editorial body size (see `16-5`). |
 | `font/size/16-5` | 16.5px | Universal editorial body copy. Confirmed live on all 6 audited sites/themes. |
 | `font/size/18` | 18px | Reader Dashboard Section Title and the article-page "More News" headlines (`RelatedHeadline`). Confirmed live. |
 | `font/size/19` | 19px | Large/full-width CTA button label (~19.2px measured live) and the fourth-tier card headline (`CardQuaternary`). |
 | `font/size/20` | 20px | Homepage module header (600) and the third-tier card headline (`CardTertiary`, 700). Both follow `font/theme/heading-family`. Not the eyebrow; the eyebrow uses `font/theme/eyebrow-*` (§3). |
+| `font/size/21` | 21px | Most Popular / Recommended rank number (600, line height 32). Confirmed live 2026-10-08. |
 | `font/size/23` | 23px | Article deck/subhead. Confirmed live across all sites/themes. |
 | `font/size/24` | 24px | Reader Dashboard profile display name (confirmed live). No confirmed editorial use. |
+| `font/size/25` | 25px | Top Zone lead headline below 640px (700, line height 29, −0.03em). Confirmed in production CSS 2026-10-08. |
 | `font/size/26` | 26px | Second-tier homepage headline card. Confirmed live across all sites/themes. |
 | `font/size/29` | 29px | Lead-story homepage card headline. |
+| `font/size/31` | 31px | Article headline below 640px (700, line height 34.1, −0.03em; 32 / 36.8 at 640–1039px, 36 / 41.4 at 1040px+). Confirmed in production CSS 2026-10-08. |
 | `font/size/36` | 36px | Article H1 / main headline. Confirmed live across all sites/themes. |
 | `font/size/40` | 40px | Section-front page H1 (e.g. a category page's "Sports" heading). Confirmed live on ocregister.com/sports/ and chicagotribune.com/sports/ (`class="section-header"`). Not a kicker/category label, which is 16px/700/uppercase. |
 
