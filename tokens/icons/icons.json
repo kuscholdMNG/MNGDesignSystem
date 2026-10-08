@@ -1,1103 +1,2012 @@
 {
- "schema": "mng/icon-font@1",
- "font": "icomoon",
- "extracted": "2026-10-08",
- "source": "https://www.ocregister.com/wp-content/themes/assets/static/css/boldcoastal.css (@font-face \"icomoon\", embedded as a base64 TrueType + WOFF data URI). Class → codepoint map read from the live page's CSS (each .icon-X::before uses content: var(--icon-X)).",
- "files": {
-  "icomoon.ttf": "exact production file (32,944 bytes)",
-  "icomoon.woff": "converted from the TTF with fontTools (same glyphs, compressed)",
-  "icomoon.woff2": "converted from the TTF with fontTools (same glyphs)"
+ "schema": "mng/icon-font@2",
+ "updated": "2026-10-08",
+ "font": {
+  "family": "icomoon",
+  "files": {
+   "icomoon.ttf": "exact production file (32,944 bytes), the same on every MNG site",
+   "icomoon.woff": "converted from the TTF (same glyphs)",
+   "icomoon.woff2": "converted from the TTF (same glyphs)"
+  },
+  "unitsPerEm": 1024,
+  "extractedFrom": "https://www.ocregister.com/wp-content/themes/assets/static/css/boldcoastal.css (embedded @font-face \"icomoon\"), 2026-10-08. All sites use the same icon font (Karl, 2026-10-08)."
  },
- "unitsPerEm": 1024,
- "glyphCount": 174,
- "classCount": 172,
- "classes": [
+ "designSource": "MNG Design System (jFHYqhZbJjvWQmDI4myCsd) › Icons | 2026.08.28 › \"Icon Categories\" (1412:13). Class names are the Figma row names; third-party vendor icons (cookies, weather, commenting) are out of scope.",
+ "statusKey": {
+  "match": "Production class has the same name and glyph",
+  "production-name-differs": "Same glyph, production uses another class name",
+  "production-class-wrong-glyph": "Production class with this name shows the wrong glyph; the right glyph is in the font",
+  "no-production-class": "Glyph is in the font but production has no class for it"
+ },
+ "categories": [
+  "User Interface",
+  "Account Management",
+  "Multimedia",
+  "Engagement",
+  "Social Media / Brands",
+  "Decoration"
+ ],
+ "icons": [
   {
-   "class": "icon-access-time",
-   "codepoint": "U+E900",
-   "char": "\\e900",
-   "inFont": true
-  },
-  {
-   "class": "icon-amazon",
-   "codepoint": "U+E901",
-   "char": "\\e901",
-   "inFont": true
-  },
-  {
-   "class": "icon-android",
-   "codepoint": "U+E902",
-   "char": "\\e902",
-   "inFont": true
-  },
-  {
-   "class": "icon-appleinc",
-   "codepoint": "U+E903",
-   "char": "\\e903",
-   "inFont": true
-  },
-  {
-   "class": "icon-arrow-down",
-   "codepoint": "U+E905",
-   "char": "\\e905",
-   "inFont": true
-  },
-  {
-   "class": "icon-arrow-down11",
-   "codepoint": "U+EE18",
-   "char": "\\ee18",
-   "inFont": true
-  },
-  {
-   "class": "icon-arrow-left",
-   "codepoint": "U+E906",
-   "char": "\\e906",
-   "inFont": true
-  },
-  {
-   "class": "icon-arrow-left11",
-   "codepoint": "U+EE1A",
-   "char": "\\ee1a",
-   "inFont": true
-  },
-  {
-   "class": "icon-arrow-outline-down",
-   "codepoint": "U+EA2B",
-   "char": "\\ea2b",
-   "inFont": true
-  },
-  {
-   "class": "icon-arrow-outline-left",
-   "codepoint": "U+EA2A",
-   "char": "\\ea2a",
-   "inFont": true
-  },
-  {
-   "class": "icon-arrow-outline-right",
-   "codepoint": "U+EA29",
-   "char": "\\ea29",
-   "inFont": true
-  },
-  {
-   "class": "icon-arrow-outline-up",
-   "codepoint": "U+EA28",
-   "char": "\\ea28",
-   "inFont": true
-  },
-  {
-   "class": "icon-arrow-right",
-   "codepoint": "U+E907",
-   "char": "\\e907",
-   "inFont": true
-  },
-  {
-   "class": "icon-arrow-right11",
-   "codepoint": "U+EE16",
-   "char": "\\ee16",
-   "inFont": true
-  },
-  {
-   "class": "icon-arrow-up",
-   "codepoint": "U+E908",
-   "char": "\\e908",
-   "inFont": true
-  },
-  {
-   "class": "icon-arrow-up11",
-   "codepoint": "U+EE14",
-   "char": "\\ee14",
-   "inFont": true
-  },
-  {
-   "class": "icon-attachment",
-   "codepoint": "U+E909",
-   "char": "\\e909",
-   "inFont": true
-  },
-  {
-   "class": "icon-backward2",
-   "codepoint": "U+E90A",
-   "char": "\\e90a",
-   "inFont": true
-  },
-  {
-   "class": "icon-bell-cross",
-   "codepoint": "U+E90B",
-   "char": "\\e90b",
-   "inFont": true
-  },
-  {
-   "class": "icon-bell2",
-   "codepoint": "U+E90C",
-   "char": "\\e90c",
-   "inFont": true
-  },
-  {
-   "class": "icon-bell3",
-   "codepoint": "U+E90D",
-   "char": "\\e90d",
-   "inFont": true
-  },
-  {
-   "class": "icon-bin",
-   "codepoint": "U+EBFD",
-   "char": "\\ebfd",
-   "inFont": true
-  },
-  {
-   "class": "icon-bluesky",
-   "codepoint": "U+EA27",
-   "char": "\\ea27",
-   "inFont": true
-  },
-  {
-   "class": "icon-book",
-   "codepoint": "U+E992",
-   "char": "\\e992",
-   "inFont": true
-  },
-  {
-   "class": "icon-book3",
-   "codepoint": "U+0065",
-   "char": "\\65",
-   "inFont": false,
-   "note": "Production CSS points at U+0065 (the letter \"e\"), which isn't an icon. The closed-book glyph U+E993 has no class and is the likely target."
-  },
-  {
-   "class": "icon-bookmark2",
-   "codepoint": "U+E90E",
-   "char": "\\e90e",
-   "inFont": true
-  },
-  {
-   "class": "icon-bookmark3",
-   "codepoint": "U+E90F",
-   "char": "\\e90f",
-   "inFont": true
-  },
-  {
-   "class": "icon-bookmarks",
-   "codepoint": "U+E910",
-   "char": "\\e910",
-   "inFont": true
-  },
-  {
-   "class": "icon-bubble2",
-   "codepoint": "U+E911",
-   "char": "\\e911",
-   "inFont": true
-  },
-  {
-   "class": "icon-bubbles3",
-   "codepoint": "U+E912",
-   "char": "\\e912",
-   "inFont": true
-  },
-  {
-   "class": "icon-calendar-empty",
-   "codepoint": "U+E913",
-   "char": "\\e913",
-   "inFont": true
-  },
-  {
-   "class": "icon-camera",
-   "codepoint": "U+E914",
-   "char": "\\e914",
-   "inFont": true
-  },
-  {
-   "class": "icon-cart-add",
-   "codepoint": "U+E915",
-   "char": "\\e915",
-   "inFont": true
-  },
-  {
-   "class": "icon-cart-add2",
-   "codepoint": "U+E916",
-   "char": "\\e916",
-   "inFont": true
-  },
-  {
-   "class": "icon-cart-remove",
-   "codepoint": "U+E917",
-   "char": "\\e917",
-   "inFont": true
-  },
-  {
-   "class": "icon-cart4",
-   "codepoint": "U+E918",
-   "char": "\\e918",
-   "inFont": true
-  },
-  {
-   "class": "icon-cart5",
-   "codepoint": "U+E919",
-   "char": "\\e919",
-   "inFont": true
-  },
-  {
-   "class": "icon-checkmark-circle",
-   "codepoint": "U+E98D",
-   "char": "\\e98d",
-   "inFont": true
-  },
-  {
-   "class": "icon-checkmark3",
-   "codepoint": "U+E91A",
-   "char": "\\e91a",
-   "inFont": true
-  },
-  {
-   "class": "icon-circle-small",
-   "codepoint": "U+E91B",
-   "char": "\\e91b",
-   "inFont": true
-  },
-  {
-   "class": "icon-city",
-   "codepoint": "U+E91C",
-   "char": "\\e91c",
-   "inFont": true
-  },
-  {
+   "category": "User Interface",
+   "name": "close",
    "class": "icon-close",
+   "description": "Close panel; Cancel a process",
+   "inHouse": false,
+   "figmaNode": "1412:16",
    "codepoint": "U+E91D",
-   "char": "\\e91d",
-   "inFont": true
+   "productionClass": "icon-close",
+   "status": "match"
   },
   {
-   "class": "icon-cog",
-   "codepoint": "U+E91E",
-   "char": "\\e91e",
-   "inFont": true
+   "category": "User Interface",
+   "name": "arrow-left",
+   "class": "icon-arrow-left",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:20",
+   "codepoint": "U+E906",
+   "productionClass": "icon-arrow-left",
+   "status": "match"
   },
   {
-   "class": "icon-coin-dollar",
-   "codepoint": "U+E91F",
-   "char": "\\e91f",
-   "inFont": true
+   "category": "User Interface",
+   "name": "arrow-right",
+   "class": "icon-arrow-right",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:24",
+   "codepoint": "U+E907",
+   "productionClass": "icon-arrow-right",
+   "status": "match"
   },
   {
-   "class": "icon-comment",
-   "codepoint": "U+E920",
-   "char": "\\e920",
-   "inFont": true
+   "category": "User Interface",
+   "name": "arrow-up",
+   "class": "icon-arrow-up",
+   "description": "Condense; Contract dropdown",
+   "inHouse": false,
+   "figmaNode": "1412:28",
+   "codepoint": "U+E908",
+   "productionClass": "icon-arrow-up",
+   "status": "match"
   },
   {
-   "class": "icon-credit-card2",
-   "codepoint": "U+E922",
-   "char": "\\e922",
-   "inFont": true
+   "category": "User Interface",
+   "name": "arrow-down",
+   "class": "icon-arrow-down",
+   "description": "Expand; Open dropdown",
+   "inHouse": false,
+   "figmaNode": "1412:32",
+   "codepoint": "U+E905",
+   "productionClass": "icon-arrow-down",
+   "status": "match"
   },
   {
-   "class": "icon-dollar",
-   "codepoint": "U+E923",
-   "char": "\\e923",
-   "inFont": true
+   "category": "User Interface",
+   "name": "arrow-outline-up",
+   "class": "icon-arrow-outline-up",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1680:360",
+   "codepoint": "U+EA28",
+   "productionClass": "icon-arrow-outline-up",
+   "status": "match"
   },
   {
-   "class": "icon-download4",
-   "codepoint": "U+E924",
-   "char": "\\e924",
-   "inFont": true
+   "category": "User Interface",
+   "name": "arrow-outline-down",
+   "class": "icon-arrow-outline-down",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1680:365",
+   "codepoint": "U+EA2B",
+   "productionClass": "icon-arrow-outline-down",
+   "status": "match"
   },
   {
-   "class": "icon-email",
-   "codepoint": "U+E925",
-   "char": "\\e925",
-   "inFont": true
+   "category": "User Interface",
+   "name": "arrow-outline-left",
+   "class": "icon-arrow-outline-left",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1680:370",
+   "codepoint": "U+EA2A",
+   "productionClass": "icon-arrow-outline-left",
+   "status": "match"
   },
   {
-   "class": "icon-enlarge",
-   "codepoint": "U+E926",
-   "char": "\\e926",
-   "inFont": true
+   "category": "User Interface",
+   "name": "arrow-outline-right",
+   "class": "icon-arrow-outline-right",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1680:375",
+   "codepoint": "U+EA29",
+   "productionClass": "icon-arrow-outline-right",
+   "status": "match"
   },
   {
+   "category": "User Interface",
+   "name": "arrow-up11",
+   "class": "icon-arrow-up11",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1681:409",
+   "codepoint": "U+EE14",
+   "productionClass": "icon-arrow-up11",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "arrow-down11",
+   "class": "icon-arrow-down11",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1681:414",
+   "codepoint": "U+EE18",
+   "productionClass": "icon-arrow-down11",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "arrow-left11",
+   "class": "icon-arrow-left11",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1681:419",
+   "codepoint": "U+EE1A",
+   "productionClass": "icon-arrow-left11",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "arrow-right11",
+   "class": "icon-arrow-right11",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1681:424",
+   "codepoint": "U+EE16",
+   "productionClass": "icon-arrow-right11",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "swap",
+   "class": "icon-swap",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "2162:4",
+   "codepoint": "U+E98C",
+   "productionClass": "icon-swap",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "plus",
+   "class": "icon-plus",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:36",
+   "codepoint": "U+E959",
+   "productionClass": "icon-plus",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "minus",
+   "class": "icon-minus",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:40",
+   "codepoint": "U+E944",
+   "productionClass": "icon-minus",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "enlarge2",
    "class": "icon-enlarge2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:44",
    "codepoint": "U+EB3E",
-   "char": "\\eb3e",
-   "inFont": true
+   "productionClass": "icon-enlarge2",
+   "status": "match"
   },
   {
+   "category": "User Interface",
+   "name": "shrink2",
+   "class": "icon-shrink2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:51",
+   "codepoint": "U+EB3F",
+   "productionClass": "icon-shrink2",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "checkmark3",
+   "class": "icon-checkmark3",
+   "description": "Completed; Successful",
+   "inHouse": false,
+   "figmaNode": "1412:58",
+   "codepoint": "U+E91A",
+   "productionClass": "icon-checkmark3",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "menu7",
+   "class": "icon-menu7",
+   "description": "Sections menu",
+   "inHouse": false,
+   "figmaNode": "1412:62",
+   "codepoint": "U+E943",
+   "productionClass": "icon-hamburger",
+   "status": "production-name-differs",
+   "note": "Same glyph; production calls it icon-hamburger."
+  },
+  {
+   "category": "User Interface",
+   "name": "content_copy",
+   "class": "icon-content-copy",
+   "description": "Copy links to clipboard",
+   "inHouse": true,
+   "figmaNode": "1412:69",
+   "codepoint": "U+E921",
+   "productionClass": null,
+   "status": "no-production-class",
+   "note": "Glyph U+E921 is in the production font but has no class."
+  },
+  {
+   "category": "User Interface",
+   "name": "grid2",
+   "class": "icon-grid2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:73",
+   "codepoint": "U+E932",
+   "productionClass": "icon-grid2",
+   "status": "production-class-wrong-glyph",
+   "note": "Production class icon-grid2 points at U+E930 (gift). The Figma grid2 artwork (9 dots) is U+E932, which is in the font with no class."
+  },
+  {
+   "category": "User Interface",
+   "name": "share-more",
+   "class": "icon-share-more",
+   "description": "More options social sharing",
+   "inHouse": false,
+   "figmaNode": "1412:77",
+   "codepoint": "U+E961",
+   "productionClass": "icon-share-more",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "more2",
+   "class": "icon-more2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:81",
+   "codepoint": "U+E946",
+   "productionClass": "icon-more2",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "circle-small",
+   "class": "icon-circle-small",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:85",
+   "codepoint": "U+E91B",
+   "productionClass": "icon-circle-small",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "equalizer2",
    "class": "icon-equalizer2",
+   "description": "Filter Options",
+   "inHouse": false,
+   "figmaNode": "1412:89",
    "codepoint": "U+E927",
-   "char": "\\e927",
-   "inFont": true
+   "productionClass": "icon-equalizer2",
+   "status": "match"
   },
   {
+   "category": "User Interface",
+   "name": "new-tab",
+   "class": "icon-new-tab",
+   "description": "Opening links to external sites",
+   "inHouse": true,
+   "figmaNode": "2333:4179",
+   "codepoint": "U+E949",
+   "productionClass": "icon-new-tab",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "search",
+   "class": "icon-search",
+   "description": "Search Feature",
+   "inHouse": false,
+   "figmaNode": "1412:99",
+   "codepoint": "U+E95F",
+   "productionClass": "icon-search",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "zoom-in2",
+   "class": "icon-zoom-in2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:103",
+   "codepoint": "U+E98A",
+   "productionClass": "icon-zoom-in2",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "zoom-out2",
+   "class": "icon-zoom-out2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:107",
+   "codepoint": "U+E98B",
+   "productionClass": "icon-zoom-out2",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "enlarge7",
+   "class": "icon-enlarge7",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:111",
+   "codepoint": "U+E926",
+   "productionClass": "icon-enlarge",
+   "status": "production-name-differs",
+   "note": "Same glyph; production calls it icon-enlarge."
+  },
+  {
+   "category": "User Interface",
+   "name": "shrink7",
+   "class": "icon-shrink7",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:115",
+   "codepoint": "U+E963",
+   "productionClass": "icon-shrink7",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "question3",
+   "class": "icon-question3",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:119",
+   "codepoint": "U+E95C",
+   "productionClass": "icon-question3",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "question4",
+   "class": "icon-question4",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:126",
+   "codepoint": "U+E95D",
+   "productionClass": "icon-question4",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "info",
+   "class": "icon-info",
+   "description": "Additional information features",
+   "inHouse": false,
+   "figmaNode": "1412:130",
+   "codepoint": "U+E937",
+   "productionClass": "icon-info",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "info2",
+   "class": "icon-info2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:137",
+   "codepoint": "U+E938",
+   "productionClass": "icon-info2",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "notification",
+   "class": "icon-notification",
+   "description": "Alerts",
+   "inHouse": false,
+   "figmaNode": "1412:141",
+   "codepoint": "U+E94D",
+   "productionClass": "icon-notification",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "notification2",
+   "class": "icon-notification2",
+   "description": "Alerts",
+   "inHouse": false,
+   "figmaNode": "1412:145",
+   "codepoint": "U+E94E",
+   "productionClass": "icon-notification2",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "spam",
+   "class": "icon-spam",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:149",
+   "codepoint": "U+E967",
+   "productionClass": "icon-spam",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "warning",
+   "class": "icon-warning",
+   "description": "Alerts",
+   "inHouse": false,
+   "figmaNode": "1412:153",
+   "codepoint": "U+E985",
+   "productionClass": "icon-warning",
+   "status": "match"
+  },
+  {
+   "category": "User Interface",
+   "name": "warning2",
+   "class": "icon-warning2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:160",
+   "codepoint": "U+E986",
+   "productionClass": "icon-warning2",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "cog",
+   "class": "icon-cog",
+   "description": "?User Settings?",
+   "inHouse": false,
+   "figmaNode": "1412:167",
+   "codepoint": "U+E91E",
+   "productionClass": "icon-cog",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "pen6",
+   "class": "icon-pen6",
+   "description": "Edit",
+   "inHouse": false,
+   "figmaNode": "1412:171",
+   "codepoint": "U+E953",
+   "productionClass": "icon-pen6",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "eye",
    "class": "icon-eye",
+   "description": "Show password",
+   "inHouse": false,
+   "figmaNode": "1412:177",
    "codepoint": "U+ECAE",
-   "char": "\\ecae",
-   "inFont": true
+   "productionClass": "icon-eye",
+   "status": "match"
   },
   {
+   "category": "Account Management",
+   "name": "eye-blocked",
    "class": "icon-eye-blocked",
+   "description": "Hide password",
+   "inHouse": false,
+   "figmaNode": "1412:180",
    "codepoint": "U+ECB1",
-   "char": "\\ecb1",
-   "inFont": true
+   "productionClass": "icon-eye-blocked",
+   "status": "match"
   },
   {
-   "class": "icon-facebook",
-   "codepoint": "U+E928",
-   "char": "\\e928",
-   "inFont": true
+   "category": "Account Management",
+   "name": "bell2",
+   "class": "icon-bell2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:186",
+   "codepoint": "U+E90C",
+   "productionClass": "icon-bell2",
+   "status": "match"
   },
   {
-   "class": "icon-feed",
-   "codepoint": "U+E929",
-   "char": "\\e929",
-   "inFont": true
+   "category": "Account Management",
+   "name": "bell3",
+   "class": "icon-bell3",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:190",
+   "codepoint": "U+E90D",
+   "productionClass": "icon-bell3",
+   "status": "match"
   },
   {
+   "category": "Account Management",
+   "name": "bell-cross",
+   "class": "icon-bell-cross",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:197",
+   "codepoint": "U+E90B",
+   "productionClass": "icon-bell-cross",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "user",
+   "class": "icon-user",
+   "description": "Subscriber Benefits",
+   "inHouse": false,
+   "figmaNode": "1412:201",
+   "codepoint": "U+E97C",
+   "productionClass": "icon-user",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "users",
+   "class": "icon-users",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:205",
+   "codepoint": "U+E97D",
+   "productionClass": "icon-users",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "user-plus",
+   "class": "icon-user-plus",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:211",
+   "codepoint": "U+E97B",
+   "productionClass": "icon-user-plus",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "user-minus",
+   "class": "icon-user-minus",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:217",
+   "codepoint": "U+E97A",
+   "productionClass": "icon-user-minus",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "user4",
+   "class": "icon-user4",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:223",
+   "codepoint": "U+EB0C",
+   "productionClass": "icon-user4",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "cart5",
+   "class": "icon-cart5",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:229",
+   "codepoint": "U+E919",
+   "productionClass": "icon-cart5",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "cart4",
+   "class": "icon-cart4",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:233",
+   "codepoint": "U+E918",
+   "productionClass": "icon-cart4",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "cart-add",
+   "class": "icon-cart-add",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:237",
+   "codepoint": "U+E915",
+   "productionClass": "icon-cart-add",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "cart-add2",
+   "class": "icon-cart-add2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:241",
+   "codepoint": "U+E916",
+   "productionClass": "icon-cart-add2",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "cart-remove",
+   "class": "icon-cart-remove",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:245",
+   "codepoint": "U+E917",
+   "productionClass": "icon-cart-remove",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "headset",
+   "class": "icon-headset",
+   "description": "Customer Service",
+   "inHouse": false,
+   "figmaNode": "1412:249",
+   "codepoint": "U+E933",
+   "productionClass": "icon-headset",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "bookmark2",
+   "class": "icon-bookmark2",
+   "description": "Saved article",
+   "inHouse": false,
+   "figmaNode": "1412:253",
+   "codepoint": "U+E90E",
+   "productionClass": "icon-bookmark2",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "bookmarks",
+   "class": "icon-bookmarks",
+   "description": "Saved article list",
+   "inHouse": false,
+   "figmaNode": "1412:257",
+   "codepoint": "U+E910",
+   "productionClass": "icon-bookmarks",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "bookmark3",
+   "class": "icon-bookmark3",
+   "description": "Unsaved article",
+   "inHouse": false,
+   "figmaNode": "1412:261",
+   "codepoint": "U+E90F",
+   "productionClass": "icon-bookmark3",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "heart3",
+   "class": "icon-heart3",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:265",
+   "codepoint": "U+E934",
+   "productionClass": "icon-heart3",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "heart4",
+   "class": "icon-heart4",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:269",
+   "codepoint": "U+E935",
+   "productionClass": "icon-heart4",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "heart-broken2",
+   "class": "icon-heart-broken2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1604:71",
+   "codepoint": "U+ECEE",
+   "productionClass": "icon-heart-broken2",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "thumbs-up2",
+   "class": "icon-thumbs-up2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:273",
+   "codepoint": "U+E973",
+   "productionClass": "icon-thumbs-up2",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "thumbs-down2",
+   "class": "icon-thumbs-down2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:277",
+   "codepoint": "U+E972",
+   "productionClass": "icon-thumbs-down2",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "star-empty",
+   "class": "icon-star-empty",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:281",
+   "codepoint": "U+E96B",
+   "productionClass": "icon-star-empty",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "star-full",
+   "class": "icon-star-full",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:285",
+   "codepoint": "U+E96D",
+   "productionClass": "icon-star-full",
+   "status": "match"
+  },
+  {
+   "category": "Account Management",
+   "name": "star-empty2",
+   "class": "icon-star-empty2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:289",
+   "codepoint": "U+E96C",
+   "productionClass": "icon-star-empty2",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "camera",
+   "class": "icon-camera",
+   "description": "Photo Gallery features",
+   "inHouse": false,
+   "figmaNode": "1412:296",
+   "codepoint": "U+E914",
+   "productionClass": "icon-camera",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "slideshow",
+   "class": "icon-slideshow",
+   "description": "Obits w/ multiple images;  – Slideshow views",
+   "inHouse": false,
+   "figmaNode": "1412:300",
+   "codepoint": "U+E964",
+   "productionClass": "icon-slideshow",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "film4",
    "class": "icon-film4",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:304",
    "codepoint": "U+E92A",
-   "char": "\\e92a",
-   "inFont": true
+   "productionClass": "icon-film4",
+   "status": "match"
   },
   {
+   "category": "Multimedia",
+   "name": "play-arrow",
+   "class": "icon-play-arrow",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:308",
+   "codepoint": "U+E958",
+   "productionClass": "icon-play-arrow",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "pause2",
+   "class": "icon-pause2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:312",
+   "codepoint": "U+E951",
+   "productionClass": "icon-pause2",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "stop2",
+   "class": "icon-stop2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:316",
+   "codepoint": "U+E96F",
+   "productionClass": "icon-stop2",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "backward2",
+   "class": "icon-backward2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:320",
+   "codepoint": "U+E90A",
+   "productionClass": "icon-backward2",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "next",
+   "class": "icon-next",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:324",
+   "codepoint": "U+E94B",
+   "productionClass": "icon-next",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "previous2",
+   "class": "icon-previous2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:328",
+   "codepoint": "U+E95A",
+   "productionClass": "icon-previous2",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "next2",
+   "class": "icon-next2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:332",
+   "codepoint": "U+E94C",
+   "productionClass": "icon-next2",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "last",
+   "class": "icon-last",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:336",
+   "codepoint": "U+E93B",
+   "productionClass": "icon-last",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "first",
    "class": "icon-first",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:340",
    "codepoint": "U+E92B",
-   "char": "\\e92b",
-   "inFont": true
+   "productionClass": "icon-first",
+   "status": "match"
   },
   {
-   "class": "icon-floppy-disk",
-   "codepoint": "U+E92C",
-   "char": "\\e92c",
-   "inFont": true
+   "category": "Multimedia",
+   "name": "volume-high",
+   "class": "icon-volume-high",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:344",
+   "codepoint": "U+E980",
+   "productionClass": "icon-volume-high",
+   "status": "match"
   },
   {
-   "class": "icon-flower",
-   "codepoint": "U+E92D",
-   "char": "\\e92d",
-   "inFont": true
+   "category": "Multimedia",
+   "name": "volume-medium",
+   "class": "icon-volume-medium",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:349",
+   "codepoint": "U+E983",
+   "productionClass": "icon-volume-medium",
+   "status": "match"
   },
   {
-   "class": "icon-flower2",
-   "codepoint": "U+E92E",
-   "char": "\\e92e",
-   "inFont": true
+   "category": "Multimedia",
+   "name": "volume-low",
+   "class": "icon-volume-low",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:354",
+   "codepoint": "U+E982",
+   "productionClass": "icon-volume-low",
+   "status": "match"
   },
   {
+   "category": "Multimedia",
+   "name": "volume-mute",
+   "class": "icon-volume-mute",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:360",
+   "codepoint": "U+E984",
+   "productionClass": "icon-volume-mute",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "mute",
+   "class": "icon-mute",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:364",
+   "codepoint": "U+E948",
+   "productionClass": "icon-mute",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "volume-increase",
+   "class": "icon-volume-increase",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:369",
+   "codepoint": "U+E981",
+   "productionClass": "icon-volume-increase",
+   "status": "match"
+  },
+  {
+   "category": "Multimedia",
+   "name": "volume-decrease",
+   "class": "icon-volume-decrease",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:374",
+   "codepoint": "U+E97F",
+   "productionClass": "icon-volume-decrease",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "paperplane",
+   "class": "icon-paperplane",
+   "description": "Guestbook Post Your Message",
+   "inHouse": false,
+   "figmaNode": "1412:382",
+   "codepoint": "U+E950",
+   "productionClass": "icon-paperplane",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "share2",
+   "class": "icon-share2",
+   "description": "Share icon for unknown devices",
+   "inHouse": false,
+   "figmaNode": "1412:386",
+   "codepoint": "U+E962",
+   "productionClass": "icon-share2",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "share-alt",
+   "class": "icon-share-alt",
+   "description": "Share icon for Android devices",
+   "inHouse": false,
+   "figmaNode": "1412:390",
+   "codepoint": "U+E960",
+   "productionClass": "icon-share-alt",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "ios_share",
+   "class": "icon-ios-share",
+   "description": "Share icon for Apple devices",
+   "inHouse": true,
+   "figmaNode": "1412:394",
+   "codepoint": "U+E93A",
+   "productionClass": null,
+   "status": "no-production-class",
+   "note": "Glyph U+E93A is in the production font but has no class."
+  },
+  {
+   "category": "Engagement",
+   "name": "print",
+   "class": "icon-print",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:398",
+   "codepoint": "U+E95B",
+   "productionClass": "icon-print",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "sms",
+   "class": "icon-sms",
+   "description": "SMS options",
+   "inHouse": false,
+   "figmaNode": "1412:403",
+   "codepoint": "U+E965",
+   "productionClass": "icon-sms",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "link",
+   "class": "icon-link",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:407",
+   "codepoint": "U+E93E",
+   "productionClass": "icon-link",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "unlink",
+   "class": "icon-unlink",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:413",
+   "codepoint": "U+E977",
+   "productionClass": "icon-unlink",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "bubble2",
+   "class": "icon-bubble2",
+   "description": "Commenting (depreciated)",
+   "inHouse": true,
+   "figmaNode": "1412:425",
+   "codepoint": "U+E911",
+   "productionClass": "icon-bubble2",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "comment",
+   "class": "icon-comment",
+   "description": "Obits Guestbook",
+   "inHouse": true,
+   "figmaNode": "1412:429",
+   "codepoint": "U+E920",
+   "productionClass": "icon-comment",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "bubbles3",
+   "class": "icon-bubbles3",
+   "description": "Commenting (depreciated)",
+   "inHouse": true,
+   "figmaNode": "1412:437",
+   "codepoint": "U+E912",
+   "productionClass": "icon-bubbles3",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "sphere",
+   "class": "icon-sphere",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:441",
+   "codepoint": "U+E968",
+   "productionClass": "icon-sphere",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "email",
+   "class": "icon-email",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1412:445",
+   "codepoint": "U+E925",
+   "productionClass": "icon-email",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "gift2",
    "class": "icon-gift2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:449",
    "codepoint": "U+E930",
-   "char": "\\e930",
-   "inFont": true
+   "productionClass": "icon-gift2",
+   "status": "match"
   },
   {
+   "category": "Engagement",
+   "name": "gift2-share-01",
    "class": "icon-gift2-share-01",
+   "description": "Gift Article Sharing feature",
+   "inHouse": true,
+   "figmaNode": "1412:453",
    "codepoint": "U+E92F",
-   "char": "\\e92f",
-   "inFont": true
+   "productionClass": "icon-gift2-share-01",
+   "status": "match"
   },
   {
-   "class": "icon-google",
-   "codepoint": "U+EEE7",
-   "char": "\\eee7",
-   "inFont": true
+   "category": "Engagement",
+   "name": "floppy-disk",
+   "class": "icon-floppy-disk",
+   "description": "Save changes",
+   "inHouse": false,
+   "figmaNode": "1412:459",
+   "codepoint": "U+E92C",
+   "productionClass": "icon-floppy-disk",
+   "status": "match"
   },
   {
+   "category": "Engagement",
+   "name": "download4",
+   "class": "icon-download4",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:468",
+   "codepoint": "U+E924",
+   "productionClass": "icon-download4",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "upload4",
+   "class": "icon-upload4",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:472",
+   "codepoint": "U+E979",
+   "productionClass": "icon-upload4",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "phone2",
+   "class": "icon-phone2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:476",
+   "codepoint": "U+E955",
+   "productionClass": "icon-phone2",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "phone",
+   "class": "icon-phone",
+   "description": "Communication Preferences",
+   "inHouse": false,
+   "figmaNode": "1412:480",
+   "codepoint": "U+E954",
+   "productionClass": "icon-phone",
+   "status": "match"
+  },
+  {
+   "category": "Engagement",
+   "name": "attachment",
+   "class": "icon-attachment",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:486",
+   "codepoint": "U+E909",
+   "productionClass": "icon-attachment",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "amazon",
+   "class": "icon-amazon",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:493",
+   "codepoint": "U+E901",
+   "productionClass": "icon-amazon",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "android",
+   "class": "icon-android",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:500",
+   "codepoint": "U+E902",
+   "productionClass": "icon-android",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "appleinc",
+   "class": "icon-appleinc",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:507",
+   "codepoint": "U+E903",
+   "productionClass": "icon-appleinc",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "music5",
+   "class": "icon-music5",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:511",
+   "codepoint": "U+E947",
+   "productionClass": "icon-music5",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "bluesky",
+   "class": "icon-bluesky",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1680:350",
+   "codepoint": "U+EA27",
+   "productionClass": "icon-bluesky",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "facebook",
+   "class": "icon-facebook",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:519",
+   "codepoint": "U+E928",
+   "productionClass": "icon-facebook",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "google-color",
    "class": "icon-google-color",
+   "description": "Anywhere logo is needed. Needs special treatment (four colored layers; see icomoon.css).",
+   "inHouse": false,
+   "figmaNode": "1412:533",
    "codepoint": "U+EA25",
-   "char": "\\ea25",
-   "inFont": true,
-   "note": "Multi-color Google \"G\": U+EA25 plus the pieces U+EA2C, U+EA2D, U+EA2E layered with ::before / ::after in different colors."
+   "productionClass": "icon-google-color",
+   "status": "match",
+   "note": "Four-color mark: U+EA25 plus pieces U+EA2C, U+EA2D, U+EA2E layered with colors #4285F4, #34A853, #FBBC05, #EA4335 (see icomoon.css)."
   },
+  {
+   "category": "Social Media / Brands",
+   "name": "google",
+   "class": "icon-google",
+   "description": "Anywhere we can’t use the color version",
+   "inHouse": false,
+   "figmaNode": "1412:529",
+   "codepoint": "U+EEE7",
+   "productionClass": "icon-google",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "instagram",
+   "class": "icon-instagram",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:540",
+   "codepoint": "U+E939",
+   "productionClass": "icon-instagram",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "iTunes / Apple Music",
+   "class": "icon-itunes-apple-music",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:544",
+   "codepoint": "U+E947",
+   "productionClass": "icon-music5",
+   "status": "production-name-differs",
+   "note": "Same glyph; production calls it icon-music5."
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "linkedin",
+   "class": "icon-linkedin",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:548",
+   "codepoint": "U+E93F",
+   "productionClass": "icon-linkedin",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "paypal",
+   "class": "icon-paypal",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:555",
+   "codepoint": "U+E952",
+   "productionClass": "icon-paypal",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "pinterest-p",
+   "class": "icon-pinterest-p",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:561",
+   "codepoint": "U+E957",
+   "productionClass": "icon-pinterest-p",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "mng-podcast",
+   "class": "icon-mng-podcast",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1412:565",
+   "codepoint": "U+E945",
+   "productionClass": "icon-mng-podcast",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "reddit",
+   "class": "icon-reddit",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1412:569",
+   "codepoint": "U+E95E",
+   "productionClass": "icon-reddit",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "feed",
+   "class": "icon-feed",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:573",
+   "codepoint": "U+E929",
+   "productionClass": "icon-feed",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "soundcloud",
+   "class": "icon-soundcloud",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:577",
+   "codepoint": "U+E966",
+   "productionClass": "icon-soundcloud",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "spotify",
+   "class": "icon-spotify",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:581",
+   "codepoint": "U+E969",
+   "productionClass": "icon-spotify",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "stitcher",
+   "class": "icon-stitcher",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "1412:585",
+   "codepoint": "U+E96E",
+   "productionClass": "icon-stitcher",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "stumbleupon",
+   "class": "icon-stumbleupon",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:589",
+   "codepoint": "U+E971",
+   "productionClass": "icon-stumbleupon",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "stackoverflow",
+   "class": "icon-stackoverflow",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:595",
+   "codepoint": "U+E96A",
+   "productionClass": "icon-stackoverflow",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "threads",
+   "class": "icon-threads",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "2111:13031",
+   "codepoint": "U+E904",
+   "productionClass": "icon-threads",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "tumblr",
+   "class": "icon-tumblr",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:599",
+   "codepoint": "U+E976",
+   "productionClass": "icon-tumblr",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "x",
+   "class": "icon-x",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:623",
+   "codepoint": "U+E990",
+   "productionClass": "icon-x",
+   "status": "match",
+   "note": "Production also has icon-twitter (same glyph).",
+   "aliases": [
+    "icon-twitter"
+   ]
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "vimeo",
+   "class": "icon-vimeo",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:607",
+   "codepoint": "U+E97E",
+   "productionClass": "icon-vimeo",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "windows8",
+   "class": "icon-windows8",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:611",
+   "codepoint": "U+E987",
+   "productionClass": "icon-windows8",
+   "status": "production-class-wrong-glyph",
+   "note": "Production class icon-windows8 points at U+E986 (warning2). The Windows logo is U+E987, which is in the font with no class."
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "yelp",
+   "class": "icon-yelp",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:615",
+   "codepoint": "U+E988",
+   "productionClass": "icon-yelp",
+   "status": "match"
+  },
+  {
+   "category": "Social Media / Brands",
+   "name": "youtube",
+   "class": "icon-youtube",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:619",
+   "codepoint": "U+E989",
+   "productionClass": "icon-youtube",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "home",
+   "class": "icon-home",
+   "description": "link to Homepage",
+   "inHouse": false,
+   "figmaNode": "1412:629",
+   "codepoint": "U+E936",
+   "productionClass": "icon-home3",
+   "status": "production-name-differs",
+   "note": "Same glyph; production calls it icon-home3."
+  },
+  {
+   "category": "Decoration",
+   "name": "office",
+   "class": "icon-office",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:634",
+   "codepoint": "U+E94F",
+   "productionClass": "icon-office",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "city",
+   "class": "icon-city",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:638",
+   "codepoint": "U+E91C",
+   "productionClass": "icon-city",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "store",
+   "class": "icon-store",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:646",
+   "codepoint": "U+E970",
+   "productionClass": "icon-store",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "graduation",
+   "class": "icon-graduation",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:651",
+   "codepoint": "U+E931",
+   "productionClass": "icon-graduation",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "library",
+   "class": "icon-library",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:655",
+   "codepoint": "U+E93C",
+   "productionClass": "icon-library",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "library2",
+   "class": "icon-library2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1818:54",
+   "codepoint": "U+E93D",
+   "productionClass": "icon-library2",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "flower",
+   "class": "icon-flower",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:660",
+   "codepoint": "U+E92D",
+   "productionClass": "icon-flower",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "flower2",
+   "class": "icon-flower2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1814:29",
+   "codepoint": "U+E92E",
+   "productionClass": "icon-flower2",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "tree",
+   "class": "icon-tree",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:663",
+   "codepoint": "U+E974",
+   "productionClass": "icon-tree",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "tree2",
+   "class": "icon-tree2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1821:98",
+   "codepoint": "U+E975",
+   "productionClass": "icon-tree2",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "access-time",
+   "class": "icon-access-time",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:667",
+   "codepoint": "U+E900",
+   "productionClass": "icon-access-time",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "key",
+   "class": "icon-key",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:671",
+   "codepoint": "U+EB4A",
+   "productionClass": "icon-key",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "bin",
+   "class": "icon-bin",
+   "description": "Remove items from saved list",
+   "inHouse": false,
+   "figmaNode": "1412:675",
+   "codepoint": "U+EBFD",
+   "productionClass": "icon-bin",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "meter-medium",
+   "class": "icon-meter-medium",
+   "description": "Profile Strength",
+   "inHouse": false,
+   "figmaNode": "1412:680",
+   "codepoint": "U+EBE1",
+   "productionClass": "icon-meter-medium",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "magazine",
+   "class": "icon-magazine",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:684",
+   "codepoint": "U+E991",
+   "productionClass": "icon-magazine",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "mobile",
+   "class": "icon-mobile",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:694",
+   "codepoint": "U+EA78",
+   "productionClass": "icon-mobile",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "calendar-empty",
+   "class": "icon-calendar-empty",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:698",
+   "codepoint": "U+E913",
+   "productionClass": "icon-calendar-empty",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "padlock",
+   "class": "icon-padlock",
+   "description": "Login Methods",
+   "inHouse": true,
+   "figmaNode": "1680:355",
+   "codepoint": "U+EA26",
+   "productionClass": "icon-padlock",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "book",
+   "class": "icon-book",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1621:1378",
+   "codepoint": "U+E992",
+   "productionClass": "icon-book",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "book3",
+   "class": "icon-book3",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1821:111",
+   "codepoint": "U+E993",
+   "productionClass": "icon-book3",
+   "status": "production-class-wrong-glyph",
+   "note": "Production class icon-book3 points at U+0065 (the letter \"e\"). The closed book is U+E993, which is in the font with no class."
+  },
+  {
+   "category": "Decoration",
+   "name": "quill3",
+   "class": "icon-quill3",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1821:125",
+   "codepoint": "U+E994",
+   "productionClass": "icon-quill3",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "quill4",
+   "class": "icon-quill4",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1821:133",
+   "codepoint": "U+E995",
+   "productionClass": "icon-quill4",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "unlocked",
+   "class": "icon-unlocked",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:706",
+   "codepoint": "U+E978",
+   "productionClass": "icon-unlocked",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "location",
+   "class": "icon-location",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:710",
+   "codepoint": "U+E940",
+   "productionClass": "icon-location",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "map4",
+   "class": "icon-map4",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:714",
+   "codepoint": "U+E942",
+   "productionClass": "icon-map4",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "piggy-bank",
+   "class": "icon-piggy-bank",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:720",
+   "codepoint": "U+E956",
+   "productionClass": "icon-piggy-bank",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "dollar",
+   "class": "icon-dollar",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:724",
+   "codepoint": "U+E923",
+   "productionClass": "icon-dollar",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "coin-dollar",
+   "class": "icon-coin-dollar",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:734",
+   "codepoint": "U+E91F",
+   "productionClass": "icon-coin-dollar",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "newspaper",
+   "class": "icon-newspaper",
+   "description": "Subscription Details",
+   "inHouse": false,
+   "figmaNode": "1412:738",
+   "codepoint": "U+E94A",
+   "productionClass": "icon-newspaper",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "credit-card2",
+   "class": "icon-credit-card2",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "1412:742",
+   "codepoint": "U+E922",
+   "productionClass": "icon-credit-card2",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "checkmark-circle",
+   "class": "icon-checkmark-circle",
+   "description": null,
+   "inHouse": true,
+   "figmaNode": "2333:4157",
+   "codepoint": "U+E98D",
+   "productionClass": "icon-checkmark-circle",
+   "status": "match"
+  },
+  {
+   "category": "Decoration",
+   "name": "radio-unchecked",
+   "class": "icon-radio-unchecked",
+   "description": null,
+   "inHouse": false,
+   "figmaNode": "2333:4161",
+   "codepoint": "U+EE73",
+   "productionClass": "icon-radio-unchecked",
+   "status": "match"
+  }
+ ],
+ "knownMissing": [
+  {
+   "name": "plus-circle",
+   "source": "Pending Updates › ADD",
+   "artwork": "svg-missing/plus-circle.svg"
+  },
+  {
+   "name": "plus-circle2",
+   "source": "Pending Updates › ADD",
+   "artwork": "svg-missing/plus-circle2.svg"
+  },
+  {
+   "name": "minus-circle",
+   "source": "Pending Updates › ADD",
+   "artwork": "svg-missing/minus-circle.svg"
+  },
+  {
+   "name": "minus-circle2",
+   "source": "Pending Updates › ADD",
+   "artwork": "svg-missing/minus-circle2.svg"
+  },
+  {
+   "name": "list",
+   "source": "Pending Updates › ADD",
+   "artwork": "svg-missing/list.svg"
+  },
+  {
+   "name": "grid",
+   "source": "Pending Updates › ADD",
+   "artwork": "svg-missing/grid.svg"
+  },
+  {
+   "name": "crown",
+   "source": "Pending Updates › ADD",
+   "artwork": "svg-missing/crown.svg"
+  },
+  {
+   "name": "giving-hand",
+   "source": "Pending Updates › ADD",
+   "artwork": "svg-missing/giving-hand.svg"
+  },
+  {
+   "name": "yield-filled",
+   "source": "Pending Updates › ADD",
+   "artwork": "svg-missing/yield-filled.svg"
+  },
+  {
+   "name": "yield-outline",
+   "source": "Pending Updates › ADD",
+   "artwork": "svg-missing/yield-outline.svg"
+  },
+  {
+   "name": "notification-outlines",
+   "source": "Pending Updates › CHANGE (replaces notification)",
+   "artwork": "svg-missing/notification-outlines.svg"
+  },
+  {
+   "name": "notification-filled",
+   "source": "Pending Updates › CHANGE (replaces notification2)",
+   "artwork": "svg-missing/notification-filled.svg"
+  }
+ ],
+ "productionOnly": [
   {
    "class": "icon-google-plus",
-   "codepoint": "U+EEEA",
-   "char": "\\eeea",
-   "inFont": false,
-   "note": "Production CSS points at U+EEEA, which isn't in the font, so it renders nothing."
-  },
-  {
-   "class": "icon-graduation",
-   "codepoint": "U+E931",
-   "char": "\\e931",
-   "inFont": true
-  },
-  {
-   "class": "icon-grid2",
-   "codepoint": "U+E930",
-   "char": "\\e930",
-   "inFont": true,
-   "note": "Production CSS points at U+E930 (the gift glyph). The dot-grid glyph is U+E932, which has no class."
-  },
-  {
-   "class": "icon-hamburger",
-   "codepoint": "U+E943",
-   "char": "\\e943",
-   "inFont": true
-  },
-  {
-   "class": "icon-headset",
-   "codepoint": "U+E933",
-   "char": "\\e933",
-   "inFont": true
-  },
-  {
-   "class": "icon-heart-broken2",
-   "codepoint": "U+ECEE",
-   "char": "\\ecee",
-   "inFont": true
-  },
-  {
-   "class": "icon-heart3",
-   "codepoint": "U+E934",
-   "char": "\\e934",
-   "inFont": true
-  },
-  {
-   "class": "icon-heart4",
-   "codepoint": "U+E935",
-   "char": "\\e935",
-   "inFont": true
-  },
-  {
-   "class": "icon-home3",
-   "codepoint": "U+E936",
-   "char": "\\e936",
-   "inFont": true
-  },
-  {
-   "class": "icon-info",
-   "codepoint": "U+E937",
-   "char": "\\e937",
-   "inFont": true
-  },
-  {
-   "class": "icon-info2",
-   "codepoint": "U+E938",
-   "char": "\\e938",
-   "inFont": true
-  },
-  {
-   "class": "icon-instagram",
-   "codepoint": "U+E939",
-   "char": "\\e939",
-   "inFont": true
-  },
-  {
-   "class": "icon-key",
-   "codepoint": "U+EB4A",
-   "char": "\\eb4a",
-   "inFont": true
-  },
-  {
-   "class": "icon-last",
-   "codepoint": "U+E93B",
-   "char": "\\e93b",
-   "inFont": true
-  },
-  {
-   "class": "icon-library",
-   "codepoint": "U+E93C",
-   "char": "\\e93c",
-   "inFont": true
-  },
-  {
-   "class": "icon-library2",
-   "codepoint": "U+E93D",
-   "char": "\\e93d",
-   "inFont": true
-  },
-  {
-   "class": "icon-link",
-   "codepoint": "U+E93E",
-   "char": "\\e93e",
-   "inFont": true
-  },
-  {
-   "class": "icon-linkedin",
-   "codepoint": "U+E93F",
-   "char": "\\e93f",
-   "inFont": true
-  },
-  {
-   "class": "icon-location",
-   "codepoint": "U+E940",
-   "char": "\\e940",
-   "inFont": true
-  },
-  {
-   "class": "icon-magazine",
-   "codepoint": "U+E991",
-   "char": "\\e991",
-   "inFont": true
-  },
-  {
-   "class": "icon-map4",
-   "codepoint": "U+E942",
-   "char": "\\e942",
-   "inFont": true
-  },
-  {
-   "class": "icon-meter-medium",
-   "codepoint": "U+EBE1",
-   "char": "\\ebe1",
-   "inFont": true
-  },
-  {
-   "class": "icon-minus",
-   "codepoint": "U+E944",
-   "char": "\\e944",
-   "inFont": true
-  },
-  {
-   "class": "icon-mng-podcast",
-   "codepoint": "U+E945",
-   "char": "\\e945",
-   "inFont": true
+   "note": "Points at U+EEEA, which isn't in the font. Not documented; remove (production-vs-design entry 20)."
   },
   {
    "class": "icon-mng-podcast1",
-   "codepoint": "U+E902",
-   "char": "\\e902",
-   "inFont": true,
-   "note": "Same codepoint as android (U+E902), so it renders the Android logo; looks like a CSS error."
-  },
-  {
-   "class": "icon-mobile",
-   "codepoint": "U+EA78",
-   "char": "\\ea78",
-   "inFont": true
-  },
-  {
-   "class": "icon-more2",
-   "codepoint": "U+E946",
-   "char": "\\e946",
-   "inFont": true
-  },
-  {
-   "class": "icon-music5",
-   "codepoint": "U+E947",
-   "char": "\\e947",
-   "inFont": true
-  },
-  {
-   "class": "icon-mute",
-   "codepoint": "U+E948",
-   "char": "\\e948",
-   "inFont": true
-  },
-  {
-   "class": "icon-new-tab",
-   "codepoint": "U+E949",
-   "char": "\\e949",
-   "inFont": true
-  },
-  {
-   "class": "icon-newspaper",
-   "codepoint": "U+E94A",
-   "char": "\\e94a",
-   "inFont": true
-  },
-  {
-   "class": "icon-next",
-   "codepoint": "U+E94B",
-   "char": "\\e94b",
-   "inFont": true
-  },
-  {
-   "class": "icon-next2",
-   "codepoint": "U+E94C",
-   "char": "\\e94c",
-   "inFont": true
-  },
-  {
-   "class": "icon-notification",
-   "codepoint": "U+E94D",
-   "char": "\\e94d",
-   "inFont": true
-  },
-  {
-   "class": "icon-notification2",
-   "codepoint": "U+E94E",
-   "char": "\\e94e",
-   "inFont": true
-  },
-  {
-   "class": "icon-office",
-   "codepoint": "U+E94F",
-   "char": "\\e94f",
-   "inFont": true
-  },
-  {
-   "class": "icon-padlock",
-   "codepoint": "U+EA26",
-   "char": "\\ea26",
-   "inFont": true
-  },
-  {
-   "class": "icon-paperplane",
-   "codepoint": "U+E950",
-   "char": "\\e950",
-   "inFont": true
-  },
-  {
-   "class": "icon-pause2",
-   "codepoint": "U+E951",
-   "char": "\\e951",
-   "inFont": true
-  },
-  {
-   "class": "icon-paypal",
-   "codepoint": "U+E952",
-   "char": "\\e952",
-   "inFont": true
-  },
-  {
-   "class": "icon-pen6",
-   "codepoint": "U+E953",
-   "char": "\\e953",
-   "inFont": true
-  },
-  {
-   "class": "icon-phone",
-   "codepoint": "U+E954",
-   "char": "\\e954",
-   "inFont": true
-  },
-  {
-   "class": "icon-phone2",
-   "codepoint": "U+E955",
-   "char": "\\e955",
-   "inFont": true
-  },
-  {
-   "class": "icon-piggy-bank",
-   "codepoint": "U+E956",
-   "char": "\\e956",
-   "inFont": true
-  },
-  {
-   "class": "icon-pinterest-p",
-   "codepoint": "U+E957",
-   "char": "\\e957",
-   "inFont": true
-  },
-  {
-   "class": "icon-play-arrow",
-   "codepoint": "U+E958",
-   "char": "\\e958",
-   "inFont": true
-  },
-  {
-   "class": "icon-plus",
-   "codepoint": "U+E959",
-   "char": "\\e959",
-   "inFont": true
-  },
-  {
-   "class": "icon-previous2",
-   "codepoint": "U+E95A",
-   "char": "\\e95a",
-   "inFont": true
-  },
-  {
-   "class": "icon-print",
-   "codepoint": "U+E95B",
-   "char": "\\e95b",
-   "inFont": true
-  },
-  {
-   "class": "icon-question3",
-   "codepoint": "U+E95C",
-   "char": "\\e95c",
-   "inFont": true
-  },
-  {
-   "class": "icon-question4",
-   "codepoint": "U+E95D",
-   "char": "\\e95d",
-   "inFont": true
-  },
-  {
-   "class": "icon-quill3",
-   "codepoint": "U+E994",
-   "char": "\\e994",
-   "inFont": true
-  },
-  {
-   "class": "icon-quill4",
-   "codepoint": "U+E995",
-   "char": "\\e995",
-   "inFont": true
-  },
-  {
-   "class": "icon-radio-unchecked",
-   "codepoint": "U+EE73",
-   "char": "\\ee73",
-   "inFont": true
-  },
-  {
-   "class": "icon-reddit",
-   "codepoint": "U+E95E",
-   "char": "\\e95e",
-   "inFont": true
-  },
-  {
-   "class": "icon-search",
-   "codepoint": "U+E95F",
-   "char": "\\e95f",
-   "inFont": true
-  },
-  {
-   "class": "icon-share-alt",
-   "codepoint": "U+E960",
-   "char": "\\e960",
-   "inFont": true
-  },
-  {
-   "class": "icon-share-more",
-   "codepoint": "U+E961",
-   "char": "\\e961",
-   "inFont": true
-  },
-  {
-   "class": "icon-share2",
-   "codepoint": "U+E962",
-   "char": "\\e962",
-   "inFont": true
-  },
-  {
-   "class": "icon-shrink2",
-   "codepoint": "U+EB3F",
-   "char": "\\eb3f",
-   "inFont": true
-  },
-  {
-   "class": "icon-shrink7",
-   "codepoint": "U+E963",
-   "char": "\\e963",
-   "inFont": true
-  },
-  {
-   "class": "icon-slideshow",
-   "codepoint": "U+E964",
-   "char": "\\e964",
-   "inFont": true
-  },
-  {
-   "class": "icon-sms",
-   "codepoint": "U+E965",
-   "char": "\\e965",
-   "inFont": true
-  },
-  {
-   "class": "icon-soundcloud",
-   "codepoint": "U+E966",
-   "char": "\\e966",
-   "inFont": true
-  },
-  {
-   "class": "icon-spam",
-   "codepoint": "U+E967",
-   "char": "\\e967",
-   "inFont": true
-  },
-  {
-   "class": "icon-sphere",
-   "codepoint": "U+E968",
-   "char": "\\e968",
-   "inFont": true
-  },
-  {
-   "class": "icon-spotify",
-   "codepoint": "U+E969",
-   "char": "\\e969",
-   "inFont": true
-  },
-  {
-   "class": "icon-stackoverflow",
-   "codepoint": "U+E96A",
-   "char": "\\e96a",
-   "inFont": true
-  },
-  {
-   "class": "icon-star-empty",
-   "codepoint": "U+E96B",
-   "char": "\\e96b",
-   "inFont": true
-  },
-  {
-   "class": "icon-star-empty2",
-   "codepoint": "U+E96C",
-   "char": "\\e96c",
-   "inFont": true
-  },
-  {
-   "class": "icon-star-full",
-   "codepoint": "U+E96D",
-   "char": "\\e96d",
-   "inFont": true
-  },
-  {
-   "class": "icon-stitcher",
-   "codepoint": "U+E96E",
-   "char": "\\e96e",
-   "inFont": true
-  },
-  {
-   "class": "icon-stop2",
-   "codepoint": "U+E96F",
-   "char": "\\e96f",
-   "inFont": true
-  },
-  {
-   "class": "icon-store",
-   "codepoint": "U+E970",
-   "char": "\\e970",
-   "inFont": true
-  },
-  {
-   "class": "icon-stumbleupon",
-   "codepoint": "U+E971",
-   "char": "\\e971",
-   "inFont": true
-  },
-  {
-   "class": "icon-swap",
-   "codepoint": "U+E98C",
-   "char": "\\e98c",
-   "inFont": true
-  },
-  {
-   "class": "icon-threads",
-   "codepoint": "U+E904",
-   "char": "\\e904",
-   "inFont": true
-  },
-  {
-   "class": "icon-thumbs-down2",
-   "codepoint": "U+E972",
-   "char": "\\e972",
-   "inFont": true
-  },
-  {
-   "class": "icon-thumbs-up2",
-   "codepoint": "U+E973",
-   "char": "\\e973",
-   "inFont": true
-  },
-  {
-   "class": "icon-tree",
-   "codepoint": "U+E974",
-   "char": "\\e974",
-   "inFont": true
-  },
-  {
-   "class": "icon-tree2",
-   "codepoint": "U+E975",
-   "char": "\\e975",
-   "inFont": true
-  },
-  {
-   "class": "icon-tumblr",
-   "codepoint": "U+E976",
-   "char": "\\e976",
-   "inFont": true
-  },
-  {
-   "class": "icon-twitter",
-   "codepoint": "U+E990",
-   "char": "\\e990",
-   "inFont": true
-  },
-  {
-   "class": "icon-unlink",
-   "codepoint": "U+E977",
-   "char": "\\e977",
-   "inFont": true
-  },
-  {
-   "class": "icon-unlocked",
-   "codepoint": "U+E978",
-   "char": "\\e978",
-   "inFont": true
-  },
-  {
-   "class": "icon-upload4",
-   "codepoint": "U+E979",
-   "char": "\\e979",
-   "inFont": true
-  },
-  {
-   "class": "icon-user",
-   "codepoint": "U+E97C",
-   "char": "\\e97c",
-   "inFont": true
-  },
-  {
-   "class": "icon-user-minus",
-   "codepoint": "U+E97A",
-   "char": "\\e97a",
-   "inFont": true
-  },
-  {
-   "class": "icon-user-plus",
-   "codepoint": "U+E97B",
-   "char": "\\e97b",
-   "inFont": true
-  },
-  {
-   "class": "icon-user4",
-   "codepoint": "U+EB0C",
-   "char": "\\eb0c",
-   "inFont": true
-  },
-  {
-   "class": "icon-users",
-   "codepoint": "U+E97D",
-   "char": "\\e97d",
-   "inFont": true
+   "note": "Duplicate of android (U+E902). Remove."
   },
   {
    "class": "icon-users4",
-   "codepoint": "U+EB0C",
-   "char": "\\eb0c",
-   "inFont": true,
-   "note": "Same glyph as user4 (U+EB0C)."
+   "note": "Duplicate of user4 (U+EB0C). Not documented; ignored (Karl, 2026-08-31)."
   },
   {
-   "class": "icon-vimeo",
-   "codepoint": "U+E97E",
-   "char": "\\e97e",
-   "inFont": true
-  },
-  {
-   "class": "icon-volume-decrease",
-   "codepoint": "U+E97F",
-   "char": "\\e97f",
-   "inFont": true
-  },
-  {
-   "class": "icon-volume-high",
-   "codepoint": "U+E980",
-   "char": "\\e980",
-   "inFont": true
-  },
-  {
-   "class": "icon-volume-increase",
-   "codepoint": "U+E981",
-   "char": "\\e981",
-   "inFont": true
-  },
-  {
-   "class": "icon-volume-low",
-   "codepoint": "U+E982",
-   "char": "\\e982",
-   "inFont": true
-  },
-  {
-   "class": "icon-volume-medium",
-   "codepoint": "U+E983",
-   "char": "\\e983",
-   "inFont": true
-  },
-  {
-   "class": "icon-volume-mute",
-   "codepoint": "U+E984",
-   "char": "\\e984",
-   "inFont": true
-  },
-  {
-   "class": "icon-warning",
-   "codepoint": "U+E985",
-   "char": "\\e985",
-   "inFont": true
-  },
-  {
-   "class": "icon-warning2",
-   "codepoint": "U+E986",
-   "char": "\\e986",
-   "inFont": true
-  },
-  {
-   "class": "icon-windows8",
-   "codepoint": "U+E986",
-   "char": "\\e986",
-   "inFont": true,
-   "note": "Production CSS points at U+E986 (warning2). The Windows logo glyph is U+E987, which has no class."
-  },
-  {
-   "class": "icon-x",
-   "codepoint": "U+E990",
-   "char": "\\e990",
-   "inFont": true,
-   "note": "Same glyph as twitter (U+E990, the X logo)."
-  },
-  {
-   "class": "icon-yelp",
-   "codepoint": "U+E988",
-   "char": "\\e988",
-   "inFont": true
-  },
-  {
-   "class": "icon-youtube",
-   "codepoint": "U+E989",
-   "char": "\\e989",
-   "inFont": true
-  },
-  {
-   "class": "icon-zoom-in2",
-   "codepoint": "U+E98A",
-   "char": "\\e98a",
-   "inFont": true
-  },
-  {
-   "class": "icon-zoom-out2",
-   "codepoint": "U+E98B",
-   "char": "\\e98b",
-   "inFont": true
+   "class": "icon-gift2 / icon-grid2",
+   "note": "icon-gift2 (U+E930) is documented; icon-grid2 currently shares its glyph (see grid2 above)."
   }
  ],
- "glyphsWithoutClass": [
-  {
-   "codepoint": "U+E921",
-   "char": "\\e921",
-   "looksLike": "copy (two overlapping pages)"
-  },
-  {
-   "codepoint": "U+E932",
-   "char": "\\e932",
-   "looksLike": "grid of 9 dots"
-  },
-  {
-   "codepoint": "U+E93A",
-   "char": "\\e93a",
-   "looksLike": "share (box with up arrow, iOS-style)"
-  },
+ "unusedGlyphs": [
   {
    "codepoint": "U+E941",
-   "char": "\\e941",
-   "looksLike": "padlock, closed"
-  },
-  {
-   "codepoint": "U+E987",
-   "char": "\\e987",
-   "looksLike": "Windows logo"
-  },
-  {
-   "codepoint": "U+E993",
-   "char": "\\e993",
-   "looksLike": "book, closed"
-  },
-  {
-   "codepoint": "U+EA2C",
-   "char": "\\ea2c",
-   "looksLike": "Google \"G\" piece (for google-color)"
-  },
-  {
-   "codepoint": "U+EA2D",
-   "char": "\\ea2d",
-   "looksLike": "Google \"G\" piece (for google-color)"
-  },
-  {
-   "codepoint": "U+EA2E",
-   "char": "\\ea2e",
-   "looksLike": "Google \"G\" piece (for google-color)"
+   "note": "Second closed padlock; no class and not documented (the documented padlock is U+EA26)."
   }
  ]
 }

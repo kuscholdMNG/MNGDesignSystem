@@ -514,7 +514,7 @@ See `tokens/typography/typography-tokens.md`. Production matches the new styles,
 
 ---
 
-## 20. Icon font — dead and duplicate glyphs to clean up, and two designed icons not yet in the font
+## 20. Icon font — mismatches with the Figma icon page, dead and duplicate glyphs, and known missing icons
 
 **Found:** 2026-08-28 to 2026-08-31, icon font audit (`components/icons.md` §3, §5, §6). Added here 2026-09-25: `icons.md` said these were in this handoff, but they had never been logged.
 
@@ -528,6 +528,29 @@ See `tokens/typography/typography-tokens.md`. Production matches the new styles,
 | `mng-podcast1` | Same codepoint (`e902`) as `android` — a font-build duplicate, not a separate icon. | Remove the alias. |
 | `grid2` | Renders the same gift-box glyph as `gift2`, not a grid. The requested "grid" icon has not shipped. | Remove the alias; ship the real `grid` icon (artwork exists in Figma). |
 | `notification-filled`, `notification-outlines` | Designed in Figma (filled and outline exclamation-in-a-circle alert icons) but missing from the live font under any name. Karl confirmed these are real, finished icons waiting to ship. | Add to the font. |
+
+
+**Updated 2026-10-08:** re-checked glyph by glyph against the Figma **Icon Categories** frame (main file, Icons | 2026.08.28, node `1412:13`) using the font extracted from ocregister.com (`tokens/icons/`). **All MNG sites use the same icon font** (Karl, 2026-10-08), so these findings apply everywhere. Of the 171 documented icons, 162 match production by name and glyph. Third-party vendor icons and the "Need to source/make/add" list are out of scope.
+
+### 20.1 Mismatches between the Figma page and the production font
+
+| Figma name | Production | Action |
+|---|---|---|
+| `grid2` | `icon-grid2` shows the gift glyph (U+E930, same as `gift2`). The Figma grid2 artwork (9 dots) **is in the font** at U+E932, with no class. | Point `icon-grid2` at U+E932. (Supersedes the 2026-08 note above that the grid hasn't shipped: the 9-dot glyph is there, just not wired up. The square-tile `grid` in Pending Updates is a different icon; see 20.2.) |
+| `windows8` | `icon-windows8` shows warning2 (U+E986). The Windows logo is in the font at U+E987, with no class. | Point `icon-windows8` at U+E987. |
+| `book3` | `icon-book3` points at U+0065 (the letter "e"). The closed book is in the font at U+E993, with no class. | Point `icon-book3` at U+E993. |
+| `content_copy` | No class. The glyph is in the font at U+E921. | Add `icon-content_copy` (or the agreed name) → U+E921. |
+| `ios_share` | No class. The glyph is in the font at U+E93A. | Add `icon-ios_share` → U+E93A. |
+| `home`, `menu7`, `enlarge7` | Same glyphs, but production names them `icon-home3`, `icon-hamburger` and `icon-enlarge`. Already listed in the Figma page's CHANGE section and in `components/icons.md` §3 as naming fixes. | Decide which name wins (design and dev); rename the Figma entry or add the Figma name as a production alias. |
+| "iTunes / Apple Music" | Same glyph as `icon-music5`; no class with this name. | Naming only; no font change. |
+| *(none)* | `icon-google-plus` (no glyph), `icon-mng-podcast1` (= android) and `icon-users4` (= user4) have no Figma entry. `google-plus` and `mng-podcast1` are in the table above; `users4` was set aside by Karl 2026-08-31. U+E941 (a second padlock) is in the font with no class and no Figma entry. | Remove the dead classes; U+E941 can go in a font rebuild. |
+
+### 20.2 Known missing icons (to be added; not mismatches)
+
+Listed in the Figma page's **Pending Updates**. None is in the production font under any name. Figma artwork for all 12 is in `tokens/icons/svg-missing/`.
+
+- **ADD:** `plus-circle`, `plus-circle2`, `minus-circle`, `minus-circle2`, `list`, `grid` (square tiles), `crown`, `giving-hand`, `yield-filled`, `yield-outline`.
+- **CHANGE:** `notification-outlines` (replaces `notification`) and `notification-filled` (replaces `notification2`). Same items as the `notification-filled` / `notification-outlines` row above.
 
 **Status:** Open.
 
@@ -1137,16 +1160,6 @@ One-line items are unaffected (the 44px height holds), but every extra line adds
 3. *Pending the decision above:* set the separator arrow to one color on every site (proposed `color/gray/500` #CCCAC7, from #D7D6D2 / #C8C4C0).
 
 **Status:** Open. Fix 1 is ready; fixes 2 and 3 wait on the design + dev decision.
-
-## 30. Icon font (`icomoon`) — broken icon classes
-
-**Found:** 2026-10-08, ocregister.com (`boldcoastal.css`), while extracting the icon font to `tokens/icons/`.
-
-**Production:** five `.icon-*` classes point at the wrong codepoint: `icon-grid2` shows the gift glyph (U+E930) instead of the dot grid (U+E932); `icon-windows8` shows warning2 (U+E986) instead of the Windows logo (U+E987); `icon-book3` points at the letter "e" (U+0065) instead of the book (U+E993); `icon-google-plus` points at U+EEEA, which isn't in the font; `icon-mng-podcast1` shows the Android logo (U+E902). U+E921 (copy), U+E93A (iOS-style share) and U+E941 (padlock) exist in the font with no class.
-
-**Fix:** point those classes at the right glyphs (or remove the unused ones) in each theme's CSS. Full map in `tokens/icons/icons.json`.
-
-**Status:** Open. Only Bold Coastal was checked.
 
 ## How to use this doc
 

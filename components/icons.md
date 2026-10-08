@@ -1,6 +1,6 @@
 # Icon Font
 
-> **Updated 2026-09-25** (last change recorded in this doc). Current project status is in `MNG-Design-System-Status.md`.
+> **Updated 2026-10-08:** the production font is now in `tokens/icons/` (all sites use the same font) and was re-checked against the Figma Icon Categories page; current mismatches and known missing icons are in production-vs-design entry 20. Earlier history below. Current project status is in `MNG-Design-System-Status.md`.
 
 **Status:** Documentation source established; live-vs-documented name audit complete (Chicago Tribune). Figma `Icons` COMPONENT_SET (95 variants) audited and visually cross-checked against live glyphs, 2026-08-28 (see §6). Every finding from that audit walked through a live Figma + site side-by-side review with Karl, 2026-08-31 — all open items resolved (see §5). Remaining-site cross-check and full page-by-page usage audit still not done.
 **Source (live):** Chicago Tribune, desktop, sitewide (icomoon icon font, embedded via `@font-face` in the shared theme's `measuredvibrant.css`)
