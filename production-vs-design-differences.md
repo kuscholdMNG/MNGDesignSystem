@@ -1127,7 +1127,7 @@ One-line items are unaffected (the 44px height holds), but every extra line adds
 
 **Production:** all breadcrumb text (crumbs, bullet and label) is **#000000** (OC Register, Chicago Tribune, Orlando Sentinel; Denver Post's crumbs use its theme red #8E1024). The separator arrow is **#D7D6D2** on OC Register and Denver Post and **#C8C4C0** on Orlando Sentinel; design uses `color/gray/500` (#CCCAC7), the closest gray token. mcall.com and canoncitydailyrecord.com weren't checked (Chrome isn't allowed on those domains).
 
-**Fix:** (1) set the label to Noto Sans (same 0.95em size, 400 weight) on every site; (2) change the breadcrumb text color from #000000 to #141414 (`color/gray/min`); (3) change the separator arrow from #D7D6D2 / #C8C4C0 to #CCCAC7 (`color/gray/500`) on every site.
+**Fix:** (1) set the label to Noto Sans (same 0.95em size, 400 weight) on every site; (2) **on every site, whatever its theme or site override**, set all breadcrumb text (crumbs, bullet and label) to #141414 (`color/gray/min`): from #000000 on most sites, and from the theme red #8E1024 on Denver Post (Karl, 2026-10-08). Breadcrumbs don't take theme colors; (3) change the separator arrow from #D7D6D2 / #C8C4C0 to #CCCAC7 (`color/gray/500`) on every site.
 
 **Status:** Open.
 
