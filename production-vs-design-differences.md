@@ -1123,13 +1123,20 @@ One-line items are unaffected (the 44px height holds), but every extra line adds
 
 **Figma spec (source of truth):** WordPress Elements › Article Page › `Breadcrumbs` (`1110:19469`) matches production's sizes, spacing and colors (rebuilt 2026-10-08, Karl): crumbs Noto Sans 700 16/22 uppercase, the `arrow-right2` icon at 14px in `color/gray/500` with 5px on each side, and the label " • News" in Noto Sans 400 15.2/15.2 (`font/size/15-2`). All breadcrumb text (crumbs, bullet and label) is **`color/gray/min` (#141414)** (Karl, 2026-10-08).
 
-**Production:** the label and its CSS-added " • " bullet have no font family set, so they render in **Helvetica** (inherited from the page default). The crumbs are Noto Sans.
+**Production:**
+- *Label font:* the label and its CSS-added " • " bullet have no font family set, so they render in **Helvetica** (inherited from the page default). The crumbs are Noto Sans.
+- *Text color differs across sites:* breadcrumb text (crumbs, bullet and label) is **#000000** on OC Register, Chicago Tribune and Orlando Sentinel, but **Denver Post's crumbs use its theme red #8E1024**. So some sites let breadcrumbs take a theme / site-override color and others don't.
+- *Separator arrow color differs across sites:* **#D7D6D2** on OC Register and Denver Post, **#C8C4C0** on Orlando Sentinel. Design uses `color/gray/500` (#CCCAC7), the closest gray token.
+- mcall.com and canoncitydailyrecord.com weren't checked (Chrome isn't allowed on those domains).
 
-**Production:** all breadcrumb text (crumbs, bullet and label) is **#000000** (OC Register, Chicago Tribune, Orlando Sentinel; Denver Post's crumbs use its theme red #8E1024). The separator arrow is **#D7D6D2** on OC Register and Denver Post and **#C8C4C0** on Orlando Sentinel; design uses `color/gray/500` (#CCCAC7), the closest gray token. mcall.com and canoncitydailyrecord.com weren't checked (Chrome isn't allowed on those domains).
+**⚠ Decision needed: design AND dev teams together.** Should breadcrumb text be one neutral color on every site, or follow each site's theme / Customizer colors (as Denver Post's red does today)? Design's proposal (Karl, 2026-10-08): one neutral, `color/gray/min` (#141414), on every site whatever its theme or site override, so breadcrumbs don't take theme colors; the arrow is `color/gray/500` everywhere. Dev needs to confirm where Denver Post's red comes from (theme stylesheet or Customizer override) and what changing it affects. Record the agreed answer here.
 
-**Fix:** (1) set the label to Noto Sans (same 0.95em size, 400 weight) on every site; (2) **on every site, whatever its theme or site override**, set all breadcrumb text (crumbs, bullet and label) to #141414 (`color/gray/min`): from #000000 on most sites, and from the theme red #8E1024 on Denver Post (Karl, 2026-10-08). Breadcrumbs don't take theme colors; (3) change the separator arrow from #D7D6D2 / #C8C4C0 to #CCCAC7 (`color/gray/500`) on every site.
+**Fix:**
+1. Set the label to Noto Sans (same 0.95em size, 400 weight) on every site. *Not blocked.*
+2. *Pending the decision above:* set all breadcrumb text to the agreed color on every site (proposed `color/gray/min` #141414: from #000000 on most sites, and from #8E1024 on Denver Post).
+3. *Pending the decision above:* set the separator arrow to one color on every site (proposed `color/gray/500` #CCCAC7, from #D7D6D2 / #C8C4C0).
 
-**Status:** Open.
+**Status:** Open. Fix 1 is ready; fixes 2 and 3 wait on the design + dev decision.
 
 ## How to use this doc
 
