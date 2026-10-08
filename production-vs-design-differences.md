@@ -1117,15 +1117,17 @@ One-line items are unaffected (the 44px height holds), but every extra line adds
 
 **Fix:** change the CitySpark widget template's font to Noto Sans (same sizes and weights) on every site, with whoever manages the CitySpark account.
 
-## 29. Article breadcrumb type-of-work label — font family
+## 29. Article breadcrumbs — label font family and text color
 
 **Found:** 2026-10-08, ocregister.com article page (`.breadcrumbs` › `.breadcrumb-type-wrapper > a`, e.g. "NEWS › ENVIRONMENT • News").
 
-**Figma spec (source of truth):** WordPress Elements › Article Page › `Breadcrumbs` (`1110:19469`) matches production's sizes, spacing and colors (rebuilt 2026-10-08, Karl): crumbs Noto Sans 700 16/22 uppercase `color/gray/black`, the `arrow-right2` icon at 14px in `color/gray/500` with 5px on each side, and the label " • News" in Noto Sans 400 15.2/15.2 `color/gray/black` (`font/size/15-2`).
+**Figma spec (source of truth):** WordPress Elements › Article Page › `Breadcrumbs` (`1110:19469`) matches production's sizes, spacing and colors (rebuilt 2026-10-08, Karl): crumbs Noto Sans 700 16/22 uppercase, the `arrow-right2` icon at 14px in `color/gray/500` with 5px on each side, and the label " • News" in Noto Sans 400 15.2/15.2 (`font/size/15-2`). All breadcrumb text (crumbs, bullet and label) is **`color/gray/min` (#141414)** (Karl, 2026-10-08).
 
 **Production:** the label and its CSS-added " • " bullet have no font family set, so they render in **Helvetica** (inherited from the page default). The crumbs are Noto Sans.
 
-**Fix:** set the label to Noto Sans (same 0.95em size, 400 weight) on every site.
+**Production:** all breadcrumb text (crumbs, bullet and label) is **#000000**.
+
+**Fix:** (1) set the label to Noto Sans (same 0.95em size, 400 weight) on every site; (2) change the breadcrumb text color from #000000 to #141414 (`color/gray/min`).
 
 **Status:** Open.
 
