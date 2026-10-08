@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MNG Newspaper Logos</title>
+<!-- Open from a local web server so logos.json can load, e.g. in the repo:
+     python3 -m http.server  then  http://localhost:8000/logos/preview.html -->
+<style>
+  :root { --bg:#f4f3f1; --card:#fff; --ink:#1a1a1a; --muted:#6b6966; --line:#dcdad6; --dark:#1a1a1a; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.4 "Noto Sans", system-ui, sans-serif; }
+  header { position:sticky; top:0; z-index:1; background:var(--bg); border-bottom:1px solid var(--line); padding:16px; display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
+  h1 { font-size:20px; margin:0 12px 0 0; }
+  input, select { font:inherit; padding:6px 10px; border:1px solid var(--line); border-radius:4px; background:#fff; }
+  .count { color:var(--muted); }
+  main { padding:16px; display:grid; gap:12px; grid-template-columns:repeat(auto-fill, minmax(340px, 1fr)); }
+  h2 { grid-column:1/-1; font-size:16px; margin:16px 0 0; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+  .swatches { display:grid; grid-template-columns:1fr 1fr; }
+  .sw { height:96px; display:flex; align-items:center; justify-content:center; padding:16px;
+        background-image:linear-gradient(45deg,#0000000d 25%,transparent 25%,transparent 75%,#0000000d 75%),linear-gradient(45deg,#0000000d 25%,transparent 25%,transparent 75%,#0000000d 75%);
+        background-size:12px 12px; background-position:0 0,6px 6px; }
+  .sw.dark { background-color:var(--dark); }
+  .sw img { max-width:100%; max-height:48px; }
+  .meta { padding:8px 12px; border-top:1px solid var(--line); }
+  .meta b { display:block; }
+  .meta span { color:var(--muted); font-size:12px; }
+  .missing { grid-column:1/-1; background:#fff; border:1px dashed #c0392b; border-radius:8px; padding:12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Newspaper logos</h1>
+  <input id="q" type="search" placeholder="Search publication, cluster or theme">
+  <select id="set">
+    <option value="tokens">Sites in the color tokens</option>
+    <option value="all">All publications</option>
+    <option value="extra">Not in the color tokens</option>
+    <option value="placeholder">Placeholders</option>
+  </select>
+  <span class="count" id="count"></span>
+</header>
+<main id="grid"></main>
+<script>
+let data;
+const grid = document.getElementById('grid');
+function card(name, sub, black, white, h) {
+  return `<div class="card"><div class="swatches">
+    <div class="sw"><img loading="lazy" src="${black}" alt="${name} (black)" style="height:${h}px"></div>
+    <div class="sw dark"><img loading="lazy" src="${white}" alt="${name} (white)" style="height:${h}px"></div>
+  </div><div class="meta"><b>${name}</b><span>${sub}</span></div></div>`;
+}
+function render() {
+  const q = document.getElementById('q').value.toLowerCase();
+  const set = document.getElementById('set').value;
+  let html = '', n = 0;
+  if (set === 'placeholder') {
+    for (const p of data.placeholders) for (const lay of data.placeholder_variants.layouts) {
+      const v = p[lay]; if (!v || !(p.name + lay).toLowerCase().includes(q)) continue;
+      n++; html += card(p.name, `${lay} · ${v.width} × ${v.height}`, v.files.black, v.files.white, lay === 'horizontal' ? 28 : 48);
+    }
+  } else {
+    const logos = data.logos.filter(l => set === 'all' || (set === 'tokens') === l.in_color_tokens)
+      .filter(l => [l.publication, l.cluster, l.theme, l.domain].join(' ').toLowerCase().includes(q));
+    for (const l of logos) {
+      n++; const h = l.horizontal;
+      html += card(l.publication, [l.domain, l.cluster, l.theme].filter(Boolean).join(' · ') || 'not in the color tokens',
+                   h.files.black, h.files.white, Math.min(40, 280 / h.aspect_ratio));
+    }
+    if (set !== 'extra' && !q) html += `<div class="missing"><b>No logo yet (${Object.keys(data.missing).length}):</b> ${Object.keys(data.missing).join(', ')}</div>`;
+  }
+  grid.innerHTML = html;
+  document.getElementById('count').textContent = `${n} shown`;
+}
+fetch('logos.json').then(r => r.json()).then(j => { data = j; render(); });
+document.getElementById('q').addEventListener('input', render);
+document.getElementById('set').addEventListener('change', render);
+</script>
+</body>
+</html>

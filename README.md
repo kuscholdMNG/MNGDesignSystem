@@ -1,7 +1,7 @@
 # MNG Design System — Project Folder
 
 > Folder map and filing rules. **Every session working on this project reads this first and follows it.**
-> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`. **Updated 2026-10-08:** added `tokens/icons/`.
+> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`. **Updated 2026-10-08:** added `tokens/icons/`, `logos/` and `scripts/logos-export/`.
 
 ## Folder map
 
@@ -19,14 +19,18 @@ MNGDesignSystem/
 │   ├── typography/                         ← typography tokens + decision log
 │   └── icons/                              ← production icon font (icomoon .ttf/.woff/.woff2), glyph map,
 │                                             CSS and preview
+├── logos/                                  ← newspaper logos: transparent SVGs (publications/, placeholder/),
+│                                             logos.json manifest, preview.html, README
 ├── figma-exports/                          ← Figma → spec exports (MD + JSON + HTML + PNG previews)
 │   ├── mng-design-system-export/           ← homepage, menus-and-parts, form-fields
 │   └── mng-buttons-export/                 ← all 8 Buttons-page families (primary, secondary, tertiary,
 │                                             action, linkstyle, modal close, in-line close, hyperlink)
 ├── scripts/                                ← generators that rebuild exports, one folder per export
 │   ├── buttons-export/                     ← extract.js (Figma plugin code) + build-buttons-export.py
-│   └── design-system-export/               ← extract.js + build-design-system-export.py + curated.json
+│   ├── design-system-export/               ← extract.js + build-design-system-export.py + curated.json
 │                                             (hand-checked notes) + save-previews.py
+│   └── logos-export/                       ← build-logos.py + sources.json (publication → .ai file) +
+│                                             extract-placeholders.js + figma-placeholders.json
 └── _archive/                               ← retired files, kept for history only (empty right now;
                                               git shows the folder again when a file is moved in)
 ```
@@ -41,6 +45,7 @@ MNGDesignSystem/
 | Color token export, CSS, CSV, decisions | `tokens/colors/` (replace the files there). Color fixes for Engineering go in `production-vs-design-differences.md` entry 21. |
 | Typography tokens or decisions | `tokens/typography/` |
 | Icon font, glyph map, icon previews | `tokens/icons/` |
+| Newspaper logo SVGs, manifest, preview | `logos/` (rebuilt by `scripts/logos-export/build-logos.py`; don't hand-edit the SVGs) |
 | A Figma component export | `figma-exports/<export-name>/` (unzipped, replacing the old one) |
 | A script that rebuilds an export | `scripts/<export-name>/` (inputs and outputs explained at the top of the script) |
 | Anything no longer current | `_archive/` |

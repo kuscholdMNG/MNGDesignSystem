@@ -1,0 +1,2911 @@
+{
+  "_about": "Newspaper logo manifest. Built by scripts/logos-export/build-logos.py; see logos/README.md.",
+  "generated": "2026-10-08",
+  "variants": {
+    "horizontal": [
+      "black",
+      "white"
+    ]
+  },
+  "placeholder_variants": {
+    "layouts": [
+      "horizontal",
+      "stacked",
+      "stacked-tall",
+      "lettermark"
+    ],
+    "colors": [
+      "black",
+      "white"
+    ]
+  },
+  "count": 124,
+  "in_color_tokens": 83,
+  "missing": {
+    "Daily Herald": "DH_LogosMaster.ai exists but its artboards are empty (only the paste-board background).",
+    "Silicon Valley": "No folder in Completed Market Logos.",
+    "Colorado Daily": "No folder in Completed Market Logos.",
+    "Lamar Ledger": "No folder in Completed Market Logos.",
+    "The Willits News": "No folder in Completed Market Logos.",
+    "BoCoPreps": "No folder in Completed Market Logos.",
+    "Brush News-Tribune": "No folder in Completed Market Logos.",
+    "Buffzone": "No folder in Completed Market Logos.",
+    "South Platte Sentinel": "No folder in Completed Market Logos.",
+    "The Burlington Record": "No folder in Completed Market Logos.",
+    "Excelsior California": "No folder in Completed Market Logos.",
+    "Sonoma County Gazette": "No folder in Completed Market Logos.",
+    "Sonoma Magazine": "No folder in Completed Market Logos.",
+    "GrowthSpotter": "No folder in Completed Market Logos."
+  },
+  "logos": [
+    {
+      "slug": "akron-news-reporter",
+      "publication": "Akron News-Reporter",
+      "domain": "akronnewsreporter.com",
+      "cluster": "PMP Weeklies",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/akron-news-reporter/akron-news-reporter--horizontal--black.svg",
+          "white": "publications/akron-news-reporter/akron-news-reporter--horizontal--white.svg"
+        },
+        "width": 522.25,
+        "height": 64.0,
+        "aspect_ratio": 8.1602,
+        "source": "Master Logos/Akron News Reporter/ANR_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "boston-herald",
+      "publication": "Boston Herald",
+      "domain": "bostonherald.com",
+      "cluster": "Boston",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/boston-herald/boston-herald--horizontal--black.svg",
+          "white": "publications/boston-herald/boston-herald--horizontal--white.svg"
+        },
+        "width": 376.08,
+        "height": 64.0,
+        "aspect_ratio": 5.8762,
+        "source": "Master Logos/Boston Herald/BH_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "boulder-daily-camera",
+      "publication": "Boulder Daily Camera",
+      "domain": "dailycamera.com",
+      "cluster": "PMP",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/boulder-daily-camera/boulder-daily-camera--horizontal--black.svg",
+          "white": "publications/boulder-daily-camera/boulder-daily-camera--horizontal--white.svg"
+        },
+        "width": 360.24,
+        "height": 64.0,
+        "aspect_ratio": 5.6288,
+        "source": "Master Logos/Daily Camera/DC_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "broomfield-enterprise",
+      "publication": "Broomfield Enterprise",
+      "domain": "broomfieldenterprise.com",
+      "cluster": "PMP Weeklies",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/broomfield-enterprise/broomfield-enterprise--horizontal--black.svg",
+          "white": "publications/broomfield-enterprise/broomfield-enterprise--horizontal--white.svg"
+        },
+        "width": 307.21,
+        "height": 64.0,
+        "aspect_ratio": 4.8002,
+        "source": "Master Logos/Broomfield Enterprise/BE_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "capital-gazette",
+      "publication": "Capital Gazette",
+      "domain": "capitalgazette.com",
+      "cluster": "Tribune",
+      "theme": "Bold Coastal",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/capital-gazette/capital-gazette--horizontal--black.svg",
+          "white": "publications/capital-gazette/capital-gazette--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 287.19,
+        "aspect_ratio": 6.8846,
+        "source": "Master Logos/Capital Gazette/CAP_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "canon-city-daily-record",
+      "publication": "Cañon City Daily Record",
+      "domain": "canoncitydailyrecord.com",
+      "cluster": "PMP Weeklies",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/canon-city-daily-record/canon-city-daily-record--horizontal--black.svg",
+          "white": "publications/canon-city-daily-record/canon-city-daily-record--horizontal--white.svg"
+        },
+        "width": 604.73,
+        "height": 64.0,
+        "aspect_ratio": 9.4489,
+        "source": "Master Logos/Canon City Daily Record/CCDR_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "chicago-tribune",
+      "publication": "Chicago Tribune",
+      "domain": "chicagotribune.com",
+      "cluster": "Tribune",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/chicago-tribune/chicago-tribune--horizontal--black.svg",
+          "white": "publications/chicago-tribune/chicago-tribune--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 298.8,
+        "aspect_ratio": 6.6171,
+        "source": "Master Logos/Chicago Tribune/CT_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "chico-enterprise-record",
+      "publication": "Chico Enterprise-Record",
+      "domain": "chicoer.com",
+      "cluster": "Norcal",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/chico-enterprise-record/chico-enterprise-record--horizontal--black.svg",
+          "white": "publications/chico-enterprise-record/chico-enterprise-record--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 172.76,
+        "aspect_ratio": 11.4448,
+        "source": "Master Logos/Chico Enterprise Record/CER_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "colorado-hometown-weekly",
+      "publication": "Colorado Hometown Weekly",
+      "domain": "coloradohometownweekly.com",
+      "cluster": "PMP Weeklies",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/colorado-hometown-weekly/colorado-hometown-weekly--horizontal--black.svg",
+          "white": "publications/colorado-hometown-weekly/colorado-hometown-weekly--horizontal--white.svg"
+        },
+        "width": 431.95,
+        "height": 64.0,
+        "aspect_ratio": 6.7492,
+        "source": "Master Logos/Colorado Hometown Weekly/CHW_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "daily-oakland-press",
+      "publication": "Daily Oakland Press",
+      "domain": "theoaklandpress.com",
+      "cluster": "21C Michigan",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/daily-oakland-press/daily-oakland-press--horizontal--black.svg",
+          "white": "publications/daily-oakland-press/daily-oakland-press--horizontal--white.svg"
+        },
+        "width": 756.62,
+        "height": 64.0,
+        "aspect_ratio": 11.8222,
+        "source": "Master Logos/The Oakland Press/TOP_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "daily-press",
+      "publication": "Daily Press",
+      "domain": "dailypress.com",
+      "cluster": "Tribune",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/daily-press/daily-press--horizontal--black.svg",
+          "white": "publications/daily-press/daily-press--horizontal--white.svg"
+        },
+        "width": 1975.72,
+        "height": 499.98,
+        "aspect_ratio": 3.9516,
+        "source": "Master Logos/Daily Press/DP_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "delaware-county-times",
+      "publication": "Delaware County Times",
+      "domain": "delcotimes.com",
+      "cluster": "21C Pennsylvania",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/delaware-county-times/delaware-county-times--horizontal--black.svg",
+          "white": "publications/delaware-county-times/delaware-county-times--horizontal--white.svg"
+        },
+        "width": 340.09,
+        "height": 64.0,
+        "aspect_ratio": 5.3139,
+        "source": "Master Logos/Delaware County Daily Times/DCDT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "east-bay-times",
+      "publication": "East Bay Times",
+      "domain": "eastbaytimes.com",
+      "cluster": "BANG",
+      "theme": "Bold Coastal",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/east-bay-times/east-bay-times--horizontal--black.svg",
+          "white": "publications/east-bay-times/east-bay-times--horizontal--white.svg"
+        },
+        "width": 594.6,
+        "height": 64.0,
+        "aspect_ratio": 9.2906,
+        "source": "Master Logos/East Bay Times/EBT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "estes-park-trail-gazette",
+      "publication": "Estes Park Trail-Gazette",
+      "domain": "eptrail.com",
+      "cluster": "PMP Weeklies",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/estes-park-trail-gazette/estes-park-trail-gazette--horizontal--black.svg",
+          "white": "publications/estes-park-trail-gazette/estes-park-trail-gazette--horizontal--white.svg"
+        },
+        "width": 331.73,
+        "height": 64.0,
+        "aspect_ratio": 5.1833,
+        "source": "Master Logos/Estes Park Trail Gazette/EPTG_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "eureka-times-standard",
+      "publication": "Eureka Times-Standard",
+      "domain": "times-standard.com",
+      "cluster": "Norcal",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/eureka-times-standard/eureka-times-standard--horizontal--black.svg",
+          "white": "publications/eureka-times-standard/eureka-times-standard--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 289.1,
+        "aspect_ratio": 6.8392,
+        "source": "Master Logos/Eureka Times Standard/ETS_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "fort-bragg-advocate-news",
+      "publication": "Fort Bragg Advocate-News",
+      "domain": "advocate-news.com",
+      "cluster": "Norcal Weeklies",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/fort-bragg-advocate-news/fort-bragg-advocate-news--horizontal--black.svg",
+          "white": "publications/fort-bragg-advocate-news/fort-bragg-advocate-news--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 237.15,
+        "aspect_ratio": 8.3373,
+        "source": "Master Logos/Fort Bragg Advocate News/FBAN_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "fort-morgan-times",
+      "publication": "Fort Morgan Times",
+      "domain": "fortmorgantimes.com",
+      "cluster": "PMP Weeklies",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/fort-morgan-times/fort-morgan-times--horizontal--black.svg",
+          "white": "publications/fort-morgan-times/fort-morgan-times--horizontal--white.svg"
+        },
+        "width": 206.5,
+        "height": 64.0,
+        "aspect_ratio": 3.2266,
+        "source": "Master Logos/Fort Morgan Times/FMT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "greeley-tribune",
+      "publication": "Greeley Tribune",
+      "domain": "greeleytribune.com",
+      "cluster": "PMP",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/greeley-tribune/greeley-tribune--horizontal--black.svg",
+          "white": "publications/greeley-tribune/greeley-tribune--horizontal--white.svg"
+        },
+        "width": 444.94,
+        "height": 64.0,
+        "aspect_ratio": 6.9522,
+        "source": "Master Logos/Greeley Tribune/GT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "hartford-courant",
+      "publication": "Hartford Courant",
+      "domain": "courant.com",
+      "cluster": "Tribune",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/hartford-courant/hartford-courant--horizontal--black.svg",
+          "white": "publications/hartford-courant/hartford-courant--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 304.49,
+        "aspect_ratio": 6.4935,
+        "source": "Master Logos/Hartford Courant/HC_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "inland-valley-daily-bulletin",
+      "publication": "Inland Valley Daily Bulletin",
+      "domain": "dailybulletin.com",
+      "cluster": "SCNG",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/inland-valley-daily-bulletin/inland-valley-daily-bulletin--horizontal--black.svg",
+          "white": "publications/inland-valley-daily-bulletin/inland-valley-daily-bulletin--horizontal--white.svg"
+        },
+        "width": 582.5,
+        "height": 64.0,
+        "aspect_ratio": 9.1016,
+        "source": "Master Logos/Inland Valley Daily Bulletin/IVDB_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "julesburg-advocate",
+      "publication": "Julesburg Advocate",
+      "domain": "julesburgadvocate.com",
+      "cluster": "Colorado Weeklies",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/julesburg-advocate/julesburg-advocate--horizontal--black.svg",
+          "white": "publications/julesburg-advocate/julesburg-advocate--horizontal--white.svg"
+        },
+        "width": 354.99,
+        "height": 64.0,
+        "aspect_ratio": 5.5467,
+        "source": "Master Logos/Julesburg Advocate/JA_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "kingston-daily-freeman",
+      "publication": "Kingston Daily Freeman",
+      "domain": "dailyfreeman.com",
+      "cluster": "21C New York",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/kingston-daily-freeman/kingston-daily-freeman--horizontal--black.svg",
+          "white": "publications/kingston-daily-freeman/kingston-daily-freeman--horizontal--white.svg"
+        },
+        "width": 569.95,
+        "height": 64.0,
+        "aspect_ratio": 8.9055,
+        "source": "Master Logos/Kingston Daily Freeman/KDF_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "la-daily-news",
+      "publication": "LA Daily News",
+      "domain": "dailynews.com",
+      "cluster": "SCNG",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/la-daily-news/la-daily-news--horizontal--black.svg",
+          "white": "publications/la-daily-news/la-daily-news--horizontal--white.svg"
+        },
+        "width": 614.46,
+        "height": 64.0,
+        "aspect_ratio": 9.6009,
+        "source": "Master Logos/Los Angeles Daily News/LADN_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "lake-county-news-herald",
+      "publication": "Lake County News-Herald",
+      "domain": "news-herald.com",
+      "cluster": "21C Ohio",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/lake-county-news-herald/lake-county-news-herald--horizontal--black.svg",
+          "white": "publications/lake-county-news-herald/lake-county-news-herald--horizontal--white.svg"
+        },
+        "width": 688.61,
+        "height": 64.0,
+        "aspect_ratio": 10.7595,
+        "source": "Master Logos/The News-Herald OH/NHOH_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "lake-county-record-bee",
+      "publication": "Lake County Record-Bee",
+      "domain": "record-bee.com",
+      "cluster": "Norcal",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/lake-county-record-bee/lake-county-record-bee--horizontal--black.svg",
+          "white": "publications/lake-county-record-bee/lake-county-record-bee--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 412.49,
+        "aspect_ratio": 4.7933,
+        "source": "Master Logos/Lake County Record Bee/LCRB_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "long-beach-press-telegram",
+      "publication": "Long Beach Press-Telegram",
+      "domain": "presstelegram.com",
+      "cluster": "SCNG",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/long-beach-press-telegram/long-beach-press-telegram--horizontal--black.svg",
+          "white": "publications/long-beach-press-telegram/long-beach-press-telegram--horizontal--white.svg"
+        },
+        "width": 616.5,
+        "height": 64.0,
+        "aspect_ratio": 9.6328,
+        "source": "Master Logos/Long Beach Press-Telegram/LBPT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "longmont-times-call",
+      "publication": "Longmont Times-Call",
+      "domain": "timescall.com",
+      "cluster": "PMP",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/longmont-times-call/longmont-times-call--horizontal--black.svg",
+          "white": "publications/longmont-times-call/longmont-times-call--horizontal--white.svg"
+        },
+        "width": 478.0,
+        "height": 64.0,
+        "aspect_ratio": 7.4688,
+        "source": "Master Logos/Longmont Times-Call/LTC_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "lorain-morning-journal",
+      "publication": "Lorain Morning Journal",
+      "domain": "morningjournal.com",
+      "cluster": "21C Ohio",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/lorain-morning-journal/lorain-morning-journal--horizontal--black.svg",
+          "white": "publications/lorain-morning-journal/lorain-morning-journal--horizontal--white.svg"
+        },
+        "width": 671.75,
+        "height": 64.0,
+        "aspect_ratio": 10.4961,
+        "source": "Master Logos/The Morning Journal/TMJ_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "loveland-reporter-herald",
+      "publication": "Loveland Reporter-Herald",
+      "domain": "reporterherald.com",
+      "cluster": "PMP",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/loveland-reporter-herald/loveland-reporter-herald--horizontal--black.svg",
+          "white": "publications/loveland-reporter-herald/loveland-reporter-herald--horizontal--white.svg"
+        },
+        "width": 451.56,
+        "height": 64.0,
+        "aspect_ratio": 7.0556,
+        "source": "Master Logos/Loveland Reporter Herald/LRH_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "lowell-sun",
+      "publication": "Lowell Sun",
+      "domain": "lowellsun.com",
+      "cluster": "Fitch",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/lowell-sun/lowell-sun--horizontal--black.svg",
+          "white": "publications/lowell-sun/lowell-sun--horizontal--white.svg"
+        },
+        "width": 284.34,
+        "height": 64.0,
+        "aspect_ratio": 4.4428,
+        "source": "Master Logos/Lowell Sun/LS_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "macomb-daily",
+      "publication": "Macomb Daily",
+      "domain": "macombdaily.com",
+      "cluster": "21C Michigan",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/macomb-daily/macomb-daily--horizontal--black.svg",
+          "white": "publications/macomb-daily/macomb-daily--horizontal--white.svg"
+        },
+        "width": 542.88,
+        "height": 64.0,
+        "aspect_ratio": 8.4825,
+        "source": "Master Logos/Macomb Daily/MD_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "main-line-media-news",
+      "publication": "Main Line Media News",
+      "domain": "mainlinemedianews.com",
+      "cluster": "21C Pennsylvania",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/main-line-media-news/main-line-media-news--horizontal--black.svg",
+          "white": "publications/main-line-media-news/main-line-media-news--horizontal--white.svg"
+        },
+        "width": 474.86,
+        "height": 64.0,
+        "aspect_ratio": 7.4197,
+        "source": "Master Logos/Main Line Times Suburban/MLTS_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      },
+      "note": "Artwork reads 'Main Line Times & Suburban'."
+    },
+    {
+      "slug": "marin-independent-journal",
+      "publication": "Marin Independent Journal",
+      "domain": "marinij.com",
+      "cluster": "BANG",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/marin-independent-journal/marin-independent-journal--horizontal--black.svg",
+          "white": "publications/marin-independent-journal/marin-independent-journal--horizontal--white.svg"
+        },
+        "width": 649.88,
+        "height": 64.0,
+        "aspect_ratio": 10.1544,
+        "source": "Master Logos/Marin Independent Journal/MIJ_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "monterey-herald",
+      "publication": "Monterey Herald",
+      "domain": "montereyherald.com",
+      "cluster": "Norcal",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/monterey-herald/monterey-herald--horizontal--black.svg",
+          "white": "publications/monterey-herald/monterey-herald--horizontal--white.svg"
+        },
+        "width": 580.0,
+        "height": 51.5,
+        "aspect_ratio": 11.2621,
+        "source": "Master Logos/Monterey Herald/MH_EmailOps.ai",
+        "artboard": 1,
+        "source_ink": [
+          "#000000"
+        ]
+      },
+      "note": "No PageSuite or LogosMaster file yet; taken from the EmailOps header."
+    },
+    {
+      "slug": "mount-pleasant-morning-sun",
+      "publication": "Mount Pleasant Morning Sun",
+      "domain": "themorningsun.com",
+      "cluster": "21C Michigan",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/mount-pleasant-morning-sun/mount-pleasant-morning-sun--horizontal--black.svg",
+          "white": "publications/mount-pleasant-morning-sun/mount-pleasant-morning-sun--horizontal--white.svg"
+        },
+        "width": 335.75,
+        "height": 64.0,
+        "aspect_ratio": 5.2461,
+        "source": "Master Logos/Morning Sun/TMS_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "nashoba-valley-voice",
+      "publication": "Nashoba Valley Voice",
+      "domain": "nashobavalleyvoice.com",
+      "cluster": "Boston",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/nashoba-valley-voice/nashoba-valley-voice--horizontal--black.svg",
+          "white": "publications/nashoba-valley-voice/nashoba-valley-voice--horizontal--white.svg"
+        },
+        "width": 170.19,
+        "height": 64.0,
+        "aspect_ratio": 2.6592,
+        "source": "Master Logos/Nashoba Valley Voice/NVV_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "new-york-daily-news",
+      "publication": "New York Daily News",
+      "domain": "nydailynews.com",
+      "cluster": "Tribune",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/new-york-daily-news/new-york-daily-news--horizontal--black.svg",
+          "white": "publications/new-york-daily-news/new-york-daily-news--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 169.51,
+        "aspect_ratio": 11.6642,
+        "source": "Master Logos/New York Daily News/NYDN_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "norristown-times-herald",
+      "publication": "Norristown Times Herald",
+      "domain": "timesherald.com",
+      "cluster": "21C Pennsylvania",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/norristown-times-herald/norristown-times-herald--horizontal--black.svg",
+          "white": "publications/norristown-times-herald/norristown-times-herald--horizontal--white.svg"
+        },
+        "width": 569.25,
+        "height": 64.0,
+        "aspect_ratio": 8.8945,
+        "source": "Master Logos/The Times Herald Norristown/NTH_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "oneida-daily-dispatch",
+      "publication": "Oneida Daily Dispatch",
+      "domain": "oneidadispatch.com",
+      "cluster": "21C New York",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/oneida-daily-dispatch/oneida-daily-dispatch--horizontal--black.svg",
+          "white": "publications/oneida-daily-dispatch/oneida-daily-dispatch--horizontal--white.svg"
+        },
+        "width": 492.38,
+        "height": 64.0,
+        "aspect_ratio": 7.6934,
+        "source": "Master Logos/Oneida Daily Dispatch/ODD_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "orange-county-register",
+      "publication": "Orange County Register",
+      "domain": "ocregister.com",
+      "cluster": "SCNG",
+      "theme": "Bold Coastal",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/orange-county-register/orange-county-register--horizontal--black.svg",
+          "white": "publications/orange-county-register/orange-county-register--horizontal--white.svg"
+        },
+        "width": 304.24,
+        "height": 64.0,
+        "aspect_ratio": 4.7538,
+        "source": "Master Logos/Orange County Register/OCR_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "orlando-sentinel",
+      "publication": "Orlando Sentinel",
+      "domain": "orlandosentinel.com",
+      "cluster": "Tribune",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/orlando-sentinel/orlando-sentinel--horizontal--black.svg",
+          "white": "publications/orlando-sentinel/orlando-sentinel--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 226.64,
+        "aspect_ratio": 8.724,
+        "source": "Master Logos/Orlando Sentinel/OS_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "oroville-mercury-register",
+      "publication": "Oroville Mercury-Register",
+      "domain": "orovillemr.com",
+      "cluster": "Norcal",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/oroville-mercury-register/oroville-mercury-register--horizontal--black.svg",
+          "white": "publications/oroville-mercury-register/oroville-mercury-register--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 342.3,
+        "aspect_ratio": 5.7762,
+        "source": "Master Logos/Oroville Mercury Register/OMR_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "paradise-post",
+      "publication": "Paradise Post",
+      "domain": "paradisepost.com",
+      "cluster": "Norcal Weeklies",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/paradise-post/paradise-post--horizontal--black.svg",
+          "white": "publications/paradise-post/paradise-post--horizontal--white.svg"
+        },
+        "width": 1976.71,
+        "height": 230.84,
+        "aspect_ratio": 8.5631,
+        "source": "Master Logos/Paradise Post/PARPO_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "pasadena-star-news",
+      "publication": "Pasadena Star-News",
+      "domain": "pasadenastarnews.com",
+      "cluster": "SCNG",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/pasadena-star-news/pasadena-star-news--horizontal--black.svg",
+          "white": "publications/pasadena-star-news/pasadena-star-news--horizontal--white.svg"
+        },
+        "width": 615.38,
+        "height": 64.0,
+        "aspect_ratio": 9.6153,
+        "source": "Master Logos/Pasadena Star-News/PSN_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "petaluma-argus-courier",
+      "publication": "Petaluma Argus-Courier",
+      "domain": "petalumanews.com",
+      "cluster": "Sonoma",
+      "theme": "Bold Coastal",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/petaluma-argus-courier/petaluma-argus-courier--horizontal--black.svg",
+          "white": "publications/petaluma-argus-courier/petaluma-argus-courier--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 340.33,
+        "aspect_ratio": 5.8097,
+        "source": "Master Logos/Petaluma Argus-Courier News/PAC_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "press-enterprise-riverside",
+      "publication": "Press Enterprise (Riverside)",
+      "domain": "pressenterprise.com",
+      "cluster": "SCNG",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/press-enterprise-riverside/press-enterprise-riverside--horizontal--black.svg",
+          "white": "publications/press-enterprise-riverside/press-enterprise-riverside--horizontal--white.svg"
+        },
+        "width": 826.45,
+        "height": 64.0,
+        "aspect_ratio": 12.9133,
+        "source": "Master Logos/The Press-Enterprise/PE_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "reading-eagle",
+      "publication": "Reading Eagle",
+      "domain": "readingeagle.com",
+      "cluster": "21C Pennsylvania",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/reading-eagle/reading-eagle--horizontal--black.svg",
+          "white": "publications/reading-eagle/reading-eagle--horizontal--white.svg"
+        },
+        "width": 534.25,
+        "height": 64.0,
+        "aspect_ratio": 8.3477,
+        "source": "Master Logos/Reading Eagle/RE_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "red-bluff-daily-news",
+      "publication": "Red Bluff Daily News",
+      "domain": "redbluffdailynews.com",
+      "cluster": "Norcal",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/red-bluff-daily-news/red-bluff-daily-news--horizontal--black.svg",
+          "white": "publications/red-bluff-daily-news/red-bluff-daily-news--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 276.05,
+        "aspect_ratio": 7.1625,
+        "source": "Master Logos/Red Bluff Daily News/RBDN_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "redlands-daily-facts",
+      "publication": "Redlands Daily Facts",
+      "domain": "redlandsdailyfacts.com",
+      "cluster": "SCNG",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/redlands-daily-facts/redlands-daily-facts--horizontal--black.svg",
+          "white": "publications/redlands-daily-facts/redlands-daily-facts--horizontal--white.svg"
+        },
+        "width": 476.12,
+        "height": 64.0,
+        "aspect_ratio": 7.4394,
+        "source": "Master Logos/Redlands Daily Facts/RDF_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "republican-herald-pottsville",
+      "publication": "Republican Herald (Pottsville)",
+      "domain": "republicanherald.com",
+      "cluster": "NEPA",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/republican-herald-pottsville/republican-herald-pottsville--horizontal--black.svg",
+          "white": "publications/republican-herald-pottsville/republican-herald-pottsville--horizontal--white.svg"
+        },
+        "width": 646.34,
+        "height": 64.0,
+        "aspect_ratio": 10.0991,
+        "source": "Master Logos/Pottsville Republican Herald/PRH_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "san-bernardino-sun",
+      "publication": "San Bernardino Sun",
+      "domain": "sbsun.com",
+      "cluster": "SCNG",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/san-bernardino-sun/san-bernardino-sun--horizontal--black.svg",
+          "white": "publications/san-bernardino-sun/san-bernardino-sun--horizontal--white.svg"
+        },
+        "width": 298.87,
+        "height": 64.0,
+        "aspect_ratio": 4.6698,
+        "source": "Master Logos/San Bernadino Sun/SBS_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "san-diego-union-tribune",
+      "publication": "San Diego Union-Tribune",
+      "domain": "sandiegouniontribune.com",
+      "cluster": "SCNG",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/san-diego-union-tribune/san-diego-union-tribune--horizontal--black.svg",
+          "white": "publications/san-diego-union-tribune/san-diego-union-tribune--horizontal--white.svg"
+        },
+        "width": 686.62,
+        "height": 64.0,
+        "aspect_ratio": 10.7284,
+        "source": "Master Logos/San Diego Union Tribune/SDUT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "san-gabriel-valley-tribune",
+      "publication": "San Gabriel Valley Tribune",
+      "domain": "sgvtribune.com",
+      "cluster": "SCNG",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/san-gabriel-valley-tribune/san-gabriel-valley-tribune--horizontal--black.svg",
+          "white": "publications/san-gabriel-valley-tribune/san-gabriel-valley-tribune--horizontal--white.svg"
+        },
+        "width": 646.88,
+        "height": 64.0,
+        "aspect_ratio": 10.1075,
+        "source": "Master Logos/San Gabriel Valley Tribune/SGVT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "santa-cruz-sentinel",
+      "publication": "Santa Cruz Sentinel",
+      "domain": "santacruzsentinel.com",
+      "cluster": "Norcal",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/santa-cruz-sentinel/santa-cruz-sentinel--horizontal--black.svg",
+          "white": "publications/santa-cruz-sentinel/santa-cruz-sentinel--horizontal--white.svg"
+        },
+        "width": 420.74,
+        "height": 64.0,
+        "aspect_ratio": 6.5741,
+        "source": "Master Logos/Santa Cruz Sentinel/SCS_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "saratogian",
+      "publication": "Saratogian",
+      "domain": "saratogian.com",
+      "cluster": "21C New York",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/saratogian/saratogian--horizontal--black.svg",
+          "white": "publications/saratogian/saratogian--horizontal--white.svg"
+        },
+        "width": 569.22,
+        "height": 64.0,
+        "aspect_ratio": 8.8941,
+        "source": "Master Logos/The Saratogian/TS_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "scranton-times-tribune",
+      "publication": "Scranton Times-Tribune",
+      "domain": "thetimes-tribune.com",
+      "cluster": "NEPA",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/scranton-times-tribune/scranton-times-tribune--horizontal--black.svg",
+          "white": "publications/scranton-times-tribune/scranton-times-tribune--horizontal--white.svg"
+        },
+        "width": 568.19,
+        "height": 63.5,
+        "aspect_ratio": 8.9479,
+        "source": "Master Logos/Scranton The Times-Tribune/TTRIB_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "sentinel-enterprise-fitchburg",
+      "publication": "Sentinel & Enterprise (Fitchburg)",
+      "domain": "sentinelandenterprise.com",
+      "cluster": "Fitch",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/sentinel-enterprise-fitchburg/sentinel-enterprise-fitchburg--horizontal--black.svg",
+          "white": "publications/sentinel-enterprise-fitchburg/sentinel-enterprise-fitchburg--horizontal--white.svg"
+        },
+        "width": 442.59,
+        "height": 64.0,
+        "aspect_ratio": 6.9155,
+        "source": "Master Logos/Sentinel and Enterprise Fitchburg/SAEF_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "south-florida-sun-sentinel",
+      "publication": "South Florida Sun Sentinel",
+      "domain": "sun-sentinel.com",
+      "cluster": "Tribune",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/south-florida-sun-sentinel/south-florida-sun-sentinel--horizontal--black.svg",
+          "white": "publications/south-florida-sun-sentinel/south-florida-sun-sentinel--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 262.97,
+        "aspect_ratio": 7.5187,
+        "source": "Master Logos/Sun Sentinel/SS_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "st-paul-pioneer-press",
+      "publication": "St. Paul Pioneer Press",
+      "domain": "twincities.com",
+      "cluster": "Twin Cities",
+      "theme": "Bold Coastal",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/st-paul-pioneer-press/st-paul-pioneer-press--horizontal--black.svg",
+          "white": "publications/st-paul-pioneer-press/st-paul-pioneer-press--horizontal--white.svg"
+        },
+        "width": 573.62,
+        "height": 64.0,
+        "aspect_ratio": 8.9628,
+        "source": "Master Logos/Pioneer Press/PP_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "standard-speaker-hazleton",
+      "publication": "Standard-Speaker (Hazleton)",
+      "domain": "standardspeaker.com",
+      "cluster": "NEPA",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/standard-speaker-hazleton/standard-speaker-hazleton--horizontal--black.svg",
+          "white": "publications/standard-speaker-hazleton/standard-speaker-hazleton--horizontal--white.svg"
+        },
+        "width": 457.62,
+        "height": 64.0,
+        "aspect_ratio": 7.1503,
+        "source": "Master Logos/Hazelton Standard-Speaker/HSS_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "sterling-journal-advocate",
+      "publication": "Sterling Journal-Advocate",
+      "domain": "journal-advocate.com",
+      "cluster": "PMP Weeklies",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/sterling-journal-advocate/sterling-journal-advocate--horizontal--black.svg",
+          "white": "publications/sterling-journal-advocate/sterling-journal-advocate--horizontal--white.svg"
+        },
+        "width": 514.5,
+        "height": 64.0,
+        "aspect_ratio": 8.0391,
+        "source": "Master Logos/Sterling Journal-Advocate/SJA_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-baltimore-sun",
+      "publication": "The Baltimore Sun",
+      "domain": "baltimoresun.com",
+      "cluster": "Tribune",
+      "theme": "Bold Coastal",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-baltimore-sun/the-baltimore-sun--horizontal--black.svg",
+          "white": "publications/the-baltimore-sun/the-baltimore-sun--horizontal--white.svg"
+        },
+        "width": 3499.08,
+        "height": 256.31,
+        "aspect_ratio": 13.6517,
+        "source": "Master Logos/Baltimore Sun/TBS_LogosMaster.ai",
+        "artboard": 4,
+        "source_ink": [
+          "#000000"
+        ]
+      },
+      "note": "Baltimore Sun's LogosMaster has two masthead artboards, so Main Logo Black is artboard 4."
+    },
+    {
+      "slug": "the-citizens-voice-wilkes-barre",
+      "publication": "The Citizens' Voice (Wilkes-Barre)",
+      "domain": "citizensvoice.com",
+      "cluster": "NEPA",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-citizens-voice-wilkes-barre/the-citizens-voice-wilkes-barre--horizontal--black.svg",
+          "white": "publications/the-citizens-voice-wilkes-barre/the-citizens-voice-wilkes-barre--horizontal--white.svg"
+        },
+        "width": 464.25,
+        "height": 64.0,
+        "aspect_ratio": 7.2539,
+        "source": "Master Logos/Citizens Voice/CV_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-denver-post",
+      "publication": "The Denver Post",
+      "domain": "denverpost.com",
+      "cluster": "Denver",
+      "theme": "Bold Coastal",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-denver-post/the-denver-post--horizontal--black.svg",
+          "white": "publications/the-denver-post/the-denver-post--horizontal--white.svg"
+        },
+        "width": 628.58,
+        "height": 64.0,
+        "aspect_ratio": 9.8216,
+        "source": "Master Logos/The Denver Post/TDP_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-lansdale-reporter",
+      "publication": "The Lansdale Reporter",
+      "domain": "thereporteronline.com",
+      "cluster": "21C Pennsylvania",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-lansdale-reporter/the-lansdale-reporter--horizontal--black.svg",
+          "white": "publications/the-lansdale-reporter/the-lansdale-reporter--horizontal--white.svg"
+        },
+        "width": 626.75,
+        "height": 64.0,
+        "aspect_ratio": 9.793,
+        "source": "Master Logos/The Lansdale Reporter/TLR_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-mendocino-beacon",
+      "publication": "The Mendocino Beacon",
+      "domain": "mendocinobeacon.com",
+      "cluster": "Norcal Weeklies",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-mendocino-beacon/the-mendocino-beacon--horizontal--black.svg",
+          "white": "publications/the-mendocino-beacon/the-mendocino-beacon--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 248.39,
+        "aspect_ratio": 7.9601,
+        "source": "Master Logos/Mendocino Beacon/TMB_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "the-mercury-news",
+      "publication": "The Mercury News",
+      "domain": "mercurynews.com",
+      "cluster": "BANG",
+      "theme": "Bold Coastal",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-mercury-news/the-mercury-news--horizontal--black.svg",
+          "white": "publications/the-mercury-news/the-mercury-news--horizontal--white.svg"
+        },
+        "width": 489.22,
+        "height": 64.0,
+        "aspect_ratio": 7.6441,
+        "source": "Master Logos/The Mercury News/MN_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-morning-call",
+      "publication": "The Morning Call",
+      "domain": "mcall.com",
+      "cluster": "Tribune",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-morning-call/the-morning-call--horizontal--black.svg",
+          "white": "publications/the-morning-call/the-morning-call--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 158.66,
+        "aspect_ratio": 12.4619,
+        "source": "Master Logos/Morning Call/MC_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "the-news-herald-southgate",
+      "publication": "The News-Herald (Southgate)",
+      "domain": "thenewsherald.com",
+      "cluster": "21C Michigan",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-news-herald-southgate/the-news-herald-southgate--horizontal--black.svg",
+          "white": "publications/the-news-herald-southgate/the-news-herald-southgate--horizontal--white.svg"
+        },
+        "width": 435.84,
+        "height": 64.0,
+        "aspect_ratio": 6.81,
+        "source": "Master Logos/News-Herald MI/NHMI_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-pottstown-mercury",
+      "publication": "The Pottstown Mercury",
+      "domain": "pottsmerc.com",
+      "cluster": "21C Pennsylvania",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-pottstown-mercury/the-pottstown-mercury--horizontal--black.svg",
+          "white": "publications/the-pottstown-mercury/the-pottstown-mercury--horizontal--white.svg"
+        },
+        "width": 425.88,
+        "height": 64.0,
+        "aspect_ratio": 6.6544,
+        "source": "Master Logos/The Pottstown Mercury/TPM_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-press-democrat",
+      "publication": "The Press Democrat",
+      "domain": "pressdemocrat.com",
+      "cluster": "Sonoma",
+      "theme": "Bold Coastal",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-press-democrat/the-press-democrat--horizontal--black.svg",
+          "white": "publications/the-press-democrat/the-press-democrat--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 192.04,
+        "aspect_ratio": 10.2958,
+        "source": "Master Logos/The Press Democrat/PD_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "the-sonoma-index-tribune",
+      "publication": "The Sonoma Index-Tribune",
+      "domain": "sonomanews.com",
+      "cluster": "Sonoma",
+      "theme": "Bold Coastal",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-sonoma-index-tribune/the-sonoma-index-tribune--horizontal--black.svg",
+          "white": "publications/the-sonoma-index-tribune/the-sonoma-index-tribune--horizontal--white.svg"
+        },
+        "width": 1976.95,
+        "height": 174.98,
+        "aspect_ratio": 11.2981,
+        "source": "Master Logos/Sonoma Index-Tribune/SIT_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "the-troy-record",
+      "publication": "The Troy Record",
+      "domain": "troyrecord.com",
+      "cluster": "21C New York",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-troy-record/the-troy-record--horizontal--black.svg",
+          "white": "publications/the-troy-record/the-troy-record--horizontal--white.svg"
+        },
+        "width": 518.88,
+        "height": 64.0,
+        "aspect_ratio": 8.1075,
+        "source": "Master Logos/The Troy Record/TRT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-virginian-pilot",
+      "publication": "The Virginian-Pilot",
+      "domain": "pilotonline.com",
+      "cluster": "Tribune",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-virginian-pilot/the-virginian-pilot--horizontal--black.svg",
+          "white": "publications/the-virginian-pilot/the-virginian-pilot--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 224.66,
+        "aspect_ratio": 8.8009,
+        "source": "Master Logos/The Virginian-Pilot/VP_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "torrance-daily-breeze",
+      "publication": "Torrance Daily Breeze",
+      "domain": "dailybreeze.com",
+      "cluster": "SCNG",
+      "theme": "Bold Coastal",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/torrance-daily-breeze/torrance-daily-breeze--horizontal--black.svg",
+          "white": "publications/torrance-daily-breeze/torrance-daily-breeze--horizontal--white.svg"
+        },
+        "width": 542.62,
+        "height": 64.0,
+        "aspect_ratio": 8.4784,
+        "source": "Master Logos/Torrance Daily Breeze/TDB_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "trentonian",
+      "publication": "Trentonian",
+      "domain": "trentonian.com",
+      "cluster": "21C Pennsylvania",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/trentonian/trentonian--horizontal--black.svg",
+          "white": "publications/trentonian/trentonian--horizontal--white.svg"
+        },
+        "width": 497.11,
+        "height": 64.0,
+        "aspect_ratio": 7.7673,
+        "source": "Master Logos/The Trentonian/TRENT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "ukiah-daily-journal",
+      "publication": "Ukiah Daily Journal",
+      "domain": "ukiahdailyjournal.com",
+      "cluster": "Norcal",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/ukiah-daily-journal/ukiah-daily-journal--horizontal--black.svg",
+          "white": "publications/ukiah-daily-journal/ukiah-daily-journal--horizontal--white.svg"
+        },
+        "width": 1617.3,
+        "height": 499.95,
+        "aspect_ratio": 3.2349,
+        "source": "Master Logos/Ukiah Daily Journal/UDJ_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      },
+      "note": "Main Logo is a two-line lockup."
+    },
+    {
+      "slug": "vacaville-reporter",
+      "publication": "Vacaville Reporter",
+      "domain": "thereporter.com",
+      "cluster": "Norcal",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/vacaville-reporter/vacaville-reporter--horizontal--black.svg",
+          "white": "publications/vacaville-reporter/vacaville-reporter--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 299.28,
+        "aspect_ratio": 6.6065,
+        "source": "Master Logos/Vacaville Reporter/VR_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "vallejo-times-herald",
+      "publication": "Vallejo Times-Herald",
+      "domain": "timesheraldonline.com",
+      "cluster": "Norcal",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/vallejo-times-herald/vallejo-times-herald--horizontal--black.svg",
+          "white": "publications/vallejo-times-herald/vallejo-times-herald--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 256.21,
+        "aspect_ratio": 7.7171,
+        "source": "Master Logos/Vallejo Times-Hearald/VTH_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "west-chester-daily-local",
+      "publication": "West Chester Daily Local",
+      "domain": "dailylocal.com",
+      "cluster": "21C Pennsylvania",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/west-chester-daily-local/west-chester-daily-local--horizontal--black.svg",
+          "white": "publications/west-chester-daily-local/west-chester-daily-local--horizontal--white.svg"
+        },
+        "width": 450.88,
+        "height": 64.0,
+        "aspect_ratio": 7.045,
+        "source": "Master Logos/Daily Local News West Chester/DLN_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "whittier-daily-news",
+      "publication": "Whittier Daily News",
+      "domain": "whittierdailynews.com",
+      "cluster": "SCNG",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/whittier-daily-news/whittier-daily-news--horizontal--black.svg",
+          "white": "publications/whittier-daily-news/whittier-daily-news--horizontal--white.svg"
+        },
+        "width": 453.62,
+        "height": 64.0,
+        "aspect_ratio": 7.0878,
+        "source": "Master Logos/Whittier Daily News/WDN_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "woodland-daily-democrat",
+      "publication": "Woodland Daily Democrat",
+      "domain": "dailydemocrat.com",
+      "cluster": "Norcal",
+      "theme": "Measured Vibrant",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/woodland-daily-democrat/woodland-daily-democrat--horizontal--black.svg",
+          "white": "publications/woodland-daily-democrat/woodland-daily-democrat--horizontal--white.svg"
+        },
+        "width": 1977.2,
+        "height": 238.75,
+        "aspect_ratio": 8.2815,
+        "source": "Master Logos/Woodland Daily Democrat/WDD_LogosMaster.ai",
+        "artboard": 3,
+        "source_ink": [
+          "#000000"
+        ]
+      }
+    },
+    {
+      "slug": "wyoming-county-examiner",
+      "publication": "Wyoming County Examiner",
+      "domain": "wcexaminer.com",
+      "cluster": "NEPA",
+      "theme": "Modern Earthy",
+      "in_color_tokens": true,
+      "horizontal": {
+        "files": {
+          "black": "publications/wyoming-county-examiner/wyoming-county-examiner--horizontal--black.svg",
+          "white": "publications/wyoming-county-examiner/wyoming-county-examiner--horizontal--white.svg"
+        },
+        "width": 332.75,
+        "height": 64.0,
+        "aspect_ratio": 5.1992,
+        "source": "Master Logos/Wyoming County Press Examiner/WCPE_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "advance-of-bucks-county",
+      "publication": "Advance of Bucks County",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/advance-of-bucks-county/advance-of-bucks-county--horizontal--black.svg",
+          "white": "publications/advance-of-bucks-county/advance-of-bucks-county--horizontal--white.svg"
+        },
+        "width": 350.75,
+        "height": 64.0,
+        "aspect_ratio": 5.4805,
+        "source": "Master Logos/Advance of Bucks County/AOBC_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "alameda-journal",
+      "publication": "Alameda Journal",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/alameda-journal/alameda-journal--horizontal--black.svg",
+          "white": "publications/alameda-journal/alameda-journal--horizontal--white.svg"
+        },
+        "width": 458.5,
+        "height": 64.0,
+        "aspect_ratio": 7.1641,
+        "source": "Master Logos/Alameda Journal/AJ_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "almaden-resident",
+      "publication": "Almaden Resident",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/almaden-resident/almaden-resident--horizontal--black.svg",
+          "white": "publications/almaden-resident/almaden-resident--horizontal--white.svg"
+        },
+        "width": 183.98,
+        "height": 64.0,
+        "aspect_ratio": 2.8747,
+        "source": "Master Logos/Almaden Resident/AR_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "berkeley-voice",
+      "publication": "Berkeley Voice",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/berkeley-voice/berkeley-voice--horizontal--black.svg",
+          "white": "publications/berkeley-voice/berkeley-voice--horizontal--white.svg"
+        },
+        "width": 419.5,
+        "height": 64.0,
+        "aspect_ratio": 6.5547,
+        "source": "Master Logos/Berkeley Voice/BV_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "boyertown-area-times",
+      "publication": "Boyertown Area Times",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/boyertown-area-times/boyertown-area-times--horizontal--black.svg",
+          "white": "publications/boyertown-area-times/boyertown-area-times--horizontal--white.svg"
+        },
+        "width": 491.71,
+        "height": 64.0,
+        "aspect_ratio": 7.683,
+        "source": "Master Logos/Boyertown Area Times/BAT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "cambrian-resident",
+      "publication": "Cambrian Resident",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/cambrian-resident/cambrian-resident--horizontal--black.svg",
+          "white": "publications/cambrian-resident/cambrian-resident--horizontal--white.svg"
+        },
+        "width": 183.98,
+        "height": 64.0,
+        "aspect_ratio": 2.8747,
+        "source": "Master Logos/Cambrian Resident/CR_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "campbell-reporter",
+      "publication": "Campbell Reporter",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/campbell-reporter/campbell-reporter--horizontal--black.svg",
+          "white": "publications/campbell-reporter/campbell-reporter--horizontal--white.svg"
+        },
+        "width": 266.84,
+        "height": 64.0,
+        "aspect_ratio": 4.1694,
+        "source": "Master Logos/Campbell Reporter/CR_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "canon-city-shopper",
+      "publication": "Canon City Shopper",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/canon-city-shopper/canon-city-shopper--horizontal--black.svg",
+          "white": "publications/canon-city-shopper/canon-city-shopper--horizontal--white.svg"
+        },
+        "width": 214.62,
+        "height": 64.0,
+        "aspect_ratio": 3.3534,
+        "source": "Master Logos/Canon City Shopper/CCS_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "concord-transcript",
+      "publication": "Concord Transcript",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/concord-transcript/concord-transcript--horizontal--black.svg",
+          "white": "publications/concord-transcript/concord-transcript--horizontal--white.svg"
+        },
+        "width": 222.0,
+        "height": 64.0,
+        "aspect_ratio": 3.4688,
+        "source": "Master Logos/Concord Transcript/CON_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "cupertino-courier",
+      "publication": "Cupertino Courier",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/cupertino-courier/cupertino-courier--horizontal--black.svg",
+          "white": "publications/cupertino-courier/cupertino-courier--horizontal--white.svg"
+        },
+        "width": 215.94,
+        "height": 64.0,
+        "aspect_ratio": 3.3741,
+        "source": "Master Logos/Cupertino Courier/CC_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "east-county-news",
+      "publication": "East County News",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/east-county-news/east-county-news--horizontal--black.svg",
+          "white": "publications/east-county-news/east-county-news--horizontal--white.svg"
+        },
+        "width": 341.35,
+        "height": 64.0,
+        "aspect_ratio": 5.3336,
+        "source": "Master Logos/East County News/ECN_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "el-cerrito-journal",
+      "publication": "El Cerrito Journal",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/el-cerrito-journal/el-cerrito-journal--horizontal--black.svg",
+          "white": "publications/el-cerrito-journal/el-cerrito-journal--horizontal--white.svg"
+        },
+        "width": 513.82,
+        "height": 64.0,
+        "aspect_ratio": 8.0284,
+        "source": "Master Logos/El Cerrito Journal/ECJ_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "fremont-argus",
+      "publication": "Fremont Argus",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/fremont-argus/fremont-argus--horizontal--black.svg",
+          "white": "publications/fremont-argus/fremont-argus--horizontal--white.svg"
+        },
+        "width": 358.37,
+        "height": 64.0,
+        "aspect_ratio": 5.5995,
+        "source": "Master Logos/Fremont Argus/FA_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "hayward-daily-review",
+      "publication": "Hayward Daily Review",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/hayward-daily-review/hayward-daily-review--horizontal--black.svg",
+          "white": "publications/hayward-daily-review/hayward-daily-review--horizontal--white.svg"
+        },
+        "width": 519.57,
+        "height": 64.0,
+        "aspect_ratio": 8.1183,
+        "source": "Master Logos/Hayward Daily Review/HDR_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "king-of-prussia-courier",
+      "publication": "King of Prussia Courier",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/king-of-prussia-courier/king-of-prussia-courier--horizontal--black.svg",
+          "white": "publications/king-of-prussia-courier/king-of-prussia-courier--horizontal--white.svg"
+        },
+        "width": 417.98,
+        "height": 64.0,
+        "aspect_ratio": 6.5309,
+        "source": "Master Logos/King of Prussia Courier/KPC_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "los-gatos-weekly",
+      "publication": "Los Gatos Weekly",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/los-gatos-weekly/los-gatos-weekly--horizontal--black.svg",
+          "white": "publications/los-gatos-weekly/los-gatos-weekly--horizontal--white.svg"
+        },
+        "width": 421.0,
+        "height": 64.0,
+        "aspect_ratio": 6.5781,
+        "source": "Master Logos/Los Gatos Weekly/LGW_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "milpitas-post",
+      "publication": "Milpitas Post",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/milpitas-post/milpitas-post--horizontal--black.svg",
+          "white": "publications/milpitas-post/milpitas-post--horizontal--white.svg"
+        },
+        "width": 176.0,
+        "height": 64.0,
+        "aspect_ratio": 2.75,
+        "source": "Master Logos/Milpitas Post/MP_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "montclarion",
+      "publication": "Montclarion",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/montclarion/montclarion--horizontal--black.svg",
+          "white": "publications/montclarion/montclarion--horizontal--white.svg"
+        },
+        "width": 586.47,
+        "height": 64.0,
+        "aspect_ratio": 9.1636,
+        "source": "Master Logos/Montclarion/MONT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "news-herald-pa",
+      "publication": "News-Herald PA",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/news-herald-pa/news-herald-pa--horizontal--black.svg",
+          "white": "publications/news-herald-pa/news-herald-pa--horizontal--white.svg"
+        },
+        "width": 428.08,
+        "height": 64.0,
+        "aspect_ratio": 6.6887,
+        "source": "Master Logos/News-Herald PA/NHPA_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "northern-berks-patriot-item",
+      "publication": "Northern Berks Patriot Item",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/northern-berks-patriot-item/northern-berks-patriot-item--horizontal--black.svg",
+          "white": "publications/northern-berks-patriot-item/northern-berks-patriot-item--horizontal--white.svg"
+        },
+        "width": 864.88,
+        "height": 64.0,
+        "aspect_ratio": 13.5137,
+        "source": "Master Logos/Northern Berks Patriot Item/NBPI_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "oakland-tribune",
+      "publication": "Oakland Tribune",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/oakland-tribune/oakland-tribune--horizontal--black.svg",
+          "white": "publications/oakland-tribune/oakland-tribune--horizontal--white.svg"
+        },
+        "width": 498.73,
+        "height": 64.0,
+        "aspect_ratio": 7.7927,
+        "source": "Master Logos/Oakland Tribune/OT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "peninsula-news",
+      "publication": "Peninsula News",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/peninsula-news/peninsula-news--horizontal--black.svg",
+          "white": "publications/peninsula-news/peninsula-news--horizontal--white.svg"
+        },
+        "width": 149.12,
+        "height": 64.0,
+        "aspect_ratio": 2.33,
+        "source": "Master Logos/Peninsula News/PN_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "piedmonter",
+      "publication": "Piedmonter",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/piedmonter/piedmonter--horizontal--black.svg",
+          "white": "publications/piedmonter/piedmonter--horizontal--white.svg"
+        },
+        "width": 375.98,
+        "height": 64.0,
+        "aspect_ratio": 5.8747,
+        "source": "Master Logos/Piedmonter/PIED_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "rose-garden-resident",
+      "publication": "Rose Garden Resident",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/rose-garden-resident/rose-garden-resident--horizontal--black.svg",
+          "white": "publications/rose-garden-resident/rose-garden-resident--horizontal--white.svg"
+        },
+        "width": 230.47,
+        "height": 64.0,
+        "aspect_ratio": 3.6011,
+        "source": "Master Logos/Rose Garden Resident/RGR_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "saratoga-news",
+      "publication": "Saratoga News",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/saratoga-news/saratoga-news--horizontal--black.svg",
+          "white": "publications/saratoga-news/saratoga-news--horizontal--white.svg"
+        },
+        "width": 400.86,
+        "height": 64.0,
+        "aspect_ratio": 6.2634,
+        "source": "Master Logos/Saratoga News/SN_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "souderton-independent",
+      "publication": "Souderton Independent",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/souderton-independent/souderton-independent--horizontal--black.svg",
+          "white": "publications/souderton-independent/souderton-independent--horizontal--white.svg"
+        },
+        "width": 452.88,
+        "height": 64.0,
+        "aspect_ratio": 7.0762,
+        "source": "Master Logos/Souderton Independent/SI_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "south-schuykill-news",
+      "publication": "South Schuykill News",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/south-schuykill-news/south-schuykill-news--horizontal--black.svg",
+          "white": "publications/south-schuykill-news/south-schuykill-news--horizontal--white.svg"
+        },
+        "width": 558.97,
+        "height": 64.0,
+        "aspect_ratio": 8.7339,
+        "source": "Master Logos/South Schuykill News/SSN_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "southern-berks-news",
+      "publication": "Southern Berks News",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/southern-berks-news/southern-berks-news--horizontal--black.svg",
+          "white": "publications/southern-berks-news/southern-berks-news--horizontal--white.svg"
+        },
+        "width": 569.74,
+        "height": 64.0,
+        "aspect_ratio": 8.9022,
+        "source": "Master Logos/Southern Berks News/SBN_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "southern-chester-county-news",
+      "publication": "Southern Chester County News",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/southern-chester-county-news/southern-chester-county-news--horizontal--black.svg",
+          "white": "publications/southern-chester-county-news/southern-chester-county-news--horizontal--white.svg"
+        },
+        "width": 320.38,
+        "height": 64.0,
+        "aspect_ratio": 5.0059,
+        "source": "Master Logos/Southern Chester County News/SCCN_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "sunnyvale-sun",
+      "publication": "Sunnyvale Sun",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/sunnyvale-sun/sunnyvale-sun--horizontal--black.svg",
+          "white": "publications/sunnyvale-sun/sunnyvale-sun--horizontal--white.svg"
+        },
+        "width": 290.73,
+        "height": 64.0,
+        "aspect_ratio": 4.5427,
+        "source": "Master Logos/Sunnyvale Sun/SUNV_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-ambler-gazette",
+      "publication": "The Ambler Gazette",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-ambler-gazette/the-ambler-gazette--horizontal--black.svg",
+          "white": "publications/the-ambler-gazette/the-ambler-gazette--horizontal--white.svg"
+        },
+        "width": 358.5,
+        "height": 64.0,
+        "aspect_ratio": 5.6016,
+        "source": "Master Logos/The Ambler Gazette/TAG_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-central-record",
+      "publication": "The Central Record",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-central-record/the-central-record--horizontal--black.svg",
+          "white": "publications/the-central-record/the-central-record--horizontal--white.svg"
+        },
+        "width": 628.83,
+        "height": 64.0,
+        "aspect_ratio": 9.8255,
+        "source": "Master Logos/The Central Record/TCR_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-leader-pa",
+      "publication": "The Leader PA",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-leader-pa/the-leader-pa--horizontal--black.svg",
+          "white": "publications/the-leader-pa/the-leader-pa--horizontal--white.svg"
+        },
+        "width": 467.49,
+        "height": 64.0,
+        "aspect_ratio": 7.3045,
+        "source": "Master Logos/The Leader PA/TLPA_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-news-and-press-of-delaware-county",
+      "publication": "The News and Press of Delaware County",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-news-and-press-of-delaware-county/the-news-and-press-of-delaware-county--horizontal--black.svg",
+          "white": "publications/the-news-and-press-of-delaware-county/the-news-and-press-of-delaware-county--horizontal--white.svg"
+        },
+        "width": 315.75,
+        "height": 64.0,
+        "aspect_ratio": 4.9336,
+        "source": "Master Logos/The News and Press of Delaware County/NPDC_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-phoenix-reporter-item",
+      "publication": "The Phoenix Reporter & Item",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-phoenix-reporter-item/the-phoenix-reporter-item--horizontal--black.svg",
+          "white": "publications/the-phoenix-reporter-item/the-phoenix-reporter-item--horizontal--white.svg"
+        },
+        "width": 545.2,
+        "height": 64.0,
+        "aspect_ratio": 8.5188,
+        "source": "Master Logos/The Phoenix Reporter & Item/PRI_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "the-review-pa",
+      "publication": "The Review PA",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/the-review-pa/the-review-pa--horizontal--black.svg",
+          "white": "publications/the-review-pa/the-review-pa--horizontal--white.svg"
+        },
+        "width": 475.95,
+        "height": 64.0,
+        "aspect_ratio": 7.4367,
+        "source": "Master Logos/The Review PA/TRPA_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "times-chronicle-public-spirit",
+      "publication": "Times Chronicle & Public Spirit",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/times-chronicle-public-spirit/times-chronicle-public-spirit--horizontal--black.svg",
+          "white": "publications/times-chronicle-public-spirit/times-chronicle-public-spirit--horizontal--white.svg"
+        },
+        "width": 768.62,
+        "height": 64.0,
+        "aspect_ratio": 12.0097,
+        "source": "Master Logos/Times Chronicle & Public Spirit/TCPS_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "town-talk",
+      "publication": "Town Talk",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/town-talk/town-talk--horizontal--black.svg",
+          "white": "publications/town-talk/town-talk--horizontal--white.svg"
+        },
+        "width": 426.62,
+        "height": 64.0,
+        "aspect_ratio": 6.6659,
+        "source": "Master Logos/Town Talk/TT_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "tri-county-record",
+      "publication": "Tri County Record",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/tri-county-record/tri-county-record--horizontal--black.svg",
+          "white": "publications/tri-county-record/tri-county-record--horizontal--white.svg"
+        },
+        "width": 448.23,
+        "height": 64.0,
+        "aspect_ratio": 7.0036,
+        "source": "Master Logos/Tri County Record/TCR_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "walnut-creek-journal",
+      "publication": "Walnut Creek Journal",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/walnut-creek-journal/walnut-creek-journal--horizontal--black.svg",
+          "white": "publications/walnut-creek-journal/walnut-creek-journal--horizontal--white.svg"
+        },
+        "width": 207.5,
+        "height": 64.0,
+        "aspect_ratio": 3.2422,
+        "source": "Master Logos/Walnut Creek Journal/WCJ_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "slug": "willow-glen-resident",
+      "publication": "Willow Glen Resident",
+      "domain": null,
+      "cluster": null,
+      "theme": null,
+      "in_color_tokens": false,
+      "horizontal": {
+        "files": {
+          "black": "publications/willow-glen-resident/willow-glen-resident--horizontal--black.svg",
+          "white": "publications/willow-glen-resident/willow-glen-resident--horizontal--white.svg"
+        },
+        "width": 183.98,
+        "height": 64.0,
+        "aspect_ratio": 2.8747,
+        "source": "Master Logos/Willow Glen Resident/WGR_PageSuite.ai",
+        "artboard": 2,
+        "source_ink": [
+          "#ffffff"
+        ]
+      }
+    }
+  ],
+  "placeholders": [
+    {
+      "slug": "fakeville-daily-news",
+      "name": "Fakeville Daily News",
+      "placeholder": true,
+      "horizontal": {
+        "files": {
+          "black": "placeholder/fakeville-daily-news/fakeville-daily-news--horizontal--black.svg",
+          "white": "placeholder/fakeville-daily-news/fakeville-daily-news--horizontal--white.svg"
+        },
+        "width": 464.5,
+        "height": 33.86,
+        "aspect_ratio": 13.7183,
+        "source": "Figma jFHYqhZbJjvWQmDI4myCsd node 3050:2313 (FakevilleDailyNews-MastheadLight)"
+      },
+      "stacked": {
+        "files": {
+          "black": "placeholder/fakeville-daily-news/fakeville-daily-news--stacked--black.svg",
+          "white": "placeholder/fakeville-daily-news/fakeville-daily-news--stacked--white.svg"
+        },
+        "width": 497.67,
+        "height": 101.55,
+        "aspect_ratio": 4.9007,
+        "source": "Figma jFHYqhZbJjvWQmDI4myCsd node 3050:2353 (FakevilleDailyNews-StackedWideLight)"
+      },
+      "stacked-tall": {
+        "files": {
+          "black": "placeholder/fakeville-daily-news/fakeville-daily-news--stacked-tall--black.svg",
+          "white": "placeholder/fakeville-daily-news/fakeville-daily-news--stacked-tall--white.svg"
+        },
+        "width": 365.89,
+        "height": 272.6,
+        "aspect_ratio": 1.3422,
+        "source": "Figma jFHYqhZbJjvWQmDI4myCsd node 3050:2394 (FakevilleDailyNews-StackedTallLight)"
+      },
+      "lettermark": {
+        "files": {
+          "black": "placeholder/fakeville-daily-news/fakeville-daily-news--lettermark--black.svg",
+          "white": "placeholder/fakeville-daily-news/fakeville-daily-news--lettermark--white.svg"
+        },
+        "width": 338.33,
+        "height": 473.12,
+        "aspect_ratio": 0.7151,
+        "source": "Figma jFHYqhZbJjvWQmDI4myCsd node 3050:2439 (FakevilleDailyNews-Master-02 1)"
+      }
+    },
+    {
+      "slug": "newspaper-town-times",
+      "name": "Newspaper Town Times",
+      "placeholder": true,
+      "horizontal": {
+        "files": {
+          "black": "placeholder/newspaper-town-times/newspaper-town-times--horizontal--black.svg",
+          "white": "placeholder/newspaper-town-times/newspaper-town-times--horizontal--white.svg"
+        },
+        "width": 524.71,
+        "height": 34.9,
+        "aspect_ratio": 15.0347,
+        "source": "Figma jFHYqhZbJjvWQmDI4myCsd node 3050:2445 (NewspaperTownTimes-MastheadLight)"
+      },
+      "stacked": {
+        "files": {
+          "black": "placeholder/newspaper-town-times/newspaper-town-times--stacked--black.svg",
+          "white": "placeholder/newspaper-town-times/newspaper-town-times--stacked--white.svg"
+        },
+        "width": 512.85,
+        "height": 134.43,
+        "aspect_ratio": 3.815,
+        "source": "Figma jFHYqhZbJjvWQmDI4myCsd node 3050:2485 (NewspaperTownTimes-StackedWideLight)"
+      },
+      "stacked-tall": {
+        "files": {
+          "black": "placeholder/newspaper-town-times/newspaper-town-times--stacked-tall--black.svg",
+          "white": "placeholder/newspaper-town-times/newspaper-town-times--stacked-tall--white.svg"
+        },
+        "width": 421.15,
+        "height": 228.41,
+        "aspect_ratio": 1.8438,
+        "source": "Figma jFHYqhZbJjvWQmDI4myCsd node 3050:2525 (NewspaperTownTimes-StackedLight)"
+      },
+      "lettermark": {
+        "files": {
+          "black": "placeholder/newspaper-town-times/newspaper-town-times--lettermark--black.svg",
+          "white": "placeholder/newspaper-town-times/newspaper-town-times--lettermark--white.svg"
+        },
+        "width": 559.87,
+        "height": 413.73,
+        "aspect_ratio": 1.3532,
+        "source": "Figma jFHYqhZbJjvWQmDI4myCsd node 3050:2565 (NewspaperTownTimes-SquareLight)"
+      }
+    },
+    {
+      "slug": "newspaper-town-news",
+      "name": "Newspaper Town News",
+      "placeholder": true,
+      "horizontal": {
+        "files": {
+          "black": "placeholder/newspaper-town-news/newspaper-town-news--horizontal--black.svg",
+          "white": "placeholder/newspaper-town-news/newspaper-town-news--horizontal--white.svg"
+        },
+        "width": 507.5,
+        "height": 34.49,
+        "aspect_ratio": 14.7144,
+        "source": "Figma jFHYqhZbJjvWQmDI4myCsd node 3050:2585 (NewspaperTownNews-MastheadLight)"
+      },
+      "stacked": {
+        "files": {
+          "black": "placeholder/newspaper-town-news/newspaper-town-news--stacked--black.svg",
+          "white": "placeholder/newspaper-town-news/newspaper-town-news--stacked--white.svg"
+        },
+        "width": 512.85,
+        "height": 134.92,
+        "aspect_ratio": 3.8011,
+        "source": "Figma jFHYqhZbJjvWQmDI4myCsd node 3050:2623 (NewspaperTownNews-StackedWideLight)"
+      },
+      "stacked-tall": {
+        "files": {
+          "black": "placeholder/newspaper-town-news/newspaper-town-news--stacked-tall--black.svg",
+          "white": "placeholder/newspaper-town-news/newspaper-town-news--stacked-tall--white.svg"
+        },
+        "width": 406.1,
+        "height": 228.41,
+        "aspect_ratio": 1.7779,
+        "source": "Figma jFHYqhZbJjvWQmDI4myCsd node 3050:2661 (NewspaperTownNews-StackedTallLight)"
+      },
+      "lettermark": {
+        "files": {
+          "black": "placeholder/newspaper-town-news/newspaper-town-news--lettermark--black.svg",
+          "white": "placeholder/newspaper-town-news/newspaper-town-news--lettermark--white.svg"
+        },
+        "width": 547.89,
+        "height": 450.77,
+        "aspect_ratio": 1.2155,
+        "source": "Figma jFHYqhZbJjvWQmDI4myCsd node 3050:2699 (NewspaperTownNews-SquareLight)"
+      }
+    }
+  ]
+}
