@@ -1,0 +1,36 @@
+{
+ "schema": "mng-design-system/export-index@1",
+ "exported": "2026-10-09",
+ "source": "WordPress Elements ▸ Ads and Sponsored ▸ Ad Blocks (517:4304)",
+ "items": [
+  {
+   "order": 1,
+   "name": "Ad Blocks",
+   "kind": "component",
+   "variants": 37,
+   "breakpoints": [
+    "340",
+    "360",
+    "768",
+    "1024",
+    "1100",
+    "1280"
+   ],
+   "builtFrom": [],
+   "builtInto": [
+    "Masthead",
+    "ObitMastHead",
+    "TOP ZONE Block",
+    "Upcoming Events Block"
+   ],
+   "md": "components/01-ad-blocks/ad-blocks.md",
+   "json": "components/01-ad-blocks/ad-blocks.json",
+   "html": "components/01-ad-blocks/ad-blocks.html",
+   "figmaNode": "517:4304",
+   "issues": 9
+  }
+ ],
+ "excluded": [
+  "RevContent (506:3865): not built to production (Karl, 2026-10-08)"
+ ]
+}

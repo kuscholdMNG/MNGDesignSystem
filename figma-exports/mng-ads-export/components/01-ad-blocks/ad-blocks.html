@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ad Blocks — skeleton</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../tokens.css">
+<style>
+[hidden]{display:none!important}
+body{font-family:'Noto Sans',sans-serif;margin:24px;background:#fff;color:#141414}
+.mng-variant{margin:0 0 32px}
+.mng-variant__title{font-size:14px;font-weight:700;margin:0 0 8px} .mng-variant__title small{font-weight:400;color:#5D5B5A}
+/* Ad Blocks: fixed IAB size, 2px inside border, centered label, X diagonals. */
+.mng-ad-blocks{position:relative;box-sizing:border-box;flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;
+  overflow:hidden;background:var(--ad-placeholder-fill,#85FF9B);border:2px solid var(--color-gray-min,#141414)}
+.mng-ad-blocks__x{position:absolute;inset:0;width:100%;height:100%} .mng-ad-blocks__x path{stroke:var(--color-gray-min,#141414);stroke-width:2;fill:none;vector-effect:non-scaling-stroke}
+.mng-ad-blocks__label{position:relative;margin:0;text-align:center;font-family:'Noto Serif',serif;font-weight:700;line-height:normal;letter-spacing:.1em;
+  color:var(--color-gray-min,#141414);-webkit-text-stroke:3px var(--color-gray-600,#F1EFEB);paint-order:stroke fill}
+.mng-ad-blocks__close{position:absolute;top:4px;right:4px;width:20px;height:20px;padding:0;border:0;background:none;cursor:pointer;line-height:0}
+</style></head>
+<body>
+<h1 style="font-size:20px">Ad Blocks <small style="font-weight:400">(37 variants · WordPress Elements 517:4304)</small></h1>
+  <section class="mng-variant" data-variant="Device=All, Name=Sponsorship 1 320x50">
+    <h2 class="mng-variant__title">Device=All, Name=Sponsorship 1 320x50 <small>320×50 · slot sponsorship_1</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Sponsorship 1 320x50" style="width:320px;height:50px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 320 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 320 50M320 0 0 50"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Sponsorship 1 320x50<br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Sponsorship 1 300x50">
+    <h2 class="mng-variant__title">Device=All, Name=Sponsorship 1 300x50 <small>300×50 · slot sponsorship_1</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Sponsorship 1 300x50" style="width:300px;height:50px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 50M300 0 0 50"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Sponsorship 1 300x50<br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Desktop, Name=Top Leaderboard 970x250">
+    <h2 class="mng-variant__title">Device=Desktop, Name=Top Leaderboard 970x250 <small>970×250 · slot top_leaderboard</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Desktop" data-name="Top Leaderboard 970x250" style="width:970px;height:250px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 970 250" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 970 250M970 0 0 250"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Top Leaderboard 970x250<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Desktop, Name=Top Leaderboard 970x90">
+    <h2 class="mng-variant__title">Device=Desktop, Name=Top Leaderboard 970x90 <small>970×90 · slot top_leaderboard</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Desktop" data-name="Top Leaderboard 970x90" style="width:970px;height:90px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 970 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 970 90M970 0 0 90"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Top Leaderboard 970x90<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Top Leaderboard 728x90">
+    <h2 class="mng-variant__title">Device=All, Name=Top Leaderboard 728x90 <small>728×90 · slot top_leaderboard</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Top Leaderboard 728x90" style="width:728px;height:90px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 728 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 728 90M728 0 0 90"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Top Leaderboard 728x90<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Mobile, Name=Top Leaderboard 320x100">
+    <h2 class="mng-variant__title">Device=Mobile, Name=Top Leaderboard 320x100 <small>320×100 · slot top_leaderboard</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Mobile" data-name="Top Leaderboard 320x100" style="width:320px;height:100px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 320 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 320 100M320 0 0 100"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Top Leaderboard 320x100<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Mobile, Name=Top Leaderboard 320x50">
+    <h2 class="mng-variant__title">Device=Mobile, Name=Top Leaderboard 320x50 <small>320×50 · slot top_leaderboard</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Mobile" data-name="Top Leaderboard 320x50" style="width:320px;height:50px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 320 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 320 50M320 0 0 50"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Top Leaderboard 320x50<br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Mobile, Name=Top Leaderboard 300x50">
+    <h2 class="mng-variant__title">Device=Mobile, Name=Top Leaderboard 300x50 <small>300×50 · slot top_leaderboard</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Mobile" data-name="Top Leaderboard 300x50" style="width:300px;height:50px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 50M300 0 0 50"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Top Leaderboard 300x50<br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Desktop, Name=Sponsorship 2 970x250">
+    <h2 class="mng-variant__title">Device=Desktop, Name=Sponsorship 2 970x250 <small>970×250 · slot sponsorship_2 (also sponsorship_3 / sponsorship_4)</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Desktop" data-name="Sponsorship 2 970x250" style="width:970px;height:250px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 970 250" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 970 250M970 0 0 250"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Sponsorship 2 970x250<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Desktop, Name=Sponsorship 2 970x90">
+    <h2 class="mng-variant__title">Device=Desktop, Name=Sponsorship 2 970x90 <small>970×90 · slot sponsorship_2 (also sponsorship_3 / sponsorship_4)</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Desktop" data-name="Sponsorship 2 970x90" style="width:970px;height:90px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 970 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 970 90M970 0 0 90"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Sponsorship 2 970x90<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Sponsorship 2 728x90">
+    <h2 class="mng-variant__title">Device=All, Name=Sponsorship 2 728x90 <small>728×90 · slot sponsorship_2 (also sponsorship_3 / sponsorship_4)</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Sponsorship 2 728x90" style="width:728px;height:90px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 728 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 728 90M728 0 0 90"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Sponsorship 2 728x90<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Sponsorship 2 320x50">
+    <h2 class="mng-variant__title">Device=All, Name=Sponsorship 2 320x50 <small>320×50 · slot sponsorship_2 (also sponsorship_3 / sponsorship_4)</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Sponsorship 2 320x50" style="width:320px;height:50px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 320 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 320 50M320 0 0 50"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Sponsorship 2 320x50<br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Mobile, Name=Sponsorship 2 300x50">
+    <h2 class="mng-variant__title">Device=Mobile, Name=Sponsorship 2 300x50 <small>300×50 · slot sponsorship_2 (also sponsorship_3 / sponsorship_4)</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Mobile" data-name="Sponsorship 2 300x50" style="width:300px;height:50px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 50M300 0 0 50"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Sponsorship 2 300x50<br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Desktop, Name=Cube 1 RRail ATF 300x1050">
+    <h2 class="mng-variant__title">Device=Desktop, Name=Cube 1 RRail ATF 300x1050 <small>300×1050 · slot cube1_rrail_atf</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Desktop" data-name="Cube 1 RRail ATF 300x1050" style="width:300px;height:1050px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 1050" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 1050M300 0 0 1050"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Cube 1 RRail ATF 300x1050<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Cube 1 RRail ATF 300x600">
+    <h2 class="mng-variant__title">Device=All, Name=Cube 1 RRail ATF 300x600 <small>300×600 · slot cube1_rrail_atf</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Cube 1 RRail ATF 300x600" style="width:300px;height:600px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 600" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 600M300 0 0 600"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Cube 1 RRail ATF 300x600<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Cube 1 RRail ATF 300x250">
+    <h2 class="mng-variant__title">Device=All, Name=Cube 1 RRail ATF 300x250 <small>300×250 · slot cube1_rrail_atf</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Cube 1 RRail ATF 300x250" style="width:300px;height:250px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 250" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 250M300 0 0 250"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Cube 1 RRail ATF 300x250<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Cube 1 RRail ATF 160x600">
+    <h2 class="mng-variant__title">Device=All, Name=Cube 1 RRail ATF 160x600 <small>160×600 · slot cube1_rrail_atf</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Cube 1 RRail ATF 160x600" style="width:160px;height:600px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 160 600" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 160 600M160 0 0 600"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:14px">Cube 1 RRail ATF 160x600<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Desktop, Name=Cube 2 RRail Mid 300x600">
+    <h2 class="mng-variant__title">Device=Desktop, Name=Cube 2 RRail Mid 300x600 <small>300×600 · slot cube2_rrail_mid</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Desktop" data-name="Cube 2 RRail Mid 300x600" style="width:300px;height:600px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 600" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 600M300 0 0 600"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Cube 2 RRail Mid 300x600<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Cube 2 RRail Mid 300x250">
+    <h2 class="mng-variant__title">Device=All, Name=Cube 2 RRail Mid 300x250 <small>300×250 · slot cube2_rrail_mid</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Cube 2 RRail Mid 300x250" style="width:300px;height:250px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 250" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 250M300 0 0 250"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Cube 2 RRail Mid 300x250<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Cube 3 RRail Lower 300x600">
+    <h2 class="mng-variant__title">Device=All, Name=Cube 3 RRail Lower 300x600 <small>300×600 · slot cube3_rrail_lower</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Cube 3 RRail Lower 300x600" style="width:300px;height:600px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 600" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 600M300 0 0 600"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Cube 3 RRail Lower 300x600<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Cube 3 RRail Lower 300x250">
+    <h2 class="mng-variant__title">Device=All, Name=Cube 3 RRail Lower 300x250 <small>300×250 · slot cube3_rrail_lower</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Cube 3 RRail Lower 300x250" style="width:300px;height:250px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 250" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 250M300 0 0 250"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Cube 3 RRail Lower 300x250<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Cube Article 300x250">
+    <h2 class="mng-variant__title">Device=All, Name=Cube Article 300x250 <small>300×250 · slot cube_article</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Cube Article 300x250" style="width:300px;height:250px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 250" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 250M300 0 0 250"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Cube Article 300x250<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Sidebar Rectangle 300x250">
+    <h2 class="mng-variant__title">Device=All, Name=Sidebar Rectangle 300x250 <small>300×250 · slot — (generic 300x250; also the CitySpark ad inside Upcoming Events)</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Sidebar Rectangle 300x250" style="width:300px;height:250px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 250" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 250M300 0 0 250"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Sidebar Rectangle 300x250<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Desktop, Name=Outstream Video 480x360">
+    <h2 class="mng-variant__title">Device=Desktop, Name=Outstream Video 480x360 <small>480×360 · slot outstream_video</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Desktop" data-name="Outstream Video 480x360" style="width:480px;height:360px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 480 360" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 480 360M480 0 0 360"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Outstream Video 480x360<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Mobile, Name=Outstream Video 300x250">
+    <h2 class="mng-variant__title">Device=Mobile, Name=Outstream Video 300x250 <small>300×250 · slot outstream_video</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Mobile" data-name="Outstream Video 300x250" style="width:300px;height:250px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 250" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 250M300 0 0 250"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Outstream Video 300x250<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Desktop, Name=Mid-Article Banner 728x90">
+    <h2 class="mng-variant__title">Device=Desktop, Name=Mid-Article Banner 728x90 <small>728×90 · slot — (no matching article slot found; see Status open item 8b)</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Desktop" data-name="Mid-Article Banner 728x90" style="width:728px;height:90px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 728 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 728 90M728 0 0 90"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Mid-Article Banner 728x90<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Mobile, Name=Mid-Article Banner 300x250">
+    <h2 class="mng-variant__title">Device=Mobile, Name=Mid-Article Banner 300x250 <small>300×250 · slot — (no matching article slot found; see Status open item 8b)</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Mobile" data-name="Mid-Article Banner 300x250" style="width:300px;height:250px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 250" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 250M300 0 0 250"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Mid-Article Banner 300x250<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Desktop, Name=Bottom Leaderboard 970x250">
+    <h2 class="mng-variant__title">Device=Desktop, Name=Bottom Leaderboard 970x250 <small>970×250 · slot bottom_leaderboard</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Desktop" data-name="Bottom Leaderboard 970x250" style="width:970px;height:250px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 970 250" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 970 250M970 0 0 250"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Bottom Leaderboard 970x250<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Desktop, Name=Bottom Leaderboard 970x90">
+    <h2 class="mng-variant__title">Device=Desktop, Name=Bottom Leaderboard 970x90 <small>970×90 · slot bottom_leaderboard</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Desktop" data-name="Bottom Leaderboard 970x90" style="width:970px;height:90px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 970 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 970 90M970 0 0 90"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Bottom Leaderboard 970x90<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Desktop, Name=Bottom Leaderboard 728x90">
+    <h2 class="mng-variant__title">Device=Desktop, Name=Bottom Leaderboard 728x90 <small>728×90 · slot bottom_leaderboard</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Desktop" data-name="Bottom Leaderboard 728x90" style="width:728px;height:90px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 728 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 728 90M728 0 0 90"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Bottom Leaderboard 728x90<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Mobile, Name=Bottom Leaderboard 320x100">
+    <h2 class="mng-variant__title">Device=Mobile, Name=Bottom Leaderboard 320x100 <small>320×100 · slot bottom_leaderboard</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Mobile" data-name="Bottom Leaderboard 320x100" style="width:320px;height:100px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 320 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 320 100M320 0 0 100"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Bottom Leaderboard 320x100<br><br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Mobile, Name=Bottom Leaderboard 320x50">
+    <h2 class="mng-variant__title">Device=Mobile, Name=Bottom Leaderboard 320x50 <small>320×50 · slot bottom_leaderboard</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Mobile" data-name="Bottom Leaderboard 320x50" style="width:320px;height:50px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 320 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 320 50M320 0 0 50"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Bottom Leaderboard 320x50<br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Mobile, Name=Bottom Leaderboard 300x50">
+    <h2 class="mng-variant__title">Device=Mobile, Name=Bottom Leaderboard 300x50 <small>300×50 · slot bottom_leaderboard</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Mobile" data-name="Bottom Leaderboard 300x50" style="width:300px;height:50px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 50M300 0 0 50"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Bottom Leaderboard 300x50<br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=Mobile Adhesion 728x90">
+    <h2 class="mng-variant__title">Device=All, Name=Mobile Adhesion 728x90 <small>728×90 · slot mobile_adhesion (sticky, dismissible)</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="Mobile Adhesion 728x90" style="width:728px;height:90px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 728 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 728 90M728 0 0 90"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Mobile Adhesion 728x90<br>ADVERTISEMENT</p>
+      <button class="mng-ad-blocks__close" type="button" aria-label="Close ad"><svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="var(--color-gray-min, #141414)"/><path d="M5 5 15 15M15 5 5 15" stroke="#FFFFFF" stroke-width="2"/></svg></button>
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Mobile, Name=Mobile Adhesion 320x50">
+    <h2 class="mng-variant__title">Device=Mobile, Name=Mobile Adhesion 320x50 <small>320×50 · slot mobile_adhesion (sticky, dismissible)</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Mobile" data-name="Mobile Adhesion 320x50" style="width:320px;height:50px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 320 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 320 50M320 0 0 50"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Mobile Adhesion 320x50<br>ADVERTISEMENT</p>
+      <button class="mng-ad-blocks__close" type="button" aria-label="Close ad"><svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="var(--color-gray-min, #141414)"/><path d="M5 5 15 15M15 5 5 15" stroke="#FFFFFF" stroke-width="2"/></svg></button>
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=Mobile, Name=Mobile Adhesion 300x50">
+    <h2 class="mng-variant__title">Device=Mobile, Name=Mobile Adhesion 300x50 <small>300×50 · slot mobile_adhesion (sticky, dismissible)</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="Mobile" data-name="Mobile Adhesion 300x50" style="width:300px;height:50px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 50M300 0 0 50"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">Mobile Adhesion 300x50<br>ADVERTISEMENT</p>
+      
+    </div>
+  </section>
+  <section class="mng-variant" data-variant="Device=All, Name=PLACE HOLDER">
+    <h2 class="mng-variant__title">Device=All, Name=PLACE HOLDER <small>300×250 · slot — (not an ad unit)</small></h2>
+    <!-- Ad slot. In production this <div> is the GPT container; the green box is a design placeholder only. -->
+    <div class="mng-ad-blocks" data-component="Ad Blocks" data-device="All" data-name="PLACE HOLDER" style="width:300px;height:250px">
+      <svg class="mng-ad-blocks__x" viewBox="0 0 300 250" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 300 250M300 0 0 250"/></svg>
+      <p class="mng-ad-blocks__label" style="font-size:16px">PLACE HOLDER</p>
+      
+    </div>
+  </section>
+</body></html>

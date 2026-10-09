@@ -1,7 +1,7 @@
 # MNG Design System — Project Folder
 
 > Folder map and filing rules. **Every session working on this project reads this first and follows it.**
-> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`. **Updated 2026-10-08:** added `tokens/icons/`, `logos/` and `scripts/logos-export/`.
+> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`. **Updated 2026-10-08:** added `tokens/icons/`, `logos/` and `scripts/logos-export/`. **Updated 2026-10-09:** added `figma-exports/mng-ads-export/` and `scripts/ads-export/`.
 
 ## Folder map
 
@@ -23,9 +23,12 @@ MNGDesignSystem/
 │                                             logos.json manifest, preview.html, README
 ├── figma-exports/                          ← Figma → spec exports (MD + JSON + HTML + PNG previews)
 │   ├── mng-design-system-export/           ← homepage, menus-and-parts, form-fields
-│   └── mng-buttons-export/                 ← all 8 Buttons-page families (primary, secondary, tertiary,
-│                                             action, linkstyle, modal close, in-line close, hyperlink)
+│   ├── mng-buttons-export/                 ← all 8 Buttons-page families (primary, secondary, tertiary,
+│   │                                         action, linkstyle, modal close, in-line close, hyperlink)
+│   └── mng-ads-export/                     ← WordPress Elements Ad Blocks set (ad slots, 37 variants;
+│                                             RevContent excluded)
 ├── scripts/                                ← generators that rebuild exports, one folder per export
+│   ├── ads-export/                         ← extract.js (Figma plugin code) + build-ads-export.py
 │   ├── buttons-export/                     ← extract.js (Figma plugin code) + build-buttons-export.py
 │   ├── design-system-export/               ← extract.js + build-design-system-export.py + curated.json
 │                                             (hand-checked notes) + save-previews.py
