@@ -6,3 +6,7 @@
 
 # Local credentials, never committed
 claude-credentials
+
+# Python caches
+__pycache__/
+*.pyc
