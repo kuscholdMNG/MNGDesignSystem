@@ -54,7 +54,7 @@ const preset = {
       "fontFamily": {
         "noto-sans": [
           "Noto Sans",
-          "Tahoma",
+          "Helvetica Neue",
           "Arial",
           "sans-serif"
         ],

@@ -177,7 +177,7 @@
         {
           "slug": "noto-sans",
           "name": "Noto Sans",
-          "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+          "fontFamily": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
         },
         {
           "slug": "noto-serif",
@@ -192,12 +192,12 @@
         {
           "slug": "body",
           "name": "Body",
-          "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+          "fontFamily": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
         },
         {
           "slug": "eyebrow",
           "name": "Eyebrow",
-          "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+          "fontFamily": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
         },
         {
           "slug": "small-headline",

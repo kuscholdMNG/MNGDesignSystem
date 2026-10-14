@@ -177,7 +177,7 @@
         {
           "slug": "noto-sans",
           "name": "Noto Sans",
-          "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+          "fontFamily": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
         },
         {
           "slug": "noto-serif",
@@ -187,7 +187,7 @@
         {
           "slug": "heading",
           "name": "Heading",
-          "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+          "fontFamily": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
         },
         {
           "slug": "body",
@@ -202,7 +202,7 @@
         {
           "slug": "small-headline",
           "name": "Small Headline",
-          "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+          "fontFamily": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
         }
       ],
       "fontSizes": [

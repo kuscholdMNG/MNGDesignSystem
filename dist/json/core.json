@@ -45,7 +45,7 @@
   "color.tributes.tan.rgba": "rgba(163, 156, 138, 1)",
   "color.tributes.tan-light": "#e8e6e2",
   "color.tributes.tan-light.rgba": "rgba(232, 230, 226, 1)",
-  "font.family.noto-sans": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+  "font.family.noto-sans": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
   "font.family.noto-serif": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
   "font.size.10": "10px",
   "font.size.10.rem": "0.625rem",

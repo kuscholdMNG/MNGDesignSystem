@@ -29,9 +29,6 @@
   --mng-editorial-footer-copyright-letter-spacing: 0em;
   --mng-editorial-footer-copyright-line-height-px: 18px;
   --mng-editorial-footer-copyright-font: var(--mng-editorial-footer-copyright-font-weight) var(--mng-editorial-footer-copyright-font-size)/var(--mng-editorial-footer-copyright-line-height) var(--mng-editorial-footer-copyright-font-family);
-  --mng-editorial-module-header-font-family: var(--mng-font-theme-heading-family);
-  --mng-editorial-module-header-font-size: var(--mng-font-size-20);
-  --mng-editorial-module-header-font-weight: var(--mng-font-weight-semibold);
   --mng-editorial-navigation-primary-label-font-family: var(--mng-font-family-noto-sans);
   --mng-editorial-navigation-primary-label-font-size: var(--mng-font-size-15);
   --mng-editorial-navigation-primary-label-font-weight: var(--mng-font-weight-semibold);

@@ -6,7 +6,7 @@
       "noto-sans": {
         "$value": [
           "Noto Sans",
-          "Tahoma",
+          "Helvetica Neue",
           "Arial",
           "sans-serif"
         ],
@@ -16,7 +16,7 @@
               "file": "MNG Web Design System",
               "collection": "Type Primitives",
               "variable": "font/family/noto-sans",
-              "fallbacks": "Fonts page, Font Styles and Fallbacks (2768:1051): Preferred, Fall-back Font A, Fall-back Font B"
+              "fallbacks": "Fonts page, Font Styles and Fallbacks (2768:1051): $body / $heading stacks"
             }
           }
         }
@@ -34,7 +34,7 @@
               "file": "MNG Web Design System",
               "collection": "Type Primitives",
               "variable": "font/family/noto-serif",
-              "fallbacks": "Fonts page, Font Styles and Fallbacks (2768:1051): Preferred, Fall-back Font A, Fall-back Font B"
+              "fallbacks": "Fonts page, Font Styles and Fallbacks (2768:1051): $body / $heading stacks"
             }
           }
         }

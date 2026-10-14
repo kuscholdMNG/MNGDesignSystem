@@ -54,7 +54,7 @@ module.exports = {
       "fontFamily": {
         "noto-sans": [
           "Noto Sans",
-          "Tahoma",
+          "Helvetica Neue",
           "Arial",
           "sans-serif"
         ],

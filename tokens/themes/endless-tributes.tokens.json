@@ -11,7 +11,7 @@
       "mismatchCount": 0,
       "sites": [],
       "note": "Shared obituaries palette. Production gaps are logged in production-vs-design-differences.md entry 11.",
-      "typography": "Colors only. Obituary pages use the host site's theme fonts (font.theme.*), not a type theme of their own: verified 2026-10-14 on ocregister, denverpost (Bold Coastal), chicagotribune (Measured Vibrant): Noto Sans; canoncitydailyrecord (Modern Earthy): Noto Serif. Sizes and weights are the same on every site. Load this file after the site's theme file."
+      "typography": "Obituary colors plus the obituary heading family ($obit-heading on the Fonts page). Other obituary text uses the host site's theme fonts. Load this file after the site's theme file."
     }
   },
   "color": {
@@ -243,6 +243,36 @@
               "collection": "Colors",
               "variable": "color/theme/nav-text",
               "mode": "Endless Tributes"
+            }
+          }
+        }
+      }
+    }
+  },
+  "font": {
+    "obituaries": {
+      "heading-family": {
+        "$type": "fontFamily",
+        "$value": "{font.family.noto-serif}",
+        "$description": "Obituary headings: $obit-heading on the Fonts page (Noto Serif, Georgia, Times New Roman, serif), on every site whatever the theme.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "page": "Fonts",
+              "node": "2768:1051",
+              "note": "$obit-heading stack (not a variable)"
+            },
+            "production": {
+              "selectors": [
+                "h2.top-obit-zone",
+                ".obit-search-result-person-name",
+                "h3.entry-title"
+              ],
+              "verified": "2026-10-14",
+              "matches": false,
+              "productionValue": "the site theme's body family: Noto Sans on Bold Coastal and Measured Vibrant sites (ocregister, denverpost, chicagotribune, orlandosentinel), Noto Serif on Modern Earthy sites (canoncitydailyrecord, mcall)",
+              "note": "Which obituary elements count as headings is for Karl to confirm before a production-vs-design entry is logged."
             }
           }
         }

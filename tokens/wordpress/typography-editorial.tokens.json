@@ -113,32 +113,6 @@
         }
       }
     },
-    "module-header": {
-      "$description": "20px — confirmed live 2026-09-10 on all 6 repertoire sites, on the visible module-header element. Note: each site also carries a 30px/600 h2 with this same font/family styling, but it is a screen-reader-only (visually hidden) accessibility label, not a rendered design element — deliberately not tokenized here. See font-token-audit.md for detail.",
-      "$extensions": {
-        "com.mng": {
-          "figma": {
-            "file": "MNG Web Design System",
-            "collection": "Typeography Tokens",
-            "variable": "Editorial/ModuleHeader/*"
-          },
-          "figmaStyle": "SemiBold",
-          "note": "No line height or letter spacing in Figma yet, so not a typography composite."
-        }
-      },
-      "font-family": {
-        "$type": "fontFamily",
-        "$value": "{font.theme.heading-family}"
-      },
-      "font-size": {
-        "$type": "dimension",
-        "$value": "{font.size.20}"
-      },
-      "font-weight": {
-        "$type": "fontWeight",
-        "$value": "{font.weight.semibold}"
-      }
-    },
     "navigation": {
       "primary-label": {
         "$type": "typography",

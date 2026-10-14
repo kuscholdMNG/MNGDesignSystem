@@ -2489,7 +2489,7 @@
     "values": {
      "Mode 1": 40
     },
-    "description": "Section-front page H1 (h1.section-header, e.g. /sports/): 40px / line height 40px (1.0). Measured live 2026-10-14 at desktop width on ocregister, denverpost, chicagotribune and canoncitydailyrecord (identical on all 4; orlandosentinel and mcall not checked).",
+    "description": "Section-front page H1 (h1.section-header, e.g. /sports/): 40px / line height 40px (1.0). Measured live 2026-10-14 at desktop width on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall); identical on all 6.",
     "scopes": [
      "ALL_SCOPES"
     ]
@@ -2500,7 +2500,7 @@
     "values": {
      "Mode 1": 0
     },
-    "description": "Section-front page H1 (h1.section-header): letter spacing normal (0). Measured live 2026-10-14 at desktop width on ocregister, denverpost, chicagotribune and canoncitydailyrecord (identical on all 4; orlandosentinel and mcall not checked).",
+    "description": "Section-front page H1 (h1.section-header): letter spacing normal (0). Measured live 2026-10-14 at desktop width on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall); identical on all 6.",
     "scopes": [
      "ALL_SCOPES"
     ]
@@ -2511,7 +2511,7 @@
     "values": {
      "Mode 1": 26
     },
-    "description": "Primary nav-bar label (.nav-primary-bottom .nav-primary a): 15px / 600, line height 26px. Measured live 2026-10-14 at desktop width on ocregister, denverpost, chicagotribune and canoncitydailyrecord (identical on all 4; orlandosentinel and mcall not checked).",
+    "description": "Primary nav-bar label (.nav-primary-bottom .nav-primary a): 15px / 600, line height 26px. Measured live 2026-10-14 at desktop width on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall); identical on all 6.",
     "scopes": [
      "ALL_SCOPES"
     ]
@@ -2522,7 +2522,7 @@
     "values": {
      "Mode 1": 0
     },
-    "description": "Primary nav-bar label: letter spacing normal (0). Measured live 2026-10-14 at desktop width on ocregister, denverpost, chicagotribune and canoncitydailyrecord (identical on all 4; orlandosentinel and mcall not checked).",
+    "description": "Primary nav-bar label: letter spacing normal (0). Measured live 2026-10-14 at desktop width on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall); identical on all 6.",
     "scopes": [
      "ALL_SCOPES"
     ]
@@ -2533,7 +2533,7 @@
     "values": {
      "Mode 1": 18
     },
-    "description": "Footer copyright line (.footer-copyright-notice p): production is 12.48px / 18.72px (line height 1.5). Design size is 12px (font/size/12), so the line height keeps the 1.5 ratio: 18px. Measured live 2026-10-14 at desktop width on ocregister, denverpost, chicagotribune and canoncitydailyrecord (identical on all 4; orlandosentinel and mcall not checked).",
+    "description": "Footer copyright line (.footer-copyright-notice p): production is 12.48px / 18.72px (line height 1.5). Design size is 12px (font/size/12), so the line height keeps the 1.5 ratio: 18px. Measured live 2026-10-14 at desktop width on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall); identical on all 6.",
     "scopes": [
      "ALL_SCOPES"
     ]
@@ -2544,7 +2544,7 @@
     "values": {
      "Mode 1": 0
     },
-    "description": "Footer copyright line: letter spacing normal (0). Measured live 2026-10-14 at desktop width on ocregister, denverpost, chicagotribune and canoncitydailyrecord (identical on all 4; orlandosentinel and mcall not checked).",
+    "description": "Footer copyright line: letter spacing normal (0). Measured live 2026-10-14 at desktop width on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall); identical on all 6.",
     "scopes": [
      "ALL_SCOPES"
     ]

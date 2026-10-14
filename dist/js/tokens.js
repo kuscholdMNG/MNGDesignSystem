@@ -38,7 +38,7 @@ export const core = {
   },
   "font": {
     "family": {
-      "noto-sans": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+      "noto-sans": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
       "noto-serif": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif"
     },
     "size": {
@@ -142,7 +142,7 @@ export const wordpress = {
     },
     "footer": {
       "copyright": {
-        "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "fontFamily": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "fontSize": "12px",
         "fontWeight": 400,
         "lineHeight": 1.5,
@@ -151,14 +151,9 @@ export const wordpress = {
         "cssVar": "--mng-editorial-footer-copyright"
       }
     },
-    "module-header": {
-      "font-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-      "font-size": "20px",
-      "font-weight": 600
-    },
     "navigation": {
       "primary-label": {
-        "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "fontFamily": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "fontSize": "15px",
         "fontWeight": 600,
         "lineHeight": 1.7333,
@@ -310,11 +305,11 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "20px",
         "eyebrow-weight": 400,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -335,12 +330,12 @@ export const themes = {
     },
     "font": {
       "theme": {
-        "heading-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "heading-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "body-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
         "eyebrow-size": "21px",
         "eyebrow-weight": 400,
         "eyebrow-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -362,10 +357,10 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "17px",
         "eyebrow-weight": 700,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "small-headline-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif"
       }
     }
@@ -389,11 +384,11 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "20px",
         "eyebrow-weight": 400,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -416,11 +411,11 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "20px",
         "eyebrow-weight": 400,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -443,11 +438,11 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "20px",
         "eyebrow-weight": 400,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -470,11 +465,11 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "20px",
         "eyebrow-weight": 400,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -497,11 +492,11 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "20px",
         "eyebrow-weight": 400,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -524,11 +519,11 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "20px",
         "eyebrow-weight": 400,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -551,11 +546,11 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "20px",
         "eyebrow-weight": 400,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -578,11 +573,11 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "20px",
         "eyebrow-weight": 400,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -605,11 +600,11 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "20px",
         "eyebrow-weight": 400,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -630,12 +625,12 @@ export const themes = {
     },
     "font": {
       "theme": {
-        "heading-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "heading-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "body-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
         "eyebrow-size": "21px",
         "eyebrow-weight": 400,
         "eyebrow-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -656,12 +651,12 @@ export const themes = {
     },
     "font": {
       "theme": {
-        "heading-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "heading-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "body-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
         "eyebrow-size": "21px",
         "eyebrow-weight": 400,
         "eyebrow-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -682,12 +677,12 @@ export const themes = {
     },
     "font": {
       "theme": {
-        "heading-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "heading-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "body-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
         "eyebrow-size": "21px",
         "eyebrow-weight": 400,
         "eyebrow-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -708,12 +703,12 @@ export const themes = {
     },
     "font": {
       "theme": {
-        "heading-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "heading-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "body-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
         "eyebrow-size": "21px",
         "eyebrow-weight": 400,
         "eyebrow-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "small-headline-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
+        "small-headline-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif"
       }
     }
   },
@@ -735,10 +730,10 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "17px",
         "eyebrow-weight": 700,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "small-headline-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif"
       }
     }
@@ -761,10 +756,10 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "17px",
         "eyebrow-weight": 700,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "small-headline-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif"
       }
     }
@@ -787,10 +782,10 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "17px",
         "eyebrow-weight": 700,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "small-headline-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif"
       }
     }
@@ -813,10 +808,10 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "17px",
         "eyebrow-weight": 700,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "small-headline-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif"
       }
     }
@@ -839,10 +834,10 @@ export const themes = {
     "font": {
       "theme": {
         "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
-        "body-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "body-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "eyebrow-size": "17px",
         "eyebrow-weight": 700,
-        "eyebrow-family": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif",
+        "eyebrow-family": "\"Noto Sans\", \"Helvetica Neue\", \"Arial\", sans-serif",
         "small-headline-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif"
       }
     }
@@ -860,6 +855,11 @@ export const themes = {
         "near-black": "#141414",
         "white": "#ffffff",
         "nav-text": "#141414"
+      }
+    },
+    "font": {
+      "obituaries": {
+        "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif"
       }
     }
   }
@@ -1919,9 +1919,6 @@ export const cssVars = {
   "editorial.body.excerpt": "var(--mng-editorial-body-excerpt)",
   "editorial.body.excerpt-compact": "var(--mng-editorial-body-excerpt-compact)",
   "editorial.footer.copyright": "var(--mng-editorial-footer-copyright)",
-  "editorial.module-header.font-family": "var(--mng-editorial-module-header-font-family)",
-  "editorial.module-header.font-size": "var(--mng-editorial-module-header-font-size)",
-  "editorial.module-header.font-weight": "var(--mng-editorial-module-header-font-weight)",
   "editorial.navigation.primary-label": "var(--mng-editorial-navigation-primary-label)",
   "editorial.titles.card-quaternary": "var(--mng-editorial-titles-card-quaternary)",
   "editorial.titles.card-secondary": "var(--mng-editorial-titles-card-secondary)",
@@ -1951,6 +1948,7 @@ export const cssVars = {
   "color.theme.subsite-custom": "var(--mng-color-theme-subsite-custom)",
   "color.theme.tertiary": "var(--mng-color-theme-tertiary)",
   "color.theme.white": "var(--mng-color-theme-white)",
+  "font.obituaries.heading-family": "var(--mng-font-obituaries-heading-family)",
   "font.theme.body-family": "var(--mng-font-theme-body-family)",
   "font.theme.eyebrow-family": "var(--mng-font-theme-eyebrow-family)",
   "font.theme.eyebrow-size": "var(--mng-font-theme-eyebrow-size)",

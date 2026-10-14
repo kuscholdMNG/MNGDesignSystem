@@ -269,7 +269,7 @@ for k in theme_keys:
     own = theme_own(k)
     info = THEMES[k]
     load_note = 'Load after core.css.' if info['level'] != 'product' else \
-        'Colors only: load after core.css and the site\'s theme file (type follows the site\'s theme).'
+        'Obituary colors + obituary heading family: load after core.css and the site\'s theme file.'
     comment = '%s (%s%s). %s %s' % (info['name'], info['level'],
                                     ', on ' + THEMES[info['parentTheme']]['name'] if info['parentTheme'] else '', HEADER, load_note)
     write('css/themes/%s.css' % k, block(':root', css_decls(toks, list(own)), comment))
@@ -452,7 +452,7 @@ dts = '// MNG Web Design System tokens. %s\n' % HEADER
 dts += 'export declare const core: %s;\n\n' % ts_type(nested(core, core_names))
 dts += 'export declare const wordpress: %s;\n\n' % ts_type(wp_js)
 dts += 'export type ThemeKey = %s;\n' % ' | '.join(json.dumps(k) for k in theme_keys)
-dts += 'export interface ThemeTokens {\n  color: { theme: Record<string, string> };\n  font?: { theme: Record<string, string | number> };\n}\n'
+dts += 'export interface ThemeTokens {\n  color: { theme: Record<string, string> };\n  font?: Record<string, Record<string, string | number>>;\n}\n'
 dts += 'export declare const themes: Record<ThemeKey, ThemeTokens>;\n\n'
 dts += 'export interface SiteEntry {\n  theme?: string | null;\n  subTheme?: string | null;\n  css?: string[];\n  onMngThemes: boolean;\n}\n'
 dts += 'export declare const sites: Record<string, SiteEntry>;\n'
