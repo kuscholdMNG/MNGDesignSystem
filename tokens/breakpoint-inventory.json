@@ -88,10 +88,9 @@
     }
   },
   "summary": {
-    "component": 9,
+    "component": 13,
     "official": 13,
-    "drift": 28,
-    "to-confirm": 8
+    "drift": 30
   },
   "excluded": {
     "thirdParty": 18,
@@ -103,6 +102,7 @@
       "article share box (min 431)",
       "employee debugger (min 450)"
     ],
+    "specialInvestigativeHeader": "Left out for now (max-width 730 / 1150, plus shared 500 / 600 / 750 / 900 / 1024). Not found on a live page of the 6 sites; find it in production when more article pages are added to WordPress Elements (Karl, 2026-10-14).",
     "note": "Third-party breakpoints (Mg2 Connext paywall, Osano, Kargo, HTL ad bidder) and the WordPress admin bar (logged-in editors only) are not ours, so they are left out (Karl, 2026-10-14)."
   },
   "production": [
@@ -328,7 +328,7 @@
       "query": "(max-width: 405px)",
       "kind": "max",
       "px": 405,
-      "tier": "to-confirm",
+      "tier": "component",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -345,13 +345,7 @@
         "theme"
       ],
       "sampleSelector": "#content.sports-radar-content #sports-ra",
-      "snapToIfDrift": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.s",
-        "query": "(max-width: 639px)",
-        "label": "WordPress grid s"
-      },
-      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. Not found live on the 6 sites; Karl to decide component or drift."
+      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. WordPress component breakpoint, keeps its value (Karl, 2026-10-14)."
     },
     {
       "query": "(max-width: 450px)",
@@ -410,7 +404,7 @@
       "query": "(max-width: 500px)",
       "kind": "max",
       "px": 500,
-      "tier": "to-confirm",
+      "tier": "component",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -427,19 +421,13 @@
         "theme"
       ],
       "sampleSelector": "#content.sports-radar-content .tournamen",
-      "snapToIfDrift": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.s",
-        "query": "(max-width: 639px)",
-        "label": "WordPress grid s"
-      },
-      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. Not found live on the 6 sites; Karl to decide component or drift."
+      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. WordPress component breakpoint, keeps its value (Karl, 2026-10-14)."
     },
     {
       "query": "(max-width: 535px)",
       "kind": "max",
       "px": 535,
-      "tier": "to-confirm",
+      "tier": "component",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -456,13 +444,7 @@
         "theme"
       ],
       "sampleSelector": "#content.sports-radar-content #sports-ra",
-      "snapToIfDrift": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.s",
-        "query": "(max-width: 639px)",
-        "label": "WordPress grid s"
-      },
-      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. Not found live on the 6 sites; Karl to decide component or drift."
+      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. WordPress component breakpoint, keeps its value (Karl, 2026-10-14)."
     },
     {
       "query": "(max-width: 550px)",
@@ -731,7 +713,7 @@
       "query": "(max-width: 700px)",
       "kind": "max",
       "px": 700,
-      "tier": "to-confirm",
+      "tier": "drift",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -748,42 +730,13 @@
         "theme"
       ],
       "sampleSelector": ".promotion-widget .promotion-child .prom",
-      "snapToIfDrift": {
+      "snapTo": {
         "set": "grid",
         "token": "breakpoint.wordpress-grid.s",
         "query": "(max-width: 639px)",
         "label": "WordPress grid s"
       },
-      "note": "Promotion widget (.promotion-widget): the homepage row of promo tiles, e.g. Chicago Tribune Fun and Games / Tribune Store. Karl to decide component or drift."
-    },
-    {
-      "query": "(max-width: 730px)",
-      "kind": "max",
-      "px": 730,
-      "tier": "to-confirm",
-      "owners": [
-        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 1,
-      "stylesheets": [
-        "theme"
-      ],
-      "sampleSelector": "#content.special-investigative-header .s",
-      "snapToIfDrift": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.m",
-        "query": "(max-width: 799px)",
-        "label": "WordPress grid m"
-      },
-      "note": "Special investigative header template (#content.special-investigative-header): not found live on the 6 sites. Karl to decide."
+      "note": "Promotion widget (.promotion-widget, homepage promo tiles): follows the WordPress grid (Karl, 2026-10-14)."
     },
     {
       "query": "(max-width: 734px)",
@@ -1102,7 +1055,7 @@
       "query": "(max-width: 900px)",
       "kind": "max",
       "px": 900,
-      "tier": "to-confirm",
+      "tier": "drift",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -1119,13 +1072,13 @@
         "theme"
       ],
       "sampleSelector": ".promotion-widget .promotion-child .prom",
-      "snapToIfDrift": {
+      "snapTo": {
         "set": "grid",
         "token": "breakpoint.wordpress-grid.m",
         "query": "(max-width: 799px)",
         "label": "WordPress grid m"
       },
-      "note": "Promotion widget title; also the special investigative header. Karl to decide component or drift."
+      "note": "Promotion widget title: follows the WordPress grid (Karl). Sports Radar also uses an 800-900 range."
     },
     {
       "query": "(max-width: 930px)",
@@ -1160,7 +1113,7 @@
       "query": "(max-width: 960px)",
       "kind": "max",
       "px": 960,
-      "tier": "to-confirm",
+      "tier": "component",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -1177,13 +1130,7 @@
         "theme"
       ],
       "sampleSelector": "#content.sports-radar-content #sports-ra",
-      "snapToIfDrift": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.l",
-        "query": "(max-width: 1039px)",
-        "label": "WordPress grid l"
-      },
-      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. Not found live on the 6 sites; Karl to decide component or drift."
+      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. WordPress component breakpoint, keeps its value (Karl, 2026-10-14)."
     },
     {
       "query": "(max-width: 991.98px)",
@@ -1466,35 +1413,6 @@
         "query": "(min-width: 1040px)",
         "label": "WordPress grid l"
       }
-    },
-    {
-      "query": "(max-width: 1150px)",
-      "kind": "max",
-      "px": 1150,
-      "tier": "to-confirm",
-      "owners": [
-        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 2,
-      "stylesheets": [
-        "theme"
-      ],
-      "sampleSelector": "#content.special-investigative-header .s",
-      "snapToIfDrift": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.l",
-        "query": "(max-width: 1039px)",
-        "label": "WordPress grid l"
-      },
-      "note": "Special investigative header template: not found live on the 6 sites. Karl to decide."
     },
     {
       "query": "(max-width: 1199.98px)",
