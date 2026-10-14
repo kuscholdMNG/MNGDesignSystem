@@ -1,6 +1,6 @@
 # Production vs. Design Differences — Engineering Handoff
 
-> **Updated 2026-10-14:** entry 32 (font fallbacks: Helvetica Neue, not Helvetica) added. Earlier the same day: entries 30 (Reader Dashboard breakpoints: questions for DigiScrum) and 31 (Obituaries breakpoints vs the WordPress grid, CMS team) added; entry number 30 was free (the earlier icon-font entry 30 was folded into 20).
+> **Updated 2026-10-14:** entry 33 (breakpoints off the official sets, from the breakpoint inventory) and entry 32 (font fallbacks: Helvetica Neue, not Helvetica) added. Earlier the same day: entries 30 (Reader Dashboard breakpoints: questions for DigiScrum) and 31 (Obituaries breakpoints vs the WordPress grid, CMS team) added; entry number 30 was free (the earlier icon-font entry 30 was folded into 20).
 >
 > **Consolidated 2026-09-24.** Combines the Sept 22 version of this file (entries 1–17, unchanged except for the notes marked "2026-09-24") with a short duplicate created on Sept 24. That copy added one new item, now entry 18. Entry 19 and the method note at the end came from the HANDOFF and NOTE files in this folder. Entry 20 (icon font) was added 2026-09-25 from `components/icons.md`. Entry 21 (per-theme color fixes) was added 2026-09-25, when the Greeley Tribune color theme was folded into Prairie Mountain Publishing. Entries 18 and 21 were updated 2026-09-30 (Greeley exception, Hartford Courant verified) and 2026-10-01 (NEPA folded into the NEPA-PMP sub-theme; disputed sites verified live), and entry 21 now holds the full per-theme color fix list that used to be `tokens/colors/mng-colors-engineering-fixes.md` (retired). Notes for reading older entries:
 > - `color-tokens.md` is now `tokens/colors/color-tokens-decision-log.md`. Current typography tokens are in `tokens/typography/typography-tokens.md`.
@@ -1220,6 +1220,93 @@ One-line items are unaffected (the 44px height holds), but every extra line adds
 The same two stacks apply on every theme; each theme only chooses which one its headings and body use. Obituaries follow the site's theme.
 
 **Fix:** in the theme font-family definitions, replace `Helvetica` with **Helvetica Neue** (then Arial) in the sans stack (Karl, 2026-10-14), and use Georgia, then Times New Roman, in the serif stack instead of Helvetica. The fallbacks only show when Noto doesn't load, so nothing changes visually when the web fonts work.
+
+**Status:** Open.
+
+## 33. Breakpoints off the official sets — WordPress themes, ads, digisubs (all 6 sites)
+
+**Found:** 2026-10-14, live CSS scan of the homepage, an article and the obituaries page on all 6 review sites (`tokens/breakpoint-inventory.json`, built by `scripts/breakpoint-inventory/`). Every value below was found on all 6 sites (the three theme stylesheets share their media queries). **Teams:** CMS, DigiScrum.
+
+**Design:** two official sets (EXPORT-STANDARD.md section 6). WordPress code follows the **WordPress grid** (min-widths 320 / 640 / 800 / 1040 / 1280; max-widths 639 / 799 / 1039 / 1279). Everything else follows the **MNG Device breakpoints** (min-widths 340 / 360 / 768 / 1024 / 1280; max-widths 339 / 359 / 767 / 1023 / 1279). Of the 89 width values found, 13 are official, 50 are drift (below), 18 are third party (Mg2 Connext paywall, Osano, Kargo, HTL ad bidder: not ours) and 8 are WordPress's admin bar (editors only).
+
+**Production (drift) and fix:** move each rule to the official breakpoint in the right-hand column. "Off by one" rules (`max-width: 800 / 1040 / 1280 / 340 / 360 / 1024`) overlap the official boundary by 1px; they should be `max-width: 799 / 1039 / 1279 / 339 / 359 / 1023`. The Obituaries values (624 / 625, 734 / 735 gallery, 1000 ads, 1299 / 1300) are entry 31; they're repeated here so the list is complete.
+
+**Ad rules in the WordPress themes** (team: CMS (with the Ad Team); snap to the WordPress grid):
+
+| Production | Where | Snap to |
+|---|---|---|
+| `(min-width: 300px)` | Top leaderboard ad sizing (.dfp-ad.dfp-top_leaderboard). | `(min-width: 320px)` (WordPress grid xs) |
+| `(max-width: 480px)` | Mobile adhesion ad (#mobile-adhesion). | `(max-width: 639px)` (WordPress grid s) |
+| `(min-width: 750px)` | Top leaderboard ad. | `(min-width: 800px)` (WordPress grid m) |
+| `(max-width: 1000px)` | Mobile adhesion ad (entry 31 notes the 1000px ad rule). | `(max-width: 1039px)` (WordPress grid l) |
+| `(min-width: 1000px)` | Top and bottom leaderboard ad placement. | `(min-width: 1040px)` (WordPress grid l) |
+| `(max-width: 1025px)` | Mobile adhesion ad. | `(max-width: 1039px)` (WordPress grid l) |
+
+**WordPress themes** (team: CMS; snap to the WordPress grid):
+
+| Production | Where | Snap to |
+|---|---|---|
+| `(max-width: 335px)` | Nav search icon on very small phones. Below the WordPress grid; the nearest official boundary is MNG Device fold (340). | `(max-width: 339px)` (MNG Device fold) |
+| `(max-width: 350px)` | Nav hamburger icon on very small phones. | `(max-width: 339px)` (MNG Device fold) |
+| `(max-width: 405px)` | Sports Radar scores widget (#content.sports-radar-content). | `(max-width: 639px)` (WordPress grid s) |
+| `(max-width: 500px)` | Sports Radar widget. | `(max-width: 639px)` (WordPress grid s) |
+| `(max-width: 535px)` | Sports Radar widget. | `(max-width: 639px)` (WordPress grid s) |
+| `(max-width: 624px)` | Obituaries 1-column layout (entry 31). | `(max-width: 639px)` (WordPress grid s) |
+| `(min-width: 625px)` | Obituaries 2-column start (entry 31). | `(min-width: 640px)` (WordPress grid s) |
+| `(max-width: 700px)` | Promotion widget. | `(max-width: 639px)` (WordPress grid s) |
+| `(max-width: 730px)` | Special investigative header. | `(max-width: 799px)` (WordPress grid m) |
+| `(max-width: 734px)` | Photo gallery widget (.gallery-container, entry 31). | `(max-width: 799px)` (WordPress grid m) |
+| `(min-width: 735px)` | Photo gallery widget (entry 31). | `(min-width: 800px)` (WordPress grid m) |
+| `(max-width: 750px)` | Header banners (.header-banners). | `(max-width: 799px)` (WordPress grid m) |
+| `(max-width: 800px)` | Off by one: (max-width: 800px) overlaps m; should be 799 (#featured-flex-landing-three). | `(max-width: 799px)` (WordPress grid m) |
+| `(max-width: 900px)` | Promotion widget. | `(max-width: 799px)` (WordPress grid m) |
+| `(max-width: 930px)` | Footer cookie notice button. | `(max-width: 1039px)` (WordPress grid l) |
+| `(max-width: 960px)` | Sports Radar widget. | `(max-width: 1039px)` (WordPress grid l) |
+| `(max-width: 1150px)` | Special investigative header. | `(max-width: 1039px)` (WordPress grid l) |
+| `(max-width: 1280px)` | Off by one: (max-width: 1280px) overlaps xl; should be 1279 (.custom-dfm-section.dark-layout). | `(max-width: 1279px)` (WordPress grid xl) |
+| `(max-width: 1299px)` | Obituaries listing (entry 31). | `(max-width: 1279px)` (WordPress grid xl) |
+| `(min-width: 1300px)` | Obituaries "stop scaling" (entry 31). | `(min-width: 1280px)` (WordPress grid xl) |
+
+**mng-digisubs plugin (account menu, regwall, sign-in)** (team: DigiScrum; snap to the MNG Device set (to confirm)):
+
+| Production | Where | Snap to |
+|---|---|---|
+| `(max-width: 340px)` | Off by one: (max-width: 340px) overlaps fold; should be 339. | `(max-width: 339px)` (MNG Device fold) |
+| `(max-width: 344px)` | Digisubs modal on very small phones. | `(max-width: 339px)` (MNG Device fold) |
+| `(max-width: 380px)` | Spoof banner. | `(max-width: 359px)` (MNG Device mobile) |
+| `(max-width: 430px)` | Digisubs push prompt. | `(max-width: 359px)` (MNG Device mobile) |
+| `(min-width: 431px)` | Article share box. | `(min-width: 360px)` (MNG Device mobile) |
+| `(max-width: 450px)` | Employee debugger and digisubs rules. | `(max-width: 639px)` (WordPress grid s) |
+| `(min-width: 450px)` | Employee debugger. | `(min-width: 360px)` (MNG Device mobile) |
+| `(max-width: 550px)` | Regwall (:root:not(:has(#server-regwall))). | `(max-width: 359px)` (MNG Device mobile) |
+| `(max-width: 576px)` | Digisubs content (.sspw-content); Mg2 also uses it. | `(max-width: 767px)` (MNG Device tablet) |
+| `(max-width: 600px)` | Article sharing and theme rules. | `(max-width: 639px)` (WordPress grid s) |
+| `(max-width: 770px)` | Account dropdown menu. | `(max-width: 767px)` (MNG Device tablet) |
+| `(max-width: 820px)` | Account dropdown menu. | `(max-width: 767px)` (MNG Device tablet) |
+| `(max-width: 1024px)` | Off by one for the Device set (should be 1023); the theme rule (#dfm-digisubs-menu) should use grid l (1039). | `(max-width: 1023px)` (MNG Device tablet-landscape) |
+
+**Digisubs app, plugins.mngdigisubs.com (Bootstrap 5 defaults 576 / 768 / 992 / 1200 / 1400)** (team: DigiScrum; snap to the MNG Device set (to confirm)):
+
+| Production | Where | Snap to |
+|---|---|---|
+| `(max-width: 360px)` | Off by one: (max-width: 360px) overlaps mobile; should be 359. | `(max-width: 359px)` (MNG Device mobile) |
+| `(max-width: 400px)` | Sign-in modal. | `(max-width: 359px)` (MNG Device mobile) |
+| `(max-width: 575.98px)` | Bootstrap sm-down. | `(max-width: 767px)` (MNG Device tablet) |
+| `(min-width: 576px)` | Bootstrap sm container. | `(min-width: 768px)` (MNG Device tablet) |
+| `(max-width: 991.98px)` | Bootstrap lg-down. | `(max-width: 1023px)` (MNG Device tablet-landscape) |
+| `(min-width: 992px)` | Bootstrap lg container; Mg2 also uses 992. | `(min-width: 1024px)` (MNG Device tablet-landscape) |
+| `(max-width: 1199.98px)` | Bootstrap xl-down. | `(max-width: 1279px)` (MNG Device desktop) |
+| `(min-width: 1200px)` | Bootstrap xl container; Mg2 also uses 1200. | `(min-width: 1280px)` (MNG Device desktop) |
+| `(max-width: 1399.98px)` | Bootstrap xxl-down: no official breakpoint above 1280. | `(max-width: 1279px)` (MNG Device desktop) |
+| `(min-width: 1400px)` | Bootstrap xxl container: no official breakpoint above 1280. | `(min-width: 1280px)` (MNG Device desktop) |
+
+**dfm-trust-indicators plugin** (team: CMS; snap to the WordPress grid):
+
+| Production | Where | Snap to |
+|---|---|---|
+| `(max-width: 1040px)` | Off by one: (max-width: 1040px) overlaps l; should be 1039 (trust-indicator footer links). | `(max-width: 1039px)` (WordPress grid l) |
+
+**Open question for Karl:** the digisubs plugin and app run on WordPress pages but belong to the subscriber products (like Reader Dashboard). This entry snaps them to the MNG Device set; switch to the WordPress grid if they should follow WordPress. Any value here can instead become a component breakpoint (kept in that component's tokens) if it's an intended one-off, for example the Sports Radar widget or the very-small-phone nav icons.
 
 **Status:** Open.
 

@@ -31,6 +31,8 @@ MNGWebDesignSystem/
 │   ├── colors/                             ← mng-colors.tokens.json (source), .css, sites .csv,
 │   │                                         decision log, README (color fixes: production-vs-design entry 21)
 │   ├── typography/                         ← typography tokens + decision log
+│   ├── breakpoint-inventory.json           ← every production breakpoint, classified (official / drift /
+│   │                                         third party), from scripts/breakpoint-inventory/
 │   └── icons/                              ← production icon font (icomoon .ttf/.woff/.woff2), glyph map,
 │                                             CSS and preview
 ├── logos/                                  ← newspaper logos: transparent SVGs (publications/, placeholder/),
@@ -44,6 +46,7 @@ MNGWebDesignSystem/
 │                                             RevContent excluded)
 ├── scripts/                                ← generators that rebuild exports, one folder per export
 │   ├── ads-export/                         ← extract.js (Figma plugin code) + build-ads-export.py
+│   ├── breakpoint-inventory/               ← scan.js (live CSS scan in Chrome) + scans/ + build-inventory.py
 │   ├── buttons-export/                     ← extract.js (Figma plugin code) + build-buttons-export.py
 │   ├── design-system-export/               ← extract.js + build-design-system-export.py + curated.json
 │                                             (hand-checked notes) + save-previews.py
