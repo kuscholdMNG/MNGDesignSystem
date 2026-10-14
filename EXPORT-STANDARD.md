@@ -1,6 +1,6 @@
 # MNG Design System — Export Standard
 
-> **Draft 2026-10-13** for Karl's review (branch `review/export-standard`). Once merged, every token and component export follows this file. The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
+> **Draft 2026-10-13, updated 2026-10-14** (PNG previews stay in GitHub, no Git LFS; where pixel values are kept) for Karl's review (branch `review/export-standard`). Once merged, every token and component export follows this file. The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
 
 ## 1. What this covers
 
@@ -111,7 +111,19 @@ Composite type tokens use `$type: typography` and reference primitives:
 ```
 
 - **Line height:** DTCG stores it as a ratio (line height ÷ font size). Figma and our docs use px, so the px value is kept in `lineHeightPx`. The px value is the design value; the ratio is calculated from it.
+- **Letter spacing:** stored in `em` (what production CSS uses). Figma shows it as a percent (−3% = −0.03em), kept in `letterSpacingFigma`.
 - **Weight vs. style:** code uses `fontWeight` (number). Figma binds the font *style* (`Bold`, `SemiBold`) to avoid Display fonts, so the style name is kept in `figmaStyle`.
+
+### 3.4 Where pixel values are kept
+
+Pixels are the design unit everywhere (Figma's units are CSS pixels; we don't use points).
+
+| Value | In the token (`$value`) | Also kept |
+|---|---|---|
+| Font size, spacing, radius, border width, breakpoints, ad sizes, container widths | px (`{ "value": 16, "unit": "px" }`) | `dist/`: px and rem |
+| Line height | ratio (1.16) | `lineHeightPx` in `$extensions`; `dist/`: ratio and px |
+| Letter spacing | em (−0.03) | `letterSpacingFigma` (−3%) in `$extensions`; `dist/`: em and px at the token's font size |
+| Frame widths (340, 360, 768…) | not tokens | the component spec (`<slug>.md`) |
 
 ## 4. Metadata every token carries
 
@@ -151,7 +163,7 @@ Tokens and components are split into layers. **A layer may only reference layers
 | Core | `tokens/core/` | Color primitives (gray, feedback, neutral, surface, tributes), type primitives (`font.family`, `font.size`, `font.weight`), spacing, radius, official breakpoints. Shared by every platform. |
 | Themes | `tokens/themes/` | One file per theme (Bold Coastal, Measured Vibrant, Modern Earthy), sub-theme (Denver Post, NEPA-PMP, 21C Michigan…) and the site overrides, plus `mng.resolver.json` that says how they stack: theme → sub-theme → site. |
 | WordPress | `tokens/wordpress/` | The WordPress Elements sub-system: editorial type styles (`Editorial/...`), theme type tokens (`font.theme.*`, eyebrow), layout and container widths, ad slot sizes, homepage block tokens, WordPress-specific breakpoints. |
-| Reader Dashboard | `tokens/reader-dashboard/` | Reserved. Not exported yet. |
+| Reader Dashboard | `tokens/reader-dashboard/` | Reserved: the folder name and its place in the order are decided now, but it stays empty until Reader Dashboard v2.0 joins the system. Its tokens will reference core and themes, like WordPress, so adding it later moves nothing else. |
 
 Components follow the same split:
 
@@ -190,7 +202,7 @@ Each component or assembly gets one folder: `components/<layer>/<slug>/`
 | `<slug>.md` | The spec: purpose, anatomy, variants, states, sizes, behavior per breakpoint, accessibility, production references, known issues. |
 | `<slug>.tokens.json` | DTCG component tokens that reference system tokens, e.g. `button.primary.background.hover` → `{color.theme.primary-light}`. Includes component-only breakpoints. |
 | `<slug>.html` | HTML/CSS skeleton using the `dist/` CSS variables. |
-| `previews/` | PNG previews (storage method pending the Git LFS decision). |
+| `previews/` | PNG previews, committed to GitHub as normal files (no Git LFS). Re-render and commit only the previews that changed. |
 
 Each component folder's `.tokens.json` records the Figma component set it maps to (`$extensions.com.mng.figma.node`) and the production selector it matches (`$extensions.com.mng.production.selector`).
 
