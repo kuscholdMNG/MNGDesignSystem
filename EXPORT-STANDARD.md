@@ -1,6 +1,6 @@
 # MNG Web Design System — Export Standard
 
-> **Draft 2026-10-13, updated 2026-10-14** (Fold 340 added to the MNG Device breakpoints; PNG previews stay in GitHub, no Git LFS; where pixel values are kept; Reader Dashboard is part of core; two breakpoint sets; Vite/package note) for Karl's review (branch `review/export-standard`). Once merged, every token and component export follows this file. The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
+> **Adopted 2026-10-14** (drafted 2026-10-13; updated 2026-10-14: Fold 340 added to the MNG Device breakpoints; PNG previews stay in GitHub, no Git LFS; where pixel values are kept; Reader Dashboard is part of core; two breakpoint sets; Vite/package note). Every token and component export follows this file; the first build is in `tokens/core/`, `tokens/themes/`, `tokens/wordpress/` and `dist/` (pull request #2). The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
 
 ## 1. What this covers
 
