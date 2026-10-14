@@ -8,7 +8,7 @@
 
 **Purpose:** A running list of every place live production has been found diverging from the Figma design-system spec, or where something was explicitly flagged as needing engineering (or legal) attention. Figma is the source of truth for these systems; when production disagrees, the fix belongs here as an engineering item rather than being silently absorbed into design tokens. Each entry says where the drift is, what Figma says vs. what's live, and what engineering should do about it.
 
-**Status note:** This doc was referenced once before (in `MNG-Design-System-Status.md`, Known Open Items §5 item 3) but was never actually created — it was created 2026-09-10 during the typography consolidation work, backfilling that earlier reference plus the current typography section, then backfilled again the same day with every other open "flag to engineering" item found across the project's component/audit docs (card-teaser.md, modal.md, disclosure.md, navigation.md, containers-and-ad-units.md, color-tokens.md, Reader-Dashboard-Library-Impact-Map.md).
+**Status note:** This doc was referenced once before (in `MNG-Web-Design-System-Status.md`, Known Open Items §5 item 3) but was never actually created — it was created 2026-09-10 during the typography consolidation work, backfilling that earlier reference plus the current typography section, then backfilled again the same day with every other open "flag to engineering" item found across the project's component/audit docs (card-teaser.md, modal.md, disclosure.md, navigation.md, containers-and-ad-units.md, color-tokens.md, Reader-Dashboard-Library-Impact-Map.md).
 
 ---
 
@@ -28,7 +28,7 @@
 
 ## 2. Reader Dashboard — Typography (2026-09-10)
 
-**Policy:** For anything specific to the Reader Dashboard, Figma is the source of truth — even where production currently differs. MNG Design System's `Dashboard/*` typography tokens (in the "Dashboard Typography" collection) are kept at their Figma-specified values; any place production has been found rendering something different is recorded here instead, for engineering to either fix in production or flag back to design if the production value should actually be adopted.
+**Policy:** For anything specific to the Reader Dashboard, Figma is the source of truth — even where production currently differs. MNG Web Design System's `Dashboard/*` typography tokens (in the "Dashboard Typography" collection) are kept at their Figma-specified values; any place production has been found rendering something different is recorded here instead, for engineering to either fix in production or flag back to design if the production value should actually be adopted.
 
 ### 2.1 Page title size — `Dashboard/Titles/PageDesktop`
 
@@ -36,7 +36,7 @@
 
 **Production:** canoncitydailyrecord.com/dashboard/ (desktop width) renders this title at **36px**, via a Tailwind `lg:text-4xl` breakpoint utility class overriding the base size.
 
-**Action needed:** Reconcile production to the Figma-specified 26px, OR — if 36px is an intentional, approved change — get that confirmed with design so Figma can be updated to match and this item retired. Until then, MNG Design System's token stays at 26px per the policy above.
+**Action needed:** Reconcile production to the Figma-specified 26px, OR — if 36px is an intentional, approved change — get that confirmed with design so Figma can be updated to match and this item retired. Until then, MNG Web Design System's token stays at 26px per the policy above.
 
 **Status:** Open.
 
@@ -54,7 +54,7 @@
 
 ### 2.3 `font/size/10` — unconfirmed in production
 
-**Figma:** Defined at 10px in Reader Dashboard v2.0's Type Primitives, carried into MNG Design System.
+**Figma:** Defined at 10px in Reader Dashboard v2.0's Type Primitives, carried into MNG Web Design System.
 
 **Production:** No confirmed live sighting during this audit (only canoncitydailyrecord.com/dashboard/ was checked).
 
@@ -306,7 +306,7 @@ A device-signal CSS class is added client-side (confirmed not server-side) sligh
 
 ## 11. Color Tokens — Endless Tributes / Obituaries palette live-production audit
 
-**Found:** 2026-09-10, live-production verification of the 9 documented Endless Tributes colors (Shared Platform Reference — Style Guide section, Endless Tributes — Style Guide sub-section, now migrated into MNG Design System's Color Pallets page) against denverpost.com's obituaries listing page and an obituary article subpage. Verified via Claude in Chrome: a `getComputedStyle()` scan of `backgroundColor`/`color`/`borderColor`/`boxShadow`/`fill` across all rendered DOM elements, plus a separate `document.styleSheets` rule-text scan (for rules not currently applied to any rendered element, and for actual `:hover`/`:active` pseudo-class declarations, since a synthetic `:hover` match after a simulated hover did not reliably surface them).
+**Found:** 2026-09-10, live-production verification of the 9 documented Endless Tributes colors (Shared Platform Reference — Style Guide section, Endless Tributes — Style Guide sub-section, now migrated into MNG Web Design System's Color Pallets page) against denverpost.com's obituaries listing page and an obituary article subpage. Verified via Claude in Chrome: a `getComputedStyle()` scan of `backgroundColor`/`color`/`borderColor`/`boxShadow`/`fill` across all rendered DOM elements, plus a separate `document.styleSheets` rule-text scan (for rules not currently applied to any rendered element, and for actual `:hover`/`:active` pseudo-class declarations, since a synthetic `:hover` match after a simulated hover did not reliably surface them).
 
 **Figma spec (Endless Tributes — Style Guide, 9 documented colors):**
 
@@ -336,7 +336,7 @@ A device-signal CSS class is added client-side (confirmed not server-side) sligh
 
 **Note on scope:** only Denver Post was checked in this pass (Karl scoped the request to "any one" production site). The other 5 sites in the repertoire (ocregister.com, chicagotribune.com, orlandosentinel.com, canoncitydailyrecord.com, mcall.com) have not yet been checked for these colors.
 
-**Figma action taken:** ~~none of these findings...~~ **Superseded 2026-09-10.** The original plan was to record these findings without adding them to Figma's Brand/Colors Variables groups, since MNG Design System's `Colors` collection only had a fixed 7-color-slot-per-theme model (`theme/primary`, `theme/secondary`, `theme/tertiary`, `theme/primary-light`, `theme/primary-dark`, `theme/primary-lighter`, `theme/primary-darker`) with no room for the Endless Tributes palette's 9 colors without restructuring all 20 modes. **Karl's resolution:** rather than trying to shoehorn the tributes palette into the existing per-theme slot model (or into its own one-off "Endless Tributes" mode), all 9 colors were added as a new, separate `color/tributes/*` variable group — `primary-lighter`, `primary-light`, `primary`, `primary-dark`, `primary-darker`, `secondary`, `tertiary`, `tan`, `tan-light` — each carrying the same universal value across all 20 modes (BoldCoastal, ModernEarthy, MeasuredVibrant, DenverPost, Endless Tributes, and all 15 masthead-specific modes). This matches how obituary pages actually render in production: identically regardless of which site's masthead brand is active, so a single shared value per token across every mode is correct, not a compromise. The `--*-obit` CSS widget variables (`--primary-obit`, `--primary-obit-light`, `--secondary-obit`, `--tertiary-obit`, `--quaternary-obit`) and the undocumented `#ccc7bc` beige are unaffected by this — the widget vars are a live-code cleanup item for engineering, and `#ccc7bc` remains genuinely undocumented (doesn't match any of the 9 tributes tokens), so both stay open below.
+**Figma action taken:** ~~none of these findings...~~ **Superseded 2026-09-10.** The original plan was to record these findings without adding them to Figma's Brand/Colors Variables groups, since MNG Web Design System's `Colors` collection only had a fixed 7-color-slot-per-theme model (`theme/primary`, `theme/secondary`, `theme/tertiary`, `theme/primary-light`, `theme/primary-dark`, `theme/primary-lighter`, `theme/primary-darker`) with no room for the Endless Tributes palette's 9 colors without restructuring all 20 modes. **Karl's resolution:** rather than trying to shoehorn the tributes palette into the existing per-theme slot model (or into its own one-off "Endless Tributes" mode), all 9 colors were added as a new, separate `color/tributes/*` variable group — `primary-lighter`, `primary-light`, `primary`, `primary-dark`, `primary-darker`, `secondary`, `tertiary`, `tan`, `tan-light` — each carrying the same universal value across all 20 modes (BoldCoastal, ModernEarthy, MeasuredVibrant, DenverPost, Endless Tributes, and all 15 masthead-specific modes). This matches how obituary pages actually render in production: identically regardless of which site's masthead brand is active, so a single shared value per token across every mode is correct, not a compromise. The `--*-obit` CSS widget variables (`--primary-obit`, `--primary-obit-light`, `--secondary-obit`, `--tertiary-obit`, `--quaternary-obit`) and the undocumented `#ccc7bc` beige are unaffected by this — the widget vars are a live-code cleanup item for engineering, and `#ccc7bc` remains genuinely undocumented (doesn't match any of the 9 tributes tokens), so both stay open below.
 
 **Status:** Open for the `--*-obit` widget CSS variables (still live despite the "remove" flag) and the undocumented `#ccc7bc` beige. **Resolved 2026-09-10** for the tributes palette itself — all 9 colors are now proper Figma variables (`color/tributes/*`) applied across all 20 brand groups; the tan-light production drift (`#e8e6e2` spec vs. `#ecede7` live) is still an open engineering item to reconcile.
 
@@ -520,7 +520,7 @@ See `tokens/typography/typography-tokens.md`. Production matches the new styles,
 
 **Found:** 2026-08-28 to 2026-08-31, icon font audit (`components/icons.md` §3, §5, §6). Added here 2026-09-25: `icons.md` said these were in this handoff, but they had never been logged.
 
-**Figma spec (source of truth):** the `Icons` component set in the main MNG Design System file (node `4693:5`, 95 variants) and the documented icon list on its Icons page.
+**Figma spec (source of truth):** the `Icons` component set in the main MNG Web Design System file (node `4693:5`, 95 variants) and the documented icon list on its Icons page.
 
 **Production (live icon font, checked on chicagotribune.com):**
 

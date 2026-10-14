@@ -11,7 +11,7 @@
   "unitsPerEm": 1024,
   "extractedFrom": "https://www.ocregister.com/wp-content/themes/assets/static/css/boldcoastal.css (embedded @font-face \"icomoon\"), 2026-10-08. All sites use the same icon font (Karl, 2026-10-08)."
  },
- "designSource": "MNG Design System (jFHYqhZbJjvWQmDI4myCsd) › Icons | 2026.08.28 › \"Icon Categories\" (1412:13). Class names are the Figma row names; third-party vendor icons (cookies, weather, commenting) are out of scope.",
+ "designSource": "MNG Web Design System (jFHYqhZbJjvWQmDI4myCsd) › Icons | 2026.08.28 › \"Icon Categories\" (1412:13). Class names are the Figma row names; third-party vendor icons (cookies, weather, commenting) are out of scope.",
  "statusKey": {
   "match": "Production class has the same name and glyph",
   "production-name-differs": "Same glyph, production uses another class name",

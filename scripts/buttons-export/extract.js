@@ -1,5 +1,5 @@
 // Figma plugin code for the Buttons export (run with figma_execute in the
-// MNG Design System file, jFHYqhZbJjvWQmDI4myCsd). Each call's result is too
+// MNG Web Design System file, jFHYqhZbJjvWQmDI4myCsd). Each call's result is too
 // big to return inline, so the tool saves it to disk; copy each saved file to
 // <raw_dir>/ under the name given below, then run build-buttons-export.py.
 // Last used 2026-10-02.

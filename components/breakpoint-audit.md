@@ -393,7 +393,7 @@ Root cause, traced via `figma_execute`: the account-icon-vs-buttons rendering do
 
 ## Obituaries masthead audit
 
-*Continuation of the project — the HANDOFF note it pointed to was retired; current status is in `MNG-Design-System-Status.md`. **Logged-out pass complete** (all 7 widths: 375/700/1024/1100/1040/1280/1728, default + scrolled). **Ad-Free (logged-in) pass complete** (same 7 widths — see `## Obituaries Ad-Free Masthead Audit` below). Reader Dashboard not started.*
+*Continuation of the project — the HANDOFF note it pointed to was retired; current status is in `MNG-Web-Design-System-Status.md`. **Logged-out pass complete** (all 7 widths: 375/700/1024/1100/1040/1280/1728, default + scrolled). **Ad-Free (logged-in) pass complete** (same 7 widths — see `## Obituaries Ad-Free Masthead Audit` below). Reader Dashboard not started.*
 
 ### Breakpoint investigation: does Obituaries differ from Home/SectionFront/Article? — ✅ resolved 2026-09-15
 
@@ -575,7 +575,7 @@ Identical to 1040/1100/1280px — no new behavior at the widest width tested, co
 
 ## Reader Dashboard masthead audit
 
-*Final phase of this project — the HANDOFF note it pointed to was retired; current status is in `MNG-Design-System-Status.md`. Tested on **canoncitydailyrecord.com/dashboard/** (per Karl's direction) rather than ocregister.com, using a logged-in test subscriber account (`pafdainew@mailinator.com`) — the Reader Dashboard is a logged-in-only page, so there is no separate logged-out pass for this page type, matching Figma's own `Page=Dashboard` variant set (`Default`/`Scrolled` only, no `AdFree` state).*
+*Final phase of this project — the HANDOFF note it pointed to was retired; current status is in `MNG-Web-Design-System-Status.md`. Tested on **canoncitydailyrecord.com/dashboard/** (per Karl's direction) rather than ocregister.com, using a logged-in test subscriber account (`pafdainew@mailinator.com`) — the Reader Dashboard is a logged-in-only page, so there is no separate logged-out pass for this page type, matching Figma's own `Page=Dashboard` variant set (`Default`/`Scrolled` only, no `AdFree` state).*
 
 **Figma coverage note:** unlike Obituaries, the `Page=Dashboard` branch of the `Masthead` component set is fully built out — all 5 device tiers × both `Default` and `Scrolled` states (10 variants total, confirmed via the component set's children). No variant-coverage gaps going into this pass.
 

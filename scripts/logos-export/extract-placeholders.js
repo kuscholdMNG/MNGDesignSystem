@@ -1,4 +1,4 @@
-// Figma plugin code (run with figma_execute in the MNG Design System file, jFHYqhZbJjvWQmDI4myCsd).
+// Figma plugin code (run with figma_execute in the MNG Web Design System file, jFHYqhZbJjvWQmDI4myCsd).
 // Reads the Light frames of the 'FAKE NEWSPAPER LOGOS' set (page 'Style Guide | Introduction / About',
 // frame 3051:2728) and returns their vector paths, offsets and fill colours. Read-only: it changes nothing.
 // Save the result as scripts/logos-export/figma-placeholders.json (build-logos.py reshapes it the same

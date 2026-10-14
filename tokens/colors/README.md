@@ -1,6 +1,6 @@
-# MNG Design System: Color Tokens (portable export)
+# MNG Web Design System: Color Tokens (portable export)
 
-Generated 2026-10-01 from the MNG Design System Figma file (`jFHYqhZbJjvWQmDI4myCsd`): the Colors collection (`3749:16`, 20 modes) plus the Color Pallets | 2026.09.10 style guides. Covers **97 publications** and **22 themes / sub-themes**, including the two that don't fit Figma's 20-mode limit (The Baltimore Sun, Capital Gazette).
+Generated 2026-10-01 from the MNG Web Design System Figma file (`jFHYqhZbJjvWQmDI4myCsd`): the Colors collection (`3749:16`, 20 modes) plus the Color Pallets | 2026.09.10 style guides. Covers **97 publications** and **22 themes / sub-themes**, including the two that don't fit Figma's 20-mode limit (The Baltimore Sun, Capital Gazette).
 
 | File | Use |
 |---|---|

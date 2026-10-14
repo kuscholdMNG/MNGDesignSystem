@@ -74,7 +74,7 @@ Exceptions: Pioneer Press (14 artboards, extra horizontal sets), The Trentonian 
 4. **Print masthead** (artboard 1), for e-edition and archive use. Low priority.
 5. **Usage rules** that the files don't carry: clear space, minimum size (logos with hairline serifs, such as The Saratogian, Daily Breeze and The Times Herald, need testing at small sizes), and header logo heights per breakpoint, measured on the standard review sites and turned into tokens.
 
-See `MNG-Design-System-Status.md` for the open decisions.
+See `MNG-Web-Design-System-Status.md` for the open decisions.
 
 ## Rebuilding
 

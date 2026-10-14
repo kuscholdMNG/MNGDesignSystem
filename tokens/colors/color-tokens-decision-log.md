@@ -5,7 +5,7 @@
 > **Changed since this was written:**
 > - The export now includes The Baltimore Sun, Capital Gazette and `subsite-custom`, reversing the exclusions noted below. Those values come from the Figma style guides, not from Figma variables (Figma's Colors collection is capped at 20 modes).
 > - Prairie Mountain Publishing (19 sites, including Greeley Tribune) is its own sub-theme: `modernearthy.css` + `site-pmp` color override. Since 2026-09-25 it is a Figma mode (it replaced the Greeley Tribune mode) and uses the Measured Vibrant should-be values. See §8.
-> - The four collections described below (Theme, Brand, Primitives, Endless Tributes) were a first build. Their values now live in the MNG Design System file's single `Colors` collection (`3749:16`) and in the portable export.
+> - The four collections described below (Theme, Brand, Primitives, Endless Tributes) were a first build. Their values now live in the MNG Web Design System file's single `Colors` collection (`3749:16`) and in the portable export.
 
 **Status:** First built as four Figma variable collections (Theme, Brand, Primitives, Endless Tributes), now consolidated into the `Colors` collection — this doc is the durable reference for where each value came from.
 **Source:** The pre-existing "Color Styles" Figma page (since retired). Every value below is sourced from the **left-hand list** in each site/theme Style Guide section (the "should-be"/target column), confirmed by reading each row's actual on-canvas x-position rather than relying on frame names or labels, since naming was inconsistent across sections.
@@ -98,9 +98,9 @@ Single "Value" mode. Source: "Shared Platform Reference — Style Guide" → "Un
 
 ## 4. Endless Tributes collection
 
-Single "Value" mode. Source: "Shared Platform Reference — Style Guide" → "Should-Be vs Production (per original MNG Design System)" → "Endless Tributes — Updates."
+Single "Value" mode. Source: "Shared Platform Reference — Style Guide" → "Should-Be vs Production (per original MNG Web Design System)" → "Endless Tributes — Updates."
 
-**Mirrored into MNG Design System, 2026-09-10:** all 9 of these colors now also exist in MNG Design System's `Colors` collection (`VariableCollectionId:3749:16`) as a new `color/tributes/*` variable group, with the same value across all 20 modes rather than being squeezed into the existing 7-color-slot-per-theme pattern or modeled as a one-off theme mode. This reflects how obituary pages actually render in production — identically regardless of which site's masthead brand is active — so a single universal value per token is correct.
+**Mirrored into MNG Web Design System, 2026-09-10:** all 9 of these colors now also exist in MNG Web Design System's `Colors` collection (`VariableCollectionId:3749:16`) as a new `color/tributes/*` variable group, with the same value across all 20 modes rather than being squeezed into the existing 7-color-slot-per-theme pattern or modeled as a one-off theme mode. This reflects how obituary pages actually render in production — identically regardless of which site's masthead brand is active — so a single universal value per token is correct.
 
 | Variable | Value | Production comparison |
 |---|---|---|

@@ -7,7 +7,7 @@
 // previews/ back into <previews>/<section-slug>/ (item slug → section slug; the Form Field Dashboard Mockup Set lives in
 // form-field/, the two same-named Videos carousel mains are <slug>--<slug>.png and <slug>--<slug>-2.png) and re-export just the changed mains.
 //
-// Files: WordPress Elements = b1iZxkFwtAYq9rElmnCAzd, MNG Design System = jFHYqhZbJjvWQmDI4myCsd.
+// Files: WordPress Elements = b1iZxkFwtAYq9rElmnCAzd, MNG Web Design System = jFHYqhZbJjvWQmDI4myCsd.
 // After a library publish, accept the update in WordPress Elements and rebuild/relaunch the Desktop Bridge plugin before running these.
 
 // ============================================================ 0. SETUP (run once per file, both files)
@@ -70,7 +70,7 @@ for(const id of IDS){const m=await figma.getNodeByIdAsync(id);let p=m.parent,pat
  out.push({group:'menus-and-parts',section:m.name,description:m.description||null,path:path.join(' ▸ '),designerNotes:__notes(m),mains:[await __mainEntry(m)]})}
 return {SPECS_MARKER:'mp_a',fileKey:figma.fileKey,fileName:figma.root.name,sections:out};
 */
-// 1c. Form Fields, MNG Design System, same pattern with group:'form-fields' →
+// 1c. Form Fields, MNG Web Design System, same pattern with group:'form-fields' →
 //     specs_ff_a.json: ['6963:6863','6964:7032','7003:29236','6995:27285','7003:28636','7003:28651','7003:28666','7003:28741','7003:28816','7003:28940','7003:29223','6996:27351']
 //     specs_ff_b.json: ['2832:766'] (Form Field Dashboard Mockup Set, 102 variants)
 

@@ -1,4 +1,4 @@
-# MNG Design System — Export Standard
+# MNG Web Design System — Export Standard
 
 > **Draft 2026-10-13, updated 2026-10-14** (PNG previews stay in GitHub, no Git LFS; where pixel values are kept; Reader Dashboard is part of core; two breakpoint sets; Vite/package note) for Karl's review (branch `review/export-standard`). Once merged, every token and component export follows this file. The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
 
@@ -141,7 +141,7 @@ Pixels are the design unit everywhere (Figma's units are CSS pixels; we don't us
     "differencesEntry": 21
   },
   "figma": {
-    "file": "MNG Design System",
+    "file": "MNG Web Design System",
     "collection": "Colors",
     "variable": "color/theme/primary",
     "mode": "BoldCoastal",
@@ -160,7 +160,7 @@ Tokens and components are split into layers. **A layer may only reference layers
 
 | Layer | Folder | What's in it |
 |---|---|---|
-| Core (the main MNG Design System) | `tokens/core/` | Color primitives (gray, feedback, neutral, surface, tributes), type primitives (`font.family`, `font.size`, `font.weight`), spacing, radius, official breakpoints. Shared by every platform. **Reader Dashboard is part of core**: when it's ready, its tokens (Dashboard Typography, its breakpoints and so on) are added here under a `dashboard` group, not as a separate layer. |
+| Core (the main MNG Web Design System) | `tokens/core/` | Color primitives (gray, feedback, neutral, surface, tributes), type primitives (`font.family`, `font.size`, `font.weight`), spacing, radius, official breakpoints. Shared by every platform. **Reader Dashboard is part of core**: when it's ready, its tokens (Dashboard Typography, its breakpoints and so on) are added here under a `dashboard` group, not as a separate layer. |
 | Themes | `tokens/themes/` | One file per theme (Bold Coastal, Measured Vibrant, Modern Earthy), sub-theme (Denver Post, NEPA-PMP, 21C Michigan…) and the site overrides, plus `mng.resolver.json` that says how they stack: theme → sub-theme → site. |
 | WordPress | `tokens/wordpress/` | The WordPress Elements sub-system: editorial type styles (`Editorial/...`), theme type tokens (`font.theme.*`, eyebrow), layout and container widths, ad slot sizes, homepage block tokens, WordPress-specific breakpoints. |
 
@@ -226,7 +226,7 @@ Built from the DTCG files by `scripts/build-tokens/`. **Never edited by hand.** 
 | `dist/wordpress/` | WordPress block themes | `theme.json` fragments: color palette, font sizes, font families, spacing sizes and custom values, one per theme. |
 | `dist/json/` | Anything else | Flat `name → value` JSON (hex, rgba, px). |
 
-- `dist/` is also a package: a `package.json` at the repo top level with `exports`, so Vite, webpack or any Node build can install it straight from GitHub (`npm install github:kuscholdMNG/MNGDesignSystem`) and import `@mng/design-tokens/css/core.css`, `.../js/tokens.js` or `.../tailwind/theme.css`. The Tailwind v4 file works with Tailwind's Vite plugin as is.
+- `dist/` is also a package: a `package.json` at the repo top level with `exports`, so Vite, webpack or any Node build can install it straight from GitHub (`npm install github:kuscholdMNG/MNGWebDesignSystem`) and import `mng_web_design_system/css/core.css`, `.../js/tokens.js` or `.../tailwind/theme.css`. The Tailwind v4 file works with Tailwind's Vite plugin as is.
 - CSS variable names: `--mng-` + the token path with hyphens (`--mng-color-theme-primary`, `--mng-font-size-16-5`, `--mng-spacing-200`).
 - Colors are written as hex when alpha is 1, and as `rgba()` when it's below 1.
 - Sizes are written in `px`, with `rem` versions where the format supports them.

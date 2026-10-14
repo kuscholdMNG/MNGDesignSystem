@@ -2,19 +2,19 @@
 
 > **Rewritten 2026-09-24.** Simplified from `font-token-audit.md` (Sept 9–10, 2026). The original ran as a session diary and later sections reversed earlier ones. This version keeps only the final outcome of each decision.
 > - Current token values: `typography-tokens.md` (this folder).
-> - Known Figma-vs-production gaps: `production-vs-design-differences.md` (MNGDesignSystem folder).
+> - Known Figma-vs-production gaps: `production-vs-design-differences.md` (MNGWebDesignSystem folder).
 
 ## Background
 
 On 2026-09-09 the typography tokens in the Figma files were compared against each other and against live production:
 - **CRUX Style Library**: full scale, but with a single global serif/sans pairing, no line height or letter spacing, several stale values and some unused steps.
-- **MNG Design System file (then "UI Style Guide")**: closest to production and the only one that was theme-aware.
+- **MNG Web Design System file (then "UI Style Guide")**: closest to production and the only one that was theme-aware.
 
 Sites checked live: ocregister.com, denverpost.com, chicagotribune.com, orlandosentinel.com, canoncitydailyrecord.com, mcall.com.
 
 ## Decisions
 
-1. **One source of truth.** The MNG Design System file owns all typography tokens. Karl, 2026-09-09.
+1. **One source of truth.** The MNG Web Design System file owns all typography tokens. Karl, 2026-09-09.
 2. **CRUX Style Library is never edited.** It stays as read-only reference. That includes its unconfirmed weights (100/200/300/800/900), its unused 32px `3xl`, its stale `headlineH2` weight (400; production is 500) and its fallback-stack mismatch. Standing rule from Karl, 2026-09-10.
 3. **Button label sizes** are `Shared/Buttons/Utility|Small|Medium|Large/Size` → 12 / 13 / 14 / 19px, measured live.
 4. **Headings follow the theme.** `Editorial/Titles/Display`, `Title`, `Subtitle` and `SectionHeader` use `font/theme/heading-family`, so Modern Earthy correctly gets sans headings and serif body. Subtitle (the deck) is treated as a heading.

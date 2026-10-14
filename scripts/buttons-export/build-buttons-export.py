@@ -19,7 +19,7 @@ RAW = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(os.path.abspath(__fi
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(os.path.dirname(RAW), 'mng-buttons-export')
 DATE = os.environ.get('EXPORT_DATE', '2026-10-02')
 FILE_KEY = 'jFHYqhZbJjvWQmDI4myCsd'
-FILE_NAME = 'MNG Design System'
+FILE_NAME = 'MNG Web Design System'
 PAGE = 'Buttons | 2026.09.30'
 PAGE_ID = '1079:34282'
 ICONS_SET = '4693:5'
@@ -378,7 +378,7 @@ for meta in META:
     md += ['', '## Properties', '', '| Property | Type | Default | Options |', '|---|---|---|---|']
     for k in keys:
         p = s['properties'][k]; md.append(f"| {k} | {p['type']} | {p['default']} | {', '.join(p['options'])} |")
-    md += ['', '## Where it is used', '', 'Scope: local instances in the MNG Design System file only. Instances in other files that use the published library (WordPress Elements, Reader Dashboard v2.0) are not counted.', '',
+    md += ['', '## Where it is used', '', 'Scope: local instances in the MNG Web Design System file only. Instances in other files that use the published library (WordPress Elements, Reader Dashboard v2.0) are not counted.', '',
            f'Total instances: **{total}**.', '']
     if built_into: md += ['Nested inside (component sets / components): ' + ', '.join(f'{k} ×{c}' for k, c in built_into.most_common()) + '.', '']
     if pages: md += ['Placed directly on pages: ' + ', '.join(f'{k} ×{c}' for k, c in pages.most_common()) + '.', '']
@@ -415,7 +415,7 @@ for meta in META:
     else: md.append('No text layers (icon-only).')
     md += ['', '## Color & effects', '', '| Token | Hex | Used as |', '|---|---|---|']
     for t, c in colors.items(): md.append(f"| {t} | {c['hex']} | {'; '.join(sorted(c['usedAs']))} |")
-    md += ['', 'Hex values are the MNG Design System default mode. At runtime use the token (`var(--color-theme-primary)` etc.); theme colors change per site. No effects (shadows/blurs) are used.', '',
+    md += ['', 'Hex values are the MNG Web Design System default mode. At runtime use the token (`var(--color-theme-primary)` etc.); theme colors change per site. No effects (shadows/blurs) are used.', '',
            '## Image ratios', '', 'N/A: no image fills or placeholders.', '', '## Ad slots', '', 'N/A.', '',
            '## Production references', '', 'None recorded in Figma (no domains, selectors or layout tokens in descriptions or layer names). Production gaps, if any, belong in `production-vs-design-differences.md`.', '',
            '## Known issues', '']
@@ -444,7 +444,7 @@ for meta in META:
                                             ('variants', [{'label': v['_label'], 'id': v['id'], 'key': v['key'], 'url': url(v['id'])} for v in variants])])),
                      ('properties', {k: s['properties'][k] for k in keys}), ('breakpoints', bps or ['all']),
                      ('usage', OrderedDict([('totalInstances', total), ('builtInto', dict(built_into)), ('pages', dict(pages)), ('nestedInInstances', nested),
-                                            ('scope', 'Local instances in the MNG Design System file only.')])),
+                                            ('scope', 'Local instances in the MNG Web Design System file only.')])),
                      ('dependencies', [{'component': k, 'nodeId': ICONS_SET if k == 'Icons' else None, 'inThisExport': False, 'count': c} for k, c in deps.items()]),
                      ('iconsUsed', dict(icons)), ('variants', [vjson(v) for v in variants]),
                      ('typography', [{'font': k[0], 'weight': k[1], 'size': k[2], 'lineHeight': k[3], 'case': k[4], 'color': k[5], 'align': k[6], 'layers': sorted(l)} for k, l in typo.items()]),
@@ -469,7 +469,7 @@ for meta in META:
     page = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{meta['name']} — skeleton</title>
-<!-- Generated {DATE} from Figma MNG Design System ({FILE_KEY}), set {s['id']} ("{s['name']}"). Structure + tokens only; see {slug}.md for rules. -->
+<!-- Generated {DATE} from Figma MNG Web Design System ({FILE_KEY}), set {s['id']} ("{s['name']}"). Structure + tokens only; see {slug}.md for rules. -->
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../tokens.css">
 <style>
@@ -510,7 +510,7 @@ for it in specs['items']:
                     if pp.get('variable'): color_hex[tok(pp['variable'])] = pp['hex']
     for v in it['set']['variants']: walk(v, g)
 tokens = OrderedDict([('schema', 'mng-design-system/tokens@1'), ('exported', DATE),
-                      ('source', {'fileKey': FILE_KEY, 'fileName': FILE_NAME, 'mode': 'default mode (values shown are the MNG Design System defaults; theme tokens change per site)'}),
+                      ('source', {'fileKey': FILE_KEY, 'fileName': FILE_NAME, 'mode': 'default mode (values shown are the MNG Web Design System defaults; theme tokens change per site)'}),
                       ('colors', OrderedDict((t, {'hex': color_hex[t], 'css': css_var(t), 'usedBy': sorted(token_use[t])}) for t in sorted(color_hex))),
                       ('dimensions', OrderedDict((t, {'px': VALUES[t], 'css': css_var(t), 'usedBy': sorted(token_use[t])}) for t in sorted(token_use) if t in VALUES)),
                       ('typeCombinations', dict(type_combos)),
@@ -530,11 +530,11 @@ json.dump(index, open(os.path.join(OUT, 'index.json'), 'w'), indent=1, ensure_as
 nvar = sum(m['_nvar'] for m in META)
 rows = '\n'.join(f"| {m['order']:02d} | [{m['name']}](components/{m['_nn']}/{m['slug']}.md) | {m['_setname']} | `{specs['items'][m['idx']]['set']['id']}` | {m['_nvar']} | {', '.join(m['_bps']) if m['_bps'] else 'single size'} | {m['_total']} | {', '.join(sorted(m['_deps'])) or '—'} | {', '.join(sorted(m['_built_into'])) or '—'} |" for m in META)
 ctok = '\n'.join(f"`{t}` {color_hex[t]}" for t in sorted(color_hex))
-readme = f'''# Buttons and links: MNG Design System export
+readme = f'''# Buttons and links: MNG Web Design System export
 
 **Exported {DATE}** from the **Buttons | 2026.09.30** page. It reflects Karl's 2026-10-02 review: 40px CTAs, focus rings drawn outside the element, the set renames and the layer-name cleanup. It replaces the 2026-10-01 export.
 
-This is a portable, AI-readable spec export from the **MNG Design System** Figma file (`{FILE_KEY}`), page [Buttons | 2026.09.30]({url(PAGE_ID)}). It holds 8 component sets with {nvar} variants in total. Design (Figma) is the source of truth. Values here are design values, not production values.
+This is a portable, AI-readable spec export from the **MNG Web Design System** Figma file (`{FILE_KEY}`), page [Buttons | 2026.09.30]({url(PAGE_ID)}). It holds 8 component sets with {nvar} variants in total. Design (Figma) is the source of truth. Values here are design values, not production values.
 
 ## How an agent should use this folder
 

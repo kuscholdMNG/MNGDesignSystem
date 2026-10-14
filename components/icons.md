@@ -1,10 +1,10 @@
 # Icon Font
 
-> **Updated 2026-10-08:** the production font is now in `tokens/icons/` (all sites use the same font) and was re-checked against the Figma Icon Categories page; current mismatches and known missing icons are in production-vs-design entry 20. Earlier history below. Current project status is in `MNG-Design-System-Status.md`.
+> **Updated 2026-10-08:** the production font is now in `tokens/icons/` (all sites use the same font) and was re-checked against the Figma Icon Categories page; current mismatches and known missing icons are in production-vs-design entry 20. Earlier history below. Current project status is in `MNG-Web-Design-System-Status.md`.
 
 **Status:** Documentation source established; live-vs-documented name audit complete (Chicago Tribune). Figma `Icons` COMPONENT_SET (95 variants) audited and visually cross-checked against live glyphs, 2026-08-28 (see §6). Every finding from that audit walked through a live Figma + site side-by-side review with Karl, 2026-08-31 — all open items resolved (see §5). Remaining-site cross-check and full page-by-page usage audit still not done.
 **Source (live):** Chicago Tribune, desktop, sitewide (icomoon icon font, embedded via `@font-face` in the shared theme's `measuredvibrant.css`)
-**Source (internal, authoritative):** main MNG Design System file (`jFHYqhZbJjvWQmDI4myCsd`) → **"Alerts and Icons" page** → **"Proposed MNG Icon Set"** frame (`6106:4866`), the icon documentation Karl copied by hand. The 95-variant `Icons` COMPONENT_SET (`4693:5`) is on the file's Icons page (now "Icons | 2026.08.28").
+**Source (internal, authoritative):** main MNG Web Design System file (`jFHYqhZbJjvWQmDI4myCsd`) → **"Alerts and Icons" page** → **"Proposed MNG Icon Set"** frame (`6106:4866`), the icon documentation Karl copied by hand. The 95-variant `Icons` COMPONENT_SET (`4693:5`) is on the file's Icons page (now "Icons | 2026.08.28").
 
 ---
 
@@ -87,7 +87,7 @@ During the audit, a working copy of the documentation ("Icons comparisons") carr
 
 ## 6. Figma `Icons` COMPONENT_SET audit (95 variants) — 2026-08-28
 
-**Source:** main MNG Design System file → Icons page (then "Icons | 2026.04.17", now "Icons | 2026.08.28") → `Icons` COMPONENT_SET (node `4693:5`), the live, hand-drawn 95-variant set Karl left untouched when he hand-copied the documentation (see §1). This was the explicitly-deferred item from Open Items §6 above — now done.
+**Source:** main MNG Web Design System file → Icons page (then "Icons | 2026.04.17", now "Icons | 2026.08.28") → `Icons` COMPONENT_SET (node `4693:5`), the live, hand-drawn 95-variant set Karl left untouched when he hand-copied the documentation (see §1). This was the explicitly-deferred item from Open Items §6 above — now done.
 
 ### 6.1 Scope note — read this before the findings below
 

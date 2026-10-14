@@ -1,7 +1,7 @@
 # InLineMessage — Instance Migration Checklist
 
 **Companion to:** `reader-dashboard-inline-message-component-audit.md`
-**Component:** `InLineMessage` (COMPONENT_SET, node `2776:2`, in the **main MNG Design System file** (formerly "UI Style Guide") → "In-Line Content Containers | 2026.01.02")
+**Component:** `InLineMessage` (COMPONENT_SET, node `2776:2`, in the **main MNG Web Design System file** (formerly "UI Style Guide") → "In-Line Content Containers | 2026.01.02")
 **Generated:** 2026-09-09, via live scan of the files open in the Desktop Bridge (file names updated 2026-09-25)
 **Purpose:** Enumerate every live instance of `InLineMessage` across every file/page so your team can verify, after the component is rebuilt, that each one remapped correctly.
 **Scope note:** Email Options for Non-Registered Users is excluded from this migration entirely per Karl's request — see §5.
@@ -45,7 +45,7 @@ I can also re-run the exact same scan script after the rebuild and diff the resu
 
 *(Other 12 pages: no instances — nothing to check.)*
 
-### ☐ MNG Design System (main file, formerly UI Style Guide)
+### ☐ MNG Web Design System (main file, formerly UI Style Guide)
 `jFHYqhZbJjvWQmDI4myCsd` · 27 pages scanned · **60 matched instances** across 6 pages
 
 | Page | Instances | Variants in use |

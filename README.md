@@ -1,15 +1,28 @@
-# MNG Design System — Project Folder
+# MNG Web Design System — Project Folder
 
 > Folder map and filing rules. **Every session working on this project reads this first and follows it.**
-> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`. **Updated 2026-10-08:** added `tokens/icons/`, `logos/` and `scripts/logos-export/`. **Updated 2026-10-09:** added `figma-exports/mng-ads-export/` and `scripts/ads-export/`. **Updated 2026-10-13:** added `EXPORT-STANDARD.md`; `figma-exports/` is now legacy (frozen).
+> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGWebDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`. **Updated 2026-10-08:** added `tokens/icons/`, `logos/` and `scripts/logos-export/`. **Updated 2026-10-09:** added `figma-exports/mng-ads-export/` and `scripts/ads-export/`. **Updated 2026-10-13:** added `EXPORT-STANDARD.md`; `figma-exports/` is now legacy (frozen). **Updated 2026-10-14:** renamed from "MNG Design System" to **MNG Web Design System** (see "Names" below); local copy moved to `~/Github/`.
+
+## Names
+
+The design system was renamed on 2026-10-14 (Karl). Use these forms everywhere:
+
+| Where | Form |
+|---|---|
+| Prose, docs, Figma file name and labels | **MNG Web Design System** |
+| GitHub repo, local folder, Claude project, anything without spaces | **MNGWebDesignSystem** |
+| Code identifiers, the `dist/` package name, snake_case contexts | **mng_web_design_system** |
+| Status file | `MNG-Web-Design-System-Status.md` |
+
+Not renamed on purpose: the frozen legacy exports in `figma-exports/` (including the folder `mng-design-system-export/` and its `mng-design-system/...@1` schema names), because other projects may point at them; dated historical labels such as "per MNG Design System 2025.07.16" in Figma; the CSS variable prefix `--mng-` and the DTCG extension namespace `com.mng`, which name the company, not the system.
 
 ## Folder map
 
 ```
-MNGDesignSystem/
+MNGWebDesignSystem/
 ├── README.md                               ← this file
 ├── .gitignore                              ← keeps .DS_Store, zips and credentials out of the repo
-├── MNG-Design-System-Status.md             ← project status (the entry point)
+├── MNG-Web-Design-System-Status.md         ← project status (the entry point)
 ├── EXPORT-STANDARD.md                      ← format rules for every token and component export (DTCG)
 ├── production-vs-design-differences.md     ← production gaps for Engineering
 ├── Reader-Dashboard-Library-Impact-Map.md
@@ -44,7 +57,7 @@ MNGDesignSystem/
 
 | What you made | Where it goes |
 |---|---|
-| Project status update | Edit `MNG-Design-System-Status.md` in place |
+| Project status update | Edit `MNG-Web-Design-System-Status.md` in place |
 | A new production-vs-design gap | Add an entry to `production-vs-design-differences.md` |
 | Component spec, audit or checklist | `components/<component-name>.md` |
 | Color token export, CSS, CSV, decisions | `tokens/colors/` (replace the files there). Color fixes for Engineering go in `production-vs-design-differences.md` entry 21. |
@@ -69,8 +82,8 @@ MNGDesignSystem/
 
 ## Working in GitHub
 
-- **Repo:** https://github.com/kuscholdMNG/MNGDesignSystem (branch `main`).
-- **Local copy:** `~/Github/MNGDesignSystem` on Karl's Mac (moved 2026-10-14; `~/Github` also holds the `for_you_tab_mvp` repo). Work only there. The old Google Drive folder is retired; don't save anything to it.
+- **Repo:** https://github.com/kuscholdMNG/MNGWebDesignSystem (branch `main`).
+- **Local copy:** `~/Github/MNGWebDesignSystem` on Karl's Mac (moved 2026-10-14; `~/Github` also holds the `for_you_tab_mvp` repo). Work only there. The old Google Drive folder is retired; don't save anything to it.
 - **Commit every change** with a short message that says what changed and why (for example "Add card-teaser hover states"). Git history replaces the dates in file names, so rule 5 still applies: put the date inside the file.
 - **Value changes that need Karl's review** (token values, decisions in the decision logs) go on a branch, such as `review/primary-blue-fix`, with a pull request. Everything else can go straight to `main`.
 - **Push after committing.** Pushing uses a GitHub token saved in `.git/claude-credentials`, which is never committed. If a push fails with a sign-in error, the token has expired: Karl makes a new one and runs `git push` once in Terminal.

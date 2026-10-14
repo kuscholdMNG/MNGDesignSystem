@@ -21,9 +21,9 @@ GROUPS = {
     'menus-and-parts': {'title': 'Menus and Parts', 'fileKey': 'b1iZxkFwtAYq9rElmnCAzd', 'page': 'Menus and Parts',
                         'source': 'WordPress Elements ▸ Menus and Parts ▸ Push Nav Section Menu, Frame 12634 (Mastheads), Frame 12776 (User & Account Menus), Frame 12804 (Breaking News), Frame 12774 (Footer)'},
     'form-fields': {'title': 'Form Fields', 'fileKey': 'jFHYqhZbJjvWQmDI4myCsd', 'page': 'Form Fields | 2026.09.24',
-                    'source': 'MNG Design System ▸ Form Fields | 2026.09.24 (all components)'},
+                    'source': 'MNG Web Design System ▸ Form Fields | 2026.09.24 (all components)'},
 }
-FILES = {'b1iZxkFwtAYq9rElmnCAzd': 'WordPress Elements', 'jFHYqhZbJjvWQmDI4myCsd': 'MNG Design System'}
+FILES = {'b1iZxkFwtAYq9rElmnCAzd': 'WordPress Elements', 'jFHYqhZbJjvWQmDI4myCsd': 'MNG Web Design System'}
 # Non-homepage items: (figma name, export name, kind) in build order.
 MANIFEST = {
     'menus-and-parts': [('Weather Bug', None, 'component'), ('SectionMenuHeader', None, 'component'), ('AlertLevel', None, 'component'),
@@ -627,7 +627,7 @@ json.dump(index, open(os.path.join(OUT, 'index.json'), 'w'), indent=1, ensure_as
 
 # README
 nv = sum(len(s['variants']) for s in items)
-R = ['# MNG Design System — component spec export', '',
+R = ['# MNG Web Design System — component spec export', '',
      f"Exported {DATE} from Figma. {len(items)} items ({sum(s['kind'] == 'component' for s in items)} components, {sum(s['kind'] == 'assembly' for s in items)} assemblies, {nv} variants). "
      'Page templates are not included; the homepage templates are used only as "where it is used" and breakpoint evidence.', '',
      'Rebuild: run the calls in `scripts/design-system-export/extract.js` in Figma, then `python3 scripts/design-system-export/build-design-system-export.py <raw> <previews> figma-exports/mng-design-system-export`.', '',
