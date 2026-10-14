@@ -1,0 +1,1775 @@
+{
+  "$description": "Every width breakpoint found in MNG production code, classified as official, component or drift (EXPORT-STANDARD.md section 6); third-party and WordPress admin-bar values are left out. Built by scripts/breakpoint-inventory/build-inventory.py; never edit by hand. Drift is logged in production-vs-design-differences.md (entries 30, 31, 33) with the official breakpoint to snap to.",
+  "scanned": "2026-10-14",
+  "method": "Live CSS scan (scan.js) of every loaded stylesheet, @media width conditions only, on the homepage, an article and the obituaries page of each review site, at a 1728px-wide window (media rules are read from the CSS, so the window width does not matter). Cross-origin sheets were fetched; the HTL ad bidder sheet was blocked on most sites. em/rem converted at 16px. JavaScript breakpoints (matchMedia, window.innerWidth) are not included.",
+  "officialSets": {
+    "device": {
+      "tokens": "tokens/core/breakpoint.tokens.json",
+      "minWidths": {
+        "fold": 340,
+        "mobile": 360,
+        "tablet": 768,
+        "tablet-landscape": 1024,
+        "desktop": 1280
+      }
+    },
+    "wordpress-grid": {
+      "tokens": "tokens/wordpress/breakpoint.tokens.json",
+      "minWidths": {
+        "xs": 320,
+        "s": 640,
+        "m": 800,
+        "l": 1040,
+        "xl": 1280
+      }
+    }
+  },
+  "sites": {
+    "canoncitydailyrecord.com": {
+      "pages": [
+        "/",
+        "/2026/08/25/fremont-county-nonprofit-guide-2026/",
+        "/obituaries/"
+      ],
+      "blockedStylesheets": [
+        "htlbid.com/v3/canoncitydailyrecord.com/htlbid.css"
+      ]
+    },
+    "chicagotribune.com": {
+      "pages": [
+        "/",
+        "/2026/10/13/after-report-of-partying-in-dubai-with",
+        "/obituaries/"
+      ],
+      "blockedStylesheets": [
+        "htlbid.com/v3/chicagotribune.com/htlbid.css"
+      ]
+    },
+    "denverpost.com": {
+      "pages": [
+        "/",
+        "/2016/05/23/sports-today-on-tv-and-radio/",
+        "/obituaries/"
+      ],
+      "blockedStylesheets": [
+        "htlbid.com/v3/denverpost.com/htlbid.css"
+      ]
+    },
+    "mcall.com": {
+      "pages": [
+        "/",
+        "/2026/09/04/be-an-angel-2026-lehigh-valley-nonprof",
+        "/obituaries/"
+      ],
+      "blockedStylesheets": [
+        "htlbid.com/v3/mcall.com/htlbid.css"
+      ]
+    },
+    "ocregister.com": {
+      "pages": [
+        "/",
+        "/voter-guide/",
+        "/obituaries/"
+      ],
+      "blockedStylesheets": [
+        "htlbid.com/v3/ocregister.com/htlbid.css"
+      ]
+    },
+    "orlandosentinel.com": {
+      "pages": [
+        "/",
+        "/tag/property-insurance/",
+        "/obituaries/"
+      ],
+      "blockedStylesheets": [
+        "htlbid.com/v3/orlandosentinel.com/htlbid.css",
+        "accounts.google.com/gsi/style"
+      ]
+    }
+  },
+  "summary": {
+    "component": 9,
+    "official": 13,
+    "drift": 34
+  },
+  "excluded": {
+    "thirdParty": 18,
+    "wordpressAdminBar": 8,
+    "digisubsNotDocumented": [
+      "digisubs modal (max 344)",
+      "spoof banner (max 380)",
+      "push prompt (max 430)",
+      "article share box (min 431)",
+      "employee debugger (min 450)"
+    ],
+    "specialInvestigativeHeader": "Left out for now (max-width 730 / 1150, plus shared 500 / 600 / 750 / 900 / 1024). Not found on a live page of the 6 sites; find it in production when more article pages are added to WordPress Elements (Karl, 2026-10-14).",
+    "note": "Third-party breakpoints (Mg2 Connext paywall, Osano, Kargo, HTL ad bidder) and the WordPress admin bar (logged-in editors only) are not ours, so they are left out (Karl, 2026-10-14)."
+  },
+  "production": [
+    {
+      "query": "(min-width: 300px)",
+      "kind": "min",
+      "px": 300,
+      "tier": "component",
+      "owners": [
+        "WordPress theme ad rules (dfp-ad, mobile adhesion)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 2,
+      "stylesheets": [
+        "inline",
+        "theme"
+      ],
+      "sampleSelector": ".dfp-ad.dfp-top_leaderboard",
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Top leaderboard ad (.dfp-ad.dfp-top_leaderboard)."
+    },
+    {
+      "query": "(min-width: 320px)",
+      "kind": "min",
+      "px": 320,
+      "tier": "official",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 90,
+      "stylesheets": [
+        "inline",
+        "theme"
+      ],
+      "sampleSelector": ".busy .feature-small",
+      "official": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.xs",
+        "query": "(min-width: 320px)",
+        "label": "WordPress grid xs"
+      }
+    },
+    {
+      "query": "(max-width: 335px)",
+      "kind": "max",
+      "px": 335,
+      "tier": "component",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 1,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": ".nav-primary .icon-search",
+      "note": "Masthead (WordPress): nav search icon on very small phones. Component breakpoint for the Masthead (Karl, 2026-10-14)."
+    },
+    {
+      "query": "(max-width: 340px)",
+      "kind": "max",
+      "px": 340,
+      "tier": "drift",
+      "owners": [
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)",
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 3,
+      "stylesheets": [
+        "mng-digisubs",
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": "#account-content",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.fold",
+        "query": "(max-width: 339px)",
+        "label": "MNG Device fold"
+      },
+      "note": "Off by one: (max-width: 340px) overlaps fold; should be 339."
+    },
+    {
+      "query": "(max-width: 350px)",
+      "kind": "max",
+      "px": 350,
+      "tier": "component",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 1,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": ".nav-primary .icon-hamburger",
+      "note": "Masthead (WordPress): nav hamburger icon on very small phones. Component breakpoint for the Masthead (Karl, 2026-10-14)."
+    },
+    {
+      "query": "(max-width: 360px)",
+      "kind": "max",
+      "px": 360,
+      "tier": "drift",
+      "owners": [
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 5,
+      "stylesheets": [
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": ".mng-ui .modal-content .modal-header",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.mobile",
+        "query": "(max-width: 359px)",
+        "label": "MNG Device mobile"
+      },
+      "note": "Off by one: (max-width: 360px) overlaps mobile; should be 359."
+    },
+    {
+      "query": "(min-width: 360px)",
+      "kind": "min",
+      "px": 360,
+      "tier": "official",
+      "owners": [
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 11,
+      "stylesheets": [
+        "mng-digisubs",
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": "#regwall-btn",
+      "official": {
+        "set": "device",
+        "token": "breakpoint.mobile",
+        "query": "(min-width: 360px)",
+        "label": "MNG Device mobile"
+      },
+      "note": "Regwall button."
+    },
+    {
+      "query": "(max-width: 400px)",
+      "kind": "max",
+      "px": 400,
+      "tier": "drift",
+      "owners": [
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 4,
+      "stylesheets": [
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": ".mng-signin-modal",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.mobile",
+        "query": "(max-width: 359px)",
+        "label": "MNG Device mobile"
+      },
+      "note": "Sign-in modal."
+    },
+    {
+      "query": "(max-width: 405px)",
+      "kind": "max",
+      "px": 405,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 2,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": "#content.sports-radar-content #sports-ra",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.s",
+        "query": "(max-width: 639px)",
+        "label": "WordPress grid s"
+      },
+      "note": "Sports Radar page template (#content.sports-radar-content; local template styling embedded Sportradar data widgets): follows the WordPress grid (Karl, 2026-10-14)."
+    },
+    {
+      "query": "(max-width: 450px)",
+      "kind": "max",
+      "px": 450,
+      "tier": "drift",
+      "owners": [
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 37,
+      "stylesheets": [
+        "mng-digisubs",
+        "theme"
+      ],
+      "sampleSelector": ".employee-debugger-close",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.mobile",
+        "query": "(max-width: 359px)",
+        "label": "MNG Device mobile"
+      },
+      "note": "Digisubs modals, paywall container, regwall form, save-article and nickname modals, account dropdown (37 rules)."
+    },
+    {
+      "query": "(max-width: 480px)",
+      "kind": "max",
+      "px": 480,
+      "tier": "component",
+      "owners": [
+        "WordPress theme ad rules (dfp-ad, mobile adhesion)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 1,
+      "stylesheets": [
+        "_static"
+      ],
+      "sampleSelector": "#mobile-adhesion",
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Mobile adhesion ad (#mobile-adhesion)."
+    },
+    {
+      "query": "(max-width: 500px)",
+      "kind": "max",
+      "px": 500,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 4,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": "#content.sports-radar-content .tournamen",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.s",
+        "query": "(max-width: 639px)",
+        "label": "WordPress grid s"
+      },
+      "note": "Sports Radar page template (#content.sports-radar-content; local template styling embedded Sportradar data widgets): follows the WordPress grid (Karl, 2026-10-14)."
+    },
+    {
+      "query": "(max-width: 535px)",
+      "kind": "max",
+      "px": 535,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 3,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": "#content.sports-radar-content #sports-ra",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.s",
+        "query": "(max-width: 639px)",
+        "label": "WordPress grid s"
+      },
+      "note": "Sports Radar page template (#content.sports-radar-content; local template styling embedded Sportradar data widgets): follows the WordPress grid (Karl, 2026-10-14)."
+    },
+    {
+      "query": "(max-width: 550px)",
+      "kind": "max",
+      "px": 550,
+      "tier": "drift",
+      "owners": [
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 1,
+      "stylesheets": [
+        "mng-digisubs"
+      ],
+      "sampleSelector": ":root:not(:has(#server-regwall)) .full-v",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.mobile",
+        "query": "(max-width: 359px)",
+        "label": "MNG Device mobile"
+      },
+      "note": "Regwall (:root:not(:has(#server-regwall)))."
+    },
+    {
+      "query": "(max-width: 575.98px)",
+      "kind": "max",
+      "px": 575.98,
+      "tier": "drift",
+      "owners": [
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 4,
+      "stylesheets": [
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": ".modal-fullscreen-sm-down",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.tablet",
+        "query": "(max-width: 767px)",
+        "label": "MNG Device tablet"
+      },
+      "note": "Bootstrap sm-down."
+    },
+    {
+      "query": "(max-width: 576px)",
+      "kind": "max",
+      "px": 576,
+      "tier": "drift",
+      "owners": [
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 13,
+      "stylesheets": [
+        "mng-digisubs"
+      ],
+      "sampleSelector": ".sspw-content",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.tablet",
+        "query": "(max-width: 767px)",
+        "label": "MNG Device tablet"
+      },
+      "note": "Digisubs content (.sspw-content)."
+    },
+    {
+      "query": "(min-width: 576px)",
+      "kind": "min",
+      "px": 576,
+      "tier": "drift",
+      "owners": [
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 239,
+      "stylesheets": [
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": ".container-sm, .container",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.tablet",
+        "query": "(min-width: 768px)",
+        "label": "MNG Device tablet"
+      },
+      "note": "Bootstrap sm container."
+    },
+    {
+      "query": "(max-width: 600px)",
+      "kind": "max",
+      "px": 600,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)",
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 16,
+      "stylesheets": [
+        "mng-digisubs",
+        "theme"
+      ],
+      "sampleSelector": ".show-article-sharing",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.s",
+        "query": "(max-width: 639px)",
+        "label": "WordPress grid s"
+      },
+      "note": "Theme: article bottom share buttons (.article-bottom-share), snap to grid s (639). Digisubs: change-username modal, snap to Device tablet (767). (The share box rule here is not documented.)"
+    },
+    {
+      "query": "(max-width: 624px)",
+      "kind": "max",
+      "px": 624,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 38,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": "#content.obits-content.obits-homepage-co",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.s",
+        "query": "(max-width: 639px)",
+        "label": "WordPress grid s"
+      },
+      "note": "Obituaries 1-column layout (entry 31)."
+    },
+    {
+      "query": "(min-width: 625px)",
+      "kind": "min",
+      "px": 625,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 31,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": "#content.obits-content .obit-bottom.cont",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.s",
+        "query": "(min-width: 640px)",
+        "label": "WordPress grid s"
+      },
+      "note": "Obituaries 2-column start (entry 31)."
+    },
+    {
+      "query": "(max-width: 639px)",
+      "kind": "max",
+      "px": 639,
+      "tier": "official",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 175,
+      "stylesheets": [
+        "inline",
+        "theme"
+      ],
+      "sampleSelector": ".site-footer .menu-item-has-children .ex",
+      "official": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.s",
+        "query": "(max-width: 639px)",
+        "label": "WordPress grid s"
+      }
+    },
+    {
+      "query": "(min-width: 640px)",
+      "kind": "min",
+      "px": 640,
+      "tier": "official",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 126,
+      "stylesheets": [
+        "inline",
+        "theme"
+      ],
+      "sampleSelector": ".feature-primary .feature-large",
+      "official": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.s",
+        "query": "(min-width: 640px)",
+        "label": "WordPress grid s"
+      }
+    },
+    {
+      "query": "(max-width: 700px)",
+      "kind": "max",
+      "px": 700,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 1,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": ".promotion-widget .promotion-child .prom",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.s",
+        "query": "(max-width: 639px)",
+        "label": "WordPress grid s"
+      },
+      "note": "Promotion widget (.promotion-widget, homepage promo tiles): follows the WordPress grid (Karl, 2026-10-14)."
+    },
+    {
+      "query": "(max-width: 734px)",
+      "kind": "max",
+      "px": 734,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 30,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": ".gallery-container",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.m",
+        "query": "(max-width: 799px)",
+        "label": "WordPress grid m"
+      },
+      "note": "Photo gallery widget (.gallery-container; also entry 31). Fix (Karl)."
+    },
+    {
+      "query": "(min-width: 735px)",
+      "kind": "min",
+      "px": 735,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 30,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": ".gallery-container",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.m",
+        "query": "(min-width: 800px)",
+        "label": "WordPress grid m"
+      },
+      "note": "Photo gallery widget (also entry 31). Fix (Karl)."
+    },
+    {
+      "query": "(max-width: 750px)",
+      "kind": "max",
+      "px": 750,
+      "tier": "component",
+      "owners": [
+        "WordPress theme ad rules (dfp-ad, mobile adhesion)",
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 26,
+      "stylesheets": [
+        "inline",
+        "theme"
+      ],
+      "sampleSelector": ".header-banners",
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Header banners (.header-banners): the top leaderboard ad container under the masthead. The special investigative header also uses 750."
+    },
+    {
+      "query": "(min-width: 750px)",
+      "kind": "min",
+      "px": 750,
+      "tier": "component",
+      "owners": [
+        "WordPress theme ad rules (dfp-ad, mobile adhesion)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 2,
+      "stylesheets": [
+        "inline",
+        "theme"
+      ],
+      "sampleSelector": ".dfp-ad.dfp-top_leaderboard",
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Top leaderboard ad."
+    },
+    {
+      "query": "(max-width: 767.98px)",
+      "kind": "max",
+      "px": 767.98,
+      "tier": "official",
+      "owners": [
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 4,
+      "stylesheets": [
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": ".modal-fullscreen-md-down",
+      "official": {
+        "set": "device",
+        "token": "breakpoint.tablet",
+        "query": "(max-width: 767px)",
+        "label": "MNG Device tablet"
+      },
+      "note": "Bootstrap md-down: the same boundary as MNG Device tablet (below 768)."
+    },
+    {
+      "query": "(min-width: 768px)",
+      "kind": "min",
+      "px": 768,
+      "tier": "official",
+      "owners": [
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)",
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 270,
+      "stylesheets": [
+        "inline",
+        "mng-digisubs",
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": null,
+      "official": {
+        "set": "device",
+        "token": "breakpoint.tablet",
+        "query": "(min-width: 768px)",
+        "label": "MNG Device tablet"
+      },
+      "note": "Digisubs rules match MNG Device tablet."
+    },
+    {
+      "query": "(max-width: 770px)",
+      "kind": "max",
+      "px": 770,
+      "tier": "drift",
+      "owners": [
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 1,
+      "stylesheets": [
+        "mng-digisubs"
+      ],
+      "sampleSelector": ".dropdown-menu",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.tablet",
+        "query": "(max-width: 767px)",
+        "label": "MNG Device tablet"
+      },
+      "note": "Account dropdown menu."
+    },
+    {
+      "query": "(max-width: 799px)",
+      "kind": "max",
+      "px": 799,
+      "tier": "official",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 215,
+      "stylesheets": [
+        "inline",
+        "theme"
+      ],
+      "sampleSelector": ".dfm-site-info .colophon ul",
+      "official": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.m",
+        "query": "(max-width: 799px)",
+        "label": "WordPress grid m"
+      }
+    },
+    {
+      "query": "(max-width: 800px)",
+      "kind": "max",
+      "px": 800,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 5,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": "#featured-flex-landing-three .landing-th",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.m",
+        "query": "(max-width: 799px)",
+        "label": "WordPress grid m"
+      },
+      "note": "Off by one: (max-width: 800px) overlaps m; should be 799 (#featured-flex-landing-three)."
+    },
+    {
+      "query": "(min-width: 800px)",
+      "kind": "min",
+      "px": 800,
+      "tier": "official",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 181,
+      "stylesheets": [
+        "inline",
+        "theme"
+      ],
+      "sampleSelector": ".busy .feature-small",
+      "official": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.m",
+        "query": "(min-width: 800px)",
+        "label": "WordPress grid m"
+      }
+    },
+    {
+      "query": "(max-width: 820px)",
+      "kind": "max",
+      "px": 820,
+      "tier": "drift",
+      "owners": [
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 1,
+      "stylesheets": [
+        "mng-digisubs"
+      ],
+      "sampleSelector": ".dropdown-menu",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.tablet",
+        "query": "(max-width: 767px)",
+        "label": "MNG Device tablet"
+      },
+      "note": "Account dropdown menu."
+    },
+    {
+      "query": "(max-width: 900px)",
+      "kind": "max",
+      "px": 900,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 8,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": ".promotion-widget .promotion-child .prom",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.m",
+        "query": "(max-width: 799px)",
+        "label": "WordPress grid m"
+      },
+      "note": "Promotion widget title: follows the WordPress grid (Karl). Sports Radar also uses an 800-900 range."
+    },
+    {
+      "query": "(max-width: 930px)",
+      "kind": "max",
+      "px": 930,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 1,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": ".site-footer #cookie-notice button",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.l",
+        "query": "(max-width: 1039px)",
+        "label": "WordPress grid l"
+      },
+      "note": "Footer cookie notice button (Karl: fix to 1039)."
+    },
+    {
+      "query": "(max-width: 960px)",
+      "kind": "max",
+      "px": 960,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 1,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": "#content.sports-radar-content #sports-ra",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.l",
+        "query": "(max-width: 1039px)",
+        "label": "WordPress grid l"
+      },
+      "note": "Sports Radar page template (#content.sports-radar-content; local template styling embedded Sportradar data widgets): follows the WordPress grid (Karl, 2026-10-14)."
+    },
+    {
+      "query": "(max-width: 991.98px)",
+      "kind": "max",
+      "px": 991.98,
+      "tier": "drift",
+      "owners": [
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 4,
+      "stylesheets": [
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": ".modal-fullscreen-lg-down",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.tablet-landscape",
+        "query": "(max-width: 1023px)",
+        "label": "MNG Device tablet-landscape"
+      },
+      "note": "Bootstrap lg-down."
+    },
+    {
+      "query": "(min-width: 992px)",
+      "kind": "min",
+      "px": 992,
+      "tier": "drift",
+      "owners": [
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 252,
+      "stylesheets": [
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": null,
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.tablet-landscape",
+        "query": "(min-width: 1024px)",
+        "label": "MNG Device tablet-landscape"
+      },
+      "note": "Bootstrap lg container."
+    },
+    {
+      "query": "(max-width: 1000px)",
+      "kind": "max",
+      "px": 1000,
+      "tier": "component",
+      "owners": [
+        "WordPress theme ad rules (dfp-ad, mobile adhesion)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 1,
+      "stylesheets": [
+        "inline"
+      ],
+      "sampleSelector": "#mobile-adhesion",
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Mobile adhesion ad."
+    },
+    {
+      "query": "(min-width: 1000px)",
+      "kind": "min",
+      "px": 1000,
+      "tier": "component",
+      "owners": [
+        "WordPress theme ad rules (dfp-ad, mobile adhesion)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 7,
+      "stylesheets": [
+        "inline",
+        "theme"
+      ],
+      "sampleSelector": ".dfp-ad.dfp-top_leaderboard",
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Top and bottom leaderboard ad placement."
+    },
+    {
+      "query": "(max-width: 1024px)",
+      "kind": "max",
+      "px": 1024,
+      "tier": "drift",
+      "owners": [
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)",
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 8,
+      "stylesheets": [
+        "mng-digisubs",
+        "theme"
+      ],
+      "sampleSelector": "#dfm-digisubs-menu .subscribe-special.cu",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.tablet-landscape",
+        "query": "(max-width: 1023px)",
+        "label": "MNG Device tablet-landscape"
+      },
+      "note": "Off by one for the Device set (should be 1023); the theme rule (#dfm-digisubs-menu) should use grid l (1039)."
+    },
+    {
+      "query": "(min-width: 1024px)",
+      "kind": "min",
+      "px": 1024,
+      "tier": "official",
+      "owners": [
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 1,
+      "stylesheets": [
+        "mng-digisubs"
+      ],
+      "sampleSelector": ".card-line",
+      "official": {
+        "set": "device",
+        "token": "breakpoint.tablet-landscape",
+        "query": "(min-width: 1024px)",
+        "label": "MNG Device tablet-landscape"
+      },
+      "note": "Digisubs card line."
+    },
+    {
+      "query": "(max-width: 1025px)",
+      "kind": "max",
+      "px": 1025,
+      "tier": "component",
+      "owners": [
+        "WordPress theme ad rules (dfp-ad, mobile adhesion)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 3,
+      "stylesheets": [
+        "_static"
+      ],
+      "sampleSelector": "#mobile-adhesion",
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Mobile adhesion ad."
+    },
+    {
+      "query": "(max-width: 1039px)",
+      "kind": "max",
+      "px": 1039,
+      "tier": "official",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)",
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)",
+        "dfm-trust-indicators plugin (MNG)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 392,
+      "stylesheets": [
+        "inline",
+        "mng-digisubs",
+        "theme",
+        "dfm-trust-indicators"
+      ],
+      "sampleSelector": "#content",
+      "official": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.l",
+        "query": "(max-width: 1039px)",
+        "label": "WordPress grid l"
+      },
+      "note": "The masthead switches to desktop here."
+    },
+    {
+      "query": "(max-width: 1040px)",
+      "kind": "max",
+      "px": 1040,
+      "tier": "drift",
+      "owners": [
+        "dfm-trust-indicators plugin (MNG)",
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 11,
+      "stylesheets": [
+        "dfm-trust-indicators",
+        "theme"
+      ],
+      "sampleSelector": "div.dfm-trust-indicators-footer-links",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.l",
+        "query": "(max-width: 1039px)",
+        "label": "WordPress grid l"
+      },
+      "note": "Off by one: (max-width: 1040px) overlaps l; should be 1039 (trust-indicator footer links)."
+    },
+    {
+      "query": "(min-width: 1040px)",
+      "kind": "min",
+      "px": 1040,
+      "tier": "official",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 195,
+      "stylesheets": [
+        "inline",
+        "theme"
+      ],
+      "sampleSelector": ".busy .feature-small figure",
+      "official": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.l",
+        "query": "(min-width: 1040px)",
+        "label": "WordPress grid l"
+      }
+    },
+    {
+      "query": "(max-width: 1199.98px)",
+      "kind": "max",
+      "px": 1199.98,
+      "tier": "drift",
+      "owners": [
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 4,
+      "stylesheets": [
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": ".modal-fullscreen-xl-down",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.desktop",
+        "query": "(max-width: 1279px)",
+        "label": "MNG Device desktop"
+      },
+      "note": "Bootstrap xl-down."
+    },
+    {
+      "query": "(min-width: 1200px)",
+      "kind": "min",
+      "px": 1200,
+      "tier": "drift",
+      "owners": [
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 268,
+      "stylesheets": [
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": null,
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.desktop",
+        "query": "(min-width: 1280px)",
+        "label": "MNG Device desktop"
+      },
+      "note": "Bootstrap xl container."
+    },
+    {
+      "query": "(max-width: 1279px)",
+      "kind": "max",
+      "px": 1279,
+      "tier": "official",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 127,
+      "stylesheets": [
+        "inline",
+        "theme"
+      ],
+      "sampleSelector": ".nav-wrapper-primary .nav-wrapper-second",
+      "official": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.xl",
+        "query": "(max-width: 1279px)",
+        "label": "WordPress grid xl"
+      }
+    },
+    {
+      "query": "(max-width: 1280px)",
+      "kind": "max",
+      "px": 1280,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 7,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": ".custom-dfm-section.dark-layout .feature",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.xl",
+        "query": "(max-width: 1279px)",
+        "label": "WordPress grid xl"
+      },
+      "note": "Off by one: (max-width: 1280px) overlaps xl; should be 1279 (.custom-dfm-section.dark-layout)."
+    },
+    {
+      "query": "(min-width: 1280px)",
+      "kind": "min",
+      "px": 1280,
+      "tier": "official",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)",
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 130,
+      "stylesheets": [
+        "inline",
+        "theme",
+        "mng-digisubs"
+      ],
+      "sampleSelector": ".feature-primary .feature-large",
+      "official": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.xl",
+        "query": "(min-width: 1280px)",
+        "label": "WordPress grid xl"
+      },
+      "note": "Also MNG Device desktop (1280)."
+    },
+    {
+      "query": "(max-width: 1299px)",
+      "kind": "max",
+      "px": 1299,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 31,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": "#content.obits-content .obit-bottom .lan",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.xl",
+        "query": "(max-width: 1279px)",
+        "label": "WordPress grid xl"
+      },
+      "note": "Obituaries listing (entry 31)."
+    },
+    {
+      "query": "(min-width: 1300px)",
+      "kind": "min",
+      "px": 1300,
+      "tier": "drift",
+      "owners": [
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 31,
+      "stylesheets": [
+        "theme"
+      ],
+      "sampleSelector": "#content.obits-content .obit-bottom .lan",
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.xl",
+        "query": "(min-width: 1280px)",
+        "label": "WordPress grid xl"
+      },
+      "note": "Obituaries \"stop scaling\" (entry 31)."
+    },
+    {
+      "query": "(max-width: 1399.98px)",
+      "kind": "max",
+      "px": 1399.98,
+      "tier": "drift",
+      "owners": [
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 4,
+      "stylesheets": [
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": ".modal-fullscreen-xxl-down",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.desktop",
+        "query": "(max-width: 1279px)",
+        "label": "MNG Device desktop"
+      },
+      "note": "Bootstrap xxl-down: no official breakpoint above 1280."
+    },
+    {
+      "query": "(min-width: 1400px)",
+      "kind": "min",
+      "px": 1400,
+      "tier": "drift",
+      "owners": [
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
+      ],
+      "sites": [
+        "canoncitydailyrecord.com",
+        "chicagotribune.com",
+        "denverpost.com",
+        "mcall.com",
+        "ocregister.com",
+        "orlandosentinel.com"
+      ],
+      "rules": 236,
+      "stylesheets": [
+        "3P:plugins.mngdigisubs.com"
+      ],
+      "sampleSelector": ".container-xxl, .container-xl, .containe",
+      "snapTo": {
+        "set": "device",
+        "token": "breakpoint.desktop",
+        "query": "(min-width: 1280px)",
+        "label": "MNG Device desktop"
+      },
+      "note": "Bootstrap xxl container: no official breakpoint above 1280."
+    }
+  ],
+  "websiteRepo": {
+    "copy": "~/Documents/digital-first-media-master-built COPY 20260508 (read-only, 2026-05-08)",
+    "found": [
+      {
+        "source": "assets/client/scss/common-base/layout/_grid-variables.scss (WordPress themes)",
+        "values": [
+          320,
+          640,
+          800,
+          1040,
+          1280
+        ],
+        "tier": "official",
+        "set": "wordpress-grid",
+        "note": "The WordPress grid ($columns-map, ai-breakpoint() mixin, written in em). The masthead switches at l (1040)."
+      },
+      {
+        "source": "plugins/mng-digital-subscriber-widgets/reader-dashboard-src (Reader Dashboard, Tailwind v4)",
+        "values": [
+          640,
+          768,
+          1024,
+          1280,
+          1536
+        ],
+        "tier": "drift",
+        "set": "device",
+        "note": "Tailwind defaults sm/md/lg/xl/2xl; the layout switches at 1024 and 1280. 640 and 1536 are not Device values. Production-vs-design entry 30 (questions for DigiScrum)."
+      },
+      {
+        "source": "Reader Dashboard built CSS",
+        "values": [
+          361,
+          413
+        ],
+        "tier": "drift",
+        "set": "device",
+        "note": "Source not traced yet; close to Device mobile (360). Entry 30."
+      },
+      {
+        "source": "assets/client/scss/layouts/scng/components/features/_obits.scss (Obituaries)",
+        "values": [
+          624,
+          625,
+          734,
+          735,
+          1000,
+          1299,
+          1300
+        ],
+        "tier": "drift",
+        "set": "wordpress-grid",
+        "note": "Obituaries off-grid values; also seen live. Entry 31 (CMS team)."
+      },
+      {
+        "source": "Spotlight template (WordPress themes)",
+        "values": [
+          624,
+          734,
+          735,
+          1299,
+          1300
+        ],
+        "tier": "drift",
+        "set": "wordpress-grid",
+        "note": "Same off-grid values as Obituaries (shared gallery and listing rules)."
+      }
+    ]
+  }
+}
