@@ -1,0 +1,55 @@
+{
+  "$description": "Torrance Daily Breeze (dailybreeze.com) site overrides on top of Bold Coastal. Applied inside #page. Generated; never edit by hand.",
+  "$extensions": {
+    "com.mng": {
+      "publication": "Torrance Daily Breeze",
+      "domain": "dailybreeze.com",
+      "exceptions": []
+    }
+  },
+  "color": {
+    "$type": "color",
+    "theme": {
+      "subsite-custom": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.5137,
+            0.5608
+          ],
+          "alpha": 1,
+          "hex": "#00838f"
+        },
+        "$description": "Site override (sub-site color set for this site only).",
+        "$extensions": {
+          "com.mng": {
+            "rgba": "rgba(0, 131, 143, 1)",
+            "figma": null,
+            "siteOverride": true
+          }
+        }
+      },
+      "subsite-text": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9686,
+            0.9686,
+            0.9686
+          ],
+          "alpha": 1,
+          "hex": "#f7f7f7"
+        },
+        "$description": "Site override (sub-site color set for this site only).",
+        "$extensions": {
+          "com.mng": {
+            "rgba": "rgba(247, 247, 247, 1)",
+            "figma": null,
+            "siteOverride": true
+          }
+        }
+      }
+    }
+  }
+}

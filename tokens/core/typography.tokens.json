@@ -1,0 +1,501 @@
+{
+  "$description": "MNG Web Design System core type primitives. Generated from Figma (Type Primitives and the Shared/Buttons sizes); never edit by hand.",
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "noto-sans": {
+        "$value": [
+          "Noto Sans",
+          "sans-serif"
+        ],
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/family/noto-sans"
+            }
+          }
+        }
+      },
+      "noto-serif": {
+        "$value": [
+          "Noto Serif",
+          "serif"
+        ],
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/family/noto-serif"
+            }
+          }
+        }
+      }
+    },
+    "size": {
+      "$type": "dimension",
+      "10": {
+        "$value": {
+          "value": 10,
+          "unit": "px"
+        },
+        "$description": "Ported from Reader Dashboard v2.0 (Font Size/1). Present in that file's design tokens; not yet confirmed live on the specific Reader Dashboard page checked 2026-09-10 — Reader Dashboard only, not used in editorial.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/10"
+            }
+          }
+        }
+      },
+      "11": {
+        "$value": {
+          "value": 11,
+          "unit": "px"
+        },
+        "$description": "Related-article timestamp under the Top Zone lead (.primary-related li time, Noto Sans 400, line height 20.625). Confirmed live on ocregister.com 2026-10-08 (Karl approved).",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/11"
+            }
+          }
+        }
+      },
+      "12": {
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        },
+        "$description": "Utility/chip label size. Matches MNG Design System font/size/060 (12px, \"utility chip label size, 12px measured live\"). Added 2026-09-09 during cross-file font-token audit.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/12"
+            }
+          }
+        }
+      },
+      "13": {
+        "$value": {
+          "value": 13,
+          "unit": "px"
+        },
+        "$description": "Small utility/caption size. Matches CRUX Style Library font/size/xs (13px) and MNG Design System font/size/075 (\"small button label size, ~13px measured live\"). Added 2026-09-09 during cross-file font-token audit.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/13"
+            }
+          }
+        }
+      },
+      "14": {
+        "$value": {
+          "value": 14,
+          "unit": "px"
+        },
+        "$description": "Also matches MNG Design System font/size/100 (\"medium/primary button label size, ~14px measured live, raw computed value 14.0625px\"), ported over 2026-09-10.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/14"
+            }
+          }
+        }
+      },
+      "15": {
+        "$value": {
+          "value": 15,
+          "unit": "px"
+        },
+        "$description": "Primary site nav-bar label size — confirmed live 2026-09-10 across all 6 repertoire sites (ocregister.com, denverpost.com, chicagotribune.com, orlandosentinel.com, canoncitydailyrecord.com, mcall.com), weight 600, Noto Sans, not theme-varying.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/15"
+            }
+          }
+        }
+      },
+      "15-2": {
+        "$value": {
+          "value": 15.2,
+          "unit": "px"
+        },
+        "$description": "Article breadcrumb type-of-work label and its \" • \" bullet (.breadcrumb-type-wrapper a, 0.95em, line height 15.2). Confirmed on ocregister.com 2026-10-08 (Karl approved). Production renders it in Helvetica; design is Noto Sans.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/15-2"
+            }
+          }
+        }
+      },
+      "16": {
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$description": "NOTE 2026-09-10: this flat 16px value is used by Reader Dashboard (body text, nav items, card subtitles/links) — editorial body copy uses font/size/16-5 (16.5px) instead, not this one.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/16"
+            }
+          }
+        }
+      },
+      "16-5": {
+        "$value": {
+          "value": 16.5,
+          "unit": "px"
+        },
+        "$description": "Universal body copy size — confirmed live 2026-08-27 across all 6 audited sites/themes (Chicago Tribune, Denver Post, OC Register, Orlando Sentinel, Greeley Tribune, mcall.com).",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/16-5"
+            }
+          }
+        }
+      },
+      "18": {
+        "$value": {
+          "value": 18,
+          "unit": "px"
+        },
+        "$description": "NOTE 2026-09-10: confirmed live on Reader Dashboard (canoncitydailyrecord.com/dashboard/) as a Section Title component size. No confirmed editorial use.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/18"
+            }
+          }
+        }
+      },
+      "19": {
+        "$value": {
+          "value": 19,
+          "unit": "px"
+        },
+        "$description": "Also matches MNG Design System font/size/200 (\"large/full-width CTA button label size, ~19.2px measured live\"), ported over 2026-09-10.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/19"
+            }
+          }
+        }
+      },
+      "20": {
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        },
+        "$description": "Visible homepage module-header size (e.g. the \"Around the Web\" widget header) — confirmed live 2026-09-10 across all 6 repertoire sites, weight 600, family follows font/theme/heading-family. NOT the same as the old eyebrow font/size/20 (Bold Coastal only, weight 400) — that flat primitive was retired in favor of the font/theme/eyebrow-* triplet; this is a distinct re-creation for a different role.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/20"
+            }
+          }
+        }
+      },
+      "21": {
+        "$value": {
+          "value": 21,
+          "unit": "px"
+        },
+        "$description": "Most Popular / Recommended rank number (CSS counter, Noto Sans 600, line height 32). Confirmed live on ocregister.com 2026-10-08 (Karl approved).",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/21"
+            }
+          }
+        }
+      },
+      "23": {
+        "$value": {
+          "value": 23,
+          "unit": "px"
+        },
+        "$description": "Article deck/subhead size — confirmed live across all sites/themes checked 2026-08-27.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/23"
+            }
+          }
+        }
+      },
+      "24": {
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        },
+        "$description": "NOTE 2026-09-10: confirmed live on Reader Dashboard (canoncitydailyrecord.com/dashboard/) as the profile display-name size. No solid confirmed editorial use (one weak \"Featured Obituaries\" sighting only).",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/24"
+            }
+          }
+        }
+      },
+      "25": {
+        "$value": {
+          "value": 25,
+          "unit": "px"
+        },
+        "$description": "Top Zone lead headline below 640px (.feature-primary .feature-large header .entry-title: 1.5625em, line height 1.16 = 29, letter spacing -0.03em). Confirmed in ocregister.com CSS 2026-10-08 (Karl approved).",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/25"
+            }
+          }
+        }
+      },
+      "26": {
+        "$value": {
+          "value": 26,
+          "unit": "px"
+        },
+        "$description": "Second-tier homepage headline card size — confirmed live across all sites/themes checked 2026-08-27.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/26"
+            }
+          }
+        }
+      },
+      "29": {
+        "$value": {
+          "value": 29,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/29"
+            }
+          }
+        }
+      },
+      "31": {
+        "$value": {
+          "value": 31,
+          "unit": "px"
+        },
+        "$description": "Article headline below 640px (.header-title-area h1: 1.9375em, line height 1.1 = 34.1, letter spacing -0.03em). 640-1039px: 32 / 36.8; 1040px+: 36 / 41.4. Confirmed in ocregister.com CSS 2026-10-08 (Karl approved).",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/31"
+            }
+          }
+        }
+      },
+      "36": {
+        "$value": {
+          "value": 36,
+          "unit": "px"
+        },
+        "$description": "Article H1 / main headline size — confirmed live across all sites/themes checked 2026-08-27 (universal platform constant).",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/36"
+            }
+          }
+        }
+      },
+      "40": {
+        "$value": {
+          "value": 40,
+          "unit": "px"
+        },
+        "$description": "Article category/kicker label size — confirmed live 2026-08-27.\n\nCORRECTED 2026-09-10: this description was wrong. Confirmed live today on ocregister.com/sports/ AND chicagotribune.com/sports/ — 40px/700/Noto Serif is a SECTION-FRONT PAGE H1 (className \"section-header\", e.g. the \"Sports\" heading atop a section landing page), not a kicker/category label. The real category/kicker tag (e.g. \"Sports\" / \"NFL\" breadcrumb above an article headline) measured 16px/700/uppercase on the same site — a completely different, much smaller element. This matches CRUX Style Library's sectionH1/mastheadSectionH1 (40/700) semantic, which had it right all along.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/size/40"
+            }
+          }
+        }
+      }
+    },
+    "weight": {
+      "$type": "fontWeight",
+      "regular": {
+        "$value": 400,
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/weight/regular"
+            },
+            "figmaStyle": "Regular"
+          }
+        }
+      },
+      "bold": {
+        "$value": 700,
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/weight/bold"
+            },
+            "figmaStyle": "Bold"
+          }
+        }
+      },
+      "medium": {
+        "$value": 500,
+        "$description": "Confirmed live 2026-08-27 on article deck/subhead text — did not exist as a token before this audit.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/weight/medium"
+            },
+            "figmaStyle": "Medium"
+          }
+        }
+      },
+      "semibold": {
+        "$value": 600,
+        "$description": "Confirmed live 2026-08-27 on multiple headline tiers and module headers. Matches MNG Design System's existing font/weight/semibold (600).",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Type Primitives",
+              "variable": "font/weight/semibold"
+            },
+            "figmaStyle": "SemiBold"
+          }
+        }
+      }
+    }
+  },
+  "shared": {
+    "buttons": {
+      "utility": {
+        "size": {
+          "$type": "dimension",
+          "$value": "{font.size.12}",
+          "$description": "Utility/chip label size. Ported from MNG Design System font/size/060 (12px, measured live) 2026-09-10.",
+          "$extensions": {
+            "com.mng": {
+              "figma": {
+                "file": "MNG Web Design System",
+                "collection": "Typeography Tokens",
+                "variable": "Shared/Buttons/Utility/Size"
+              }
+            }
+          }
+        }
+      },
+      "small": {
+        "size": {
+          "$type": "dimension",
+          "$value": "{font.size.13}",
+          "$description": "Small button label size. Ported from MNG Design System font/size/075 (13px, measured live) 2026-09-10.",
+          "$extensions": {
+            "com.mng": {
+              "figma": {
+                "file": "MNG Web Design System",
+                "collection": "Typeography Tokens",
+                "variable": "Shared/Buttons/Small/Size"
+              }
+            }
+          }
+        }
+      },
+      "medium": {
+        "size": {
+          "$type": "dimension",
+          "$value": "{font.size.14}",
+          "$description": "Medium/primary button label size. Ported from MNG Design System font/size/100 (~14.0625px measured live) 2026-09-10.",
+          "$extensions": {
+            "com.mng": {
+              "figma": {
+                "file": "MNG Web Design System",
+                "collection": "Typeography Tokens",
+                "variable": "Shared/Buttons/Medium/Size"
+              }
+            }
+          }
+        }
+      },
+      "large": {
+        "size": {
+          "$type": "dimension",
+          "$value": "{font.size.19}",
+          "$description": "Large/full-width CTA button label size. Ported from MNG Design System font/size/200 (~19.2px measured live) 2026-09-10.",
+          "$extensions": {
+            "com.mng": {
+              "figma": {
+                "file": "MNG Web Design System",
+                "collection": "Typeography Tokens",
+                "variable": "Shared/Buttons/Large/Size"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

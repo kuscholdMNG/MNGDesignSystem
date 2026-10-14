@@ -1,0 +1,153 @@
+{
+  "$description": "MNG Web Design System spacing (4/8 grid) and corner radius. Generated from the Figma \"Spacing & Radius\" collection; never edit by hand.",
+  "spacing": {
+    "$type": "dimension",
+    "050": {
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$description": "4px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+      "$extensions": {
+        "com.mng": {
+          "figma": {
+            "file": "MNG Web Design System",
+            "collection": "Spacing & Radius",
+            "variable": "spacing/050"
+          }
+        }
+      }
+    },
+    "100": {
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$description": "8px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+      "$extensions": {
+        "com.mng": {
+          "figma": {
+            "file": "MNG Web Design System",
+            "collection": "Spacing & Radius",
+            "variable": "spacing/100"
+          }
+        }
+      }
+    },
+    "150": {
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$description": "12px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+      "$extensions": {
+        "com.mng": {
+          "figma": {
+            "file": "MNG Web Design System",
+            "collection": "Spacing & Radius",
+            "variable": "spacing/150"
+          }
+        }
+      }
+    },
+    "200": {
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$description": "16px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+      "$extensions": {
+        "com.mng": {
+          "figma": {
+            "file": "MNG Web Design System",
+            "collection": "Spacing & Radius",
+            "variable": "spacing/200"
+          }
+        }
+      }
+    },
+    "250": {
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$description": "20px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+      "$extensions": {
+        "com.mng": {
+          "figma": {
+            "file": "MNG Web Design System",
+            "collection": "Spacing & Radius",
+            "variable": "spacing/250"
+          }
+        }
+      }
+    },
+    "300": {
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$description": "24px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+      "$extensions": {
+        "com.mng": {
+          "figma": {
+            "file": "MNG Web Design System",
+            "collection": "Spacing & Radius",
+            "variable": "spacing/300"
+          }
+        }
+      }
+    }
+  },
+  "radius": {
+    "$type": "dimension",
+    "sm": {
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$description": "4px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+      "$extensions": {
+        "com.mng": {
+          "figma": {
+            "file": "MNG Web Design System",
+            "collection": "Spacing & Radius",
+            "variable": "radius/sm"
+          }
+        }
+      }
+    },
+    "utility": {
+      "$value": {
+        "value": 5,
+        "unit": "px"
+      },
+      "$description": "5px. Containers only: Reader Dashboard InLineMessage, modals, form fields, check boxes, status badge, masthead account dropdown. Not for buttons (buttons use radius/sm, 4px).",
+      "$extensions": {
+        "com.mng": {
+          "figma": {
+            "file": "MNG Web Design System",
+            "collection": "Spacing & Radius",
+            "variable": "radius/utility"
+          }
+        }
+      }
+    },
+    "lg": {
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$description": "8px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+      "$extensions": {
+        "com.mng": {
+          "figma": {
+            "file": "MNG Web Design System",
+            "collection": "Spacing & Radius",
+            "variable": "radius/lg"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$description": "Long Beach Press-Telegram (presstelegram.com) site overrides on top of Measured Vibrant. Applied inside #page. Generated; never edit by hand.",
+  "$extensions": {
+    "com.mng": {
+      "publication": "Long Beach Press-Telegram",
+      "domain": "presstelegram.com",
+      "exceptions": []
+    }
+  },
+  "color": {
+    "$type": "color",
+    "theme": {
+      "subsite-custom": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.251,
+            0.3176,
+            0.7098
+          ],
+          "alpha": 1,
+          "hex": "#4051b5"
+        },
+        "$description": "Site override (sub-site color set for this site only).",
+        "$extensions": {
+          "com.mng": {
+            "rgba": "rgba(64, 81, 181, 1)",
+            "figma": null,
+            "siteOverride": true
+          }
+        }
+      },
+      "subsite-text": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9765,
+            0.9765,
+            0.9765
+          ],
+          "alpha": 1,
+          "hex": "#f9f9f9"
+        },
+        "$description": "Site override (sub-site color set for this site only).",
+        "$extensions": {
+          "com.mng": {
+            "rgba": "rgba(249, 249, 249, 1)",
+            "figma": null,
+            "siteOverride": true
+          }
+        }
+      }
+    }
+  }
+}
