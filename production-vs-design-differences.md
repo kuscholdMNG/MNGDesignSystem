@@ -1227,14 +1227,17 @@ The same two stacks apply on every theme; each theme only chooses which one its 
 
 **Found:** 2026-10-14, live CSS scan of the homepage, an article and the obituaries page on all 6 review sites (`tokens/breakpoint-inventory.json`, built by `scripts/breakpoint-inventory/`). Every value below was found on all 6 sites (the three theme stylesheets share their media queries). **Teams:** CMS, DigiScrum. **Updated 2026-10-14** with Karl's decisions.
 
-**Design:** two official sets (EXPORT-STANDARD.md section 6). WordPress code follows the **WordPress grid** (min-widths 320 / 640 / 800 / 1040 / 1280; max-widths 639 / 799 / 1039 / 1279). Everything else, including the digisubs plugin and app (Karl, 2026-10-14), follows the **MNG Device breakpoints** (min-widths 340 / 360 / 768 / 1024 / 1280; max-widths 339 / 359 / 767 / 1023 / 1279). Of the 56 values kept in the inventory, 13 are official, 30 are drift (below) and 13 are component breakpoints. Left out: third-party code (paywall, cookie consent, ad vendors), the WordPress admin bar, and the digisubs modal, spoof banner, push prompt, share box and employee debugger (not documented, Karl), and the special investigative header template (see below).
+**Design:** two official sets (EXPORT-STANDARD.md section 6). WordPress code follows the **WordPress grid** (min-widths 320 / 640 / 800 / 1040 / 1280; max-widths 639 / 799 / 1039 / 1279). Everything else, including the digisubs plugin and app (Karl, 2026-10-14), follows the **MNG Device breakpoints** (min-widths 340 / 360 / 768 / 1024 / 1280; max-widths 339 / 359 / 767 / 1023 / 1279). Of the 56 values kept in the inventory, 13 are official, 34 are drift (below) and 9 are component breakpoints. Left out: third-party code (paywall, cookie consent, ad vendors), the WordPress admin bar, and the digisubs modal, spoof banner, push prompt, share box and employee debugger (not documented, Karl), and the special investigative header template (see below).
 
-**Production (drift) and fix:** move each rule to the official breakpoint in the right-hand column. "Off by one" rules (`max-width: 340 / 360 / 800 / 1024 / 1040 / 1280`) overlap the official boundary by 1px and should be one less. The Obituaries values (624 / 625, 1299 / 1300) and the photo gallery (734 / 735) are also in entry 31.
+**Production (drift) and fix:** move each rule to the official breakpoint in the right-hand column. The Sports Radar template and the promotion widget follow the WordPress grid (Karl, 2026-10-14). "Off by one" rules (`max-width: 340 / 360 / 800 / 1024 / 1040 / 1280`) overlap the official boundary by 1px and should be one less. The Obituaries values (624 / 625, 1299 / 1300) and the photo gallery (734 / 735) are also in entry 31.
 
 **WordPress themes** (team: CMS; snap to the WordPress grid):
 
 | Production | Where | Snap to |
 |---|---|---|
+| `(max-width: 405px)` | Sports Radar page template (#content.sports-radar-content; local template styling embedded Sportradar data widgets). | `(max-width: 639px)` (WordPress grid s) |
+| `(max-width: 500px)` | Sports Radar page template. | `(max-width: 639px)` (WordPress grid s) |
+| `(max-width: 535px)` | Sports Radar page template. | `(max-width: 639px)` (WordPress grid s) |
 | `(max-width: 624px)` | Obituaries 1-column layout (entry 31). | `(max-width: 639px)` (WordPress grid s) |
 | `(min-width: 625px)` | Obituaries 2-column start (entry 31). | `(min-width: 640px)` (WordPress grid s) |
 | `(max-width: 700px)` | Promotion widget (.promotion-widget, homepage promo tiles, e.g. Chicago Tribune Fun and Games / Tribune Store). | `(max-width: 639px)` (WordPress grid s) |
@@ -1243,6 +1246,7 @@ The same two stacks apply on every theme; each theme only chooses which one its 
 | `(max-width: 800px)` | Off by one: (max-width: 800px) overlaps m; should be 799 (#featured-flex-landing-three). | `(max-width: 799px)` (WordPress grid m) |
 | `(max-width: 900px)` | Promotion widget title. | `(max-width: 799px)` (WordPress grid m) |
 | `(max-width: 930px)` | Footer cookie notice button (Karl: fix to 1039). | `(max-width: 1039px)` (WordPress grid l) |
+| `(max-width: 960px)` | Sports Radar page template. | `(max-width: 1039px)` (WordPress grid l) |
 | `(max-width: 1280px)` | Off by one: (max-width: 1280px) overlaps xl; should be 1279 (.custom-dfm-section.dark-layout). | `(max-width: 1279px)` (WordPress grid xl) |
 | `(max-width: 1299px)` | Obituaries listing (entry 31). | `(max-width: 1279px)` (WordPress grid xl) |
 | `(min-width: 1300px)` | Obituaries "stop scaling" (entry 31). | `(min-width: 1280px)` (WordPress grid xl) |
@@ -1281,7 +1285,7 @@ The same two stacks apply on every theme; each theme only chooses which one its 
 | `(max-width: 1399.98px)` | Bootstrap xxl-down: no official breakpoint above 1280. | `(max-width: 1279px)` (MNG Device desktop) |
 | `(min-width: 1400px)` | Bootstrap xxl container: no official breakpoint above 1280. | `(min-width: 1280px)` (MNG Device desktop) |
 
-**Not drift: component breakpoints (keep their own values, Karl):** the Masthead nav icons on very small phones (`max-width: 335px`, `350px`), the Sports Radar page template (`max-width: 405 / 500 / 535 / 960px`; a local WordPress template that styles embedded Sportradar data widgets) and the ad rules: top leaderboard (`min-width: 300 / 750 / 1000px`), header banners, the top leaderboard ad container under the masthead (`max-width: 750px`), and the mobile adhesion ad (`max-width: 480 / 1000 / 1025px`). They go in the Masthead, Sports Radar and Ad Blocks component tokens (WordPress layer).
+**Not drift: component breakpoints (keep their own values, Karl):** the Masthead nav icons on very small phones (`max-width: 335px`, `350px`) and the ad rules: top leaderboard (`min-width: 300 / 750 / 1000px`), header banners, the top leaderboard ad container under the masthead (`max-width: 750px`), and the mobile adhesion ad (`max-width: 480 / 1000 / 1025px`). They go in the Masthead and Ad Blocks component tokens (WordPress layer).
 
 **Left out for now:** the special investigative header template (`max-width: 730 / 1150px`, plus 500 / 600 / 750 / 900 / 1024 it shares with other rules). It wasn't found on a live page of the 6 sites. **To do:** find it in production when more article pages are added to WordPress Elements, then classify its breakpoints (Karl, 2026-10-14).
 

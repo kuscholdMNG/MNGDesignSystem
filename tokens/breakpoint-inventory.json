@@ -88,9 +88,9 @@
     }
   },
   "summary": {
-    "component": 13,
+    "component": 9,
     "official": 13,
-    "drift": 30
+    "drift": 34
   },
   "excluded": {
     "thirdParty": 18,
@@ -328,7 +328,7 @@
       "query": "(max-width: 405px)",
       "kind": "max",
       "px": 405,
-      "tier": "component",
+      "tier": "drift",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -345,7 +345,13 @@
         "theme"
       ],
       "sampleSelector": "#content.sports-radar-content #sports-ra",
-      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. WordPress component breakpoint, keeps its value (Karl, 2026-10-14)."
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.s",
+        "query": "(max-width: 639px)",
+        "label": "WordPress grid s"
+      },
+      "note": "Sports Radar page template (#content.sports-radar-content; local template styling embedded Sportradar data widgets): follows the WordPress grid (Karl, 2026-10-14)."
     },
     {
       "query": "(max-width: 450px)",
@@ -404,7 +410,7 @@
       "query": "(max-width: 500px)",
       "kind": "max",
       "px": 500,
-      "tier": "component",
+      "tier": "drift",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -421,13 +427,19 @@
         "theme"
       ],
       "sampleSelector": "#content.sports-radar-content .tournamen",
-      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. WordPress component breakpoint, keeps its value (Karl, 2026-10-14)."
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.s",
+        "query": "(max-width: 639px)",
+        "label": "WordPress grid s"
+      },
+      "note": "Sports Radar page template (#content.sports-radar-content; local template styling embedded Sportradar data widgets): follows the WordPress grid (Karl, 2026-10-14)."
     },
     {
       "query": "(max-width: 535px)",
       "kind": "max",
       "px": 535,
-      "tier": "component",
+      "tier": "drift",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -444,7 +456,13 @@
         "theme"
       ],
       "sampleSelector": "#content.sports-radar-content #sports-ra",
-      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. WordPress component breakpoint, keeps its value (Karl, 2026-10-14)."
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.s",
+        "query": "(max-width: 639px)",
+        "label": "WordPress grid s"
+      },
+      "note": "Sports Radar page template (#content.sports-radar-content; local template styling embedded Sportradar data widgets): follows the WordPress grid (Karl, 2026-10-14)."
     },
     {
       "query": "(max-width: 550px)",
@@ -1113,7 +1131,7 @@
       "query": "(max-width: 960px)",
       "kind": "max",
       "px": 960,
-      "tier": "component",
+      "tier": "drift",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -1130,7 +1148,13 @@
         "theme"
       ],
       "sampleSelector": "#content.sports-radar-content #sports-ra",
-      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. WordPress component breakpoint, keeps its value (Karl, 2026-10-14)."
+      "snapTo": {
+        "set": "grid",
+        "token": "breakpoint.wordpress-grid.l",
+        "query": "(max-width: 1039px)",
+        "label": "WordPress grid l"
+      },
+      "note": "Sports Radar page template (#content.sports-radar-content; local template styling embedded Sportradar data widgets): follows the WordPress grid (Karl, 2026-10-14)."
     },
     {
       "query": "(max-width: 991.98px)",
