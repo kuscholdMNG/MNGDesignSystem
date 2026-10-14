@@ -68,11 +68,11 @@ From `action-button.tokens.json`. References point at system tokens (`tokens/cor
 | `action-button.base.button.border-radius` | `{radius.sm}` |
 | `action-button.base.button.border-style` | solid |
 | `action-button.base.button.border-width` | 1px |
-| `action-button.base.button.padding-bottom` | 8px |
-| `action-button.base.button.padding-left` | 8px |
-| `action-button.base.button.padding-right` | 8px |
-| `action-button.base.button.padding-top` | 8px |
-| `action-button.base.button.content.gap` | 4px |
+| `action-button.base.button.padding-bottom` | `{spacing.100}` |
+| `action-button.base.button.padding-left` | `{spacing.100}` |
+| `action-button.base.button.padding-right` | `{spacing.100}` |
+| `action-button.base.button.padding-top` | `{spacing.100}` |
+| `action-button.base.button.content.gap` | `{spacing.050}` |
 | `action-button.base.button.content.icon-left.height` | 16px |
 | `action-button.base.button.content.icon-left.icon-color` | `{color.gray.min}` |
 | `action-button.base.button.content.icon-left.width` | 16px |
@@ -118,7 +118,6 @@ No production selector recorded yet. Production gaps go in `production-vs-design
 2. **Single-purpose reference.** This set only documents "Copy Link". The older `Action Button` library set bundles Resend Invitation, Link Copied, Share (Android/Apple/Unknown), Preview Most Recent, Save/Saved, Gift Article, Remove, Cancel and Delete as hidden layers, none exposed as variants. To render another action, swap the icon instance and the label text.
 3. **Hidden trailing icon.** Every variant carries a hidden `Icon Right` (content_copy) after the label. It is never shown; ignore it when rendering.
 4. **Margin not specified** (open spec gap, per the Figma Specifications column).
-5. **Values not bound to a token** (literal in the component tokens): `base` button padding-bottom = 8px; `base` button padding-left = 8px; `base` button padding-right = 8px; `base` button padding-top = 8px; `base` button.content gap = 4px.
 
 ## Files
 

@@ -87,13 +87,12 @@
       "root": {
         "border-radius": {
           "$type": "dimension",
-          "$value": {
-            "value": 4,
-            "unit": "px"
-          },
+          "$value": "{radius.sm}",
           "$extensions": {
             "com.mng": {
-              "unbound": true
+              "figma": {
+                "variable": "Spacing & Radius/radius/sm"
+              }
             }
           }
         },

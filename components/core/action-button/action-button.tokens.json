@@ -52,62 +52,57 @@
         },
         "padding-bottom": {
           "$type": "dimension",
-          "$value": {
-            "value": 8,
-            "unit": "px"
-          },
+          "$value": "{spacing.100}",
           "$extensions": {
             "com.mng": {
-              "unbound": true
+              "figma": {
+                "variable": "Spacing & Radius/spacing/100"
+              }
             }
           }
         },
         "padding-left": {
           "$type": "dimension",
-          "$value": {
-            "value": 8,
-            "unit": "px"
-          },
+          "$value": "{spacing.100}",
           "$extensions": {
             "com.mng": {
-              "unbound": true
+              "figma": {
+                "variable": "Spacing & Radius/spacing/100"
+              }
             }
           }
         },
         "padding-right": {
           "$type": "dimension",
-          "$value": {
-            "value": 8,
-            "unit": "px"
-          },
+          "$value": "{spacing.100}",
           "$extensions": {
             "com.mng": {
-              "unbound": true
+              "figma": {
+                "variable": "Spacing & Radius/spacing/100"
+              }
             }
           }
         },
         "padding-top": {
           "$type": "dimension",
-          "$value": {
-            "value": 8,
-            "unit": "px"
-          },
+          "$value": "{spacing.100}",
           "$extensions": {
             "com.mng": {
-              "unbound": true
+              "figma": {
+                "variable": "Spacing & Radius/spacing/100"
+              }
             }
           }
         },
         "content": {
           "gap": {
             "$type": "dimension",
-            "$value": {
-              "value": 4,
-              "unit": "px"
-            },
+            "$value": "{spacing.050}",
             "$extensions": {
               "com.mng": {
-                "unbound": true
+                "figma": {
+                  "variable": "Spacing & Radius/spacing/050"
+                }
               }
             }
           },

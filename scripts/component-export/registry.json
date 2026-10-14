@@ -51,8 +51,7 @@
       ],
       "breakpoints": "| Breakpoint value | Viewport (MNG templates) | Behavior |\n|---|---|---|\n| Desktop | ≥640px (768, 1024, 1100, 1280 templates) | The `Button` hugs its label and icons |\n| Mobile | ≤639px (340 XS-Fold, 360 SM-Mobile templates) | The `Button` fills the container width, inside the 8px side margin |\n\n*The viewport mapping is the export convention, not a Figma property; Figma only says Desktop / Mobile.*",
       "knownIssues": [],
-      "production": null,
-      "legacyExport": "figma-exports/mng-buttons-export/components/01-button-primary/"
+      "production": null
     },
     {
       "slug": "button-secondary",
@@ -73,8 +72,7 @@
       ],
       "breakpoints": "| Breakpoint value | Viewport (MNG templates) | Behavior |\n|---|---|---|\n| Desktop | ≥640px (768, 1024, 1100, 1280 templates) | The `Button` hugs its label and icons |\n| Mobile | ≤639px (340 XS-Fold, 360 SM-Mobile templates) | The `Button` fills the container width, inside the 8px side margin |\n\n*The viewport mapping is the export convention, not a Figma property; Figma only says Desktop / Mobile.*",
       "knownIssues": [],
-      "production": null,
-      "legacyExport": "figma-exports/mng-buttons-export/components/02-button-secondary/"
+      "production": null
     },
     {
       "slug": "button-tertiary",
@@ -95,8 +93,7 @@
       ],
       "breakpoints": "| Breakpoint value | Viewport (MNG templates) | Behavior |\n|---|---|---|\n| Desktop | ≥640px (768, 1024, 1100, 1280 templates) | The `Button` hugs its label and icons |\n| Mobile | ≤639px (340 XS-Fold, 360 SM-Mobile templates) | The `Button` fills the container width, inside the 8px side margin |\n\n*The viewport mapping is the export convention, not a Figma property; Figma only says Desktop / Mobile.*",
       "knownIssues": [],
-      "production": null,
-      "legacyExport": "figma-exports/mng-buttons-export/components/03-button-tertiary/"
+      "production": null
     },
     {
       "slug": "action-button",
@@ -120,8 +117,7 @@
         "**Hidden trailing icon.** Every variant carries a hidden `Icon Right` (content_copy) after the label. It is never shown; ignore it when rendering.",
         "**Margin not specified** (open spec gap, per the Figma Specifications column)."
       ],
-      "production": null,
-      "legacyExport": "figma-exports/mng-buttons-export/components/04-action-button/"
+      "production": null
     },
     {
       "slug": "button-linkstyle",
@@ -142,8 +138,7 @@
       "knownIssues": [
         "**Margin not specified** (open spec gap, per the Figma Specifications column)."
       ],
-      "production": null,
-      "legacyExport": "figma-exports/mng-buttons-export/components/05-button-linkstyle/"
+      "production": null
     },
     {
       "slug": "pop-up-modal-close",
@@ -164,8 +159,7 @@
       "knownIssues": [
         "**Margin not specified** (open spec gap, per the Figma Specifications column)."
       ],
-      "production": null,
-      "legacyExport": "figma-exports/mng-buttons-export/components/06-pop-up-modal-close/"
+      "production": null
     },
     {
       "slug": "in-line-close",
@@ -187,8 +181,7 @@
       "knownIssues": [
         "**Margin not specified** (open spec gap, per the Figma Specifications column)."
       ],
-      "production": null,
-      "legacyExport": "figma-exports/mng-buttons-export/components/07-in-line-close/"
+      "production": null
     },
     {
       "slug": "non-button-hyperlink",
@@ -207,8 +200,7 @@
       ],
       "breakpoints": null,
       "knownIssues": [],
-      "production": null,
-      "legacyExport": "figma-exports/mng-buttons-export/components/08-non-button-hyperlink/"
+      "production": null
     }
   ]
 }

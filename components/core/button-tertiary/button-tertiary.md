@@ -106,13 +106,13 @@ From `button-tertiary.tokens.json`. References point at system tokens (`tokens/c
 | `button-tertiary.base.button.padding-left` | `{spacing.200}` |
 | `button-tertiary.base.button.padding-right` | `{spacing.200}` |
 | `button-tertiary.base.button.padding-top` | `{spacing.100}` |
-| `button-tertiary.base.button.content.gap` | 16px |
+| `button-tertiary.base.button.content.gap` | `{spacing.200}` |
 | `button-tertiary.base.button.content.label.color` | `{color.gray.min}` |
 | `button-tertiary.base.button.content.label.font-family` | `{font.family.noto-sans}` |
 | `button-tertiary.base.button.content.label.font-size` | `{font.size.16}` |
 | `button-tertiary.base.button.content.label.font-weight` | `{font.weight.bold}` |
-| `button-tertiary.base.root.padding-left` | 8px |
-| `button-tertiary.base.root.padding-right` | 8px |
+| `button-tertiary.base.root.padding-left` | `{spacing.100}` |
+| `button-tertiary.base.root.padding-right` | `{spacing.100}` |
 | `button-tertiary.base.root.width` | 324px |
 | `button-tertiary.icon-left.button.content.icon-left.height` | 16px |
 | `button-tertiary.icon-left.button.content.icon-left.icon-color` | `{color.gray.min}` |
@@ -158,8 +158,7 @@ No production selector recorded yet. Production gaps go in `production-vs-design
 
 ## Known issues
 
-1. **Values not bound to a token** (literal in the component tokens): `base` button.content gap = 16px; `base` root padding-left = 8px; `base` root padding-right = 8px.
-2. **19 of 24 variants have 0 instances** in the file (see the Variants table).
+1. **19 of 24 variants have 0 instances** in the file (see the Variants table).
 
 ## Files
 

@@ -65,20 +65,18 @@ From `button-linkstyle.tokens.json`. References point at system tokens (`tokens/
 | `button-linkstyle.state-infocus.focus-ring.border-radius` | `{radius.sm}` |
 | `button-linkstyle.state-infocus.focus-ring.border-style` | solid |
 | `button-linkstyle.state-infocus.focus-ring.border-width` | 2px |
-| `button-linkstyle.state-infocus.root.border-radius` | `{radius.sm}` |
 | `button-linkstyle.base.label.color` | `{color.theme.primary}` |
 | `button-linkstyle.base.label.font-family` | `{font.family.noto-sans}` |
 | `button-linkstyle.base.label.font-size` | `{font.size.16}` |
 | `button-linkstyle.base.label.font-weight` | `{font.weight.regular}` |
 | `button-linkstyle.base.root.border-color` | `{color.theme.primary}` |
+| `button-linkstyle.base.root.border-radius` | `{radius.sm}` |
 | `button-linkstyle.base.root.border-style` | solid |
 | `button-linkstyle.base.root.border-width` | 1px |
-| `button-linkstyle.base.root.padding-bottom` | 8px |
-| `button-linkstyle.base.root.padding-left` | 8px |
-| `button-linkstyle.base.root.padding-right` | 8px |
-| `button-linkstyle.base.root.padding-top` | 8px |
-| `button-linkstyle.state-hover.root.border-radius` | 4px |
-| `button-linkstyle.state-pressed.root.border-radius` | 4px |
+| `button-linkstyle.base.root.padding-bottom` | `{spacing.100}` |
+| `button-linkstyle.base.root.padding-left` | `{spacing.100}` |
+| `button-linkstyle.base.root.padding-right` | `{spacing.100}` |
+| `button-linkstyle.base.root.padding-top` | `{spacing.100}` |
 
 ## Behavior and breakpoints
 
@@ -110,8 +108,7 @@ No production selector recorded yet. Production gaps go in `production-vs-design
 ## Known issues
 
 1. **Margin not specified** (open spec gap, per the Figma Specifications column).
-2. **Values not bound to a token** (literal in the component tokens): `state-hover` root border-radius = 4px; `state-pressed` root border-radius = 4px; `base` root padding-bottom = 8px; `base` root padding-left = 8px; `base` root padding-right = 8px; `base` root padding-top = 8px.
-3. **4 of 8 variants have 0 instances** in the file: `Stacked / Default`, `Stacked / Hover`, `Stacked / Pressed`, `Stacked / InFocus`.
+2. **4 of 8 variants have 0 instances** in the file: `Stacked / Default`, `Stacked / Hover`, `Stacked / Pressed`, `Stacked / InFocus`.
 
 ## Files
 

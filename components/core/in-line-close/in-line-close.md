@@ -65,19 +65,16 @@ From `in-line-close.tokens.json`. References point at system tokens (`tokens/cor
 | `in-line-close.base.button.width` | 40px |
 | `in-line-close.base.button.box.background` | `{color.gray.max}` |
 | `in-line-close.base.button.box.border-color` | `{color.gray.min}` |
+| `in-line-close.base.button.box.border-radius` | `{radius.sm}` |
 | `in-line-close.base.button.box.border-style` | solid |
 | `in-line-close.base.button.box.border-width` | 1px |
-| `in-line-close.base.button.box.padding-bottom` | 8px |
-| `in-line-close.base.button.box.padding-left` | 8px |
-| `in-line-close.base.button.box.padding-right` | 8px |
-| `in-line-close.base.button.box.padding-top` | 8px |
+| `in-line-close.base.button.box.padding-bottom` | `{spacing.100}` |
+| `in-line-close.base.button.box.padding-left` | `{spacing.100}` |
+| `in-line-close.base.button.box.padding-right` | `{spacing.100}` |
+| `in-line-close.base.button.box.padding-top` | `{spacing.100}` |
 | `in-line-close.base.button.box.icon.height` | 12px |
 | `in-line-close.base.button.box.icon.icon-color` | `{color.gray.min}` |
 | `in-line-close.base.button.box.icon.width` | 12px |
-| `in-line-close.state-default.button.box.border-radius` | `{radius.sm}` |
-| `in-line-close.state-hover.button.box.border-radius` | 4px |
-| `in-line-close.state-pressed.button.box.border-radius` | 4px |
-| `in-line-close.state-infocus.button.box.border-radius` | `{radius.sm}` |
 | `in-line-close.state-infocus.focus-ring.border-color` | `{color.gray.black}` |
 | `in-line-close.state-infocus.focus-ring.border-radius` | `{radius.sm}` |
 | `in-line-close.state-infocus.focus-ring.border-style` | solid |
@@ -116,7 +113,7 @@ No production selector recorded yet. Production gaps go in `production-vs-design
 ## Known issues
 
 1. **Margin not specified** (open spec gap, per the Figma Specifications column).
-2. **Values not bound to a token** (literal in the component tokens): `base` button border-radius = 40px; `state-hover` button.box border-radius = 4px; `state-pressed` button.box border-radius = 4px; `base` button.box padding-bottom = 8px; `base` button.box padding-left = 8px; `base` button.box padding-right = 8px; `base` button.box padding-top = 8px.
+2. **Values not bound to a token** (literal in the component tokens): `base` button border-radius = 40px.
 
 ## Files
 

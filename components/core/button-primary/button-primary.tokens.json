@@ -199,13 +199,12 @@
         "content": {
           "gap": {
             "$type": "dimension",
-            "$value": {
-              "value": 16,
-              "unit": "px"
-            },
+            "$value": "{spacing.200}",
             "$extensions": {
               "com.mng": {
-                "unbound": true
+                "figma": {
+                  "variable": "Spacing & Radius/spacing/200"
+                }
               }
             }
           },
@@ -260,25 +259,23 @@
       "root": {
         "padding-left": {
           "$type": "dimension",
-          "$value": {
-            "value": 8,
-            "unit": "px"
-          },
+          "$value": "{spacing.100}",
           "$extensions": {
             "com.mng": {
-              "unbound": true
+              "figma": {
+                "variable": "Spacing & Radius/spacing/100"
+              }
             }
           }
         },
         "padding-right": {
           "$type": "dimension",
-          "$value": {
-            "value": 8,
-            "unit": "px"
-          },
+          "$value": "{spacing.100}",
           "$extensions": {
             "com.mng": {
-              "unbound": true
+              "figma": {
+                "variable": "Spacing & Radius/spacing/100"
+              }
             }
           }
         }

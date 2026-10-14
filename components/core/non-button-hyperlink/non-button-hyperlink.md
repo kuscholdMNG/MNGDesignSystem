@@ -62,7 +62,7 @@ From `non-button-hyperlink.tokens.json`. References point at system tokens (`tok
 | `non-button-hyperlink.base.label.font-weight` | `{font.weight.regular}` |
 | `non-button-hyperlink.base.root.border-bottom-width` | 1px |
 | `non-button-hyperlink.base.root.border-color` | `{color.theme.primary}` |
-| `non-button-hyperlink.state-infocus.root.border-radius` | 4px |
+| `non-button-hyperlink.state-infocus.root.border-radius` | `{radius.sm}` |
 | `non-button-hyperlink.state-infocus.root.border-style` | solid |
 | `non-button-hyperlink.state-infocus.root.border-width` | 2px |
 | `non-button-hyperlink.state-infocus.root.padding-bottom` | 2px |
@@ -109,7 +109,7 @@ No production selector recorded yet. Production gaps go in `production-vs-design
 
 ## Known issues
 
-1. **Values not bound to a token** (literal in the component tokens): `state-infocus` root border-radius = 4px; `state-default` root padding-bottom = 1px; `state-hover` root padding-bottom = 1px; `state-pressed` root padding-bottom = 1px; `state-infocus` root padding-bottom = 2px; `state-infocus` underline padding-bottom = 1px.
+1. **Values not bound to a token** (literal in the component tokens): `state-default` root padding-bottom = 1px; `state-hover` root padding-bottom = 1px; `state-pressed` root padding-bottom = 1px; `state-infocus` root padding-bottom = 2px; `state-infocus` underline padding-bottom = 1px.
 
 ## Files
 

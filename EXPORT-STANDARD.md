@@ -1,6 +1,6 @@
 # MNG Web Design System — Export Standard
 
-> **Adopted 2026-10-14** (drafted 2026-10-13; updated 2026-10-14: Fold 340 added to the MNG Device breakpoints; PNG previews stay in GitHub, no Git LFS; where pixel values are kept; Reader Dashboard is part of core; two breakpoint sets; Vite/package note). Every token and component export follows this file; the first build is in `tokens/core/`, `tokens/themes/`, `tokens/wordpress/` and `dist/` (pull request #2). The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
+> **Adopted 2026-10-14** (drafted 2026-10-13; updated 2026-10-14: legacy exports are deleted when replaced, no archive; Fold 340 added to the MNG Device breakpoints; PNG previews stay in GitHub, no Git LFS; where pixel values are kept; Reader Dashboard is part of core; two breakpoint sets; Vite/package note). Every token and component export follows this file; the first build is in `tokens/core/`, `tokens/themes/`, `tokens/wordpress/` and `dist/` (pull request #2). The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
 
 ## 1. What this covers
 
@@ -233,7 +233,7 @@ Built from the DTCG files by `scripts/build-tokens/`. **Never edited by hand.** 
 
 ## 9. Legacy exports
 
-`figma-exports/` (the 2026-09 to 2026-10-09 exports) is **frozen**: kept, not updated, not deleted. Its README says so. When a component has a new export under `components/`, its legacy folder moves to `_archive/`.
+`figma-exports/` (the 2026-09 to 2026-10-09 exports) is legacy: not updated, and **deleted folder by folder** as each component gets a new export under `components/`. Old versions aren't kept, not even in an archive folder, while the formats are being settled; git history keeps them (Karl, 2026-10-14). The buttons export was deleted on 2026-10-14.
 
 ## 10. Checks before committing
 

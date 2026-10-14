@@ -50,19 +50,6 @@
             "unit": "px"
           }
         }
-      },
-      "root": {
-        "border-radius": {
-          "$type": "dimension",
-          "$value": "{radius.sm}",
-          "$extensions": {
-            "com.mng": {
-              "figma": {
-                "variable": "Spacing & Radius/radius/sm"
-              }
-            }
-          }
-        }
       }
     },
     "base": {
@@ -124,6 +111,17 @@
             }
           }
         },
+        "border-radius": {
+          "$type": "dimension",
+          "$value": "{radius.sm}",
+          "$extensions": {
+            "com.mng": {
+              "figma": {
+                "variable": "Spacing & Radius/radius/sm"
+              }
+            }
+          }
+        },
         "border-style": {
           "$type": "strokeStyle",
           "$value": "solid"
@@ -137,81 +135,45 @@
         },
         "padding-bottom": {
           "$type": "dimension",
-          "$value": {
-            "value": 8,
-            "unit": "px"
-          },
+          "$value": "{spacing.100}",
           "$extensions": {
             "com.mng": {
-              "unbound": true
+              "figma": {
+                "variable": "Spacing & Radius/spacing/100"
+              }
             }
           }
         },
         "padding-left": {
           "$type": "dimension",
-          "$value": {
-            "value": 8,
-            "unit": "px"
-          },
+          "$value": "{spacing.100}",
           "$extensions": {
             "com.mng": {
-              "unbound": true
+              "figma": {
+                "variable": "Spacing & Radius/spacing/100"
+              }
             }
           }
         },
         "padding-right": {
           "$type": "dimension",
-          "$value": {
-            "value": 8,
-            "unit": "px"
-          },
+          "$value": "{spacing.100}",
           "$extensions": {
             "com.mng": {
-              "unbound": true
+              "figma": {
+                "variable": "Spacing & Radius/spacing/100"
+              }
             }
           }
         },
         "padding-top": {
           "$type": "dimension",
-          "$value": {
-            "value": 8,
-            "unit": "px"
-          },
+          "$value": "{spacing.100}",
           "$extensions": {
             "com.mng": {
-              "unbound": true
-            }
-          }
-        }
-      }
-    },
-    "state-hover": {
-      "root": {
-        "border-radius": {
-          "$type": "dimension",
-          "$value": {
-            "value": 4,
-            "unit": "px"
-          },
-          "$extensions": {
-            "com.mng": {
-              "unbound": true
-            }
-          }
-        }
-      }
-    },
-    "state-pressed": {
-      "root": {
-        "border-radius": {
-          "$type": "dimension",
-          "$value": {
-            "value": 4,
-            "unit": "px"
-          },
-          "$extensions": {
-            "com.mng": {
-              "unbound": true
+              "figma": {
+                "variable": "Spacing & Radius/spacing/100"
+              }
             }
           }
         }
