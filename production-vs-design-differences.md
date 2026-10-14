@@ -1,5 +1,7 @@
 # Production vs. Design Differences — Engineering Handoff
 
+> **Updated 2026-10-14:** entries 30 (Reader Dashboard breakpoints) and 31 (Obituaries breakpoints) added; entry number 30 was free (the earlier icon-font entry 30 was folded into 20).
+>
 > **Consolidated 2026-09-24.** Combines the Sept 22 version of this file (entries 1–17, unchanged except for the notes marked "2026-09-24") with a short duplicate created on Sept 24. That copy added one new item, now entry 18. Entry 19 and the method note at the end came from the HANDOFF and NOTE files in this folder. Entry 20 (icon font) was added 2026-09-25 from `components/icons.md`. Entry 21 (per-theme color fixes) was added 2026-09-25, when the Greeley Tribune color theme was folded into Prairie Mountain Publishing. Entries 18 and 21 were updated 2026-09-30 (Greeley exception, Hartford Courant verified) and 2026-10-01 (NEPA folded into the NEPA-PMP sub-theme; disputed sites verified live), and entry 21 now holds the full per-theme color fix list that used to be `tokens/colors/mng-colors-engineering-fixes.md` (retired). Notes for reading older entries:
 > - `color-tokens.md` is now `tokens/colors/color-tokens-decision-log.md`. Current typography tokens are in `tokens/typography/typography-tokens.md`.
 > - Greeley Tribune no longer has its own color theme or Figma mode (2026-09-25). Mentions of it below as a pilot site for layout, nav or typography still stand.
@@ -1160,6 +1162,53 @@ One-line items are unaffected (the 44px height holds), but every extra line adds
 3. *Pending the decision above:* set the separator arrow to one color on every site (proposed `color/gray/500` #CCCAC7, from #D7D6D2 / #C8C4C0).
 
 **Status:** Open. Fix 1 is ready; fixes 2 and 3 wait on the design + dev decision.
+
+## 30. Reader Dashboard — breakpoints don't all match the Figma screen widths
+
+**Found:** 2026-10-14, in the Reader Dashboard source (`plugins/mng-digital-subscriber-widgets/reader-dashboard-src/`, Karl's local copy of the website repo dated 2026-05-08) and its built CSS. **Team:** DigiScrum. *Live check still to do: confirm the current production build matches this copy.*
+
+**Design (source of truth):** Reader Dashboard v2.0 is designed at 5 screen widths: Fold 340, Mobile 360, Tablet (vertical) 768, Tablet (horizontal) 1024, Desktop 1280. These are the MNG Device breakpoints (`breakpoint.mobile` 360, `breakpoint.tablet` 768, `breakpoint.tablet-landscape` 1024, `breakpoint.desktop` 1280, as min-widths; Fold is everything below 360). Karl, 2026-10-14: every Reader Dashboard breakpoint must match these widths.
+
+**Production:** the dashboard uses Tailwind v4's default screens plus custom widths.
+
+| Production breakpoint | Where it's used | Matches Figma? | Fix |
+|---|---|---|---|
+| `md` 768 (48rem), `min-[768px]` | layout and spacing | Yes | none |
+| `lg` 1024 (64rem), `window.innerWidth >= 1024` | menu always visible, layout, `#reader-dashboard-island-root` padding | Yes | none |
+| `xl` 1280 (80rem) | spacing, island padding | Yes | none |
+| `min-[361px]` | text field size and height, inline form box padding, menu width (344px), page margins, display-name form (`text-field.tsx`, `inline-form-box.tsx`, `reader-dashboard.tsx`, `update-display-name.tsx`) | Off by one | Use `min-[360px]`, so the 360 Mobile design applies at 360 and the Fold design only below it. |
+| `min-[413px]` | "No articles saved" empty state alignment (`no-articles-saved.tsx`) | No | Move to 360 (Mobile) or 768 (Tablet), whichever matches the Figma empty-state design. |
+| `sm` 640 (40rem) | logout status width (`logout-status.tsx`, `sm:w-fit`) and Tailwind's `.container` | No | Move to 768 (Tablet). |
+| `2xl` 1536 (96rem) | Tailwind's `.container` max width only | No | Remove; there's no design above 1280. |
+
+Recommended fix for engineering: set the dashboard's Tailwind screens to the MNG Device breakpoints (generated file `dist/tailwind/`), so `sm` / `2xl` and the arbitrary `min-[…]` values aren't needed.
+
+**Status:** Open.
+
+---
+
+## 31. Obituaries — breakpoints don't match the Figma screen widths
+
+**Found:** 2026-10-14, in the Obituaries styles (`assets/client/scss/layouts/scng/components/features/_obits.scss` in the WordPress themes, Karl's local repo copy dated 2026-05-08) and the 2026-09-15 live audit of the Obituaries pages (`components/breakpoint-audit.md`). *Live check still to do.*
+
+**Design (source of truth):** Karl, 2026-10-14: Obituaries follows the same MNG Device breakpoints as Reader Dashboard (360 / 768 / 1024 / 1280; Fold below 360).
+
+**Production:**
+
+| Production breakpoint | Where it's used | Snap to |
+|---|---|---|
+| ≤624px (`39em`, and a raw `624px` rule) | 1-column layout; search form stacks | 768 (Tablet) |
+| 625–1039px (`39.0625em`–`64.9375em`) | 2-column layout | 768–1023 (Tablet) |
+| ≥1040px (`65em`) | horizontal layout | 1024 (Tablet landscape) |
+| ≥1300px (`81.25em`, "stop scaling") | listing and scaling stop | 1280 (Desktop) |
+| 640 / 800 / 1040 (WordPress grid `s` / `m` / `l`, via `ai-breakpoint`) | spacing and layout | 768 / 1024 |
+| 800px (`50em`) | filter panel padding when open | 768 or 1024 |
+| 1000px (`62.5rem`) | top and bottom leaderboard ad placement | 1024 |
+| 625–734 / 735–1299px | photo gallery widget (likely shared, not obituary-only) | 768 / 1024 / 1280 |
+
+**Fix:** move each rule to the Device breakpoint in the right-hand column. The gallery widget may be shared with other pages; confirm before changing it. The Masthead's Obituaries search widget (624 / 800) is part of this fix.
+
+**Status:** Open. Which team owns Obituaries is to be confirmed.
 
 ## How to use this doc
 
