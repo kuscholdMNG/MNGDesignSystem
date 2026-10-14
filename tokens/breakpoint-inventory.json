@@ -88,12 +88,21 @@
     }
   },
   "summary": {
-    "drift": 50,
-    "official": 13
+    "component": 9,
+    "official": 13,
+    "drift": 28,
+    "to-confirm": 8
   },
   "excluded": {
     "thirdParty": 18,
     "wordpressAdminBar": 8,
+    "digisubsNotDocumented": [
+      "digisubs modal (max 344)",
+      "spoof banner (max 380)",
+      "push prompt (max 430)",
+      "article share box (min 431)",
+      "employee debugger (min 450)"
+    ],
     "note": "Third-party breakpoints (Mg2 Connext paywall, Osano, Kargo, HTL ad bidder) and the WordPress admin bar (logged-in editors only) are not ours, so they are left out (Karl, 2026-10-14)."
   },
   "production": [
@@ -101,7 +110,7 @@
       "query": "(min-width: 300px)",
       "kind": "min",
       "px": 300,
-      "tier": "drift",
+      "tier": "component",
       "owners": [
         "WordPress theme ad rules (dfp-ad, mobile adhesion)"
       ],
@@ -119,13 +128,7 @@
         "theme"
       ],
       "sampleSelector": ".dfp-ad.dfp-top_leaderboard",
-      "snapTo": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.xs",
-        "query": "(min-width: 320px)",
-        "label": "WordPress grid xs"
-      },
-      "note": "Top leaderboard ad sizing (.dfp-ad.dfp-top_leaderboard)."
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Top leaderboard ad (.dfp-ad.dfp-top_leaderboard)."
     },
     {
       "query": "(min-width: 320px)",
@@ -160,7 +163,7 @@
       "query": "(max-width: 335px)",
       "kind": "max",
       "px": 335,
-      "tier": "drift",
+      "tier": "component",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -177,13 +180,7 @@
         "theme"
       ],
       "sampleSelector": ".nav-primary .icon-search",
-      "snapTo": {
-        "set": "device",
-        "token": "breakpoint.fold",
-        "query": "(max-width: 339px)",
-        "label": "MNG Device fold"
-      },
-      "note": "Nav search icon on very small phones. Below the WordPress grid; the nearest official boundary is MNG Device fold (340)."
+      "note": "Masthead (WordPress): nav search icon on very small phones. Component breakpoint for the Masthead (Karl, 2026-10-14)."
     },
     {
       "query": "(max-width: 340px)",
@@ -217,39 +214,10 @@
       "note": "Off by one: (max-width: 340px) overlaps fold; should be 339."
     },
     {
-      "query": "(max-width: 344px)",
-      "kind": "max",
-      "px": 344,
-      "tier": "drift",
-      "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 2,
-      "stylesheets": [
-        "mng-digisubs"
-      ],
-      "sampleSelector": "#digisubs-modal-wrap",
-      "snapTo": {
-        "set": "device",
-        "token": "breakpoint.fold",
-        "query": "(max-width: 339px)",
-        "label": "MNG Device fold"
-      },
-      "note": "Digisubs modal on very small phones."
-    },
-    {
       "query": "(max-width: 350px)",
       "kind": "max",
       "px": 350,
-      "tier": "drift",
+      "tier": "component",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -266,13 +234,7 @@
         "theme"
       ],
       "sampleSelector": ".nav-primary .icon-hamburger",
-      "snapTo": {
-        "set": "device",
-        "token": "breakpoint.fold",
-        "query": "(max-width: 339px)",
-        "label": "MNG Device fold"
-      },
-      "note": "Nav hamburger icon on very small phones."
+      "note": "Masthead (WordPress): nav hamburger icon on very small phones. Component breakpoint for the Masthead (Karl, 2026-10-14)."
     },
     {
       "query": "(max-width: 360px)",
@@ -334,35 +296,6 @@
       "note": "Regwall button."
     },
     {
-      "query": "(max-width: 380px)",
-      "kind": "max",
-      "px": 380,
-      "tier": "drift",
-      "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 1,
-      "stylesheets": [
-        "mng-digisubs"
-      ],
-      "sampleSelector": "#spoof-banner",
-      "snapTo": {
-        "set": "device",
-        "token": "breakpoint.mobile",
-        "query": "(max-width: 359px)",
-        "label": "MNG Device mobile"
-      },
-      "note": "Spoof banner."
-    },
-    {
       "query": "(max-width: 400px)",
       "kind": "max",
       "px": 400,
@@ -395,7 +328,7 @@
       "query": "(max-width: 405px)",
       "kind": "max",
       "px": 405,
-      "tier": "drift",
+      "tier": "to-confirm",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -412,71 +345,13 @@
         "theme"
       ],
       "sampleSelector": "#content.sports-radar-content #sports-ra",
-      "snapTo": {
+      "snapToIfDrift": {
         "set": "grid",
         "token": "breakpoint.wordpress-grid.s",
         "query": "(max-width: 639px)",
         "label": "WordPress grid s"
       },
-      "note": "Sports Radar scores widget (#content.sports-radar-content)."
-    },
-    {
-      "query": "(max-width: 430px)",
-      "kind": "max",
-      "px": 430,
-      "tier": "drift",
-      "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 3,
-      "stylesheets": [
-        "mng-digisubs"
-      ],
-      "sampleSelector": ".show-digisubs-push",
-      "snapTo": {
-        "set": "device",
-        "token": "breakpoint.mobile",
-        "query": "(max-width: 359px)",
-        "label": "MNG Device mobile"
-      },
-      "note": "Digisubs push prompt."
-    },
-    {
-      "query": "(min-width: 431px)",
-      "kind": "min",
-      "px": 431,
-      "tier": "drift",
-      "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 2,
-      "stylesheets": [
-        "mng-digisubs"
-      ],
-      "sampleSelector": ".article-share-box.show-article-sharing",
-      "snapTo": {
-        "set": "device",
-        "token": "breakpoint.mobile",
-        "query": "(min-width: 360px)",
-        "label": "MNG Device mobile"
-      },
-      "note": "Article share box."
+      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. Not found live on the 6 sites; Karl to decide component or drift."
     },
     {
       "query": "(max-width: 450px)",
@@ -484,8 +359,7 @@
       "px": 450,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)",
-        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -502,47 +376,18 @@
       ],
       "sampleSelector": ".employee-debugger-close",
       "snapTo": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.s",
-        "query": "(max-width: 639px)",
-        "label": "WordPress grid s"
-      },
-      "note": "Employee debugger and digisubs rules."
-    },
-    {
-      "query": "(min-width: 450px)",
-      "kind": "min",
-      "px": 450,
-      "tier": "drift",
-      "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 2,
-      "stylesheets": [
-        "mng-digisubs"
-      ],
-      "sampleSelector": ".employee-debugger-close",
-      "snapTo": {
         "set": "device",
         "token": "breakpoint.mobile",
-        "query": "(min-width: 360px)",
+        "query": "(max-width: 359px)",
         "label": "MNG Device mobile"
       },
-      "note": "Employee debugger."
+      "note": "Digisubs modals, paywall container, regwall form, save-article and nickname modals, account dropdown (37 rules)."
     },
     {
       "query": "(max-width: 480px)",
       "kind": "max",
       "px": 480,
-      "tier": "drift",
+      "tier": "component",
       "owners": [
         "WordPress theme ad rules (dfp-ad, mobile adhesion)"
       ],
@@ -559,19 +404,13 @@
         "_static"
       ],
       "sampleSelector": "#mobile-adhesion",
-      "snapTo": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.s",
-        "query": "(max-width: 639px)",
-        "label": "WordPress grid s"
-      },
-      "note": "Mobile adhesion ad (#mobile-adhesion)."
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Mobile adhesion ad (#mobile-adhesion)."
     },
     {
       "query": "(max-width: 500px)",
       "kind": "max",
       "px": 500,
-      "tier": "drift",
+      "tier": "to-confirm",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -588,19 +427,19 @@
         "theme"
       ],
       "sampleSelector": "#content.sports-radar-content .tournamen",
-      "snapTo": {
+      "snapToIfDrift": {
         "set": "grid",
         "token": "breakpoint.wordpress-grid.s",
         "query": "(max-width: 639px)",
         "label": "WordPress grid s"
       },
-      "note": "Sports Radar widget."
+      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. Not found live on the 6 sites; Karl to decide component or drift."
     },
     {
       "query": "(max-width: 535px)",
       "kind": "max",
       "px": 535,
-      "tier": "drift",
+      "tier": "to-confirm",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -617,13 +456,13 @@
         "theme"
       ],
       "sampleSelector": "#content.sports-radar-content #sports-ra",
-      "snapTo": {
+      "snapToIfDrift": {
         "set": "grid",
         "token": "breakpoint.wordpress-grid.s",
         "query": "(max-width: 639px)",
         "label": "WordPress grid s"
       },
-      "note": "Sports Radar widget."
+      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. Not found live on the 6 sites; Karl to decide component or drift."
     },
     {
       "query": "(max-width: 550px)",
@@ -747,8 +586,8 @@
       "px": 600,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)",
-        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)",
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -770,7 +609,7 @@
         "query": "(max-width: 639px)",
         "label": "WordPress grid s"
       },
-      "note": "Article sharing and theme rules."
+      "note": "Theme: article bottom share buttons (.article-bottom-share), snap to grid s (639). Digisubs: change-username modal, snap to Device tablet (767). (The share box rule here is not documented.)"
     },
     {
       "query": "(max-width: 624px)",
@@ -892,7 +731,7 @@
       "query": "(max-width: 700px)",
       "kind": "max",
       "px": 700,
-      "tier": "drift",
+      "tier": "to-confirm",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -909,19 +748,19 @@
         "theme"
       ],
       "sampleSelector": ".promotion-widget .promotion-child .prom",
-      "snapTo": {
+      "snapToIfDrift": {
         "set": "grid",
         "token": "breakpoint.wordpress-grid.s",
         "query": "(max-width: 639px)",
         "label": "WordPress grid s"
       },
-      "note": "Promotion widget."
+      "note": "Promotion widget (.promotion-widget): the homepage row of promo tiles, e.g. Chicago Tribune Fun and Games / Tribune Store. Karl to decide component or drift."
     },
     {
       "query": "(max-width: 730px)",
       "kind": "max",
       "px": 730,
-      "tier": "drift",
+      "tier": "to-confirm",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -938,13 +777,13 @@
         "theme"
       ],
       "sampleSelector": "#content.special-investigative-header .s",
-      "snapTo": {
+      "snapToIfDrift": {
         "set": "grid",
         "token": "breakpoint.wordpress-grid.m",
         "query": "(max-width: 799px)",
         "label": "WordPress grid m"
       },
-      "note": "Special investigative header."
+      "note": "Special investigative header template (#content.special-investigative-header): not found live on the 6 sites. Karl to decide."
     },
     {
       "query": "(max-width: 734px)",
@@ -973,7 +812,7 @@
         "query": "(max-width: 799px)",
         "label": "WordPress grid m"
       },
-      "note": "Photo gallery widget (.gallery-container, entry 31)."
+      "note": "Photo gallery widget (.gallery-container; also entry 31). Fix (Karl)."
     },
     {
       "query": "(min-width: 735px)",
@@ -1002,14 +841,15 @@
         "query": "(min-width: 800px)",
         "label": "WordPress grid m"
       },
-      "note": "Photo gallery widget (entry 31)."
+      "note": "Photo gallery widget (also entry 31). Fix (Karl)."
     },
     {
       "query": "(max-width: 750px)",
       "kind": "max",
       "px": 750,
-      "tier": "drift",
+      "tier": "component",
       "owners": [
+        "WordPress theme ad rules (dfp-ad, mobile adhesion)",
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
       "sites": [
@@ -1026,19 +866,13 @@
         "theme"
       ],
       "sampleSelector": ".header-banners",
-      "snapTo": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.m",
-        "query": "(max-width: 799px)",
-        "label": "WordPress grid m"
-      },
-      "note": "Header banners (.header-banners)."
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Header banners (.header-banners): the top leaderboard ad container under the masthead. The special investigative header also uses 750."
     },
     {
       "query": "(min-width: 750px)",
       "kind": "min",
       "px": 750,
-      "tier": "drift",
+      "tier": "component",
       "owners": [
         "WordPress theme ad rules (dfp-ad, mobile adhesion)"
       ],
@@ -1056,13 +890,7 @@
         "theme"
       ],
       "sampleSelector": ".dfp-ad.dfp-top_leaderboard",
-      "snapTo": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.m",
-        "query": "(min-width: 800px)",
-        "label": "WordPress grid m"
-      },
-      "note": "Top leaderboard ad."
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Top leaderboard ad."
     },
     {
       "query": "(max-width: 767.98px)",
@@ -1274,7 +1102,7 @@
       "query": "(max-width: 900px)",
       "kind": "max",
       "px": 900,
-      "tier": "drift",
+      "tier": "to-confirm",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -1291,13 +1119,13 @@
         "theme"
       ],
       "sampleSelector": ".promotion-widget .promotion-child .prom",
-      "snapTo": {
+      "snapToIfDrift": {
         "set": "grid",
         "token": "breakpoint.wordpress-grid.m",
         "query": "(max-width: 799px)",
         "label": "WordPress grid m"
       },
-      "note": "Promotion widget."
+      "note": "Promotion widget title; also the special investigative header. Karl to decide component or drift."
     },
     {
       "query": "(max-width: 930px)",
@@ -1326,13 +1154,13 @@
         "query": "(max-width: 1039px)",
         "label": "WordPress grid l"
       },
-      "note": "Footer cookie notice button."
+      "note": "Footer cookie notice button (Karl: fix to 1039)."
     },
     {
       "query": "(max-width: 960px)",
       "kind": "max",
       "px": 960,
-      "tier": "drift",
+      "tier": "to-confirm",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -1349,13 +1177,13 @@
         "theme"
       ],
       "sampleSelector": "#content.sports-radar-content #sports-ra",
-      "snapTo": {
+      "snapToIfDrift": {
         "set": "grid",
         "token": "breakpoint.wordpress-grid.l",
         "query": "(max-width: 1039px)",
         "label": "WordPress grid l"
       },
-      "note": "Sports Radar widget."
+      "note": "Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. Not found live on the 6 sites; Karl to decide component or drift."
     },
     {
       "query": "(max-width: 991.98px)",
@@ -1419,7 +1247,7 @@
       "query": "(max-width: 1000px)",
       "kind": "max",
       "px": 1000,
-      "tier": "drift",
+      "tier": "component",
       "owners": [
         "WordPress theme ad rules (dfp-ad, mobile adhesion)"
       ],
@@ -1436,19 +1264,13 @@
         "inline"
       ],
       "sampleSelector": "#mobile-adhesion",
-      "snapTo": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.l",
-        "query": "(max-width: 1039px)",
-        "label": "WordPress grid l"
-      },
-      "note": "Mobile adhesion ad (entry 31 notes the 1000px ad rule)."
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Mobile adhesion ad."
     },
     {
       "query": "(min-width: 1000px)",
       "kind": "min",
       "px": 1000,
-      "tier": "drift",
+      "tier": "component",
       "owners": [
         "WordPress theme ad rules (dfp-ad, mobile adhesion)"
       ],
@@ -1466,13 +1288,7 @@
         "theme"
       ],
       "sampleSelector": ".dfp-ad.dfp-top_leaderboard",
-      "snapTo": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.l",
-        "query": "(min-width: 1040px)",
-        "label": "WordPress grid l"
-      },
-      "note": "Top and bottom leaderboard ad placement."
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Top and bottom leaderboard ad placement."
     },
     {
       "query": "(max-width: 1024px)",
@@ -1538,7 +1354,7 @@
       "query": "(max-width: 1025px)",
       "kind": "max",
       "px": 1025,
-      "tier": "drift",
+      "tier": "component",
       "owners": [
         "WordPress theme ad rules (dfp-ad, mobile adhesion)"
       ],
@@ -1555,13 +1371,7 @@
         "_static"
       ],
       "sampleSelector": "#mobile-adhesion",
-      "snapTo": {
-        "set": "grid",
-        "token": "breakpoint.wordpress-grid.l",
-        "query": "(max-width: 1039px)",
-        "label": "WordPress grid l"
-      },
-      "note": "Mobile adhesion ad."
+      "note": "Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Mobile adhesion ad."
     },
     {
       "query": "(max-width: 1039px)",
@@ -1661,7 +1471,7 @@
       "query": "(max-width: 1150px)",
       "kind": "max",
       "px": 1150,
-      "tier": "drift",
+      "tier": "to-confirm",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
@@ -1678,13 +1488,13 @@
         "theme"
       ],
       "sampleSelector": "#content.special-investigative-header .s",
-      "snapTo": {
+      "snapToIfDrift": {
         "set": "grid",
         "token": "breakpoint.wordpress-grid.l",
         "query": "(max-width: 1039px)",
         "label": "WordPress grid l"
       },
-      "note": "Special investigative header."
+      "note": "Special investigative header template: not found live on the 6 sites. Karl to decide."
     },
     {
       "query": "(max-width: 1199.98px)",

@@ -1223,69 +1223,48 @@ The same two stacks apply on every theme; each theme only chooses which one its 
 
 **Status:** Open.
 
-## 33. Breakpoints off the official sets — WordPress themes, ads, digisubs (all 6 sites)
+## 33. Breakpoints off the official sets — WordPress themes, trust indicators, digisubs (all 6 sites)
 
-**Found:** 2026-10-14, live CSS scan of the homepage, an article and the obituaries page on all 6 review sites (`tokens/breakpoint-inventory.json`, built by `scripts/breakpoint-inventory/`). Every value below was found on all 6 sites (the three theme stylesheets share their media queries). **Teams:** CMS, DigiScrum.
+**Found:** 2026-10-14, live CSS scan of the homepage, an article and the obituaries page on all 6 review sites (`tokens/breakpoint-inventory.json`, built by `scripts/breakpoint-inventory/`). Every value below was found on all 6 sites (the three theme stylesheets share their media queries). **Teams:** CMS, DigiScrum. **Updated 2026-10-14** with Karl's decisions.
 
-**Design:** two official sets (EXPORT-STANDARD.md section 6). WordPress code follows the **WordPress grid** (min-widths 320 / 640 / 800 / 1040 / 1280; max-widths 639 / 799 / 1039 / 1279). Everything else follows the **MNG Device breakpoints** (min-widths 340 / 360 / 768 / 1024 / 1280; max-widths 339 / 359 / 767 / 1023 / 1279). Of the 63 width values in MNG code, 13 are official and 50 are drift (below). Third-party breakpoints (paywall, cookie consent, ad vendors) and the WordPress admin bar aren't ours and are left out (Karl, 2026-10-14).
+**Design:** two official sets (EXPORT-STANDARD.md section 6). WordPress code follows the **WordPress grid** (min-widths 320 / 640 / 800 / 1040 / 1280; max-widths 639 / 799 / 1039 / 1279). Everything else, including the digisubs plugin and app (Karl, 2026-10-14), follows the **MNG Device breakpoints** (min-widths 340 / 360 / 768 / 1024 / 1280; max-widths 339 / 359 / 767 / 1023 / 1279). Of the 58 values kept in the inventory, 13 are official, 28 are drift (below), 9 are component breakpoints and 8 wait for Karl. Left out: third-party code (paywall, cookie consent, ad vendors), the WordPress admin bar, and the digisubs modal, spoof banner, push prompt, share box and employee debugger (not documented, Karl).
 
-**Production (drift) and fix:** move each rule to the official breakpoint in the right-hand column. "Off by one" rules (`max-width: 800 / 1040 / 1280 / 340 / 360 / 1024`) overlap the official boundary by 1px; they should be `max-width: 799 / 1039 / 1279 / 339 / 359 / 1023`. The Obituaries values (624 / 625, 734 / 735 gallery, 1000 ads, 1299 / 1300) are entry 31; they're repeated here so the list is complete.
-
-**Ad rules in the WordPress themes** (team: CMS (with the Ad Team); snap to the WordPress grid):
-
-| Production | Where | Snap to |
-|---|---|---|
-| `(min-width: 300px)` | Top leaderboard ad sizing (.dfp-ad.dfp-top_leaderboard). | `(min-width: 320px)` (WordPress grid xs) |
-| `(max-width: 480px)` | Mobile adhesion ad (#mobile-adhesion). | `(max-width: 639px)` (WordPress grid s) |
-| `(min-width: 750px)` | Top leaderboard ad. | `(min-width: 800px)` (WordPress grid m) |
-| `(max-width: 1000px)` | Mobile adhesion ad (entry 31 notes the 1000px ad rule). | `(max-width: 1039px)` (WordPress grid l) |
-| `(min-width: 1000px)` | Top and bottom leaderboard ad placement. | `(min-width: 1040px)` (WordPress grid l) |
-| `(max-width: 1025px)` | Mobile adhesion ad. | `(max-width: 1039px)` (WordPress grid l) |
+**Production (drift) and fix:** move each rule to the official breakpoint in the right-hand column. "Off by one" rules (`max-width: 340 / 360 / 800 / 1024 / 1040 / 1280`) overlap the official boundary by 1px and should be one less. The Obituaries values (624 / 625, 1299 / 1300) and the photo gallery (734 / 735) are also in entry 31.
 
 **WordPress themes** (team: CMS; snap to the WordPress grid):
 
 | Production | Where | Snap to |
 |---|---|---|
-| `(max-width: 335px)` | Nav search icon on very small phones. Below the WordPress grid; the nearest official boundary is MNG Device fold (340). | `(max-width: 339px)` (MNG Device fold) |
-| `(max-width: 350px)` | Nav hamburger icon on very small phones. | `(max-width: 339px)` (MNG Device fold) |
-| `(max-width: 405px)` | Sports Radar scores widget (#content.sports-radar-content). | `(max-width: 639px)` (WordPress grid s) |
-| `(max-width: 500px)` | Sports Radar widget. | `(max-width: 639px)` (WordPress grid s) |
-| `(max-width: 535px)` | Sports Radar widget. | `(max-width: 639px)` (WordPress grid s) |
 | `(max-width: 624px)` | Obituaries 1-column layout (entry 31). | `(max-width: 639px)` (WordPress grid s) |
 | `(min-width: 625px)` | Obituaries 2-column start (entry 31). | `(min-width: 640px)` (WordPress grid s) |
-| `(max-width: 700px)` | Promotion widget. | `(max-width: 639px)` (WordPress grid s) |
-| `(max-width: 730px)` | Special investigative header. | `(max-width: 799px)` (WordPress grid m) |
-| `(max-width: 734px)` | Photo gallery widget (.gallery-container, entry 31). | `(max-width: 799px)` (WordPress grid m) |
-| `(min-width: 735px)` | Photo gallery widget (entry 31). | `(min-width: 800px)` (WordPress grid m) |
-| `(max-width: 750px)` | Header banners (.header-banners). | `(max-width: 799px)` (WordPress grid m) |
+| `(max-width: 734px)` | Photo gallery widget (.gallery-container; also entry 31). Fix (Karl). | `(max-width: 799px)` (WordPress grid m) |
+| `(min-width: 735px)` | Photo gallery widget (also entry 31). Fix (Karl). | `(min-width: 800px)` (WordPress grid m) |
 | `(max-width: 800px)` | Off by one: (max-width: 800px) overlaps m; should be 799 (#featured-flex-landing-three). | `(max-width: 799px)` (WordPress grid m) |
-| `(max-width: 900px)` | Promotion widget. | `(max-width: 799px)` (WordPress grid m) |
-| `(max-width: 930px)` | Footer cookie notice button. | `(max-width: 1039px)` (WordPress grid l) |
-| `(max-width: 960px)` | Sports Radar widget. | `(max-width: 1039px)` (WordPress grid l) |
-| `(max-width: 1150px)` | Special investigative header. | `(max-width: 1039px)` (WordPress grid l) |
+| `(max-width: 930px)` | Footer cookie notice button (Karl: fix to 1039). | `(max-width: 1039px)` (WordPress grid l) |
 | `(max-width: 1280px)` | Off by one: (max-width: 1280px) overlaps xl; should be 1279 (.custom-dfm-section.dark-layout). | `(max-width: 1279px)` (WordPress grid xl) |
 | `(max-width: 1299px)` | Obituaries listing (entry 31). | `(max-width: 1279px)` (WordPress grid xl) |
 | `(min-width: 1300px)` | Obituaries "stop scaling" (entry 31). | `(min-width: 1280px)` (WordPress grid xl) |
 
-**mng-digisubs plugin (account menu, regwall, sign-in)** (team: DigiScrum; snap to the MNG Device set, Karl 2026-10-14):
+**dfm-trust-indicators plugin** (team: CMS; snap to the WordPress grid):
+
+| Production | Where | Snap to |
+|---|---|---|
+| `(max-width: 1040px)` | Off by one: (max-width: 1040px) overlaps l; should be 1039 (trust-indicator footer links). | `(max-width: 1039px)` (WordPress grid l) |
+
+**mng-digisubs plugin (account menu, regwall, sign-in, modals)** (team: DigiScrum; snap to the MNG Device set):
 
 | Production | Where | Snap to |
 |---|---|---|
 | `(max-width: 340px)` | Off by one: (max-width: 340px) overlaps fold; should be 339. | `(max-width: 339px)` (MNG Device fold) |
-| `(max-width: 344px)` | Digisubs modal on very small phones. | `(max-width: 339px)` (MNG Device fold) |
-| `(max-width: 380px)` | Spoof banner. | `(max-width: 359px)` (MNG Device mobile) |
-| `(max-width: 430px)` | Digisubs push prompt. | `(max-width: 359px)` (MNG Device mobile) |
-| `(min-width: 431px)` | Article share box. | `(min-width: 360px)` (MNG Device mobile) |
-| `(max-width: 450px)` | Employee debugger and digisubs rules. | `(max-width: 639px)` (WordPress grid s) |
-| `(min-width: 450px)` | Employee debugger. | `(min-width: 360px)` (MNG Device mobile) |
+| `(max-width: 450px)` | Digisubs modals, paywall container, regwall form, save-article and nickname modals, account dropdown (37 rules). | `(max-width: 359px)` (MNG Device mobile) |
 | `(max-width: 550px)` | Regwall (:root:not(:has(#server-regwall))). | `(max-width: 359px)` (MNG Device mobile) |
-| `(max-width: 576px)` | Digisubs content (.sspw-content); Mg2 also uses it. | `(max-width: 767px)` (MNG Device tablet) |
-| `(max-width: 600px)` | Article sharing and theme rules. | `(max-width: 639px)` (WordPress grid s) |
+| `(max-width: 576px)` | Digisubs content (.sspw-content). | `(max-width: 767px)` (MNG Device tablet) |
+| `(max-width: 600px)` | Shared with the theme. Digisubs change-username modal: snap to Device tablet. Theme article bottom share buttons (.article-bottom-share): snap to WordPress grid s. | `(max-width: 767px)` (MNG Device tablet) / `(max-width: 639px)` (WordPress grid s) |
 | `(max-width: 770px)` | Account dropdown menu. | `(max-width: 767px)` (MNG Device tablet) |
 | `(max-width: 820px)` | Account dropdown menu. | `(max-width: 767px)` (MNG Device tablet) |
 | `(max-width: 1024px)` | Off by one for the Device set (should be 1023); the theme rule (#dfm-digisubs-menu) should use grid l (1039). | `(max-width: 1023px)` (MNG Device tablet-landscape) |
 
-**Digisubs app, plugins.mngdigisubs.com (Bootstrap 5 defaults 576 / 768 / 992 / 1200 / 1400)** (team: DigiScrum; snap to the MNG Device set, Karl 2026-10-14):
+**Digisubs app, plugins.mngdigisubs.com (Bootstrap 5 defaults)** (team: DigiScrum; snap to the MNG Device set):
 
 | Production | Where | Snap to |
 |---|---|---|
@@ -1294,19 +1273,15 @@ The same two stacks apply on every theme; each theme only chooses which one its 
 | `(max-width: 575.98px)` | Bootstrap sm-down. | `(max-width: 767px)` (MNG Device tablet) |
 | `(min-width: 576px)` | Bootstrap sm container. | `(min-width: 768px)` (MNG Device tablet) |
 | `(max-width: 991.98px)` | Bootstrap lg-down. | `(max-width: 1023px)` (MNG Device tablet-landscape) |
-| `(min-width: 992px)` | Bootstrap lg container; Mg2 also uses 992. | `(min-width: 1024px)` (MNG Device tablet-landscape) |
+| `(min-width: 992px)` | Bootstrap lg container. | `(min-width: 1024px)` (MNG Device tablet-landscape) |
 | `(max-width: 1199.98px)` | Bootstrap xl-down. | `(max-width: 1279px)` (MNG Device desktop) |
-| `(min-width: 1200px)` | Bootstrap xl container; Mg2 also uses 1200. | `(min-width: 1280px)` (MNG Device desktop) |
+| `(min-width: 1200px)` | Bootstrap xl container. | `(min-width: 1280px)` (MNG Device desktop) |
 | `(max-width: 1399.98px)` | Bootstrap xxl-down: no official breakpoint above 1280. | `(max-width: 1279px)` (MNG Device desktop) |
 | `(min-width: 1400px)` | Bootstrap xxl container: no official breakpoint above 1280. | `(min-width: 1280px)` (MNG Device desktop) |
 
-**dfm-trust-indicators plugin** (team: CMS; snap to the WordPress grid):
+**Not drift: component breakpoints (keep their own values, Karl):** the Masthead nav icons on very small phones (`max-width: 335px`, `350px`) and the ad rules: top leaderboard (`min-width: 300 / 750 / 1000px`), header banners, the top leaderboard ad container under the masthead (`max-width: 750px`), and the mobile adhesion ad (`max-width: 480 / 1000 / 1025px`). They go in the Masthead and Ad Blocks component tokens.
 
-| Production | Where | Snap to |
-|---|---|---|
-| `(max-width: 1040px)` | Off by one: (max-width: 1040px) overlaps l; should be 1039 (trust-indicator footer links). | `(max-width: 1039px)` (WordPress grid l) |
-
-**Component breakpoints:** most of the one-off values (a single widget's rule) are probably intended for that component. Karl is confirming the list; confirmed ones move out of this entry into the component's tokens (`components/<layer>/<slug>/<slug>.tokens.json`) and stop being drift.
+**Waiting for Karl:** the Sports Radar page template (`max-width: 405 / 500 / 535 / 960px`; a local WordPress template that styles embedded Sportradar data widgets), the promotion widget (`max-width: 700 / 900px`; the homepage row of promo tiles such as Chicago Tribune's Fun and Games and Tribune Store) and the special investigative header template (`max-width: 730 / 1150px`). Sports Radar and the special investigative header weren't found on any live page of the 6 sites.
 
 **Status:** Open.
 

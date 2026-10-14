@@ -13,7 +13,8 @@ Output
 
 Tiers (EXPORT-STANDARD.md section 6): official (MNG Device or WordPress grid), component (an intended one-off,
 goes in that component's tokens), drift (logged in production-vs-design-differences.md with what to snap to),
-plus third-party and wordpress-admin (not ours, listed for completeness, no action).
+to-confirm (waiting for Karl), plus third-party, wordpress-admin and not-documented values, which are
+left out of the output (Karl, 2026-10-14).
 
 Run from the repo top: python3 scripts/breakpoint-inventory/build-inventory.py      Stdlib only.
 """
@@ -48,46 +49,46 @@ WPADMIN = 'WordPress admin bar (logged-in editors only)'
 G, D = 'wordpress-grid', 'device'
 CLASSIFY = {
     '>0': ([HTL], 'third-party', None, ''),
-    '>300': ([ADS], 'drift', bp('grid', 'xs', 'min'), 'Top leaderboard ad sizing (.dfp-ad.dfp-top_leaderboard).'),
+    '>300': ([ADS], 'component', None, 'Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Top leaderboard ad (.dfp-ad.dfp-top_leaderboard).'),
     '>320': ([THEME], 'official', bp('grid', 'xs', 'min'), ''),
     '<320': ([KARGO], 'third-party', None, ''),
-    '<335': ([THEME], 'drift', bp('device', 'fold', 'max'), 'Nav search icon on very small phones. Below the WordPress grid; the nearest official boundary is MNG Device fold (340).'),
+    '<335': ([THEME], 'component', None, 'Masthead (WordPress): nav search icon on very small phones. Component breakpoint for the Masthead (Karl, 2026-10-14).'),
     '<340': ([DIGI, DIGI_APP], 'drift', bp('device', 'fold', 'max'), 'Off by one: (max-width: 340px) overlaps fold; should be 339.'),
-    '<344': ([DIGI], 'drift', bp('device', 'fold', 'max'), 'Digisubs modal on very small phones.'),
-    '<350': ([THEME], 'drift', bp('device', 'fold', 'max'), 'Nav hamburger icon on very small phones.'),
+    '<344': ([DIGI], 'not-documented', None, 'Not documented (Karl, 2026-10-14): digisubs modal, spoof banner, push prompt, share box or employee debugger.'),
+    '<350': ([THEME], 'component', None, 'Masthead (WordPress): nav hamburger icon on very small phones. Component breakpoint for the Masthead (Karl, 2026-10-14).'),
     '<360': ([DIGI_APP], 'drift', bp('device', 'mobile', 'max'), 'Off by one: (max-width: 360px) overlaps mobile; should be 359.'),
     '>360': ([DIGI], 'official', bp('device', 'mobile', 'min'), 'Regwall button.'),
     '>376': ([OSANO], 'third-party', None, ''),
-    '<380': ([DIGI], 'drift', bp('device', 'mobile', 'max'), 'Spoof banner.'),
+    '<380': ([DIGI], 'not-documented', None, 'Not documented (Karl, 2026-10-14): digisubs modal, spoof banner, push prompt, share box or employee debugger.'),
     '<400': ([DIGI_APP], 'drift', bp('device', 'mobile', 'max'), 'Sign-in modal.'),
-    '<405': ([THEME], 'drift', bp('grid', 's', 'max'), 'Sports Radar scores widget (#content.sports-radar-content).'),
+    '<405': ([THEME], 'to-confirm', bp('grid', 's' if 405 < 640 else 'l', 'max'), 'Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. Not found live on the 6 sites; Karl to decide component or drift.'),
     '<420': ([MG2], 'third-party', None, ''),
-    '<430': ([DIGI], 'drift', bp('device', 'mobile', 'max'), 'Digisubs push prompt.'),
-    '>431': ([DIGI], 'drift', bp('device', 'mobile', 'min'), 'Article share box.'),
+    '<430': ([DIGI], 'not-documented', None, 'Not documented (Karl, 2026-10-14): digisubs modal, spoof banner, push prompt, share box or employee debugger.'),
+    '>431': ([DIGI], 'not-documented', None, 'Not documented (Karl, 2026-10-14): digisubs modal, spoof banner, push prompt, share box or employee debugger.'),
     '<432': ([MG2], 'third-party', None, ''),
-    '<450': ([DIGI, THEME], 'drift', bp('grid', 's', 'max'), 'Employee debugger and digisubs rules.'),
-    '>450': ([DIGI], 'drift', bp('device', 'mobile', 'min'), 'Employee debugger.'),
+    '<450': ([DIGI], 'drift', bp('device', 'mobile', 'max'), 'Digisubs modals, paywall container, regwall form, save-article and nickname modals, account dropdown (37 rules).'),
+    '>450': ([DIGI], 'not-documented', None, 'Not documented (Karl, 2026-10-14): digisubs modal, spoof banner, push prompt, share box or employee debugger.'),
     '<467': ([MG2], 'third-party', None, ''),
-    '<480': ([ADS], 'drift', bp('grid', 's', 'max'), 'Mobile adhesion ad (#mobile-adhesion).'),
-    '<500': ([THEME], 'drift', bp('grid', 's', 'max'), 'Sports Radar widget.'),
-    '<535': ([THEME], 'drift', bp('grid', 's', 'max'), 'Sports Radar widget.'),
+    '<480': ([ADS], 'component', None, 'Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Mobile adhesion ad (#mobile-adhesion).'),
+    '<500': ([THEME], 'to-confirm', bp('grid', 's' if 500 < 640 else 'l', 'max'), 'Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. Not found live on the 6 sites; Karl to decide component or drift.'),
+    '<535': ([THEME], 'to-confirm', bp('grid', 's' if 535 < 640 else 'l', 'max'), 'Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. Not found live on the 6 sites; Karl to decide component or drift.'),
     '<550': ([DIGI], 'drift', bp('device', 'mobile', 'max'), 'Regwall (:root:not(:has(#server-regwall))).'),
     '<575.98': ([DIGI_APP], 'drift', bp('device', 'tablet', 'max'), 'Bootstrap sm-down.'),
     '<576': ([DIGI, MG2], 'drift', bp('device', 'tablet', 'max'), 'Digisubs content (.sspw-content).'),
     '>576': ([DIGI_APP], 'drift', bp('device', 'tablet', 'min'), 'Bootstrap sm container.'),
-    '<600': ([DIGI, THEME, MG2], 'drift', bp('grid', 's', 'max'), 'Article sharing and theme rules.'),
+    '<600': ([THEME, DIGI], 'drift', bp('grid', 's', 'max'), 'Theme: article bottom share buttons (.article-bottom-share), snap to grid s (639). Digisubs: change-username modal, snap to Device tablet (767). (The share box rule here is not documented.)'),
     '>600': ([WPADMIN], 'wordpress-admin', None, 'body.admin-bar.'),
     '<624': ([THEME], 'drift', bp('grid', 's', 'max'), 'Obituaries 1-column layout (entry 31).'),
     '>625': ([THEME], 'drift', bp('grid', 's', 'min'), 'Obituaries 2-column start (entry 31).'),
     '<639': ([THEME], 'official', bp('grid', 's', 'max'), ''),
     '>640': ([THEME], 'official', bp('grid', 's', 'min'), ''),
-    '<700': ([THEME], 'drift', bp('grid', 's', 'max'), 'Promotion widget.'),
+    '<700': ([THEME], 'to-confirm', bp('grid', 's', 'max'), 'Promotion widget (.promotion-widget): the homepage row of promo tiles, e.g. Chicago Tribune Fun and Games / Tribune Store. Karl to decide component or drift.'),
     '<720': ([MG2], 'third-party', None, ''),
-    '<730': ([THEME], 'drift', bp('grid', 'm', 'max'), 'Special investigative header.'),
-    '<734': ([THEME], 'drift', bp('grid', 'm', 'max'), 'Photo gallery widget (.gallery-container, entry 31).'),
-    '>735': ([THEME], 'drift', bp('grid', 'm', 'min'), 'Photo gallery widget (entry 31).'),
-    '<750': ([THEME], 'drift', bp('grid', 'm', 'max'), 'Header banners (.header-banners).'),
-    '>750': ([ADS], 'drift', bp('grid', 'm', 'min'), 'Top leaderboard ad.'),
+    '<730': ([THEME], 'to-confirm', bp('grid', 'm', 'max'), 'Special investigative header template (#content.special-investigative-header): not found live on the 6 sites. Karl to decide.'),
+    '<734': ([THEME], 'drift', bp('grid', 'm', 'max'), 'Photo gallery widget (.gallery-container; also entry 31). Fix (Karl).'),
+    '>735': ([THEME], 'drift', bp('grid', 'm', 'min'), 'Photo gallery widget (also entry 31). Fix (Karl).'),
+    '<750': ([ADS, THEME], 'component', None, 'Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Header banners (.header-banners): the top leaderboard ad container under the masthead. The special investigative header also uses 750.'),
+    '>750': ([ADS], 'component', None, 'Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Top leaderboard ad.'),
     '<767': ([MG2], 'third-party', None, ''),
     '<767.98': ([DIGI_APP], 'official', bp('device', 'tablet', 'max'), 'Bootstrap md-down: the same boundary as MNG Device tablet (below 768).'),
     '<768': ([MG2], 'third-party', None, ''),
@@ -99,9 +100,9 @@ CLASSIFY = {
     '<800': ([THEME, MG2], 'drift', bp('grid', 'm', 'max'), 'Off by one: (max-width: 800px) overlaps m; should be 799 (#featured-flex-landing-three).'),
     '>800': ([THEME], 'official', bp('grid', 'm', 'min'), ''),
     '<820': ([DIGI], 'drift', bp('device', 'tablet', 'max'), 'Account dropdown menu.'),
-    '<900': ([THEME], 'drift', bp('grid', 'm', 'max'), 'Promotion widget.'),
-    '<930': ([THEME], 'drift', bp('grid', 'l', 'max'), 'Footer cookie notice button.'),
-    '<960': ([THEME], 'drift', bp('grid', 'l', 'max'), 'Sports Radar widget.'),
+    '<900': ([THEME], 'to-confirm', bp('grid', 'm', 'max'), 'Promotion widget title; also the special investigative header. Karl to decide component or drift.'),
+    '<930': ([THEME], 'drift', bp('grid', 'l', 'max'), 'Footer cookie notice button (Karl: fix to 1039).'),
+    '<960': ([THEME], 'to-confirm', bp('grid', 's' if 960 < 640 else 'l', 'max'), 'Sports Radar page template (#content.sports-radar-content): local WordPress template styling embedded Sportradar data widgets. Not found live on the 6 sites; Karl to decide component or drift.'),
     '<971': ([MG2], 'third-party', None, ''),
     '>972': ([MG2], 'third-party', None, ''),
     '<979': ([MG2], 'third-party', None, ''),
@@ -109,16 +110,16 @@ CLASSIFY = {
     '<991.98': ([DIGI_APP], 'drift', bp('device', 'tablet-landscape', 'max'), 'Bootstrap lg-down.'),
     '<992': ([MG2], 'third-party', None, ''),
     '>992': ([DIGI_APP, MG2], 'drift', bp('device', 'tablet-landscape', 'min'), 'Bootstrap lg container.'),
-    '<1000': ([ADS], 'drift', bp('grid', 'l', 'max'), 'Mobile adhesion ad (entry 31 notes the 1000px ad rule).'),
-    '>1000': ([ADS], 'drift', bp('grid', 'l', 'min'), 'Top and bottom leaderboard ad placement.'),
+    '<1000': ([ADS], 'component', None, 'Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Mobile adhesion ad.'),
+    '>1000': ([ADS], 'component', None, 'Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Top and bottom leaderboard ad placement.'),
     '<1024': ([DIGI, THEME, MG2], 'drift', bp('device', 'tablet-landscape', 'max'), 'Off by one for the Device set (should be 1023); the theme rule (#dfm-digisubs-menu) should use grid l (1039).'),
     '>1024': ([DIGI], 'official', bp('device', 'tablet-landscape', 'min'), 'Digisubs card line.'),
-    '<1025': ([ADS], 'drift', bp('grid', 'l', 'max'), 'Mobile adhesion ad.'),
+    '<1025': ([ADS], 'component', None, 'Ad Blocks component breakpoint: ad rules keep their own values (Karl, 2026-10-14). Mobile adhesion ad.'),
     '<1039': ([THEME, DIGI, TRUST], 'official', bp('grid', 'l', 'max'), 'The masthead switches to desktop here.'),
     '<1040': ([TRUST, THEME], 'drift', bp('grid', 'l', 'max'), 'Off by one: (max-width: 1040px) overlaps l; should be 1039 (trust-indicator footer links).'),
     '>1040': ([THEME], 'official', bp('grid', 'l', 'min'), ''),
     '<1064': ([MG2], 'third-party', None, ''),
-    '<1150': ([THEME], 'drift', bp('grid', 'l', 'max'), 'Special investigative header.'),
+    '<1150': ([THEME], 'to-confirm', bp('grid', 'l', 'max'), 'Special investigative header template: not found live on the 6 sites. Karl to decide.'),
     '<1199': ([MG2], 'third-party', None, ''),
     '<1199.98': ([DIGI_APP], 'drift', bp('device', 'desktop', 'max'), 'Bootstrap xl-down.'),
     '<1200': ([OSANO, MG2], 'third-party', None, ''),
@@ -198,16 +199,16 @@ def main():
         row = {'query': '(%s-width: %spx)' % (kind, px), 'kind': kind, 'px': px, 'tier': tier, 'owners': ours,
                'sites': sorted(v['sites']), 'rules': v['uses'], 'stylesheets': sheets or v['sheets'], 'sampleSelector': sample}
         if snap:
-            row['official' if tier == 'official' else 'snapTo'] = snap
+            row['official' if tier == 'official' else ('snapToIfDrift' if tier == 'to-confirm' else 'snapTo')] = snap
         if note:
             row['note'] = note
         rows.append(row)
     excluded = {t: sum(1 for r in rows if r['tier'] == t) for t in ('third-party', 'wordpress-admin')}
-    rows = [r for r in rows if r['tier'] not in excluded]  # not ours (Karl, 2026-10-14)
+    rows = [r for r in rows if r['tier'] not in excluded and r['tier'] != 'not-documented']  # not ours / not documented (Karl, 2026-10-14)
     rows.sort(key=lambda r: (r['px'], r['kind']))
     counts = {}
     for r in rows:
-        if r['tier'] in ('third-party', 'wordpress-admin'):
+        if r['tier'] in ('third-party', 'wordpress-admin', 'not-documented'):
             continue
         counts[r['tier']] = counts.get(r['tier'], 0) + 1
     out = {
@@ -228,6 +229,8 @@ def main():
         'sites': {s: {'pages': d['pages'], 'blockedStylesheets': d.get('blocked', [])} for s, d in scans.items()},
         'summary': counts,
         'excluded': {'thirdParty': excluded['third-party'], 'wordpressAdminBar': excluded['wordpress-admin'],
+                     'digisubsNotDocumented': ['digisubs modal (max 344)', 'spoof banner (max 380)', 'push prompt (max 430)',
+                                               'article share box (min 431)', 'employee debugger (min 450)'],
                      'note': 'Third-party breakpoints (Mg2 Connext paywall, Osano, Kargo, HTL ad bidder) and the WordPress '
                              'admin bar (logged-in editors only) are not ours, so they are left out (Karl, 2026-10-14).'},
         'production': rows,
