@@ -177,12 +177,12 @@
         {
           "slug": "noto-sans",
           "name": "Noto Sans",
-          "fontFamily": "\"Noto Sans\", sans-serif"
+          "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
         },
         {
           "slug": "noto-serif",
           "name": "Noto Serif",
-          "fontFamily": "\"Noto Serif\", serif"
+          "fontFamily": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif"
         }
       ],
       "fontSizes": [
@@ -334,6 +334,7 @@
         "lg": "8px"
       },
       "breakpoint": {
+        "fold": "340px",
         "mobile": "360px",
         "tablet": "768px",
         "tablet-landscape": "1024px",

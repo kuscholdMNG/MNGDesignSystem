@@ -6,6 +6,8 @@
       "noto-sans": {
         "$value": [
           "Noto Sans",
+          "Tahoma",
+          "Arial",
           "sans-serif"
         ],
         "$extensions": {
@@ -13,7 +15,8 @@
             "figma": {
               "file": "MNG Web Design System",
               "collection": "Type Primitives",
-              "variable": "font/family/noto-sans"
+              "variable": "font/family/noto-sans",
+              "fallbacks": "Fonts page, Font Styles and Fallbacks (2768:1051): Preferred, Fall-back Font A, Fall-back Font B"
             }
           }
         }
@@ -21,6 +24,8 @@
       "noto-serif": {
         "$value": [
           "Noto Serif",
+          "Georgia",
+          "Times New Roman",
           "serif"
         ],
         "$extensions": {
@@ -28,7 +33,8 @@
             "figma": {
               "file": "MNG Web Design System",
               "collection": "Type Primitives",
-              "variable": "font/family/noto-serif"
+              "variable": "font/family/noto-serif",
+              "fallbacks": "Fonts page, Font Styles and Fallbacks (2768:1051): Preferred, Fall-back Font A, Fall-back Font B"
             }
           }
         }

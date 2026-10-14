@@ -1,13 +1,28 @@
 {
-  "$description": "MNG Device breakpoints (core). Min-width boundaries matching the Figma screen widths. Below breakpoint.mobile (360) is Fold, designed at 340. Reader Dashboard today; every product eventually. Production drift: production-vs-design-differences.md entry 30.",
+  "$description": "MNG Device breakpoints (core). Min-width boundaries matching the Figma screen widths 340 / 360 / 768 / 1024 / 1280. fold (340) is the smallest supported width. Reader Dashboard today; every product eventually. Production drift: production-vs-design-differences.md entry 30.",
   "breakpoint": {
     "$type": "dimension",
+    "fold": {
+      "$value": {
+        "value": 340,
+        "unit": "px"
+      },
+      "$description": "Fold (narrow and folding phones), 340px and up. The smallest supported width (Karl, 2026-10-14).",
+      "$extensions": {
+        "com.mng": {
+          "figma": {
+            "file": "MNG Web Design System",
+            "frameWidth": 340
+          }
+        }
+      }
+    },
     "mobile": {
       "$value": {
         "value": 360,
         "unit": "px"
       },
-      "$description": "Mobile, 360px and up. Below this is Fold (Figma frame 340).",
+      "$description": "Mobile, 360px and up.",
       "$extensions": {
         "com.mng": {
           "figma": {

@@ -268,8 +268,10 @@ for k in theme_keys:
     toks = brand_sets[k]
     own = theme_own(k)
     info = THEMES[k]
-    comment = '%s (%s%s). %s Load after core.css.' % (info['name'], info['level'],
-                                                      ', on ' + THEMES[info['parentTheme']]['name'] if info['parentTheme'] else '', HEADER)
+    load_note = 'Load after core.css.' if info['level'] != 'product' else \
+        'Colors only: load after core.css and the site\'s theme file (type follows the site\'s theme).'
+    comment = '%s (%s%s). %s %s' % (info['name'], info['level'],
+                                    ', on ' + THEMES[info['parentTheme']]['name'] if info['parentTheme'] else '', HEADER, load_note)
     write('css/themes/%s.css' % k, block(':root', css_decls(toks, list(own)), comment))
 
 for d, s in site_override.items():

@@ -100,6 +100,7 @@ export declare const core: {
     lg: string;
   };
   breakpoint: {
+    fold: string;
     mobile: string;
     tablet: string;
     "tablet-landscape": string;
@@ -140,9 +141,13 @@ export declare const wordpress: {
     };
     footer: {
       copyright: {
-        "font-family": string;
-        "font-size": string;
-        "font-weight": number;
+        fontFamily: string;
+        fontSize: string;
+        fontWeight: number;
+        lineHeight: number;
+        letterSpacing: string;
+        lineHeightPx: string;
+        cssVar: string;
       };
     };
     "module-header": {
@@ -152,9 +157,13 @@ export declare const wordpress: {
     };
     navigation: {
       "primary-label": {
-        "font-family": string;
-        "font-size": string;
-        "font-weight": number;
+        fontFamily: string;
+        fontSize: string;
+        fontWeight: number;
+        lineHeight: number;
+        letterSpacing: string;
+        lineHeightPx: string;
+        cssVar: string;
       };
     };
     titles: {
@@ -231,9 +240,13 @@ export declare const wordpress: {
         cssVar: string;
       };
       "section-header": {
-        "font-family": string;
-        "font-size": string;
-        "font-weight": number;
+        fontFamily: string;
+        fontSize: string;
+        fontWeight: number;
+        lineHeight: number;
+        letterSpacing: string;
+        lineHeightPx: string;
+        cssVar: string;
       };
       subtitle: {
         fontFamily: string;

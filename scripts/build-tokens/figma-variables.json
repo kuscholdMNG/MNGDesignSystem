@@ -2482,6 +2482,72 @@
     "scopes": [
      "ALL_SCOPES"
     ]
+   },
+   {
+    "name": "Editorial/Titles/SectionHeader/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 40
+    },
+    "description": "Section-front page H1 (h1.section-header, e.g. /sports/): 40px / line height 40px (1.0). Measured live 2026-10-14 at desktop width on ocregister, denverpost, chicagotribune and canoncitydailyrecord (identical on all 4; orlandosentinel and mcall not checked).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/SectionHeader/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 0
+    },
+    "description": "Section-front page H1 (h1.section-header): letter spacing normal (0). Measured live 2026-10-14 at desktop width on ocregister, denverpost, chicagotribune and canoncitydailyrecord (identical on all 4; orlandosentinel and mcall not checked).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Navigation/PrimaryLabel/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 26
+    },
+    "description": "Primary nav-bar label (.nav-primary-bottom .nav-primary a): 15px / 600, line height 26px. Measured live 2026-10-14 at desktop width on ocregister, denverpost, chicagotribune and canoncitydailyrecord (identical on all 4; orlandosentinel and mcall not checked).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Navigation/PrimaryLabel/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 0
+    },
+    "description": "Primary nav-bar label: letter spacing normal (0). Measured live 2026-10-14 at desktop width on ocregister, denverpost, chicagotribune and canoncitydailyrecord (identical on all 4; orlandosentinel and mcall not checked).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Footer/Copyright/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 18
+    },
+    "description": "Footer copyright line (.footer-copyright-notice p): production is 12.48px / 18.72px (line height 1.5). Design size is 12px (font/size/12), so the line height keeps the 1.5 ratio: 18px. Measured live 2026-10-14 at desktop width on ocregister, denverpost, chicagotribune and canoncitydailyrecord (identical on all 4; orlandosentinel and mcall not checked).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Footer/Copyright/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 0
+    },
+    "description": "Footer copyright line: letter spacing normal (0). Measured live 2026-10-14 at desktop width on ocregister, denverpost, chicagotribune and canoncitydailyrecord (identical on all 4; orlandosentinel and mcall not checked).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
    }
   ],
   "Typography Theme": [

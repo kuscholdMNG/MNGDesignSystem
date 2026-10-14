@@ -86,6 +86,17 @@
     },
     "footer": {
       "copyright": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.noto-sans}",
+          "fontSize": "{font.size.12}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": 1.5,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "em"
+          }
+        },
         "$description": "Measured live 2026-09-10 at 12.48px on all 6 repertoire sites — aliased to the existing font/size/12 primitive (same rounding treatment as font/size/14 @ ~14.06px measured and font/size/19 @ ~19.2px measured).",
         "$extensions": {
           "com.mng": {
@@ -95,20 +106,10 @@
               "variable": "Editorial/Footer/Copyright/*"
             },
             "figmaStyle": "Regular",
-            "note": "No line height or letter spacing in Figma yet, so not a typography composite."
+            "lineHeightPx": 18,
+            "letterSpacingPx": 0,
+            "letterSpacingFigma": "0%"
           }
-        },
-        "font-family": {
-          "$type": "fontFamily",
-          "$value": "{font.family.noto-sans}"
-        },
-        "font-size": {
-          "$type": "dimension",
-          "$value": "{font.size.12}"
-        },
-        "font-weight": {
-          "$type": "fontWeight",
-          "$value": "{font.weight.regular}"
         }
       }
     },
@@ -140,6 +141,17 @@
     },
     "navigation": {
       "primary-label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.noto-sans}",
+          "fontSize": "{font.size.15}",
+          "fontWeight": "{font.weight.semibold}",
+          "lineHeight": 1.7333,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "em"
+          }
+        },
         "$description": "15px — confirmed live 2026-09-10 on all 6 repertoire sites.",
         "$extensions": {
           "com.mng": {
@@ -149,20 +161,10 @@
               "variable": "Editorial/Navigation/PrimaryLabel/*"
             },
             "figmaStyle": "SemiBold",
-            "note": "No line height or letter spacing in Figma yet, so not a typography composite."
+            "lineHeightPx": 26,
+            "letterSpacingPx": 0,
+            "letterSpacingFigma": "0%"
           }
-        },
-        "font-family": {
-          "$type": "fontFamily",
-          "$value": "{font.family.noto-sans}"
-        },
-        "font-size": {
-          "$type": "dimension",
-          "$value": "{font.size.15}"
-        },
-        "font-weight": {
-          "$type": "fontWeight",
-          "$value": "{font.weight.semibold}"
         }
       }
     },
@@ -384,6 +386,17 @@
         }
       },
       "section-header": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.theme.heading-family}",
+          "fontSize": "{font.size.40}",
+          "fontWeight": "{font.weight.bold}",
+          "lineHeight": 1,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "em"
+          }
+        },
         "$description": "Section-front page H1 (e.g. a category landing page's \"Sports\" heading). Confirmed live 2026-09-10 on ocregister.com/sports/ and chicagotribune.com/sports/ (className \"section-header\"). Consolidates CRUX Style Library's sectionH1 and mastheadSectionH1 tokens, which were identical duplicates (both 40/700). Aliased to font/theme/heading-family since production renders it in the theme's heading font.",
         "$extensions": {
           "com.mng": {
@@ -393,20 +406,10 @@
               "variable": "Editorial/Titles/SectionHeader/*"
             },
             "figmaStyle": "Bold",
-            "note": "No line height or letter spacing in Figma yet, so not a typography composite."
+            "lineHeightPx": 40,
+            "letterSpacingPx": 0,
+            "letterSpacingFigma": "0%"
           }
-        },
-        "font-family": {
-          "$type": "fontFamily",
-          "$value": "{font.theme.heading-family}"
-        },
-        "font-size": {
-          "$type": "dimension",
-          "$value": "{font.size.40}"
-        },
-        "font-weight": {
-          "$type": "fontWeight",
-          "$value": "{font.weight.bold}"
         }
       },
       "subtitle": {

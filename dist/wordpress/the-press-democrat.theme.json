@@ -182,32 +182,32 @@
         {
           "slug": "noto-sans",
           "name": "Noto Sans",
-          "fontFamily": "\"Noto Sans\", sans-serif"
+          "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
         },
         {
           "slug": "noto-serif",
           "name": "Noto Serif",
-          "fontFamily": "\"Noto Serif\", serif"
+          "fontFamily": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif"
         },
         {
           "slug": "heading",
           "name": "Heading",
-          "fontFamily": "\"Noto Serif\", serif"
+          "fontFamily": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif"
         },
         {
           "slug": "body",
           "name": "Body",
-          "fontFamily": "\"Noto Sans\", sans-serif"
+          "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
         },
         {
           "slug": "eyebrow",
           "name": "Eyebrow",
-          "fontFamily": "\"Noto Sans\", sans-serif"
+          "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
         },
         {
           "slug": "small-headline",
           "name": "Small Headline",
-          "fontFamily": "\"Noto Sans\", sans-serif"
+          "fontFamily": "\"Noto Sans\", \"Tahoma\", \"Arial\", sans-serif"
         }
       ],
       "fontSizes": [
@@ -359,6 +359,7 @@
         "lg": "8px"
       },
       "breakpoint": {
+        "fold": "340px",
         "mobile": "360px",
         "tablet": "768px",
         "tablet-landscape": "1024px",

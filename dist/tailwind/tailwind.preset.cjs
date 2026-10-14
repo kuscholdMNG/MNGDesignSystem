@@ -54,10 +54,14 @@ module.exports = {
       "fontFamily": {
         "noto-sans": [
           "Noto Sans",
+          "Tahoma",
+          "Arial",
           "sans-serif"
         ],
         "noto-serif": [
           "Noto Serif",
+          "Georgia",
+          "Times New Roman",
           "serif"
         ],
         "theme-body": [
@@ -116,6 +120,7 @@ module.exports = {
         "lg": "8px"
       },
       "screens": {
+        "fold": "340px",
         "mobile": "360px",
         "tablet": "768px",
         "tablet-landscape": "1024px",

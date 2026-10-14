@@ -25,12 +25,20 @@
   --mng-editorial-footer-copyright-font-family: var(--mng-font-family-noto-sans);
   --mng-editorial-footer-copyright-font-size: var(--mng-font-size-12);
   --mng-editorial-footer-copyright-font-weight: var(--mng-font-weight-regular);
+  --mng-editorial-footer-copyright-line-height: 1.5;
+  --mng-editorial-footer-copyright-letter-spacing: 0em;
+  --mng-editorial-footer-copyright-line-height-px: 18px;
+  --mng-editorial-footer-copyright-font: var(--mng-editorial-footer-copyright-font-weight) var(--mng-editorial-footer-copyright-font-size)/var(--mng-editorial-footer-copyright-line-height) var(--mng-editorial-footer-copyright-font-family);
   --mng-editorial-module-header-font-family: var(--mng-font-theme-heading-family);
   --mng-editorial-module-header-font-size: var(--mng-font-size-20);
   --mng-editorial-module-header-font-weight: var(--mng-font-weight-semibold);
   --mng-editorial-navigation-primary-label-font-family: var(--mng-font-family-noto-sans);
   --mng-editorial-navigation-primary-label-font-size: var(--mng-font-size-15);
   --mng-editorial-navigation-primary-label-font-weight: var(--mng-font-weight-semibold);
+  --mng-editorial-navigation-primary-label-line-height: 1.7333;
+  --mng-editorial-navigation-primary-label-letter-spacing: 0em;
+  --mng-editorial-navigation-primary-label-line-height-px: 26px;
+  --mng-editorial-navigation-primary-label-font: var(--mng-editorial-navigation-primary-label-font-weight) var(--mng-editorial-navigation-primary-label-font-size)/var(--mng-editorial-navigation-primary-label-line-height) var(--mng-editorial-navigation-primary-label-font-family);
   --mng-editorial-titles-card-quaternary-font-family: var(--mng-font-theme-small-headline-family);
   --mng-editorial-titles-card-quaternary-font-size: var(--mng-font-size-19);
   --mng-editorial-titles-card-quaternary-font-weight: var(--mng-font-weight-semibold);
@@ -90,6 +98,10 @@
   --mng-editorial-titles-section-header-font-family: var(--mng-font-theme-heading-family);
   --mng-editorial-titles-section-header-font-size: var(--mng-font-size-40);
   --mng-editorial-titles-section-header-font-weight: var(--mng-font-weight-bold);
+  --mng-editorial-titles-section-header-line-height: 1;
+  --mng-editorial-titles-section-header-letter-spacing: 0em;
+  --mng-editorial-titles-section-header-line-height-px: 40px;
+  --mng-editorial-titles-section-header-font: var(--mng-editorial-titles-section-header-font-weight) var(--mng-editorial-titles-section-header-font-size)/var(--mng-editorial-titles-section-header-line-height) var(--mng-editorial-titles-section-header-font-family);
   --mng-editorial-titles-subtitle-font-family: var(--mng-font-theme-heading-family);
   --mng-editorial-titles-subtitle-font-size: var(--mng-font-size-23);
   --mng-editorial-titles-subtitle-font-weight: var(--mng-font-weight-medium);
@@ -131,6 +143,14 @@
   font: var(--mng-editorial-body-excerpt-compact-font);
   letter-spacing: var(--mng-editorial-body-excerpt-compact-letter-spacing);
 }
+.mng-editorial-footer-copyright {
+  font: var(--mng-editorial-footer-copyright-font);
+  letter-spacing: var(--mng-editorial-footer-copyright-letter-spacing);
+}
+.mng-editorial-navigation-primary-label {
+  font: var(--mng-editorial-navigation-primary-label-font);
+  letter-spacing: var(--mng-editorial-navigation-primary-label-letter-spacing);
+}
 .mng-editorial-titles-card-quaternary {
   font: var(--mng-editorial-titles-card-quaternary-font);
   letter-spacing: var(--mng-editorial-titles-card-quaternary-letter-spacing);
@@ -162,6 +182,10 @@
 .mng-editorial-titles-related-headline {
   font: var(--mng-editorial-titles-related-headline-font);
   letter-spacing: var(--mng-editorial-titles-related-headline-letter-spacing);
+}
+.mng-editorial-titles-section-header {
+  font: var(--mng-editorial-titles-section-header-font);
+  letter-spacing: var(--mng-editorial-titles-section-header-letter-spacing);
 }
 .mng-editorial-titles-subtitle {
   font: var(--mng-editorial-titles-subtitle-font);

@@ -21,12 +21,18 @@ $mng-editorial-body-excerpt-compact: ("font-family": $mng-editorial-body-excerpt
 $mng-editorial-footer-copyright-font-family: $mng-font-family-noto-sans;
 $mng-editorial-footer-copyright-font-size: $mng-font-size-12;
 $mng-editorial-footer-copyright-font-weight: $mng-font-weight-regular;
+$mng-editorial-footer-copyright-line-height: 1.5;
+$mng-editorial-footer-copyright-letter-spacing: 0em;
+$mng-editorial-footer-copyright: ("font-family": $mng-editorial-footer-copyright-font-family, "font-size": $mng-editorial-footer-copyright-font-size, "font-weight": $mng-editorial-footer-copyright-font-weight, "line-height": $mng-editorial-footer-copyright-line-height, "letter-spacing": $mng-editorial-footer-copyright-letter-spacing);
 $mng-editorial-module-header-font-family: $mng-font-theme-heading-family;
 $mng-editorial-module-header-font-size: $mng-font-size-20;
 $mng-editorial-module-header-font-weight: $mng-font-weight-semibold;
 $mng-editorial-navigation-primary-label-font-family: $mng-font-family-noto-sans;
 $mng-editorial-navigation-primary-label-font-size: $mng-font-size-15;
 $mng-editorial-navigation-primary-label-font-weight: $mng-font-weight-semibold;
+$mng-editorial-navigation-primary-label-line-height: 1.7333;
+$mng-editorial-navigation-primary-label-letter-spacing: 0em;
+$mng-editorial-navigation-primary-label: ("font-family": $mng-editorial-navigation-primary-label-font-family, "font-size": $mng-editorial-navigation-primary-label-font-size, "font-weight": $mng-editorial-navigation-primary-label-font-weight, "line-height": $mng-editorial-navigation-primary-label-line-height, "letter-spacing": $mng-editorial-navigation-primary-label-letter-spacing);
 $mng-editorial-titles-card-quaternary-font-family: $mng-font-theme-small-headline-family;
 $mng-editorial-titles-card-quaternary-font-size: $mng-font-size-19;
 $mng-editorial-titles-card-quaternary-font-weight: $mng-font-weight-semibold;
@@ -78,6 +84,9 @@ $mng-editorial-titles-related-headline: ("font-family": $mng-editorial-titles-re
 $mng-editorial-titles-section-header-font-family: $mng-font-theme-heading-family;
 $mng-editorial-titles-section-header-font-size: $mng-font-size-40;
 $mng-editorial-titles-section-header-font-weight: $mng-font-weight-bold;
+$mng-editorial-titles-section-header-line-height: 1;
+$mng-editorial-titles-section-header-letter-spacing: 0em;
+$mng-editorial-titles-section-header: ("font-family": $mng-editorial-titles-section-header-font-family, "font-size": $mng-editorial-titles-section-header-font-size, "font-weight": $mng-editorial-titles-section-header-font-weight, "line-height": $mng-editorial-titles-section-header-line-height, "letter-spacing": $mng-editorial-titles-section-header-letter-spacing);
 $mng-editorial-titles-subtitle-font-family: $mng-font-theme-heading-family;
 $mng-editorial-titles-subtitle-font-size: $mng-font-size-23;
 $mng-editorial-titles-subtitle-font-weight: $mng-font-weight-medium;

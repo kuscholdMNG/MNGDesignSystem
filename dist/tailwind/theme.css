@@ -25,8 +25,8 @@
   --color-tributes-tertiary: #3a252b;
   --color-tributes-tan: #a39c8a;
   --color-tributes-tan-light: #e8e6e2;
-  --font-noto-sans: "Noto Sans", sans-serif;
-  --font-noto-serif: "Noto Serif", serif;
+  --font-noto-sans: "Noto Sans", "Tahoma", "Arial", sans-serif;
+  --font-noto-serif: "Noto Serif", "Georgia", "Times New Roman", serif;
   --text-10: 0.625rem;
   --text-11: 0.6875rem;
   --text-12: 0.75rem;
@@ -61,6 +61,7 @@
   --radius-sm: 4px;
   --radius-utility: 5px;
   --radius-lg: 8px;
+  --breakpoint-fold: 21.25rem;
   --breakpoint-mobile: 22.5rem;
   --breakpoint-tablet: 48rem;
   --breakpoint-tablet-landscape: 64rem;
@@ -104,6 +105,14 @@
   font: var(--mng-editorial-body-excerpt-compact-font);
   letter-spacing: var(--mng-editorial-body-excerpt-compact-letter-spacing);
 }
+@utility editorial-footer-copyright {
+  font: var(--mng-editorial-footer-copyright-font);
+  letter-spacing: var(--mng-editorial-footer-copyright-letter-spacing);
+}
+@utility editorial-navigation-primary-label {
+  font: var(--mng-editorial-navigation-primary-label-font);
+  letter-spacing: var(--mng-editorial-navigation-primary-label-letter-spacing);
+}
 @utility editorial-titles-card-quaternary {
   font: var(--mng-editorial-titles-card-quaternary-font);
   letter-spacing: var(--mng-editorial-titles-card-quaternary-letter-spacing);
@@ -135,6 +144,10 @@
 @utility editorial-titles-related-headline {
   font: var(--mng-editorial-titles-related-headline-font);
   letter-spacing: var(--mng-editorial-titles-related-headline-letter-spacing);
+}
+@utility editorial-titles-section-header {
+  font: var(--mng-editorial-titles-section-header-font);
+  letter-spacing: var(--mng-editorial-titles-section-header-letter-spacing);
 }
 @utility editorial-titles-subtitle {
   font: var(--mng-editorial-titles-subtitle-font);

@@ -1,22 +1,98 @@
 {
   "$description": "The two official breakpoint sets (Karl, 2026-10-14; EXPORT-STANDARD.md section 6). Input for make-tokens.py. Breakpoints are min-width boundaries; Figma frame widths are documentation, not tokens. Changing a value or adding a breakpoint needs Karl's review (review branch + pull request).",
   "device": {
-    "description": "MNG Device breakpoints (core). Min-width boundaries matching the Figma screen widths. Below breakpoint.mobile (360) is Fold, designed at 340. Reader Dashboard today; every product eventually. Production drift: production-vs-design-differences.md entry 30.",
+    "description": "MNG Device breakpoints (core). Min-width boundaries matching the Figma screen widths 340 / 360 / 768 / 1024 / 1280. fold (340) is the smallest supported width. Reader Dashboard today; every product eventually. Production drift: production-vs-design-differences.md entry 30.",
     "tokens": [
-      {"name": "mobile", "minWidth": 360, "figmaFrameWidth": 360, "description": "Mobile, 360px and up. Below this is Fold (Figma frame 340)."},
-      {"name": "tablet", "minWidth": 768, "figmaFrameWidth": 768, "description": "Tablet (vertical), 768px and up."},
-      {"name": "tablet-landscape", "minWidth": 1024, "figmaFrameWidth": 1024, "description": "Tablet horizontal, 1024px and up. Reader Dashboard's layout switches here."},
-      {"name": "desktop", "minWidth": 1280, "figmaFrameWidth": 1280, "description": "Desktop, 1280px and up."}
+      {
+        "name": "fold",
+        "minWidth": 340,
+        "figmaFrameWidth": 340,
+        "description": "Fold (narrow and folding phones), 340px and up. The smallest supported width (Karl, 2026-10-14)."
+      },
+      {
+        "name": "mobile",
+        "minWidth": 360,
+        "figmaFrameWidth": 360,
+        "description": "Mobile, 360px and up."
+      },
+      {
+        "name": "tablet",
+        "minWidth": 768,
+        "figmaFrameWidth": 768,
+        "description": "Tablet (vertical), 768px and up."
+      },
+      {
+        "name": "tablet-landscape",
+        "minWidth": 1024,
+        "figmaFrameWidth": 1024,
+        "description": "Tablet horizontal, 1024px and up. Reader Dashboard's layout switches here."
+      },
+      {
+        "name": "desktop",
+        "minWidth": 1280,
+        "figmaFrameWidth": 1280,
+        "description": "Desktop, 1280px and up."
+      }
     ]
   },
   "wordpressGrid": {
     "description": "WordPress grid breakpoints (WordPress layer, legacy). From the WordPress themes' grid (16 columns x 80px, 20px gutters, 1280 container). Used by the three shared themes and Obituaries. Retired when WordPress moves to the MNG Device set. Obituaries drift: production-vs-design-differences.md entry 31.",
     "tokens": [
-      {"name": "xs", "minWidth": 320, "description": "Grid xs, 320px and up.", "production": {"source": "assets/client/scss/common-base/layout/_grid-variables.scss", "property": "$columns-map xs", "verified": "2026-10-14", "matches": true}},
-      {"name": "s", "minWidth": 640, "description": "Grid s, 640px and up.", "production": {"source": "assets/client/scss/common-base/layout/_grid-variables.scss", "property": "$columns-map s", "verified": "2026-10-14", "matches": true}},
-      {"name": "m", "minWidth": 800, "description": "Grid m, 800px and up.", "production": {"source": "assets/client/scss/common-base/layout/_grid-variables.scss", "property": "$columns-map m", "verified": "2026-10-14", "matches": true}},
-      {"name": "l", "minWidth": 1040, "description": "Grid l, 1040px and up. The masthead switches to its desktop layout here ($header-primary-bp, all 3 themes).", "production": {"source": "assets/client/scss/common-base/layout/_grid-variables.scss", "property": "$columns-map l", "verified": "2026-10-14", "matches": true}},
-      {"name": "xl", "minWidth": 1280, "description": "Grid xl, 1280px and up (container width).", "production": {"source": "assets/client/scss/common-base/layout/_grid-variables.scss", "property": "$columns-map xl", "verified": "2026-10-14", "matches": true}}
+      {
+        "name": "xs",
+        "minWidth": 320,
+        "description": "Grid xs, 320px and up.",
+        "production": {
+          "source": "assets/client/scss/common-base/layout/_grid-variables.scss",
+          "property": "$columns-map xs",
+          "verified": "2026-10-14",
+          "matches": true
+        }
+      },
+      {
+        "name": "s",
+        "minWidth": 640,
+        "description": "Grid s, 640px and up.",
+        "production": {
+          "source": "assets/client/scss/common-base/layout/_grid-variables.scss",
+          "property": "$columns-map s",
+          "verified": "2026-10-14",
+          "matches": true
+        }
+      },
+      {
+        "name": "m",
+        "minWidth": 800,
+        "description": "Grid m, 800px and up.",
+        "production": {
+          "source": "assets/client/scss/common-base/layout/_grid-variables.scss",
+          "property": "$columns-map m",
+          "verified": "2026-10-14",
+          "matches": true
+        }
+      },
+      {
+        "name": "l",
+        "minWidth": 1040,
+        "description": "Grid l, 1040px and up. The masthead switches to its desktop layout here ($header-primary-bp, all 3 themes).",
+        "production": {
+          "source": "assets/client/scss/common-base/layout/_grid-variables.scss",
+          "property": "$columns-map l",
+          "verified": "2026-10-14",
+          "matches": true
+        }
+      },
+      {
+        "name": "xl",
+        "minWidth": 1280,
+        "description": "Grid xl, 1280px and up (container width).",
+        "production": {
+          "source": "assets/client/scss/common-base/layout/_grid-variables.scss",
+          "property": "$columns-map xl",
+          "verified": "2026-10-14",
+          "matches": true
+        }
+      }
     ]
   }
 }

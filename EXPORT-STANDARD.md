@@ -1,6 +1,6 @@
 # MNG Web Design System — Export Standard
 
-> **Draft 2026-10-13, updated 2026-10-14** (PNG previews stay in GitHub, no Git LFS; where pixel values are kept; Reader Dashboard is part of core; two breakpoint sets; Vite/package note) for Karl's review (branch `review/export-standard`). Once merged, every token and component export follows this file. The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
+> **Draft 2026-10-13, updated 2026-10-14** (Fold 340 added to the MNG Device breakpoints; PNG previews stay in GitHub, no Git LFS; where pixel values are kept; Reader Dashboard is part of core; two breakpoint sets; Vite/package note) for Karl's review (branch `review/export-standard`). Once merged, every token and component export follows this file. The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
 
 ## 1. What this covers
 
@@ -189,10 +189,10 @@ Breakpoints come in three tiers:
 
    | Set | Tokens | Values (min-width) | Used by | Future |
    |---|---|---|---|---|
-   | **MNG Device breakpoints** (`tokens/core/`) | `breakpoint.mobile`, `breakpoint.tablet`, `breakpoint.tablet-landscape`, `breakpoint.desktop` | 360, 768, 1024, 1280. Below 360 is Fold (designed at 340). | Reader Dashboard today; every product eventually | The one system-wide set |
+   | **MNG Device breakpoints** (`tokens/core/`) | `breakpoint.fold`, `breakpoint.mobile`, `breakpoint.tablet`, `breakpoint.tablet-landscape`, `breakpoint.desktop` | 340, 360, 768, 1024, 1280. Fold (340) is the smallest supported width (Karl, 2026-10-14). | Reader Dashboard today; every product eventually | The one system-wide set |
    | **WordPress grid breakpoints** (`tokens/wordpress/`) | `breakpoint.wordpress-grid.xs`, `.s`, `.m`, `.l`, `.xl` | 320, 640, 800, 1040, 1280. The masthead switches to desktop at `l`. | WordPress themes, including Obituaries (from `_grid-variables.scss`) | Legacy; retired when WordPress moves to the Device set |
 
-   The Device set matches the Figma screen widths (Fold 340, Mobile 360, Tablet 768, Tablet horizontal 1024, Desktop 1280). Its token names deliberately differ from the WordPress grid names and from the Masthead's `Device` labels (`MD-TabletV (640–799px)` and so on), because those carry WordPress ranges. Each Device token records its Figma frame width in `$extensions.com.mng.figma.frameWidth`.
+   The Device set matches the Figma screen widths one to one (Fold 340, Mobile 360, Tablet 768, Tablet horizontal 1024, Desktop 1280). Its token names deliberately differ from the WordPress grid names and from the Masthead's `Device` labels (`MD-TabletV (640–799px)` and so on), because those carry WordPress ranges. Each Device token records its Figma frame width in `$extensions.com.mng.figma.frameWidth`.
 2. **Component breakpoints:** an intended one-off used by a single component goes in that component's `<slug>.tokens.json`, not in the system set.
 3. **Production drift:** any other production breakpoint is logged in `production-vs-design-differences.md` with the official breakpoint it should snap to. Reader Dashboard must match the Device set (open questions: entry 30). Obituaries is part of the WordPress layer and must match the WordPress grid (drift: entry 31).
 
