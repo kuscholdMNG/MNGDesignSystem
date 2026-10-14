@@ -34,8 +34,8 @@ def bp(set_name, key, kind):
             'query': '(min-width: %dpx)' % v if kind == 'min' else '(max-width: %dpx)' % (v - 1), 'label': label}
 
 THEME = 'WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)'
-DIGI = 'mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)'
-DIGI_APP = 'plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)'
+DIGI = 'mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)'
+DIGI_APP = 'plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)'
 TRUST = 'dfm-trust-indicators plugin (MNG)'
 ADS = 'WordPress theme ad rules (dfp-ad, mobile adhesion)'
 MG2 = 'Mg2 Connext paywall (third party, engage.<site>)'
@@ -73,7 +73,7 @@ CLASSIFY = {
     '<535': ([THEME], 'drift', bp('grid', 's', 'max'), 'Sports Radar widget.'),
     '<550': ([DIGI], 'drift', bp('device', 'mobile', 'max'), 'Regwall (:root:not(:has(#server-regwall))).'),
     '<575.98': ([DIGI_APP], 'drift', bp('device', 'tablet', 'max'), 'Bootstrap sm-down.'),
-    '<576': ([DIGI, MG2], 'drift', bp('device', 'tablet', 'max'), 'Digisubs content (.sspw-content); Mg2 also uses it.'),
+    '<576': ([DIGI, MG2], 'drift', bp('device', 'tablet', 'max'), 'Digisubs content (.sspw-content).'),
     '>576': ([DIGI_APP], 'drift', bp('device', 'tablet', 'min'), 'Bootstrap sm container.'),
     '<600': ([DIGI, THEME, MG2], 'drift', bp('grid', 's', 'max'), 'Article sharing and theme rules.'),
     '>600': ([WPADMIN], 'wordpress-admin', None, 'body.admin-bar.'),
@@ -91,7 +91,7 @@ CLASSIFY = {
     '<767': ([MG2], 'third-party', None, ''),
     '<767.98': ([DIGI_APP], 'official', bp('device', 'tablet', 'max'), 'Bootstrap md-down: the same boundary as MNG Device tablet (below 768).'),
     '<768': ([MG2], 'third-party', None, ''),
-    '>768': ([DIGI, DIGI_APP, MG2, OSANO], 'official', bp('device', 'tablet', 'min'), 'Digisubs rules match MNG Device tablet; Mg2 and Osano also use 768.'),
+    '>768': ([DIGI, DIGI_APP, MG2, OSANO], 'official', bp('device', 'tablet', 'min'), 'Digisubs rules match MNG Device tablet.'),
     '<770': ([DIGI], 'drift', bp('device', 'tablet', 'max'), 'Account dropdown menu.'),
     '<783': ([WPADMIN], 'wordpress-admin', None, ''),
     '>783': ([WPADMIN], 'wordpress-admin', None, ''),
@@ -108,7 +108,7 @@ CLASSIFY = {
     '<991': ([MG2], 'third-party', None, ''),
     '<991.98': ([DIGI_APP], 'drift', bp('device', 'tablet-landscape', 'max'), 'Bootstrap lg-down.'),
     '<992': ([MG2], 'third-party', None, ''),
-    '>992': ([DIGI_APP, MG2], 'drift', bp('device', 'tablet-landscape', 'min'), 'Bootstrap lg container; Mg2 also uses 992.'),
+    '>992': ([DIGI_APP, MG2], 'drift', bp('device', 'tablet-landscape', 'min'), 'Bootstrap lg container.'),
     '<1000': ([ADS], 'drift', bp('grid', 'l', 'max'), 'Mobile adhesion ad (entry 31 notes the 1000px ad rule).'),
     '>1000': ([ADS], 'drift', bp('grid', 'l', 'min'), 'Top and bottom leaderboard ad placement.'),
     '<1024': ([DIGI, THEME, MG2], 'drift', bp('device', 'tablet-landscape', 'max'), 'Off by one for the Device set (should be 1023); the theme rule (#dfm-digisubs-menu) should use grid l (1039).'),
@@ -122,7 +122,7 @@ CLASSIFY = {
     '<1199': ([MG2], 'third-party', None, ''),
     '<1199.98': ([DIGI_APP], 'drift', bp('device', 'desktop', 'max'), 'Bootstrap xl-down.'),
     '<1200': ([OSANO, MG2], 'third-party', None, ''),
-    '>1200': ([DIGI_APP, MG2], 'drift', bp('device', 'desktop', 'min'), 'Bootstrap xl container; Mg2 also uses 1200.'),
+    '>1200': ([DIGI_APP, MG2], 'drift', bp('device', 'desktop', 'min'), 'Bootstrap xl container.'),
     '<1279': ([THEME], 'official', bp('grid', 'xl', 'max'), ''),
     '<1280': ([THEME], 'drift', bp('grid', 'xl', 'max'), 'Off by one: (max-width: 1280px) overlaps xl; should be 1279 (.custom-dfm-section.dark-layout).'),
     '>1280': ([THEME, DIGI], 'official', bp('grid', 'xl', 'min'), 'Also MNG Device desktop (1280).'),
@@ -191,20 +191,28 @@ def main():
         kind = 'min' if k[0] == '>' else 'max'
         px = float(k[1:])
         px = int(px) if px == int(px) else px
-        row = {'query': '(%s-width: %spx)' % (kind, px), 'kind': kind, 'px': px, 'tier': tier, 'owners': owners,
-               'sites': sorted(v['sites']), 'rules': v['uses'], 'stylesheets': v['sheets'], 'sampleSelector': v['sample']}
+        third = (MG2, OSANO, KARGO, HTL, WPADMIN)
+        ours = [o for o in owners if o not in third] or owners
+        sheets = [x for x in v['sheets'] if not x.startswith('3P:') or 'mngdigisubs' in x]
+        sample = v['sample'] if not any(t in v['sample'] for t in ('osano', 'Mg2', 'kargo', 'htlad')) else None
+        row = {'query': '(%s-width: %spx)' % (kind, px), 'kind': kind, 'px': px, 'tier': tier, 'owners': ours,
+               'sites': sorted(v['sites']), 'rules': v['uses'], 'stylesheets': sheets or v['sheets'], 'sampleSelector': sample}
         if snap:
             row['official' if tier == 'official' else 'snapTo'] = snap
         if note:
             row['note'] = note
         rows.append(row)
+    excluded = {t: sum(1 for r in rows if r['tier'] == t) for t in ('third-party', 'wordpress-admin')}
+    rows = [r for r in rows if r['tier'] not in excluded]  # not ours (Karl, 2026-10-14)
     rows.sort(key=lambda r: (r['px'], r['kind']))
     counts = {}
     for r in rows:
+        if r['tier'] in ('third-party', 'wordpress-admin'):
+            continue
         counts[r['tier']] = counts.get(r['tier'], 0) + 1
     out = {
-        '$description': 'Every width breakpoint found in production, classified as official, component, drift, third-party '
-                        'or wordpress-admin (EXPORT-STANDARD.md section 6). Built by scripts/breakpoint-inventory/'
+        '$description': 'Every width breakpoint found in MNG production code, classified as official, component or drift '
+                        '(EXPORT-STANDARD.md section 6); third-party and WordPress admin-bar values are left out. Built by scripts/breakpoint-inventory/'
                         'build-inventory.py; never edit by hand. Drift is logged in production-vs-design-differences.md '
                         '(entries 30, 31, 33) with the official breakpoint to snap to.',
         'scanned': '2026-10-14',
@@ -219,6 +227,9 @@ def main():
         },
         'sites': {s: {'pages': d['pages'], 'blockedStylesheets': d.get('blocked', [])} for s, d in scans.items()},
         'summary': counts,
+        'excluded': {'thirdParty': excluded['third-party'], 'wordpressAdminBar': excluded['wordpress-admin'],
+                     'note': 'Third-party breakpoints (Mg2 Connext paywall, Osano, Kargo, HTL ad bidder) and the WordPress '
+                             'admin bar (logged-in editors only) are not ours, so they are left out (Karl, 2026-10-14).'},
         'production': rows,
         'websiteRepo': {'copy': '~/Documents/digital-first-media-master-built COPY 20260508 (read-only, 2026-05-08)',
                         'found': REPO_SOURCES},

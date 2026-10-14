@@ -1,5 +1,5 @@
 {
-  "$description": "Every width breakpoint found in production, classified as official, component, drift, third-party or wordpress-admin (EXPORT-STANDARD.md section 6). Built by scripts/breakpoint-inventory/build-inventory.py; never edit by hand. Drift is logged in production-vs-design-differences.md (entries 30, 31, 33) with the official breakpoint to snap to.",
+  "$description": "Every width breakpoint found in MNG production code, classified as official, component or drift (EXPORT-STANDARD.md section 6); third-party and WordPress admin-bar values are left out. Built by scripts/breakpoint-inventory/build-inventory.py; never edit by hand. Drift is logged in production-vs-design-differences.md (entries 30, 31, 33) with the official breakpoint to snap to.",
   "scanned": "2026-10-14",
   "method": "Live CSS scan (scan.js) of every loaded stylesheet, @media width conditions only, on the homepage, an article and the obituaries page of each review site, at a 1728px-wide window (media rules are read from the CSS, so the window width does not matter). Cross-origin sheets were fetched; the HTL ad bidder sheet was blocked on most sites. em/rem converted at 16px. JavaScript breakpoints (matchMedia, window.innerWidth) are not included.",
   "officialSets": {
@@ -88,29 +88,15 @@
     }
   },
   "summary": {
-    "third-party": 18,
     "drift": 50,
-    "official": 13,
-    "wordpress-admin": 8
+    "official": 13
+  },
+  "excluded": {
+    "thirdParty": 18,
+    "wordpressAdminBar": 8,
+    "note": "Third-party breakpoints (Mg2 Connext paywall, Osano, Kargo, HTL ad bidder) and the WordPress admin bar (logged-in editors only) are not ours, so they are left out (Karl, 2026-10-14)."
   },
   "production": [
-    {
-      "query": "(min-width: 0px)",
-      "kind": "min",
-      "px": 0,
-      "tier": "third-party",
-      "owners": [
-        "HTL ad bidder (third party, htlbid.com)"
-      ],
-      "sites": [
-        "mcall.com"
-      ],
-      "rules": 5,
-      "stylesheets": [
-        "3P:htlbid.com"
-      ],
-      "sampleSelector": ".htlad-sponsorship_1"
-    },
     {
       "query": "(min-width: 300px)",
       "kind": "min",
@@ -140,24 +126,6 @@
         "label": "WordPress grid xs"
       },
       "note": "Top leaderboard ad sizing (.dfp-ad.dfp-top_leaderboard)."
-    },
-    {
-      "query": "(max-width: 320px)",
-      "kind": "max",
-      "px": 320,
-      "tier": "third-party",
-      "owners": [
-        "Kargo ads (third party, inline)"
-      ],
-      "sites": [
-        "chicagotribune.com",
-        "mcall.com"
-      ],
-      "rules": 1,
-      "stylesheets": [
-        "inline"
-      ],
-      "sampleSelector": ".kargo-ad-1"
     },
     {
       "query": "(min-width: 320px)",
@@ -223,8 +191,8 @@
       "px": 340,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)",
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)",
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -254,7 +222,7 @@
       "px": 344,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -312,7 +280,7 @@
       "px": 360,
       "tier": "drift",
       "owners": [
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)"
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -341,7 +309,7 @@
       "px": 360,
       "tier": "official",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -366,34 +334,12 @@
       "note": "Regwall button."
     },
     {
-      "query": "(min-width: 376px)",
-      "kind": "min",
-      "px": 376,
-      "tier": "third-party",
-      "owners": [
-        "Osano cookie consent (third party, inline)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 1,
-      "stylesheets": [
-        "inline"
-      ],
-      "sampleSelector": ".osano-cm-dialog--type_bar .osano-cm-dia"
-    },
-    {
       "query": "(max-width: 380px)",
       "kind": "max",
       "px": 380,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -422,7 +368,7 @@
       "px": 400,
       "tier": "drift",
       "owners": [
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)"
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -475,34 +421,12 @@
       "note": "Sports Radar scores widget (#content.sports-radar-content)."
     },
     {
-      "query": "(max-width: 420px)",
-      "kind": "max",
-      "px": 420,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 1,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": "body .Mg2-connext[data-display-type].inf"
-    },
-    {
       "query": "(max-width: 430px)",
       "kind": "max",
       "px": 430,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -531,7 +455,7 @@
       "px": 431,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -555,34 +479,12 @@
       "note": "Article share box."
     },
     {
-      "query": "(max-width: 432px)",
-      "kind": "max",
-      "px": 432,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 3,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": ".modal-input"
-    },
-    {
       "query": "(max-width: 450px)",
       "kind": "max",
       "px": 450,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)",
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)",
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
       "sites": [
@@ -613,7 +515,7 @@
       "px": 450,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -635,28 +537,6 @@
         "label": "MNG Device mobile"
       },
       "note": "Employee debugger."
-    },
-    {
-      "query": "(max-width: 467px)",
-      "kind": "max",
-      "px": 467,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 17,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": "body .Mg2-connext[data-display-type][dat"
     },
     {
       "query": "(max-width: 480px)",
@@ -751,7 +631,7 @@
       "px": 550,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -780,7 +660,7 @@
       "px": 575.98,
       "tier": "drift",
       "owners": [
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)"
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -809,8 +689,7 @@
       "px": 576,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)",
-        "Mg2 Connext paywall (third party, engage.<site>)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -822,8 +701,7 @@
       ],
       "rules": 13,
       "stylesheets": [
-        "mng-digisubs",
-        "3P:engage.ocregister.com"
+        "mng-digisubs"
       ],
       "sampleSelector": ".sspw-content",
       "snapTo": {
@@ -832,7 +710,7 @@
         "query": "(max-width: 767px)",
         "label": "MNG Device tablet"
       },
-      "note": "Digisubs content (.sspw-content); Mg2 also uses it."
+      "note": "Digisubs content (.sspw-content)."
     },
     {
       "query": "(min-width: 576px)",
@@ -840,7 +718,7 @@
       "px": 576,
       "tier": "drift",
       "owners": [
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)"
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -864,32 +742,13 @@
       "note": "Bootstrap sm container."
     },
     {
-      "query": "(max-width: 599px)",
-      "kind": "max",
-      "px": 599,
-      "tier": "wordpress-admin",
-      "owners": [
-        "WordPress admin bar (logged-in editors only)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com"
-      ],
-      "rules": 1,
-      "stylesheets": [
-        "notes/admin-bar-v2.css"
-      ],
-      "sampleSelector": "body:has(.wpnt-show iframe#wpnt-notes-if",
-      "note": "Admin bar notes."
-    },
-    {
       "query": "(max-width: 600px)",
       "kind": "max",
       "px": 600,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)",
-        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)",
-        "Mg2 Connext paywall (third party, engage.<site>)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)",
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -902,8 +761,7 @@
       "rules": 16,
       "stylesheets": [
         "mng-digisubs",
-        "theme",
-        "3P:engage.ocregister.com"
+        "theme"
       ],
       "sampleSelector": ".show-article-sharing",
       "snapTo": {
@@ -913,29 +771,6 @@
         "label": "WordPress grid s"
       },
       "note": "Article sharing and theme rules."
-    },
-    {
-      "query": "(min-width: 600px)",
-      "kind": "min",
-      "px": 600,
-      "tier": "wordpress-admin",
-      "owners": [
-        "WordPress admin bar (logged-in editors only)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 2,
-      "stylesheets": [
-        "theme"
-      ],
-      "sampleSelector": "body.admin-bar",
-      "note": "body.admin-bar."
     },
     {
       "query": "(max-width: 624px)",
@@ -1081,28 +916,6 @@
         "label": "WordPress grid s"
       },
       "note": "Promotion widget."
-    },
-    {
-      "query": "(max-width: 720px)",
-      "kind": "max",
-      "px": 720,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 4,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": "body .Mg2-connext[data-display-type].mg2"
     },
     {
       "query": "(max-width: 730px)",
@@ -1252,34 +1065,12 @@
       "note": "Top leaderboard ad."
     },
     {
-      "query": "(max-width: 767px)",
-      "kind": "max",
-      "px": 767,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 77,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": "body .Mg2-connext[data-display-type] .hi"
-    },
-    {
       "query": "(max-width: 767.98px)",
       "kind": "max",
       "px": 767.98,
       "tier": "official",
       "owners": [
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)"
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -1303,37 +1094,13 @@
       "note": "Bootstrap md-down: the same boundary as MNG Device tablet (below 768)."
     },
     {
-      "query": "(max-width: 768px)",
-      "kind": "max",
-      "px": 768,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 25,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": "body .Mg2-connext[data-display-type] .ga"
-    },
-    {
       "query": "(min-width: 768px)",
       "kind": "min",
       "px": 768,
       "tier": "official",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)",
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)",
-        "Mg2 Connext paywall (third party, engage.<site>)",
-        "Osano cookie consent (third party, inline)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)",
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -1347,17 +1114,16 @@
       "stylesheets": [
         "inline",
         "mng-digisubs",
-        "3P:engage.ocregister.com",
         "3P:plugins.mngdigisubs.com"
       ],
-      "sampleSelector": ".osano-cm-dialog--type_bar",
+      "sampleSelector": null,
       "official": {
         "set": "device",
         "token": "breakpoint.tablet",
         "query": "(min-width: 768px)",
         "label": "MNG Device tablet"
       },
-      "note": "Digisubs rules match MNG Device tablet; Mg2 and Osano also use 768."
+      "note": "Digisubs rules match MNG Device tablet."
     },
     {
       "query": "(max-width: 770px)",
@@ -1365,7 +1131,7 @@
       "px": 770,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -1387,87 +1153,6 @@
         "label": "MNG Device tablet"
       },
       "note": "Account dropdown menu."
-    },
-    {
-      "query": "(max-width: 782px)",
-      "kind": "max",
-      "px": 782,
-      "tier": "wordpress-admin",
-      "owners": [
-        "WordPress admin bar (logged-in editors only)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com"
-      ],
-      "rules": 49,
-      "stylesheets": [
-        "_static",
-        "inline",
-        "notes/admin-bar-v2.css"
-      ],
-      "sampleSelector": "html",
-      "note": "Admin bar (only when an editor is logged in)."
-    },
-    {
-      "query": "(min-width: 782px)",
-      "kind": "min",
-      "px": 782,
-      "tier": "wordpress-admin",
-      "owners": [
-        "WordPress admin bar (logged-in editors only)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com"
-      ],
-      "rules": 1,
-      "stylesheets": [
-        "notes/admin-bar-v2.css"
-      ],
-      "sampleSelector": "#wpadminbar #wp-admin-bar-notes #wpnt-no"
-    },
-    {
-      "query": "(max-width: 783px)",
-      "kind": "max",
-      "px": 783,
-      "tier": "wordpress-admin",
-      "owners": [
-        "WordPress admin bar (logged-in editors only)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 2,
-      "stylesheets": [
-        "theme"
-      ],
-      "sampleSelector": "body.admin-bar"
-    },
-    {
-      "query": "(min-width: 783px)",
-      "kind": "min",
-      "px": 783,
-      "tier": "wordpress-admin",
-      "owners": [
-        "WordPress admin bar (logged-in editors only)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 1,
-      "stylesheets": [
-        "theme"
-      ],
-      "sampleSelector": "body.admin-bar"
     },
     {
       "query": "(max-width: 799px)",
@@ -1504,8 +1189,7 @@
       "px": 800,
       "tier": "drift",
       "owners": [
-        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)",
-        "Mg2 Connext paywall (third party, engage.<site>)"
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -1517,8 +1201,7 @@
       ],
       "rules": 5,
       "stylesheets": [
-        "theme",
-        "3P:engage.ocregister.com"
+        "theme"
       ],
       "sampleSelector": "#featured-flex-landing-three .landing-th",
       "snapTo": {
@@ -1564,7 +1247,7 @@
       "px": 820,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -1615,24 +1298,6 @@
         "label": "WordPress grid m"
       },
       "note": "Promotion widget."
-    },
-    {
-      "query": "(min-width: 900px)",
-      "kind": "min",
-      "px": 900,
-      "tier": "wordpress-admin",
-      "owners": [
-        "WordPress admin bar (logged-in editors only)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com"
-      ],
-      "rules": 1,
-      "stylesheets": [
-        "notes/admin-bar-v2.css"
-      ],
-      "sampleSelector": ".wpnt-show iframe#wpnt-notes-iframe2.wid",
-      "note": "Admin bar notes."
     },
     {
       "query": "(max-width: 930px)",
@@ -1693,118 +1358,12 @@
       "note": "Sports Radar widget."
     },
     {
-      "query": "(min-width: 960px)",
-      "kind": "min",
-      "px": 960,
-      "tier": "wordpress-admin",
-      "owners": [
-        "WordPress admin bar (logged-in editors only)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com"
-      ],
-      "rules": 1,
-      "stylesheets": [
-        "notes/admin-bar-v2.css"
-      ],
-      "sampleSelector": ".wpnt-show iframe#wpnt-notes-iframe3.wid",
-      "note": "Admin bar notes."
-    },
-    {
-      "query": "(max-width: 971px)",
-      "kind": "max",
-      "px": 971,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 3,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": "body .Mg2-connext[data-display-type] .cm"
-    },
-    {
-      "query": "(min-width: 972px)",
-      "kind": "min",
-      "px": 972,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 6,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": "body .Mg2-connext[data-display-type] .cm"
-    },
-    {
-      "query": "(max-width: 979px)",
-      "kind": "max",
-      "px": 979,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 2,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": ".modal-open.page-overflow .page-containe"
-    },
-    {
-      "query": "(max-width: 991px)",
-      "kind": "max",
-      "px": 991,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 13,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": "body .Mg2-connext[data-display-type] .hi"
-    },
-    {
       "query": "(max-width: 991.98px)",
       "kind": "max",
       "px": 991.98,
       "tier": "drift",
       "owners": [
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)"
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -1828,35 +1387,12 @@
       "note": "Bootstrap lg-down."
     },
     {
-      "query": "(max-width: 992px)",
-      "kind": "max",
-      "px": 992,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 2,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": "body .Mg2-connext[data-display-type] .mn"
-    },
-    {
       "query": "(min-width: 992px)",
       "kind": "min",
       "px": 992,
       "tier": "drift",
       "owners": [
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)",
-        "Mg2 Connext paywall (third party, engage.<site>)"
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -1868,17 +1404,16 @@
       ],
       "rules": 252,
       "stylesheets": [
-        "3P:engage.ocregister.com",
         "3P:plugins.mngdigisubs.com"
       ],
-      "sampleSelector": "body .Mg2-connext[data-display-type] .co",
+      "sampleSelector": null,
       "snapTo": {
         "set": "device",
         "token": "breakpoint.tablet-landscape",
         "query": "(min-width: 1024px)",
         "label": "MNG Device tablet-landscape"
       },
-      "note": "Bootstrap lg container; Mg2 also uses 992."
+      "note": "Bootstrap lg container."
     },
     {
       "query": "(max-width: 1000px)",
@@ -1945,9 +1480,8 @@
       "px": 1024,
       "tier": "drift",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)",
-        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)",
-        "Mg2 Connext paywall (third party, engage.<site>)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)",
+        "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -1960,8 +1494,7 @@
       "rules": 8,
       "stylesheets": [
         "mng-digisubs",
-        "theme",
-        "3P:engage.ocregister.com"
+        "theme"
       ],
       "sampleSelector": "#dfm-digisubs-menu .subscribe-special.cu",
       "snapTo": {
@@ -1978,7 +1511,7 @@
       "px": 1024,
       "tier": "official",
       "owners": [
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -2037,7 +1570,7 @@
       "tier": "official",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)",
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)",
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)",
         "dfm-trust-indicators plugin (MNG)"
       ],
       "sites": [
@@ -2125,28 +1658,6 @@
       }
     },
     {
-      "query": "(max-width: 1064px)",
-      "kind": "max",
-      "px": 1064,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 9,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": ".Mg2-connext.modal.container[data-displa"
-    },
-    {
       "query": "(max-width: 1150px)",
       "kind": "max",
       "px": 1150,
@@ -2176,34 +1687,12 @@
       "note": "Special investigative header."
     },
     {
-      "query": "(max-width: 1199px)",
-      "kind": "max",
-      "px": 1199,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 1,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": "body .Mg2-connext[data-display-type] .hi"
-    },
-    {
       "query": "(max-width: 1199.98px)",
       "kind": "max",
       "px": 1199.98,
       "tier": "drift",
       "owners": [
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)"
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -2227,37 +1716,12 @@
       "note": "Bootstrap xl-down."
     },
     {
-      "query": "(max-width: 1200px)",
-      "kind": "max",
-      "px": 1200,
-      "tier": "third-party",
-      "owners": [
-        "Osano cookie consent (third party, inline)",
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 3,
-      "stylesheets": [
-        "inline",
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": ".osano-cm-dialog--type_box.osano-cm-dial"
-    },
-    {
       "query": "(min-width: 1200px)",
       "kind": "min",
       "px": 1200,
       "tier": "drift",
       "owners": [
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)",
-        "Mg2 Connext paywall (third party, engage.<site>)"
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -2269,17 +1733,16 @@
       ],
       "rules": 268,
       "stylesheets": [
-        "3P:engage.ocregister.com",
         "3P:plugins.mngdigisubs.com"
       ],
-      "sampleSelector": "body .Mg2-connext[data-display-type] .co",
+      "sampleSelector": null,
       "snapTo": {
         "set": "device",
         "token": "breakpoint.desktop",
         "query": "(min-width: 1280px)",
         "label": "MNG Device desktop"
       },
-      "note": "Bootstrap xl container; Mg2 also uses 1200."
+      "note": "Bootstrap xl container."
     },
     {
       "query": "(max-width: 1279px)",
@@ -2346,7 +1809,7 @@
       "tier": "official",
       "owners": [
         "WordPress theme (boldcoastal / measuredvibrant / modernearthy CSS)",
-        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in)"
+        "mng-digisubs (MNG subscriptions: account menu, regwall, sign-in; follows the MNG Device set, Karl 2026-10-14)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -2370,28 +1833,6 @@
         "label": "WordPress grid xl"
       },
       "note": "Also MNG Device desktop (1280)."
-    },
-    {
-      "query": "(min-width: 1281px)",
-      "kind": "min",
-      "px": 1281,
-      "tier": "third-party",
-      "owners": [
-        "Mg2 Connext paywall (third party, engage.<site>)"
-      ],
-      "sites": [
-        "canoncitydailyrecord.com",
-        "chicagotribune.com",
-        "denverpost.com",
-        "mcall.com",
-        "ocregister.com",
-        "orlandosentinel.com"
-      ],
-      "rules": 4,
-      "stylesheets": [
-        "3P:engage.ocregister.com"
-      ],
-      "sampleSelector": "body .Mg2-connext[data-display-type] .cm"
     },
     {
       "query": "(max-width: 1299px)",
@@ -2457,7 +1898,7 @@
       "px": 1399.98,
       "tier": "drift",
       "owners": [
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)"
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",
@@ -2486,7 +1927,7 @@
       "px": 1400,
       "tier": "drift",
       "owners": [
-        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid)"
+        "plugins.mngdigisubs.com (MNG digisubs app, Bootstrap 5 default grid; follows the MNG Device set)"
       ],
       "sites": [
         "canoncitydailyrecord.com",

@@ -1227,7 +1227,7 @@ The same two stacks apply on every theme; each theme only chooses which one its 
 
 **Found:** 2026-10-14, live CSS scan of the homepage, an article and the obituaries page on all 6 review sites (`tokens/breakpoint-inventory.json`, built by `scripts/breakpoint-inventory/`). Every value below was found on all 6 sites (the three theme stylesheets share their media queries). **Teams:** CMS, DigiScrum.
 
-**Design:** two official sets (EXPORT-STANDARD.md section 6). WordPress code follows the **WordPress grid** (min-widths 320 / 640 / 800 / 1040 / 1280; max-widths 639 / 799 / 1039 / 1279). Everything else follows the **MNG Device breakpoints** (min-widths 340 / 360 / 768 / 1024 / 1280; max-widths 339 / 359 / 767 / 1023 / 1279). Of the 89 width values found, 13 are official, 50 are drift (below), 18 are third party (Mg2 Connext paywall, Osano, Kargo, HTL ad bidder: not ours) and 8 are WordPress's admin bar (editors only).
+**Design:** two official sets (EXPORT-STANDARD.md section 6). WordPress code follows the **WordPress grid** (min-widths 320 / 640 / 800 / 1040 / 1280; max-widths 639 / 799 / 1039 / 1279). Everything else follows the **MNG Device breakpoints** (min-widths 340 / 360 / 768 / 1024 / 1280; max-widths 339 / 359 / 767 / 1023 / 1279). Of the 63 width values in MNG code, 13 are official and 50 are drift (below). Third-party breakpoints (paywall, cookie consent, ad vendors) and the WordPress admin bar aren't ours and are left out (Karl, 2026-10-14).
 
 **Production (drift) and fix:** move each rule to the official breakpoint in the right-hand column. "Off by one" rules (`max-width: 800 / 1040 / 1280 / 340 / 360 / 1024`) overlap the official boundary by 1px; they should be `max-width: 799 / 1039 / 1279 / 339 / 359 / 1023`. The Obituaries values (624 / 625, 734 / 735 gallery, 1000 ads, 1299 / 1300) are entry 31; they're repeated here so the list is complete.
 
@@ -1267,7 +1267,7 @@ The same two stacks apply on every theme; each theme only chooses which one its 
 | `(max-width: 1299px)` | Obituaries listing (entry 31). | `(max-width: 1279px)` (WordPress grid xl) |
 | `(min-width: 1300px)` | Obituaries "stop scaling" (entry 31). | `(min-width: 1280px)` (WordPress grid xl) |
 
-**mng-digisubs plugin (account menu, regwall, sign-in)** (team: DigiScrum; snap to the MNG Device set (to confirm)):
+**mng-digisubs plugin (account menu, regwall, sign-in)** (team: DigiScrum; snap to the MNG Device set, Karl 2026-10-14):
 
 | Production | Where | Snap to |
 |---|---|---|
@@ -1285,7 +1285,7 @@ The same two stacks apply on every theme; each theme only chooses which one its 
 | `(max-width: 820px)` | Account dropdown menu. | `(max-width: 767px)` (MNG Device tablet) |
 | `(max-width: 1024px)` | Off by one for the Device set (should be 1023); the theme rule (#dfm-digisubs-menu) should use grid l (1039). | `(max-width: 1023px)` (MNG Device tablet-landscape) |
 
-**Digisubs app, plugins.mngdigisubs.com (Bootstrap 5 defaults 576 / 768 / 992 / 1200 / 1400)** (team: DigiScrum; snap to the MNG Device set (to confirm)):
+**Digisubs app, plugins.mngdigisubs.com (Bootstrap 5 defaults 576 / 768 / 992 / 1200 / 1400)** (team: DigiScrum; snap to the MNG Device set, Karl 2026-10-14):
 
 | Production | Where | Snap to |
 |---|---|---|
@@ -1306,7 +1306,7 @@ The same two stacks apply on every theme; each theme only chooses which one its 
 |---|---|---|
 | `(max-width: 1040px)` | Off by one: (max-width: 1040px) overlaps l; should be 1039 (trust-indicator footer links). | `(max-width: 1039px)` (WordPress grid l) |
 
-**Open question for Karl:** the digisubs plugin and app run on WordPress pages but belong to the subscriber products (like Reader Dashboard). This entry snaps them to the MNG Device set; switch to the WordPress grid if they should follow WordPress. Any value here can instead become a component breakpoint (kept in that component's tokens) if it's an intended one-off, for example the Sports Radar widget or the very-small-phone nav icons.
+**Component breakpoints:** most of the one-off values (a single widget's rule) are probably intended for that component. Karl is confirming the list; confirmed ones move out of this entry into the component's tokens (`components/<layer>/<slug>/<slug>.tokens.json`) and stop being drift.
 
 **Status:** Open.
 
