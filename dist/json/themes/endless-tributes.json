@@ -149,7 +149,6 @@
   "color.theme.white.rgba": "rgba(255, 255, 255, 1)",
   "color.theme.nav-text": "#141414",
   "color.theme.nav-text.rgba": "rgba(20, 20, 20, 1)",
-  "font.obituaries.heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif",
   "breakpoint.wordpress-grid.xs": "320px",
   "breakpoint.wordpress-grid.xs.rem": "20rem",
   "breakpoint.wordpress-grid.s": "640px",

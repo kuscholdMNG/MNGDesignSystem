@@ -1556,7 +1556,7 @@
           "mismatchCount": 0,
           "sites": [],
           "note": "Shared obituaries palette. Production gaps are logged in production-vs-design-differences.md entry 11.",
-          "typography": "Obituary colors plus the obituary heading family ($obit-heading on the Fonts page). Other obituary text uses the host site's theme fonts. Load this file after the site's theme file."
+          "typography": "Colors only. Obituary pages follow the site's theme fonts (font.theme.*) like the rest of the site (Karl, 2026-10-14). Load this file after the site's theme file."
         }
       },
       "sites": {

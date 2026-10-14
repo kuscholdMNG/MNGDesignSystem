@@ -23,7 +23,7 @@ Single "Mode 1": one flat value per token, used by everything below.
 | `font/family/noto-sans` | `"Noto Sans"` |
 | `font/family/noto-serif` | `"Noto Serif"` |
 
-Bare family names, no CSS fallback stack. The CRUX Style Library's fallback stacks (`Tahoma, Arial` / `Georgia, 'Times New Roman'`) don't match the editorial sites' live fallback (Helvetica) but do match Reader Dashboard's. CRUX is never edited, so this stays a known, permanent difference (see §5, item 2).
+In Figma the variables hold bare family names. In code (`tokens/core/typography.tokens.json`, `dist/`) each family carries the CSS stack from the Fonts page (Font Styles and Fallbacks, `2768:1051`, condensed 2026-10-14): `"Noto Sans", "Helvetica Neue", Arial, sans-serif` and `"Noto Serif", Georgia, "Times New Roman", serif`. Every theme uses these two stacks; obituaries follow the site's theme. Production currently falls back to Helvetica on both (`"Noto Sans", Helvetica, sans-serif` / `"Noto Serif", Helvetica, serif`).
 
 ### Font size
 

@@ -856,11 +856,6 @@ export const themes = {
         "white": "#ffffff",
         "nav-text": "#141414"
       }
-    },
-    "font": {
-      "obituaries": {
-        "heading-family": "\"Noto Serif\", \"Georgia\", \"Times New Roman\", serif"
-      }
     }
   }
 };
@@ -1948,7 +1943,6 @@ export const cssVars = {
   "color.theme.subsite-custom": "var(--mng-color-theme-subsite-custom)",
   "color.theme.tertiary": "var(--mng-color-theme-tertiary)",
   "color.theme.white": "var(--mng-color-theme-white)",
-  "font.obituaries.heading-family": "var(--mng-font-obituaries-heading-family)",
   "font.theme.body-family": "var(--mng-font-theme-body-family)",
   "font.theme.eyebrow-family": "var(--mng-font-theme-eyebrow-family)",
   "font.theme.eyebrow-size": "var(--mng-font-theme-eyebrow-size)",

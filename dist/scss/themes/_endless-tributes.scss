@@ -9,7 +9,6 @@ $mng-color-theme-tertiary: #3a252b;
 $mng-color-theme-near-black: #141414;
 $mng-color-theme-white: #ffffff;
 $mng-color-theme-nav-text: #141414;
-$mng-font-obituaries-heading-family: "Noto Serif", "Georgia", "Times New Roman", serif;
 
 $mng-theme: (
   "color-theme-primary-lighter": $mng-color-theme-primary-lighter,
@@ -21,6 +20,5 @@ $mng-theme: (
   "color-theme-tertiary": $mng-color-theme-tertiary,
   "color-theme-near-black": $mng-color-theme-near-black,
   "color-theme-white": $mng-color-theme-white,
-  "color-theme-nav-text": $mng-color-theme-nav-text,
-  "font-obituaries-heading-family": $mng-font-obituaries-heading-family
+  "color-theme-nav-text": $mng-color-theme-nav-text
 );
