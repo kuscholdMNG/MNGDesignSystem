@@ -1,6 +1,6 @@
 # MNG Design System — Export Standard
 
-> **Draft 2026-10-13, updated 2026-10-14** (PNG previews stay in GitHub, no Git LFS; where pixel values are kept) for Karl's review (branch `review/export-standard`). Once merged, every token and component export follows this file. The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
+> **Draft 2026-10-13, updated 2026-10-14** (PNG previews stay in GitHub, no Git LFS; where pixel values are kept; Reader Dashboard is part of core) for Karl's review (branch `review/export-standard`). Once merged, every token and component export follows this file. The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
 
 ## 1. What this covers
 
@@ -160,18 +160,16 @@ Tokens and components are split into layers. **A layer may only reference layers
 
 | Layer | Folder | What's in it |
 |---|---|---|
-| Core | `tokens/core/` | Color primitives (gray, feedback, neutral, surface, tributes), type primitives (`font.family`, `font.size`, `font.weight`), spacing, radius, official breakpoints. Shared by every platform. |
+| Core (the main MNG Design System) | `tokens/core/` | Color primitives (gray, feedback, neutral, surface, tributes), type primitives (`font.family`, `font.size`, `font.weight`), spacing, radius, official breakpoints. Shared by every platform. **Reader Dashboard is part of core**: when it's ready, its tokens (Dashboard Typography, its breakpoints and so on) are added here under a `dashboard` group, not as a separate layer. |
 | Themes | `tokens/themes/` | One file per theme (Bold Coastal, Measured Vibrant, Modern Earthy), sub-theme (Denver Post, NEPA-PMP, 21C Michigan…) and the site overrides, plus `mng.resolver.json` that says how they stack: theme → sub-theme → site. |
 | WordPress | `tokens/wordpress/` | The WordPress Elements sub-system: editorial type styles (`Editorial/...`), theme type tokens (`font.theme.*`, eyebrow), layout and container widths, ad slot sizes, homepage block tokens, WordPress-specific breakpoints. |
-| Reader Dashboard | `tokens/reader-dashboard/` | Reserved: the folder name and its place in the order are decided now, but it stays empty until Reader Dashboard v2.0 joins the system. Its tokens will reference core and themes, like WordPress, so adding it later moves nothing else. |
 
 Components follow the same split:
 
 ```
 components/
-  core/<slug>/          ← buttons, form fields, modals, icons, InLineMessage
+  core/<slug>/          ← buttons, form fields, modals, icons, InLineMessage; Reader Dashboard components later
   wordpress/<slug>/     ← masthead, cards, homepage blocks, ad blocks, footer, breaking news
-  reader-dashboard/     ← reserved
 ```
 
 Non-token assets go in `assets/` (`assets/icons/`, `assets/logos/`). Generated files go in `dist/` (§8).
@@ -187,7 +185,7 @@ Two different things are both called breakpoints. They are kept apart:
 
 Breakpoints come in three tiers:
 
-1. **Official** (`breakpoint.*` in `tokens/core/`, plus platform sets in `tokens/wordpress/` and later `tokens/reader-dashboard/`). Design values; Reader Dashboard's are official today and will be added to and updated. Like colors, an official breakpoint never changes to match production.
+1. **Official** (`breakpoint.*` in `tokens/core/`, plus WordPress-only sets in `tokens/wordpress/`). Design values. Reader Dashboard's breakpoints are official and belong to core; they will be added to and updated. Like colors, an official breakpoint never changes to match production.
 2. **Component breakpoints:** an intended one-off used by a single component (e.g. the obituary search stacking at 624px) goes in that component's `<slug>.tokens.json`, not in the system set.
 3. **Production drift:** any other production breakpoint is logged in `production-vs-design-differences.md` with the official breakpoint it should snap to.
 
