@@ -1,6 +1,6 @@
 # Production vs. Design Differences — Engineering Handoff
 
-> **Updated 2026-10-14:** entries 30 (Reader Dashboard breakpoints) and 31 (Obituaries breakpoints) added; entry number 30 was free (the earlier icon-font entry 30 was folded into 20).
+> **Updated 2026-10-14:** entries 30 (Reader Dashboard breakpoints: questions for DigiScrum) and 31 (Obituaries breakpoints vs the WordPress grid, CMS team) added; entry number 30 was free (the earlier icon-font entry 30 was folded into 20).
 >
 > **Consolidated 2026-09-24.** Combines the Sept 22 version of this file (entries 1–17, unchanged except for the notes marked "2026-09-24") with a short duplicate created on Sept 24. That copy added one new item, now entry 18. Entry 19 and the method note at the end came from the HANDOFF and NOTE files in this folder. Entry 20 (icon font) was added 2026-09-25 from `components/icons.md`. Entry 21 (per-theme color fixes) was added 2026-09-25, when the Greeley Tribune color theme was folded into Prairie Mountain Publishing. Entries 18 and 21 were updated 2026-09-30 (Greeley exception, Hartford Courant verified) and 2026-10-01 (NEPA folded into the NEPA-PMP sub-theme; disputed sites verified live), and entry 21 now holds the full per-theme color fix list that used to be `tokens/colors/mng-colors-engineering-fixes.md` (retired). Notes for reading older entries:
 > - `color-tokens.md` is now `tokens/colors/color-tokens-decision-log.md`. Current typography tokens are in `tokens/typography/typography-tokens.md`.
@@ -1163,52 +1163,48 @@ One-line items are unaffected (the 44px height holds), but every extra line adds
 
 **Status:** Open. Fix 1 is ready; fixes 2 and 3 wait on the design + dev decision.
 
-## 30. Reader Dashboard — breakpoints don't all match the Figma screen widths
+## 30. Reader Dashboard — breakpoints close to, but not on, the Figma screen widths (questions for DigiScrum)
 
 **Found:** 2026-10-14, in the Reader Dashboard source (`plugins/mng-digital-subscriber-widgets/reader-dashboard-src/`, Karl's local copy of the website repo dated 2026-05-08) and its built CSS. **Team:** DigiScrum. *Live check still to do: confirm the current production build matches this copy.*
 
-**Design (source of truth):** Reader Dashboard v2.0 is designed at 5 screen widths: Fold 340, Mobile 360, Tablet (vertical) 768, Tablet (horizontal) 1024, Desktop 1280. These are the MNG Device breakpoints (`breakpoint.mobile` 360, `breakpoint.tablet` 768, `breakpoint.tablet-landscape` 1024, `breakpoint.desktop` 1280, as min-widths; Fold is everything below 360). Karl, 2026-10-14: every Reader Dashboard breakpoint must match these widths.
+**Design (source of truth):** Reader Dashboard v2.0 is designed at 5 screen widths: Fold 340, Mobile 360, Tablet (vertical) 768, Tablet (horizontal) 1024, Desktop 1280. These are the MNG Device breakpoints (min-widths 360 / 768 / 1024 / 1280; Fold is everything below 360).
 
-**Production:** the dashboard uses Tailwind v4's default screens plus custom widths.
+**Production:** 768 (`md`, `min-[768px]`), 1024 (`lg`, `window.innerWidth >= 1024`) and 1280 (`xl`) match. Four values don't, and they are too close to the design widths to be accidents, so **this entry asks why before asking for a fix** (Karl, 2026-10-14). The repo copy has no git history or code comments explaining them; the likely reasons below are inferred.
 
-| Production breakpoint | Where it's used | Matches Figma? | Fix |
+| Production value | Where it's used | Likely reason | Question for DigiScrum |
 |---|---|---|---|
-| `md` 768 (48rem), `min-[768px]` | layout and spacing | Yes | none |
-| `lg` 1024 (64rem), `window.innerWidth >= 1024` | menu always visible, layout, `#reader-dashboard-island-root` padding | Yes | none |
-| `xl` 1280 (80rem) | spacing, island padding | Yes | none |
-| `min-[361px]` | text field size and height, inline form box padding, menu width (344px), page margins, display-name form (`text-field.tsx`, `inline-form-box.tsx`, `reader-dashboard.tsx`, `update-display-name.tsx`) | Off by one | Use `min-[360px]`, so the 360 Mobile design applies at 360 and the Fold design only below it. |
-| `min-[413px]` | "No articles saved" empty state alignment (`no-articles-saved.tsx`) | No | Move to 360 (Mobile) or 768 (Tablet), whichever matches the Figma empty-state design. |
-| `sm` 640 (40rem) | logout status width (`logout-status.tsx`, `sm:w-fit`) and Tailwind's `.container` | No | Move to 768 (Tablet). |
-| `2xl` 1536 (96rem) | Tailwind's `.container` max width only | No | Remove; there's no design above 1280. |
+| `min-[361px]` | text field size and height, inline form box padding, menu width (344px), page margins, display-name form (`text-field.tsx`, `inline-form-box.tsx`, `reader-dashboard.tsx`, `update-display-name.tsx`) | "Wider than 360": 360 is the most common Android phone width and Figma's largest phone frame. The compact phone styles apply at 360 and below; the roomier ones start at 361. Figma has no design between 361 and 767, so the team picked where the roomier layout starts. | Is 361 meant as "wider than the 360 Mobile frame"? Should the roomier styles start at 360 (Figma's Mobile) or stay at 361? |
+| `min-[413px]` | "No articles saved" empty state alignment (`no-articles-saved.tsx`) | "Wider than 412": 412 is a common large-Android width. Likely a fix for a wrap seen on a specific phone. | Was this a fix for a specific device? Could it use 360 or 768 instead? |
+| `sm` 640 (40rem) | logout status width (`logout-status.tsx`, `sm:w-fit`) and Tailwind's `.container` | Tailwind's default `sm` screen, left in place (the team didn't set its own screens). | Was 640 chosen, or is it Tailwind's default? Could it be 768? |
+| `2xl` 1536 (96rem) | Tailwind's `.container` max width only; no `container` class found in the dashboard source | Tailwind's default `2xl` screen, generated automatically. | Can it be removed? |
 
-Recommended fix for engineering: set the dashboard's Tailwind screens to the MNG Device breakpoints (generated file `dist/tailwind/`), so `sm` / `2xl` and the arbitrary `min-[…]` values aren't needed.
+**Next step:** ask DigiScrum the questions above. Depending on the answers, each value becomes part of the Device set (if a new screen width is really needed, Figma gets a matching frame first), a documented component breakpoint, or a fix. Our generated Tailwind screens (`dist/tailwind/`) can replace Tailwind's defaults so `sm` / `2xl` disappear.
 
-**Status:** Open.
+**Status:** Open — waiting on DigiScrum's answers.
 
 ---
 
-## 31. Obituaries — breakpoints don't match the Figma screen widths
+## 31. Obituaries — breakpoints that don't match the WordPress grid (for the CMS team)
 
-**Found:** 2026-10-14, in the Obituaries styles (`assets/client/scss/layouts/scng/components/features/_obits.scss` in the WordPress themes, Karl's local repo copy dated 2026-05-08) and the 2026-09-15 live audit of the Obituaries pages (`components/breakpoint-audit.md`). *Live check still to do.*
+**Found:** 2026-10-14, in the Obituaries styles (`assets/client/scss/layouts/scng/components/features/_obits.scss` in the WordPress themes, Karl's local repo copy dated 2026-05-08) and the 2026-09-15 live audit of the Obituaries pages (`components/breakpoint-audit.md`). **Team:** CMS. *Live check still to do.*
 
-**Design (source of truth):** Karl, 2026-10-14: Obituaries follows the same MNG Device breakpoints as Reader Dashboard (360 / 768 / 1024 / 1280; Fold below 360).
+**Design (Karl, 2026-10-14):** Obituaries is built on the WordPress theme grid (it uses the theme's `ai-breakpoint()` mixin), so it belongs to the WordPress layer and follows the **WordPress grid breakpoints**: `xs` 320, `s` 640, `m` 800, `l` 1040, `xl` 1280 (min-widths; written as max-widths 639 / 799 / 1039 / 1279). Values that don't match the grid are drift for the CMS team to correct in the future.
 
 **Production:**
 
-| Production breakpoint | Where it's used | Snap to |
-|---|---|---|
-| ≤624px (`39em`, and a raw `624px` rule) | 1-column layout; search form stacks | 768 (Tablet) |
-| 625–1039px (`39.0625em`–`64.9375em`) | 2-column layout | 768–1023 (Tablet) |
-| ≥1040px (`65em`) | horizontal layout | 1024 (Tablet landscape) |
-| ≥1300px (`81.25em`, "stop scaling") | listing and scaling stop | 1280 (Desktop) |
-| 640 / 800 / 1040 (WordPress grid `s` / `m` / `l`, via `ai-breakpoint`) | spacing and layout | 768 / 1024 |
-| 800px (`50em`) | filter panel padding when open | 768 or 1024 |
-| 1000px (`62.5rem`) | top and bottom leaderboard ad placement | 1024 |
-| 625–734 / 735–1299px | photo gallery widget (likely shared, not obituary-only) | 768 / 1024 / 1280 |
+| Production breakpoint | Where it's used | Matches the WordPress grid? | Snap to |
+|---|---|---|---|
+| `ai-breakpoint` `s` / `m` / `l` (640 / 800 / 1040) | spacing and layout | Yes | none |
+| ≥1040px (`65em`) / ≤1039px (`64.9375em`) | horizontal layout / 2-column upper bound | Yes (`l`) | none |
+| 800px (`50em`) | filter panel padding when open | Yes (`m`) | none |
+| ≤624px (`39em`, and a raw `624px` rule) / ≥625px (`39.0625em`) | 1-column layout and search form stacking / 2-column start | No | 640 (`s`) |
+| ≥1300px (`81.25em`) / ≤1299px (`81.1875em`) | listing and "stop scaling" | No | 1280 (`xl`) |
+| 1000px (`62.5rem`) | top and bottom leaderboard ad placement | No | 1040 (`l`) |
+| 625–734 / 735–1299px | photo gallery widget (likely shared, not obituary-only) | No | 640 / 800 / 1280 |
 
-**Fix:** move each rule to the Device breakpoint in the right-hand column. The gallery widget may be shared with other pages; confirm before changing it. The Masthead's Obituaries search widget (624 / 800) is part of this fix.
+**Fix (future, CMS team):** move each non-matching rule to the grid breakpoint in the right-hand column. The gallery widget and the 1000px ad rule may be shared with other pages; confirm before changing them. The Masthead's Obituaries search widget (624) is part of this fix.
 
-**Status:** Open. Which team owns Obituaries is to be confirmed.
+**Status:** Open (future).
 
 ## How to use this doc
 
