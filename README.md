@@ -1,7 +1,7 @@
 # MNG Design System — Project Folder
 
 > Folder map and filing rules. **Every session working on this project reads this first and follows it.**
-> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`. **Updated 2026-10-08:** added `tokens/icons/`, `logos/` and `scripts/logos-export/`. **Updated 2026-10-09:** added `figma-exports/mng-ads-export/` and `scripts/ads-export/`.
+> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`. **Updated 2026-10-08:** added `tokens/icons/`, `logos/` and `scripts/logos-export/`. **Updated 2026-10-09:** added `figma-exports/mng-ads-export/` and `scripts/ads-export/`. **Updated 2026-10-13:** added `EXPORT-STANDARD.md`; `figma-exports/` is now legacy (frozen).
 
 ## Folder map
 
@@ -10,6 +10,7 @@ MNGDesignSystem/
 ├── README.md                               ← this file
 ├── .gitignore                              ← keeps .DS_Store, zips and credentials out of the repo
 ├── MNG-Design-System-Status.md             ← project status (the entry point)
+├── EXPORT-STANDARD.md                      ← format rules for every token and component export (DTCG)
 ├── production-vs-design-differences.md     ← production gaps for Engineering
 ├── Reader-Dashboard-Library-Impact-Map.md
 ├── components/                             ← one .md per component, or a component audit
@@ -21,7 +22,8 @@ MNGDesignSystem/
 │                                             CSS and preview
 ├── logos/                                  ← newspaper logos: transparent SVGs (publications/, placeholder/),
 │                                             logos.json manifest, preview.html, README
-├── figma-exports/                          ← Figma → spec exports (MD + JSON + HTML + PNG previews)
+├── figma-exports/                          ← LEGACY, frozen 2026-10-13: older Figma → spec exports.
+│                                             Kept, not updated; new exports follow EXPORT-STANDARD.md
 │   ├── mng-design-system-export/           ← homepage, menus-and-parts, form-fields
 │   ├── mng-buttons-export/                 ← all 8 Buttons-page families (primary, secondary, tertiary,
 │   │                                         action, linkstyle, modal close, in-line close, hyperlink)
@@ -49,7 +51,7 @@ MNGDesignSystem/
 | Typography tokens or decisions | `tokens/typography/` |
 | Icon font, glyph map, icon previews | `tokens/icons/` |
 | Newspaper logo SVGs, manifest, preview | `logos/` (rebuilt by `scripts/logos-export/build-logos.py`; don't hand-edit the SVGs) |
-| A Figma component export | `figma-exports/<export-name>/` (unzipped, replacing the old one) |
+| A token or component export | Follow `EXPORT-STANDARD.md` (DTCG `.tokens.json`, layers, `dist/`). Never add to `figma-exports/` (legacy). |
 | A script that rebuilds an export | `scripts/<export-name>/` (inputs and outputs explained at the top of the script) |
 | Anything no longer current | `_archive/` |
 
@@ -62,7 +64,8 @@ MNGDesignSystem/
 5. **Date changes inside the file**, not in the file name (for example "**Updated 2026-09-30** for …" near the top).
 6. **File names:** lowercase-with-hyphens for new files (`card-teaser.md`). Keep existing names as they are so links in other docs still work.
 7. **Retiring a file:** move it to `_archive/`, then update any docs that mention its path.
-8. **Paths in docs** are written from this folder's top level (for example `tokens/colors/mng-colors-sites.csv`).
+8. **Exports follow `EXPORT-STANDARD.md`.** Token JSON is DTCG 2025.10 only; no Figma-import-shaped JSON, layer trees or custom `schema` formats. Generated files in `dist/` are never edited by hand.
+9. **Paths in docs** are written from this folder's top level (for example `tokens/colors/mng-colors-sites.csv`).
 
 ## Working in GitHub
 
@@ -71,4 +74,4 @@ MNGDesignSystem/
 - **Commit every change** with a short message that says what changed and why (for example "Add card-teaser hover states"). Git history replaces the dates in file names, so rule 5 still applies: put the date inside the file.
 - **Value changes that need Karl's review** (token values, decisions in the decision logs) go on a branch, such as `review/primary-blue-fix`, with a pull request. Everything else can go straight to `main`.
 - **Push after committing.** Pushing uses a GitHub token saved in `.git/claude-credentials`, which is never committed. If a push fails with a sign-in error, the token has expired: Karl makes a new one and runs `git push` once in Terminal.
-- **Never commit** credentials, `.DS_Store` files or zips. `.gitignore` blocks them.
+- **Never commit** credentials, `.DS_Store` files, `__pycache__` / `.pyc` files or zips. `.gitignore` blocks them.
