@@ -1,0 +1,93 @@
+{
+  "$description": "WordPress grid breakpoints (WordPress layer, legacy). From the WordPress themes' grid (16 columns x 80px, 20px gutters, 1280 container). Used by the three shared themes and Obituaries. Retired when WordPress moves to the MNG Device set. Obituaries drift: production-vs-design-differences.md entry 31.",
+  "breakpoint": {
+    "wordpress-grid": {
+      "$type": "dimension",
+      "xs": {
+        "$value": {
+          "value": 320,
+          "unit": "px"
+        },
+        "$description": "Grid xs, 320px and up.",
+        "$extensions": {
+          "com.mng": {
+            "production": {
+              "source": "assets/client/scss/common-base/layout/_grid-variables.scss",
+              "property": "$columns-map xs",
+              "verified": "2026-10-14",
+              "matches": true
+            }
+          }
+        }
+      },
+      "s": {
+        "$value": {
+          "value": 640,
+          "unit": "px"
+        },
+        "$description": "Grid s, 640px and up.",
+        "$extensions": {
+          "com.mng": {
+            "production": {
+              "source": "assets/client/scss/common-base/layout/_grid-variables.scss",
+              "property": "$columns-map s",
+              "verified": "2026-10-14",
+              "matches": true
+            }
+          }
+        }
+      },
+      "m": {
+        "$value": {
+          "value": 800,
+          "unit": "px"
+        },
+        "$description": "Grid m, 800px and up.",
+        "$extensions": {
+          "com.mng": {
+            "production": {
+              "source": "assets/client/scss/common-base/layout/_grid-variables.scss",
+              "property": "$columns-map m",
+              "verified": "2026-10-14",
+              "matches": true
+            }
+          }
+        }
+      },
+      "l": {
+        "$value": {
+          "value": 1040,
+          "unit": "px"
+        },
+        "$description": "Grid l, 1040px and up. The masthead switches to its desktop layout here ($header-primary-bp, all 3 themes).",
+        "$extensions": {
+          "com.mng": {
+            "production": {
+              "source": "assets/client/scss/common-base/layout/_grid-variables.scss",
+              "property": "$columns-map l",
+              "verified": "2026-10-14",
+              "matches": true
+            }
+          }
+        }
+      },
+      "xl": {
+        "$value": {
+          "value": 1280,
+          "unit": "px"
+        },
+        "$description": "Grid xl, 1280px and up (container width).",
+        "$extensions": {
+          "com.mng": {
+            "production": {
+              "source": "assets/client/scss/common-base/layout/_grid-variables.scss",
+              "property": "$columns-map xl",
+              "verified": "2026-10-14",
+              "matches": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

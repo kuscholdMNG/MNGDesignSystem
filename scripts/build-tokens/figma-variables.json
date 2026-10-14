@@ -1,0 +1,2748 @@
+{
+ "$description": "Snapshot of the MNG Web Design System Figma variables (file jFHYqhZbJjvWQmDI4myCsd), read 2026-10-14 with scripts/build-tokens/extract.js through the Desktop Bridge plugin. Input for make-tokens.py. Dashboard Typography is not included yet (Reader Dashboard tokens are added to core when ready).",
+ "file": "jFHYqhZbJjvWQmDI4myCsd",
+ "read": "2026-10-14",
+ "collections": {
+  "Colors": [
+   {
+    "name": "color/gray/black",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#000000",
+     "ModernEarthy": "#000000",
+     "BoldCoastal": "#000000",
+     "DenverPost": "#000000",
+     "Endless Tributes": "#000000",
+     "Chicago Tribune": "#000000",
+     "South Florida Sun Sentinel": "#000000",
+     "Orlando Sentinel": "#000000",
+     "East Bay Times": "#000000",
+     "The Mercury News": "#000000",
+     "St. Paul Pioneer Press": "#000000",
+     "Petaluma Argus-Courier": "#000000",
+     "The Press Democrat": "#000000",
+     "The Sonoma Index-Tribune": "#000000",
+     "Morning Call": "#000000",
+     "21C Michigan Sites (Combined)": "#000000",
+     "NEPA-PMP": "#000000",
+     "Boston Herald": "#000000",
+     "Hartford Courant": "#000000",
+     "GrowthSpotter": "#000000"
+    },
+    "description": "Do not use this color unless specifically noted. Use Grey-Min for almost every situation where \"black\" is required.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/gray/min",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#141414",
+     "ModernEarthy": "#141414",
+     "BoldCoastal": "#141414",
+     "DenverPost": "#141414",
+     "Endless Tributes": "#141414",
+     "Chicago Tribune": "#141414",
+     "South Florida Sun Sentinel": "#141414",
+     "Orlando Sentinel": "#141414",
+     "East Bay Times": "#141414",
+     "The Mercury News": "#141414",
+     "St. Paul Pioneer Press": "#141414",
+     "Petaluma Argus-Courier": "#141414",
+     "The Press Democrat": "#141414",
+     "The Sonoma Index-Tribune": "#141414",
+     "Morning Call": "#141414",
+     "21C Michigan Sites (Combined)": "#141414",
+     "NEPA-PMP": "#141414",
+     "Boston Herald": "#141414",
+     "Hartford Courant": "#141414",
+     "GrowthSpotter": "#141414"
+    },
+    "description": "Use for \"black\" text, icons, elements unless specifically noted otherwise.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/gray/100",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#393938",
+     "ModernEarthy": "#393938",
+     "BoldCoastal": "#393938",
+     "DenverPost": "#393938",
+     "Endless Tributes": "#393938",
+     "Chicago Tribune": "#393938",
+     "South Florida Sun Sentinel": "#393938",
+     "Orlando Sentinel": "#393938",
+     "East Bay Times": "#393938",
+     "The Mercury News": "#393938",
+     "St. Paul Pioneer Press": "#393938",
+     "Petaluma Argus-Courier": "#393938",
+     "The Press Democrat": "#393938",
+     "The Sonoma Index-Tribune": "#393938",
+     "Morning Call": "#393938",
+     "21C Michigan Sites (Combined)": "#393938",
+     "NEPA-PMP": "#393938",
+     "Boston Herald": "#393938",
+     "Hartford Courant": "#393938",
+     "GrowthSpotter": "#393938"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/gray/200",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#5e5d5c",
+     "ModernEarthy": "#5e5d5c",
+     "BoldCoastal": "#5e5d5c",
+     "DenverPost": "#5e5d5c",
+     "Endless Tributes": "#5e5d5c",
+     "Chicago Tribune": "#5e5d5c",
+     "South Florida Sun Sentinel": "#5e5d5c",
+     "Orlando Sentinel": "#5e5d5c",
+     "East Bay Times": "#5e5d5c",
+     "The Mercury News": "#5e5d5c",
+     "St. Paul Pioneer Press": "#5e5d5c",
+     "Petaluma Argus-Courier": "#5e5d5c",
+     "The Press Democrat": "#5e5d5c",
+     "The Sonoma Index-Tribune": "#5e5d5c",
+     "Morning Call": "#5e5d5c",
+     "21C Michigan Sites (Combined)": "#5e5d5c",
+     "NEPA-PMP": "#5e5d5c",
+     "Boston Herald": "#5e5d5c",
+     "Hartford Courant": "#5e5d5c",
+     "GrowthSpotter": "#5e5d5c"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/gray/300",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#838280",
+     "ModernEarthy": "#838280",
+     "BoldCoastal": "#838280",
+     "DenverPost": "#838280",
+     "Endless Tributes": "#838280",
+     "Chicago Tribune": "#838280",
+     "South Florida Sun Sentinel": "#838280",
+     "Orlando Sentinel": "#838280",
+     "East Bay Times": "#838280",
+     "The Mercury News": "#838280",
+     "St. Paul Pioneer Press": "#838280",
+     "Petaluma Argus-Courier": "#838280",
+     "The Press Democrat": "#838280",
+     "The Sonoma Index-Tribune": "#838280",
+     "Morning Call": "#838280",
+     "21C Michigan Sites (Combined)": "#838280",
+     "NEPA-PMP": "#838280",
+     "Boston Herald": "#838280",
+     "Hartford Courant": "#838280",
+     "GrowthSpotter": "#838280"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/gray/400",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#a7a6a3",
+     "ModernEarthy": "#a7a6a3",
+     "BoldCoastal": "#a7a6a3",
+     "DenverPost": "#a7a6a3",
+     "Endless Tributes": "#a7a6a3",
+     "Chicago Tribune": "#a7a6a3",
+     "South Florida Sun Sentinel": "#a7a6a3",
+     "Orlando Sentinel": "#a7a6a3",
+     "East Bay Times": "#a7a6a3",
+     "The Mercury News": "#a7a6a3",
+     "St. Paul Pioneer Press": "#a7a6a3",
+     "Petaluma Argus-Courier": "#a7a6a3",
+     "The Press Democrat": "#a7a6a3",
+     "The Sonoma Index-Tribune": "#a7a6a3",
+     "Morning Call": "#a7a6a3",
+     "21C Michigan Sites (Combined)": "#a7a6a3",
+     "NEPA-PMP": "#a7a6a3",
+     "Boston Herald": "#a7a6a3",
+     "Hartford Courant": "#a7a6a3",
+     "GrowthSpotter": "#a7a6a3"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/gray/500",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#cccac7",
+     "ModernEarthy": "#cccac7",
+     "BoldCoastal": "#cccac7",
+     "DenverPost": "#cccac7",
+     "Endless Tributes": "#cccac7",
+     "Chicago Tribune": "#cccac7",
+     "South Florida Sun Sentinel": "#cccac7",
+     "Orlando Sentinel": "#cccac7",
+     "East Bay Times": "#cccac7",
+     "The Mercury News": "#cccac7",
+     "St. Paul Pioneer Press": "#cccac7",
+     "Petaluma Argus-Courier": "#cccac7",
+     "The Press Democrat": "#cccac7",
+     "The Sonoma Index-Tribune": "#cccac7",
+     "Morning Call": "#cccac7",
+     "21C Michigan Sites (Combined)": "#cccac7",
+     "NEPA-PMP": "#cccac7",
+     "Boston Herald": "#cccac7",
+     "Hartford Courant": "#cccac7",
+     "GrowthSpotter": "#cccac7"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/gray/600",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#f1efeb",
+     "ModernEarthy": "#f1efeb",
+     "BoldCoastal": "#f1efeb",
+     "DenverPost": "#f1efeb",
+     "Endless Tributes": "#f1efeb",
+     "Chicago Tribune": "#f1efeb",
+     "South Florida Sun Sentinel": "#f1efeb",
+     "Orlando Sentinel": "#f1efeb",
+     "East Bay Times": "#f1efeb",
+     "The Mercury News": "#f1efeb",
+     "St. Paul Pioneer Press": "#f1efeb",
+     "Petaluma Argus-Courier": "#f1efeb",
+     "The Press Democrat": "#f1efeb",
+     "The Sonoma Index-Tribune": "#f1efeb",
+     "Morning Call": "#f1efeb",
+     "21C Michigan Sites (Combined)": "#f1efeb",
+     "NEPA-PMP": "#f1efeb",
+     "Boston Herald": "#f1efeb",
+     "Hartford Courant": "#f1efeb",
+     "GrowthSpotter": "#f1efeb"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/theme/primary-lighter",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#717fd1",
+     "ModernEarthy": "#fe521e",
+     "BoldCoastal": "#1799a5",
+     "DenverPost": "#c81632",
+     "Endless Tributes": "#f15f87",
+     "Chicago Tribune": "#717fd1",
+     "South Florida Sun Sentinel": "#4a92af",
+     "Orlando Sentinel": "#5c95dd",
+     "East Bay Times": "#a0d0ed",
+     "The Mercury News": "#a0d0ed",
+     "St. Paul Pioneer Press": "#0187e0",
+     "Petaluma Argus-Courier": "#a8681a",
+     "The Press Democrat": "#d10f14",
+     "The Sonoma Index-Tribune": "#149de6",
+     "Morning Call": "#5399c4",
+     "21C Michigan Sites (Combined)": "#3e7cb2",
+     "NEPA-PMP": "#717fd1",
+     "Boston Herald": "#3c81c7",
+     "Hartford Courant": "#5796bd",
+     "GrowthSpotter": "#529950"
+    },
+    "description": "Theme primary ramp — lighter step, Endless Tributes mode. Corrected 2026.08.27 to match MNG Design System's confirmed color/tributes/primary-lighter (#F15F87) — the prior UI Style Guide value (#A39C8A) was a row-misalignment error that actually matched the Tan swatch, not this ramp step.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/gray/max",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#ffffff",
+     "ModernEarthy": "#ffffff",
+     "BoldCoastal": "#ffffff",
+     "DenverPost": "#ffffff",
+     "Endless Tributes": "#ffffff",
+     "Chicago Tribune": "#ffffff",
+     "South Florida Sun Sentinel": "#ffffff",
+     "Orlando Sentinel": "#ffffff",
+     "East Bay Times": "#ffffff",
+     "The Mercury News": "#ffffff",
+     "St. Paul Pioneer Press": "#ffffff",
+     "Petaluma Argus-Courier": "#ffffff",
+     "The Press Democrat": "#ffffff",
+     "The Sonoma Index-Tribune": "#ffffff",
+     "Morning Call": "#ffffff",
+     "21C Michigan Sites (Combined)": "#ffffff",
+     "NEPA-PMP": "#ffffff",
+     "Boston Herald": "#ffffff",
+     "Hartford Courant": "#ffffff",
+     "GrowthSpotter": "#ffffff"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/theme/primary-light",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#5869ca",
+     "ModernEarthy": "#e03400",
+     "BoldCoastal": "#00838f",
+     "DenverPost": "#af1628",
+     "Endless Tributes": "#c00c3d",
+     "Chicago Tribune": "#5869ca",
+     "South Florida Sun Sentinel": "#2a728f",
+     "Orlando Sentinel": "#1879c9",
+     "East Bay Times": "#007ab8",
+     "The Mercury News": "#007ab8",
+     "St. Paul Pioneer Press": "#007acc",
+     "Petaluma Argus-Courier": "#905a17",
+     "The Press Democrat": "#ba0d12",
+     "The Sonoma Index-Tribune": "#107db7",
+     "Morning Call": "#27719f",
+     "21C Michigan Sites (Combined)": "#2a6496",
+     "NEPA-PMP": "#5869ca",
+     "Boston Herald": "#2c6fb2",
+     "Hartford Courant": "#2b7ea5",
+     "GrowthSpotter": "#1d8734"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/theme/primary",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#3f51b5",
+     "ModernEarthy": "#cc3300",
+     "BoldCoastal": "#007580",
+     "DenverPost": "#8e1024",
+     "Endless Tributes": "#8d092d",
+     "Chicago Tribune": "#3f51b5",
+     "South Florida Sun Sentinel": "#136383",
+     "Orlando Sentinel": "#1776c4",
+     "East Bay Times": "#006da3",
+     "The Mercury News": "#006da3",
+     "St. Paul Pioneer Press": "#006fb7",
+     "Petaluma Argus-Courier": "#7e4e14",
+     "The Press Democrat": "#9e0b0f",
+     "The Sonoma Index-Tribune": "#0e70a4",
+     "Morning Call": "#166291",
+     "21C Michigan Sites (Combined)": "#3a537a",
+     "NEPA-PMP": "#3f51b5",
+     "Boston Herald": "#005d9c",
+     "Hartford Courant": "#166d95",
+     "GrowthSpotter": "#1a7c2e"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/theme/primary-dark",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#32408f",
+     "ModernEarthy": "#b93611",
+     "BoldCoastal": "#0a5962",
+     "DenverPost": "#7d161e",
+     "Endless Tributes": "#770000",
+     "Chicago Tribune": "#32408f",
+     "South Florida Sun Sentinel": "#115975",
+     "Orlando Sentinel": "#156cb4",
+     "East Bay Times": "#006394",
+     "The Mercury News": "#006394",
+     "St. Paul Pioneer Press": "#0065a8",
+     "Petaluma Argus-Courier": "#643d0d",
+     "The Press Democrat": "#8f0a0e",
+     "The Sonoma Index-Tribune": "#0d6391",
+     "Morning Call": "#014b78",
+     "21C Michigan Sites (Combined)": "#32476c",
+     "NEPA-PMP": "#32408f",
+     "Boston Herald": "#00538a",
+     "Hartford Courant": "#084e6f",
+     "GrowthSpotter": "#176e29"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/theme/primary-darker",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#171e44",
+     "ModernEarthy": "#a52804",
+     "BoldCoastal": "#014a52",
+     "DenverPost": "#641614",
+     "Endless Tributes": "#4d0000",
+     "Chicago Tribune": "#171e44",
+     "South Florida Sun Sentinel": "#0f4f68",
+     "Orlando Sentinel": "#1360a0",
+     "East Bay Times": "#00527a",
+     "The Mercury News": "#00527a",
+     "St. Paul Pioneer Press": "#005892",
+     "Petaluma Argus-Courier": "#492c09",
+     "The Press Democrat": "#6e0b0c",
+     "The Sonoma Index-Tribune": "#0c5983",
+     "Morning Call": "#00385a",
+     "21C Michigan Sites (Combined)": "#2c3b55",
+     "NEPA-PMP": "#171e44",
+     "Boston Herald": "#0f496f",
+     "Hartford Courant": "#171e44",
+     "GrowthSpotter": "#146024"
+    },
+    "description": "Theme primary ramp — darker step, Endless Tributes mode. Corrected 2026.08.27 to match MNG Design System's confirmed color/tributes/primary-darker (#4D0000) — the prior UI Style Guide value (#E8E6E2) was a row-misalignment error that actually matched the Tan-light swatch, not this ramp step.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/theme/secondary",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#eeff41",
+     "ModernEarthy": "#eeff41",
+     "BoldCoastal": "#ffea00",
+     "DenverPost": "#003459",
+     "Endless Tributes": "#b3bc9c",
+     "Chicago Tribune": "#eeff41",
+     "South Florida Sun Sentinel": "#eeff41",
+     "Orlando Sentinel": "#eeff41",
+     "East Bay Times": "#ffc518",
+     "The Mercury News": "#ffc518",
+     "St. Paul Pioneer Press": "#ffea00",
+     "Petaluma Argus-Courier": "#ffea00",
+     "The Press Democrat": "#ffea00",
+     "The Sonoma Index-Tribune": "#ffea00",
+     "Morning Call": "#eeff41",
+     "21C Michigan Sites (Combined)": "#9daabd",
+     "NEPA-PMP": "#eeff41",
+     "Boston Herald": "#eeff41",
+     "Hartford Courant": "#eeff41",
+     "GrowthSpotter": "#eeff41"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/theme/tertiary",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#eb5300",
+     "ModernEarthy": "#00828f",
+     "BoldCoastal": "#f4a700",
+     "DenverPost": "#ffc518",
+     "Endless Tributes": "#3a252b",
+     "Chicago Tribune": "#eb5300",
+     "South Florida Sun Sentinel": "#ab9500",
+     "Orlando Sentinel": "#48a395",
+     "East Bay Times": "#cd2709",
+     "The Mercury News": "#cd2709",
+     "St. Paul Pioneer Press": "#f4a700",
+     "Petaluma Argus-Courier": "#006fb7",
+     "The Press Democrat": "#006fb7",
+     "The Sonoma Index-Tribune": "#f4a700",
+     "Morning Call": "#ff5722",
+     "21C Michigan Sites (Combined)": "#ff5722",
+     "NEPA-PMP": "#eb5300",
+     "Boston Herald": "#ff5722",
+     "Hartford Courant": "#6a54ca",
+     "GrowthSpotter": "#e7632a"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/feedback/low-success",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#2e8000",
+     "ModernEarthy": "#2e8000",
+     "BoldCoastal": "#2e8000",
+     "DenverPost": "#2e8000",
+     "Endless Tributes": "#2e8000",
+     "Chicago Tribune": "#2e8000",
+     "South Florida Sun Sentinel": "#2e8000",
+     "Orlando Sentinel": "#2e8000",
+     "East Bay Times": "#2e8000",
+     "The Mercury News": "#2e8000",
+     "St. Paul Pioneer Press": "#2e8000",
+     "Petaluma Argus-Courier": "#2e8000",
+     "The Press Democrat": "#2e8000",
+     "The Sonoma Index-Tribune": "#2e8000",
+     "Morning Call": "#2e8000",
+     "21C Michigan Sites (Combined)": "#2e8000",
+     "NEPA-PMP": "#2e8000",
+     "Boston Herald": "#2e8000",
+     "Hartford Courant": "#2e8000",
+     "GrowthSpotter": "#2e8000"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/feedback/medium",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#856a00",
+     "ModernEarthy": "#856a00",
+     "BoldCoastal": "#856a00",
+     "DenverPost": "#856a00",
+     "Endless Tributes": "#856a00",
+     "Chicago Tribune": "#856a00",
+     "South Florida Sun Sentinel": "#856a00",
+     "Orlando Sentinel": "#856a00",
+     "East Bay Times": "#856a00",
+     "The Mercury News": "#856a00",
+     "St. Paul Pioneer Press": "#856a00",
+     "Petaluma Argus-Courier": "#856a00",
+     "The Press Democrat": "#856a00",
+     "The Sonoma Index-Tribune": "#856a00",
+     "Morning Call": "#856a00",
+     "21C Michigan Sites (Combined)": "#856a00",
+     "NEPA-PMP": "#856a00",
+     "Boston Herald": "#856a00",
+     "Hartford Courant": "#856a00",
+     "GrowthSpotter": "#856a00"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/feedback/high-error",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#cc2b27",
+     "ModernEarthy": "#cc2b27",
+     "BoldCoastal": "#cc2b27",
+     "DenverPost": "#cc2b27",
+     "Endless Tributes": "#cc2b27",
+     "Chicago Tribune": "#cc2b27",
+     "South Florida Sun Sentinel": "#cc2b27",
+     "Orlando Sentinel": "#cc2b27",
+     "East Bay Times": "#cc2b27",
+     "The Mercury News": "#cc2b27",
+     "St. Paul Pioneer Press": "#cc2b27",
+     "Petaluma Argus-Courier": "#cc2b27",
+     "The Press Democrat": "#cc2b27",
+     "The Sonoma Index-Tribune": "#cc2b27",
+     "Morning Call": "#cc2b27",
+     "21C Michigan Sites (Combined)": "#cc2b27",
+     "NEPA-PMP": "#cc2b27",
+     "Boston Herald": "#cc2b27",
+     "Hartford Courant": "#cc2b27",
+     "GrowthSpotter": "#cc2b27"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/neutral/panel",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#f1f1f1",
+     "ModernEarthy": "#f1f1f1",
+     "BoldCoastal": "#f1f1f1",
+     "DenverPost": "#f1f1f1",
+     "Endless Tributes": "#f1f1f1",
+     "Chicago Tribune": "#f1f1f1",
+     "South Florida Sun Sentinel": "#f1f1f1",
+     "Orlando Sentinel": "#f1f1f1",
+     "East Bay Times": "#f1f1f1",
+     "The Mercury News": "#f1f1f1",
+     "St. Paul Pioneer Press": "#f1f1f1",
+     "Petaluma Argus-Courier": "#f1f1f1",
+     "The Press Democrat": "#f1f1f1",
+     "The Sonoma Index-Tribune": "#f1f1f1",
+     "Morning Call": "#f1f1f1",
+     "21C Michigan Sites (Combined)": "#f1f1f1",
+     "NEPA-PMP": "#f1f1f1",
+     "Boston Herald": "#f1f1f1",
+     "Hartford Courant": "#f1f1f1",
+     "GrowthSpotter": "#f1f1f1"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/surface/nav-panel",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#fbfbfb",
+     "ModernEarthy": "#fbfbfb",
+     "BoldCoastal": "#fbfbfb",
+     "DenverPost": "#fbfbfb",
+     "Endless Tributes": "#fbfbfb",
+     "Chicago Tribune": "#fbfbfb",
+     "South Florida Sun Sentinel": "#fbfbfb",
+     "Orlando Sentinel": "#fbfbfb",
+     "East Bay Times": "#fbfbfb",
+     "The Mercury News": "#fbfbfb",
+     "St. Paul Pioneer Press": "#fbfbfb",
+     "Petaluma Argus-Courier": "#fbfbfb",
+     "The Press Democrat": "#fbfbfb",
+     "The Sonoma Index-Tribune": "#fbfbfb",
+     "Morning Call": "#fbfbfb",
+     "21C Michigan Sites (Combined)": "#fbfbfb",
+     "NEPA-PMP": "#fbfbfb",
+     "Boston Herald": "#fbfbfb",
+     "Hartford Courant": "#fbfbfb",
+     "GrowthSpotter": "#fbfbfb"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/theme/near-black",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#1f1e1c",
+     "ModernEarthy": "#1a1a1a",
+     "BoldCoastal": "#0a0908",
+     "DenverPost": "#141414",
+     "Endless Tributes": "#141414",
+     "Chicago Tribune": "#1f1e1c",
+     "South Florida Sun Sentinel": "#1f1e1c",
+     "Orlando Sentinel": "#1f1e1c",
+     "East Bay Times": "#0a0908",
+     "The Mercury News": "#0a0908",
+     "St. Paul Pioneer Press": "#0a0908",
+     "Petaluma Argus-Courier": "#0a0908",
+     "The Press Democrat": "#0a0908",
+     "The Sonoma Index-Tribune": "#0a0908",
+     "Morning Call": "#141414",
+     "21C Michigan Sites (Combined)": "#1a1a1a",
+     "NEPA-PMP": "#1a1a1a",
+     "Boston Herald": "#141414",
+     "Hartford Courant": "#141414",
+     "GrowthSpotter": "#1f1e1c"
+    },
+    "description": "Theme Neutrals — Near Black (nav labels, UI text, theme-specific). Copied from MNG Design System's Theme collection (Bold Coastal / Modern Earthy / Measured Vibrant) and mapped to each publication mode via its documented \"Shared Theme\" on MNG's Color Styles page (2026-09-10). UNCONFIRMED placeholder (falls back to gray/min) for modes with no MNG-documented shared theme: DenverPost, Endless Tributes, Morning Call, Boston Herald, Hartford Courant.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/theme/white",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#fbfbfb",
+     "ModernEarthy": "#fafafa",
+     "BoldCoastal": "#ffffff",
+     "DenverPost": "#ffffff",
+     "Endless Tributes": "#ffffff",
+     "Chicago Tribune": "#fbfbfb",
+     "South Florida Sun Sentinel": "#fbfbfb",
+     "Orlando Sentinel": "#fbfbfb",
+     "East Bay Times": "#ffffff",
+     "The Mercury News": "#ffffff",
+     "St. Paul Pioneer Press": "#ffffff",
+     "Petaluma Argus-Courier": "#ffffff",
+     "The Press Democrat": "#ffffff",
+     "The Sonoma Index-Tribune": "#ffffff",
+     "Morning Call": "#ffffff",
+     "21C Michigan Sites (Combined)": "#fafafa",
+     "NEPA-PMP": "#fafafa",
+     "Boston Herald": "#ffffff",
+     "Hartford Courant": "#ffffff",
+     "GrowthSpotter": "#fbfbfb"
+    },
+    "description": "Theme Neutrals — White (backgrounds, inverse text, theme-specific). Copied from MNG Design System's Theme collection and mapped via each publication's documented \"Shared Theme\" (2026-09-10). UNCONFIRMED placeholder (falls back to gray/max) for modes with no MNG-documented shared theme: DenverPost, Endless Tributes, Morning Call, Boston Herald, Hartford Courant.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/theme/nav-text",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#1f1e1c",
+     "ModernEarthy": "#1a1a1a",
+     "BoldCoastal": "#0a0908",
+     "DenverPost": "#141414",
+     "Endless Tributes": "#141414",
+     "Chicago Tribune": "#1f1e1c",
+     "South Florida Sun Sentinel": "#1f1e1c",
+     "Orlando Sentinel": "#1f1e1c",
+     "East Bay Times": "#0a0908",
+     "The Mercury News": "#0a0908",
+     "St. Paul Pioneer Press": "#0a0908",
+     "Petaluma Argus-Courier": "#0a0908",
+     "The Press Democrat": "#0a0908",
+     "The Sonoma Index-Tribune": "#0a0908",
+     "Morning Call": "#141414",
+     "21C Michigan Sites (Combined)": "#1a1a1a",
+     "NEPA-PMP": "#1a1a1a",
+     "Boston Herald": "#141414",
+     "Hartford Courant": "#141414",
+     "GrowthSpotter": "#1f1e1c"
+    },
+    "description": "Nav text/label color per theme. In MNG Design System this equals color/theme/near-black exactly in every theme, so the same mapping is used here (2026-09-10). UNCONFIRMED placeholder (falls back to gray/min) for modes with no MNG-documented shared theme: DenverPost, Endless Tributes, Morning Call, Boston Herald, Hartford Courant.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/tributes/primary-lighter",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#f15f87",
+     "ModernEarthy": "#f15f87",
+     "BoldCoastal": "#f15f87",
+     "DenverPost": "#f15f87",
+     "Endless Tributes": "#f15f87",
+     "Chicago Tribune": "#f15f87",
+     "South Florida Sun Sentinel": "#f15f87",
+     "Orlando Sentinel": "#f15f87",
+     "East Bay Times": "#f15f87",
+     "The Mercury News": "#f15f87",
+     "St. Paul Pioneer Press": "#f15f87",
+     "Petaluma Argus-Courier": "#f15f87",
+     "The Press Democrat": "#f15f87",
+     "The Sonoma Index-Tribune": "#f15f87",
+     "Morning Call": "#f15f87",
+     "21C Michigan Sites (Combined)": "#f15f87",
+     "NEPA-PMP": "#f15f87",
+     "Boston Herald": "#f15f87",
+     "Hartford Courant": "#f15f87",
+     "GrowthSpotter": "#f15f87"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/tributes/primary-light",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#c00c3d",
+     "ModernEarthy": "#c00c3d",
+     "BoldCoastal": "#c00c3d",
+     "DenverPost": "#c00c3d",
+     "Endless Tributes": "#c00c3d",
+     "Chicago Tribune": "#c00c3d",
+     "South Florida Sun Sentinel": "#c00c3d",
+     "Orlando Sentinel": "#c00c3d",
+     "East Bay Times": "#c00c3d",
+     "The Mercury News": "#c00c3d",
+     "St. Paul Pioneer Press": "#c00c3d",
+     "Petaluma Argus-Courier": "#c00c3d",
+     "The Press Democrat": "#c00c3d",
+     "The Sonoma Index-Tribune": "#c00c3d",
+     "Morning Call": "#c00c3d",
+     "21C Michigan Sites (Combined)": "#c00c3d",
+     "NEPA-PMP": "#c00c3d",
+     "Boston Herald": "#c00c3d",
+     "Hartford Courant": "#c00c3d",
+     "GrowthSpotter": "#c00c3d"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/tributes/primary",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#8d092d",
+     "ModernEarthy": "#8d092d",
+     "BoldCoastal": "#8d092d",
+     "DenverPost": "#8d092d",
+     "Endless Tributes": "#8d092d",
+     "Chicago Tribune": "#8d092d",
+     "South Florida Sun Sentinel": "#8d092d",
+     "Orlando Sentinel": "#8d092d",
+     "East Bay Times": "#8d092d",
+     "The Mercury News": "#8d092d",
+     "St. Paul Pioneer Press": "#8d092d",
+     "Petaluma Argus-Courier": "#8d092d",
+     "The Press Democrat": "#8d092d",
+     "The Sonoma Index-Tribune": "#8d092d",
+     "Morning Call": "#8d092d",
+     "21C Michigan Sites (Combined)": "#8d092d",
+     "NEPA-PMP": "#8d092d",
+     "Boston Herald": "#8d092d",
+     "Hartford Courant": "#8d092d",
+     "GrowthSpotter": "#8d092d"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/tributes/primary-dark",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#770000",
+     "ModernEarthy": "#770000",
+     "BoldCoastal": "#770000",
+     "DenverPost": "#770000",
+     "Endless Tributes": "#770000",
+     "Chicago Tribune": "#770000",
+     "South Florida Sun Sentinel": "#770000",
+     "Orlando Sentinel": "#770000",
+     "East Bay Times": "#770000",
+     "The Mercury News": "#770000",
+     "St. Paul Pioneer Press": "#770000",
+     "Petaluma Argus-Courier": "#770000",
+     "The Press Democrat": "#770000",
+     "The Sonoma Index-Tribune": "#770000",
+     "Morning Call": "#770000",
+     "21C Michigan Sites (Combined)": "#770000",
+     "NEPA-PMP": "#770000",
+     "Boston Herald": "#770000",
+     "Hartford Courant": "#770000",
+     "GrowthSpotter": "#770000"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/tributes/primary-darker",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#4d0000",
+     "ModernEarthy": "#4d0000",
+     "BoldCoastal": "#4d0000",
+     "DenverPost": "#4d0000",
+     "Endless Tributes": "#4d0000",
+     "Chicago Tribune": "#4d0000",
+     "South Florida Sun Sentinel": "#4d0000",
+     "Orlando Sentinel": "#4d0000",
+     "East Bay Times": "#4d0000",
+     "The Mercury News": "#4d0000",
+     "St. Paul Pioneer Press": "#4d0000",
+     "Petaluma Argus-Courier": "#4d0000",
+     "The Press Democrat": "#4d0000",
+     "The Sonoma Index-Tribune": "#4d0000",
+     "Morning Call": "#4d0000",
+     "21C Michigan Sites (Combined)": "#4d0000",
+     "NEPA-PMP": "#4d0000",
+     "Boston Herald": "#4d0000",
+     "Hartford Courant": "#4d0000",
+     "GrowthSpotter": "#4d0000"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/tributes/secondary",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#b3bc9c",
+     "ModernEarthy": "#b3bc9c",
+     "BoldCoastal": "#b3bc9c",
+     "DenverPost": "#b3bc9c",
+     "Endless Tributes": "#b3bc9c",
+     "Chicago Tribune": "#b3bc9c",
+     "South Florida Sun Sentinel": "#b3bc9c",
+     "Orlando Sentinel": "#b3bc9c",
+     "East Bay Times": "#b3bc9c",
+     "The Mercury News": "#b3bc9c",
+     "St. Paul Pioneer Press": "#b3bc9c",
+     "Petaluma Argus-Courier": "#b3bc9c",
+     "The Press Democrat": "#b3bc9c",
+     "The Sonoma Index-Tribune": "#b3bc9c",
+     "Morning Call": "#b3bc9c",
+     "21C Michigan Sites (Combined)": "#b3bc9c",
+     "NEPA-PMP": "#b3bc9c",
+     "Boston Herald": "#b3bc9c",
+     "Hartford Courant": "#b3bc9c",
+     "GrowthSpotter": "#b3bc9c"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/tributes/tertiary",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#3a252b",
+     "ModernEarthy": "#3a252b",
+     "BoldCoastal": "#3a252b",
+     "DenverPost": "#3a252b",
+     "Endless Tributes": "#3a252b",
+     "Chicago Tribune": "#3a252b",
+     "South Florida Sun Sentinel": "#3a252b",
+     "Orlando Sentinel": "#3a252b",
+     "East Bay Times": "#3a252b",
+     "The Mercury News": "#3a252b",
+     "St. Paul Pioneer Press": "#3a252b",
+     "Petaluma Argus-Courier": "#3a252b",
+     "The Press Democrat": "#3a252b",
+     "The Sonoma Index-Tribune": "#3a252b",
+     "Morning Call": "#3a252b",
+     "21C Michigan Sites (Combined)": "#3a252b",
+     "NEPA-PMP": "#3a252b",
+     "Boston Herald": "#3a252b",
+     "Hartford Courant": "#3a252b",
+     "GrowthSpotter": "#3a252b"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/tributes/tan",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#a39c8a",
+     "ModernEarthy": "#a39c8a",
+     "BoldCoastal": "#a39c8a",
+     "DenverPost": "#a39c8a",
+     "Endless Tributes": "#a39c8a",
+     "Chicago Tribune": "#a39c8a",
+     "South Florida Sun Sentinel": "#a39c8a",
+     "Orlando Sentinel": "#a39c8a",
+     "East Bay Times": "#a39c8a",
+     "The Mercury News": "#a39c8a",
+     "St. Paul Pioneer Press": "#a39c8a",
+     "Petaluma Argus-Courier": "#a39c8a",
+     "The Press Democrat": "#a39c8a",
+     "The Sonoma Index-Tribune": "#a39c8a",
+     "Morning Call": "#a39c8a",
+     "21C Michigan Sites (Combined)": "#a39c8a",
+     "NEPA-PMP": "#a39c8a",
+     "Boston Herald": "#a39c8a",
+     "Hartford Courant": "#a39c8a",
+     "GrowthSpotter": "#a39c8a"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "color/tributes/tan-light",
+    "type": "COLOR",
+    "values": {
+     "MeasuredVibrant": "#e8e6e2",
+     "ModernEarthy": "#e8e6e2",
+     "BoldCoastal": "#e8e6e2",
+     "DenverPost": "#e8e6e2",
+     "Endless Tributes": "#e8e6e2",
+     "Chicago Tribune": "#e8e6e2",
+     "South Florida Sun Sentinel": "#e8e6e2",
+     "Orlando Sentinel": "#e8e6e2",
+     "East Bay Times": "#e8e6e2",
+     "The Mercury News": "#e8e6e2",
+     "St. Paul Pioneer Press": "#e8e6e2",
+     "Petaluma Argus-Courier": "#e8e6e2",
+     "The Press Democrat": "#e8e6e2",
+     "The Sonoma Index-Tribune": "#e8e6e2",
+     "Morning Call": "#e8e6e2",
+     "21C Michigan Sites (Combined)": "#e8e6e2",
+     "NEPA-PMP": "#e8e6e2",
+     "Boston Herald": "#e8e6e2",
+     "Hartford Courant": "#e8e6e2",
+     "GrowthSpotter": "#e8e6e2"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   }
+  ],
+  "Type Primitives": [
+   {
+    "name": "font/family/noto-sans",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "Noto Sans"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/family/noto-serif",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "Noto Serif"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/14",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 14
+    },
+    "description": "Also matches MNG Design System font/size/100 (\"medium/primary button label size, ~14px measured live, raw computed value 14.0625px\"), ported over 2026-09-10.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/16",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 16
+    },
+    "description": "NOTE 2026-09-10: this flat 16px value is used by Reader Dashboard (body text, nav items, card subtitles/links) — editorial body copy uses font/size/16-5 (16.5px) instead, not this one.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/18",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 18
+    },
+    "description": "NOTE 2026-09-10: confirmed live on Reader Dashboard (canoncitydailyrecord.com/dashboard/) as a Section Title component size. No confirmed editorial use.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/19",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 19
+    },
+    "description": "Also matches MNG Design System font/size/200 (\"large/full-width CTA button label size, ~19.2px measured live\"), ported over 2026-09-10.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/24",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 24
+    },
+    "description": "NOTE 2026-09-10: confirmed live on Reader Dashboard (canoncitydailyrecord.com/dashboard/) as the profile display-name size. No solid confirmed editorial use (one weak \"Featured Obituaries\" sighting only).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/29",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 29
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/weight/regular",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 400
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/weight/bold",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 700
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/16-5",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 16.5
+    },
+    "description": "Universal body copy size — confirmed live 2026-08-27 across all 6 audited sites/themes (Chicago Tribune, Denver Post, OC Register, Orlando Sentinel, Greeley Tribune, mcall.com).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/23",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 23
+    },
+    "description": "Article deck/subhead size — confirmed live across all sites/themes checked 2026-08-27.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/26",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 26
+    },
+    "description": "Second-tier homepage headline card size — confirmed live across all sites/themes checked 2026-08-27.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/36",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 36
+    },
+    "description": "Article H1 / main headline size — confirmed live across all sites/themes checked 2026-08-27 (universal platform constant).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/40",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 40
+    },
+    "description": "Article category/kicker label size — confirmed live 2026-08-27.\n\nCORRECTED 2026-09-10: this description was wrong. Confirmed live today on ocregister.com/sports/ AND chicagotribune.com/sports/ — 40px/700/Noto Serif is a SECTION-FRONT PAGE H1 (className \"section-header\", e.g. the \"Sports\" heading atop a section landing page), not a kicker/category label. The real category/kicker tag (e.g. \"Sports\" / \"NFL\" breadcrumb above an article headline) measured 16px/700/uppercase on the same site — a completely different, much smaller element. This matches CRUX Style Library's sectionH1/mastheadSectionH1 (40/700) semantic, which had it right all along.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/weight/medium",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 500
+    },
+    "description": "Confirmed live 2026-08-27 on article deck/subhead text — did not exist as a token before this audit.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/weight/semibold",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 600
+    },
+    "description": "Confirmed live 2026-08-27 on multiple headline tiers and module headers. Matches MNG Design System's existing font/weight/semibold (600).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/12",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 12
+    },
+    "description": "Utility/chip label size. Matches MNG Design System font/size/060 (12px, \"utility chip label size, 12px measured live\"). Added 2026-09-09 during cross-file font-token audit.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/13",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 13
+    },
+    "description": "Small utility/caption size. Matches CRUX Style Library font/size/xs (13px) and MNG Design System font/size/075 (\"small button label size, ~13px measured live\"). Added 2026-09-09 during cross-file font-token audit.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/10",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 10
+    },
+    "description": "Ported from Reader Dashboard v2.0 (Font Size/1). Present in that file's design tokens; not yet confirmed live on the specific Reader Dashboard page checked 2026-09-10 — Reader Dashboard only, not used in editorial.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/15",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 15
+    },
+    "description": "Primary site nav-bar label size — confirmed live 2026-09-10 across all 6 repertoire sites (ocregister.com, denverpost.com, chicagotribune.com, orlandosentinel.com, canoncitydailyrecord.com, mcall.com), weight 600, Noto Sans, not theme-varying.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/20",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 20
+    },
+    "description": "Visible homepage module-header size (e.g. the \"Around the Web\" widget header) — confirmed live 2026-09-10 across all 6 repertoire sites, weight 600, family follows font/theme/heading-family. NOT the same as the old eyebrow font/size/20 (Bold Coastal only, weight 400) — that flat primitive was retired in favor of the font/theme/eyebrow-* triplet; this is a distinct re-creation for a different role.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/style/regular",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "Regular"
+    },
+    "description": "\"Regular\" (weight 400). Figma companion to the matching font weight. In Figma, bind this to a text layer's font style instead of binding the numeric weight: binding the weight makes Figma pick the Noto Sans / Noto Serif Display styles, which production never uses. Code and the token exports keep using the weight.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/style/medium",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "Medium"
+    },
+    "description": "\"Medium\" (weight 500). Figma companion to the matching font weight. In Figma, bind this to a text layer's font style instead of binding the numeric weight: binding the weight makes Figma pick the Noto Sans / Noto Serif Display styles, which production never uses. Code and the token exports keep using the weight.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/style/semibold",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "SemiBold"
+    },
+    "description": "\"SemiBold\" (weight 600). Figma companion to the matching font weight. In Figma, bind this to a text layer's font style instead of binding the numeric weight: binding the weight makes Figma pick the Noto Sans / Noto Serif Display styles, which production never uses. Code and the token exports keep using the weight.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/style/bold",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "Bold"
+    },
+    "description": "\"Bold\" (weight 700). Figma companion to the matching font weight. In Figma, bind this to a text layer's font style instead of binding the numeric weight: binding the weight makes Figma pick the Noto Sans / Noto Serif Display styles, which production never uses. Code and the token exports keep using the weight.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/21",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 21
+    },
+    "description": "Most Popular / Recommended rank number (CSS counter, Noto Sans 600, line height 32). Confirmed live on ocregister.com 2026-10-08 (Karl approved).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/11",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 11
+    },
+    "description": "Related-article timestamp under the Top Zone lead (.primary-related li time, Noto Sans 400, line height 20.625). Confirmed live on ocregister.com 2026-10-08 (Karl approved).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/25",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 25
+    },
+    "description": "Top Zone lead headline below 640px (.feature-primary .feature-large header .entry-title: 1.5625em, line height 1.16 = 29, letter spacing -0.03em). Confirmed in ocregister.com CSS 2026-10-08 (Karl approved).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/31",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 31
+    },
+    "description": "Article headline below 640px (.header-title-area h1: 1.9375em, line height 1.1 = 34.1, letter spacing -0.03em). 640-1039px: 32 / 36.8; 1040px+: 36 / 41.4. Confirmed in ocregister.com CSS 2026-10-08 (Karl approved).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/size/15-2",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 15.199999809265137
+    },
+    "description": "Article breadcrumb type-of-work label and its \" • \" bullet (.breadcrumb-type-wrapper a, 0.95em, line height 15.2). Confirmed on ocregister.com 2026-10-08 (Karl approved). Production renders it in Helvetica; design is Noto Sans.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   }
+  ],
+  "Typeography Tokens": [
+   {
+    "name": "Editorial/Titles/Display/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/heading-family}"
+    },
+    "description": "Confirmed live 2026-08-27: headline family for the Measured Vibrant/Bold Coastal theme cluster. Modern Earthy/Morning Call use Noto Sans instead — this composite is not yet theme-aware (single mode); promoting it into a themed collection is a follow-up. Updated 2026-09-09: now aliased to font/theme/heading-family instead of a hard-coded \"Noto Serif\" literal, so this composite correctly follows the Modern Earthy / Morning Call reversal (heading=Noto Sans there).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Display/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 36
+    },
+    "description": "Corrected 2026-08-27 to the confirmed live article H1 size (36px). Previously aliased to Font Size 9 (29px), which is actually the lead-card size (see Titles/Title).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Display/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/bold}"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Title/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/heading-family}"
+    },
+    "description": "Confirmed live 2026-08-27: headline family for the Measured Vibrant/Bold Coastal theme cluster. Modern Earthy/Morning Call use Noto Sans instead — this composite is not yet theme-aware (single mode); promoting it into a themed collection is a follow-up. Updated 2026-09-09: now aliased to font/theme/heading-family instead of a hard-coded \"Noto Serif\" literal, so this composite correctly follows the Modern Earthy / Morning Call reversal (heading=Noto Sans there).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Title/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/29}"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Title/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/bold}"
+    },
+    "description": "",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Subtitle/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/heading-family}"
+    },
+    "description": "Confirmed live 2026-08-27: headline family for the Measured Vibrant/Bold Coastal theme cluster. Modern Earthy/Morning Call use Noto Sans instead — this composite is not yet theme-aware (single mode); promoting it into a themed collection is a follow-up. Updated 2026-09-09: now aliased to font/theme/heading-family instead of a hard-coded \"Noto Serif\" literal, so this composite correctly follows the Modern Earthy / Morning Call reversal (heading=Noto Sans there).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Subtitle/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 23
+    },
+    "description": "Corrected 2026-08-27 to the confirmed live article deck/subhead size (23px). Previously aliased to Font Size 9 (29px), which is actually the lead-card size (see Titles/Title) — Subtitle was indistinguishable from Title/Display before this fix.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Subtitle/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 500
+    },
+    "description": "Corrected 2026-08-27 to the confirmed live deck/subhead weight (Medium, 500). Previously aliased to Bold (700) — Medium did not exist as a token before this audit.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Display/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 41.400001525878906
+    },
+    "description": "Confirmed live 2026-08-27 on article H1 (36px).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Display/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": -1.0800000429153442
+    },
+    "description": "Confirmed live 2026-08-27 on article H1 (36px).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Title/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 32.79999923706055
+    },
+    "description": "Lead-story headline at the top of the homepage (feature-large in feature-primary): 32.8px. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Title/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": -0.8700000047683716
+    },
+    "description": "Lead-story headline at the top of the homepage (feature-large in feature-primary): -0.87px. Changed 2026-09-24 from an averaged -1.0; the media-block variant (-1.16) is Editorial/Titles/TitleMedia. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Subtitle/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 29.899999618530273
+    },
+    "description": "Confirmed live 2026-08-27 on article deck/subhead (23px) — this style did not exist as a token before this audit.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Subtitle/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": -0.5289999842643738
+    },
+    "description": "Confirmed live 2026-08-27 on article deck/subhead (23px) — this style did not exist as a token before this audit.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Shared/Buttons/Utility/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/12}"
+    },
+    "description": "Utility/chip label size. Ported from MNG Design System font/size/060 (12px, measured live) 2026-09-10.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Shared/Buttons/Small/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/13}"
+    },
+    "description": "Small button label size. Ported from MNG Design System font/size/075 (13px, measured live) 2026-09-10.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Shared/Buttons/Medium/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/14}"
+    },
+    "description": "Medium/primary button label size. Ported from MNG Design System font/size/100 (~14.0625px measured live) 2026-09-10.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Shared/Buttons/Large/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/19}"
+    },
+    "description": "Large/full-width CTA button label size. Ported from MNG Design System font/size/200 (~19.2px measured live) 2026-09-10.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/SectionHeader/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/heading-family}"
+    },
+    "description": "Section-front page H1 (e.g. a category landing page's \"Sports\" heading). Confirmed live 2026-09-10 on ocregister.com/sports/ and chicagotribune.com/sports/ (className \"section-header\"). Consolidates CRUX Style Library's sectionH1 and mastheadSectionH1 tokens, which were identical duplicates (both 40/700). Aliased to font/theme/heading-family since production renders it in the theme's heading font.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/SectionHeader/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 40
+    },
+    "description": "Section-front page H1 (e.g. a category landing page's \"Sports\" heading). Confirmed live 2026-09-10 on ocregister.com/sports/ and chicagotribune.com/sports/ (className \"section-header\"). Consolidates CRUX Style Library's sectionH1 and mastheadSectionH1 tokens, which were identical duplicates (both 40/700). Aliased to font/theme/heading-family since production renders it in the theme's heading font.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/SectionHeader/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/bold}"
+    },
+    "description": "Section-front page H1 (e.g. a category landing page's \"Sports\" heading). Confirmed live 2026-09-10 on ocregister.com/sports/ and chicagotribune.com/sports/ (className \"section-header\"). Consolidates CRUX Style Library's sectionH1 and mastheadSectionH1 tokens, which were identical duplicates (both 40/700). Aliased to font/theme/heading-family since production renders it in the theme's heading font.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Navigation/PrimaryLabel/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/family/noto-sans}"
+    },
+    "description": "Primary site nav-bar label family — always Noto Sans, not theme-varying. Confirmed live 2026-09-10 on all 6 repertoire sites.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Navigation/PrimaryLabel/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/15}"
+    },
+    "description": "15px — confirmed live 2026-09-10 on all 6 repertoire sites.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Navigation/PrimaryLabel/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/semibold}"
+    },
+    "description": "600 (Semibold) — confirmed live 2026-09-10 on all 6 repertoire sites.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/ModuleHeader/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/heading-family}"
+    },
+    "description": "Homepage module-header family (e.g. the \"Around the Web\" widget) — follows the theme heading-family split (Noto Serif on Bold Coastal/Measured Vibrant, Noto Sans on Modern Earthy). Confirmed live 2026-09-10 on all 6 repertoire sites.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/ModuleHeader/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/20}"
+    },
+    "description": "20px — confirmed live 2026-09-10 on all 6 repertoire sites, on the visible module-header element. Note: each site also carries a 30px/600 h2 with this same font/family styling, but it is a screen-reader-only (visually hidden) accessibility label, not a rendered design element — deliberately not tokenized here. See font-token-audit.md for detail.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/ModuleHeader/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/semibold}"
+    },
+    "description": "600 (Semibold) — confirmed live 2026-09-10 on all 6 repertoire sites.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Footer/Copyright/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/family/noto-sans}"
+    },
+    "description": "Footer copyright/legal line family — always Noto Sans, not theme-varying. Confirmed live 2026-09-10 on all 6 repertoire sites.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Footer/Copyright/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/12}"
+    },
+    "description": "Measured live 2026-09-10 at 12.48px on all 6 repertoire sites — aliased to the existing font/size/12 primitive (same rounding treatment as font/size/14 @ ~14.06px measured and font/size/19 @ ~19.2px measured).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Footer/Copyright/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/regular}"
+    },
+    "description": "400 (Regular) — confirmed live 2026-09-10 on all 6 repertoire sites.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardSecondary/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/heading-family}"
+    },
+    "description": "Second-tier homepage card headline (Section Highlight, feature-medium). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardSecondary/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/26}"
+    },
+    "description": "Second-tier homepage card headline (Section Highlight, feature-medium). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardSecondary/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/bold}"
+    },
+    "description": "Second-tier homepage card headline (Section Highlight, feature-medium). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardSecondary/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 30.299999237060547
+    },
+    "description": "Second-tier homepage card headline (Section Highlight, feature-medium). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardSecondary/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": -0.9100000262260437
+    },
+    "description": "Second-tier homepage card headline (Section Highlight, feature-medium). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiary/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/heading-family}"
+    },
+    "description": "Third-tier card headline (top-of-page block, feature-small). Not the module header (20/600). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiary/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/20}"
+    },
+    "description": "Third-tier card headline (top-of-page block, feature-small). Not the module header (20/600). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiary/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/bold}"
+    },
+    "description": "Third-tier card headline (top-of-page block, feature-small). Not the module header (20/600). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiary/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 23.600000381469727
+    },
+    "description": "Third-tier card headline (top-of-page block, feature-small). Not the module header (20/600). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiary/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": -0.4000000059604645
+    },
+    "description": "Third-tier card headline (top-of-page block, feature-small). Not the module header (20/600). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardQuaternary/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/small-headline-family}"
+    },
+    "description": "Fourth-tier card headline (Section Highlight, feature-medium + feature-large). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardQuaternary/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/19}"
+    },
+    "description": "Fourth-tier card headline (Section Highlight, feature-medium + feature-large). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardQuaternary/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/semibold}"
+    },
+    "description": "Fourth-tier card headline (Section Highlight, feature-medium + feature-large). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardQuaternary/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 24
+    },
+    "description": "Fourth-tier card headline (Section Highlight, feature-medium + feature-large). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardQuaternary/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": -0.6650000214576721
+    },
+    "description": "Fourth-tier card headline (Section Highlight, feature-medium + feature-large). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/HeadlineList/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/small-headline-family}"
+    },
+    "description": "Headline-only list items in Section Highlight; the most common headline on every homepage. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/HeadlineList/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/15}"
+    },
+    "description": "Headline-only list items in Section Highlight; the most common headline on every homepage. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/HeadlineList/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/semibold}"
+    },
+    "description": "Headline-only list items in Section Highlight; the most common headline on every homepage. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/HeadlineList/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 19
+    },
+    "description": "Headline-only list items in Section Highlight; the most common headline on every homepage. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/HeadlineList/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": -0.15000000596046448
+    },
+    "description": "Headline-only list items in Section Highlight; the most common headline on every homepage. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/RelatedHeadline/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/heading-family}"
+    },
+    "description": "\"More News\" headlines on article pages. Letter spacing is normal (0). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/RelatedHeadline/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/18}"
+    },
+    "description": "\"More News\" headlines on article pages. Letter spacing is normal (0). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/RelatedHeadline/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/semibold}"
+    },
+    "description": "\"More News\" headlines on article pages. Letter spacing is normal (0). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/RelatedHeadline/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 21
+    },
+    "description": "\"More News\" headlines on article pages. Letter spacing is normal (0). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/RelatedHeadline/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 0
+    },
+    "description": "\"More News\" headlines on article pages. Letter spacing is normal (0). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/TitleMedia/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/heading-family}"
+    },
+    "description": "Lead-story headline in the homepage media block (feature-large in feature-media). Sibling of Editorial/Titles/Title. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/TitleMedia/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/29}"
+    },
+    "description": "Lead-story headline in the homepage media block (feature-large in feature-media). Sibling of Editorial/Titles/Title. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/TitleMedia/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/bold}"
+    },
+    "description": "Lead-story headline in the homepage media block (feature-large in feature-media). Sibling of Editorial/Titles/Title. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/TitleMedia/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 33
+    },
+    "description": "Lead-story headline in the homepage media block (feature-large in feature-media). Sibling of Editorial/Titles/Title. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/TitleMedia/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": -1.159999966621399
+    },
+    "description": "Lead-story headline in the homepage media block (feature-large in feature-media). Sibling of Editorial/Titles/Title. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/Default/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/body-family}"
+    },
+    "description": "Article body copy. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/Default/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/16-5}"
+    },
+    "description": "Article body copy. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/Default/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/regular}"
+    },
+    "description": "Article body copy. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/Default/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 27
+    },
+    "description": "Article body copy. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/Default/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": -0.16500000655651093
+    },
+    "description": "Article body copy. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/Excerpt/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/body-family}"
+    },
+    "description": "Card excerpt (dek), default. Production .archive-view .excerpt: 15px / 1.4 = 21px. Used by the Photos lead (feature-media) and regular section cards (feature-medium). Confirmed live 2026-10-02, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord and mcall; does not change with screen width.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/Excerpt/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/15}"
+    },
+    "description": "Card excerpt (dek), default. Production .archive-view .excerpt: 15px / 1.4 = 21px. Used by the Photos lead (feature-media) and regular section cards (feature-medium). Confirmed live 2026-10-02, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord and mcall; does not change with screen width.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/Excerpt/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/regular}"
+    },
+    "description": "Card excerpt (dek), default. Production .archive-view .excerpt: 15px / 1.4 = 21px. Used by the Photos lead (feature-media) and regular section cards (feature-medium). Confirmed live 2026-10-02, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord and mcall; does not change with screen width.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/Excerpt/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 21
+    },
+    "description": "Card excerpt (dek), default. Production .archive-view .excerpt: 15px / 1.4 = 21px. Used by the Photos lead (feature-media) and regular section cards (feature-medium). Confirmed live 2026-10-02, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord and mcall; does not change with screen width.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/Excerpt/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 0
+    },
+    "description": "Card excerpt (dek), default. Production .archive-view .excerpt: 15px / 1.4 = 21px. Used by the Photos lead (feature-media) and regular section cards (feature-medium). Confirmed live 2026-10-02, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord and mcall; does not change with screen width.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/ExcerptCompact/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/body-family}"
+    },
+    "description": "Card excerpt (dek), compact. Production 15px / 1.26667 = 19px on .feature-primary .feature-large (Top Zone lead), .feature-section .feature-large (section-block lead) and the 3/4-up .section-highlight lead cards. Family is body-family, except the section-highlight lead cards, which take font/theme/small-headline-family in production. Confirmed live 2026-10-02 on the same 6 sites; does not change with screen width.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/ExcerptCompact/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/15}"
+    },
+    "description": "Card excerpt (dek), compact. Production 15px / 1.26667 = 19px on .feature-primary .feature-large (Top Zone lead), .feature-section .feature-large (section-block lead) and the 3/4-up .section-highlight lead cards. Family is body-family, except the section-highlight lead cards, which take font/theme/small-headline-family in production. Confirmed live 2026-10-02 on the same 6 sites; does not change with screen width.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/ExcerptCompact/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/regular}"
+    },
+    "description": "Card excerpt (dek), compact. Production 15px / 1.26667 = 19px on .feature-primary .feature-large (Top Zone lead), .feature-section .feature-large (section-block lead) and the 3/4-up .section-highlight lead cards. Family is body-family, except the section-highlight lead cards, which take font/theme/small-headline-family in production. Confirmed live 2026-10-02 on the same 6 sites; does not change with screen width.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/ExcerptCompact/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 19
+    },
+    "description": "Card excerpt (dek), compact. Production 15px / 1.26667 = 19px on .feature-primary .feature-large (Top Zone lead), .feature-section .feature-large (section-block lead) and the 3/4-up .section-highlight lead cards. Family is body-family, except the section-highlight lead cards, which take font/theme/small-headline-family in production. Confirmed live 2026-10-02 on the same 6 sites; does not change with screen width.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/ExcerptCompact/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 0
+    },
+    "description": "Card excerpt (dek), compact. Production 15px / 1.26667 = 19px on .feature-primary .feature-large (Top Zone lead), .feature-section .feature-large (section-block lead) and the 3/4-up .section-highlight lead cards. Family is body-family, except the section-highlight lead cards, which take font/theme/small-headline-family in production. Confirmed live 2026-10-02 on the same 6 sites; does not change with screen width.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Display/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/bold}"
+    },
+    "description": "Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Title/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/bold}"
+    },
+    "description": "Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/Subtitle/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/medium}"
+    },
+    "description": "Corrected 2026-08-27 to the confirmed live deck/subhead weight (Medium, 500). Previously aliased to Bold (700) — Medium did not exist as a token before this audit. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/SectionHeader/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/bold}"
+    },
+    "description": "Section-front page H1 (e.g. a category landing page's \"Sports\" heading). Confirmed live 2026-09-10 on ocregister.com/sports/ and chicagotribune.com/sports/ (className \"section-header\"). Consolidates CRUX Style Library's sectionH1 and mastheadSectionH1 tokens, which were identical duplicates (both 40/700). Aliased to font/theme/heading-family since production renders it in the theme's heading font. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Navigation/PrimaryLabel/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/semibold}"
+    },
+    "description": "600 (Semibold) — confirmed live 2026-09-10 on all 6 repertoire sites. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/ModuleHeader/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/semibold}"
+    },
+    "description": "600 (Semibold) — confirmed live 2026-09-10 on all 6 repertoire sites. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Footer/Copyright/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/regular}"
+    },
+    "description": "400 (Regular) — confirmed live 2026-09-10 on all 6 repertoire sites. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardSecondary/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/bold}"
+    },
+    "description": "Second-tier homepage card headline (Section Highlight, feature-medium). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiary/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/bold}"
+    },
+    "description": "Third-tier card headline (top-of-page block, feature-small). Not the module header (20/600). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardQuaternary/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/semibold}"
+    },
+    "description": "Fourth-tier card headline (Section Highlight, feature-medium + feature-large). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/HeadlineList/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/semibold}"
+    },
+    "description": "Headline-only list items in Section Highlight; the most common headline on every homepage. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/RelatedHeadline/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/semibold}"
+    },
+    "description": "\"More News\" headlines on article pages. Letter spacing is normal (0). Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/TitleMedia/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/bold}"
+    },
+    "description": "Lead-story headline in the homepage media block (feature-large in feature-media). Sibling of Editorial/Titles/Title. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/Default/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/regular}"
+    },
+    "description": "Article body copy. Confirmed live 2026-09-24, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall and greeleytribune. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/Excerpt/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/regular}"
+    },
+    "description": "Card excerpt (dek), default. Production .archive-view .excerpt: 15px / 1.4 = 21px. Used by the Photos lead (feature-media) and regular section cards (feature-medium). Confirmed live 2026-10-02, identical on ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord and mcall; does not change with screen width. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Body/ExcerptCompact/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/regular}"
+    },
+    "description": "Card excerpt (dek), compact. Production 15px / 1.26667 = 19px on .feature-primary .feature-large (Top Zone lead), .feature-section .feature-large (section-block lead) and the 3/4-up .section-highlight lead cards. Family is body-family, except the section-highlight lead cards, which take font/theme/small-headline-family in production. Confirmed live 2026-10-02 on the same 6 sites; does not change with screen width. Font style for Figma (pairs with Weight; see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiaryCompact/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/heading-family}"
+    },
+    "description": "TOP ZONE small card headline at 800–1039px (production .feature-primary article.feature-small, vertical card with a 16:9 image on top). Noto heading family 700, 16px / 18.88px (×1.18), no letter spacing. Confirmed live 2026-10-07 at 1024px, identical on ocregister, denverpost, chicagotribune, orlandosentinel, mcall and canoncitydailyrecord. At 1280 production uses CardTertiary (vertical 340px card, 16:9 image).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiaryCompact/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/16}"
+    },
+    "description": "TOP ZONE small card headline at 800–1039px (production .feature-primary article.feature-small, vertical card with a 16:9 image on top). Noto heading family 700, 16px / 18.88px (×1.18), no letter spacing. Confirmed live 2026-10-07 at 1024px, identical on ocregister, denverpost, chicagotribune, orlandosentinel, mcall and canoncitydailyrecord. At 1280 production uses CardTertiary (vertical 340px card, 16:9 image).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiaryCompact/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/bold}"
+    },
+    "description": "TOP ZONE small card headline at 800–1039px (production .feature-primary article.feature-small, vertical card with a 16:9 image on top). Noto heading family 700, 16px / 18.88px (×1.18), no letter spacing. Confirmed live 2026-10-07 at 1024px, identical on ocregister, denverpost, chicagotribune, orlandosentinel, mcall and canoncitydailyrecord. At 1280 production uses CardTertiary (vertical 340px card, 16:9 image).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiaryCompact/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/bold}"
+    },
+    "description": "TOP ZONE small card headline at 800–1039px (production .feature-primary article.feature-small, vertical card with a 16:9 image on top). Noto heading family 700, 16px / 18.88px (×1.18), no letter spacing. Confirmed live 2026-10-07 at 1024px, identical on ocregister, denverpost, chicagotribune, orlandosentinel, mcall and canoncitydailyrecord. At 1280 production uses CardTertiary (vertical 340px card, 16:9 image).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiaryCompact/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 18.8799991607666
+    },
+    "description": "TOP ZONE small card headline at 800–1039px (production .feature-primary article.feature-small, vertical card with a 16:9 image on top). Noto heading family 700, 16px / 18.88px (×1.18), no letter spacing. Confirmed live 2026-10-07 at 1024px, identical on ocregister, denverpost, chicagotribune, orlandosentinel, mcall and canoncitydailyrecord. At 1280 production uses CardTertiary (vertical 340px card, 16:9 image).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiaryCompact/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 0
+    },
+    "description": "TOP ZONE small card headline at 800–1039px (production .feature-primary article.feature-small, vertical card with a 16:9 image on top). Noto heading family 700, 16px / 18.88px (×1.18), no letter spacing. Confirmed live 2026-10-07 at 1024px, identical on ocregister, denverpost, chicagotribune, orlandosentinel, mcall and canoncitydailyrecord. At 1280 production uses CardTertiary (vertical 340px card, 16:9 image).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiaryRow/Family",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/theme/heading-family}"
+    },
+    "description": "TOP ZONE small card headline at the 1100px template (≥1040px, below the 1280 layout) (production .feature-primary article.feature-small, horizontal card with a 280×157 image on the left). Noto heading family 700, 18px / 21.6px (×1.2), no letter spacing. Confirmed live 2026-10-07 at 1100px, identical on the same 6 sites. At 1280 production uses CardTertiary (vertical 340px card, 16:9 image).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiaryRow/Size",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/size/18}"
+    },
+    "description": "TOP ZONE small card headline at the 1100px template (≥1040px, below the 1280 layout) (production .feature-primary article.feature-small, horizontal card with a 280×157 image on the left). Noto heading family 700, 18px / 21.6px (×1.2), no letter spacing. Confirmed live 2026-10-07 at 1100px, identical on the same 6 sites. At 1280 production uses CardTertiary (vertical 340px card, 16:9 image).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiaryRow/Weight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": "{font/weight/bold}"
+    },
+    "description": "TOP ZONE small card headline at the 1100px template (≥1040px, below the 1280 layout) (production .feature-primary article.feature-small, horizontal card with a 280×157 image on the left). Noto heading family 700, 18px / 21.6px (×1.2), no letter spacing. Confirmed live 2026-10-07 at 1100px, identical on the same 6 sites. At 1280 production uses CardTertiary (vertical 340px card, 16:9 image).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiaryRow/Style",
+    "type": "STRING",
+    "values": {
+     "Mode 1": "{font/style/bold}"
+    },
+    "description": "TOP ZONE small card headline at the 1100px template (≥1040px, below the 1280 layout) (production .feature-primary article.feature-small, horizontal card with a 280×157 image on the left). Noto heading family 700, 18px / 21.6px (×1.2), no letter spacing. Confirmed live 2026-10-07 at 1100px, identical on the same 6 sites. At 1280 production uses CardTertiary (vertical 340px card, 16:9 image).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiaryRow/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 21.600000381469727
+    },
+    "description": "TOP ZONE small card headline at the 1100px template (≥1040px, below the 1280 layout) (production .feature-primary article.feature-small, horizontal card with a 280×157 image on the left). Noto heading family 700, 18px / 21.6px (×1.2), no letter spacing. Confirmed live 2026-10-07 at 1100px, identical on the same 6 sites. At 1280 production uses CardTertiary (vertical 340px card, 16:9 image).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/CardTertiaryRow/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 0
+    },
+    "description": "TOP ZONE small card headline at the 1100px template (≥1040px, below the 1280 layout) (production .feature-primary article.feature-small, horizontal card with a 280×157 image on the left). Noto heading family 700, 18px / 21.6px (×1.2), no letter spacing. Confirmed live 2026-10-07 at 1100px, identical on the same 6 sites. At 1280 production uses CardTertiary (vertical 340px card, 16:9 image).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/SectionHeader/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 40
+    },
+    "description": "Section-front page H1 (h1.section-header, e.g. /sports/): 40px / line height 40px (1.0). Measured live 2026-10-14 at desktop width on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall); identical on all 6.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Titles/SectionHeader/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 0
+    },
+    "description": "Section-front page H1 (h1.section-header): letter spacing normal (0). Measured live 2026-10-14 at desktop width on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall); identical on all 6.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Navigation/PrimaryLabel/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 26
+    },
+    "description": "Primary nav-bar label (.nav-primary-bottom .nav-primary a): 15px / 600, line height 26px. Measured live 2026-10-14 at desktop width on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall); identical on all 6.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Navigation/PrimaryLabel/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 0
+    },
+    "description": "Primary nav-bar label: letter spacing normal (0). Measured live 2026-10-14 at desktop width on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall); identical on all 6.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Footer/Copyright/LineHeight",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 18
+    },
+    "description": "Footer copyright line (.footer-copyright-notice p): production is 12.48px / 18.72px (line height 1.5). Design size is 12px (font/size/12), so the line height keeps the 1.5 ratio: 18px. Measured live 2026-10-14 at desktop width on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall); identical on all 6.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "Editorial/Footer/Copyright/LetterSpacing",
+    "type": "FLOAT",
+    "values": {
+     "Mode 1": 0
+    },
+    "description": "Footer copyright line: letter spacing normal (0). Measured live 2026-10-14 at desktop width on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall); identical on all 6.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   }
+  ],
+  "Typography Theme": [
+   {
+    "name": "font/theme/heading-family",
+    "type": "STRING",
+    "values": {
+     "Bold Coastal": "Noto Serif",
+     "Modern Earthy": "Noto Sans",
+     "Measured Vibrant": "Noto Serif"
+    },
+    "description": "Which font family headlines use, per shared theme. Confirmed live 2026-08-27: Measured Vibrant & Bold Coastal use Noto Serif; Modern Earthy & Morning Call use Noto Sans (the reverse pairing). Denver Post (bespoke, not a shared theme) also confirmed Noto Serif, matching the Measured Vibrant/Bold Coastal cluster.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/theme/body-family",
+    "type": "STRING",
+    "values": {
+     "Bold Coastal": "Noto Sans",
+     "Modern Earthy": "Noto Serif",
+     "Measured Vibrant": "Noto Sans"
+    },
+    "description": "Which font family body copy uses, per shared theme — always the opposite of font/theme/heading-family within a theme. Confirmed live 2026-08-27.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/theme/eyebrow-size",
+    "type": "FLOAT",
+    "values": {
+     "Bold Coastal": 20,
+     "Modern Earthy": 21,
+     "Measured Vibrant": 17
+    },
+    "description": "Eyebrow/module-header label size, per brand theme. Added 2026-09-09 during cross-file font-token audit, replacing the old flat font/size/17 vs font/size/20 split. See per-mode notes.\nBold Coastal: 20px / 400 / Noto Sans -- Confirmed live 2026-09-09 on ocregister.com and denverpost.com (\"Latest Headlines\" eyebrow).\nModern Earthy: 17px / 700 / Noto Sans -- UNCONFIRMED — no site in the current 6-site repertoire runs the Modern Earthy theme, so this value could not be live-checked. Placeholder copied from Measured Vibrant; verify against a real Modern Earthy production site before relying on it.\nMeasured Vibrant: 17px / 700 / Noto Sans -- Confirmed live 2026-09-09 on chicagotribune.com and orlandosentinel.com (\"Latest Headlines\" eyebrow).\nMorning Call: 21px / 400 / Noto Serif -- Confirmed live 2026-09-09 on mcall.com (\"Latest Headlines\" eyebrow). canoncitydailyrecord.com measured identically (21/400/Noto Serif) but is not currently modeled under any theme mode in MNG Design System’s Brand collection — flagged separately.\nUpdated 2026-09-09 (Karl): Modern Earthy and Morning Call share identical typography (colors aside), so this now matches Morning Call's confirmed live value (21px / 400 / Noto Serif) instead of the earlier Measured Vibrant placeholder.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/theme/eyebrow-weight",
+    "type": "FLOAT",
+    "values": {
+     "Bold Coastal": 400,
+     "Modern Earthy": 400,
+     "Measured Vibrant": 700
+    },
+    "description": "Eyebrow/module-header label weight, per brand theme. Added 2026-09-09.\nBold Coastal: 20px / 400 / Noto Sans -- Confirmed live 2026-09-09 on ocregister.com and denverpost.com (\"Latest Headlines\" eyebrow).\nModern Earthy: 17px / 700 / Noto Sans -- UNCONFIRMED — no site in the current 6-site repertoire runs the Modern Earthy theme, so this value could not be live-checked. Placeholder copied from Measured Vibrant; verify against a real Modern Earthy production site before relying on it.\nMeasured Vibrant: 17px / 700 / Noto Sans -- Confirmed live 2026-09-09 on chicagotribune.com and orlandosentinel.com (\"Latest Headlines\" eyebrow).\nMorning Call: 21px / 400 / Noto Serif -- Confirmed live 2026-09-09 on mcall.com (\"Latest Headlines\" eyebrow). canoncitydailyrecord.com measured identically (21/400/Noto Serif) but is not currently modeled under any theme mode in MNG Design System’s Brand collection — flagged separately.\nUpdated 2026-09-09 (Karl): Modern Earthy and Morning Call share identical typography (colors aside), so this now matches Morning Call's confirmed live value (21px / 400 / Noto Serif) instead of the earlier Measured Vibrant placeholder.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/theme/eyebrow-family",
+    "type": "STRING",
+    "values": {
+     "Bold Coastal": "Noto Sans",
+     "Modern Earthy": "Noto Serif",
+     "Measured Vibrant": "Noto Sans"
+    },
+    "description": "Eyebrow/module-header label font family, per brand theme. Added 2026-09-09. Note this does NOT always follow font/theme/heading-family (e.g. Morning Call heading-family is Noto Sans, but its eyebrow is Noto Serif).\nBold Coastal: 20px / 400 / Noto Sans -- Confirmed live 2026-09-09 on ocregister.com and denverpost.com (\"Latest Headlines\" eyebrow).\nModern Earthy: 17px / 700 / Noto Sans -- UNCONFIRMED — no site in the current 6-site repertoire runs the Modern Earthy theme, so this value could not be live-checked. Placeholder copied from Measured Vibrant; verify against a real Modern Earthy production site before relying on it.\nMeasured Vibrant: 17px / 700 / Noto Sans -- Confirmed live 2026-09-09 on chicagotribune.com and orlandosentinel.com (\"Latest Headlines\" eyebrow).\nMorning Call: 21px / 400 / Noto Serif -- Confirmed live 2026-09-09 on mcall.com (\"Latest Headlines\" eyebrow). canoncitydailyrecord.com measured identically (21/400/Noto Serif) but is not currently modeled under any theme mode in MNG Design System’s Brand collection — flagged separately.\nUpdated 2026-09-09 (Karl): Modern Earthy and Morning Call share identical typography (colors aside), so this now matches Morning Call's confirmed live value (21px / 400 / Noto Serif) instead of the earlier Measured Vibrant placeholder.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/theme/small-headline-family",
+    "type": "STRING",
+    "values": {
+     "Bold Coastal": "Noto Sans",
+     "Modern Earthy": "Noto Sans",
+     "Measured Vibrant": "Noto Serif"
+    },
+    "description": "Font family for the smaller homepage headlines (fourth-tier cards at 19px, Section Highlight headline list at 15px), per theme. Confirmed live 2026-09-24 on all 7 sites checked: Bold Coastal uses Noto Sans here even though its heading-family is Noto Serif; Measured Vibrant Noto Serif; Modern Earthy Noto Sans.",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   },
+   {
+    "name": "font/theme/eyebrow-style",
+    "type": "STRING",
+    "values": {
+     "Bold Coastal": "{font/style/regular}",
+     "Modern Earthy": "{font/style/regular}",
+     "Measured Vibrant": "{font/style/bold}"
+    },
+    "description": "Per-theme eyebrow font style for Figma; pairs with font/theme/eyebrow-weight (see font/style/*).",
+    "scopes": [
+     "ALL_SCOPES"
+    ]
+   }
+  ],
+  "Spacing & Radius": [
+   {
+    "name": "spacing/050",
+    "type": "FLOAT",
+    "values": {
+     "Value": 4
+    },
+    "description": "4px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+    "scopes": [
+     "GAP"
+    ]
+   },
+   {
+    "name": "spacing/100",
+    "type": "FLOAT",
+    "values": {
+     "Value": 8
+    },
+    "description": "8px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+    "scopes": [
+     "GAP"
+    ]
+   },
+   {
+    "name": "spacing/150",
+    "type": "FLOAT",
+    "values": {
+     "Value": 12
+    },
+    "description": "12px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+    "scopes": [
+     "GAP"
+    ]
+   },
+   {
+    "name": "spacing/200",
+    "type": "FLOAT",
+    "values": {
+     "Value": 16
+    },
+    "description": "16px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+    "scopes": [
+     "GAP"
+    ]
+   },
+   {
+    "name": "spacing/250",
+    "type": "FLOAT",
+    "values": {
+     "Value": 20
+    },
+    "description": "20px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+    "scopes": [
+     "GAP"
+    ]
+   },
+   {
+    "name": "spacing/300",
+    "type": "FLOAT",
+    "values": {
+     "Value": 24
+    },
+    "description": "24px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+    "scopes": [
+     "GAP"
+    ]
+   },
+   {
+    "name": "radius/sm",
+    "type": "FLOAT",
+    "values": {
+     "Value": 4
+    },
+    "description": "4px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+    "scopes": [
+     "CORNER_RADIUS"
+    ]
+   },
+   {
+    "name": "radius/lg",
+    "type": "FLOAT",
+    "values": {
+     "Value": 8
+    },
+    "description": "8px. Measured from live production; see MNG-Web-Design-System-Status.md §4.",
+    "scopes": [
+     "CORNER_RADIUS"
+    ]
+   },
+   {
+    "name": "radius/utility",
+    "type": "FLOAT",
+    "values": {
+     "Value": 5
+    },
+    "description": "5px. Containers only: Reader Dashboard InLineMessage, modals, form fields, check boxes, status badge, masthead account dropdown. Not for buttons (buttons use radius/sm, 4px).",
+    "scopes": [
+     "CORNER_RADIUS"
+    ]
+   }
+  ]
+ }
+}

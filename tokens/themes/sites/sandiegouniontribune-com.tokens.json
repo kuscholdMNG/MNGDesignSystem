@@ -1,0 +1,55 @@
+{
+  "$description": "San Diego Union-Tribune (sandiegouniontribune.com) site overrides on top of Measured Vibrant. Applied inside #page. Generated; never edit by hand.",
+  "$extensions": {
+    "com.mng": {
+      "publication": "San Diego Union-Tribune",
+      "domain": "sandiegouniontribune.com",
+      "exceptions": []
+    }
+  },
+  "color": {
+    "$type": "color",
+    "theme": {
+      "subsite-custom": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9843,
+            0.9843,
+            0.9843
+          ],
+          "alpha": 1,
+          "hex": "#fbfbfb"
+        },
+        "$description": "Site override (sub-site color set for this site only).",
+        "$extensions": {
+          "com.mng": {
+            "rgba": "rgba(251, 251, 251, 1)",
+            "figma": null,
+            "siteOverride": true
+          }
+        }
+      },
+      "subsite-text": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0,
+            0
+          ],
+          "alpha": 1,
+          "hex": "#000000"
+        },
+        "$description": "Site override (sub-site color set for this site only).",
+        "$extensions": {
+          "com.mng": {
+            "rgba": "rgba(0, 0, 0, 1)",
+            "figma": null,
+            "siteOverride": true
+          }
+        }
+      }
+    }
+  }
+}

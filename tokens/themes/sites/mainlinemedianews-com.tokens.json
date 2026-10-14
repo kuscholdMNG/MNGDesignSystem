@@ -1,0 +1,35 @@
+{
+  "$description": "Main Line Media News (mainlinemedianews.com) site overrides on top of Modern Earthy. Applied inside #page. Generated; never edit by hand.",
+  "$extensions": {
+    "com.mng": {
+      "publication": "Main Line Media News",
+      "domain": "mainlinemedianews.com",
+      "exceptions": []
+    }
+  },
+  "color": {
+    "$type": "color",
+    "theme": {
+      "subsite-text": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0392,
+            0.0392,
+            0.0392
+          ],
+          "alpha": 1,
+          "hex": "#0a0a0a"
+        },
+        "$description": "Site override (sub-site color set for this site only).",
+        "$extensions": {
+          "com.mng": {
+            "rgba": "rgba(10, 10, 10, 1)",
+            "figma": null,
+            "siteOverride": true
+          }
+        }
+      }
+    }
+  }
+}

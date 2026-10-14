@@ -1,0 +1,55 @@
+{
+  "$description": "The Lansdale Reporter (thereporteronline.com) site overrides on top of Modern Earthy. Applied inside #page. Generated; never edit by hand.",
+  "$extensions": {
+    "com.mng": {
+      "publication": "The Lansdale Reporter",
+      "domain": "thereporteronline.com",
+      "exceptions": []
+    }
+  },
+  "color": {
+    "$type": "color",
+    "theme": {
+      "subsite-custom": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0863,
+            0.2627,
+            0.5882
+          ],
+          "alpha": 1,
+          "hex": "#164396"
+        },
+        "$description": "Site override (sub-site color set for this site only).",
+        "$extensions": {
+          "com.mng": {
+            "rgba": "rgba(22, 67, 150, 1)",
+            "figma": null,
+            "siteOverride": true
+          }
+        }
+      },
+      "subsite-text": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9765,
+            0.9765,
+            0.9765
+          ],
+          "alpha": 1,
+          "hex": "#f9f9f9"
+        },
+        "$description": "Site override (sub-site color set for this site only).",
+        "$extensions": {
+          "com.mng": {
+            "rgba": "rgba(249, 249, 249, 1)",
+            "figma": null,
+            "siteOverride": true
+          }
+        }
+      }
+    }
+  }
+}

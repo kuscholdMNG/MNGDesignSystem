@@ -1,0 +1,98 @@
+{
+  "$description": "WordPress theme typography for Bold Coastal: heading, body and small-headline families and the eyebrow. Generated from the Figma \"Typography Theme\" collection (mode Bold Coastal); never edit by hand.",
+  "font": {
+    "theme": {
+      "heading-family": {
+        "$type": "fontFamily",
+        "$value": "{font.family.noto-serif}",
+        "$description": "Which font family headlines use, per shared theme. Confirmed live 2026-08-27: Measured Vibrant & Bold Coastal use Noto Serif; Modern Earthy & Morning Call use Noto Sans (the reverse pairing). Denver Post (bespoke, not a shared theme) also confirmed Noto Serif, matching the Measured Vibrant/Bold Coastal cluster.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Typography Theme",
+              "variable": "font/theme/heading-family",
+              "mode": "Bold Coastal"
+            }
+          }
+        }
+      },
+      "body-family": {
+        "$type": "fontFamily",
+        "$value": "{font.family.noto-sans}",
+        "$description": "Which font family body copy uses, per shared theme — always the opposite of font/theme/heading-family within a theme. Confirmed live 2026-08-27.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Typography Theme",
+              "variable": "font/theme/body-family",
+              "mode": "Bold Coastal"
+            }
+          }
+        }
+      },
+      "eyebrow-size": {
+        "$type": "dimension",
+        "$value": "{font.size.20}",
+        "$description": "Eyebrow/module-header label size, per brand theme. Added 2026-09-09 during cross-file font-token audit, replacing the old flat font/size/17 vs font/size/20 split. See per-mode notes.\nBold Coastal: 20px / 400 / Noto Sans -- Confirmed live 2026-09-09 on ocregister.com and denverpost.com (\"Latest Headlines\" eyebrow).\nModern Earthy: 17px / 700 / Noto Sans -- UNCONFIRMED — no site in the current 6-site repertoire runs the Modern Earthy theme, so this value could not be live-checked. Placeholder copied from Measured Vibrant; verify against a real Modern Earthy production site before relying on it.\nMeasured Vibrant: 17px / 700 / Noto Sans -- Confirmed live 2026-09-09 on chicagotribune.com and orlandosentinel.com (\"Latest Headlines\" eyebrow).\nMorning Call: 21px / 400 / Noto Serif -- Confirmed live 2026-09-09 on mcall.com (\"Latest Headlines\" eyebrow). canoncitydailyrecord.com measured identically (21/400/Noto Serif) but is not currently modeled under any theme mode in MNG Design System’s Brand collection — flagged separately.\nUpdated 2026-09-09 (Karl): Modern Earthy and Morning Call share identical typography (colors aside), so this now matches Morning Call's confirmed live value (21px / 400 / Noto Serif) instead of the earlier Measured Vibrant placeholder.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Typography Theme",
+              "variable": "font/theme/eyebrow-size",
+              "mode": "Bold Coastal"
+            }
+          }
+        }
+      },
+      "eyebrow-weight": {
+        "$type": "fontWeight",
+        "$value": "{font.weight.regular}",
+        "$description": "Eyebrow/module-header label weight, per brand theme. Added 2026-09-09.\nBold Coastal: 20px / 400 / Noto Sans -- Confirmed live 2026-09-09 on ocregister.com and denverpost.com (\"Latest Headlines\" eyebrow).\nModern Earthy: 17px / 700 / Noto Sans -- UNCONFIRMED — no site in the current 6-site repertoire runs the Modern Earthy theme, so this value could not be live-checked. Placeholder copied from Measured Vibrant; verify against a real Modern Earthy production site before relying on it.\nMeasured Vibrant: 17px / 700 / Noto Sans -- Confirmed live 2026-09-09 on chicagotribune.com and orlandosentinel.com (\"Latest Headlines\" eyebrow).\nMorning Call: 21px / 400 / Noto Serif -- Confirmed live 2026-09-09 on mcall.com (\"Latest Headlines\" eyebrow). canoncitydailyrecord.com measured identically (21/400/Noto Serif) but is not currently modeled under any theme mode in MNG Design System’s Brand collection — flagged separately.\nUpdated 2026-09-09 (Karl): Modern Earthy and Morning Call share identical typography (colors aside), so this now matches Morning Call's confirmed live value (21px / 400 / Noto Serif) instead of the earlier Measured Vibrant placeholder.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Typography Theme",
+              "variable": "font/theme/eyebrow-weight",
+              "mode": "Bold Coastal"
+            },
+            "figmaStyle": "Regular"
+          }
+        }
+      },
+      "eyebrow-family": {
+        "$type": "fontFamily",
+        "$value": "{font.family.noto-sans}",
+        "$description": "Eyebrow/module-header label font family, per brand theme. Added 2026-09-09. Note this does NOT always follow font/theme/heading-family (e.g. Morning Call heading-family is Noto Sans, but its eyebrow is Noto Serif).\nBold Coastal: 20px / 400 / Noto Sans -- Confirmed live 2026-09-09 on ocregister.com and denverpost.com (\"Latest Headlines\" eyebrow).\nModern Earthy: 17px / 700 / Noto Sans -- UNCONFIRMED — no site in the current 6-site repertoire runs the Modern Earthy theme, so this value could not be live-checked. Placeholder copied from Measured Vibrant; verify against a real Modern Earthy production site before relying on it.\nMeasured Vibrant: 17px / 700 / Noto Sans -- Confirmed live 2026-09-09 on chicagotribune.com and orlandosentinel.com (\"Latest Headlines\" eyebrow).\nMorning Call: 21px / 400 / Noto Serif -- Confirmed live 2026-09-09 on mcall.com (\"Latest Headlines\" eyebrow). canoncitydailyrecord.com measured identically (21/400/Noto Serif) but is not currently modeled under any theme mode in MNG Design System’s Brand collection — flagged separately.\nUpdated 2026-09-09 (Karl): Modern Earthy and Morning Call share identical typography (colors aside), so this now matches Morning Call's confirmed live value (21px / 400 / Noto Serif) instead of the earlier Measured Vibrant placeholder.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Typography Theme",
+              "variable": "font/theme/eyebrow-family",
+              "mode": "Bold Coastal"
+            }
+          }
+        }
+      },
+      "small-headline-family": {
+        "$type": "fontFamily",
+        "$value": "{font.family.noto-sans}",
+        "$description": "Font family for the smaller homepage headlines (fourth-tier cards at 19px, Section Highlight headline list at 15px), per theme. Confirmed live 2026-09-24 on all 7 sites checked: Bold Coastal uses Noto Sans here even though its heading-family is Noto Serif; Measured Vibrant Noto Serif; Modern Earthy Noto Sans.",
+        "$extensions": {
+          "com.mng": {
+            "figma": {
+              "file": "MNG Web Design System",
+              "collection": "Typography Theme",
+              "variable": "font/theme/small-headline-family",
+              "mode": "Bold Coastal"
+            }
+          }
+        }
+      }
+    }
+  }
+}
