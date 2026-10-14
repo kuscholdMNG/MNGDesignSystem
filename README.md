@@ -70,7 +70,7 @@ MNGDesignSystem/
 ## Working in GitHub
 
 - **Repo:** https://github.com/kuscholdMNG/MNGDesignSystem (branch `main`).
-- **Local copy:** `~/digital-first-media-master-built COPY 20260508/MNGDesignSystem` on Karl's Mac. Work only there. The old Google Drive folder is retired; don't save anything to it.
+- **Local copy:** `~/Github/MNGDesignSystem` on Karl's Mac (moved 2026-10-14; `~/Github` also holds the `for_you_tab_mvp` repo). Work only there. The old Google Drive folder is retired; don't save anything to it.
 - **Commit every change** with a short message that says what changed and why (for example "Add card-teaser hover states"). Git history replaces the dates in file names, so rule 5 still applies: put the date inside the file.
 - **Value changes that need Karl's review** (token values, decisions in the decision logs) go on a branch, such as `review/primary-blue-fix`, with a pull request. Everything else can go straight to `main`.
 - **Push after committing.** Pushing uses a GitHub token saved in `.git/claude-credentials`, which is never committed. If a push fails with a sign-in error, the token has expired: Karl makes a new one and runs `git push` once in Terminal.

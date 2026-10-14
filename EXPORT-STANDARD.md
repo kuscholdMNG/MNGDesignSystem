@@ -1,6 +1,6 @@
 # MNG Design System — Export Standard
 
-> **Draft 2026-10-13, updated 2026-10-14** (PNG previews stay in GitHub, no Git LFS; where pixel values are kept) for Karl's review (branch `review/export-standard`). Once merged, every token and component export follows this file. The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
+> **Draft 2026-10-13, updated 2026-10-14** (PNG previews stay in GitHub, no Git LFS; where pixel values are kept; Reader Dashboard is part of core; two breakpoint sets; Vite/package note) for Karl's review (branch `review/export-standard`). Once merged, every token and component export follows this file. The README's filing rules and the status doc's standing rules point here; if this file and another doc disagree, this file wins for anything about export formats.
 
 ## 1. What this covers
 
@@ -160,18 +160,16 @@ Tokens and components are split into layers. **A layer may only reference layers
 
 | Layer | Folder | What's in it |
 |---|---|---|
-| Core | `tokens/core/` | Color primitives (gray, feedback, neutral, surface, tributes), type primitives (`font.family`, `font.size`, `font.weight`), spacing, radius, official breakpoints. Shared by every platform. |
+| Core (the main MNG Design System) | `tokens/core/` | Color primitives (gray, feedback, neutral, surface, tributes), type primitives (`font.family`, `font.size`, `font.weight`), spacing, radius, official breakpoints. Shared by every platform. **Reader Dashboard is part of core**: when it's ready, its tokens (Dashboard Typography, its breakpoints and so on) are added here under a `dashboard` group, not as a separate layer. |
 | Themes | `tokens/themes/` | One file per theme (Bold Coastal, Measured Vibrant, Modern Earthy), sub-theme (Denver Post, NEPA-PMP, 21C Michigan…) and the site overrides, plus `mng.resolver.json` that says how they stack: theme → sub-theme → site. |
 | WordPress | `tokens/wordpress/` | The WordPress Elements sub-system: editorial type styles (`Editorial/...`), theme type tokens (`font.theme.*`, eyebrow), layout and container widths, ad slot sizes, homepage block tokens, WordPress-specific breakpoints. |
-| Reader Dashboard | `tokens/reader-dashboard/` | Reserved: the folder name and its place in the order are decided now, but it stays empty until Reader Dashboard v2.0 joins the system. Its tokens will reference core and themes, like WordPress, so adding it later moves nothing else. |
 
 Components follow the same split:
 
 ```
 components/
-  core/<slug>/          ← buttons, form fields, modals, icons, InLineMessage
+  core/<slug>/          ← buttons, form fields, modals, icons, InLineMessage; Reader Dashboard components later
   wordpress/<slug>/     ← masthead, cards, homepage blocks, ad blocks, footer, breaking news
-  reader-dashboard/     ← reserved
 ```
 
 Non-token assets go in `assets/` (`assets/icons/`, `assets/logos/`). Generated files go in `dist/` (§8).
@@ -187,11 +185,18 @@ Two different things are both called breakpoints. They are kept apart:
 
 Breakpoints come in three tiers:
 
-1. **Official** (`breakpoint.*` in `tokens/core/`, plus platform sets in `tokens/wordpress/` and later `tokens/reader-dashboard/`). Design values; Reader Dashboard's are official today and will be added to and updated. Like colors, an official breakpoint never changes to match production.
-2. **Component breakpoints:** an intended one-off used by a single component (e.g. the obituary search stacking at 624px) goes in that component's `<slug>.tokens.json`, not in the system set.
-3. **Production drift:** any other production breakpoint is logged in `production-vs-design-differences.md` with the official breakpoint it should snap to.
+1. **Official.** Design values; like colors, an official breakpoint never changes to match production. There are two sets for now:
 
-The full list of production breakpoints and how each is classified lives in `tokens/wordpress/breakpoint-inventory.json` (to be built from a CSS scan of the 6 review sites).
+   | Set | Tokens | Values (min-width) | Used by | Future |
+   |---|---|---|---|---|
+   | **MNG Device breakpoints** (`tokens/core/`) | `breakpoint.mobile`, `breakpoint.tablet`, `breakpoint.tablet-landscape`, `breakpoint.desktop` | 360, 768, 1024, 1280. Below 360 is Fold (designed at 340). | Reader Dashboard today; every product eventually | The one system-wide set |
+   | **WordPress grid breakpoints** (`tokens/wordpress/`) | `breakpoint.wordpress-grid.xs`, `.s`, `.m`, `.l`, `.xl` | 320, 640, 800, 1040, 1280. The masthead switches to desktop at `l`. | WordPress themes, including Obituaries (from `_grid-variables.scss`) | Legacy; retired when WordPress moves to the Device set |
+
+   The Device set matches the Figma screen widths (Fold 340, Mobile 360, Tablet 768, Tablet horizontal 1024, Desktop 1280). Its token names deliberately differ from the WordPress grid names and from the Masthead's `Device` labels (`MD-TabletV (640–799px)` and so on), because those carry WordPress ranges. Each Device token records its Figma frame width in `$extensions.com.mng.figma.frameWidth`.
+2. **Component breakpoints:** an intended one-off used by a single component goes in that component's `<slug>.tokens.json`, not in the system set.
+3. **Production drift:** any other production breakpoint is logged in `production-vs-design-differences.md` with the official breakpoint it should snap to. Reader Dashboard must match the Device set (open questions: entry 30). Obituaries is part of the WordPress layer and must match the WordPress grid (drift: entry 31).
+
+The full list of production breakpoints and how each is classified lives in `tokens/breakpoint-inventory.json` (built from the website repo and a CSS scan of the 6 review sites).
 
 ## 7. Component exports
 
@@ -221,6 +226,7 @@ Built from the DTCG files by `scripts/build-tokens/`. **Never edited by hand.** 
 | `dist/wordpress/` | WordPress block themes | `theme.json` fragments: color palette, font sizes, font families, spacing sizes and custom values, one per theme. |
 | `dist/json/` | Anything else | Flat `name → value` JSON (hex, rgba, px). |
 
+- `dist/` is also a package: a `package.json` at the repo top level with `exports`, so Vite, webpack or any Node build can install it straight from GitHub (`npm install github:kuscholdMNG/MNGDesignSystem`) and import `@mng/design-tokens/css/core.css`, `.../js/tokens.js` or `.../tailwind/theme.css`. The Tailwind v4 file works with Tailwind's Vite plugin as is.
 - CSS variable names: `--mng-` + the token path with hyphens (`--mng-color-theme-primary`, `--mng-font-size-16-5`, `--mng-spacing-200`).
 - Colors are written as hex when alpha is 1, and as `rgba()` when it's below 1.
 - Sizes are written in `px`, with `rem` versions where the format supports them.
