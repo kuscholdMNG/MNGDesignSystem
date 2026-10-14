@@ -30,7 +30,7 @@
       },
       "variants": 8,
       "instances": 71,
-      "knownIssues": 2,
+      "knownIssues": 1,
       "exported": "2026-10-14"
     },
     {
@@ -46,7 +46,7 @@
       },
       "variants": 24,
       "instances": 111,
-      "knownIssues": 1,
+      "knownIssues": 0,
       "exported": "2026-10-14"
     },
     {
@@ -62,7 +62,7 @@
       },
       "variants": 24,
       "instances": 4,
-      "knownIssues": 1,
+      "knownIssues": 0,
       "exported": "2026-10-14"
     },
     {
@@ -78,7 +78,7 @@
       },
       "variants": 24,
       "instances": 18,
-      "knownIssues": 1,
+      "knownIssues": 0,
       "exported": "2026-10-14"
     },
     {

@@ -154,7 +154,7 @@ No production selector recorded yet. Production gaps go in `production-vs-design
 
 ## Known issues
 
-1. **19 of 24 variants have 0 instances** in the file (see the Variants table).
+None open.
 
 ## Files
 

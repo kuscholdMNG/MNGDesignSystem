@@ -512,8 +512,7 @@ def main():
         zero = [v['_label'] for v in variants if v['usage']['total'] == 0]
         if unbound:
             auto_issues.append('**Values not bound to a token** (literal in the component tokens): ' + '; '.join(unbound[:12]) + ('; and %d more' % (len(unbound) - 12) if len(unbound) > 12 else '') + '.')
-        if zero:
-            auto_issues.append('**%d of %d variants have 0 instances** in the file%s.' % (len(zero), len(variants), ': ' + ', '.join('`%s`' % z for z in zero) if len(zero) <= 6 else ' (see the Variants table)'))
+        # Variants with 0 instances are fine (Karl, 2026-10-14): the counts are in the Variants table, not Known issues.
         fonts = set()
         for v in variants:
             visible_walk(v, [], lambda n, p: fonts.update(st['font'] for st in n.get('styles', [])) if n['type'] == 'TEXT' else None)

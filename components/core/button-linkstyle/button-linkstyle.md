@@ -108,7 +108,6 @@ No production selector recorded yet. Production gaps go in `production-vs-design
 ## Known issues
 
 1. **Margin not specified** (open spec gap, per the Figma Specifications column).
-2. **4 of 8 variants have 0 instances** in the file: `Stacked / Default`, `Stacked / Hover`, `Stacked / Pressed`, `Stacked / InFocus`.
 
 ## Files
 
