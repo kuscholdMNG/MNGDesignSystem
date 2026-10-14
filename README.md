@@ -1,7 +1,7 @@
 # MNG Web Design System — Project Folder
 
 > Folder map and filing rules. **Every session working on this project reads this first and follows it.**
-> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGWebDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`. **Updated 2026-10-08:** added `tokens/icons/`, `logos/` and `scripts/logos-export/`. **Updated 2026-10-09:** added `figma-exports/mng-ads-export/` and `scripts/ads-export/`. **Updated 2026-10-13:** added `EXPORT-STANDARD.md`; `figma-exports/` is now legacy (frozen). **Updated 2026-10-14:** added `tokens/core/`, `tokens/themes/`, `tokens/wordpress/`, `dist/`, `package.json` and `scripts/build-tokens/` (open item 11, step 2; merged 2026-10-14, pull request #2); renamed from "MNG Design System" to **MNG Web Design System** (see "Names" below); local copy moved to `~/Github/`.
+> Set up 2026-09-30, when duplicate copies made by different sessions were removed. **Updated 2026-10-01:** the project moved from Google Drive to GitHub (`kuscholdMNG/MNGWebDesignSystem`). See "Working in GitHub" below. **Updated 2026-10-02:** added `scripts/`; the homepage template audit was deleted from `_archive/`. **Updated 2026-10-08:** added `tokens/icons/`, `logos/` and `scripts/logos-export/`. **Updated 2026-10-09:** added `figma-exports/mng-ads-export/` and `scripts/ads-export/`. **Updated 2026-10-13:** added `EXPORT-STANDARD.md`; `figma-exports/` is now legacy (frozen). **Updated 2026-10-14:** added `components/core/` and `scripts/component-export/` (shared component exporter; buttons exported, the legacy buttons export and `_archive/` deleted); added `tokens/core/`, `tokens/themes/`, `tokens/wordpress/`, `dist/`, `package.json` and `scripts/build-tokens/` (open item 11, step 2; merged 2026-10-14, pull request #2); renamed from "MNG Design System" to **MNG Web Design System** (see "Names" below); local copy moved to `~/Github/`.
 
 ## Names
 
@@ -26,7 +26,11 @@ MNGWebDesignSystem/
 ├── EXPORT-STANDARD.md                      ← format rules for every token and component export (DTCG)
 ├── production-vs-design-differences.md     ← production gaps for Engineering
 ├── Reader-Dashboard-Library-Impact-Map.md
-├── components/                             ← one .md per component, or a component audit
+├── components/                             ← component audits and checklists (.md), plus the exports:
+│   ├── core/<slug>/                        ← <slug>.md spec, <slug>.tokens.json, <slug>.html skeleton, previews/
+│   │                                         (buttons: 8 families, 2026-10-14)
+│   ├── wordpress/<slug>/                   ← same layout, for WordPress Elements components (to come)
+│   └── index.json                          ← every exported component (generated)
 ├── package.json                            ← makes dist/ installable (package mng_web_design_system)
 ├── tokens/
 │   ├── core/                               ← DTCG core tokens: color, typography, spacing, breakpoint
@@ -37,7 +41,7 @@ MNGWebDesignSystem/
 │   │                                         per theme), WordPress grid breakpoints
 │   ├── colors/                             ← 2026-10-01 color export: .tokens.json (input for make-tokens.py),
 │   │                                         .css, sites .csv, decision log, README (color fixes: entry 21).
-│   │                                         Replaced by core/ + themes/; moves to _archive/ in step 5
+│   │                                         Replaced by core/ + themes/; deleted in step 5
 │   ├── typography/                         ← typography tokens + decision log
 │   ├── breakpoint-inventory.json           ← production breakpoints in MNG code, classified (official /
 │   │                                         component / drift), from scripts/breakpoint-inventory/
@@ -48,24 +52,21 @@ MNGWebDesignSystem/
 ├── figma-exports/                          ← LEGACY, frozen 2026-10-13: older Figma → spec exports.
 │                                             Kept, not updated; new exports follow EXPORT-STANDARD.md
 │   ├── mng-design-system-export/           ← homepage, menus-and-parts, form-fields
-│   ├── mng-buttons-export/                 ← all 8 Buttons-page families (primary, secondary, tertiary,
-│   │                                         action, linkstyle, modal close, in-line close, hyperlink)
 │   └── mng-ads-export/                     ← WordPress Elements Ad Blocks set (ad slots, 37 variants;
 │                                             RevContent excluded)
 ├── dist/                                   ← GENERATED from tokens/ by scripts/build-tokens/build.py: CSS, Sass,
 │                                             JS/TS, Tailwind v4 + v3, WordPress theme.json, flat JSON. Never edit
-├── scripts/                                ← generators that rebuild exports, one folder per export
-│   ├── build-tokens/                       ← extract.js (Figma plugin code) → figma-variables.json →
-│   │                                         make-tokens.py (tokens/) → build.py (dist/, with checks)
-│   ├── ads-export/                         ← extract.js (Figma plugin code) + build-ads-export.py
-│   ├── breakpoint-inventory/               ← scan.js (live CSS scan in Chrome) + scans/ + build-inventory.py
-│   ├── buttons-export/                     ← extract.js (Figma plugin code) + build-buttons-export.py
-│   ├── design-system-export/               ← extract.js + build-design-system-export.py + curated.json
-│                                             (hand-checked notes) + save-previews.py
-│   └── logos-export/                       ← build-logos.py + sources.json (publication → .ai file) +
-│                                             extract-placeholders.js + figma-placeholders.json
-└── _archive/                               ← retired files, kept for history only (empty right now;
-                                              git shows the folder again when a file is moved in)
+└── scripts/                                ← generators that rebuild exports, one folder per export
+    ├── build-tokens/                       ← extract.js (Figma plugin code) → figma-variables.json →
+    │                                         make-tokens.py (tokens/) → build.py (dist/, with checks)
+    ├── ads-export/                         ← extract.js (Figma plugin code) + build-ads-export.py
+    ├── breakpoint-inventory/               ← scan.js (live CSS scan in Chrome) + scans/ + build-inventory.py
+    ├── component-export/                   ← shared component exporter: extract.js (Figma plugin code) +
+    │                                         registry.json (which components, hand-checked text) + export.py
+    ├── design-system-export/               ← extract.js + build-design-system-export.py + curated.json
+    │                                         (hand-checked notes) + save-previews.py
+    └── logos-export/                       ← build-logos.py + sources.json (publication → .ai file) +
+                                              extract-placeholders.js + figma-placeholders.json
 ```
 
 ## Where new files go
@@ -74,7 +75,8 @@ MNGWebDesignSystem/
 |---|---|
 | Project status update | Edit `MNG-Web-Design-System-Status.md` in place |
 | A new production-vs-design gap | Add an entry to `production-vs-design-differences.md` |
-| Component spec, audit or checklist | `components/<component-name>.md` |
+| Component export (spec, component tokens, skeleton, previews) | Add the component to `scripts/component-export/registry.json`, run `extract.js` in Figma, then `export.py`. Writes `components/<layer>/<slug>/`. |
+| Component audit or checklist | `components/<component-name>.md` |
 | Token values (color, type, spacing, radius, breakpoints) | Change Figma, rerun `scripts/build-tokens/extract.js`, then `npm run build` (or the two Python scripts). Writes `tokens/core/`, `tokens/themes/`, `tokens/wordpress/` and `dist/`. On a `review/...` branch with a pull request. |
 | Color decisions, sites CSV | `tokens/colors/` (decision log, CSV). Color fixes for Engineering go in `production-vs-design-differences.md` entry 21. |
 | Typography tokens or decisions | `tokens/typography/` |
@@ -82,7 +84,7 @@ MNGWebDesignSystem/
 | Newspaper logo SVGs, manifest, preview | `logos/` (rebuilt by `scripts/logos-export/build-logos.py`; don't hand-edit the SVGs) |
 | A token or component export | Follow `EXPORT-STANDARD.md` (DTCG `.tokens.json`, layers, `dist/`). Never add to `figma-exports/` (legacy). |
 | A script that rebuilds an export | `scripts/<export-name>/` (inputs and outputs explained at the top of the script) |
-| Anything no longer current | `_archive/` |
+| Anything no longer current | Delete it. Git history keeps every old version. |
 
 ## Rules
 
@@ -92,7 +94,7 @@ MNGWebDesignSystem/
 4. **No zips.** Save exports unzipped in `figma-exports/`. Zips duplicate the folder and go stale.
 5. **Date changes inside the file**, not in the file name (for example "**Updated 2026-09-30** for …" near the top).
 6. **File names:** lowercase-with-hyphens for new files (`card-teaser.md`). Keep existing names as they are so links in other docs still work.
-7. **Retiring a file:** move it to `_archive/`, then update any docs that mention its path.
+7. **Retiring a file:** delete it, then update any docs that mention its path. Git history keeps every old version, so there is no `_archive/` folder: old versions aren't kept while the file formats are still being settled (Karl, 2026-10-14).
 8. **Exports follow `EXPORT-STANDARD.md`.** Token JSON is DTCG 2025.10 only; no Figma-import-shaped JSON, layer trees or custom `schema` formats. Generated files in `dist/` are never edited by hand.
 9. **Paths in docs** are written from this folder's top level (for example `tokens/colors/mng-colors-sites.csv`).
 

@@ -1,0 +1,133 @@
+{
+  "$description": "Components exported by scripts/component-export/export.py (EXPORT-STANDARD.md section 7). Never edit by hand.",
+  "components": [
+    {
+      "slug": "action-button",
+      "name": "Action Button",
+      "group": "buttons",
+      "layer": "core",
+      "path": "components/core/action-button/",
+      "figma": {
+        "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+        "node": "7075:6357",
+        "set": "Button Action"
+      },
+      "variants": 4,
+      "instances": 4,
+      "knownIssues": 4,
+      "exported": "2026-10-14"
+    },
+    {
+      "slug": "button-linkstyle",
+      "name": "Button Linkstyle",
+      "group": "buttons",
+      "layer": "core",
+      "path": "components/core/button-linkstyle/",
+      "figma": {
+        "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+        "node": "5428:3953",
+        "set": "Button Linkstyle"
+      },
+      "variants": 8,
+      "instances": 71,
+      "knownIssues": 1,
+      "exported": "2026-10-14"
+    },
+    {
+      "slug": "button-primary",
+      "name": "Button Primary",
+      "group": "buttons",
+      "layer": "core",
+      "path": "components/core/button-primary/",
+      "figma": {
+        "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+        "node": "5328:15928",
+        "set": "Button Primary"
+      },
+      "variants": 24,
+      "instances": 111,
+      "knownIssues": 0,
+      "exported": "2026-10-14"
+    },
+    {
+      "slug": "button-secondary",
+      "name": "Button Secondary",
+      "group": "buttons",
+      "layer": "core",
+      "path": "components/core/button-secondary/",
+      "figma": {
+        "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+        "node": "5333:16013",
+        "set": "Button Secondary"
+      },
+      "variants": 24,
+      "instances": 4,
+      "knownIssues": 0,
+      "exported": "2026-10-14"
+    },
+    {
+      "slug": "button-tertiary",
+      "name": "Button Tertiary",
+      "group": "buttons",
+      "layer": "core",
+      "path": "components/core/button-tertiary/",
+      "figma": {
+        "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+        "node": "5333:16089",
+        "set": "Button Tertiary"
+      },
+      "variants": 24,
+      "instances": 18,
+      "knownIssues": 0,
+      "exported": "2026-10-14"
+    },
+    {
+      "slug": "in-line-close",
+      "name": "In-Line Close",
+      "group": "buttons",
+      "layer": "core",
+      "path": "components/core/in-line-close/",
+      "figma": {
+        "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+        "node": "5335:16200",
+        "set": "Button In-Line Close"
+      },
+      "variants": 4,
+      "instances": 100,
+      "knownIssues": 2,
+      "exported": "2026-10-14"
+    },
+    {
+      "slug": "non-button-hyperlink",
+      "name": "Non-Button Hyperlink",
+      "group": "buttons",
+      "layer": "core",
+      "path": "components/core/non-button-hyperlink/",
+      "figma": {
+        "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+        "node": "6282:5568",
+        "set": "Hyperlink"
+      },
+      "variants": 4,
+      "instances": 8,
+      "knownIssues": 1,
+      "exported": "2026-10-14"
+    },
+    {
+      "slug": "pop-up-modal-close",
+      "name": "Pop-Up Modal Close",
+      "group": "buttons",
+      "layer": "core",
+      "path": "components/core/pop-up-modal-close/",
+      "figma": {
+        "fileKey": "jFHYqhZbJjvWQmDI4myCsd",
+        "node": "5335:16196",
+        "set": "Button Modal Close"
+      },
+      "variants": 4,
+      "instances": 26,
+      "knownIssues": 2,
+      "exported": "2026-10-14"
+    }
+  ]
+}

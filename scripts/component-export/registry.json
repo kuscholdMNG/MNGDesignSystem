@@ -1,0 +1,206 @@
+{
+  "$description": "Component registry for scripts/component-export (EXPORT-STANDARD.md section 7). One entry per exported component: where it lives in Figma and the hand-checked text the exporter can't read from Figma (purpose, rules, breakpoints, known issues). Edit this file when Karl changes a decision, then re-run the exporter.",
+  "files": {
+    "jFHYqhZbJjvWQmDI4myCsd": "MNG Web Design System",
+    "b1iZxkFwtAYq9rElmnCAzd": "WordPress Elements"
+  },
+  "valueOrder": {
+    "State": [
+      "Default",
+      "Hover",
+      "Pressed",
+      "InFocus"
+    ],
+    "Breakpoint": [
+      "Desktop",
+      "Mobile"
+    ],
+    "Icon": [
+      "None",
+      "Left",
+      "Right"
+    ],
+    "Style": [
+      "1 Row",
+      "Stacked"
+    ]
+  },
+  "propertyOrder": [
+    "Breakpoint",
+    "Icon",
+    "Style",
+    "State"
+  ],
+  "components": [
+    {
+      "slug": "button-primary",
+      "name": "Button Primary",
+      "group": "buttons",
+      "layer": "core",
+      "order": 1,
+      "file": "jFHYqhZbJjvWQmDI4myCsd",
+      "node": "5328:15928",
+      "documentationFrame": "7012:33138",
+      "description": "Primary CTA button: the one preferred action on a page. Brand-primary fill, white Noto Sans Bold 16px Title Case label, optional 16px icon left or right.",
+      "rules": [
+        "**Desktop** (`Breakpoint=Desktop`): the `Button` frame hugs its label and icons (HUG horizontally) inside the variant root, which keeps an 8px left/right margin. Buttons in a row or a stack keep a 16px gap.",
+        "**Mobile** (`Breakpoint=Mobile`): the `Button` frame fills the container width (FILL) inside the same 8px margin. Stacked buttons use an 8px gap.",
+        "**Height:** 40px in every state (8px top/bottom padding with a 40px min-height). It grows only when the label wraps to a second line.",
+        "The breakpoint split is Desktop vs Mobile only; there are no per-template variants (340/768/1024/1100/1280). Use Mobile below 640px and Desktop from 640px up unless a layout says otherwise.",
+        "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (a 40px button reads as 46px with the ring). In CSS: `outline: 2px solid var(--mng-color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change."
+      ],
+      "breakpoints": "| Breakpoint value | Viewport (MNG templates) | Behavior |\n|---|---|---|\n| Desktop | ≥640px (768, 1024, 1100, 1280 templates) | The `Button` hugs its label and icons |\n| Mobile | ≤639px (340 XS-Fold, 360 SM-Mobile templates) | The `Button` fills the container width, inside the 8px side margin |\n\n*The viewport mapping is the export convention, not a Figma property; Figma only says Desktop / Mobile.*",
+      "knownIssues": [],
+      "production": null
+    },
+    {
+      "slug": "button-secondary",
+      "name": "Button Secondary",
+      "group": "buttons",
+      "layer": "core",
+      "order": 2,
+      "file": "jFHYqhZbJjvWQmDI4myCsd",
+      "node": "5333:16013",
+      "documentationFrame": "7015:36207",
+      "description": "Secondary button: white fill, 1px brand-primary border and brand-primary label. Use when actions are equal, or next to a single Primary.",
+      "rules": [
+        "**Desktop** (`Breakpoint=Desktop`): the `Button` frame hugs its label and icons (HUG horizontally) inside the variant root, which keeps an 8px left/right margin. Buttons in a row or a stack keep a 16px gap.",
+        "**Mobile** (`Breakpoint=Mobile`): the `Button` frame fills the container width (FILL) inside the same 8px margin. Stacked buttons use an 8px gap.",
+        "**Height:** 40px in every state (8px top/bottom padding with a 40px min-height). It grows only when the label wraps to a second line.",
+        "The breakpoint split is Desktop vs Mobile only; there are no per-template variants (340/768/1024/1100/1280). Use Mobile below 640px and Desktop from 640px up unless a layout says otherwise.",
+        "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (a 40px button reads as 46px with the ring). In CSS: `outline: 2px solid var(--mng-color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change."
+      ],
+      "breakpoints": "| Breakpoint value | Viewport (MNG templates) | Behavior |\n|---|---|---|\n| Desktop | ≥640px (768, 1024, 1100, 1280 templates) | The `Button` hugs its label and icons |\n| Mobile | ≤639px (340 XS-Fold, 360 SM-Mobile templates) | The `Button` fills the container width, inside the 8px side margin |\n\n*The viewport mapping is the export convention, not a Figma property; Figma only says Desktop / Mobile.*",
+      "knownIssues": [],
+      "production": null
+    },
+    {
+      "slug": "button-tertiary",
+      "name": "Button Tertiary",
+      "group": "buttons",
+      "layer": "core",
+      "order": 3,
+      "file": "jFHYqhZbJjvWQmDI4myCsd",
+      "node": "5333:16089",
+      "documentationFrame": "7018:36565",
+      "description": "Tertiary button: light-gray fill (color/gray/600), 1px gray border (color/gray/400), near-black label. Lowest-emphasis boxed button.",
+      "rules": [
+        "**Desktop** (`Breakpoint=Desktop`): the `Button` frame hugs its label and icons (HUG horizontally) inside the variant root, which keeps an 8px left/right margin. Buttons in a row or a stack keep a 16px gap.",
+        "**Mobile** (`Breakpoint=Mobile`): the `Button` frame fills the container width (FILL) inside the same 8px margin. Stacked buttons use an 8px gap.",
+        "**Height:** 40px in every state (8px top/bottom padding with a 40px min-height). It grows only when the label wraps to a second line.",
+        "The breakpoint split is Desktop vs Mobile only; there are no per-template variants (340/768/1024/1100/1280). Use Mobile below 640px and Desktop from 640px up unless a layout says otherwise.",
+        "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (a 40px button reads as 46px with the ring). In CSS: `outline: 2px solid var(--mng-color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change."
+      ],
+      "breakpoints": "| Breakpoint value | Viewport (MNG templates) | Behavior |\n|---|---|---|\n| Desktop | ≥640px (768, 1024, 1100, 1280 templates) | The `Button` hugs its label and icons |\n| Mobile | ≤639px (340 XS-Fold, 360 SM-Mobile templates) | The `Button` fills the container width, inside the 8px side margin |\n\n*The viewport mapping is the export convention, not a Figma property; Figma only says Desktop / Mobile.*",
+      "knownIssues": [],
+      "production": null
+    },
+    {
+      "slug": "action-button",
+      "name": "Action Button",
+      "group": "buttons",
+      "layer": "core",
+      "order": 4,
+      "file": "jFHYqhZbJjvWQmDI4myCsd",
+      "node": "7075:6357",
+      "documentationFrame": "7075:6715",
+      "description": "Small icon + label utility action (documented example: \"Copy Link\"). No box at rest; a 1px black border appears on Hover/Pressed. Figma set name: `Button Action`.",
+      "rules": [
+        "Single size at every breakpoint (95×32, HUG). No Breakpoint property. It stays compact (32px), not 40px (Karl, 2026-10-02).",
+        "Width hugs icon + label; swapping the label changes the width.",
+        "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (a 40px button reads as 46px with the ring). In CSS: `outline: 2px solid var(--mng-color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change."
+      ],
+      "breakpoints": null,
+      "knownIssues": [
+        "**Name swap (2026-10-02).** This documented set is `Button Action` (`7075:6357`). The older library set on the same page (`5417:3876`, formerly `Button Action`, kept for Reader Dashboard files) is now `Action Button`. The documentation frame keeps the page title \"Action Button\".",
+        "**Single-purpose reference.** This set only documents \"Copy Link\". The older `Action Button` library set bundles Resend Invitation, Link Copied, Share (Android/Apple/Unknown), Preview Most Recent, Save/Saved, Gift Article, Remove, Cancel and Delete as hidden layers, none exposed as variants. To render another action, swap the icon instance and the label text.",
+        "**Hidden trailing icon.** Every variant carries a hidden `Icon Right` (content_copy) after the label. It is never shown; ignore it when rendering.",
+        "**Margin not specified** (open spec gap, per the Figma Specifications column)."
+      ],
+      "production": null
+    },
+    {
+      "slug": "button-linkstyle",
+      "name": "Button Linkstyle",
+      "group": "buttons",
+      "layer": "core",
+      "order": 5,
+      "file": "jFHYqhZbJjvWQmDI4myCsd",
+      "node": "5428:3953",
+      "documentationFrame": "7075:7436",
+      "description": "Text-link styled button (used for disclosures and inline CTAs such as \"Forgot password?\"). Underlined brand-primary text at rest; a 1px brand-primary box appears on Hover/Pressed.",
+      "rules": [
+        "Single size at every breakpoint. No Breakpoint property. It stays compact (38px with one line), not 40px (Karl, 2026-10-02).",
+        "`Style=1 Row` keeps the label on one line (157×38 with sample text). `Style=Stacked` fixes the text width at 75px so the label wraps to two lines (91×60), for narrow right-aligned slots.",
+        "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (a 40px button reads as 46px with the ring). In CSS: `outline: 2px solid var(--mng-color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change."
+      ],
+      "breakpoints": null,
+      "knownIssues": [
+        "**Margin not specified** (open spec gap, per the Figma Specifications column)."
+      ],
+      "production": null
+    },
+    {
+      "slug": "pop-up-modal-close",
+      "name": "Pop-Up Modal Close",
+      "group": "buttons",
+      "layer": "core",
+      "order": 6,
+      "file": "jFHYqhZbJjvWQmDI4myCsd",
+      "node": "5335:16196",
+      "documentationFrame": "7078:7807",
+      "description": "Circular 32px close (X) button for pop-up modals (ModalsCenter, Modals/*). Light-gray circle at rest, white on Hover/Pressed; InFocus keeps the Default look and adds the ring.",
+      "rules": [
+        "Single size at every breakpoint (32×32 in every state). No Breakpoint property.",
+        "Sits in the modal header, top-right; see ModalsCenter in the main file.",
+        "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (the 32px circle reads as 38px with the ring). In CSS: `outline: 2px solid var(--mng-color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change."
+      ],
+      "breakpoints": null,
+      "knownIssues": [
+        "**Margin not specified** (open spec gap, per the Figma Specifications column)."
+      ],
+      "production": null
+    },
+    {
+      "slug": "in-line-close",
+      "name": "In-Line Close",
+      "group": "buttons",
+      "layer": "core",
+      "order": 7,
+      "file": "jFHYqhZbJjvWQmDI4myCsd",
+      "node": "5335:16200",
+      "documentationFrame": "7078:7975",
+      "description": "Close (X) button for in-line panels and alerts (InLineMessage, ModalsOffset). Bare 12px icon in a 40px hit area at rest; the 28px `Box` gets a white fill and 1px near-black border on Hover/Pressed.",
+      "rules": [
+        "Single size at every breakpoint (40×40 hit area). No Breakpoint property.",
+        "Every state has the same layers (`Button` › `Box` › `Icon`); the `Box` has no fill or border in Default and InFocus.",
+        "Usually placed top-right of an InLineMessage panel, with the hit area aligned to the panel padding.",
+        "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (the ring surrounds the 40px hit area with 4px corners, matching the Hover/Pressed box). In CSS: `outline: 2px solid var(--mng-color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change."
+      ],
+      "breakpoints": null,
+      "knownIssues": [
+        "**Margin not specified** (open spec gap, per the Figma Specifications column)."
+      ],
+      "production": null
+    },
+    {
+      "slug": "non-button-hyperlink",
+      "name": "Non-Button Hyperlink",
+      "group": "buttons",
+      "layer": "core",
+      "order": 8,
+      "file": "jFHYqhZbJjvWQmDI4myCsd",
+      "node": "6282:5568",
+      "documentationFrame": "7078:8121",
+      "description": "Plain in-text hyperlink (not a button). Brand-primary text with a 1px bottom border: dashed at rest, solid on Hover/Pressed, 2px teal box on InFocus. Figma set name: `Hyperlink`.",
+      "rules": [
+        "Hugs its text at every breakpoint. No Breakpoint property.",
+        "Implement the underline as `border-bottom`, not `text-decoration` (that is how Figma builds it).",
+        "**Intentional, matches production (Karl, 2026-10-02):** 16.5px text, a teal (color/theme/primary) 2px focus box with 4px corners instead of the black ring, and the dashed underline kept inside the InFocus box (`Underline` › `Label`). Because the focus box is part of the layout, InFocus is 2px taller (25 vs 23px). Do not \"fix\" these."
+      ],
+      "breakpoints": null,
+      "knownIssues": [],
+      "production": null
+    }
+  ]
+}
