@@ -1,6 +1,6 @@
 # Production vs. Design Differences — Engineering Handoff
 
-> **Updated 2026-10-14:** entries 30 (Reader Dashboard breakpoints: questions for DigiScrum) and 31 (Obituaries breakpoints vs the WordPress grid, CMS team) added; entry number 30 was free (the earlier icon-font entry 30 was folded into 20).
+> **Updated 2026-10-14:** entry 32 (font fallbacks: Helvetica Neue, not Helvetica) added. Earlier the same day: entries 30 (Reader Dashboard breakpoints: questions for DigiScrum) and 31 (Obituaries breakpoints vs the WordPress grid, CMS team) added; entry number 30 was free (the earlier icon-font entry 30 was folded into 20).
 >
 > **Consolidated 2026-09-24.** Combines the Sept 22 version of this file (entries 1–17, unchanged except for the notes marked "2026-09-24") with a short duplicate created on Sept 24. That copy added one new item, now entry 18. Entry 19 and the method note at the end came from the HANDOFF and NOTE files in this folder. Entry 20 (icon font) was added 2026-09-25 from `components/icons.md`. Entry 21 (per-theme color fixes) was added 2026-09-25, when the Greeley Tribune color theme was folded into Prairie Mountain Publishing. Entries 18 and 21 were updated 2026-09-30 (Greeley exception, Hartford Courant verified) and 2026-10-01 (NEPA folded into the NEPA-PMP sub-theme; disputed sites verified live), and entry 21 now holds the full per-theme color fix list that used to be `tokens/colors/mng-colors-engineering-fixes.md` (retired). Notes for reading older entries:
 > - `color-tokens.md` is now `tokens/colors/color-tokens-decision-log.md`. Current typography tokens are in `tokens/typography/typography-tokens.md`.
@@ -1205,6 +1205,23 @@ One-line items are unaffected (the 44px height holds), but every extra line adds
 **Fix (future, CMS team):** move each non-matching rule to the grid breakpoint in the right-hand column. The gallery widget and the 1000px ad rule may be shared with other pages; confirm before changing them. The Masthead's Obituaries search widget (624) is part of this fix.
 
 **Status:** Open (future).
+
+## 32. Font fallbacks — Helvetica instead of the design stacks (all sites)
+
+**Found:** 2026-10-14, computed `font-family` on all 6 review sites (ocregister, denverpost, chicagotribune, orlandosentinel, canoncitydailyrecord, mcall): nav labels, section headers, card headlines, excerpts, footer and obituaries. **Team:** CMS (WordPress themes).
+
+**Design** (main file, Fonts page, Font Styles and Fallbacks `2768:1051`; tokens `font.family.noto-sans` / `font.family.noto-serif`, CSS `--mng-font-family-noto-sans` / `-serif`):
+
+| Stack | Design (should be) | Production |
+|---|---|---|
+| Sans (`$body`) | `"Noto Sans", "Helvetica Neue", Arial, sans-serif` | `"Noto Sans", Helvetica, sans-serif` |
+| Serif (`$heading`) | `"Noto Serif", Georgia, "Times New Roman", serif` | `"Noto Serif", Helvetica, serif` |
+
+The same two stacks apply on every theme; each theme only chooses which one its headings and body use. Obituaries follow the site's theme.
+
+**Fix:** in the theme font-family definitions, replace `Helvetica` with **Helvetica Neue** (then Arial) in the sans stack (Karl, 2026-10-14), and use Georgia, then Times New Roman, in the serif stack instead of Helvetica. The fallbacks only show when Noto doesn't load, so nothing changes visually when the web fonts work.
+
+**Status:** Open.
 
 ## How to use this doc
 
