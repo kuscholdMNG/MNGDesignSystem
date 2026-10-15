@@ -128,11 +128,14 @@
       "file": "jFHYqhZbJjvWQmDI4myCsd",
       "node": "5428:3953",
       "documentationFrame": "7075:7436",
-      "description": "Text-link styled button (used for disclosures and inline CTAs such as \"Forgot password?\"). Underlined brand-primary text at rest; a 1px brand-primary box appears on Hover/Pressed.",
+      "description": "Text-link styled button (used for disclosures and inline CTAs such as \"Forgot password?\"). Underlined brand-primary text at rest; a 1px brand-primary box appears on Hover/Pressed. Optional 16px icon left or right of the label (`Icon` property, added 2026-10-15).",
       "rules": [
         "Single size at every breakpoint. No Breakpoint property. It stays compact (38px with one line), not 40px (Karl, 2026-10-02).",
-        "`Style=1 Row` keeps the label on one line (157×38 with sample text). `Style=Stacked` fixes the text width at 75px so the label wraps to two lines (91×60), for narrow right-aligned slots.",
-        "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (a 40px button reads as 46px with the ring). In CSS: `outline: 2px solid var(--mng-color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change."
+        "**Width (Karl, 2026-10-15):** the button always hugs its label. It only gets narrower when other elements in the same parent container constrain it; then the label wraps onto more lines. In Figma the `Label` is Fill + auto height inside a Hug button. `Style=1 Row` has no max width; `Style=Stacked` shows the wrapped case with a max width of 91px (115px with an icon), so the label wraps at 75px. In CSS: `display: inline-flex; max-width: 100%;` on the button and `min-width: 0` on the label, never a fixed width.",
+        "**Icon (Karl, 2026-10-15):** `Icon` = None (default) / Left / Right. Every variant has the same layers, `Icon Left` / `Label` / `Icon Right`, with the unused icons hidden, so overrides carry across variant swaps. Icon container 16×16px (sample: `new-tab` from MNG Icons), always `color/gray/min` in every state (it does not follow the label color), 8px from the label (`spacing/100`), and centered vertically on the label however many lines it wraps to (`align-items: center`; icon `flex: none`). The Hover/Pressed box and the InFocus ring surround the label and icon together.",
+        "**Text alignment when the label wraps:** `Icon=Left` is left-justified; `Icon=None` and `Icon=Right` are right-justified.",
+        "**Focus ring:** InFocus adds one `Focus Ring` frame, absolutely positioned 1px outside the element, with a 2px OUTSIDE stroke bound to `color/gray/black`. It draws outside the component and never changes its size or moves anything inside or around it (a 40px button reads as 46px with the ring). In CSS: `outline: 2px solid var(--mng-color-gray-black); outline-offset: 1px;` or an absolutely positioned pseudo-element; never a border or padding change.",
+        "**New-tab links:** the icon is decorative (`aria-hidden=\"true\"`). A link that opens in a new tab also needs visually hidden text such as \"(opens in a new tab)\"."
       ],
       "breakpoints": null,
       "knownIssues": [

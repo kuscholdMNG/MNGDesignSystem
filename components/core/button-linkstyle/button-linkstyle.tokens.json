@@ -11,7 +11,7 @@
       },
       "production": null,
       "layer": "core",
-      "exported": "2026-10-14"
+      "exported": "2026-10-15"
     }
   },
   "button-linkstyle": {
@@ -47,6 +47,64 @@
           "$type": "dimension",
           "$value": {
             "value": 2,
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "icon-left": {
+      "icon-left": {
+        "height": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          }
+        },
+        "icon-color": {
+          "$type": "color",
+          "$value": "{color.gray.min}",
+          "$extensions": {
+            "com.mng": {
+              "figma": {
+                "variable": "Colors/color/gray/min"
+              }
+            }
+          }
+        },
+        "width": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "icon-right": {
+      "icon-right": {
+        "height": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          }
+        },
+        "icon-color": {
+          "$type": "color",
+          "$value": "{color.gray.min}",
+          "$extensions": {
+            "com.mng": {
+              "figma": {
+                "variable": "Colors/color/gray/min"
+              }
+            }
+          }
+        },
+        "width": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
             "unit": "px"
           }
         }
@@ -131,6 +189,17 @@
           "$value": {
             "value": 1,
             "unit": "px"
+          }
+        },
+        "gap": {
+          "$type": "dimension",
+          "$value": "{spacing.100}",
+          "$extensions": {
+            "com.mng": {
+              "figma": {
+                "variable": "Spacing & Radius/spacing/100"
+              }
+            }
           }
         },
         "padding-bottom": {

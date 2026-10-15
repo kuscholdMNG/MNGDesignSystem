@@ -28,10 +28,10 @@
         "node": "5428:3953",
         "set": "Button Linkstyle"
       },
-      "variants": 8,
-      "instances": 71,
+      "variants": 24,
+      "instances": 74,
       "knownIssues": 1,
-      "exported": "2026-10-14"
+      "exported": "2026-10-15"
     },
     {
       "slug": "button-primary",

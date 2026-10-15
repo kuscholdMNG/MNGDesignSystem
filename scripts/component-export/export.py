@@ -273,6 +273,9 @@ def node_css(n, parent):
     elif not parent:
         # variant root: hug its content, or keep its Figma width when fixed / fill
         css.append('width:max-content' if s.get('h') == 'HUG' else 'width:%spx' % fmt(n['w']))
+        if s.get('h') == 'HUG':
+            # hugs its content but never overflows its container; a Figma max width becomes the CSS max width
+            css.append('max-width:%s' % (('min(%spx, 100%%)' % fmt(n['maxW'])) if n.get('maxW') else '100%'))
         if s.get('v') == 'FIXED':
             css.append('height:%spx' % fmt(n['h']))
     else:
@@ -285,7 +288,7 @@ def node_css(n, parent):
                 if pl and main:
                     css.append('flex-shrink:0')
             elif mode == 'FILL' and pl:
-                css.append('flex:1 1 0' if main else 'align-self:stretch')
+                css.append('flex:1 1 0;min-width:0' if main else 'align-self:stretch')
     if n.get('minH'):
         css.append('min-height:' + css_dim(n['minH'], v.get('minHeight')))
     r = n.get('radius')
